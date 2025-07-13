@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "PCF-800",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 Å (ultramicropores), 2-20 nm (mesopores)",
+            "Structure Type": "1D channels with interconnected micro-mesoporous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "polyacrylonitrile"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake: 2.25 mmol⋅g−1"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake: 0.08 mmol⋅g−1"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H6 uptake: 0.05 mmol⋅g−1"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H8 uptake: 0.10 mmol⋅g−1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/CH4 selectivity: 45, CO2 diffusion rate: 1.35 × 10^-3 s^-1"
+        },
+        "Other Information": {
+            "Additional Info": "Gradient pore structure combining ultramicropores and mesopores facilitates fast kinetics and high selectivity."
+        }
+    }
+]

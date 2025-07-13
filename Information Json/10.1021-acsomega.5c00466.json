@@ -1,0 +1,84 @@
+[
+    {
+        "Materials Name": "ZIF-62 Glass MOF Membrane (GMM)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "1 - 10 Å (micropores), 10 - 20 Å (larger pores)",
+            "Structure Type": "Amorphous, continuous phase with smooth surfaces"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole",
+            "imidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "2.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "4 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation: 576.37 barrer"
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "4 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation: 509.23 barrer"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "4 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation: 146.07 barrer"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "4 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation: 3.45 barrer"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "4 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation: 2.28 barrer"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation measurement",
+            "Performance Metrics": "H2/CH4 selectivity: 223.47, CO2/N2 selectivity: 42.37, CO2/CH4 selectivity: 64.10, H2/N2 selectivity: 147.71, H2/CO2 selectivity: 3.49"
+        },
+        "Other Information": {
+            "Additional Info": "Optimal GMM fabricated at 445 °C exhibits exceptional gas separation performance, surpassing Robeson's upper bound for H2/CH4 separation."
+        }
+    }
+]

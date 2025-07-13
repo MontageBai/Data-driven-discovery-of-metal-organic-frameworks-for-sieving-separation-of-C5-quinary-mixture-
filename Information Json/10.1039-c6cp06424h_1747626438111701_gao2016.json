@@ -1,0 +1,113 @@
+[
+    {
+        "Materials Name": "BN-192P",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "7.26 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "First-principles calculations",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Potential applications in molecular sieving and hydrogen storage due to cavity structures."
+        }
+    },
+    {
+        "Materials Name": "BN-6.82P",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.05 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "First-principles calculations",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Potential applications in molecular sieving and energy storage (Li diffusion coefficient 30 times higher than graphene)."
+        }
+    },
+    {
+        "Materials Name": "BN-6.82D",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.46 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "First-principles calculations",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Potential applications in molecular sieving due to porous structure."
+        }
+    }
+]

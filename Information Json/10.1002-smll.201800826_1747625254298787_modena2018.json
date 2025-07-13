@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "MIL-101(Cr)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.9 nm and 3.4 nm (cages), 1.2 nm and 1.4 nm (windows)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective sorption based on functionalization",
+                "Other Information": {
+                    "Test Conditions": "Mixed solvent of ethanol/HFE-7100 and ethanol/Glycine-HCl",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pyrazine-functionalized MIL-101(Cr) shows higher effective density in polar mixtures."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective sorption based on functionalization",
+                "Other Information": {
+                    "Test Conditions": "Ethanol/water mixture",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pyridine-functionalized MIL-101(Cr) shows a lower effective density due to increased ethanol content."
+                }
+            },
+            {
+                "Molecule Name": "methoxyperfluorobutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective sorption based on functionalization",
+                "Other Information": {
+                    "Test Conditions": "HFE-7100/ethanol mixture",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Density measurements show preferential uptake of solvent components."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective enhancement of solvent components in pores",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Nanomechanical mass correlation spectroscopy using suspended microchannel resonator",
+            "Performance Metrics": "Effective density varies depending on solvent composition and functionalization."
+        },
+        "Other Information": {
+            "Additional Info": "Functionalization with pyrazine or pyridine alters the affinity for specific solvent components."
+        }
+    }
+]

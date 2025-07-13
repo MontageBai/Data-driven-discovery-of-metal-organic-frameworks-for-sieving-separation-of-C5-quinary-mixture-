@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "Cu-TCPP MOF nanosheets",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "1.2 nm (in-plane pores), 0.98 nm (interlayer spacing)",
+            "Structure Type": "2D lamellar structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "tetrakis(4-carboxyphenyl)porphyrin (TCPP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sulfate ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "4 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate for SO4^2- in actual seawater: 95.3%"
+                }
+            },
+            {
+                "Molecule Name": "chloride ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and reduced electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "4 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate for Cl-: 18.3% in NaCl solution"
+                }
+            },
+            {
+                "Molecule Name": "magnesium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion and partial electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "4 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate for Mg2+: 53.7% in actual seawater"
+                }
+            },
+            {
+                "Molecule Name": "calcium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion and partial electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "4 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate for Ca2+: 40.3% in actual seawater"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with electrostatic effects",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Cross-flow filtration tests",
+            "Performance Metrics": "Na2SO4 rejection: 98.4%, water permeance: 37.4 L·m^-2·h^-1·bar^-1"
+        },
+        "Other Information": {
+            "Additional Info": "The CIP strategy enhances the selectivity of the membrane by filling defects with polyamide networks while maintaining high water permeance."
+        }
+    }
+]

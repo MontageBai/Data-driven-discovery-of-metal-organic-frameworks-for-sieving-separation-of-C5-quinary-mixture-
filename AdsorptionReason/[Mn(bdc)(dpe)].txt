@@ -1,0 +1,97 @@
+MOF Name: [Mn(bdc)(dpe)]
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Mn(bdc)(dpe)]:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Conditional, but geometrically able to pass)
+
+Based on the provided experimental data, the MOF [Mn(bdc)(dpe)] has demonstrated adsorption of molecules with intermediate dimensions up to 3.200 Å. No data is provided for larger molecules being explicitly rejected due to size exclusion, which would establish an upper bound for the pore size. However, the "Size exclusion" Adsorption Type for the adsorbed molecules implies that the pore size controls the access. Given the absence of experimental evidence for adsorption of molecules with intermediate dimensions larger than 3.200 Å, the effective pore size of [Mn(bdc)(dpe)] is pragmatically inferred to be approximately 3.200 Å, as it is the largest known adsorbed molecule.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the inferred effective pore size of [Mn(bdc)(dpe)] (approximately 3.200 Å), it cannot be adsorbed by this MOF via a size exclusion mechanism.
+
+---
+
+MOF Name: [Mn(bdc)(dpe)]
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Mn(bdc)(dpe)]:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Conditional, but geometrically able to pass)
+
+Based on the provided experimental data, the MOF [Mn(bdc)(dpe)] has demonstrated adsorption of molecules with intermediate dimensions up to 3.200 Å. No data is provided for larger molecules being explicitly rejected due to size exclusion, which would establish an upper bound for the pore size. However, the "Size exclusion" Adsorption Type for the adsorbed molecules implies that the pore size controls the access. Given the absence of experimental evidence for adsorption of molecules with intermediate dimensions larger than 3.200 Å, the effective pore size of [Mn(bdc)(dpe)] is pragmatically inferred to be approximately 3.200 Å, as it is the largest known adsorbed molecule.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the inferred effective pore size of [Mn(bdc)(dpe)] (approximately 3.200 Å), it cannot be adsorbed by this MOF via a size exclusion mechanism.
+
+---
+
+MOF Name: [Mn(bdc)(dpe)]
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Mn(bdc)(dpe)]:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Conditional, but geometrically able to pass)
+
+Based on the provided experimental data, the MOF [Mn(bdc)(dpe)] has demonstrated adsorption of molecules with intermediate dimensions up to 3.200 Å. No data is provided for larger molecules being explicitly rejected due to size exclusion, which would establish an upper bound for the pore size. However, the "Size exclusion" Adsorption Type for the adsorbed molecules implies that the pore size controls the access. Given the absence of experimental evidence for adsorption of molecules with intermediate dimensions larger than 3.200 Å, the effective pore size of [Mn(bdc)(dpe)] is pragmatically inferred to be approximately 3.200 Å, as it is the largest known adsorbed molecule.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the inferred effective pore size of [Mn(bdc)(dpe)] (approximately 3.200 Å), it cannot be adsorbed by this MOF via a size exclusion mechanism.
+
+---
+
+MOF Name: [Mn(bdc)(dpe)]
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Mn(bdc)(dpe)]:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Conditional, but geometrically able to pass)
+
+Based on the provided experimental data, the MOF [Mn(bdc)(dpe)] has demonstrated adsorption of molecules with intermediate dimensions up to 3.200 Å. No data is provided for larger molecules being explicitly rejected due to size exclusion, which would establish an upper bound for the pore size. However, the "Size exclusion" Adsorption Type for the adsorbed molecules implies that the pore size controls the access. Given the absence of experimental evidence for adsorption of molecules with intermediate dimensions larger than 3.200 Å, the effective pore size of [Mn(bdc)(dpe)] is pragmatically inferred to be approximately 3.200 Å, as it is the largest known adsorbed molecule.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the inferred effective pore size of [Mn(bdc)(dpe)] (approximately 3.200 Å), it cannot be adsorbed by this MOF via a size exclusion mechanism.
+
+---
+
+MOF Name: [Mn(bdc)(dpe)]
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Mn(bdc)(dpe)]:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Conditional, but geometrically able to pass)
+
+Based on the provided experimental data, the MOF [Mn(bdc)(dpe)] has demonstrated adsorption of molecules with intermediate dimensions up to 3.200 Å. No data is provided for larger molecules being explicitly rejected due to size exclusion, which would establish an upper bound for the pore size. However, the "Size exclusion" Adsorption Type for the adsorbed molecules implies that the pore size controls the access. Given the absence of experimental evidence for adsorption of molecules with intermediate dimensions larger than 3.200 Å, the effective pore size of [Mn(bdc)(dpe)] is pragmatically inferred to be approximately 3.200 Å, as it is the largest known adsorbed molecule.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the inferred effective pore size of [Mn(bdc)(dpe)] (approximately 3.200 Å), it cannot be adsorbed by this MOF via a size exclusion mechanism.

@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "IRMOF-1",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zn4O"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate (BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption-driven diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 505 kPa feed pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance of 2.55 × 10^-7 mol m^-2 s^-1 Pa^-1 at xCO2 = 0.815 and CO2/N2 selectivity of 410."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 505 kPa feed pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sharp molecular sieving observed at high CO2 partial pressures."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 505 kPa feed pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sharp molecular sieving observed at high CO2 partial pressures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective adsorption and pore blocking under high CO2 concentrations",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Mixed-gas permeation experiments",
+            "Performance Metrics": "CO2/CH4 separation factor: 328, CO2/N2 separation factor: 410"
+        },
+        "Other Information": {
+            "Additional Info": "High quality IRMOF-1 membranes synthesized via secondary growth method on macroporous alumina support. 'Sharp molecular sieving' properties demonstrated for producing high purity CO2."
+        }
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "Materials Name": "[Zn3(OH)2(pzdc)(atz)]$DMA (2,DMA)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.0 x 2.1 Å and 3.7 x 1.3 Å",
+            "Structure Type": "Quasi-discrete pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "3-amino-1,2,4-triazole",
+            "3,5-pyrazoledicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake reaches 1.7 mmol g^-1 at 298 K and 0.15 atm."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible N2 uptake at 298 K due to kinetic effect."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible CH4 uptake at 298 K due to kinetic effect."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.28 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "26 kPa",
+                    "Additional Info": "Adsorption follows He << C2H4 < C2H6."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "3.44 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "15 kPa",
+                    "Additional Info": "C2H6/C2H4 selectivity of 1.9 observed."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "3.68 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "1 kPa",
+                    "Additional Info": "Co-adsorption with propyne observed."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "3.81 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded from adsorption."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Record-high CO2/N2 and CO2/CH4 selectivities; C2H6/C2H4 selectivity of 1.9"
+        },
+        "Other Information": {
+            "Additional Info": "Gating energy barrier controlled for molecular sieving."
+        }
+    }
+]

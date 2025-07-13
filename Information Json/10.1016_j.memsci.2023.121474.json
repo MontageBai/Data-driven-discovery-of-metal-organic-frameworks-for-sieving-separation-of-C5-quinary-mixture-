@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "TPBI-(H3PO4)x",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "5.9 Å to 6.4 Å (at 35 °C), 6.0 Å to 6.9 Å (at 150 °C)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "2.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 100 PSIA",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Helium permeability ranges from 5–41 Barrer with He/CH4 selectivity of 301–7052."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 100 PSIA",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeability ranges from 3.6–86 Barrer with H2/CO2 selectivity up to 62.3."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 100 PSIA",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted due to tight chain packing and size sieving effect."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 100 PSIA",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted due to tight chain packing and size sieving effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Unprecedented size-sieving ability in polybenzimidazole doped with polyprotic acids.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pure-gas permeability measurements, mixed-gas separation tests, positron annihilation lifetime spectroscopy (PALS), Wide-angle X-ray diffraction (WAXD)",
+            "Performance Metrics": "Highest He/CH4 selectivity: 7052; Highest H2/CH4 selectivity: 5128; Mixed-gas H2 permeability: 46.7 Barrer; H2/CO2 selectivity: 16 at 150 °C"
+        },
+        "Other Information": {
+            "Additional Info": "TPBI-(H3PO4)x membranes exhibit superior gas separation performance for helium and hydrogen recovery, surpassing Robeson's upper bounds for H2-related separations."
+        }
+    }
+]

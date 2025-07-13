@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "Graphene nanopores",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "8.00 Å (Pore-24), 12.40 Å (Pore-54), 15.95 Å (Pore-84)",
+            "Structure Type": "2D nanopores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular-orientation sieving",
+                "Other Information": {
+                    "Test Conditions": "350 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 0.94 × 10^6 GPU for three-layer pore"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular-orientation sieving",
+                "Other Information": {
+                    "Test Conditions": "350 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance similar to ethane for three-layer pore"
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular-orientation sieving",
+                "Other Information": {
+                    "Test Conditions": "350 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance similar to ethane for three-layer pore"
+                }
+            },
+            {
+                "Molecule Name": "n-pentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Molecular-orientation sieving",
+                "Other Information": {
+                    "Test Conditions": "350 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower permeation rate compared to shorter chains due to difficulty in adjusting orientation"
+                }
+            },
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Molecular-orientation sieving",
+                "Other Information": {
+                    "Test Conditions": "350 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity of ethane over n-hexane is 13.6 for three-layer pore"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular-orientation sieving effect caused by the difficulty of long-chain molecules adjusting to upright orientation in three-layer pores",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Molecular dynamics simulation",
+            "Performance Metrics": "Selectivity of ethane over n-hexane: 13.6 for three-layer pore"
+        },
+        "Other Information": {
+            "Additional Info": "Single-layer graphene nanopores exhibit undifferentiated permeation for hydrocarbons with different chain lengths due to mutual offset between molecular adsorption and molecular mass contributions."
+        }
+    }
+]

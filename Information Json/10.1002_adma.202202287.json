@@ -1,0 +1,170 @@
+[
+    {
+        "MOF Name": "AgNPs@HOF-101",
+        "Material Category": "Others",
+        "Pore/Structural Features": {
+            "Pore Size": "0.86 nm",
+            "Structure Type": "Porous molecular traps with ordered nanopores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "HOF-101 precursors"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "2-chloroethyl ethyl sulfide (CEES) (S-1)",
+                "Molecular Size": "6.9 × 2.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-permitted entry and specific recognition via Ag-Cl interaction, leading to increased photocurrent.",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 100 nmol mL-1 in methanol, 20 min incubation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Able to diffuse rapidly into the HOFs pores and specifically bind to Ag via Ag···Cl interactions, resulting in increased photocurrent."
+                }
+            },
+            {
+                "Molecule Name": "Thioanisole (S-2)",
+                "Molecular Size": "7.4 × 4.3 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size-restricted entry and lack of specific Ag-Cl interaction, leading to low adsorption and no significant signal.",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 100 nmol mL-1 in methanol, 20 min incubation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger size compared to most passing simulants, adsorbed at lower concentration. No significant signal change in photocurrent relative to background."
+                }
+            },
+            {
+                "Molecule Name": "Diethyl sulfide (S-3)",
+                "Molecular Size": "7.0 × 2.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-permitted entry, but absence of Ag-Cl interaction prevents accumulation and significant signal.",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 100 nmol mL-1 in methanol, 20 min incubation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller size, chlorine-free. Adsorbed in low concentrations due to lack of Ag···Cl interactions. No significant signal change in photocurrent."
+                }
+            },
+            {
+                "Molecule Name": "Dimethyl sulfide (S-4)",
+                "Molecular Size": "4.6 × 2.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-permitted entry, but absence of Ag-Cl interaction prevents accumulation and significant signal.",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 100 nmol mL-1 in methanol, 20 min incubation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller size, chlorine-free. Adsorbed in low concentrations due to lack of Ag···Cl interactions. No significant signal change in photocurrent."
+                }
+            },
+            {
+                "Molecule Name": "Benzyl methyl sulfide (S-5)",
+                "Molecular Size": "8.7 × 4.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion, blocked by pore channels.",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 100 nmol mL-1 in methanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Anticipated to be excluded from pore channels due to larger molecular size. No significant signal change."
+                }
+            },
+            {
+                "Molecule Name": "1-propanethiol (S-6)",
+                "Molecular Size": "4.9 × 2.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-permitted entry, but absence of Ag-Cl interaction prevents accumulation and significant signal.",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 100 nmol mL-1 in methanol, 20 min incubation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller size, chlorine-free. Adsorbed in low concentrations due to lack of Ag···Cl interactions. No significant signal change in photocurrent."
+                }
+            },
+            {
+                "Molecule Name": "1,2-ethanedithiol (S-7)",
+                "Molecular Size": "4.4 × 1.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-permitted entry, but absence of Ag-Cl interaction prevents accumulation and significant signal.",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 100 nmol mL-1 in methanol, 20 min incubation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller size, chlorine-free. Adsorbed in low concentrations due to lack of Ag···Cl interactions. No significant signal change in photocurrent."
+                }
+            },
+            {
+                "Molecule Name": "Diphenyl sulfide (S-8)",
+                "Molecular Size": "9.0 × 5.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion, blocked by pore channels despite containing chloride.",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 100 nmol mL-1 in methanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Anticipated to be excluded from pore channels due to larger molecular size. No significant signal change."
+                }
+            },
+            {
+                "Molecule Name": "Propyl sulfide (S-9)",
+                "Molecular Size": "9.0 × 3.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion, blocked by pore channels despite containing chloride.",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 100 nmol mL-1 in methanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Anticipated to be excluded from pore channels due to larger molecular size. No significant signal change."
+                }
+            },
+            {
+                "Molecule Name": "2-chloroethyl phenyl sulfide (S-10)",
+                "Molecular Size": "8.7 × 5.0 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion, blocked by pore channels.",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 100 nmol mL-1 in methanol, 20 min incubation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger molecular size, adsorbed at lower concentrations. No significant signal change in photocurrent."
+                }
+            },
+            {
+                "Molecule Name": "n-hexane (S-11)",
+                "Molecular Size": "8.1 × 2.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-permitted entry, but not an electron donor and no specific Ag-Cl interaction, leading to decreased photocurrent.",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 100 nmol mL-1 in methanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller molecular dimension, able to enter pores. Text states it 'only contain chloride groups and no sulfides' (original text chemical description used)."
+                }
+            },
+            {
+                "Molecule Name": "1-chlorobutane (S-12)",
+                "Molecular Size": "6.2 × 2.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-permitted entry, contains chloride but not an electron donor, leading to decreased photocurrent.",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 100 nmol mL-1 in methanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Able to diffuse rapidly into the HOFs pores. Contains chloride groups but no sulfides. Strong decrease in photocurrent."
+                }
+            },
+            {
+                "Molecule Name": "Dichloromethane (S-13)",
+                "Molecular Size": "2.9 × 2.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-permitted entry, contains chloride but not an electron donor, leading to decreased photocurrent.",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 100 nmol mL-1 in methanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Able to diffuse rapidly into the HOFs pores. Contains chloride groups but no sulfides. Strong decrease in photocurrent."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic molecular sieving based on pore aperture size-exclusion and site-specific recognition via Ag-Cl interactions.",
+        "Experimental Validation": {
+            "Method": "Photoelectrochemical (PEC) sensing via photocurrent response measurements; Adsorption concentration determination by NMR spectroscopy; Chemical bonding environment analysis by X-ray photoelectron spectroscopy (XPS)",
+            "Performance Metrics": "Selective recognition of CEES among 13 different mustard gas simulants. Detection limit for CEES: 15.8 nmol L-1 (S/N = 3). Linear range for CEES: 20-400 nmol L-1. Reusability: at least 30 cycles. Long-term working stability: at least 30 days (5.7% decrease in photocurrent)."
+        },
+        "Other Information": {
+            "Additional Info": "Composed of ultrafine sub-1 nm (average diameter ~1 nm) silver nanoparticles (AgNPs) homogeneously encapsulated within a hydrogen-bonded organic framework (HOF-101). AgNPs enhance conductivity and produce surface plasmon resonance effect, accelerating photogenerated carrier separation. Designed as a portable PEC device for CWAs detection."
+        }
+    }
+]

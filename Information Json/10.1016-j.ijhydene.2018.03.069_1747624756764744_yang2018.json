@@ -1,0 +1,100 @@
+[
+    {
+        "Materials Name": "MnCl2@CPL-1@g-Al2O3",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "pillared-layer structure with extended channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "pyrazine-2,3-dicarboxylate",
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.24 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, carrier gas He",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time decreases with increasing MnCl2 loading amount; peak trailing is well restrained at 15 wt% MnCl2 loading."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.31 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, carrier gas He",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resolution of 1.61 achieved with 15 wt% MnCl2 loading and carrier gas flow rate of 30 mL/min."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum sieving under liquid nitrogen temperature",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas chromatography",
+            "Performance Metrics": "H2/D2 separation resolution: 1.61, separation time: 6.5 min"
+        },
+        "Other Information": {
+            "Additional Info": "Composite material prepared by loading CPL-1 on g-Al2O3 particles through in situ crystallization and subsequent impregnation of MnCl2."
+        }
+    },
+    {
+        "Materials Name": "7_CPL-1@g-Al2O3",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "pillared-layer structure with extended channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "pyrazine-2,3-dicarboxylate",
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.24 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, carrier gas He",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time increases with higher CPL-1 loading amounts; trailing phenomenon becomes more serious."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.31 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, carrier gas He",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resolution of 1.82 achieved with carrier gas flow rate of 150 mL/min."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum sieving under liquid nitrogen temperature",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas chromatography",
+            "Performance Metrics": "H2/D2 separation resolution: 1.82, separation time: 8 min"
+        },
+        "Other Information": {
+            "Additional Info": "Composite material prepared by loading CPL-1 on g-Al2O3 particles through repeated in situ crystallization process."
+        }
+    }
+]

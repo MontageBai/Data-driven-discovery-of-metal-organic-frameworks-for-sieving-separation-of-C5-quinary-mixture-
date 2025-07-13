@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "PLM@LE",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5–7 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Ti8O8"
+        ],
+        "Ligands": [
+            "p-Phthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore size of MIL-125 restricts migration of PC and FEC, enhancing sodium ion transport."
+                }
+            },
+            {
+                "Molecule Name": "polycarbonate",
+                "Molecular Size": "5.165 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted by the aperture size of MIL-125 host."
+                }
+            },
+            {
+                "Molecule Name": "fluoroethylene carbonate",
+                "Molecular Size": "4.556 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted by the aperture size of MIL-125 host."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Electrochemical impedance spectroscopy (EIS)",
+            "Performance Metrics": "Ionic conductivity: 6.60× 10–4 S cm−1 at room temperature, Sodium ion transference number: 0.33"
+        },
+        "Other Information": {
+            "Additional Info": "PLM's pancake-like morphology enhances liquid retention and reduces sodium dendrite growth."
+        }
+    }
+]

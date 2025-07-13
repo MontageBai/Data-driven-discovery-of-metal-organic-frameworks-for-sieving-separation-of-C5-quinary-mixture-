@@ -1,0 +1,503 @@
+[
+    {
+        "Materials Name": "Zn2(bim)4",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.21 nm",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C, equimolar H2/CO2 feed containing ~4 mol% steam at 150°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Maintained selectivity for H2 with good thermal stability over 120 h of continuous testing."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C, equimolar H2/CO2 feed containing ~4 mol% steam at 150°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity for H2 over CO2 while maintaining high permeance."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2/CO2 separation factor: >200, Permeance: up to 3760 GPU"
+        },
+        "Other Information": {
+            "Additional Info": "Ultrathin membrane with MOF cages of 0.21 nm resulted in excellent size selectivity for H2/CO2."
+        }
+    },
+    {
+        "Materials Name": "CuBDC",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "MMMs exhibited excellent CO2 separation performance from CO2/CH4 gas mixtures."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Improved molecular discrimination efficiency and eliminated unselective permeation pathways."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Permeability tests",
+            "Performance Metrics": "CO2/CH4 separation factor: 88.2"
+        },
+        "Other Information": {
+            "Additional Info": "Nanosheets incorporated into polymer matrices improved gas separation performance."
+        }
+    },
+    {
+        "Materials Name": "[Cu2(ndc)2(dabco)]n",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-naphthalene dicarboxylate",
+            "1,4-diazabicyclo[2.2.2]octane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High permeability and selectivity for H2 over CO2."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exceeds the 2008 Robeson upper bound."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeability tests",
+            "Performance Metrics": "H2/CO2 separation factor: 26.7, H2 permeability: 6.13 ± 0.03 barrers"
+        },
+        "Other Information": {
+            "Additional Info": "MOF nanosheets prepared by refluxing metal salt, linkers, and capping agent in ethanol solution."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8/GO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (window), 1.12 nm (cage)",
+            "Structure Type": "2D hybrid nanosheets"
+        },
+        "Topology": "SOD",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity for H2 over other gases."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced sieving effect due to GO fixing gaps between ZIF-8 crystals."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity for H2/N2 mixture."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity for H2/CH4 mixture."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Extremely high selectivity for H2/C3H8 mixture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests",
+            "Performance Metrics": "H2/CO2 separation factor: 14.9, H2/N2 separation factor: 90.5, H2/CH4 separation factor: 139.1, H2/C3H8 separation factor: 3816.6"
+        },
+        "Other Information": {
+            "Additional Info": "Bicontinuous ZIF-8@GO membrane fixed inter-crystal gaps enhancing molecular sieving effect."
+        }
+    },
+    {
+        "Materials Name": "Ni2(L-asp)2pz (JUC-150)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "ultra-microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "L-aspartate",
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential permeation for H2 over other gas molecules."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity for H2/CO2 mixture."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity for H2/CH4 mixture."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity for H2/N2 mixture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeance tests",
+            "Performance Metrics": "H2/CH4 selectivity: 26.3, H2/N2 selectivity: 17.1, H2/CO2 selectivity: 38.7"
+        },
+        "Other Information": {
+            "Additional Info": "Shorter pyrazine ligands led to preferential permeation for H2 through size-sieving effect."
+        }
+    },
+    {
+        "Materials Name": "IL@ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Reduced effective cage size by IL confinement",
+            "Structure Type": "SOD cage"
+        },
+        "Topology": "SOD",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "RT",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced adsorption selectivity due to IL incorporation."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "RT",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced diffusion selectivity due to IL incorporation."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "RT",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Transcended the upper bound of polymer membranes for CO2/CH4 separation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Continuous tuning of molecular sieving and adsorption behavior",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption selectivity tests",
+            "Performance Metrics": "CO2/N2 ideal adsorption selectivity: enhanced from 19 to 100"
+        },
+        "Other Information": {
+            "Additional Info": "Ionic liquids used as cavity occupants to fine-tune effective cage size of ZIF-8."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8/ZIF-67",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Adjusted by heteroepitaxial growth",
+            "Structure Type": "Crystalline"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+",
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "RT",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced grain boundary structure led to unprecedentedly high separation factors."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "RT",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6/C3H8 separation factor: ~200."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Rigid metal–nitrogen connectivity reduces effective pore aperture",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests",
+            "Performance Metrics": "C3H6/C3H8 separation factor: ~200"
+        },
+        "Other Information": {
+            "Additional Info": "Heteroepitaxial growth of ZIF-67 on ZIF-8 seed layers."
+        }
+    },
+    {
+        "Materials Name": "ZIF-90",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Fine-tuned by ethylenediamine modification",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "325°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Post-functionalization improved hydrogen selectivity."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "325°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced molecular sieving and improved gas separation performance."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Constriction of pore aperture by post-functionalization",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeance tests",
+            "Performance Metrics": "H2/CO2 selectivity: 20.4"
+        },
+        "Other Information": {
+            "Additional Info": "Ethylenediamine modification constricted pore aperture improving molecular sieving."
+        }
+    },
+    {
+        "Materials Name": "MAMS-1",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Adjustable based on temperature",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Thermo-responsive gating",
+                "Other Information": {
+                    "Test Conditions": "20–120°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Freely rotated tert-butyl groups enable thermo-switchable separation behavior."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Thermo-responsive gating",
+                "Other Information": {
+                    "Test Conditions": "20–120°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adjustable gas separation performance corresponding to operation temperature."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Reversible gating-open effect controlled by temperature",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Single-gas permeation and mixture separation tests",
+            "Performance Metrics": "H2/CO2 separation adjustable under heating/cooling cycles"
+        },
+        "Other Information": {
+            "Additional Info": "40 nm membrane exhibited adjustable gas separation performance."
+        }
+    }
+]

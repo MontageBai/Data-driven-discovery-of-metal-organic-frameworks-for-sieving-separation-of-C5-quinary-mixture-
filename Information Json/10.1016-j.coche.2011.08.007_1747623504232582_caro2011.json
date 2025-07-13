@@ -1,0 +1,142 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (PLD), Not Reported (LCD)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate opening",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Framework flexibility allows larger molecules to pass through."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Gate opening",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption occurs at lower pressure compared to ethylene."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, low feed pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylene/ethane separation factor of 3 observed."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propene diffuses much faster than propane due to size difference."
+                }
+            },
+            {
+                "Molecule Name": "propene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusivity ratio of propene/propane is 125."
+                }
+            },
+            {
+                "Molecule Name": "linear alkanes",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Linear alkanes are adsorbed while branched alkanes are not."
+                }
+            },
+            {
+                "Molecule Name": "branched alkanes",
+                "Molecular Size": "> 0.54 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Branched alkanes cannot pass narrow pore windows."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate opening and framework flexibility effects prevent sharp molecular sieving.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, IR microscopy, MD simulation, GCMC simulation",
+            "Performance Metrics": "CO2/CH4 selectivity: 3.5, Ethylene/Ethane selectivity: 3, H2/CH4 selectivity: 10–15"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 membranes show high permeability but exhibit framework flexibility affecting separation performance."
+        }
+    },
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate opening",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane adsorption occurs at lower pressure compared to ethylene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate opening mechanism governs selective adsorption behavior.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-7 shows selective ethane adsorption over ethylene due to gate-opening effect."
+        }
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "JUC-210",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.9 Å × 3.1 Å along (100), 4.4 Å × 4.6 Å along (140), restricting pore diameter: 5.4 Å",
+            "Structure Type": "Two-fold interpenetrated pts framework with large void space"
+        },
+        "Topology": "pts",
+        "Metal Nodes": [
+            "In3+"
+        ],
+        "Ligands": [
+            "4,4′,4″,4″″-(9,9′-spirobifluorene-2,2′,7,7′-tetrayl)tetrabenzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "4.59 Å (shortest dimension)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ion-exchange and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "DMF solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highly selective adsorption of methylene blue observed"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine",
+                "Molecular Size": "12.68 Å (shortest dimension)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ethanol solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large size prevents access to MOF channels"
+                }
+            },
+            {
+                "Molecule Name": "neutral red",
+                "Molecular Size": "2.3 Å (shortest dimension)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction and solvent effect",
+                "Other Information": {
+                    "Test Conditions": "Ethanol solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed in ethanol but not in DMF"
+                }
+            },
+            {
+                "Molecule Name": "Sudan I",
+                "Molecular Size": "4.13 Å (shortest dimension)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Electrostatic interaction and solvent effect",
+                "Other Information": {
+                    "Test Conditions": "DMF or ethanol solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Partially adsorbed in ethanol, excluded in DMF"
+                }
+            },
+            {
+                "Molecule Name": "Orange II",
+                "Molecular Size": "2.8 Å (shortest dimension)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "DMF or ethanol solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to negative charge"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "5.31 Å (shortest dimension)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "DMF or ethanol solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to negative charge"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with electrostatic interaction",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "UV−vis absorption spectroscopy",
+            "Performance Metrics": "Ct/C0 values monitored over time; >92.5% methylene blue adsorbed after 12 h"
+        },
+        "Other Information": {
+            "Additional Info": "Selective adsorption behavior depends on solvent environment (DMF vs. ethanol)"
+        }
+    }
+]

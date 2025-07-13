@@ -1,0 +1,115 @@
+[
+    {
+        "Materials Name": "ZIF-62",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate",
+            "benzimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-62 demonstrates melting behavior and can form amorphous glass upon sintering, indicating potential size-selective properties."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Hot pressing at 450°C under 15 MPa in a vacuum environment",
+            "Performance Metrics": "Formation of a mechanically strong bulk material with limited internal voids"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-62 undergoes solid-liquid phase transformation, making it suitable for hot pressing techniques. The sintered product shows potential applications in monolithic MOF structures."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-8 requires an ionic liquid to facilitate melting before decomposition, enabling liquid-phase sintering."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Liquid-phase sintering facilitated by ionic liquid",
+            "Performance Metrics": "Formation of mechanically strong bulk materials with limited voids after extrusion of excess ionic liquid"
+        },
+        "Other Information": {
+            "Additional Info": "The addition of ionic liquid stabilizes the dissociating ZIF-8 ligands, reducing the melting temperature and enabling sintering."
+        }
+    },
+    {
+        "Materials Name": "ZIF-62 glass and metal halide perovskite composite",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate",
+            "benzimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The composite exhibits enhanced photoluminescence efficiency and stability due to liquid-phase sintering."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Liquid-phase sintering",
+            "Performance Metrics": "Orders of magnitude higher photoluminescence efficiency and significantly enhanced stability"
+        },
+        "Other Information": {
+            "Additional Info": "The sintered composite retains accessible microporous structures and shows promise for optoelectronic device applications."
+        }
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "1.5GN-H",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.46 nm (mean pore size)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.3 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, up to 800 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rate constant ratio (kD2/kH2) up to 5.83 at low pressure."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.3 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, up to 800 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffuses faster than hydrogen with a rate constant ratio up to 5.83 at low pressure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption method using stretched exponential (SE) model",
+            "Performance Metrics": "Rate constant ratio (kD2/kH2): up to 5.83"
+        },
+        "Other Information": {
+            "Additional Info": "Quantum sieving effect is enhanced in limited pore space where the difference between accessible pore width and hydrogen molecule hard core diameter is comparable to the de Broglie wavelength of hydrogen isotopes."
+        }
+    },
+    {
+        "Materials Name": "3KT-172",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.49 nm (mean pore size)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.3 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, up to 400 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rate constant ratio (kD2/kH2) up to 1.86 at low pressure."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.3 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, up to 400 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffuses faster than hydrogen with a rate constant ratio up to 1.86 at low pressure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption method using stretched exponential (SE) model",
+            "Performance Metrics": "Rate constant ratio (kD2/kH2): up to 1.86"
+        },
+        "Other Information": {
+            "Additional Info": "Smaller kinetic quantum sieving compared to 1.5GN-H due to slightly larger micropores."
+        }
+    },
+    {
+        "Materials Name": "PC",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.57 nm (ultramicropore size)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.3 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Classical diffusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No kinetic quantum sieving observed."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.3 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Classical diffusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffuses slightly slower than hydrogen; no kinetic quantum sieving observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "No significant sieving observed",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption method using stretched exponential (SE) model",
+            "Performance Metrics": "No significant D2/H2 separation observed"
+        },
+        "Other Information": {
+            "Additional Info": "When pore diameter exceeds 0.57 nm, no kinetic quantum sieving effect is observed."
+        }
+    }
+]

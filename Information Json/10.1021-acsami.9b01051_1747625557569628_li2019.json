@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "JUC-160",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 - 3.4 Å",
+            "Structure Type": "3D cages connected by small apertures"
+        },
+        "Topology": "GIS",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylbenzimidazole",
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 6.68 × 10^-7 mol m^-2 s^-1 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance below 1.0 × 10^-7 mol m^-2 s^-1 Pa^-1 due to strong interaction with framework"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance below 1.0 × 10^-7 mol m^-2 s^-1 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance below 1.0 × 10^-7 mol m^-2 s^-1 Pa^-1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Narrow aperture size (3.3 - 3.4 Å) and strong affinity for CO2",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments using Wicke-Kallenbach system",
+            "Performance Metrics": "H2/CO2 selectivity: 26.3 at 200 °C, H2 permeance: 9.75 × 10^-7 mol m^-2 s^-1 Pa^-1"
+        },
+        "Other Information": {
+            "Additional Info": "Superhydrophobic properties enable stable separation performance under hydrothermal conditions up to 200 °C."
+        }
+    }
+]

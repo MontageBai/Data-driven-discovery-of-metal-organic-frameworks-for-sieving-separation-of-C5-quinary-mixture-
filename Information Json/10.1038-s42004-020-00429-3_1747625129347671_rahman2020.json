@@ -1,0 +1,113 @@
+[
+    {
+        "Materials Name": "Fe(bdp)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Iron(II)"
+        ],
+        "Ligands": [
+            "1,4-benzenedipyrazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273-323 K, pressures up to 120 kPa",
+                    "Threshold Pressure": "Dependent on temperature (ptr decreases with decreasing temperature)",
+                    "Additional Info": "The material undergoes a structural transition from nonporous to porous phase upon adsorption of methane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "The structural transition enthalpy for methane adsorption is +9.1 kJ/mol during adsorption and +8.3 kJ/mol during desorption."
+        }
+    },
+    {
+        "Materials Name": "Co(bdp)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cobalt"
+        ],
+        "Ligands": [
+            "1,4-benzenedipyrazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273-323 K, pressures up to 120 kPa",
+                    "Threshold Pressure": "Dependent on temperature (ptr decreases with decreasing temperature)",
+                    "Additional Info": "The material undergoes a structural transition from nonporous to porous phase upon adsorption of methane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "The structural transition enthalpy for methane adsorption is +9.1 kJ/mol during adsorption and +5.6 kJ/mol during desorption."
+        }
+    },
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zinc"
+        ],
+        "Ligands": [
+            "imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "233-293 K, pressures up to 120 kPa",
+                    "Threshold Pressure": "Dependent on temperature (ptr decreases with decreasing temperature)",
+                    "Additional Info": "The material undergoes a structural transition from nonporous to porous phase upon adsorption of carbon dioxide."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "The structural transition enthalpy for carbon dioxide adsorption is +30.1 kJ/mol during adsorption and +31.4 kJ/mol during desorption."
+        }
+    }
+]

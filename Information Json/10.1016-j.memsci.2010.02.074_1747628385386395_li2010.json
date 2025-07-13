@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.3 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "220 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance is ~4.5 × 10−8 mol m−2 s−1 Pa−1."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "220 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance is ~0.35 × 10−8 mol m−2 s−1 Pa−1."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "220 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 permeance is ~0.22 × 10−8 mol m−2 s−1 Pa−1."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "220 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 permeance is ~0.31 × 10−8 mol m−2 s−1 Pa−1."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke–Kallenbach technique with on-line gas chromatography",
+            "Performance Metrics": "H2/CO2 separation factor: 13.6, H2/N2 separation factor: 18.0, H2/CH4 separation factor: 14.0"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-7 membrane exhibited excellent hydrothermal stability in the presence of steam and showed a clear cut-off between H2 and CO2."
+        }
+    }
+]

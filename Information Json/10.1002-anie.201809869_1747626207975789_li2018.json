@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "UTSA-200",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (static), ~4.2 Å (dynamic upon adsorption)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4′-azopyridine",
+            "hexafluorosilicate (SiF6^2−)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propyne",
+                "Molecular Size": "4.16 × 4.01 × 6.51 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong binding and pore flexibility allow passage",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.01 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 95 cm³ cm⁻³ at 0.01 bar"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.65 × 4.16 × 6.44 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to smaller pore size",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.01 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption at low pressure"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with strong binding sites for propyne",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, IAST calculation, DFT-D modeling",
+            "Performance Metrics": "C3H4/C3H6 selectivity: >20,000; C3H6 productivity: 62.9 mmol g⁻¹ (for 1/99 mixture)"
+        },
+        "Other Information": {
+            "Additional Info": "Record removal of trace propyne from propylene, producing 99.9999% pure propylene"
+        }
+    }
+]

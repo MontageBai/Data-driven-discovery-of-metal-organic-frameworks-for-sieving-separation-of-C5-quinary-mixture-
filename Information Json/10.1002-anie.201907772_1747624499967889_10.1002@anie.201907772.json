@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Cu-TCPP-on-Cu-HHTP",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D channels (perpendicular to the substrate)"
+        },
+        "Topology": "hcb (Cu-HHTP), sql (Cu-TCPP)",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "2,3,6,7,10,11-hexahydrotriphenylene (HHTP)",
+            "5,10,15,20-tetrakis(4-carboxyphenyl)porphyrin (TCPP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, gas sensing experiment",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced response to benzene compared to NH3"
+                }
+            },
+            {
+                "Molecule Name": "ammonia",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving based on interaction strength with Cu2+",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, gas sensing experiment",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Suppressed permeation through Cu-TCPP layer due to stronger interaction with Cu2+"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective suppression of NH3 permeation due to strong interaction with Cu2+ in Cu-TCPP",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Chemiresistive gas sensing experiments",
+            "Performance Metrics": "Highest response to benzene among recoverable RT chemiresistors; Selectivity reversal towards benzene over NH3"
+        },
+        "Other Information": {
+            "Additional Info": "Cu-TCPP acts as a molecular sieving layer suppressing NH3 while Cu-HHTP serves as the sensing layer for signal transduction."
+        }
+    }
+]

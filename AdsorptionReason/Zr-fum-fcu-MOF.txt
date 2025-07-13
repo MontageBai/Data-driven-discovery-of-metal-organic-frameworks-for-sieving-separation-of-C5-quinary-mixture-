@@ -1,0 +1,102 @@
+MOF Name: Zr-fum-fcu-MOF
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zr-fum-fcu-MOF:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Adsorption: Conditional (Defect-controlled molecular sieving, size exclusion).
+
+Interpretation of "Conditional" adsorption with "size exclusion" and "defect-controlled molecular sieving": This implies that for the ideal or main pore, isobutane is either too large or at the very limit of passage, and its adsorption is significantly hindered by size exclusion, potentially occurring only through defects or under specific non-standard conditions. Therefore, for effective and general adsorption through the MOF's intrinsic pore system, we infer that the effective pore size is *less than* the intermediate dimension of isobutane (6.393 Å). This sets an upper bound for effective adsorption.
+
+Inferred effective pore size of Zr-fum-fcu-MOF is less than 6.393 Å.
+
+Target Guest Molecule Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is smaller than the inferred effective pore size upper bound (6.393 Å), it is predicted to be adsorbed by Zr-fum-fcu-MOF. The "defect-controlled molecular sieving" observed for the slightly larger isobutane suggests a tight fit; however, isoprene's smaller size implies it should pass with less restriction than isobutane.
+
+---
+
+MOF Name: Zr-fum-fcu-MOF
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zr-fum-fcu-MOF:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Adsorption: Conditional (Defect-controlled molecular sieving, size exclusion).
+
+Interpretation of "Conditional" adsorption with "size exclusion" and "defect-controlled molecular sieving": This implies that for the ideal or main pore, isobutane is either too large or at the very limit of passage, and its adsorption is significantly hindered by size exclusion, potentially occurring only through defects or under specific non-standard conditions. Therefore, for effective and general adsorption through the MOF's intrinsic pore system, we infer that the effective pore size is *less than* the intermediate dimension of isobutane (6.393 Å). This sets an upper bound for effective adsorption.
+
+Inferred effective pore size of Zr-fum-fcu-MOF is less than 6.393 Å.
+
+Target Guest Molecule Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than the inferred effective pore size upper bound (6.393 Å), it is predicted to be adsorbed by Zr-fum-fcu-MOF. The "defect-controlled molecular sieving" observed for the slightly larger isobutane suggests a tight fit; however, cis-2-pentene's smaller size implies it should pass with less restriction than isobutane.
+
+---
+
+MOF Name: Zr-fum-fcu-MOF
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zr-fum-fcu-MOF:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Adsorption: Conditional (Defect-controlled molecular sieving, size exclusion).
+
+Interpretation of "Conditional" adsorption with "size exclusion" and "defect-controlled molecular sieving": This implies that for the ideal or main pore, isobutane is either too large or at the very limit of passage, and its adsorption is significantly hindered by size exclusion, potentially occurring only through defects or under specific non-standard conditions. Therefore, for effective and general adsorption through the MOF's intrinsic pore system, we infer that the effective pore size is *less than* the intermediate dimension of isobutane (6.393 Å). This sets an upper bound for effective adsorption.
+
+Inferred effective pore size of Zr-fum-fcu-MOF is less than 6.393 Å.
+
+Target Guest Molecule Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the inferred effective pore size upper bound (6.393 Å), it is predicted to be adsorbed by Zr-fum-fcu-MOF. The "defect-controlled molecular sieving" observed for the slightly larger isobutane suggests a tight fit; however, 1-pentene's smaller size implies it should pass with less restriction than isobutane.
+
+---
+
+MOF Name: Zr-fum-fcu-MOF
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zr-fum-fcu-MOF:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Adsorption: Conditional (Defect-controlled molecular sieving, size exclusion).
+
+Interpretation of "Conditional" adsorption with "size exclusion" and "defect-controlled molecular sieving": This implies that for the ideal or main pore, isobutane is either too large or at the very limit of passage, and its adsorption is significantly hindered by size exclusion, potentially occurring only through defects or under specific non-standard conditions. Therefore, for effective and general adsorption through the MOF's intrinsic pore system, we infer that the effective pore size is *less than* the intermediate dimension of isobutane (6.393 Å). This sets an upper bound for effective adsorption.
+
+Inferred effective pore size of Zr-fum-fcu-MOF is less than 6.393 Å.
+
+Target Guest Molecule Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the inferred effective pore size upper bound (6.393 Å), it is predicted to be adsorbed by Zr-fum-fcu-MOF. The "defect-controlled molecular sieving" observed for the slightly larger isobutane suggests a tight fit; however, trans-2-pentene's smaller size implies it should pass with less restriction than isobutane.
+
+---
+
+MOF Name: Zr-fum-fcu-MOF
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zr-fum-fcu-MOF:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Adsorption: Conditional (Defect-controlled molecular sieving, size exclusion).
+
+Interpretation of "Conditional" adsorption with "size exclusion" and "defect-controlled molecular sieving": This implies that for the ideal or main pore, isobutane is either too large or at the very limit of passage, and its adsorption is significantly hindered by size exclusion, potentially occurring only through defects or under specific non-standard conditions. Therefore, for effective and general adsorption through the MOF's intrinsic pore system, we infer that the effective pore size is *less than* the intermediate dimension of isobutane (6.393 Å). This sets an upper bound for effective adsorption.
+
+Inferred effective pore size of Zr-fum-fcu-MOF is less than 6.393 Å.
+
+Target Guest Molecule Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the inferred effective pore size upper bound (6.393 Å), it is predicted to be adsorbed by Zr-fum-fcu-MOF. The "defect-controlled molecular sieving" observed for the slightly larger isobutane suggests a tight fit; however, n-pentane's smaller size implies it should pass with less restriction than isobutane.

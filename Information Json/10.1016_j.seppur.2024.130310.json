@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "TpPa-1/CNT-ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.5 nm (ZIF-8 aperture), 0.85 nm (interpenetrated pores of ZIF-8 and TpPa-1/CNT)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.77%"
+                }
+            },
+            {
+                "Molecule Name": "direct red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 97.76%"
+                }
+            },
+            {
+                "Molecule Name": "acid orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.53%"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.77%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Interpenetrated molecular sieving pores formed by ZIF-8 and TpPa-1/CNT",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Water flux: 58.10 L m-2h−1 bar−1, Rejection rates: DR (97.76%), AO (99.53%), MO (99.77%), MnB (99.83%)"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane shows excellent flexibility and stability, maintaining performance even after bending cycles."
+        }
+    }
+]

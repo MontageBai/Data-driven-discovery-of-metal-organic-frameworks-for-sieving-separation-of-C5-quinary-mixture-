@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Ag-MOF-303",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.8 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+",
+            "Ag+"
+        ],
+        "Ligands": [
+            "3,5-pyrazoledicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "77 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 183 cm³/g at 77 K and 100 kPa"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "77 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 201 cm³/g at 77 K and 100 kPa"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced adsorption probability density near Ag(I) in the one-dimensional channel",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "IAST selectivity: 1.93 at 77 K and 100 kPa; Dynamic breakthrough separation factor: 1.33"
+        },
+        "Other Information": {
+            "Additional Info": "H2/D2 separation factor by TDS at 30 K and 1 kPa: 6.12"
+        }
+    }
+]

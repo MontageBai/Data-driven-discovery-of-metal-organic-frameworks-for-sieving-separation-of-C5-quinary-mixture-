@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (aperture size), 4-6 Å (flexible aperture size)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "4-aminophenol",
+                "Molecular Size": "5.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Kinetic diameter slightly larger than the aperture size, but flexibility of MOF structure allows passage."
+                }
+            },
+            {
+                "Molecule Name": "1-naphthalenethiol",
+                "Molecular Size": "7.6 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Only a small amount can pass through due to kinetic diameter slightly larger than flexible aperture size."
+                }
+            },
+            {
+                "Molecule Name": "Rhodamine B",
+                "Molecular Size": "11.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Kinetic diameter much larger than the flexible aperture size, preventing diffusion into ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "aniline",
+                "Molecular Size": "5.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Kinetic diameter smaller than flexible aperture size and nitrogen atom coordinates with zinc ion in ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "5.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Kinetic diameter smaller than flexible aperture size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Surface-enhanced Raman scattering (SERS) evaluation",
+            "Performance Metrics": "SERS enhancement factors: 4-ATP (3.15 × 10^7 for NBP/end-ZIF)"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 selectively deposited on Au nanobipyramids and nanorods exhibits molecular sieving effect and improves SERS performance."
+        }
+    }
+]

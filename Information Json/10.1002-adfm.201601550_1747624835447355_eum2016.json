@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "25–120 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/C3H8 separation factor as high as 2000 ± 200 at 70 °C"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "25–120 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6/C3H8 separation factor as high as 65 ± 5 at 25 °C"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "25–120 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6/C3H8 separation factor as high as 65 ± 5 at 25 °C"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C3H6/C3H8 selectivity: 65, H2/C3H8 selectivity: 2000"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane thickness reduced to 5 μm using nonisothermal processing and modified PAI support"
+        }
+    }
+]

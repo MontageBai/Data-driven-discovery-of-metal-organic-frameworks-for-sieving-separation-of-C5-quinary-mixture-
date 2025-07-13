@@ -1,0 +1,133 @@
+[
+    {
+        "Materials Name": "{[Ni3(BTC)2(TPT)2/3(H2O)4.08(MeOH)0.92]·2DMF·0.5H2O·0.5MeOH}n (1)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (window), 6 Å and 8 Å (cages)",
+            "Structure Type": "3D rigid framework"
+        },
+        "Topology": "{63}16 {66·84}6 {67·86·102}3",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid (BTC)",
+            "2,4,6-tris(pyridin-4-yl)-1,3,5-triazine (TPT)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "195 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption isotherm exhibits type-I behavior due to microporous nature."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 does not adsorb due to size sieving effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms (CO2 and N2)",
+            "Performance Metrics": "CO2 uptake: 54.2 cm³ g⁻¹ at 195 K and 1 atm"
+        },
+        "Other Information": {
+            "Additional Info": "Rigid framework with two types of cages showing selective CO2 adsorption."
+        }
+    },
+    {
+        "Materials Name": "{[Ni3(BTC)2(TPT)2(H2O)6]·6DMF}n (2)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 × 6.2 Å² (rectangular channels)",
+            "Structure Type": "3-fold interpenetrated pillared-layer framework"
+        },
+        "Topology": "{6·8²} {6⁴·8·10}",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid (BTC)",
+            "2,4,6-tris(pyridin-4-yl)-1,3,5-triazine (TPT)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Guest-induced structural transformation",
+                "Other Information": {
+                    "Test Conditions": "195 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption isotherm exhibits type-IV behavior with hysteresis loop."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Weak interaction",
+                "Other Information": {
+                    "Test Conditions": "273 K and 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 adsorption is negligible (<2 cm³ g⁻¹)."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Guest-induced structural transformation",
+                "Other Information": {
+                    "Test Conditions": "273 K and 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption occurs but is lower compared to n-C4H10."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Guest-induced structural transformation",
+                "Other Information": {
+                    "Test Conditions": "273 K and 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption occurs but is lower compared to n-C4H10."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Guest-induced structural transformation",
+                "Other Information": {
+                    "Test Conditions": "273 K and 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity for n-C4H10 observed (uptake: 22.1 cm³ g⁻¹ at 273 K, 9.5 cm³ g⁻¹ at 298 K)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dynamic behavior induced by guest molecules",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms (CO2, CH4, C2H6, C3H8, n-C4H10)",
+            "Performance Metrics": "CO2 uptake: 86.2 cm³ g⁻¹ at 195 K and 1 atm; n-C4H10 uptake: 22.1 cm³ g⁻¹ at 273 K, 9.5 cm³ g⁻¹ at 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "Flexible framework showing selective adsorption of CO2 and n-C4H10 due to dynamic behavior."
+        }
+    }
+]

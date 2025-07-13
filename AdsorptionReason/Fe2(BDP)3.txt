@@ -1,0 +1,102 @@
+MOF Name: Fe2(bdp)3
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Fe2(bdp)3:
+- Hexane: 10.359×4.607×3.969 Å → Intermediate = 4.607 Å | Adsorbed
+- 2-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.376 Å | Adsorbed
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Adsorbed
+
+The MOF Fe2(bdp)3 has been shown to adsorb molecules with intermediate dimensions up to at least 6.545 Å (2,2-dimethylbutane). There are no reported non-adsorbed molecules due to size exclusion in the provided data.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is smaller than the largest intermediate dimension of an adsorbed molecule (2,2-dimethylbutane, 6.545 Å), it is highly likely that isoprene can be adsorbed by Fe2(bdp)3. The experimental data suggests thermodynamic separation, implying the pores are sufficiently large for passage.
+
+---
+
+MOF Name: Fe2(bdp)3
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Fe2(bdp)3:
+- Hexane: 10.359×4.607×3.969 Å → Intermediate = 4.607 Å | Adsorbed
+- 2-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.376 Å | Adsorbed
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Adsorbed
+
+The MOF Fe2(bdp)3 has been shown to adsorb molecules with intermediate dimensions up to at least 6.545 Å (2,2-dimethylbutane). There are no reported non-adsorbed molecules due to size exclusion in the provided data.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 Å → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than the largest intermediate dimension of an adsorbed molecule (2,2-dimethylbutane, 6.545 Å), it is highly likely that cis-2-pentene can be adsorbed by Fe2(bdp)3. The experimental data suggests thermodynamic separation, implying the pores are sufficiently large for passage.
+
+---
+
+MOF Name: Fe2(bdp)3
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Fe2(bdp)3:
+- Hexane: 10.359×4.607×3.969 Å → Intermediate = 4.607 Å | Adsorbed
+- 2-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.376 Å | Adsorbed
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Adsorbed
+
+The MOF Fe2(bdp)3 has been shown to adsorb molecules with intermediate dimensions up to at least 6.545 Å (2,2-dimethylbutane). There are no reported non-adsorbed molecules due to size exclusion in the provided data.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the largest intermediate dimension of an adsorbed molecule (2,2-dimethylbutane, 6.545 Å), it is highly likely that 1-pentene can be adsorbed by Fe2(bdp)3. The experimental data suggests thermodynamic separation, implying the pores are sufficiently large for passage.
+
+---
+
+MOF Name: Fe2(bdp)3
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Fe2(bdp)3:
+- Hexane: 10.359×4.607×3.969 Å → Intermediate = 4.607 Å | Adsorbed
+- 2-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.376 Å | Adsorbed
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Adsorbed
+
+The MOF Fe2(bdp)3 has been shown to adsorb molecules with intermediate dimensions up to at least 6.545 Å (2,2-dimethylbutane). There are no reported non-adsorbed molecules due to size exclusion in the provided data.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 Å → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the largest intermediate dimension of an adsorbed molecule (2,2-dimethylbutane, 6.545 Å), it is highly likely that trans-2-pentene can be adsorbed by Fe2(bdp)3. The experimental data suggests thermodynamic separation, implying the pores are sufficiently large for passage.
+
+---
+
+MOF Name: Fe2(bdp)3
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Fe2(bdp)3:
+- Hexane: 10.359×4.607×3.969 Å → Intermediate = 4.607 Å | Adsorbed
+- 2-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.376 Å | Adsorbed
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Adsorbed
+
+The MOF Fe2(bdp)3 has been shown to adsorb molecules with intermediate dimensions up to at least 6.545 Å (2,2-dimethylbutane). There are no reported non-adsorbed molecules due to size exclusion in the provided data.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the largest intermediate dimension of an adsorbed molecule (2,2-dimethylbutane, 6.545 Å), it is highly likely that n-pentane can be adsorbed by Fe2(bdp)3. The experimental data suggests thermodynamic separation, implying the pores are sufficiently large for passage.

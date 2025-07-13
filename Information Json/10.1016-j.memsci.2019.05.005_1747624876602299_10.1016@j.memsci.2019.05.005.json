@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "Nanoporous graphene (NG) membranes",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.5 Å (P4-1), 4.4 Å (P4-2), 4.8 Å (P4-3), 4.5 Å (P5-1), 4.4 Å (P5-2), 5.6 Å (P5-3), 4.4 Å (P5-4), 4.7 Å (P6-1), 4.4 Å (P6-2), 5.0 Å (P6-3), 4.9 Å (P6-4)",
+            "Structure Type": "2D nanopores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "butadiene",
+                "Molecular Size": "3.4 x 5.2 Å (minimum cross section)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Local size sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 11.5 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher permeance through expanded pores while maintaining ultrahigh selectivity."
+                }
+            },
+            {
+                "Molecule Name": "butane",
+                "Molecular Size": "4.4 x 4.7 Å (minimum cross section)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 11.5 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded by P4-1, P4-2, and P4-3 membranes."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Local size sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 11.5 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially selected over ethane due to smaller minimum cross-sectional area."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 11.5 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Few crossings observed; more transport probability than higher alkanes but far lower than ethylene."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Local size sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 11.5 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially selected over propane due to smaller minimum cross-sectional area."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 11.5 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded by P4-1, P4-2, and P4-3 membranes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Local size sieving mechanism contributes to the efficient separation of flexible alkane/alkene mixtures.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Molecular dynamics simulations, Density functional theory (DFT)",
+            "Performance Metrics": "C4H6/C4H10 selectivity: up to infinity, C4H6 permeance: up to 44.7 x 10^4 GPU"
+        },
+        "Other Information": {
+            "Additional Info": "Competitive adsorption enhances selective separation of alkane/alkene mixtures."
+        }
+    }
+]

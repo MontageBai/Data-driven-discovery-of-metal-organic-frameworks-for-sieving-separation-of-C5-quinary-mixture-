@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Co3(HCOO)6",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "5.5 Å",
+            "Structure Type": "1D zigzag channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "formate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption and diffusion",
+                "Other Information": {
+                    "Test Conditions": "0–60 °C, pressure drop of 0.5 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher quadrupole moment facilitates stronger interaction with the framework."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "0–60 °C, pressure drop of 0.5 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Bulkier size hinders diffusion through the micropores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective adsorption and molecular sieving based on pore size and shape",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Binary gas permeation experiments and in situ IR spectroscopy",
+            "Performance Metrics": "CO2/CH4 selectivity: 10.37–15.95, CO2 permeance: up to 2.09 × 10⁻⁶ mol m⁻² s⁻¹ Pa⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane shows high thermal and mechanical stability, retains separation performance over 24 hours."
+        }
+    }
+]

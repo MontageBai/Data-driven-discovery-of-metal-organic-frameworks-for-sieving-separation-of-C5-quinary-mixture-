@@ -1,0 +1,164 @@
+[
+    {
+        "Materials Name": "ZnO@ZIF-8 NRAs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (nominal), ~4 Å (effective)",
+            "Structure Type": "SOD zeolite-type"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 K, various concentrations up to 200 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Response similar to uncoated ZnO NRAs"
+                }
+            },
+            {
+                "Molecule Name": "ammonia",
+                "Molecular Size": "2.90 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 K, various concentrations up to 200 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Response similar to uncoated ZnO NRAs"
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "4.53 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 K, various concentrations up to 200 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly reduced response compared to uncoated ZnO NRAs"
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "4.60 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 K, various concentrations up to 50 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly reduced response compared to uncoated ZnO NRAs"
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "5.85 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 K, various concentrations up to 200 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No response observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sensing measurements",
+            "Performance Metrics": "Improved selectivity for H2 over ethanol and acetone"
+        },
+        "Other Information": {
+            "Additional Info": "Core-shell structure with ZnO nanorods as core"
+        }
+    },
+    {
+        "Materials Name": "ZnO@ZIF-71 NRAs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "4.8 Å (nominal), 4.8-5.4 Å (effective)",
+            "Structure Type": "RHO zeolite-type"
+        },
+        "Topology": "rho",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4,5-dichloroimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 K, various concentrations up to 200 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Response similar to uncoated ZnO NRAs"
+                }
+            },
+            {
+                "Molecule Name": "ammonia",
+                "Molecular Size": "2.90 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 K, various concentrations up to 200 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Response similar to uncoated ZnO NRAs"
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "4.53 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pre-concentration effect",
+                "Other Information": {
+                    "Test Conditions": "250 K, various concentrations up to 200 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced response compared to uncoated ZnO NRAs"
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "4.60 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pre-concentration effect",
+                "Other Information": {
+                    "Test Conditions": "250 K, various concentrations up to 50 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced response compared to uncoated ZnO NRAs"
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "5.85 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 K, various concentrations up to 200 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No response observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sensing measurements",
+            "Performance Metrics": "Enhanced response to ethanol and acetone compared to benzene"
+        },
+        "Other Information": {
+            "Additional Info": "Core-shell structure with ZnO nanorods as core"
+        }
+    }
+]

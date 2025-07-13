@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MIL-53(Cr)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 Å (NP form), 12.8 Å (LP form)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "300 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Relatively high affinity between CO2 and μ2-OH groups present at the pore wall of the MOF."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "300 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The kinetic diameter of methane (3.8 Å) is larger than the pore size of the NP form (3.5 Å), leading to a size exclusion effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Hybrid osmotic Monte Carlo simulations",
+            "Performance Metrics": "Almost infinite selectivity for CO2/CH4 mixture"
+        },
+        "Other Information": {
+            "Additional Info": "The application of an electrical field (2.0 V/nm) induces structural closing of both the empty and guest-loaded MIL-53(Cr) LP form, maintaining it in the NP form during adsorption to selectively capture CO2 over CH4 via a size exclusion effect."
+        }
+    }
+]

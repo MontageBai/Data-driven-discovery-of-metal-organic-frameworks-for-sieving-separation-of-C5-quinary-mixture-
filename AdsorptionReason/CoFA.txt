@@ -1,0 +1,87 @@
+MOF Name: CoFA
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CoFA:
+- Perfluoropropane: 7.468×5.147×4.967 → Intermediate = 5.147 Å | Not Adsorbed (Reason: Size exclusion due to pore size smaller than C3F8 kinetic diameter).
+Based on this experimental observation and the principle that the intermediate dimension determines passage, the effective pore size of CoFA is inferred to be less than 5.147 Å, as perfluoropropane (intermediate dimension 5.147 Å) is explicitly excluded by size. The note about "pore size (~5.6 Å) smaller than C3F8 kinetic diameter" is noted, but given the instruction to use the intermediate dimension for exclusion, the effective pore size is constrained by the excluded molecule's intermediate dimension.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is greater than the inferred effective pore size of CoFA (< 5.147 Å), it cannot be adsorbed by CoFA due to size exclusion.
+
+---
+
+MOF Name: CoFA
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CoFA:
+- Perfluoropropane: 7.468×5.147×4.967 → Intermediate = 5.147 Å | Not Adsorbed (Reason: Size exclusion due to pore size smaller than C3F8 kinetic diameter).
+Based on this experimental observation, the effective pore size of CoFA is inferred to be less than 5.147 Å, as perfluoropropane (intermediate dimension 5.147 Å) is explicitly excluded by size.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is greater than the inferred effective pore size of CoFA (< 5.147 Å), it cannot be adsorbed by CoFA due to size exclusion.
+
+---
+
+MOF Name: CoFA
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CoFA:
+- Perfluoropropane: 7.468×5.147×4.967 → Intermediate = 5.147 Å | Not Adsorbed (Reason: Size exclusion due to pore size smaller than C3F8 kinetic diameter).
+Based on this experimental observation, the effective pore size of CoFA is inferred to be less than 5.147 Å, as perfluoropropane (intermediate dimension 5.147 Å) is explicitly excluded by size. This means CoFA can only adsorb molecules with an intermediate dimension smaller than 5.147 Å.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is less than the intermediate dimension of the excluded perfluoropropane (5.147 Å), it is geometrically possible for 1-pentene to be adsorbed by CoFA.
+
+---
+
+MOF Name: CoFA
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CoFA:
+- Perfluoropropane: 7.468×5.147×4.967 → Intermediate = 5.147 Å | Not Adsorbed (Reason: Size exclusion due to pore size smaller than C3F8 kinetic diameter).
+Based on this experimental observation, the effective pore size of CoFA is inferred to be less than 5.147 Å, as perfluoropropane (intermediate dimension 5.147 Å) is explicitly excluded by size. This means CoFA can only adsorb molecules with an intermediate dimension smaller than 5.147 Å.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is less than the intermediate dimension of the excluded perfluoropropane (5.147 Å), it is geometrically possible for trans-2-pentene to be adsorbed by CoFA.
+
+---
+
+MOF Name: CoFA
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CoFA:
+- Perfluoropropane: 7.468×5.147×4.967 → Intermediate = 5.147 Å | Not Adsorbed (Reason: Size exclusion due to pore size smaller than C3F8 kinetic diameter).
+Based on this experimental observation, the effective pore size of CoFA is inferred to be less than 5.147 Å, as perfluoropropane (intermediate dimension 5.147 Å) is explicitly excluded by size. This means CoFA can only adsorb molecules with an intermediate dimension smaller than 5.147 Å.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is less than the intermediate dimension of the excluded perfluoropropane (5.147 Å), it is geometrically possible for n-pentane to be adsorbed by CoFA.

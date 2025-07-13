@@ -1,0 +1,52 @@
+[
+    {
+        "Materials Name": "Zr-IMAC@MCM-48",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "2.5 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "APTES",
+            "glutaraldehyde",
+            "AMPA"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "proteins",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, serum samples",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Proteins are excluded due to size exclusion nature of mesopores."
+                }
+            },
+            {
+                "Molecule Name": "endogenous phosphopeptides",
+                "Molecular Size": "MW range: 1200-5000 Da",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Specific chelation with Zr4+",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, serum samples",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Endogenous phosphopeptides are enriched via specific Zr4+-phosphate interaction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with Zr4+-based specific enrichment",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF analysis, SDS-PAGE, nanoRPLC-MS/MS",
+            "Performance Metrics": "329 endogenous phosphopeptides identified; Enrichment specificity: 61%"
+        },
+        "Other Information": {
+            "Additional Info": "The material combines mesopore-based size-exclusion and Zr-IMAC-based specific enrichment for simplified endogenous phosphopeptidomics analysis."
+        }
+    }
+]

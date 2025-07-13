@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ana-ZMOF",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8–6.2 Å",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "srs-nets",
+        "Metal Nodes": [
+            "Y3+"
+        ],
+        "Ligands": [
+            "imidazole-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Sorption-driven separation",
+                "Other Information": {
+                    "Test Conditions": "20 PSI, 35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reverse selectivity observed for CO2 over H2."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption-driven",
+                "Other Information": {
+                    "Test Conditions": "20 PSI, 35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeation blocked by adsorbed CO2 in mixtures."
+                }
+            },
+            {
+                "Molecule Name": "butane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion-driven",
+                "Other Information": {
+                    "Test Conditions": "20 PSI, variable temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability increases with temperature."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "4.9 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 PSI, variable temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked due to larger kinetic diameter than pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Single and mixed gas permeation experiments",
+            "Performance Metrics": "CO2/H2 selectivity: 88 (35 °C), C4/i-C4 selectivity: 55"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane exhibits high chemical and thermal stability, retains performance after a year of air exposure."
+        }
+    }
+]

@@ -1,0 +1,225 @@
+[
+    {
+        "Materials Name": "UiO-66 and UiO-67",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Zr-based MOFs are acid resistant and have high thermal stability."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Enrichment of phosphopeptides followed by MS analysis",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Zr–O clusters have affinity for phosphoric groups present in phosphates or phosphonates."
+        }
+    },
+    {
+        "Materials Name": "Fe3O4@MIL-100(Fe)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "Trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "IMAC methodology",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Used for the enrichment of phosphopeptides."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Enrichment of phosphopeptides followed by MS analysis",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Dual-functionalized magnetic zirconium-based metal-organic framework (DFMMOF)."
+        }
+    },
+    {
+        "Materials Name": "MIL-101(Cr)-UR2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "Ethyl isocyanate",
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Urea-decorated surface facilitates binding",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Modified urea groups on MOF enhance phosphopeptide enrichment."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Enrichment of phosphopeptides followed by MS analysis",
+            "Performance Metrics": "High surface area (1253 m² g⁻¹)"
+        },
+        "Other Information": {
+            "Additional Info": "Weaker crystallinity compared to unmodified MIL-101(Cr)."
+        }
+    },
+    {
+        "Materials Name": "Fe3O4@PDA@Zr-MOF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Core-shell"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophilic interactions and ZrO2 affinity",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Simultaneous enrichment of glycopeptides and phosphopeptides."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Enrichment of phosphopeptides followed by MS analysis",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Improved hydrophilicity and magnetic response."
+        }
+    },
+    {
+        "Materials Name": "MIL-100(Fe)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D crystalline"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "Trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "polycyclic aromatic hydrocarbons",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "UV absorption facilitates desorption/ionization",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Used as a SALDI matrix for PAHs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "SALDI-MS analysis",
+            "Performance Metrics": "Higher signal-to-noise ratio"
+        },
+        "Other Information": {
+            "Additional Info": "Avoids shadow effect common in porous materials."
+        }
+    },
+    {
+        "Materials Name": "Fe3O4@PDA@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Core-shell"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "low-abundance peptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and hydrophilic interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excludes large-sized proteins while enriching low-abundance peptides."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-MS analysis",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Polydopamine coating improves hydrophilicity."
+        }
+    }
+]

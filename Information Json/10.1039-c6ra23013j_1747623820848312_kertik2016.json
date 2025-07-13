@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn(II)"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Increased permeability observed with non-dried ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slight decrease in selectivity compared to unmodified polymer."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Intrinsic framework flexibility of ZIF-8 allows faster diffusion of both gases.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2 permeability tripled; Selectivity decreased from 22.3 to 18.6."
+        },
+        "Other Information": {
+            "Additional Info": "Non-dried ZIF-8 particles show improved performance without sacrificing intrinsic polymer permeability."
+        }
+    },
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn(II)"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Small increase in permeability and selectivity compared to unmodified polymer."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Improved selectivity due to smaller pore aperture compared to ZIF-8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Smaller pore aperture results in better selectivity for CO2 over CH4.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Selectivity increased over unfilled Matrimid®; small increase in permeability."
+        },
+        "Other Information": {
+            "Additional Info": "Non-dried ZIF-7 shows enhanced selectivity without significant loss in permeability."
+        }
+    },
+    {
+        "Materials Name": "NH2-MIL-53(Al)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al(III)"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No significant increase in permeability due to narrow pore (np) form preferred at low CO2 pressures."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Small increase in selectivity observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Breathing behavior allows switching between narrow pore (np) and large pore (lp) structures.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "No change in permeability; small increase in selectivity."
+        },
+        "Other Information": {
+            "Additional Info": "Non-dried NH2-MIL-53(Al) shows improved selectivity without sacrificing intrinsic polymer permeability."
+        }
+    }
+]

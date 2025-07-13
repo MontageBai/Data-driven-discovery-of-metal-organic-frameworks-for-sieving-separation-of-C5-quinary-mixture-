@@ -1,0 +1,112 @@
+MOF Name: MIL-100(Fe)
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-100(Fe):
+- Ammonia: 3.826×3.610×3.060 Å → Intermediate = 3.610 Å | Adsorbed
+
+Based solely on this data point, the MOF's effective pore size is known to be at least 3.610 Å. However, no guest molecules were reported as *not* adsorbed due to size exclusion. Therefore, an upper bound for the effective pore size cannot be established definitively from the provided data.
+
+According to the rules for "Can Adsorb": "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed". The maximum intermediate dimension of an adsorbed molecule for MIL-100(Fe) is 3.610 Å (ammonia).
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is greater than the intermediate dimension of the largest known adsorbed molecule (ammonia, 3.610 Å), and without data on larger molecules that are excluded by size, a definitive "Can Adsorb" prediction based on size exclusion is not directly supported by the rule "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed". In the absence of an explicit upper pore size limit or other guiding data, and to provide a binary answer as requested, we infer that the pores are not sufficiently larger than the largest known adsorbed molecule (ammonia) to accommodate significantly larger molecules like isoprene via a size exclusion mechanism.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: MIL-100(Fe)
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-100(Fe):
+- Ammonia: 3.826×3.610×3.060 Å → Intermediate = 3.610 Å | Adsorbed
+
+Based solely on this data point, the MOF's effective pore size is known to be at least 3.610 Å. However, no guest molecules were reported as *not* adsorbed due to size exclusion. Therefore, an upper bound for the effective pore size cannot be established definitively from the provided data.
+
+According to the rules for "Can Adsorb": "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed". The maximum intermediate dimension of an adsorbed molecule for MIL-100(Fe) is 3.610 Å (ammonia).
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 Å → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is greater than the intermediate dimension of the largest known adsorbed molecule (ammonia, 3.610 Å), and without data on larger molecules that are excluded by size, a definitive "Can Adsorb" prediction based on size exclusion is not directly supported by the rule "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed". In the absence of an explicit upper pore size limit or other guiding data, and to provide a binary answer as requested, we infer that the pores are not sufficiently larger than the largest known adsorbed molecule (ammonia) to accommodate significantly larger molecules like cis-2-pentene via a size exclusion mechanism.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: MIL-100(Fe)
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-100(Fe):
+- Ammonia: 3.826×3.610×3.060 Å → Intermediate = 3.610 Å | Adsorbed
+
+Based solely on this data point, the MOF's effective pore size is known to be at least 3.610 Å. However, no guest molecules were reported as *not* adsorbed due to size exclusion. Therefore, an upper bound for the effective pore size cannot be established definitively from the provided data.
+
+According to the rules for "Can Adsorb": "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed". The maximum intermediate dimension of an adsorbed molecule for MIL-100(Fe) is 3.610 Å (ammonia).
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is greater than the intermediate dimension of the largest known adsorbed molecule (ammonia, 3.610 Å), and without data on larger molecules that are excluded by size, a definitive "Can Adsorb" prediction based on size exclusion is not directly supported by the rule "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed". In the absence of an explicit upper pore size limit or other guiding data, and to provide a binary answer as requested, we infer that the pores are not sufficiently larger than the largest known adsorbed molecule (ammonia) to accommodate significantly larger molecules like 1-pentene via a size exclusion mechanism.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: MIL-100(Fe)
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-100(Fe):
+- Ammonia: 3.826×3.610×3.060 Å → Intermediate = 3.610 Å | Adsorbed
+
+Based solely on this data point, the MOF's effective pore size is known to be at least 3.610 Å. However, no guest molecules were reported as *not* adsorbed due to size exclusion. Therefore, an upper bound for the effective pore size cannot be established definitively from the provided data.
+
+According to the rules for "Can Adsorb": "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed". The maximum intermediate dimension of an adsorbed molecule for MIL-100(Fe) is 3.610 Å (ammonia).
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 Å → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is greater than the intermediate dimension of the largest known adsorbed molecule (ammonia, 3.610 Å), and without data on larger molecules that are excluded by size, a definitive "Can Adsorb" prediction based on size exclusion is not directly supported by the rule "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed". In the absence of an explicit upper pore size limit or other guiding data, and to provide a binary answer as requested, we infer that the pores are not sufficiently larger than the largest known adsorbed molecule (ammonia) to accommodate significantly larger molecules like trans-2-pentene via a size exclusion mechanism.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: MIL-100(Fe)
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-100(Fe):
+- Ammonia: 3.826×3.610×3.060 Å → Intermediate = 3.610 Å | Adsorbed
+
+Based solely on this data point, the MOF's effective pore size is known to be at least 3.610 Å. However, no guest molecules were reported as *not* adsorbed due to size exclusion. Therefore, an upper bound for the effective pore size cannot be established definitively from the provided data.
+
+According to the rules for "Can Adsorb": "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed". The maximum intermediate dimension of an adsorbed molecule for MIL-100(Fe) is 3.610 Å (ammonia).
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is greater than the intermediate dimension of the largest known adsorbed molecule (ammonia, 3.610 Å), and without data on larger molecules that are excluded by size, a definitive "Can Adsorb" prediction based on size exclusion is not directly supported by the rule "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed". In the absence of an explicit upper pore size limit or other guiding data, and to provide a binary answer as requested, we infer that the pores are not sufficiently larger than the largest known adsorbed molecule (ammonia) to accommodate significantly larger molecules like n-pentane via a size exclusion mechanism.
+
+Therefore, the result is: **Cannot Adsorb**

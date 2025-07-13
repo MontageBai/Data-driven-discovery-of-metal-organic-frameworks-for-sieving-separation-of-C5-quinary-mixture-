@@ -1,0 +1,208 @@
+[
+    {
+        "Materials Name": "DiaMM-1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "7.5 Å, 9.1 Å (cavity diameters), 8.0 Å (triangular windows)",
+            "Structure Type": "3D diamondoid network"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn4(μ4-O)6+"
+        ],
+        "Ligands": [
+            "N,N’-di(p-tolyl)formamidine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Linear alkanes interact weaker with pore walls."
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "5.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Branched alkanes interact stronger with pore walls."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "5.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Branched alkanes interact stronger with pore walls."
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "5.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential lodging within tetrahedral cages."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "6.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential lodging within tetrahedral cages."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "5.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Looser arrangement in pores compared to cyclohexane."
+                }
+            },
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "6.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stronger interaction with microporous network."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Reverse hierarchical separation based on molecular size and shape",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Static adsorption isotherms, variable temperature pulse gas chromatography, breakthrough experiments, computational modelling",
+            "Performance Metrics": "Adsorption enthalpy: 25-46 kJ/mol, Diffusion coefficients: 1.54 × 10^-8 m²/s to 2.05 × 10^-8 m²/s at 370 K"
+        },
+        "Other Information": {
+            "Additional Info": "Permanent porosity with 36.8% void fraction, thermal stability up to 473 K, BET surface area of 831 m²/cm³."
+        }
+    },
+    {
+        "Materials Name": "DiaMM-2",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "7.2 Å, 8.8 Å (cavity diameters), 8.0 Å (triangular windows)",
+            "Structure Type": "3D diamondoid network"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn4(μ4-O)6+"
+        ],
+        "Ligands": [
+            "N,N'-bis(p-(trifluoromethyl)phenyl)formamidine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Linear alkanes interact weaker with pore walls."
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "5.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Branched alkanes interact stronger with pore walls."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "5.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Branched alkanes interact stronger with pore walls."
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "5.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential lodging within tetrahedral cages."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "6.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential lodging within tetrahedral cages."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "5.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Looser arrangement in pores compared to cyclohexane."
+                }
+            },
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "6.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stronger interaction with microporous network."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Reverse hierarchical separation based on molecular size and shape",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Static adsorption isotherms, variable temperature pulse gas chromatography, breakthrough experiments, computational modelling",
+            "Performance Metrics": "Adsorption enthalpy: 25-46 kJ/mol, Diffusion coefficients: faster than DiaMM-1, separation 6x faster than UiO-66 system"
+        },
+        "Other Information": {
+            "Additional Info": "Permanent porosity with 35.5% void fraction, thermal stability up to 600 K, BET surface area of 904 m²/cm³."
+        }
+    }
+]

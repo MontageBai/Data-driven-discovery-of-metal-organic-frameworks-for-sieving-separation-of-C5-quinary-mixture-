@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "ZSM-25-K",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å (effective pore diameter of 8 MR windows)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Im-3 m",
+        "Metal Nodes": [
+            "K+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving and chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, up to 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of 3.3 mmol/g at 100 kPa and 77 K."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving and chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, up to 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of 2.5 mmol/g at 100 kPa and 77 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combined kinetic quantum sieving and chemical affinity quantum sieving",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms, dual-site Langmuir model fitting, IAST selectivity calculation, breakthrough simulation",
+            "Performance Metrics": "D2/H2 kinetic selectivity of 4.6 at 7 kPa and 77 K; D2/H2 IAST selectivity of 3.0 at 100 kPa and 77 K."
+        },
+        "Other Information": {
+            "Additional Info": "Na+ cations block access while K+ cations allow passage. The blocking effect increases with Na+ concentration."
+        }
+    },
+    {
+        "Materials Name": "ZSM-25-Na",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å (effective pore diameter of 8 MR windows)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Im-3 m",
+        "Metal Nodes": [
+            "Na+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Blocking effect of Na+ cations",
+                "Other Information": {
+                    "Test Conditions": "77 K, up to 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake (< 0.1 mmol/g) at 100 kPa and 77 K."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Blocking effect of Na+ cations",
+                "Other Information": {
+                    "Test Conditions": "77 K, up to 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake (< 0.1 mmol/g) at 100 kPa and 77 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Blocking effect of Na+ cations",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "Near zero adsorption uptake for both H2 and D2 at 77 K."
+        },
+        "Other Information": {
+            "Additional Info": "Na+ cations fully block the adsorption of H2 and D2 at cryogenic temperatures."
+        }
+    }
+]

@@ -1,0 +1,115 @@
+[
+    {
+        "MOF Name": "ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "4.2 to 6.2 Å",
+            "Structure Type": "Rigid nanoporous framework host"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glyceryl triacetate (GT)",
+                "Molecular Size": "7.36 Å (DVDW)",
+                "Can Pass Sieving": "Time-dependent",
+                "Mechanism": "Partial infiltration, influenced by large effective cluster size and low anisotropy, leading to greater size-exclusion compared to other solvents.",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature (23 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low initial sorption (5-15%) that increased monotonically over 21 days. Predicted sorption fraction: 0.226. Average cluster Rmax: 32.1 Å. Cluster anisotropy (κ2): 0.268."
+                }
+            },
+            {
+                "Molecule Name": "glycerol tributyrate (GB)",
+                "Molecular Size": "8.42 Å (DVDW)",
+                "Can Pass Sieving": "Time-dependent",
+                "Mechanism": "Partial infiltration, influenced by effective cluster size and low anisotropy.",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature (23 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate initial sorption (20-40%), dramatically increased at 3 days, then stabilized by day six. Predicted sorption fraction: 0.433. Average cluster Rmax: 22.2 Å. Cluster anisotropy (κ2): 0.241."
+                }
+            },
+            {
+                "Molecule Name": "2′-hydroxyacetophenone (2HAP)",
+                "Molecular Size": "6.30 Å (DVDW)",
+                "Can Pass Sieving": "Time-dependent",
+                "Mechanism": "Partial infiltration, influenced by intermolecular hydrogen bonding leading to cluster formation.",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature (23 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low initial sorption (5-15%) that increased monotonically over 21 days. Predicted sorption fraction: 0.333. Average cluster Rmax: 28.0 Å. Cluster anisotropy (κ2): 0.366."
+                }
+            },
+            {
+                "Molecule Name": "acetophenone (AP)",
+                "Molecular Size": "6.15 Å (DVDW)",
+                "Can Pass Sieving": "Time-dependent",
+                "Mechanism": "Significant infiltration due to high cluster anisotropy and relatively small cluster Rmax, allowing easier passage.",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature (23 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate initial sorption (20-40%), dramatically increased at 3 days, then stabilized by day six. Had the highest predicted sorption fraction: 0.618. Average cluster Rmax: 6.8 Å. Cluster anisotropy (κ2): 0.472."
+                }
+            },
+            {
+                "Molecule Name": "methylbenzoate (MB)",
+                "Molecular Size": "6.30 Å (DVDW)",
+                "Can Pass Sieving": "Time-dependent",
+                "Mechanism": "Partial infiltration, influenced by cluster anisotropy and Rmax.",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature (23 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate initial sorption (20-40%), dramatically increased at 3 days, then stabilized by day six. Predicted sorption fraction: 0.447. Average cluster Rmax: 26.2 Å. Cluster anisotropy (κ2): 0.471."
+                }
+            },
+            {
+                "Molecule Name": "15-crown-5 (15C5)",
+                "Molecular Size": "7.41 Å (DVDW)",
+                "Can Pass Sieving": "Time-dependent",
+                "Mechanism": "Partial infiltration facilitated by molecular flexibility allowing effective size reduction to fit pores, despite large nominal size, and relatively low anisotropy.",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature (23 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger initial sorption that remained stable over 21 days. Predicted sorption fraction: 0.504. Majority of its Rmax values (average 16.6 Å) fall within ZIF-8 pore aperture range. Cluster anisotropy (κ2): 0.261."
+                }
+            },
+            {
+                "Molecule Name": "tetraglyme (4G)",
+                "Molecular Size": "7.55 Å (DVDW)",
+                "Can Pass Sieving": "Time-dependent",
+                "Mechanism": "Significant infiltration due to high cluster anisotropy, allowing linear clusters to pass easily.",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature (23 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger initial sorption that remained stable over 21 days. Had the highest predicted sorption fraction: 0.599. Average cluster Rmax: 15.1 Å. Cluster anisotropy (κ2): 0.523."
+                }
+            },
+            {
+                "Molecule Name": "dimethyl isosorbide (DMI)",
+                "Molecular Size": "6.70 Å (DVDW)",
+                "Can Pass Sieving": "Time-dependent",
+                "Mechanism": "Partial infiltration, influenced by cluster properties.",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature (23 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate initial sorption (20-40%), dramatically increased at 3 days, then stabilized by day six. Predicted sorption fraction: 0.523. Average cluster Rmax: 16.3 Å. Cluster anisotropy (κ2): 0.365."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving influenced by effective solvent size and shape due to solvent clustering and molecular flexibility, demonstrating a departure from simple single-molecule size exclusion.",
+        "Experimental Validation": {
+            "Method": "Density measurements (He pycnometry), Atomistic molecular dynamics (MD) simulations",
+            "Performance Metrics": "Experimental sorption fraction values (average from day 6-21) ranged from 0.147 (GT) to 0.644 (DMI). Model fit to experimental data showed R2 = 0.76. Fitted ZIF-8 pore aperture size (Rc) = 5.76 ± 0.55 Å."
+        },
+        "Other Information": {
+            "Additional Info": "Used as a sorbent material in Type 3 Porous Liquids (PLs). Infiltration of solvents into ZIF-8 pores indicates a kinetic limitation for solvent adsorption, leading to a time-dependent decrease in PL porosity."
+        }
+    }
+]

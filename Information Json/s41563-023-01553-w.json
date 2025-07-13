@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF glass foam",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate-type linkers"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong van der Waals interactions with unsaturated Zn2+ ions",
+                "Other Information": {
+                    "Test Conditions": "25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High permeance for methane due to undercoordinated Zn2+ ions."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion or weak interaction with unsaturated Zn2+ ions",
+                "Other Information": {
+                    "Test Conditions": "25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower affinity of the membrane for nitrogen compared to methane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and preferential interaction with unsaturated metal sites",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test",
+            "Performance Metrics": "CH4/N2 selectivity: 4–6, Extremely high methane permeance (two orders of magnitude higher than other membranes with similar CH4/N2 separation power)"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF glass foam membrane was prepared using a polymer-thermal-decomposition-assisted melting (PTDM) strategy. The material shows improved porosity and interconnectivity of ultra-micropores compared to conventional ZIF glasses."
+        }
+    }
+]

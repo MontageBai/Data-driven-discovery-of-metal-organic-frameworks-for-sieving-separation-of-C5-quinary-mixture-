@@ -1,0 +1,148 @@
+[
+    {
+        "Materials Name": "MOF-74-IM-10",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2,5-dioxido-1,4-benzenedicarboxylic acid",
+            "imidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 shows lower diffusion rates compared to D2 due to higher activation energy."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2 exhibits preferential adsorption on strong binding sites (OMS)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic effect of kinetic quantum sieving and chemical affinity quantum sieving.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Thermal desorption spectroscopy (TDS)",
+            "Performance Metrics": "Selectivity for D2 over H2: ~26 at 77 K; D2 uptake: 2.8 mmol/g."
+        },
+        "Other Information": {
+            "Additional Info": "Imidazole molecules act as a diffusion barrier, enhancing the separation of D2 from H2."
+        }
+    },
+    {
+        "Materials Name": "MOF-74-IM-38",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2,5-dioxido-1,4-benzenedicarboxylic acid",
+            "imidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 diffusion is limited by the presence of imidazole."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2 still shows preferential adsorption but with reduced selectivity due to fewer OMSs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic effect of kinetic quantum sieving and chemical affinity quantum sieving.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Thermal desorption spectroscopy (TDS)",
+            "Performance Metrics": "Selectivity for D2 over H2: ~5 at 77 K."
+        },
+        "Other Information": {
+            "Additional Info": "Higher imidazole content reduces the number of strong binding sites, diminishing the CAQS effect."
+        }
+    },
+    {
+        "Materials Name": "MOF-74-ac",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2,5-dioxido-1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 binds weakly to the open metal sites."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2 shows preferential adsorption on strong binding sites (OMS)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving (CAQS) via open metal sites.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Thermal desorption spectroscopy (TDS)",
+            "Performance Metrics": "Selectivity for D2 over H2: ~19 at 77 K."
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrates high selectivity due to preferential adsorption of D2 on strong binding sites."
+        }
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "CAU-21-ODB",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.6 Å",
+            "Structure Type": "1D gourd-shaped channels"
+        },
+        "Topology": "bcu-type network",
+        "Metal Nodes": [
+            "Al8"
+        ],
+        "Ligands": [
+            "4,4′-oxidibenzoate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 141 mg/g"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "5.0 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption observed"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "6.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "Complete exclusion of branched hexanes from n-hexane"
+        },
+        "Other Information": {
+            "Additional Info": "High stability under various conditions (water at 80 °C, 90% humidity, heated at 200 °C in open air). DFT calculations confirmed size-exclusion-based separation mechanism."
+        }
+    }
+]

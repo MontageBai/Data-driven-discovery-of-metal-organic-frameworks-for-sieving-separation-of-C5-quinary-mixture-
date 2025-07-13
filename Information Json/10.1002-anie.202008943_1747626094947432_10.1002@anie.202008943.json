@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-8 membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (crystallographic), 4.0~4.2 Å (effective)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "zinc ions"
+        ],
+        "Ligands": [
+            "2-methylimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.03 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 5.2×10^-9 mol m^-2 s^-1 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor: 190"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, gas permeation test",
+            "Performance Metrics": "C3H6/C3H8 selectivity: 190, C3H6 permeance: 5.2×10^-9 mol m^-2 s^-1 Pa^-1"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 membrane features dimethylacetamide (DMAc) entrapped in its cavities, enhancing adsorptive selectivity for propylene over propane."
+        }
+    }
+]

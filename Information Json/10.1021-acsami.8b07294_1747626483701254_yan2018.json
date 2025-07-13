@@ -1,0 +1,414 @@
+[
+    {
+        "Materials Name": "sPI-A-H",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.35 nm, 0.48 nm (ultramicropores)",
+            "Structure Type": "Amorphous aggregation structure with ultramicropores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake: 1.92 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake: 0.39 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H6 uptake: 1.59 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.48 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H8 uptake: 2.00 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "0.52 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-C4H10 uptake: 3.15 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption due to dipole-quadrupole interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6 uptake: 2.68 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "1,3-butadiene",
+                "Molecular Size": "0.52 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Preferential adsorption due to conjugated double bonds",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "1,3-C4H6 uptake: 4.64 mmol/g"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and molecular sieving based on pore size distribution",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and IAST calculations",
+            "Performance Metrics": "CO2/N2 selectivity: 65.7, CO2/CH4 selectivity: 21.0, C3H6/C3H8 selectivity: 3.0, 1,3-C4H6/1-C4H8 selectivity: 3.2"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows high affinity for molecules with higher critical temperatures and polarities, such as n-butane and 1,3-butadiene."
+        }
+    },
+    {
+        "Materials Name": "sPI-M-H",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.35 nm, 0.48 nm (ultramicropores)",
+            "Structure Type": "Amorphous aggregation structure with ultramicropores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake: 2.10 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake: 0.38 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H6 uptake: 1.49 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.48 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H8 uptake: 1.92 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "0.52 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-C4H10 uptake: 3.07 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption due to dipole-quadrupole interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6 uptake: 2.50 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "1,3-butadiene",
+                "Molecular Size": "0.52 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Preferential adsorption due to conjugated double bonds",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "1,3-C4H6 uptake: 4.79 mmol/g"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and molecular sieving based on pore size distribution",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and IAST calculations",
+            "Performance Metrics": "CO2/N2 selectivity: 105.0, CO2/CH4 selectivity: 26.0, C3H6/C3H8 selectivity: 2.4, 1,3-C4H6/1-C4H8 selectivity: 2.6"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits strong affinity for alkenes and larger hydrocarbons due to polarity and molecular size effects."
+        }
+    },
+    {
+        "Materials Name": "sPI-A-B",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.35 nm, 0.48 nm (ultramicropores)",
+            "Structure Type": "Amorphous aggregation structure with ultramicropores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake: 1.51 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake: 0.35 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H6 uptake: 1.33 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.48 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H8 uptake: 1.83 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "0.52 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-C4H10 uptake: 2.50 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption due to dipole-quadrupole interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6 uptake: 2.29 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "1,3-butadiene",
+                "Molecular Size": "0.52 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Preferential adsorption due to conjugated double bonds",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "1,3-C4H6 uptake: 3.64 mmol/g"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and molecular sieving based on pore size distribution",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and IAST calculations",
+            "Performance Metrics": "CO2/N2 selectivity: 68.4, CO2/CH4 selectivity: 18.4, C3H6/C3H8 selectivity: 1.8, 1,3-C4H6/1-C4H8 selectivity: 2.1"
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrates selective adsorption of larger hydrocarbons and conjugated alkenes."
+        }
+    },
+    {
+        "Materials Name": "sPI-M-B",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.35 nm, 0.48 nm (ultramicropores)",
+            "Structure Type": "Amorphous aggregation structure with ultramicropores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake: 1.73 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake: 0.31 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H6 uptake: 1.24 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.48 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H8 uptake: 1.73 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "0.52 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-C4H10 uptake: 2.16 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption due to dipole-quadrupole interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6 uptake: 2.31 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "1,3-butadiene",
+                "Molecular Size": "0.52 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Preferential adsorption due to conjugated double bonds",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "1,3-C4H6 uptake: 3.39 mmol/g"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and molecular sieving based on pore size distribution",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and IAST calculations",
+            "Performance Metrics": "CO2/N2 selectivity: 136.7, CO2/CH4 selectivity: 27.5, C3H6/C3H8 selectivity: 2.1, 1,3-C4H6/1-C4H8 selectivity: 2.0"
+        },
+        "Other Information": {
+            "Additional Info": "This material shows exceptionally high selectivity for CO2 over CH4 and N2, attributed to its ultrasmall pores and polarity."
+        }
+    }
+]

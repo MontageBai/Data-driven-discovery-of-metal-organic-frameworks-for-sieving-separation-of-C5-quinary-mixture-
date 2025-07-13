@@ -1,0 +1,105 @@
+[
+    {
+        "Materials Name": "UPC-80",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "12 Å × 18 Å (1D channel)",
+            "Structure Type": "3D networks with 4-fold interpenetration nets"
+        },
+        "Topology": "{6^5.8}",
+        "Metal Nodes": [
+            "Tb3+"
+        ],
+        "Ligands": [
+            "1,4-bis(5-carboxy-1H-benzimidazole-2-yl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong host–guest interactions via specific anchoring in binuclear cluster gaps",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest adsorption capacity observed among tested gases."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption at open metal sites with weaker affinity compared to acetylene",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower uptake than acetylene due to weaker interactions."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption at open metal sites with weaker affinity compared to acetylene",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower uptake than acetylene due to weaker interactions."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate adsorption capacity observed."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate adsorption capacity observed."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate adsorption capacity observed."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low adsorption capacity observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Specific C2H2 anchoring traps formed by 4-fold interpenetrated nets",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, GCMC simulations, DFT calculations",
+            "Performance Metrics": "C2H2/CO2 selectivity: 6.34, C2H2/C2H4 selectivity: 4.78, Normalized breakthrough time for C2H2/CO2: 16.7 min/g, Normalized breakthrough time for C2H2/C2H4: 15.8 min/g"
+        },
+        "Other Information": {
+            "Additional Info": "UPC-80 exhibits excellent recyclability and durability for C2H2/CO2 and C2H2/C2H4 separation."
+        }
+    }
+]

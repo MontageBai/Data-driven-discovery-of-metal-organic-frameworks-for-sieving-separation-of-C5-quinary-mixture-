@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "ZU-96",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.32 nm (minimum), 0.47 nm (quasi-maximal)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Ni(II)"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "TaOF5 2−"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "butadiene",
+                "Molecular Size": "0.431 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption uptake: 92.78 cm³·cm⁻³ at 100 kPa and 298 K."
+                }
+            },
+            {
+                "Molecule Name": "n-butene",
+                "Molecular Size": "0.446 nm",
+                "Can Pass Sieving": "Pressure-dependent",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "30 kPa",
+                    "Additional Info": "Adsorption uptake: 47.98 cm³·cm⁻³ at 100 kPa and 298 K."
+                }
+            },
+            {
+                "Molecule Name": "iso-butene",
+                "Molecular Size": "0.484 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption uptake: 4.45 cm³·cm⁻³ at 100 kPa and 298 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and gate-opening effect based on flexible pore size tuning",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C4H6/n-C4H8 selectivity: 76.23 at 50:15 kPa, C4H6/iso-C4H8 selectivity: 20.83 at 100:100 kPa"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits excellent stability up to 550 K and shows no decline in performance after 4 cycles of breakthrough experiments."
+        }
+    }
+]

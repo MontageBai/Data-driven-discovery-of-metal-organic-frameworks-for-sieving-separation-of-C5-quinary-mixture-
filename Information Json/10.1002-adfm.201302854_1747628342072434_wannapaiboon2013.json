@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "[Zn4O(mipcapz)3]n on [Zn4O(dmcapz)3]n",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5.1 Å (shell component), larger pore size in core component",
+            "Structure Type": "Core-shell structure with cubic crystallites"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "3-methyl-5-isopropyl-4-carboxypyrazole",
+            "3,5-dimethyl-4-carboxypyrazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, varying relative humidity",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption isotherm shows uptake similar to highly crystalline shell component."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, varying relative humidity",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethanol molecules are selectively adsorbed over isopropanol."
+                }
+            },
+            {
+                "Molecule Name": "isopropanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, varying relative humidity",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Isopropanol molecules are excluded due to the small pore window of the shell component."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale by the shell component's small pore opening",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Quartz crystal microbalance (QCM) sorption measurements",
+            "Performance Metrics": "Selective adsorption of methanol and ethanol over isopropanol; high degree of moisture tolerance"
+        },
+        "Other Information": {
+            "Additional Info": "Heterostructured MOF film exhibits hybrid functionality and excellent crystallinity of both core and shell components."
+        }
+    }
+]

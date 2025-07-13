@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "MIL-53-(2)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.49 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glutathione reduced",
+                "Molecular Size": "1.22 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Sieving effect, hydrogen bonding, p-π interaction, coordination effect",
+                "Other Information": {
+                    "Test Conditions": "25 °C, stirring speed of 100 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity was 88.91 mg/g; adsorption followed pseudo-second-order kinetics and Langmuir isotherm."
+                }
+            },
+            {
+                "Molecule Name": "bradykinin",
+                "Molecular Size": "1.74 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Surface adsorption, hydrophobic interaction",
+                "Other Information": {
+                    "Test Conditions": "25 °C, stirring speed of 100 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity was less than 15 mg/g due to larger molecular size compared to pore size."
+                }
+            },
+            {
+                "Molecule Name": "insulin from bovine pancreas",
+                "Molecular Size": "larger than glutathione reduced and bradykinin",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, stirring speed of 100 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No uptake observed due to large molecular size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments, FTIR, XPS",
+            "Performance Metrics": "Glutathione reduced adsorption capacity: 88.91 mg/g; excellent reusability and water stability."
+        },
+        "Other Information": {
+            "Additional Info": "Hydrogen bonding, sieving effect, p-π interaction, and coordination effects were involved in the adsorption process."
+        }
+    },
+    {
+        "Materials Name": "MIL-53@APT-(2)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.32 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glutathione reduced",
+                "Molecular Size": "1.22 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Sieving effect, hydrogen bonding, p-π interaction, coordination effect",
+                "Other Information": {
+                    "Test Conditions": "25 °C, stirring speed of 100 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity was 99.64 mg/g; adsorption followed pseudo-second-order kinetics and Langmuir isotherm."
+                }
+            },
+            {
+                "Molecule Name": "bradykinin",
+                "Molecular Size": "1.74 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Surface adsorption, hydrophobic interaction",
+                "Other Information": {
+                    "Test Conditions": "25 °C, stirring speed of 100 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity was less than 15 mg/g due to larger molecular size compared to pore size."
+                }
+            },
+            {
+                "Molecule Name": "insulin from bovine pancreas",
+                "Molecular Size": "larger than glutathione reduced and bradykinin",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, stirring speed of 100 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No uptake observed due to large molecular size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments, FTIR, XPS",
+            "Performance Metrics": "Glutathione reduced adsorption capacity: 99.64 mg/g; excellent reusability and water stability."
+        },
+        "Other Information": {
+            "Additional Info": "Introduction of attapulgite enhanced adsorption efficiency due to changes in microenvironment and composition."
+        }
+    }
+]

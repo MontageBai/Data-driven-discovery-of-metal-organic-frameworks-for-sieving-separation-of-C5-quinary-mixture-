@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "tp-PMBB-2-pcu-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.9 Å",
+            "Structure Type": "1D ultramicropores"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "nicotinate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "195 K, adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exhibits type I isotherm characteristic of microporous materials."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Does not adsorb N2 due to larger kinetic diameter and smaller quadrupolar moment."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-selective sieving between CO2 and N2",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sorption studies (CO2 and N2 adsorption)",
+            "Performance Metrics": "CO2/N2 selectivity: Extraordinarily high (exact value not reported)"
+        },
+        "Other Information": {
+            "Additional Info": "Material exhibits thermal and air/moisture stability suitable for gas sorption studies. Surface area calculated to be 186 m²/g by Langmuir fitting."
+        }
+    }
+]

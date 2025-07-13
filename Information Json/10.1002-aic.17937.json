@@ -1,0 +1,122 @@
+[
+    {
+        "Materials Name": "MoOFOUR-Co-tpb",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å (Channel C), 4.9 Å x 6.9 Å (Channel B), 5.5 Å x 7.4 Å (Channel A)",
+            "Structure Type": "3D gourd-shaped channels"
+        },
+        "Topology": "fsc",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "1,2,4,5-tetra(pyridin-4-yl) benzene",
+            "MoO4^2-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 136 mg/g, Channels A and B accessible"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "5.2 Å x 6.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 82.6 mg/g, Channel A accessible"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "6.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded by all channels"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dual pore-size sieving system",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, CBMC simulation, DFT calculations",
+            "Performance Metrics": "n-hexane/3-methylpentane selectivity: 30.2, 3-methylpentane/2,2-dimethylbutane uptake ratio: 6.8"
+        },
+        "Other Information": {
+            "Additional Info": "Stable after multiple cycling tests, retains structure after breakthrough experiments"
+        }
+    },
+    {
+        "Materials Name": "SiFSIX-Co-tpb",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.1 Å x 5.0 Å (Channel II), 6.2 Å x 7.5 Å (Channel I)",
+            "Structure Type": "Regular cubic subunits"
+        },
+        "Topology": "fsc",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "1,2,4,5-tetra(pyridin-4-yl) benzene",
+            "SiF6^2-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 128.5 mg/g"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "5.2 Å x 6.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 64.4 mg/g"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "6.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 59.6 mg/g"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Single pore-size sieving system",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, CBMC simulation, DFT calculations",
+            "Performance Metrics": "n-hexane/3-methylpentane selectivity: 7.8, 3-methylpentane/2,2-dimethylbutane uptake ratio: ~1.1"
+        },
+        "Other Information": {
+            "Additional Info": "Less effective in separating mono-branched and di-branched isomers"
+        }
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "copper",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Copper nanoparticles were encapsulated within UiO-66(Zr) using a double-solvent impregnation method followed by NaBH4 reduction. The resulting CuPd clusters were approximately 0.9 nm in size."
+                }
+            },
+            {
+                "Molecule Name": "palladium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Palladium nanoparticles were encapsulated within UiO-66(Zr) with sizes less than 1 nm."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CuPd@NH2-UiO-66(Zr) exhibited superior reactivity compared to Pd@NH2-UiO-66(Zr) and surface-deposited CuPd/NH2-UiO-66(Zr)"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF structure prevented aggregation of the metal nanoparticles and enhanced their catalytic activity."
+        }
+    },
+    {
+        "Materials Name": "MIL-101",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.9 nm and 3.4 nm (mesopores), accessible through windows of 1.2-1.6 nm",
+            "Structure Type": "Cage-like pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "gold",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "AuNi alloy nanoparticles were successfully confined within MIL-101 nanopores using a concentration-controlled reduction strategy."
+                }
+            },
+            {
+                "Molecule Name": "nickel",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ni atoms were deposited onto Pd nanoparticles via hydride-mediated reduction approach within MIL-101."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Electron microscopy, Catalytic testing",
+            "Performance Metrics": "Well-dispersed AuNi nanoparticles exhibited excellent catalytic efficiency in ammonia borane hydrolytic dehydrogenation"
+        },
+        "Other Information": {
+            "Additional Info": "MIL-101 features mesopores with diameters of approximately 2.9 nm and 3.4 nm, accessible only through pentagonal and hexagonal windows as small as 1.2–1.6 nm."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "platinum",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "PtO2 clusters were incorporated into ZIF-8 using a three-step process involving functionalized channels."
+                }
+            },
+            {
+                "Molecule Name": "nickel",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ni2Pt nanoparticles were encapsulated within ZIF-8 using a coreduction strategy."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "X-ray diffraction, Electron microscopy",
+            "Performance Metrics": "Ni2Pt@ZIF-8 achieved significantly higher hydrogen evolution rates compared to conventional Pt-based catalysts"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 has a robust three-dimensional structure with high thermal and chemical stability, large pore sizes, and high surface area."
+        }
+    }
+]

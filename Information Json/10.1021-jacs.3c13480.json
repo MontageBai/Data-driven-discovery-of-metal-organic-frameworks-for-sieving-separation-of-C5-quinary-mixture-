@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MAF-58",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.47 × 6.35 Å2 (narrowest), 3.83 × 6.76 Å2 (widest)",
+            "Structure Type": "1D zigzag pore channels"
+        },
+        "Topology": "pillared-chain structure",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "1H-imidazole-4,5-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "3.67 × 3.80 × 4.54 Å3",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective guest-induced pore opening and guest-coordination gating",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbed methanol molecules act as gating components to prevent diffusion of other molecules."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "6.63 × 7.34 × 3.28 Å3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to coordinated methanol blocking the aperture",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Benzene cannot pass through the small aperture (2.82 × 3.34 Å2) blocked by coordinated methanol."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective guest-induced pore opening combined with guest-coordination gating",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms, breakthrough experiments, GCMC simulations",
+            "Performance Metrics": "MeOH/Bz selectivity: ~10000, MeOH purity: 99.99%+, Bz purity: 99.97%+"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows ultrahigh MeOH/Bz selectivity and can be recycled without loss of performance."
+        }
+    }
+]

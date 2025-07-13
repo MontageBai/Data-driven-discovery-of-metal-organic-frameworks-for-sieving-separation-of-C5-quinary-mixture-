@@ -1,0 +1,414 @@
+[
+    {
+        "Materials Name": "DAT-MOF-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.71 Å × 7.08 Å",
+            "Structure Type": "3D framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "diaminotriazine core appended to a monocarboxylic acid linker"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π−π interactions with electron-deficient anhydride-based framework",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake amount: 1.5 mol kg−1"
+                }
+            },
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to pore size and weak interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake amount: 0.2 mol kg−1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments",
+            "Performance Metrics": "Selectivity for benzene over cyclohexane > 200 (IAST calculations)"
+        },
+        "Other Information": {
+            "Additional Info": "Electron-deficient triazine rings on pore walls enhance benzene selectivity."
+        }
+    },
+    {
+        "Materials Name": "[Zn2L2(DMF)2]n",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Dynamic 3D MOF"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "electron-deficient anhydride-core-based ditopic linker"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π−π interactions with electron-deficient framework",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake amount: about 1 molecule per formula unit"
+                }
+            },
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Negligible uptake due to lack of π−π interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Desolvated phase shows distinct benzene/cyclohexane separation."
+        }
+    },
+    {
+        "Materials Name": "M-MOF-74 (M = Mg, Mn, Fe, Co, Ni, Cu, Zn)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mg2+",
+            "Mn2+",
+            "Fe3+",
+            "Co2+",
+            "Ni2+",
+            "Cu2+",
+            "Zn2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Lewis base adduct formation with open metal sites",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Benzene uptake follows order: Mn-MOF-74 > Ni-MOF-74 > Mg-MOF-74 > Cu-MOF-74 > Zn-MOF-74 > Co-MOF-74 > Fe-MOF-74"
+                }
+            },
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and weak interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "IAST selectivity factor > 105"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments and IAST calculations",
+            "Performance Metrics": "Selectivity for benzene over cyclohexane > 105"
+        },
+        "Other Information": {
+            "Additional Info": "Open metal sites play a crucial role in benzene selectivity."
+        }
+    },
+    {
+        "Materials Name": "DynaMOF-100",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "flexible linker"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Restricted limiting allowance principle due to framework flexibility",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selective uptake of p-xylene over other xylene isomers"
+                }
+            },
+            {
+                "Molecule Name": "styrene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Specific non-covalent interactions between host MOF and styrene",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Greater selectivity than MIL-47(V), MIL-53(Al), MAF-X8, and BaX zeolite"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Framework flexibility drives selective adsorption of p-xylene and styrene."
+        }
+    },
+    {
+        "Materials Name": "UHMOF-100",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4′-{[3,5-bis(trifluoromethyl)phenyl]azanediyl}benzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Hydrophobic interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water contact angle: 176°"
+                }
+            },
+            {
+                "Molecule Name": "hexadecane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophobic interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Absorption capacity retained after 10 cycles"
+                }
+            },
+            {
+                "Molecule Name": "biodiesel",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophobic interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Absorption capacity retained after 10 cycles"
+                }
+            },
+            {
+                "Molecule Name": "crude oil",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophobic interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Absorption capacity retained after 10 cycles"
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophobic interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Absorption capacity retained after 10 cycles"
+                }
+            },
+            {
+                "Molecule Name": "carbon tetrachloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophobic interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Absorption capacity retained after 10 cycles"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Hydrophobic exclusion",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Absorption experiments",
+            "Performance Metrics": "Absorption capacities retained after 10 cycles"
+        },
+        "Other Information": {
+            "Additional Info": "Rich decoration of −CF3 moieties makes channels hydrophobic."
+        }
+    },
+    {
+        "Materials Name": "[{Zn(L)(MeOH)2(NO3)2·xG]n",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "neutral, flexible N-donor ligand L"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "SCN−",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Anion exchange",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Decrease in quantum yield observed"
+                }
+            },
+            {
+                "Molecule Name": "ClO4−",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Anion exchange",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Comparatively higher quantum yields observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Anion exchange mechanism",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Luminescence response",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Differential luminescent properties in response to different anions."
+        }
+    },
+    {
+        "Materials Name": "UiO-67@N",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-phenylpyridine-5,4′-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "2,4,6-trinitrophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interactions and electron/energy transfer",
+                "Other Information": {
+                    "Test Conditions": "Aqueous phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence quenching observed for TNP with high selectivity"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Electrostatic and electron/energy transfer",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Fluorescence quenching experiments",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Tertiary pyridyl groups impart selectivity for TNP molecules."
+        }
+    },
+    {
+        "Materials Name": "bio-MOF-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cyanide ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Nucleophilic attack by CN− ions",
+                "Other Information": {
+                    "Test Conditions": "Aqueous phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence quenching observed selectively for cyanide ions"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical reactivity with CN− ions",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Fluorescence response",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Free aldehyde groups converted to dicyanovinyl groups for sensing."
+        }
+    }
+]

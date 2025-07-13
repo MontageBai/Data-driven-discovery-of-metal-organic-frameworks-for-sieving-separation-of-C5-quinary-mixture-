@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZnO@ZIF-71⊃Ag",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "4.8 Å (original ZIF-71 pore size), reduced with Ag NP loading",
+            "Structure Type": "Core-shell nanorod arrays"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Weak sieving effect due to small molecular size",
+                "Other Information": {
+                    "Test Conditions": "150 ℃, gas sensing test",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Response to hydrogen increases with Ag NP loading."
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "4.60 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Prevented from passing due to larger molecular size",
+                "Other Information": {
+                    "Test Conditions": "150 ℃, gas sensing test",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Response to acetone decreases with Ag NP loading."
+                }
+            },
+            {
+                "Molecule Name": "ammonia",
+                "Molecular Size": "2.90 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Minimal impact on sieving observed",
+                "Other Information": {
+                    "Test Conditions": "Gas-sensing performance test",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Response to ammonia remains almost unchanged with Ag NP loading."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Reduced response indicates prevention of passage",
+                "Other Information": {
+                    "Test Conditions": "Gas-sensing performance test",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Response to hydrogen sulfide decreases greatly with Ag NP loading."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Encapsulation of Ag nanoparticles alters the pore characteristics, enabling selective gas adsorption.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Temperature Programmed Desorption (TPD), Gas-sensing measurement",
+            "Performance Metrics": "Increased hydrogen selectivity (response increased from 24% to 44%), decreased acetone selectivity (response reduced from 67% to 24%)"
+        },
+        "Other Information": {
+            "Additional Info": "Ag nanoparticles encapsulated into ZIF-71 via deposition-reduction method. Encapsulation modulates pore size and enhances hydrogen selectivity while reducing acetone interaction."
+        }
+    }
+]

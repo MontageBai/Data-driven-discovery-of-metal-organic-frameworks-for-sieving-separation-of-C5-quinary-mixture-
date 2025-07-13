@@ -1,0 +1,98 @@
+MOF Name: RPM3-Zn
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for RPM3-Zn:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Gate-opening effect)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate-opening effect)
+
+Inferred effective pore size of RPM3-Zn: The MOF exhibits a "gate-opening effect," which means its pores are flexible and can adjust to accommodate guest molecules. Based on the provided data, RPM3-Zn has been shown to adsorb molecules with intermediate dimensions up to at least 4.175 Å (ethane). Importantly, there are no reported non-adsorbed molecules due to size exclusion in the provided data that would define a rigid upper limit for the effective pore size. The mechanism being described as "Chain length-dependent gate-opening pressure for hydrocarbons" further suggests that the MOF's flexibility allows for the adsorption of hydrocarbons of varying chain lengths, potentially at different threshold pressures.
+
+Target Molecule Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since RPM3-Zn is known to exhibit a flexible "gate-opening effect" for hydrocarbons and no upper size exclusion limit has been identified from the provided experimental data, it is predicted that isoprene (intermediate dimension 6.093 Å) can be adsorbed. This adsorption would likely occur by inducing the gate-opening mechanism, which is observed for other hydrocarbons, potentially at a specific threshold pressure not specified for isoprene.
+
+
+MOF Name: RPM3-Zn
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for RPM3-Zn:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Gate-opening effect)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate-opening effect)
+
+Inferred effective pore size of RPM3-Zn: The MOF exhibits a "gate-opening effect," which means its pores are flexible and can adjust to accommodate guest molecules. Based on the provided data, RPM3-Zn has been shown to adsorb molecules with intermediate dimensions up to at least 4.175 Å (ethane). Importantly, there are no reported non-adsorbed molecules due to size exclusion in the provided data that would define a rigid upper limit for the effective pore size. The mechanism being described as "Chain length-dependent gate-opening pressure for hydrocarbons" further suggests that the MOF's flexibility allows for the adsorption of hydrocarbons of varying chain lengths, potentially at different threshold pressures.
+
+Target Molecule Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since RPM3-Zn is known to exhibit a flexible "gate-opening effect" for hydrocarbons and no upper size exclusion limit has been identified from the provided experimental data, it is predicted that cis-2-pentene (intermediate dimension 5.572 Å) can be adsorbed. This adsorption would likely occur by inducing the gate-opening mechanism, which is observed for other hydrocarbons, potentially at a specific threshold pressure not specified for cis-2-pentene.
+
+
+MOF Name: RPM3-Zn
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for RPM3-Zn:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Gate-opening effect)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate-opening effect)
+
+Inferred effective pore size of RPM3-Zn: The MOF exhibits a "gate-opening effect," which means its pores are flexible and can adjust to accommodate guest molecules. Based on the provided data, RPM3-Zn has been shown to adsorb molecules with intermediate dimensions up to at least 4.175 Å (ethane). Importantly, there are no reported non-adsorbed molecules due to size exclusion in the provided data that would define a rigid upper limit for the effective pore size. The mechanism being described as "Chain length-dependent gate-opening pressure for hydrocarbons" further suggests that the MOF's flexibility allows for the adsorption of hydrocarbons of varying chain lengths, potentially at different threshold pressures.
+
+Target Molecule Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since RPM3-Zn is known to exhibit a flexible "gate-opening effect" for hydrocarbons and no upper size exclusion limit has been identified from the provided experimental data, it is predicted that 1-pentene (intermediate dimension 4.995 Å) can be adsorbed. This adsorption would likely occur by inducing the gate-opening mechanism, which is observed for other hydrocarbons, potentially at a specific threshold pressure not specified for 1-pentene.
+
+
+MOF Name: RPM3-Zn
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for RPM3-Zn:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Gate-opening effect)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate-opening effect)
+
+Inferred effective pore size of RPM3-Zn: The MOF exhibits a "gate-opening effect," which means its pores are flexible and can adjust to accommodate guest molecules. Based on the provided data, RPM3-Zn has been shown to adsorb molecules with intermediate dimensions up to at least 4.175 Å (ethane). Importantly, there are no reported non-adsorbed molecules due to size exclusion in the provided data that would define a rigid upper limit for the effective pore size. The mechanism being described as "Chain length-dependent gate-opening pressure for hydrocarbons" further suggests that the MOF's flexibility allows for the adsorption of hydrocarbons of varying chain lengths, potentially at different threshold pressures.
+
+Target Molecule Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since RPM3-Zn is known to exhibit a flexible "gate-opening effect" for hydrocarbons and no upper size exclusion limit has been identified from the provided experimental data, it is predicted that trans-2-pentene (intermediate dimension 4.733 Å) can be adsorbed. This adsorption would likely occur by inducing the gate-opening mechanism, which is observed for other hydrocarbons, potentially at a specific threshold pressure not specified for trans-2-pentene.
+
+
+MOF Name: RPM3-Zn
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for RPM3-Zn:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Gate-opening effect)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate-opening effect)
+
+Inferred effective pore size of RPM3-Zn: The MOF exhibits a "gate-opening effect," which means its pores are flexible and can adjust to accommodate guest molecules. Based on the provided data, RPM3-Zn has been shown to adsorb molecules with intermediate dimensions up to at least 4.175 Å (ethane). Importantly, there are no reported non-adsorbed molecules due to size exclusion in the provided data that would define a rigid upper limit for the effective pore size. The mechanism being described as "Chain length-dependent gate-opening pressure for hydrocarbons" further suggests that the MOF's flexibility allows for the adsorption of hydrocarbons of varying chain lengths, potentially at different threshold pressures.
+
+Target Molecule Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since RPM3-Zn is known to exhibit a flexible "gate-opening effect" for hydrocarbons and no upper size exclusion limit has been identified from the provided experimental data, it is predicted that n-pentane (intermediate dimension 4.364 Å) can be adsorbed. This adsorption would likely occur by inducing the gate-opening mechanism, which is observed for other hydrocarbons, potentially at a specific threshold pressure not specified for n-pentane.

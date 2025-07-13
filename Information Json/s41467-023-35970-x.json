@@ -1,0 +1,278 @@
+[
+    {
+        "Materials Name": "MIL-53(MP)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 Å × 8.9 Å (1D channels)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "terephthalic acid (BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.68 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Conductivity and mobility close to bulk solution values."
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.72 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Conductivity and mobility close to bulk solution values."
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "0.78 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Conductivity and mobility close to bulk solution values."
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "0.82 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower conductivity compared to monovalent cations."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.86 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower conductivity compared to monovalent cations."
+                }
+            },
+            {
+                "Molecule Name": "aluminum",
+                "Molecular Size": "0.90 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest conductivity among tested ions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Flexible pore sizes allow rapid transport of hydrated monovalent cations.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I-V) measurements, drift-diffusion experiments, MD simulations",
+            "Performance Metrics": "Conductivities and mobilities reported for various ions."
+        },
+        "Other Information": {
+            "Additional Info": "MIL-53(MP) channels exhibit one to two orders of magnitude higher conductivities than Al-TCPP and UiO-66."
+        }
+    },
+    {
+        "Materials Name": "Al-TCPP",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "~8 Å (1D channels), ~6 Å (2D interlayer spaces)",
+            "Structure Type": "1D channels connected by 2D interlayers"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "5,10,15,20-tetrakis(4-carboxyphenyl) porphyrin (TCPP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.68 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower conductivity and mobility compared to MIL-53(MP)."
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.72 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower conductivity and mobility compared to MIL-53(MP)."
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "0.78 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower conductivity and mobility compared to MIL-53(MP)."
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "0.82 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly lower conductivity due to partial dehydration in 2D interlayers."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.86 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly lower conductivity due to partial dehydration in 2D interlayers."
+                }
+            },
+            {
+                "Molecule Name": "aluminum",
+                "Molecular Size": "0.90 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest conductivity among tested ions due to dehydration penalty."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Hybrid 1D and 2D pore structure causes size-dependent ion transport with dehydration effects.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I-V) measurements, drift-diffusion experiments, MD simulations",
+            "Performance Metrics": "One order of magnitude lower conductivities than MIL-53(MP)."
+        },
+        "Other Information": {
+            "Additional Info": "Ion capture by porphyrin rings reduces mobility further."
+        }
+    },
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "~6 Å (windows), ~9 Å (tetrahedral cavities), ~12 Å (octahedral cavities)",
+            "Structure Type": "3D channels with window-cavity structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid (BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.68 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Two orders of magnitude lower conductivity than MIL-53(MP)."
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.72 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Two orders of magnitude lower conductivity than MIL-53(MP)."
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "0.78 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Two orders of magnitude lower conductivity than MIL-53(MP)."
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "0.82 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low conductivity due to multiple dehydration-rehydration steps."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.86 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low conductivity due to multiple dehydration-rehydration steps."
+                }
+            },
+            {
+                "Molecule Name": "aluminum",
+                "Molecular Size": "0.90 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest conductivity due to severe dehydration penalty."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Window-cavity structure induces continuous dehydration-rehydration cycles, resulting in very low ion conductivities.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I-V) measurements, drift-diffusion experiments, MD simulations",
+            "Performance Metrics": "Two orders of magnitude lower conductivities than MIL-53(MP)."
+        },
+        "Other Information": {
+            "Additional Info": "Better ion sieving properties than 1D and 2D MOF channels."
+        }
+    }
+]

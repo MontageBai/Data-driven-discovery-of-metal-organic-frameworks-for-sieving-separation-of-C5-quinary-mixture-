@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "Al-fumarate mixed matrix membranes (Al-fu MMMs)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.57 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "fumarate acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption and facilitated transport through constructed channels",
+                "Other Information": {
+                    "Test Conditions": "40 °C, feed composition: 20/80 wt% methanol/dimethyl carbonate",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The Al-fu MMMs exhibited enhanced flux and separation factor due to the preferential adsorption of methanol and additional transport pathways provided by Al-fu particles."
+                }
+            },
+            {
+                "Molecule Name": "dimethyl carbonate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Solution-diffusion mechanism with lower affinity compared to methanol",
+                "Other Information": {
+                    "Test Conditions": "40 °C, feed composition: 20/80 wt% methanol/dimethyl carbonate",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Dimethyl carbonate permeability increased faster than methanol with temperature, affecting selectivity."
+                }
+            },
+            {
+                "Molecule Name": "ethyl acetate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Comparable pervaporation performance observed for methanol/ethyl acetate mixtures."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Comparable pervaporation performance observed for methanol/toluene mixtures."
+                }
+            },
+            {
+                "Molecule Name": "methyl tert-butyl ether",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved a separation factor of 83.3 with methanol content in permeate exceeding 95.42%."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with preferential adsorption of polar molecules",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Pervaporation experiments",
+            "Performance Metrics": "Flux: up to 1250 g·m−2·h−1; Separation factor: up to 83.3 for methanol/MTBE mixture"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane showed robust stability over 72 h of continuous operation and versatility in separating various methanol azeotropes."
+        }
+    }
+]

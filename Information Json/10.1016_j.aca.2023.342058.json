@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "mM-TiO2@Cys",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.6 nm, 16.3 nm",
+            "Structure Type": "Multiply-mesoporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti4+"
+        ],
+        "Ligands": [
+            "Cysteine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "immunoglobulin G",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, capturing reagent: ACN/H2O/TFA (90/8/2 v/v/v)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enrichment of N-glycopeptides from IgG digests"
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, molar ratio of IgG digests to BSA protein at 1/500/500",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exclusion of macromolecular proteins during enrichment"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS, Nano-LC-MS/MS",
+            "Performance Metrics": "281 N-glycopeptides identified from 2 μL serum digests of NPC patients; 181 N-glycopeptides identified from healthy volunteers"
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrated excellent selectivity, high sensitivity (1 fmol μL−1 for IgG digests), and good size-exclusion ability."
+        }
+    }
+]

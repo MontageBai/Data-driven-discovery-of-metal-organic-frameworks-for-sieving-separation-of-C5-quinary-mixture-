@@ -1,0 +1,117 @@
+MOF Name: CALF-35 (Sr2+)
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CALF-35 (Sr2+):
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon Dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorbed
+
+The largest intermediate dimension of an adsorbed molecule is 4.170 Å (Ethane). No molecules are reported as "Not Adsorbed" due to size exclusion.
+Therefore, the effective pore size of CALF-35 (Sr2+) is inferred to be at least **4.170 Å**. Given the "Size exclusion at sub-nanometer scale" mechanism, the pores are expected to be highly selective, and larger molecules are likely excluded.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than the largest known adsorbed molecule's intermediate dimension (Ethane, 4.170 Å). A difference of 1.923 Å is substantial in the context of sub-nanometer scale size exclusion. Thus, it is highly probable that isoprene cannot be adsorbed by CALF-35 (Sr2+).
+
+---
+
+MOF Name: CALF-35 (Sr2+)
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CALF-35 (Sr2+):
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon Dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorbed
+
+The largest intermediate dimension of an adsorbed molecule is 4.170 Å (Ethane). No molecules are reported as "Not Adsorbed" due to size exclusion.
+Therefore, the effective pore size of CALF-35 (Sr2+) is inferred to be at least **4.170 Å**. Given the "Size exclusion at sub-nanometer scale" mechanism, the pores are expected to be highly selective, and larger molecules are likely excluded.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the largest known adsorbed molecule's intermediate dimension (Ethane, 4.170 Å). A difference of 1.402 Å is substantial in the context of sub-nanometer scale size exclusion. Thus, it is highly probable that cis-2-pentene cannot be adsorbed by CALF-35 (Sr2+).
+
+---
+
+MOF Name: CALF-35 (Sr2+)
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CALF-35 (Sr2+):
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon Dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorbed
+
+The largest intermediate dimension of an adsorbed molecule is 4.170 Å (Ethane). No molecules are reported as "Not Adsorbed" due to size exclusion.
+Therefore, the effective pore size of CALF-35 (Sr2+) is inferred to be at least **4.170 Å**. Given the "Size exclusion at sub-nanometer scale" mechanism, the pores are expected to be highly selective, and larger molecules are likely excluded.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is significantly larger than the largest known adsorbed molecule's intermediate dimension (Ethane, 4.170 Å). A difference of 0.825 Å is substantial in the context of sub-nanometer scale size exclusion. Thus, it is highly probable that 1-pentene cannot be adsorbed by CALF-35 (Sr2+).
+
+---
+
+MOF Name: CALF-35 (Sr2+)
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CALF-35 (Sr2+):
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon Dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorbed
+
+The largest intermediate dimension of an adsorbed molecule is 4.170 Å (Ethane). No molecules are reported as "Not Adsorbed" due to size exclusion.
+Therefore, the effective pore size of CALF-35 (Sr2+) is inferred to be at least **4.170 Å**. Given the "Size exclusion at sub-nanometer scale" mechanism, the pores are expected to be highly selective, and larger molecules are likely excluded.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the largest known adsorbed molecule's intermediate dimension (Ethane, 4.170 Å). A difference of 0.563 Å is substantial in the context of sub-nanometer scale size exclusion. Thus, it is highly probable that trans-2-pentene cannot be adsorbed by CALF-35 (Sr2+).
+
+---
+
+MOF Name: CALF-35 (Sr2+)
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CALF-35 (Sr2+):
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon Dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorbed
+
+The largest intermediate dimension of an adsorbed molecule is 4.170 Å (Ethane). No molecules are reported as "Not Adsorbed" due to size exclusion.
+Therefore, the effective pore size of CALF-35 (Sr2+) is inferred to be at least **4.170 Å**. Given the "Size exclusion at sub-nanometer scale" mechanism, the pores are expected to be highly selective.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is only slightly larger than the largest known adsorbed molecule's intermediate dimension (Ethane, 4.170 Å), with a difference of 0.194 Å. This small difference suggests that n-pentane might still pass through the pores, possibly via a tight fit or kinetic sieving, consistent with "Size exclusion at sub-nanometer scale" where very small differences in molecular size can determine adsorption. Thus, it is plausible that n-pentane can be adsorbed by CALF-35 (Sr2+).

@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "amNi-MOF-74",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.1 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "benzaldehyde diethyl acetal",
+                "Molecular Size": "0.9 nm × 0.8 nm × 0.3 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "80 °C, 490 psi",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The molecule is too large to diffuse through the narrow pore channels of amNi-MOF-74."
+                }
+            },
+            {
+                "Molecule Name": "imine",
+                "Molecular Size": "1.1 nm × 0.5 nm × 0.4 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "80 °C, 490 psi",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion occurs only in specific orientations due to size-sieving effects, preventing over-hydrogenation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Imine selectivity: 91.8%, Amine selectivity: 8.2%"
+        },
+        "Other Information": {
+            "Additional Info": "The amNi-MOF-74 shell prevents over-hydrogenation and suppresses side reactions via size-sieving and acidic catalysis."
+        }
+    }
+]

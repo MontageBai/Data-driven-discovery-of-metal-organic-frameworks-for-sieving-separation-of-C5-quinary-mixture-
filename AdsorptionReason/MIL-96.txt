@@ -1,0 +1,102 @@
+MOF Name: MIL-96
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-96:
+*   trans-piperylene: 8.735×5.051×3.960 → Intermediate = 5.051 Å | Adsorbed
+*   cis-piperylene: 8.015×5.476×3.960 → Intermediate = 5.476 Å | Adsorbed
+*   isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å | Adsorbed
+
+Inferred effective pore size of MIL-96: Based on the provided data, MIL-96 is shown to adsorb molecules with an intermediate dimension of at least 6.093 Å (isoprene). No molecules are listed as not being adsorbed due to size exclusion. Therefore, the effective pore size is inferred to be greater than or equal to 6.093 Å.
+
+Target Guest Molecule Dimensions:
+*   isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since the intermediate dimension of isoprene (6.093 Å) is equal to the largest intermediate dimension of a molecule already experimentally confirmed as adsorbed by MIL-96, it is predicted that MIL-96 can adsorb isoprene. The experimental data explicitly states "isoprene,Yes".
+
+---
+
+MOF Name: MIL-96
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-96:
+*   trans-piperylene: 8.735×5.051×3.960 → Intermediate = 5.051 Å | Adsorbed
+*   cis-piperylene: 8.015×5.476×3.960 → Intermediate = 5.476 Å | Adsorbed
+*   isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å | Adsorbed
+
+Inferred effective pore size of MIL-96: The largest intermediate dimension of an adsorbed molecule is 6.093 Å (isoprene). The effective pore size is inferred to be greater than or equal to 6.093 Å.
+
+Target Guest Molecule Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since the intermediate dimension of cis-2-pentene (5.572 Å) is smaller than the largest intermediate dimension of a molecule experimentally confirmed as adsorbed by MIL-96 (6.093 Å for isoprene), it is predicted that MIL-96 can adsorb cis-2-pentene based on size exclusion.
+
+---
+
+MOF Name: MIL-96
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-96:
+*   trans-piperylene: 8.735×5.051×3.960 → Intermediate = 5.051 Å | Adsorbed
+*   cis-piperylene: 8.015×5.476×3.960 → Intermediate = 5.476 Å | Adsorbed
+*   isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å | Adsorbed
+
+Inferred effective pore size of MIL-96: The largest intermediate dimension of an adsorbed molecule is 6.093 Å (isoprene). The effective pore size is inferred to be greater than or equal to 6.093 Å.
+
+Target Guest Molecule Dimensions:
+*   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since the intermediate dimension of 1-pentene (4.995 Å) is smaller than the largest intermediate dimension of a molecule experimentally confirmed as adsorbed by MIL-96 (6.093 Å for isoprene), it is predicted that MIL-96 can adsorb 1-pentene based on size exclusion.
+
+---
+
+MOF Name: MIL-96
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-96:
+*   trans-piperylene: 8.735×5.051×3.960 → Intermediate = 5.051 Å | Adsorbed
+*   cis-piperylene: 8.015×5.476×3.960 → Intermediate = 5.476 Å | Adsorbed
+*   isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å | Adsorbed
+
+Inferred effective pore size of MIL-96: The largest intermediate dimension of an adsorbed molecule is 6.093 Å (isoprene). The effective pore size is inferred to be greater than or equal to 6.093 Å.
+
+Target Guest Molecule Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since the intermediate dimension of trans-2-pentene (4.733 Å) is smaller than the largest intermediate dimension of a molecule experimentally confirmed as adsorbed by MIL-96 (6.093 Å for isoprene), it is predicted that MIL-96 can adsorb trans-2-pentene based on size exclusion.
+
+---
+
+MOF Name: MIL-96
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-96:
+*   trans-piperylene: 8.735×5.051×3.960 → Intermediate = 5.051 Å | Adsorbed
+*   cis-piperylene: 8.015×5.476×3.960 → Intermediate = 5.476 Å | Adsorbed
+*   isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å | Adsorbed
+
+Inferred effective pore size of MIL-96: The largest intermediate dimension of an adsorbed molecule is 6.093 Å (isoprene). The effective pore size is inferred to be greater than or equal to 6.093 Å.
+
+Target Guest Molecule Dimensions:
+*   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since the intermediate dimension of n-pentane (4.364 Å) is smaller than the largest intermediate dimension of a molecule experimentally confirmed as adsorbed by MIL-96 (6.093 Å for isoprene), it is predicted that MIL-96 can adsorb n-pentane based on size exclusion.

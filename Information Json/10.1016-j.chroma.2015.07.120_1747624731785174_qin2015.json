@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "HKUST-1",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.9 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "benzene-1,3,5-tricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "pyridine",
+                "Molecular Size": "0.6 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "MeOH mobile phase, 0.3 mL min-1 flow rate, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time ~10 minutes, strong interaction with Cu-ions"
+                }
+            },
+            {
+                "Molecule Name": "4,4’-bipyridine",
+                "Molecular Size": "1.1 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "MeOH mobile phase, 0.3 mL min-1 flow rate, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elutes immediately without interaction, behaves as large tracer molecule excluded from pores"
+                }
+            },
+            {
+                "Molecule Name": "2-chloroaniline",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and polarity effects",
+                "Other Information": {
+                    "Test Conditions": "MeOH or ACN mobile phase, 0.3 mL min-1 flow rate, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elutes first in MeOH, elution order changes in ACN due to hydrophobicity"
+                }
+            },
+            {
+                "Molecule Name": "3-chloroaniline",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and polarity effects",
+                "Other Information": {
+                    "Test Conditions": "MeOH or ACN mobile phase, 0.3 mL min-1 flow rate, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elutes second in MeOH, elution order changes in ACN due to hydrophobicity"
+                }
+            },
+            {
+                "Molecule Name": "4-chloroaniline",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and polarity effects",
+                "Other Information": {
+                    "Test Conditions": "MeOH or ACN mobile phase, 0.3 mL min-1 flow rate, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elutes last in MeOH, elution order changes in ACN due to hydrophobicity"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "HPLC experiments and ChromX simulation",
+            "Performance Metrics": "Pyridine retention time ~10 minutes, baseline separation of pyridine and 4,4'-bipyridine, excellent separation of chloroaniline isomers in ACN"
+        },
+        "Other Information": {
+            "Additional Info": "Pore diffusivity for small molecules determined to be 2.3·10-15 m² s-1, maximum capacities 0.37 mol L-1 for pyridine and 0.23 mol L-1 for chloroanilines"
+        }
+    }
+]

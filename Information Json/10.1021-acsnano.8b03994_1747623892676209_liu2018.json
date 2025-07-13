@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6-8 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium sulfate",
+                "Molecular Size": "7.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, osmotic pressure 61.8 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate of 94-96%"
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, osmotic pressure 61.8 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water permeance of 1.09 L m-2 h-1 bar-1 for UiO66TF-30%"
+                }
+            },
+            {
+                "Molecule Name": "phenol red",
+                "Molecular Size": "9.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, hydraulic pressure 30 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >99%"
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "6.4 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, hydraulic pressure 30 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate around 27% for UiO66TF-15%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Water flux: up to 67.6 L m-2 h-1; Water/Na2SO4 permselectivity: up to 13.2 L g-1"
+        },
+        "Other Information": {
+            "Additional Info": "Self-standing mixed-matrix thin films with enhanced mechanical properties and reduced internal concentration polarization"
+        }
+    }
+]

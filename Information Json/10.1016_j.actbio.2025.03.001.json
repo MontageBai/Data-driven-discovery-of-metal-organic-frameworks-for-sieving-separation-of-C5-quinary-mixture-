@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "MOF@siDDR2+siITGAV",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "small interfering RNA",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The MOF effectively encapsulated and protected siRNA from degradation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Western blot, ELISA, flow cytometry, immunohistochemistry",
+            "Performance Metrics": "Effective downregulation of DDR2 and ITGAV proteins, reduction in collagen I levels by 84.9%, increased CD8+ T cell infiltration (6.2-fold increase)."
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrated biocompatibility and safety in vivo with no significant alterations in blood parameters or organ histopathology."
+        }
+    }
+]

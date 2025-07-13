@@ -1,0 +1,95 @@
+[
+    {
+        "Materials Name": "SeZr-MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr(IV)"
+        ],
+        "Ligands": [
+            "thioether side groups",
+            "pyrene-based building block"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "mercury",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong binding via thioether groups",
+                "Other Information": {
+                    "Test Conditions": "0.1 M acetate buffer, pH 4.5, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Mercury ion uptake capacity of 322 mg/g (1.61 mM)"
+                }
+            },
+            {
+                "Molecule Name": "copper",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Adsorption influenced by Pauling electronegativity",
+                "Other Information": {
+                    "Test Conditions": "Same as mercury",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Copper ions lower the original peak response by more than 7%"
+                }
+            },
+            {
+                "Molecule Name": "cadmium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Weak interaction with MOF compared to mercury",
+                "Other Information": {
+                    "Test Conditions": "Same as mercury",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible effect on mercury detection"
+                }
+            },
+            {
+                "Molecule Name": "zinc",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Weak interaction with MOF compared to mercury",
+                "Other Information": {
+                    "Test Conditions": "Same as mercury",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible effect on mercury detection"
+                }
+            },
+            {
+                "Molecule Name": "iron",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Weak interaction with MOF compared to mercury",
+                "Other Information": {
+                    "Test Conditions": "Same as mercury",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible effect on mercury detection"
+                }
+            },
+            {
+                "Molecule Name": "nickel",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Weak interaction with MOF compared to mercury",
+                "Other Information": {
+                    "Test Conditions": "Same as mercury",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible effect on mercury detection"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with strong affinity driven by thioether groups",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Differential pulse anodic stripping voltammetry (DPASV), cyclic voltammetry (CV), and electrochemical impedance spectroscopy (EIS)",
+            "Performance Metrics": "Linear detection range: 0.01 nM to 3 mM, LOD: 7.9 fM"
+        },
+        "Other Information": {
+            "Additional Info": "Thioether-functionalized Zr(IV)-based MOF designed for selective mercury ion adsorption and electrochemical detection"
+        }
+    }
+]

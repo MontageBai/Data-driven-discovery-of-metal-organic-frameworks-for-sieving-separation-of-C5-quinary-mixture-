@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "UiO-66-NH2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.59 nm (micropore), 4.798 nm (mesopore)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "iodomethane",
+                "Molecular Size": "5.9 × 4.5 × 4.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Quencher Q1, used to test size-selective behavior of MOF-Cs."
+                }
+            },
+            {
+                "Molecule Name": "5-(bromomethyl)undecane",
+                "Molecular Size": "15.6 × 13.5 × 10 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Quencher Q2, used to confirm size-selective sieving behavior of MOF-Cs."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "15.9 × 11.8 × 9 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Encapsulated in MOF-Cs and showed restricted diffusion out of capsules."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Fluorescence quenching experiments",
+            "Performance Metrics": "Lower quenching efficiency for large molecules like 5-(bromomethyl)undecane compared to small molecules like iodomethane."
+        },
+        "Other Information": {
+            "Additional Info": "MOF-Cs were fabricated by self-assembly of UiO-66-NH2 NPs with PMMA deposition inside."
+        }
+    }
+]

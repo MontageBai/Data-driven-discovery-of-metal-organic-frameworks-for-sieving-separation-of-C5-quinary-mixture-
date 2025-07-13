@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Zn(100−x)Cox-ZIF",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (XRD), 4.0-4.2 Å (effective aperture size)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+",
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, varying feed pressure up to 2.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance decreases with increasing pressure and temperature."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.2 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, varying feed pressure up to 2.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor decreases with increasing pressure and temperature but returns to initial value after reducing conditions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke−Kallenbach technique, single-gas permeation",
+            "Performance Metrics": "C3H6/C3H8 selectivity: 200 (ideal), Permeance: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Optimal separation performance achieved with Zn82Co18-ZIF membrane. Membrane exhibits excellent thermal stability and long-term stability over 200 hours."
+        }
+    }
+]

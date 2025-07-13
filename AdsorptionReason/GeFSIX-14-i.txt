@@ -1,0 +1,114 @@
+MOF Name: GeFSIX-14-i
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for GeFSIX-14-i:
+*   Butadiene: 7.663×5.161×3.200 → Intermediate = 5.161 Å | Adsorbed (Reason: C–H···F hydrogen bonds)
+*   1-butene: 7.585×4.583×4.535 → Intermediate = 4.583 Å | Not Adsorbed (Reason: Size exclusion)
+
+**Contradiction and Inference Strategy:**
+The provided experimental data presents a logical contradiction if the MOF's effective pore size is strictly defined by a single intermediate dimension threshold for both adsorption and size exclusion. Specifically, butadiene (intermediate 5.161 Å) is adsorbed, implying the pore is at least 5.161 Å. However, 1-butene (intermediate 4.583 Å), which has a *smaller* intermediate dimension than butadiene, is *not* adsorbed due to "Size exclusion", implying the pore is less than 4.583 Å. This cannot logically hold true simultaneously for a single pore size defined by the intermediate dimension.
+
+To resolve this inconsistency for the purpose of prediction, we prioritize the "Size exclusion" reason as a definitive geometric barrier. The non-adsorption of 1-butene due to "Size exclusion" suggests that molecules with an intermediate dimension of 4.583 Å or greater cannot typically pass through the pore by geometric constraints. The adsorption of butadiene (5.161 Å) despite being larger implies that specific strong interactions (like the C–H···F hydrogen bonds mentioned) or specific molecular flexibility/orientation might allow certain molecules to overcome an apparent size exclusion barrier, or that the simplified "intermediate dimension" rule for passage has limitations when such strong interactions are present. However, for general predictions based on geometric "size exclusion", the 1-butene data serves as the upper limit for typical passage.
+
+Therefore, the inferred effective pore size limit for **size exclusion** is approximately **< 4.583 Å**.
+
+Target Guest Molecule Information:
+*   isoprene Dimensions: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the inferred size exclusion limit of the MOF (< 4.583 Å, as indicated by 1-butene's non-adsorption), it is predicted to be size-excluded.
+
+---
+
+MOF Name: GeFSIX-14-i
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for GeFSIX-14-i:
+*   Butadiene: 7.663×5.161×3.200 → Intermediate = 5.161 Å | Adsorbed (Reason: C–H···F hydrogen bonds)
+*   1-butene: 7.585×4.583×4.535 → Intermediate = 4.583 Å | Not Adsorbed (Reason: Size exclusion)
+
+**Contradiction and Inference Strategy:**
+As detailed above, the experimental data presents a contradiction for a single effective pore size defined by the intermediate dimension. Prioritizing the "Size exclusion" reason for 1-butene's non-adsorption, we infer that molecules with an intermediate dimension of 4.583 Å or greater cannot typically pass through the pore due to geometric constraints.
+
+The inferred effective pore size limit for **size exclusion** is approximately **< 4.583 Å**.
+
+Target Guest Molecule Information:
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the inferred size exclusion limit of the MOF (< 4.583 Å, as indicated by 1-butene's non-adsorption), it is predicted to be size-excluded.
+
+---
+
+MOF Name: GeFSIX-14-i
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for GeFSIX-14-i:
+*   Butadiene: 7.663×5.161×3.200 → Intermediate = 5.161 Å | Adsorbed (Reason: C–H···F hydrogen bonds)
+*   1-butene: 7.585×4.583×4.535 → Intermediate = 4.583 Å | Not Adsorbed (Reason: Size exclusion)
+
+**Contradiction and Inference Strategy:**
+As detailed above, the experimental data presents a contradiction for a single effective pore size defined by the intermediate dimension. Prioritizing the "Size exclusion" reason for 1-butene's non-adsorption, we infer that molecules with an intermediate dimension of 4.583 Å or greater cannot typically pass through the pore due to geometric constraints.
+
+The inferred effective pore size limit for **size exclusion** is approximately **< 4.583 Å**.
+
+Target Guest Molecule Information:
+*   1-pentene Dimensions: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the inferred size exclusion limit of the MOF (< 4.583 Å, as indicated by 1-butene's non-adsorption), it is predicted to be size-excluded.
+
+---
+
+MOF Name: GeFSIX-14-i
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for GeFSIX-14-i:
+*   Butadiene: 7.663×5.161×3.200 → Intermediate = 5.161 Å | Adsorbed (Reason: C–H···F hydrogen bonds)
+*   1-butene: 7.585×4.583×4.535 → Intermediate = 4.583 Å | Not Adsorbed (Reason: Size exclusion)
+
+**Contradiction and Inference Strategy:**
+As detailed above, the experimental data presents a contradiction for a single effective pore size defined by the intermediate dimension. Prioritizing the "Size exclusion" reason for 1-butene's non-adsorption, we infer that molecules with an intermediate dimension of 4.583 Å or greater cannot typically pass through the pore due to geometric constraints.
+
+The inferred effective pore size limit for **size exclusion** is approximately **< 4.583 Å**.
+
+Target Guest Molecule Information:
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is larger than the inferred size exclusion limit of the MOF (< 4.583 Å, as indicated by 1-butene's non-adsorption), it is predicted to be size-excluded.
+
+---
+
+MOF Name: GeFSIX-14-i
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for GeFSIX-14-i:
+*   Butadiene: 7.663×5.161×3.200 → Intermediate = 5.161 Å | Adsorbed (Reason: C–H···F hydrogen bonds)
+*   1-butene: 7.585×4.583×4.535 → Intermediate = 4.583 Å | Not Adsorbed (Reason: Size exclusion)
+
+**Contradiction and Inference Strategy:**
+As detailed above, the experimental data presents a contradiction for a single effective pore size defined by the intermediate dimension. Prioritizing the "Size exclusion" reason for 1-butene's non-adsorption, we infer that molecules with an intermediate dimension of 4.583 Å or greater cannot typically pass through the pore due to geometric constraints.
+
+The inferred effective pore size limit for **size exclusion** is approximately **< 4.583 Å**. This means molecules with intermediate dimensions smaller than 4.583 Å should be able to pass, assuming no other specific interactions prevent them.
+
+Target Guest Molecule Information:
+*   n-pentane Dimensions: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is *smaller* than the inferred size exclusion limit of the MOF (< 4.583 Å, as indicated by 1-butene's non-adsorption), it is predicted to be able to pass through the pores and thus be adsorbed.

@@ -1,0 +1,105 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.6 nm, 1.1 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4 clusters"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "parathion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature (22 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The molecule size is smaller than the pore window of UiO-66 (1.1 nm)"
+                }
+            },
+            {
+                "Molecule Name": "isocarbophos",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature (22 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The molecule size is smaller than the pore window of UiO-66 (1.1 nm)"
+                }
+            },
+            {
+                "Molecule Name": "triazophos",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature (22 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The molecule size is smaller than the pore window of UiO-66 (1.1 nm)"
+                }
+            },
+            {
+                "Molecule Name": "bifenthrin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature (22 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The molecule size is smaller than the pore window of UiO-66 (1.1 nm)"
+                }
+            },
+            {
+                "Molecule Name": "permethrin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature (22 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The molecule size is smaller than the pore window of UiO-66 (1.1 nm)"
+                }
+            },
+            {
+                "Molecule Name": "fenvalerate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature (22 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The molecule size is smaller than the pore window of UiO-66 (1.1 nm)"
+                }
+            },
+            {
+                "Molecule Name": "polysaccharides, proteins, pigments, vitamins, etc.",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature (22 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "These matrix compounds are relatively large and excluded by the pores of UiO-66"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size sieving action via uniform micropores",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas chromatography-mass spectrometry (GC-MS)",
+            "Performance Metrics": "LODs: 0.4–2.0 ng/g; LOQs: 1.4–6.5 ng/g; Recoveries: 60.9–117.5%; RSDs: ≤ 14.6%"
+        },
+        "Other Information": {
+            "Additional Info": "UiO-66 can be reused more than 20 times with excellent reusability and stability."
+        }
+    }
+]

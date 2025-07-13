@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.40 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "30 °C, transmembrane pressure at 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The DTC-MMMs exhibit a high propylene permeability of 582 Barrer."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, transmembrane pressure at 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The separation factor decreases by only 9.1% when the transmembrane pressure increases from 1 to 5 bar."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests",
+            "Performance Metrics": "C3H6 permeability: 582 Barrer, C3H6/C3H8 selectivity: 42.8"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 crystals form direct-through channels in the mixed matrix membranes (DTC-MMMs), which dominate the gas transport properties."
+        }
+    }
+]

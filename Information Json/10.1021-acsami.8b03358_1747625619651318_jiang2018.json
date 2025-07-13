@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "SIFSIX-14-Cu-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (H-H distance)",
+            "Structure Type": "Consecutive pocket-like pore channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4’-azopyridine",
+            "hexafluorosilicate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake capacity: 172.7 cm³/cm³"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake is very limited (3.8 cm³/cm³)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "The narrow pore window of 3.4 Å blocks methane while allowing carbon dioxide to pass through.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, DFT-D simulation, Neutron powder diffraction",
+            "Performance Metrics": "CO2/CH4 selectivity (uptake ratio): 116.1 at 298 K; CO2 uptake capacity: 154.6 cm³/cm³ during breakthrough test"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits excellent cycle performance and easy regeneration with mild temperature conditions."
+        }
+    }
+]

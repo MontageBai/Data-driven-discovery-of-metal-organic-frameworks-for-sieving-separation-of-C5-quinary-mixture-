@@ -1,0 +1,140 @@
+[
+    {
+        "MOF Name": "Y-fum-fcu-MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "ca. 4.7 Å",
+            "Structure Type": "Three-dimensional interconnected octahedral and tetrahedral cages accessed through triangular windows"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Y3+"
+        ],
+        "Ligands": [
+            "fumarate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-pentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fully reversible type-I adsorption behavior observed."
+                }
+            },
+            {
+                "Molecule Name": "isopentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Total size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No adsorption observed."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "ca. 4.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K (adsorption isotherms); 298 K, 1 bar (mixed-gas breakthrough)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Readily adsorbed, confirmed by TG-DSC and breakthrough tests."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "ca. 5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Total size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K (adsorption isotherms); 298 K, 1 bar (mixed-gas breakthrough)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No adsorption observed, confirmed by TG-DSC and breakthrough tests. Not retained in column."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on rigid pore apertures and size exclusion",
+        "Experimental Validation": {
+            "Method": "Single gas adsorption isotherms, mixed gas breakthrough tests, TG-DSC, calorimetry",
+            "Performance Metrics": "Total exclusion of branched paraffins (isobutane, isopentane) from normal paraffins (n-butane, n-pentane); infinite selectivity toward normal paraffins; n-butane adsorbed amount: 0.8 mmol/g"
+        },
+        "Other Information": {
+            "Additional Info": "Synthesized using isoreticular chemistry for aperture size fine-tuning. Exhibits high thermal stability and chemical stability (solvents, moisture)."
+        }
+    },
+    {
+        "MOF Name": "Tb-fum-fcu-MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "ca. 4.7 Å",
+            "Structure Type": "Three-dimensional interconnected octahedral and tetrahedral cages accessed through triangular windows"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Tb3+"
+        ],
+        "Ligands": [
+            "fumarate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-pentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fully reversible type-I adsorption behavior observed."
+                }
+            },
+            {
+                "Molecule Name": "isopentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Total size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No adsorption observed."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "ca. 4.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K (adsorption isotherms); 298 K, 1 bar (mixed-gas breakthrough)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Readily adsorbed, confirmed by TG-DSC and breakthrough tests."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "ca. 5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Total size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K (adsorption isotherms); 298 K, 1 bar (mixed-gas breakthrough)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No adsorption observed, confirmed by TG-DSC and breakthrough tests. Not retained in column."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on rigid pore apertures and size exclusion",
+        "Experimental Validation": {
+            "Method": "Single gas adsorption isotherms, mixed gas breakthrough tests, TG-DSC, calorimetry",
+            "Performance Metrics": "Total exclusion of branched paraffins (isobutane, isopentane) from normal paraffins (n-butane, n-pentane); infinite selectivity toward normal paraffins; n-butane adsorbed amount: 0.8 mmol/g"
+        },
+        "Other Information": {
+            "Additional Info": "Synthesized using isoreticular chemistry for aperture size fine-tuning. Exhibits high thermal stability and chemical stability (solvents, moisture)."
+        }
+    }
+]

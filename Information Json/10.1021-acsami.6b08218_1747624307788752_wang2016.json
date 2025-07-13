@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MG@Zn-MOFs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "10.6 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glycopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "85:14:1 ACN/H2O/TFA, 30 min incubation, 800 µg material",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enrichment of glycopeptides while excluding large proteins like BSA (MW = 66000)"
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "85:14:1 ACN/H2O/TFA, 30 min incubation, 800 µg material",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded from entering the pores due to size"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis",
+            "Performance Metrics": "517 unique N-glycopeptides identified from 1 µL human serum"
+        },
+        "Other Information": {
+            "Additional Info": "The MG@Zn-MOFs exhibited excellent hydrophilic interaction and size-exclusion effect for glycopeptide enrichment."
+        }
+    }
+]

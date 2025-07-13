@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "Hybrid CMS (HCMS) membranes",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3–4 Å and 4–7 Å (bimodal distribution)",
+            "Structure Type": "Densified and interconnected carbon structures with ultramicropores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6 clusters"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid (from UiO-66-NH2)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher CO2 permeability compared to CMS membranes"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Improved CO2/CH4 selectivity due to narrow pore size distribution"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "2–5 bar, 35–50 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Twofold higher C3H6 permeability and improved C3H6/C3H8 selectivity compared to CMS membranes"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.49 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2–5 bar, 35–50 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly improved C3H6/C3H8 separation performance"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Gas permeation tests",
+            "Performance Metrics": "CO2/CH4 selectivity: up to 171, C3H6/C3H8 selectivity: up to 15.3"
+        },
+        "Other Information": {
+            "Additional Info": "HCMS-700 demonstrated superior gas separation performance for closely sized gas pairs (Δd < 0.5 Å), including CO2/CH4 and C3H6/C3H8 separations."
+        }
+    }
+]

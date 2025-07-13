@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Mn3(BTC)2/g-C3N4/TiO2 NTs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mn2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen peroxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "pH 8.0 B-R buffer, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Catalytic effect enhances sensitivity to H2O2."
+                }
+            },
+            {
+                "Molecule Name": "ascorbic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "pH 8.0 B-R buffer, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The molecule is larger than apertures in Mn3(BTC)2 crystals, preventing diffusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Photoelectrochemical response measurement",
+            "Performance Metrics": "H2O2 detection limit: 1 nM, Linear range: 0.003–10 mM"
+        },
+        "Other Information": {
+            "Additional Info": "Mn3(BTC)2 coating acts as a size-exclusion filter and exhibits catalytic effects for H2O2."
+        }
+    }
+]

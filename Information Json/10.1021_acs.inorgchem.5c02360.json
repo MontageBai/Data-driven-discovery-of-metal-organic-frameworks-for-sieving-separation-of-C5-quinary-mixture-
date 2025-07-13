@@ -1,0 +1,104 @@
+[
+    {
+        "MOF Name": "ESOGU-3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "10.0 Å",
+            "Structure Type": "2-fold interpenetrating 3D anionic framework with rectangular and square channels, displaying microporosity"
+        },
+        "Topology": "pts",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "N1,N4-bis(3,5-dicarboxyphenyl)-fumaramide (BDPFA4-)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "CO2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption via strong quadrupolar interactions with amide-functionalized groups and weak interactions with but-2-ene groups.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption capacity (3.82 mmol/g) and selectivity over CH4 and N2. Isosteric heat of adsorption ~26.0 kJ/mol."
+                }
+            },
+            {
+                "Molecule Name": "CH4",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Less favorable interactions compared to CO2, leading to reduced adsorption and effective rejection during CO2 sieving.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower adsorption capacity (0.697 mmol/g) compared to CO2. CO2/CH4 selectivity of 8.84."
+                }
+            },
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Less favorable interactions compared to CO2, leading to significantly reduced adsorption and effective rejection during CO2 sieving.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low adsorption capacity (0.053 mmol/g) compared to CO2. CO2/N2 selectivity of 72.56."
+                }
+            },
+            {
+                "Molecule Name": "Methylene Blue (MB)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction between the cationic dye and the negatively charged framework, combined with size selectivity.",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, pH 6.0, 20 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Maximum adsorption capacity of 415.78 mg/g. Framework zeta potential: -35.2 mV. Adsorption reaches equilibrium at 50 min. Follows pseudo-second-order kinetics and Langmuir isotherm model."
+                }
+            },
+            {
+                "Molecule Name": "Rhodamine B (RhB)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size-exclusion effects due to larger molecular size.",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not adsorbed effectively due to its larger molecular size compared to MB."
+                }
+            },
+            {
+                "Molecule Name": "Methyl Orange (MO)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion between the anionic dye and the negatively charged framework.",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption (4.64 mg/g) due to electrostatic repulsion. Framework zeta potential: -35.2 mV."
+                }
+            },
+            {
+                "Molecule Name": "Congo Red (CR)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion between the anionic dye and the negatively charged framework.",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption (45.15 mg/g) due to electrostatic repulsion. Framework zeta potential: -35.2 mV."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on specific interactions (for CO2) and combined size-exclusion and electrostatic interactions (for dyes).",
+        "Experimental Validation": {
+            "Method": "Single-component gas adsorption isotherms, dye adsorption studies, zeta potential measurements, PXRD, SEM, TG analysis.",
+            "Performance Metrics": "Selective CO2 adsorption (3.82 mmol/g) over CH4 and N2 (CO2/CH4 selectivity: 8.84, CO2/N2 selectivity: 72.56). Selective adsorption of MB (415.78 mg/g) over RhB, MO, and CR (negligible adsorption)."
+        },
+        "Other Information": {
+            "Additional Info": "Multifunctional anionic MOF, 2-fold interpenetrated 3D framework, water-stable, amide-functionalized pores, protonated pbisoixH2 counterions fill part of the pores."
+        }
+    }
+]

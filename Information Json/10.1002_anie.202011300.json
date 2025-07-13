@@ -1,0 +1,72 @@
+[
+    {
+        "MOF Name": "1'",
+        "Material Category": "Others",
+        "Pore/Structural Features": {
+            "Pore Size": "1.1 x 4.5 Å (shrunk 1') to 1.8 x 4.4 Å (expanded 1)",
+            "Structure Type": "Layered 2D structure with interlayer pores and 1D channels along b-axis"
+        },
+        "Topology": "sql",
+        "Metal Nodes": [
+            "Ag+"
+        ],
+        "Ligands": [
+            "o-Hmpba",
+            "o-H2mpba"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-C4H10",
+                "Molecular Size": "4.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-opening adsorption, size exclusion after framework expansion, kinetic selectivity.",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure (single component); 1:1 mixture",
+                    "Threshold Pressure": "10 kPa",
+                    "Additional Info": "Adsorption induces a nonporous-to-porous transition and framework expansion from 1' (shrunk) to 1 (expanded)."
+                }
+            },
+            {
+                "Molecule Name": "i-C4H10",
+                "Molecular Size": "5.27 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion (single component); co-adsorption due to n-C4H10 induced pore opening; slower diffusion in expanded framework.",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 atm (single component); 1:1 mixture",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded as a single component. Trivial co-adsorption occurs in the presence of n-C4H10, which induces framework expansion, allowing some i-C4H10 passage."
+                }
+            },
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic exclusion/negligible adsorption due to extremely small apertures and weak host-guest interactions.",
+                "Other Information": {
+                    "Test Conditions": "77 K, 195 K, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exhibits very low uptake, particularly at 298 K, due to small apertures and weak interactions."
+                }
+            },
+            {
+                "Molecule Name": "CO2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-opening adsorption, structural transformation from 1' to 1.",
+                "Other Information": {
+                    "Test Conditions": "195 K",
+                    "Threshold Pressure": "20 kPa",
+                    "Additional Info": "Adsorption induces a structural transformation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on pore aperture, kinetic selectivity, and guest-induced structural transformation (pore-opening) in a flexible framework.",
+        "Experimental Validation": {
+            "Method": "Quantitative column breakthrough experiments, Single-component adsorption isotherms (N2, CO2, n-C4H10, i-C4H10), Adsorption kinetics measurements, In situ powder X-ray diffraction (PXRD), Single-crystal X-ray diffraction (SCXRD), Computational simulations (Configurational bias Monte Carlo, Density functional theory, Molecular dynamics).",
+            "Performance Metrics": "n-C4H10/i-C4H10 adsorption selectivity: 23; Instant i-C4H10 purity: up to 99.97+%; Equilibrium uptake (mixture) n-C4H10: 0.75 mmol/g, i-C4H10: 0.033 mmol/g; Simulated diffusion coefficient n-C4H10: 64.5 x 10^-6 cm^2 s^-1, i-C4H10: 5.27 x 10^-6 cm^2 s^-1."
+        },
+        "Other Information": {
+            "Additional Info": "This is a hydrogen-bonded porous molecular crystal (PMC), not a MOF, but it exhibits MOF-like behavior. Features exceptional hydrophobicity (water contact angle 134°) and high chemical stability (pH 2–13). The framework is flexible and undergoes trivial guest-induced structural transformation (pore opening)."
+        }
+    }
+]

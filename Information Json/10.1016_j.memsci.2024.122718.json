@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZGO membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "7.40 Å (in water)",
+            "Structure Type": "2D laminar structure with interlayer spacing"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "6.60 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "K+ permeability of 86.9 mmol m−2 h−1"
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "7.20 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Na+ permeability lower than K+"
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "7.60 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+ permeability lower than Na+"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "8.40 Å (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Mg2+ selectivity of 266 against K+"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ion sieving based on hydrated ion size and hydrogen bonding interactions",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I–V) measurements, Ion permeation testing",
+            "Performance Metrics": "K+/Mg2+ selectivity: 266, K+ permeance: 86.9 mmol m−2 h−1"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-L nanosheets integrated into GO layers to enhance stability and selectivity"
+        }
+    }
+]

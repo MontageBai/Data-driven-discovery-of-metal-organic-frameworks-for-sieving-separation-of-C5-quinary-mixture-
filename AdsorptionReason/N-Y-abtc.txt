@@ -1,0 +1,91 @@
+MOF Name: N-Y-abtc
+
+Detailed Reasoning for N-Y-abtc's Pore Characteristics:
+From the experimental data provided for N-Y-abtc:
+*   Propylene: 6.257×5.051×3.961 → Intermediate = **5.051 Å** | Adsorbed
+*   Propane: 6.552×4.354×3.970 → Intermediate = **4.354 Å** | Not Adsorbed (Reason: Selective molecular exclusion of propane from propylene; Type: Size exclusion at sub-nanometer scale)
+
+Applying the rule for inferring effective pore size based on intermediate dimensions:
+*   The MOF should be able to adsorb molecules with intermediate dimensions up to at least the largest intermediate dimension of adsorbed molecules (5.051 Å for propylene).
+*   The MOF should exclude molecules with intermediate dimensions greater than or equal to the smallest intermediate dimension of non-adsorbed molecules (4.354 Å for propane).
+
+This creates a contradiction for the inferred effective pore size range: [max_intermediate_adsorbed, min_intermediate_nonadsorbed) = [5.051 Å, 4.354 Å). This is an empty and illogical range, as 5.051 Å is not less than 4.354 Å.
+
+This contradiction indicates that the N-Y-abtc's selectivity is not based on a simple "size exclusion" cut-off determined solely by the intermediate dimension. The experimental description "Selective molecular exclusion of propane from propylene through ultrasmall pore apertures" despite propane having a smaller intermediate dimension than propylene, is a clear hallmark of **kinetic sieving**. In kinetic sieving, subtle differences in molecular shape, flexibility, or specific interactions, or even the largest dimension, can play a more dominant role than a simple intermediate dimension comparison in determining passage. For N-Y-abtc, while propylene (L=6.257 Å, M=5.051 Å) is adsorbed, propane (L=6.552 Å, M=4.354 Å) is not. This suggests that the MOF's apertures might be highly sensitive to the overall shape or the largest dimension, preventing the slightly longer propane molecule from passing, even though its intermediate dimension is smaller.
+
+Given this kinetic sieving behavior, simple intermediate dimension comparison alone is insufficient for prediction. We must consider the full molecular dimensions and the observed behavior: the MOF can adsorb propylene (L=6.257 Å) but excludes propane (L=6.552 Å). Therefore, molecules significantly larger in any critical dimension than propane, or those sharing structural characteristics that lead to their exclusion, are likely to be rejected.
+
+---
+
+**MOF Name: N-Y-abtc**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+Isoprene Dimensions: 7.746×6.093×3.963 → Intermediate = **6.093 Å**
+Compared to N-Y-abtc's experimental data:
+*   Propylene (Adsorbed): Intermediate = 5.051 Å, Largest = 6.257 Å
+*   Propane (Not Adsorbed): Intermediate = 4.354 Å, Largest = 6.552 Å
+
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than propylene's (5.051 Å), which was the largest intermediate dimension among adsorbed molecules. Furthermore, isoprene's largest dimension (7.746 Å) is also considerably greater than that of both adsorbed propylene (6.257 Å) and non-adsorbed propane (6.552 Å). Given the implied kinetic sieving where even propane (L=6.552 Å) was excluded, the larger dimensions of isoprene suggest it cannot be adsorbed.
+
+---
+
+**MOF Name: N-Y-abtc**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+cis-2-pentene Dimensions: 8.067×5.572×5.136 → Intermediate = **5.572 Å**
+Compared to N-Y-abtc's experimental data:
+*   Propylene (Adsorbed): Intermediate = 5.051 Å, Largest = 6.257 Å
+*   Propane (Not Adsorbed): Intermediate = 4.354 Å, Largest = 6.552 Å
+
+The intermediate dimension of cis-2-pentene (5.572 Å) is larger than that of adsorbed propylene (5.051 Å). Moreover, its largest dimension (8.067 Å) is significantly greater than that of both adsorbed propylene (6.257 Å) and non-adsorbed propane (6.552 Å). Considering the kinetic sieving behavior where N-Y-abtc excludes propane based on subtle shape/size differences, the larger overall dimensions of cis-2-pentene make its adsorption highly improbable.
+
+---
+
+**MOF Name: N-Y-abtc**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+1-pentene Dimensions: 8.847×4.995×4.897 → Intermediate = **4.995 Å**
+Compared to N-Y-abtc's experimental data:
+*   Propylene (Adsorbed): Intermediate = 5.051 Å, Largest = 6.257 Å
+*   Propane (Not Adsorbed): Intermediate = 4.354 Å, Largest = 6.552 Å
+
+While 1-pentene's intermediate dimension (4.995 Å) is slightly smaller than that of adsorbed propylene (5.051 Å), its largest dimension (8.847 Å) is considerably larger than both adsorbed propylene (6.257 Å) and non-adsorbed propane (6.552 Å). The observed kinetic sieving for N-Y-abtc suggests that molecular shape and the largest dimension play a crucial role. Due to its elongated structure and significantly larger largest dimension compared to both reference molecules, 1-pentene is expected to be excluded by the MOF's pore apertures.
+
+---
+
+**MOF Name: N-Y-abtc**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+trans-2-pentene Dimensions: 8.796×4.733×4.564 → Intermediate = **4.733 Å**
+Compared to N-Y-abtc's experimental data:
+*   Propylene (Adsorbed): Intermediate = 5.051 Å, Largest = 6.257 Å
+*   Propane (Not Adsorbed): Intermediate = 4.354 Å, Largest = 6.552 Å
+
+Trans-2-pentene's intermediate dimension (4.733 Å) falls between that of adsorbed propylene (5.051 Å) and non-adsorbed propane (4.354 Å). However, its largest dimension (8.796 Å) is substantially larger than that of both adsorbed propylene (6.257 Å) and non-adsorbed propane (6.552 Å). Given the kinetic sieving observed, where the MOF selectively excludes propane based on what appears to be overall shape or largest dimension, trans-2-pentene's significantly greater length makes its passage through the ultrasmall pore apertures unlikely.
+
+---
+
+**MOF Name: N-Y-abtc**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+n-pentane Dimensions: 9.118×4.364×3.969 → Intermediate = **4.364 Å**
+Compared to N-Y-abtc's experimental data:
+*   Propylene (Adsorbed): Intermediate = 5.051 Å, Largest = 6.257 Å
+*   Propane (Not Adsorbed): Intermediate = 4.354 Å, Largest = 6.552 Å
+
+n-pentane's intermediate dimension (4.364 Å) is very close to that of non-adsorbed propane (4.354 Å) and considerably smaller than adsorbed propylene (5.051 Å). Crucially, its largest dimension (9.118 Å) is significantly larger than both non-adsorbed propane (6.552 Å) and adsorbed propylene (6.257 Å). Considering that propane, a structurally similar n-alkane, was excluded despite its smaller intermediate dimension, n-pentane's much greater length reinforces the prediction of non-adsorption due to the same kinetic sieving effect at the ultrasmall pore apertures.

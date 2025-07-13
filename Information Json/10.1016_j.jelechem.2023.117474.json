@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "UiO-66-(OH)2",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.78 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxy terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium polysulfides",
+                "Molecular Size": "0.9–1.1 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The UiO-66-(OH)2 membrane selectively blocks lithium polysulfides through size sieving and electrostatic repulsion."
+                }
+            },
+            {
+                "Molecule Name": "solvated Li+",
+                "Molecular Size": "0.6–0.7 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The UiO-66-(OH)2 membrane facilitates a rapid and uniform diffusion of solvated Li+ ions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective blocking of lithium polysulfides while allowing solvated Li+ to pass through.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCD profiles, CV curves, EIS analysis",
+            "Performance Metrics": "Capacity retention: 89.5% over 100 cycles; Coulombic efficiency: nearly 100%; D Li+: higher than PP separator"
+        },
+        "Other Information": {
+            "Additional Info": "The UiO-66-(OH)2 membrane also exhibits flexibility and structural stability during battery cycling."
+        }
+    }
+]

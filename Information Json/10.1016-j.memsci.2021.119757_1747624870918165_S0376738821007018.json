@@ -1,0 +1,194 @@
+[
+    {
+        "Materials Name": "PM-C9",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.64–3.6 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "polyligand-9"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.36 nm (hydrated radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "2 mA cm^-2, 0.1 mol L^-1 Na+/Mg2+ solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion flux: 228.9 ± 15.2 × 10^-3 mol m^-2 h^-1"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.43 nm (hydrated radius)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "2 mA cm^-2, 0.1 mol L^-1 Na+/Mg2+ solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion flux: 23.7 ± 5.3 × 10^-3 mol m^-2 h^-1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Nanopore sieving effect",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Electrodialysis experiment",
+            "Performance Metrics": "Na+/Mg2+ selectivity: 12.4"
+        },
+        "Other Information": {
+            "Additional Info": "Maintained crystallinity after multiple dissolution and precipitation cycles."
+        }
+    },
+    {
+        "Materials Name": "PM-C10",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.1–4.0 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "polyligand-10"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.36 nm (hydrated radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "2 mA cm^-2, 0.1 mol L^-1 Na+/Mg2+ solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion flux: 263.2 ± 13.8 × 10^-3 mol m^-2 h^-1"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.43 nm (hydrated radius)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "2 mA cm^-2, 0.1 mol L^-1 Na+/Mg2+ solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower ion flux compared to sodium."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Nanopore sieving effect",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Electrodialysis experiment",
+            "Performance Metrics": "Na+/Mg2+ selectivity: 12.4"
+        },
+        "Other Information": {
+            "Additional Info": "Optimal performance due to balanced hydrophobicity and porosity."
+        }
+    },
+    {
+        "Materials Name": "PM-C11",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.53–3.9 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "polyligand-11"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.36 nm (hydrated radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "2 mA cm^-2, 0.1 mol L^-1 Na+/Mg2+ solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reduced ion flux compared to PM-C10."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.43 nm (hydrated radius)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "2 mA cm^-2, 0.1 mol L^-1 Na+/Mg2+ solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Increased permeation due to lattice imperfections."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Nanopore sieving effect",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Electrodialysis experiment",
+            "Performance Metrics": "Reduced Na+/Mg2+ selectivity compared to PM-C10."
+        },
+        "Other Information": {
+            "Additional Info": "Longer alkyl chains reduce coordination and increase free carboxylic acid sites."
+        }
+    },
+    {
+        "Materials Name": "PM-C12",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.5–4.3 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "polyligand-12"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.36 nm (hydrated radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "2 mA cm^-2, 0.1 mol L^-1 Na+/Mg2+ solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Further reduced ion flux compared to PM-C11."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.43 nm (hydrated radius)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "2 mA cm^-2, 0.1 mol L^-1 Na+/Mg2+ solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Increased divalent cation transport due to low coordination and lattice defects."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Nanopore sieving effect",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Electrodialysis experiment",
+            "Performance Metrics": "Lowest Na+/Mg2+ selectivity among all PM-Cx membranes."
+        },
+        "Other Information": {
+            "Additional Info": "High content of incompletely coordinated polyligands affects stability."
+        }
+    }
+]

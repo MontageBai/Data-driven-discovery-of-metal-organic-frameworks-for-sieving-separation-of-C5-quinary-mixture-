@@ -1,0 +1,53 @@
+[
+    {
+        "Materials Name": "UiO-66-X (X = H, NH2, Br, NO2)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "2-nitroterephthalic acid",
+            "2-aminoterephthalic acid",
+            "2-bromoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "tetracycline",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.01 mA/cm² current density, 20 mM Na2SO4 solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal mainly due to oxidation degradation by ROS rather than adsorption."
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Filtration test under electric field",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Used as a model foulant; removal through electrocatalytic degradation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Electrochemical tests",
+            "Performance Metrics": "Tetracycline removal efficiency up to 99.5%, Flux recovery up to 100% after self-cleaning"
+        },
+        "Other Information": {
+            "Additional Info": "Ligand substitution reduced MWCO and pure water flux in the order of –Br > –NO2 > –NH2 due to size exclusion effect."
+        }
+    }
+]

@@ -1,0 +1,74 @@
+**MOF Name: ZJUT-1**
+
+**Inference of MOF’s Effective Pore Size:**
+From the experimental data for ZJUT-1:
+*   **Propyne:** Dimensions 6.433×3.818×3.961 → **Intermediate Dimension = 3.961 Å** | Adsorbed (Yes)
+*   **Propylene:** Dimensions 6.257×5.051×3.961 → **Intermediate Dimension = 5.051 Å** | Not Adsorbed (No), Reason: Size exclusion.
+
+Based on this data:
+*   The MOF can adsorb molecules with an intermediate dimension of at least 3.961 Å.
+*   The MOF cannot adsorb molecules with an intermediate dimension of 5.051 Å due to size exclusion, implying its effective pore size is strictly less than 5.051 Å.
+
+Therefore, the inferred effective pore size of ZJUT-1 lies in the range **[3.961 Å, 5.051 Å)**. The "Size exclusion" for propylene (5.051 Å) suggests a hard steric barrier, meaning the pore is restrictive and likely not much larger than the largest adsorbed molecule (propyne).
+
+---
+
+**Evaluation for Target Guest Molecules:**
+
+**MOF Name: ZJUT-1**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   Isoprene Dimensions: 7.746×6.093×3.963 → **Intermediate Dimension = 6.093 Å**
+*   Comparison: Isoprene's intermediate dimension (6.093 Å) is greater than the smallest intermediate dimension of molecules reported as non-adsorbed due to size exclusion (Propylene: 5.051 Å).
+*   Conclusion: Since 6.093 Å ≥ 5.051 Å, isoprene is predicted to be size-excluded by ZJUT-1.
+
+---
+
+**MOF Name: ZJUT-1**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 → **Intermediate Dimension = 5.572 Å**
+*   Comparison: cis-2-pentene's intermediate dimension (5.572 Å) is greater than the smallest intermediate dimension of molecules reported as non-adsorbed due to size exclusion (Propylene: 5.051 Å).
+*   Conclusion: Since 5.572 Å ≥ 5.051 Å, cis-2-pentene is predicted to be size-excluded by ZJUT-1.
+
+---
+
+**MOF Name: ZJUT-1**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   1-pentene Dimensions: 8.847×4.995×4.897 → **Intermediate Dimension = 4.995 Å**
+*   Comparison: 1-pentene's intermediate dimension (4.995 Å) falls within the inferred effective pore size range [3.961 Å, 5.051 Å).
+*   Conclusion: While 1-pentene's intermediate dimension is less than 5.051 Å, it is very close to the size-exclusion limit established by propylene (5.051 Å). The "Size exclusion" mechanism for propylene indicates a sharp and restrictive pore aperture. Given that 1-pentene is significantly larger than propyne (3.961 Å) which is known to adsorb, and only marginally smaller than propylene, it is highly probable that it would also be effectively size-excluded or experience severe kinetic hindrance, thus practically leading to "Cannot Adsorb" under standard conditions.
+
+---
+
+**MOF Name: ZJUT-1**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 → **Intermediate Dimension = 4.733 Å**
+*   Comparison: trans-2-pentene's intermediate dimension (4.733 Å) falls within the inferred effective pore size range [3.961 Å, 5.051 Å).
+*   Conclusion: Similar to 1-pentene, trans-2-pentene is larger than propyne (3.961 Å, adsorbed) but smaller than propylene (5.051 Å, size-excluded). The "Size exclusion" for propylene suggests a restrictive pore where only molecules not much larger than 3.961 Å can effectively pass. Therefore, trans-2-pentene, being significantly larger than propyne, is likely to be size-excluded or kinetically hindered from adsorption.
+
+---
+
+**MOF Name: ZJUT-1**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   n-pentane Dimensions: 9.118×4.364×3.969 → **Intermediate Dimension = 4.364 Å**
+*   Comparison: n-pentane's intermediate dimension (4.364 Å) falls within the inferred effective pore size range [3.961 Å, 5.051 Å).
+*   Conclusion: Although n-pentane is the smallest of the target pentenes/pentanes and closer to propyne's size than the other pentenes, it is still larger than propyne (3.961 Å, adsorbed) and significantly smaller than propylene (5.051 Å, size-excluded). The "Size exclusion" for propylene indicates a tight pore. Given that the pore is definitively smaller than 5.051 Å, and only 3.961 Å is confirmed to pass, it is more consistent to infer that molecules larger than 3.961 Å but within this narrow window are also subject to effective exclusion or extremely slow kinetics due to the tight fit, thus rendering them unable to adsorb effectively.

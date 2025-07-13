@@ -1,0 +1,242 @@
+[
+    {
+        "Materials Name": "3A zeolite",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1-hexene",
+                "Molecular Size": "2.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passivated by pyridine."
+                }
+            },
+            {
+                "Molecule Name": "cis-cyclooctene",
+                "Molecular Size": "5.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passivated by pyridine."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Shape selectivity: ~83.3%"
+        },
+        "Other Information": {
+            "Additional Info": "Used pyridine as a modifier to passivate external Pt NPs."
+        }
+    },
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cyclohexene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passivated by quinoline."
+                }
+            },
+            {
+                "Molecule Name": "trans-stilbene",
+                "Molecular Size": "5.6 × 8.9 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passivated by quinoline."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Shape selectivity: nearly 100%"
+        },
+        "Other Information": {
+            "Additional Info": "Used quinoline as a modifier to passivate external Pt NPs."
+        }
+    },
+    {
+        "Materials Name": "NaY zeolite",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "8 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "trans-stilbene",
+                "Molecular Size": "5.6 × 8.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passivated by 2-phenylquinoline."
+                }
+            },
+            {
+                "Molecule Name": "triphenylethylene",
+                "Molecular Size": "7.0 × 11 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passivated by 2-phenylquinoline."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Shape selectivity: nearly 100%"
+        },
+        "Other Information": {
+            "Additional Info": "Used 2-phenylquinoline as a modifier to passivate external Pt NPs."
+        }
+    },
+    {
+        "Materials Name": "Activated Carbon (AC)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Microporous structure with a large range of micropore sizes",
+            "Structure Type": "Irregular pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1-hexene",
+                "Molecular Size": "2.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passivated by pyridine."
+                }
+            },
+            {
+                "Molecule Name": "cis-cyclooctene",
+                "Molecular Size": "5.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passivated by pyridine."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Shape selectivity: 94.3%"
+        },
+        "Other Information": {
+            "Additional Info": "Used pyridine as a modifier to passivate external Pt NPs."
+        }
+    },
+    {
+        "Materials Name": "TiO2",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "1.35 nm (micropore), 35.5 nm (mesopore)",
+            "Structure Type": "Hierarchical porous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1-hexene",
+                "Molecular Size": "2.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passivated by quinoline."
+                }
+            },
+            {
+                "Molecule Name": "cis-cyclooctene",
+                "Molecular Size": "5.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passivated by quinoline."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Shape selectivity: 88.1%"
+        },
+        "Other Information": {
+            "Additional Info": "Used quinoline as a modifier to passivate external Pt NPs."
+        }
+    }
+]

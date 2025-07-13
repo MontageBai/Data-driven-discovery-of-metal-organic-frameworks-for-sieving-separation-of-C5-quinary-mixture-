@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "UIO-66-NH-(CH2)3SO3H (PSM)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "4 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "benzenedicarboxylic acid (BDC)-based ligands",
+            "1,3-Propanesultone"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "vanadium ions",
+                "Molecular Size": "around 8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The PSM's pore size of 4 Å effectively blocks vanadium ions."
+                }
+            },
+            {
+                "Molecule Name": "hydronium ions (H3O+)",
+                "Molecular Size": "less than 2.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydronium ions can freely pass through the MOF pores due to their smaller size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, EIS (Electrochemical Impedance Spectroscopy)",
+            "Performance Metrics": "Proton conductivity significantly higher than pure PBI; Ion selectivity highest among tested membranes"
+        },
+        "Other Information": {
+            "Additional Info": "PSM acts as a linker between PBI chains, forming a compact structure that enhances mechanical properties and ion selectivity."
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (window size)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving effect and thermodynamic potential for preferential permeation",
+                "Other Information": {
+                    "Test Conditions": "room temperature, atmospheric pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher affinity of ZIF-8 for acetylene contributes to separation."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular sieving effect",
+                "Other Information": {
+                    "Test Conditions": "room temperature, atmospheric pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor of 12.1 for C2H2/CH4 mixture."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "thermodynamic factors",
+                "Other Information": {
+                    "Test Conditions": "room temperature, atmospheric pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor of 1.8 for C2H2/CO2 mixture despite the same kinetic diameter."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "room temperature, atmospheric pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor of 4.2 for C2H2/C2H4 mixture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and thermodynamic potential for preferential permeation.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Wicke−Kallenbach-type gas separation measurement system",
+            "Performance Metrics": "C2H2/CH4 selectivity: 12.1, C2H2/CO2 selectivity: 1.8, CO2/CH4 selectivity: 6.4, C2H2/C2H4 selectivity: 4.2"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 membrane exhibits good hygrothermal stability, retaining its separation performance after exposure to 95 °C and 90% RH for 4 hours."
+        }
+    }
+]

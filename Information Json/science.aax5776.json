@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "Fe-MOR(0.25)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 to 3.4 Å (kinetic diameter)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "MOR",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-exclusive molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest volumetric CO2 uptakes of 293 cm³ cm⁻³ at 273 K and 219 cm³ cm⁻³ at 298 K, 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "argon",
+                "Molecular Size": "3.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size-exclusive molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Markedly low Ar uptake."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size-exclusive molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Markedly low N2 uptake."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size-exclusive molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Markedly low CH4 uptake."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-exclusive molecular sieving abilities",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Column breakthrough experiments",
+            "Performance Metrics": "CO2/N2 IAST selectivity: 1016~10132 at 298 K, 1 bar for the binary mixture CO2/N2:15/85; CO2/CH4 IAST selectivity: similarly high."
+        },
+        "Other Information": {
+            "Additional Info": "Self-assembled iron-containing mordenite monolith with precisely narrowed microchannels, excellent moisture resistance, and recyclability."
+        }
+    }
+]

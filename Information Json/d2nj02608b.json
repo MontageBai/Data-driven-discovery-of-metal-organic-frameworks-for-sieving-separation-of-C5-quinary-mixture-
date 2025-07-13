@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "MIL-125-NH-CC-Cys",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6.1 Å, 12.5 Å (pore window: 5 Å)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Ti4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "cysteine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "1 M NaCl as draw solution, DI water as feed solution, ambient temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The membrane demonstrates a water flux of 39.6 LMH under AL-DS mode."
+                }
+            },
+            {
+                "Molecule Name": "copper(II) ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Molecular sieving with functional group adsorption",
+                "Other Information": {
+                    "Test Conditions": "2000 ppm Cu(II) as feed solution, 1 M NaCl as draw solution, ambient temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The rejection rate for copper(II) ions is 97.5% due to the presence of chelating groups and increased tortuosity in the PA layer."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving combined with functional group adsorption",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Forward osmosis performance test, atomic absorption spectroscopy (AAS)",
+            "Performance Metrics": "Water flux: 39.6 LMH (AL-DS mode), Cu(II) rejection: 97.5%"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits enhanced hydrophilicity and antifouling properties due to zwitterion-functionalized cysteine groups."
+        }
+    }
+]

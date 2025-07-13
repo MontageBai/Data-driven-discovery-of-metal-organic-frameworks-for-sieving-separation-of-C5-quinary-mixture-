@@ -1,0 +1,245 @@
+[
+    {
+        "MOF Name": "UTSA-200",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Three-dimensional anion-pillared networks with 2D square-grids"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "4,4'-azopyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "C2H2",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-filling with strong affinities due to concentrated SiF62- sites",
+                "Other Information": {
+                    "Test Conditions": "296 K, 0.01 bar; 298 K (breakthrough)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake capacity of 41 cm3g-1 at 0.01 bar and 296 K. Maintained strong affinities toward C2H2."
+                }
+            },
+            {
+                "Molecule Name": "CH4",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "296 K, 0–1 bar; 298 K (breakthrough)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Complete exclusion of larger CH4 molecules; essentially no uptake."
+                }
+            },
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Almost no N2 uptake due to small pore size, excluded even at cryogenic temperature."
+                }
+            },
+            {
+                "Molecule Name": "CO2",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-filling",
+                "Other Information": {
+                    "Test Conditions": "196 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large uptake of 155 cm3g-1 at 1 bar with reversible type I sorption profiles."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ideal molecular sieving based on pore aperture, completely excluding larger CH4 molecules while maintaining strong affinity and passage for C2H2.",
+        "Experimental Validation": {
+            "Method": "Single-component sorption isotherms (C2H2, CH4, N2, CO2), Ideal Adsorbed Solution Theory (IAST) calculations, Dynamic breakthrough experiments, PXRD",
+            "Performance Metrics": "Record C2H2/CH4 selectivity over 1×107 (IAST); C2H2/CH4 breakthrough separation factor: 52; C2H2 productivity: 73.5 Lkg-1 with 99.5% purity per cycle."
+        },
+        "Other Information": {
+            "Additional Info": "Anion-pillared SIFSIX material. Double interpenetrated framework with concentrated SiF62- sites and enriched F atoms. Demonstrates good recyclability and stability over at least five successive cycles. Facile regeneration by purging with helium at 298 K."
+        }
+    },
+    {
+        "MOF Name": "SIFSIX-1-Cu",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "8.0-8.2 Å",
+            "Structure Type": "Three-dimensional anion-pillared networks with 2D square-grids"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4'-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "C2H2",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-filling, allows diffusion into pores",
+                "Other Information": {
+                    "Test Conditions": "296 K; 298 K (breakthrough)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not ideal sieving. C2H2 uptake is less steep at low pressure compared to UTSA-200."
+                }
+            },
+            {
+                "Molecule Name": "CH4",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-filling, allows diffusion into pores",
+                "Other Information": {
+                    "Test Conditions": "296 K; 298 K (breakthrough)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Appreciable CH4 uptake of ~10 cm3g-1 at 1 bar. Concomitant adsorption with C2H2 observed in breakthrough experiments."
+                }
+            },
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-filling",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Adsorption-based separation rather than molecular sieving due to pore size being larger than both guest molecules.",
+        "Experimental Validation": {
+            "Method": "N2 sorption isotherms, single-component sorption isotherms (C2H2, CH4), IAST calculations, Experimental breakthrough measurements, PXRD",
+            "Performance Metrics": "C2H2/CH4 selectivity (IAST): 78; CH4 uptake: ~10 cm3g-1 at 1 bar; C2H2 breakthrough productivity: 49.6 Lkg-1; Breakthrough separation factor: 4."
+        },
+        "Other Information": {
+            "Additional Info": "Largest pore size among the SIFSIX materials due to large 4,4'-bipyridine ligand and non-interpenetration."
+        }
+    },
+    {
+        "MOF Name": "SIFSIX-2-Cu-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.4-4.6 Å",
+            "Structure Type": "Three-dimensional anion-pillared networks with 2D square-grids"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4'-bipyridylacetylene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "C2H2",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-filling, allows diffusion into pores",
+                "Other Information": {
+                    "Test Conditions": "296 K; 298 K (breakthrough)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not ideal sieving. C2H2 uptake is less steep at low pressure compared to UTSA-200."
+                }
+            },
+            {
+                "Molecule Name": "CH4",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-filling, allows diffusion into pores",
+                "Other Information": {
+                    "Test Conditions": "296 K; 298 K (breakthrough)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Appreciable CH4 uptake of ~10 cm3g-1 at 1 bar. Concomitant adsorption with C2H2 observed in breakthrough experiments."
+                }
+            },
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-filling",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Adsorption-based separation rather than molecular sieving due to pore size being larger than both guest molecules.",
+        "Experimental Validation": {
+            "Method": "N2 sorption isotherms, single-component sorption isotherms (C2H2, CH4), IAST calculations, Experimental breakthrough measurements, PXRD",
+            "Performance Metrics": "C2H2/CH4 selectivity (IAST): 124; CH4 uptake: ~10 cm3g-1 at 1 bar; C2H2 breakthrough productivity: 38.2 Lkg-1; Breakthrough separation factor: 5."
+        },
+        "Other Information": {
+            "Additional Info": "Exhibits significantly narrower pore sizes compared to SIFSIX-1-Cu due to interpenetrating structure."
+        }
+    },
+    {
+        "MOF Name": "SIFSIX-3-Ni",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.2-4.3 Å",
+            "Structure Type": "Three-dimensional anion-pillared networks with 2D square-grids"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "C2H2",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-filling, allows diffusion into pores",
+                "Other Information": {
+                    "Test Conditions": "296 K; 298 K (breakthrough)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not ideal sieving. C2H2 uptake is less steep at low pressure compared to UTSA-200."
+                }
+            },
+            {
+                "Molecule Name": "CH4",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-filling, allows diffusion into pores",
+                "Other Information": {
+                    "Test Conditions": "296 K; 298 K (breakthrough)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Appreciable CH4 uptake of ~10 cm3g-1 at 1 bar. Concomitant adsorption with C2H2 observed in breakthrough experiments."
+                }
+            },
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-filling",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Adsorption-based separation rather than molecular sieving due to pore size being larger than both guest molecules.",
+        "Experimental Validation": {
+            "Method": "N2 sorption isotherms, single-component sorption isotherms (C2H2, CH4), IAST calculations, Experimental breakthrough measurements, PXRD",
+            "Performance Metrics": "C2H2/CH4 selectivity (IAST): 85; CH4 uptake: ~10 cm3g-1 at 1 bar; C2H2 breakthrough productivity: 32.4 Lkg-1; Breakthrough separation factor: 4.6."
+        },
+        "Other Information": {
+            "Additional Info": "Exhibits significantly narrower pore sizes compared to SIFSIX-1-Cu due to shorter ligand."
+        }
+    }
+]

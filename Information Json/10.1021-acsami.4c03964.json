@@ -1,0 +1,117 @@
+[
+    {
+        "Materials Name": "EPBA-PCN-333(Fe)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "4,4′,4″-(1,3,5-triazine-2,4,6-triyl)tribenzoic acid",
+            "(4-ethynylphenyl)boronic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "adenosine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Boronate affinity interaction",
+                "Other Information": {
+                    "Test Conditions": "Phosphate buffer (10 mM, pH 8.5), room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Binding capacity: 0.25 mmol/g, LOD: 200 ng/mL"
+                }
+            },
+            {
+                "Molecule Name": "deoxyadenosine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "Phosphate buffer (10 mM, pH 8.5), room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Noncis-diol molecule, not enriched"
+                }
+            },
+            {
+                "Molecule Name": "resorcinol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Boronate affinity interaction",
+                "Other Information": {
+                    "Test Conditions": "Phosphate buffer (10 mM, pH 8.5), room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enriched selectively over catechol"
+                }
+            },
+            {
+                "Molecule Name": "catechol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Boronate affinity interaction",
+                "Other Information": {
+                    "Test Conditions": "Phosphate buffer (10 mM, pH 8.5), room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Binding capacity: 0.25 mmol/g, LOD: 200 ng/mL"
+                }
+            },
+            {
+                "Molecule Name": "glycopeptides from HRP",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Efficient diffusion and size exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "MALDI-TOF MS analysis, phosphate buffer (10 mM, pH 8.5)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Identified 12 glycopeptides with clear background"
+                }
+            },
+            {
+                "Molecule Name": "RNase B",
+                "Molecular Size": "15 kDa",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "MALDI-TOF MS analysis, phosphate buffer (10 mM, pH 8.5)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smallest glycoprotein, selectively enriched"
+                }
+            },
+            {
+                "Molecule Name": "HRP",
+                "Molecular Size": "44 kDa",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "MALDI-TOF MS analysis, phosphate buffer (10 mM, pH 8.5)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Relative large glycoprotein, does not enter the framework"
+                }
+            },
+            {
+                "Molecule Name": "OVA",
+                "Molecular Size": "44.5 kDa",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "MALDI-TOF MS analysis, phosphate buffer (10 mM, pH 8.5)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Relative large glycoprotein, does not enter the framework"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, MALDI-TOF MS analysis",
+            "Performance Metrics": "Binding capacity: 0.25 mmol/g for catechol, LOD: 200 ng/mL"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits excellent stability and reusability, maintaining structural integrity after 10 recycles."
+        }
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "ZIF-8_α",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (aperture)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "250 °C, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Max H2/CO2 separation factor: ~7.5 ± 0.2"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 °C, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower permeance compared to hydrogen"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2/CO2 selectivity: ~7.5 ± 0.2 at 250 °C"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane formed primarily on top of the α-Al2O3 disc"
+        }
+    },
+    {
+        "Materials Name": "ZIF-8_γα",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (aperture)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "250 °C, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Max H2/CO2 separation factor: ~9.9 ± 1.2"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 °C, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower permeance compared to hydrogen"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2/CO2 selectivity: ~9.9 ± 1.2 at 250 °C"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane embedded inside γ-/α-Al2O3 disc with improved thermal/mechanical stability"
+        }
+    }
+]

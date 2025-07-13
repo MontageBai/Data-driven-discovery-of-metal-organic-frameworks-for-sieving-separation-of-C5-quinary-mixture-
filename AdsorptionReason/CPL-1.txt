@@ -1,0 +1,72 @@
+MOF Name: CPL-1
+
+Detailed Reasoning for CPL-1:
+From experimental data:
+*   **Propylene:** 6.257×5.051×3.961 Å → Intermediate = 5.051 Å | Adsorbed (Yes)
+    *   Reason/Mechanism: "Thermoresponsive gate-opening effect". This indicates that propylene (an alkene) is capable of interacting with the MOF to induce pore opening, allowing its adsorption.
+*   **Propane:** 6.552×4.354×3.970 Å → Intermediate = 4.354 Å | Not Adsorbed (No)
+    *   Reason/Mechanism: "Closed pores prevent surface adsorption". Despite propane being smaller than propylene in intermediate dimension, it is not adsorbed. This highlights a strong chemical/shape selectivity (kinetic sieving effect) where alkanes (like propane) are unable to induce the gate-opening, or the pores remain in a state that prevents their entry.
+
+Inferred behavior of CPL-1: CPL-1 demonstrates a clear selective adsorption based on the chemical nature of the guest molecule, driven by a "Thermoresponsive gate-opening effect" at 273 K. It preferentially adsorbs alkenes over alkanes.
+*   For alkenes, it has been shown to adsorb propylene (intermediate 5.051 Å). This suggests that the pores can open to at least accommodate molecules of this size and type. However, there is no experimental data to indicate whether the gate can open for alkenes with intermediate dimensions *larger* than 5.051 Å. Therefore, based *solely* on the provided data, we can only confirm adsorption for alkenes up to 5.051 Å.
+*   For alkanes, it has been shown to reject propane (intermediate 4.354 Å). This implies that alkanes, even if smaller than adsorbed alkenes, cannot induce the gate-opening effect and are excluded due to "closed pores."
+
+---
+
+MOF Name: CPL-1
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   Isoprene Dimensions: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+*   Nature: Diene (unsaturated hydrocarbon, similar to alkene).
+*   Comparison: While isoprene is an unsaturated hydrocarbon like the adsorbed propylene, its intermediate dimension (6.093 Å) is larger than that of propylene (5.051 Å), which is the largest molecule experimentally shown to induce CPL-1's gate-opening and be adsorbed. Based strictly on the provided experimental data, there is no evidence to support the adsorption of molecules larger than 5.051 Å via the thermoresponsive gate-opening effect.
+
+---
+
+MOF Name: CPL-1
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 Å → Intermediate = 5.572 Å
+*   Nature: Alkene.
+*   Comparison: Similar to isoprene, cis-2-pentene is an alkene. However, its intermediate dimension (5.572 Å) is larger than that of propylene (5.051 Å), the largest molecule experimentally shown to induce CPL-1's gate-opening and be adsorbed. Without experimental data demonstrating adsorption of molecules larger than 5.051 Å, adsorption cannot be confirmed.
+
+---
+
+MOF Name: CPL-1
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   1-pentene Dimensions: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+*   Nature: Alkene.
+*   Comparison: 1-pentene is an alkene, chemically similar to propylene. Its intermediate dimension (4.995 Å) is slightly smaller than that of propylene (5.051 Å), which is experimentally shown to be adsorbed by CPL-1 via the thermoresponsive gate-opening effect. Given its chemical similarity and compatible size, it is highly probable that 1-pentene can also induce the gate-opening and be adsorbed.
+
+---
+
+MOF Name: CPL-1
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 Å → Intermediate = 4.733 Å
+*   Nature: Alkene.
+*   Comparison: trans-2-pentene is an alkene, chemically similar to propylene. Its intermediate dimension (4.733 Å) is smaller than that of propylene (5.051 Å), which is experimentally shown to be adsorbed by CPL-1 via the thermoresponsive gate-opening effect. Given its chemical similarity and compatible size, it is highly probable that trans-2-pentene can also induce the gate-opening and be adsorbed.
+
+---
+
+MOF Name: CPL-1
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   n-pentane Dimensions: 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+*   Nature: Alkane.
+*   Comparison: n-pentane is an alkane, similar to propane. Propane (intermediate 4.354 Å), despite having a smaller intermediate dimension than propylene, was experimentally shown to be *not* adsorbed by CPL-1 due to "Closed pores prevent surface adsorption." This indicates CPL-1's strong selectivity against alkanes. Given this clear precedent, n-pentane is also expected to be rejected.

@@ -1,0 +1,143 @@
+MOF Name: [Zn3(OH)2(pzdc)(atz)]$DMA (2,DMA)
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Zn3(OH)2(pzdc)(atz)]$DMA (2,DMA):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (No, Size exclusion)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No, Size exclusion)
+
+According to the provided instructions, the MOF’s inferred effective pore size should ideally lie between:
+- `max_intermediate_adsorbed` = 5.051 Å (Propylene)
+- `min_intermediate_nonadsorbed` = 3.877 Å (Methane)
+
+However, a direct contradiction exists as `max_intermediate_adsorbed (5.051 Å)` is greater than `min_intermediate_nonadsorbed (3.877 Å)`. This implies that a simple, single effective pore size range `[max_intermediate_adsorbed, min_intermediate_nonadsorbed)` cannot be strictly formed from the given data based purely on the intermediate dimension for all observed mechanisms. This suggests a complex pore geometry, specific molecular interactions, or an anomaly in the data regarding the 'size exclusion' definition for certain molecules.
+
+Given this inconsistency, the prediction for isoprene relies on comparing its characteristics to the most relevant experimentally observed molecules.
+- Target molecule: **isoprene** dimensions are 7.746×6.093×3.963 Å, with an **intermediate dimension of 6.093 Å**.
+- The largest molecule observed to adsorb (even conditionally via kinetic sieving) is Propylene, with an intermediate dimension of 5.051 Å. Kinetic sieving generally implies a very tight fit.
+- Since isoprene's intermediate dimension (6.093 Å) is significantly larger than that of Propylene (5.051 Å), it is highly unlikely to be accommodated by the MOF pores.
+
+Therefore, the result is: **Cannot Adsorb**.
+
+---
+
+MOF Name: [Zn3(OH)2(pzdc)(atz)]$DMA (2,DMA)
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Zn3(OH)2(pzdc)(atz)]$DMA (2,DMA):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (No, Size exclusion)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No, Size exclusion)
+
+According to the provided instructions, the MOF’s inferred effective pore size should ideally lie between:
+- `max_intermediate_adsorbed` = 5.051 Å (Propylene)
+- `min_intermediate_nonadsorbed` = 3.877 Å (Methane)
+
+However, a direct contradiction exists as `max_intermediate_adsorbed (5.051 Å)` is greater than `min_intermediate_nonadsorbed (3.877 Å)`. This implies that a simple, single effective pore size range `[max_intermediate_adsorbed, min_intermediate_nonadsorbed)` cannot be strictly formed from the given data based purely on the intermediate dimension for all observed mechanisms. This suggests a complex pore geometry, specific molecular interactions, or an anomaly in the data regarding the 'size exclusion' definition for certain molecules.
+
+Given this inconsistency, the prediction for cis-2-pentene relies on comparing its characteristics to the most relevant experimentally observed molecules.
+- Target molecule: **cis-2-pentene** dimensions are 8.067×5.572×5.136 Å, with an **intermediate dimension of 5.572 Å**.
+- The largest molecule observed to adsorb (even conditionally via kinetic sieving) is Propylene, with an intermediate dimension of 5.051 Å. Kinetic sieving generally implies a very tight fit for the molecule.
+- Since cis-2-pentene's intermediate dimension (5.572 Å) is larger than that of Propylene (5.051 Å), and Propylene already experiences a tight fit, it is unlikely that cis-2-pentene can be accommodated.
+
+Therefore, the result is: **Cannot Adsorb**.
+
+---
+
+MOF Name: [Zn3(OH)2(pzdc)(atz)]$DMA (2,DMA)
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for [Zn3(OH)2(pzdc)(atz)]$DMA (2,DMA):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (No, Size exclusion)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No, Size exclusion)
+
+According to the provided instructions, the MOF’s inferred effective pore size should ideally lie between:
+- `max_intermediate_adsorbed` = 5.051 Å (Propylene)
+- `min_intermediate_nonadsorbed` = 3.877 Å (Methane)
+
+However, a direct contradiction exists as `max_intermediate_adsorbed (5.051 Å)` is greater than `min_intermediate_nonadsorbed (3.877 Å)`. This implies that a simple, single effective pore size range `[max_intermediate_adsorbed, min_intermediate_nonadsorbed)` cannot be strictly formed from the given data based purely on the intermediate dimension for all observed mechanisms. This suggests a complex pore geometry, specific molecular interactions, or an anomaly in the data regarding the 'size exclusion' definition for certain molecules.
+
+Given this inconsistency, the prediction for 1-pentene relies on comparing its characteristics to the most relevant experimentally observed molecules.
+- Target molecule: **1-pentene** dimensions are 8.847×4.995×4.897 Å, with an **intermediate dimension of 4.995 Å**.
+- This is an alkene, similar in nature to Ethylene and Propylene, which were both adsorbed (conditionally, via kinetic sieving).
+- 1-pentene's intermediate dimension (4.995 Å) is slightly smaller than that of Propylene (5.051 Å), which successfully adsorbed via kinetic sieving. Given that a larger molecule (Propylene) can pass, a slightly smaller molecule of a similar type is expected to also pass, likely experiencing kinetic sieving.
+
+Therefore, the result is: **Can Adsorb**.
+
+---
+
+MOF Name: [Zn3(OH)2(pzdc)(atz)]$DMA (2,DMA)
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for [Zn3(OH)2(pzdc)(atz)]$DMA (2,DMA):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (No, Size exclusion)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No, Size exclusion)
+
+According to the provided instructions, the MOF’s inferred effective pore size should ideally lie between:
+- `max_intermediate_adsorbed` = 5.051 Å (Propylene)
+- `min_intermediate_nonadsorbed` = 3.877 Å (Methane)
+
+However, a direct contradiction exists as `max_intermediate_adsorbed (5.051 Å)` is greater than `min_intermediate_nonadsorbed (3.877 Å)`. This implies that a simple, single effective pore size range `[max_intermediate_adsorbed, min_intermediate_nonadsorbed)` cannot be strictly formed from the given data based purely on the intermediate dimension for all observed mechanisms. This suggests a complex pore geometry, specific molecular interactions, or an anomaly in the data regarding the 'size exclusion' definition for certain molecules.
+
+Given this inconsistency, the prediction for trans-2-pentene relies on comparing its characteristics to the most relevant experimentally observed molecules.
+- Target molecule: **trans-2-pentene** dimensions are 8.796×4.733×4.564 Å, with an **intermediate dimension of 4.733 Å**.
+- This is an alkene, similar in nature to Ethylene and Propylene, which were both adsorbed (conditionally, via kinetic sieving).
+- trans-2-pentene's intermediate dimension (4.733 Å) is smaller than that of Propylene (5.051 Å), which successfully adsorbed via kinetic sieving. Given that a larger molecule (Propylene) can pass, a smaller molecule of a similar type is expected to also pass, likely experiencing kinetic sieving.
+
+Therefore, the result is: **Can Adsorb**.
+
+---
+
+MOF Name: [Zn3(OH)2(pzdc)(atz)]$DMA (2,DMA)
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Zn3(OH)2(pzdc)(atz)]$DMA (2,DMA):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (No, Size exclusion)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Conditional, Kinetic sieving, under 1 bar)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No, Size exclusion)
+
+According to the provided instructions, the MOF’s inferred effective pore size should ideally lie between:
+- `max_intermediate_adsorbed` = 5.051 Å (Propylene)
+- `min_intermediate_nonadsorbed` = 3.877 Å (Methane)
+
+However, a direct contradiction exists as `max_intermediate_adsorbed (5.051 Å)` is greater than `min_intermediate_nonadsorbed (3.877 Å)`. This implies that a simple, single effective pore size range `[max_intermediate_adsorbed, min_intermediate_nonadsorbed)` cannot be strictly formed from the given data based purely on the intermediate dimension for all observed mechanisms. This suggests a complex pore geometry, specific molecular interactions, or an anomaly in the data regarding the 'size exclusion' definition for certain molecules.
+
+Given this inconsistency, the prediction for n-pentane relies on comparing its characteristics to the most relevant experimentally observed molecules.
+- Target molecule: **n-pentane** dimensions are 9.118×4.364×3.969 Å, with an **intermediate dimension of 4.364 Å**.
+- This is an alkane, similar in chemical nature to propane and methane.
+- Propane (intermediate dimension 4.354 Å) is reported as "Not Adsorbed" due to "Size exclusion". Methane (intermediate dimension 3.877 Å) is also "Not Adsorbed" due to "Size exclusion".
+- Since n-pentane's intermediate dimension (4.364 Å) is slightly larger than propane's (4.354 Å), and propane, another alkane, was excluded by size, it is highly likely that n-pentane will also be excluded. The consistent exclusion of alkanes (methane, propane) suggests a selective size/shape exclusion for this class of molecules.
+
+Therefore, the result is: **Cannot Adsorb**.

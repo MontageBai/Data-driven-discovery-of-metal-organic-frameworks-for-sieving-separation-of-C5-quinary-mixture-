@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "Ni-4PyC",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.7 Å × 6.7 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "isonicotinic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ni-4PyC exhibited a faster diffusion rate for H2 compared to D2 at 77 K."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ni-4PyC showed stronger adsorption for D2 compared to H2 at 77 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving and kinetic quantum sieving effects on H2/D2",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "GCMC simulation, MD simulation, gas chromatography",
+            "Performance Metrics": "H2/D2 resolution: 1.84, separation time: 7.47 min at 77 K"
+        },
+        "Other Information": {
+            "Additional Info": "Ni-4PyC@γ-Al2O3 composite material was synthesized for improved mechanical stability and separation performance."
+        }
+    },
+    {
+        "Materials Name": "Ni-4PyC@γ-Al2O3",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.35 nm (average pore size)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "isonicotinic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ni-4PyC@γ-Al2O3 exhibited a faster diffusion rate for H2 compared to D2 at 77 K."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ni-4PyC@γ-Al2O3 showed stronger adsorption for D2 compared to H2 at 77 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving and kinetic quantum sieving effects on H2/D2",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas chromatography",
+            "Performance Metrics": "H2/D2 resolution: 1.84, separation time: 7.47 min at 77 K"
+        },
+        "Other Information": {
+            "Additional Info": "The composite material demonstrated excellent repeatability and reproducibility in H2/D2 separation."
+        }
+    }
+]

@@ -1,0 +1,102 @@
+MOF Name: CopzNi
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CopzNi:
+- 2-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.376 Å | Adsorption is "Temperature-dependent" indicating it *can* pass, albeit under kinetic sieving conditions due to a tight fit.
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Not Adsorbed due to "Size exclusion".
+
+Inferred effective pore size of CopzNi:
+Based on the experimental data, the MOF's effective pore size allows molecules with an intermediate dimension of 6.376 Å (2-methylpentane) to pass (though kinetically limited), but excludes molecules with an intermediate dimension of 6.545 Å (2,2-dimethylbutane). Therefore, the inferred effective pore size of CopzNi lies approximately in the range **[6.376 Å, 6.545 Å)**.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is smaller than the lower bound of the inferred effective pore size (6.376 Å), it is expected to easily pass through the pores of CopzNi.
+
+---
+
+MOF Name: CopzNi
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CopzNi:
+- 2-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.376 Å | Adsorption is "Temperature-dependent" indicating it *can* pass, albeit under kinetic sieving conditions due to a tight fit.
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Not Adsorbed due to "Size exclusion".
+
+Inferred effective pore size of CopzNi:
+Based on the experimental data, the MOF's effective pore size allows molecules with an intermediate dimension of 6.376 Å (2-methylpentane) to pass (though kinetically limited), but excludes molecules with an intermediate dimension of 6.545 Å (2,2-dimethylbutane). Therefore, the inferred effective pore size of CopzNi lies approximately in the range **[6.376 Å, 6.545 Å)**.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 Å → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than the lower bound of the inferred effective pore size (6.376 Å), it is expected to easily pass through the pores of CopzNi.
+
+---
+
+MOF Name: CopzNi
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CopzNi:
+- 2-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.376 Å | Adsorption is "Temperature-dependent" indicating it *can* pass, albeit under kinetic sieving conditions due to a tight fit.
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Not Adsorbed due to "Size exclusion".
+
+Inferred effective pore size of CopzNi:
+Based on the experimental data, the MOF's effective pore size allows molecules with an intermediate dimension of 6.376 Å (2-methylpentane) to pass (though kinetically limited), but excludes molecules with an intermediate dimension of 6.545 Å (2,2-dimethylbutane). Therefore, the inferred effective pore size of CopzNi lies approximately in the range **[6.376 Å, 6.545 Å)**.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the lower bound of the inferred effective pore size (6.376 Å), it is expected to easily pass through the pores of CopzNi.
+
+---
+
+MOF Name: CopzNi
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CopzNi:
+- 2-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.376 Å | Adsorption is "Temperature-dependent" indicating it *can* pass, albeit under kinetic sieving conditions due to a tight fit.
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Not Adsorbed due to "Size exclusion".
+
+Inferred effective pore size of CopzNi:
+Based on the experimental data, the MOF's effective pore size allows molecules with an intermediate dimension of 6.376 Å (2-methylpentane) to pass (though kinetically limited), but excludes molecules with an intermediate dimension of 6.545 Å (2,2-dimethylbutane). Therefore, the inferred effective pore size of CopzNi lies approximately in the range **[6.376 Å, 6.545 Å)**.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 Å → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the lower bound of the inferred effective pore size (6.376 Å), it is expected to easily pass through the pores of CopzNi.
+
+---
+
+MOF Name: CopzNi
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CopzNi:
+- 2-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.376 Å | Adsorption is "Temperature-dependent" indicating it *can* pass, albeit under kinetic sieving conditions due to a tight fit.
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Not Adsorbed due to "Size exclusion".
+
+Inferred effective pore size of CopzNi:
+Based on the experimental data, the MOF's effective pore size allows molecules with an intermediate dimension of 6.376 Å (2-methylpentane) to pass (though kinetically limited), but excludes molecules with an intermediate dimension of 6.545 Å (2,2-dimethylbutane). Therefore, the inferred effective pore size of CopzNi lies approximately in the range **[6.376 Å, 6.545 Å)**.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the lower bound of the inferred effective pore size (6.376 Å), it is expected to easily pass through the pores of CopzNi.

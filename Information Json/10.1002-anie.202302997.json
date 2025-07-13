@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "Cu-TCPP MOF membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.45 nm (interlayer distance)",
+            "Structure Type": "2D laminar structure with layered channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "tetrakis(4-carboxyphenyl)porphyrin (TCPP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "potassium ion",
+                "Molecular Size": "0.26 nm (bare diameter), 0.66 nm (hydration diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Photothermal vaporization blocking",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation (420 nm, 120 mW/cm²), KCl electrolyte solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ions can pass through under dark conditions but are blocked upon light-induced photothermal vaporization."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Photothermal effect-induced water vaporization and bubble formation in nanochannels",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Ionic current measurement under light on/off cycling, COMSOL Multiphysics simulations",
+            "Performance Metrics": "Ion gating ratio: up to 2.3×10⁴"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF membrane exhibits fast and reversible light-controlled ion gating with high stability and repeatability."
+        }
+    }
+]

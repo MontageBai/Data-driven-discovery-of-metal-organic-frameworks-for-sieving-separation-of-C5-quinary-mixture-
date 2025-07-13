@@ -1,0 +1,97 @@
+MOF Name: CUK-1
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From the provided experimental data for CUK-1:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed. The material is noted to exhibit "Molecular sieving based on pore size and gas molecule dimensions" and "Size-selective adsorption."
+
+Inferred effective pore size of CUK-1:
+Based on the adsorption of oxygen (intermediate dimension 2.860 Å), the effective pore size of CUK-1 is at least 2.860 Å. The description of CUK-1 as a "molecular sieve" performing "size-selective adsorption" implies a well-defined upper limit to its pore size. Although no "non-adsorbed" data point is provided to establish this upper limit, the principle of molecular sieving indicates that molecules significantly larger than the adsorbed species will be excluded.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å). Given that CUK-1 operates by molecular sieving and size-selective adsorption, it is highly improbable that its pores, which are sized to allow molecules like oxygen, are also large enough to accommodate isoprene. Therefore, based on the principles of size exclusion, isoprene is predicted to be too large to be adsorbed by CUK-1.
+
+---
+
+MOF Name: CUK-1
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From the provided experimental data for CUK-1:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed. The material is noted to exhibit "Molecular sieving based on pore size and gas molecule dimensions" and "Size-selective adsorption."
+
+Inferred effective pore size of CUK-1:
+Based on the adsorption of oxygen (intermediate dimension 2.860 Å), the effective pore size of CUK-1 is at least 2.860 Å. The description of CUK-1 as a "molecular sieve" performing "size-selective adsorption" implies a well-defined upper limit to its pore size. Although no "non-adsorbed" data point is provided to establish this upper limit, the principle of molecular sieving indicates that molecules significantly larger than the adsorbed species will be excluded.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å). Given that CUK-1 operates by molecular sieving and size-selective adsorption, it is highly improbable that its pores, which are sized to allow molecules like oxygen, are also large enough to accommodate cis-2-pentene. Therefore, based on the principles of size exclusion, cis-2-pentene is predicted to be too large to be adsorbed by CUK-1.
+
+---
+
+MOF Name: CUK-1
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From the provided experimental data for CUK-1:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed. The material is noted to exhibit "Molecular sieving based on pore size and gas molecule dimensions" and "Size-selective adsorption."
+
+Inferred effective pore size of CUK-1:
+Based on the adsorption of oxygen (intermediate dimension 2.860 Å), the effective pore size of CUK-1 is at least 2.860 Å. The description of CUK-1 as a "molecular sieve" performing "size-selective adsorption" implies a well-defined upper limit to its pore size. Although no "non-adsorbed" data point is provided to establish this upper limit, the principle of molecular sieving indicates that molecules significantly larger than the adsorbed species will be excluded.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å). Given that CUK-1 operates by molecular sieving and size-selective adsorption, it is highly improbable that its pores, which are sized to allow molecules like oxygen, are also large enough to accommodate 1-pentene. Therefore, based on the principles of size exclusion, 1-pentene is predicted to be too large to be adsorbed by CUK-1.
+
+---
+
+MOF Name: CUK-1
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From the provided experimental data for CUK-1:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed. The material is noted to exhibit "Molecular sieving based on pore size and gas molecule dimensions" and "Size-selective adsorption."
+
+Inferred effective pore size of CUK-1:
+Based on the adsorption of oxygen (intermediate dimension 2.860 Å), the effective pore size of CUK-1 is at least 2.860 Å. The description of CUK-1 as a "molecular sieve" performing "size-selective adsorption" implies a well-defined upper limit to its pore size. Although no "non-adsorbed" data point is provided to establish this upper limit, the principle of molecular sieving indicates that molecules significantly larger than the adsorbed species will be excluded.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å). Given that CUK-1 operates by molecular sieving and size-selective adsorption, it is highly improbable that its pores, which are sized to allow molecules like oxygen, are also large enough to accommodate trans-2-pentene. Therefore, based on the principles of size exclusion, trans-2-pentene is predicted to be too large to be adsorbed by CUK-1.
+
+---
+
+MOF Name: CUK-1
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From the provided experimental data for CUK-1:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed. The material is noted to exhibit "Molecular sieving based on pore size and gas molecule dimensions" and "Size-selective adsorption."
+
+Inferred effective pore size of CUK-1:
+Based on the adsorption of oxygen (intermediate dimension 2.860 Å), the effective pore size of CUK-1 is at least 2.860 Å. The description of CUK-1 as a "molecular sieve" performing "size-selective adsorption" implies a well-defined upper limit to its pore size. Although no "non-adsorbed" data point is provided to establish this upper limit, the principle of molecular sieving indicates that molecules significantly larger than the adsorbed species will be excluded.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å). Given that CUK-1 operates by molecular sieving and size-selective adsorption, it is highly improbable that its pores, which are sized to allow molecules like oxygen, are also large enough to accommodate n-pentane. Therefore, based on the principles of size exclusion, n-pentane is predicted to be too large to be adsorbed by CUK-1.

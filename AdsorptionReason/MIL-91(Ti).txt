@@ -1,0 +1,92 @@
+**MOF Name: MIL-91(Ti)**
+**Guest Molecule: isoprene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for MIL-91(Ti):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed | Sieving Mechanism: Size exclusion
+
+The experimental data indicates that MIL-91(Ti) can adsorb carbon dioxide, which has an intermediate dimension of 3.200 Å, and the sieving mechanism involves "size exclusion." This suggests that the effective pore size of MIL-91(Ti) is at least 3.200 Å. However, there is no experimental data provided for any molecules *not* adsorbed due to size exclusion, which would typically define an upper limit for the pore size.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of the only known adsorbed molecule (carbon dioxide, 3.200 Å), and in the absence of any data confirming the adsorption of larger molecules, it is predicted that isoprene cannot be adsorbed by MIL-91(Ti) due to size exclusion effects.
+
+---
+
+**MOF Name: MIL-91(Ti)**
+**Guest Molecule: cis-2-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for MIL-91(Ti):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed | Sieving Mechanism: Size exclusion
+
+The experimental data indicates that MIL-91(Ti) can adsorb carbon dioxide, which has an intermediate dimension of 3.200 Å, and the sieving mechanism involves "size exclusion." This suggests that the effective pore size of MIL-91(Ti) is at least 3.200 Å. However, there is no experimental data provided for any molecules *not* adsorbed due to size exclusion, which would typically define an upper limit for the pore size.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of the only known adsorbed molecule (carbon dioxide, 3.200 Å), and in the absence of any data confirming the adsorption of larger molecules, it is predicted that cis-2-pentene cannot be adsorbed by MIL-91(Ti) due to size exclusion effects.
+
+---
+
+**MOF Name: MIL-91(Ti)**
+**Guest Molecule: 1-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for MIL-91(Ti):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed | Sieving Mechanism: Size exclusion
+
+The experimental data indicates that MIL-91(Ti) can adsorb carbon dioxide, which has an intermediate dimension of 3.200 Å, and the sieving mechanism involves "size exclusion." This suggests that the effective pore size of MIL-91(Ti) is at least 3.200 Å. However, there is no experimental data provided for any molecules *not* adsorbed due to size exclusion, which would typically define an upper limit for the pore size.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of the only known adsorbed molecule (carbon dioxide, 3.200 Å), and in the absence of any data confirming the adsorption of larger molecules, it is predicted that 1-pentene cannot be adsorbed by MIL-91(Ti) due to size exclusion effects.
+
+---
+
+**MOF Name: MIL-91(Ti)**
+**Guest Molecule: trans-2-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for MIL-91(Ti):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed | Sieving Mechanism: Size exclusion
+
+The experimental data indicates that MIL-91(Ti) can adsorb carbon dioxide, which has an intermediate dimension of 3.200 Å, and the sieving mechanism involves "size exclusion." This suggests that the effective pore size of MIL-91(Ti) is at least 3.200 Å. However, there is no experimental data provided for any molecules *not* adsorbed due to size exclusion, which would typically define an upper limit for the pore size.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of the only known adsorbed molecule (carbon dioxide, 3.200 Å), and in the absence of any data confirming the adsorption of larger molecules, it is predicted that trans-2-pentene cannot be adsorbed by MIL-91(Ti) due to size exclusion effects.
+
+---
+
+**MOF Name: MIL-91(Ti)**
+**Guest Molecule: n-pentane**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for MIL-91(Ti):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed | Sieving Mechanism: Size exclusion
+
+The experimental data indicates that MIL-91(Ti) can adsorb carbon dioxide, which has an intermediate dimension of 3.200 Å, and the sieving mechanism involves "size exclusion." This suggests that the effective pore size of MIL-91(Ti) is at least 3.200 Å. However, there is no experimental data provided for any molecules *not* adsorbed due to size exclusion, which would typically define an upper limit for the pore size.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the intermediate dimension of the only known adsorbed molecule (carbon dioxide, 3.200 Å), and in the absence of any data confirming the adsorption of larger molecules, it is predicted that n-pentane cannot be adsorbed by MIL-91(Ti) due to size exclusion effects.

@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "Cd(II)-based metal–organic framework-derived CdS photocatalysts",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "12.6 nm (CdS-1), 15.2 nm (CdS-2), 25.7 nm (CdS-3), 10.1 nm (CdS-4)",
+            "Structure Type": "porous honeycomb structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "rhodamine-B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Photocatalytic degradation",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, 80 min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Best photodegradation activity observed with CdS-3 at 500 °C annealing temperature"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "RhB degradation rate constant: 0.038 min^-1 for CdS-3"
+        },
+        "Other Information": {
+            "Additional Info": "The photocatalyst does not include any precious metal nanoparticles"
+        }
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "4-nitrophenol",
+                "Molecular Size": "∼4.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The small aperture size of ZIF-8 prevented the diffusion of 4-nitrophenol through the MOF shell."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "∼7.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Even UiO-66 coated nanoparticles did not show any reaction activity due to diffusion inhibition caused by molecular selectivity of the MOF layer."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic study using UV-vis spectroscopy",
+            "Performance Metrics": "Complete inhibition of 4-nitrophenol conversion; no activity for methylene blue reduction"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 was coated on MagNP@PDA@AuNPs core-shell structures, forming a nanohybrid with magnetic recyclability and molecular sieving properties."
+        }
+    },
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "4-nitrophenol",
+                "Molecular Size": "∼4.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selective diffusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The larger aperture size of UiO-66 allowed limited diffusion of 4-nitrophenol, resulting in slight reduction of reaction rate."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "∼7.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion inhibition caused by molecular selectivity of the MOF layer prevented methylene blue reduction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-selective diffusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic study using UV-vis spectroscopy",
+            "Performance Metrics": "Slight reduction in 4-nitrophenol conversion rate; complete inhibition of methylene blue reduction"
+        },
+        "Other Information": {
+            "Additional Info": "UiO-66 was coated on MagNP@PDA@AuNPs core-shell structures, forming a nanohybrid with magnetic recyclability and molecular sieving properties."
+        }
+    }
+]

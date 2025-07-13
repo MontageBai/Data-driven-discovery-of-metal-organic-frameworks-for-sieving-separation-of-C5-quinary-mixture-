@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-8-Epoxy composite membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.6 Å (diameter)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ion",
+                "Molecular Size": "7.6 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Partial dehydration effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 M LiCl solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrated lithium ion can remove water molecules more easily to enter the ZIF-8 channel."
+                }
+            },
+            {
+                "Molecule Name": "magnesium ion",
+                "Molecular Size": "8.6 Å (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Steric effect due to size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 M MgCl2 solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore window of ZIF-8 is smaller than the hydrated magnesium ion, inhibiting its transport."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with partial dehydration effects",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I–V) measurement in a two-compartment transport cell",
+            "Performance Metrics": "Li+/Mg2+ selectivity: 6.1"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 channels are the dominant pathways for ion transport, and the epoxy matrix fills intercrystalline defects."
+        }
+    }
+]

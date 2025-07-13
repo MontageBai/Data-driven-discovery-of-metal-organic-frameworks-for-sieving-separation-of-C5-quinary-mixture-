@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "ZIF-7-NH2(70)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "zinc"
+        ],
+        "Ligands": [
+            "benzimidazole",
+            "2-aminobenzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Improved diffusion coefficient due to enlarged aperture size."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reduced permeability with increased filler loading."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Wicke–Kellenbach technique",
+            "Performance Metrics": "CO2 permeability: 105 Barrer (pristine XLPEO membrane), CO2/CH4 selectivity: 21 (pristine XLPEO membrane)"
+        },
+        "Other Information": {
+            "Additional Info": "Enhanced separation performance surpasses the 2008 Robeson upper bound."
+        }
+    }
+]

@@ -1,0 +1,63 @@
+**MOF Name: NKMOF-3-Ln**
+
+**Known Experimental Adsorption Data for NKMOF-3-Ln:**
+*   **Adsorbed:** `carbon_dioxide` (CO2)
+    *   Full Dimensions: 5.198×3.200×3.200 Å
+    *   Intermediate Dimension: 3.200 Å
+    *   Reason/Mechanism: Size exclusion at sub-nanometer scale, molecular-sieving
+
+**Inferred Effective Pore Size of NKMOF-3-Ln:**
+Based on the adsorption of carbon dioxide (intermediate dimension 3.200 Å), the effective pore size of NKMOF-3-Ln is inferred to be **≥ 3.200 Å**.
+However, no molecules were explicitly stated as "Not Adsorbed" due to size exclusion, which means there is no upper bound for the pore size that can be strictly inferred from the provided data. The term "molecular-sieving" suggests a precise pore aperture allowing selective passage based on size.
+
+---
+
+**Evaluation of Target Guest Molecules:**
+
+**Guest Molecule: isoprene**
+
+*   Predicted Result: Cannot Adsorb
+*   Detailed Reasoning:
+    *   Isoprene Dimensions: 7.746×6.093×3.963 Å
+    *   Intermediate Dimension: 6.093 Å
+    *   Conclusion: From the experimental data, only carbon dioxide (intermediate dimension 3.200 Å) is known to be adsorbed by NKMOF-3-Ln, with "size exclusion at sub-nanometer scale" and "molecular-sieving" cited as the mechanism. This implies that the pores are selectively sized, likely close to the dimensions of CO2 for precise molecular sieving. Isoprene's intermediate dimension (6.093 Å) is significantly larger than the 3.200 Å intermediate dimension of carbon dioxide. In the absence of any experimental data indicating adsorption of molecules larger than 3.200 Å, it is highly probable that the pores of NKMOF-3-Ln are too small to accommodate isoprene based on size exclusion.
+
+---
+
+**Guest Molecule: cis-2-pentene**
+
+*   Predicted Result: Cannot Adsorb
+*   Detailed Reasoning:
+    *   cis-2-pentene Dimensions: 8.067×5.572×5.136 Å
+    *   Intermediate Dimension: 5.572 Å
+    *   Conclusion: Similar to isoprene, cis-2-pentene's intermediate dimension (5.572 Å) is substantially larger than the 3.200 Å intermediate dimension of carbon dioxide, which is the only molecule confirmed to be adsorbed by NKMOF-3-Ln via a molecular-sieving mechanism. Given the limited experimental data and the precise nature of molecular sieving implied, it is inferred that NKMOF-3-Ln's pores are too restrictive for cis-2-pentene.
+
+---
+
+**Guest Molecule: 1-pentene**
+
+*   Predicted Result: Cannot Adsorb
+*   Detailed Reasoning:
+    *   1-pentene Dimensions: 8.847×4.995×4.897 Å
+    *   Intermediate Dimension: 4.995 Å
+    *   Conclusion: 1-pentene's intermediate dimension (4.995 Å) is considerably larger than the 3.200 Å intermediate dimension of carbon dioxide, the sole confirmed adsorbed guest molecule for NKMOF-3-Ln. The mechanism of "molecular-sieving" observed for carbon dioxide strongly suggests that the pore size is fine-tuned. Without any experimental evidence of adsorption for molecules larger than 3.200 Å, it is predicted that 1-pentene cannot be adsorbed by NKMOF-3-Ln due to size exclusion.
+
+---
+
+**Guest Molecule: trans-2-pentene**
+
+*   Predicted Result: Cannot Adsorb
+*   Detailed Reasoning:
+    *   trans-2-pentene Dimensions: 8.796×4.733×4.564 Å
+    *   Intermediate Dimension: 4.733 Å
+    *   Conclusion: Trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the 3.200 Å intermediate dimension of carbon dioxide. The available data indicates that NKMOF-3-Ln adsorbs carbon dioxide through a molecular-sieving process at a sub-nanometer scale. This implies a selective pore size. In the absence of any data showing adsorption of larger molecules, it is inferred that the pores are too small to allow the passage of trans-2-pentene.
+
+---
+
+**Guest Molecule: n-pentane**
+
+*   Predicted Result: Cannot Adsorb
+*   Detailed Reasoning:
+    *   n-pentane Dimensions: 9.118×4.364×3.969 Å
+    *   Intermediate Dimension: 4.364 Å
+    *   Conclusion: N-pentane's intermediate dimension (4.364 Å) is larger than carbon dioxide's 3.200 Å intermediate dimension. Given that carbon dioxide is adsorbed via "size exclusion at sub-nanometer scale" and "molecular-sieving" by NKMOF-3-Ln, this suggests a critical pore size for selective adsorption. Since no other larger molecules are confirmed to be adsorbed, and the target molecule is substantially larger than the only known adsorbed species, it is predicted that n-pentane cannot be adsorbed by NKMOF-3-Ln due to size exclusion.

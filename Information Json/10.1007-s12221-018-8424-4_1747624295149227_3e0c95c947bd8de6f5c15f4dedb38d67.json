@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "Hexamethylenetetramine dicyanamide cadmium nanoparticles",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "4.06 to 5.8 Å",
+            "Structure Type": "2D grid of octahedral cadmium (II) containing CdN6 chromophore"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "hexamethylenetetramine",
+            "dicyanamide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion limitation",
+                "Other Information": {
+                    "Test Conditions": "303 K, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability decreases with MOF addition due to reduced solubility."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion limitation",
+                "Other Information": {
+                    "Test Conditions": "303 K, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability decreases with MOF addition due to reduced solubility."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion limitation",
+                "Other Information": {
+                    "Test Conditions": "303 K, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability decreases with MOF addition due to reduced solubility."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion limitation",
+                "Other Information": {
+                    "Test Conditions": "303 K, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability decreases with MOF addition due to reduced solubility."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests",
+            "Performance Metrics": "CO2/CH4 selectivity: 41.66, CO2/N2 selectivity: 20.08, O2/N2 selectivity: 5.09"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF nanoparticles impart improved gas sieving abilities to the PSF polymer matrix."
+        }
+    }
+]

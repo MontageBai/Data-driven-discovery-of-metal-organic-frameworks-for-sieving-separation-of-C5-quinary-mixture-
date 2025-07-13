@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "1%APT/UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2.28 nm (average), 4.25 nm (mesopore)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "2.56 nm × 0.73 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Sieving effect",
+                "Other Information": {
+                    "Test Conditions": "25 °C, varying NaCl concentrations",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity increased with NaCl concentration; highest at 0.09 mol/L NaCl."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "1.25 nm × 0.51 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Sieving effect",
+                "Other Information": {
+                    "Test Conditions": "25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity lower than UiO-66 due to steric hindrance."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CR adsorption capacity: 724.56 mg/g at 0.09 mol/L NaCl"
+        },
+        "Other Information": {
+            "Additional Info": "Capillary effect observed in adsorption kinetics; pseudosecond-order kinetic model best-fit."
+        }
+    },
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.16 nm (average)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "2.56 nm × 0.73 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Sieving effect",
+                "Other Information": {
+                    "Test Conditions": "25 °C, varying NaCl concentrations",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity increased with NaCl concentration."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "1.25 nm × 0.51 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Sieving effect",
+                "Other Information": {
+                    "Test Conditions": "25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption capacity compared to APT-hybridized variants."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CR adsorption capacity: 304.07 mg/g"
+        },
+        "Other Information": {
+            "Additional Info": "Capillary effect observed in adsorption kinetics; pseudosecond-order kinetic model best-fit."
+        }
+    },
+    {
+        "Materials Name": "5%APT/UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2.34 nm (average), 3.09 nm (mesopore)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "2.56 nm × 0.73 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Sieving effect",
+                "Other Information": {
+                    "Test Conditions": "25 °C, varying NaCl concentrations",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity increased with NaCl concentration."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "1.25 nm × 0.51 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Sieving effect",
+                "Other Information": {
+                    "Test Conditions": "25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower adsorption capacity compared to UiO-66 due to reduced specific surface area."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CR adsorption capacity: 394.63 mg/g"
+        },
+        "Other Information": {
+            "Additional Info": "No capillary effect observed; pseudosecond-order kinetic model best-fit."
+        }
+    }
+]

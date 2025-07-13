@@ -1,0 +1,202 @@
+[
+    {
+        "Materials Name": "β-PCMOF-2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.6–5.9 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "2,4,6-trihydroxyl-1,3,5-benzenetrisulfonate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "150 °C, anhydrous",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Used as a gas separator membrane for H2/air applications."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Impedance spectroscopy",
+            "Performance Metrics": "Proton conductivity: 2×10⁻⁴~6×10⁻⁴ S cm⁻¹ at 150 °C"
+        },
+        "Other Information": {
+            "Additional Info": "Sulfonate groups decorate the pore channels, enhancing proton conductivity with N-heterocyclic carriers."
+        }
+    },
+    {
+        "Materials Name": "TMOF-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D layered structure with interpenetrated pcu topology"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,2-ethanedisulfonate",
+            "4,4′-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong affinity toward sulfonate groups",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 positioned in the middle of four sulfonate groups, showing high affinity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sorption isotherms and DFT calculations",
+            "Performance Metrics": "BET surface area: 256 m²/g; CO2 sorption capacity higher than MOF-508b(Cu)"
+        },
+        "Other Information": {
+            "Additional Info": "Reusable catalyst for cycloaddition of CO2 and epoxides under ambient conditions."
+        }
+    },
+    {
+        "Materials Name": "TMOF-2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Prototypical pcu net with twofold interpenetration"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-benzene dimethanesulfonate",
+            "4,4′-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.275 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Enhanced water affinity due to dangling sulfonate groups",
+                "Other Information": {
+                    "Test Conditions": "90 °C, 98% RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Increased bulk proton conductivity compared to TMOF-1."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Conductivity measurements",
+            "Performance Metrics": "Proton conductivity: 1.23×10⁻⁴ S cm⁻¹ at 90 °C, 98% RH"
+        },
+        "Other Information": {
+            "Additional Info": "Higher permanent porosity (37%) achieved due to longer aromatic disulfonate linker."
+        }
+    },
+    {
+        "Materials Name": "TMOF-3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Non-interpenetrated pcu-net"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,2,4,5-benzenetetramethanesulfonate",
+            "4,4′-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propargyl alcohol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination with alkynophilic Ag+ sites",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Catalyzes cyclic carboxylation to α-alkylidene cyclic carbonates."
+                }
+            },
+            {
+                "Molecule Name": "propargyl amine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination with alkynophilic Ag+ sites",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Catalyzes cyclic carboxylation to oxazolidinones."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Catalytic performance tests",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Defective pcu net with half of the organosulfonate ligand missing; dangling sulfonate groups allow introduction of a second metal center."
+        }
+    },
+    {
+        "Materials Name": "Cu-based MOF with ndi ligands",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D sheet-like framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "naphthalenediimide disulfonate",
+            "4,4′-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ions",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Simultaneous binding by uncoordinated sulfonate oxygen and carbonyl groups",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ionic conductivity increased from 4.65×10⁻¹⁰ to 2.3×10⁻⁴ S cm⁻¹ upon LiClO4 infiltration."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Conductivity measurements",
+            "Performance Metrics": "Ionic conductivity: 2.3×10⁻⁴ S cm⁻¹ after LiClO4 treatment"
+        },
+        "Other Information": {
+            "Additional Info": "Size exclusion observed for bulky Bu4N+ cations."
+        }
+    }
+]

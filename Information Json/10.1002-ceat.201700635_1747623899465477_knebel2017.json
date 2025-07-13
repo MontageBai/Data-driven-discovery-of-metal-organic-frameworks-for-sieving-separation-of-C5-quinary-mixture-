@@ -1,0 +1,181 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "methylimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, electric field applied",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance decreases by about 75% under an electric field of 500 V/mm."
+                }
+            },
+            {
+                "Molecule Name": "propene",
+                "Molecular Size": "4.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, electric field applied",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propene permeance drops less compared to propane, increasing the separation factor from 6 to 8 under an electric field."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, electric field applied",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane permeance drops more than propene, enhancing the separation factor under an electric field."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Electric field application",
+            "Performance Metrics": "CO2 permeance reduction by 75%; propene/propane selectivity increased from 6 to 8."
+        },
+        "Other Information": {
+            "Additional Info": "Electric field induces a metastable polymorph with reduced lattice flexibility, sharpening molecular sieving."
+        }
+    },
+    {
+        "Materials Name": "Cu2(AzoBPDC)2(AzoBiPyB)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "AzoBPDC",
+            "AzoBiPyB"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, light switching (365 nm and 455 nm)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance of H2 remains unchanged during trans-cis switching of AZO groups."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, light switching (365 nm and 455 nm)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance is much lower in the cis state compared to the trans state."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, light switching (365 nm and 455 nm)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance of N2 remains unchanged during trans-cis switching of AZO groups."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Light switching (365 nm and 455 nm)",
+            "Performance Metrics": "CO2 permeance significantly reduced in cis state; H2 and N2 permeances remain unchanged."
+        },
+        "Other Information": {
+            "Additional Info": "AZO groups in the side chains are reversibly switched between trans and cis states using light, affecting CO2 permeance."
+        }
+    },
+    {
+        "Materials Name": "Cu2(F2AzoBDC)2(dabco)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "F2AzoBDC",
+            "dabco"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light photo-switching (400 nm and 530 nm)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance remains constant during visible light photo-switching."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light photo-switching (400 nm and 530 nm)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H4 permeance changes due to interaction with dipole moment of cis-AZO groups."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light photo-switching (400 nm and 530 nm)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6 permeance changes due to interaction with dipole moment of cis-AZO groups."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Visible light photo-switching (400 nm and 530 nm)",
+            "Performance Metrics": "H2:C2H4 and H2:C3H6 separation factors vary upon illumination."
+        },
+        "Other Information": {
+            "Additional Info": "Fluorinated AZO-containing linkers allow visible light photo-switching, influencing olefin permeance."
+        }
+    }
+]

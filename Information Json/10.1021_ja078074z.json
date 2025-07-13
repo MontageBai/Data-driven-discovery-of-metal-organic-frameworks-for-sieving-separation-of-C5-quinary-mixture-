@@ -1,0 +1,60 @@
+[
+    {
+        "MOF Name": "[Cu(F-pymo)2]n (1')",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "ca. 2.9 Å",
+            "Structure Type": "One-dimensional helical channels; Ultramicroporous"
+        },
+        "Topology": "gismondine (GIS)",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "5-fluoropyrimidin-2-olate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "H2",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving; Size exclusion; Hindered diffusion",
+                "Other Information": {
+                    "Test Conditions": "77-90 K, up to 900 Torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hysteretic desorption observed. Adsorption kinetics are very slow (ca. 50 h for a cycle) due to hindered diffusion through ultramicropores of comparable size. High H2 loading at low pressures might impede flexibility and window-opening, leading to slow desorption."
+                }
+            },
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "2.99 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not adsorbed at 77 K due to size exclusion."
+                }
+            },
+            {
+                "Molecule Name": "CO2",
+                "Molecular Size": "3.189 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Guest-induced framework flexibility and pore expansion; Cooperative adsorption",
+                "Other Information": {
+                    "Test Conditions": "273-473 K, up to 900 Torr / 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Readily incorporated despite being slightly larger than the pore size. Uptake occurs through a transient phase and channels expansion. Strong host-guest interaction (adsorption heat 49-55 kJ mol-1). Flexibility of the porous framework at higher temperatures enables diffusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on rigid pore apertures at low temperature (H2/N2); Guest-induced framework flexibility and pore expansion for larger molecules (CO2) at higher temperatures.",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms; Variable-temperature X-ray powder diffraction (TXRPD); Thermogravimetry (TG); Differential scanning calorimetry (DSC); CO2 isobar measurement",
+            "Performance Metrics": "H2 uptake: 0.56 wt% and 0.010 kg H2/L at 90 K and 900 Torr (density: 0.023 molecules Å-3); CO2 uptake: 7.6 wt% at 273 K and 900 Torr (density: 0.014 molecules Å-3); Selective H2 over N2 adsorption."
+        },
+        "Other Information": {
+            "Additional Info": "Thermally activated form of [Cu(F-pymo)2(H2O)1.25]n (1). Flexible porous network that undergoes guest-induced structural modification, affecting its magnetic properties (increase in weak ferromagnetic ordering transition temperature from 22 K to 29 K upon CO2 incorporation). Ultramicropore-filling leads to very high guest densities."
+        }
+    }
+]

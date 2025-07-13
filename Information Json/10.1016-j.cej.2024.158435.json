@@ -1,0 +1,84 @@
+[
+    {
+        "Materials Name": "MOF-808-12C4E",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.3 ~ 1.5 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid",
+            "carboxybenzo 12-crown-4-ether"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ion",
+                "Molecular Size": "0.152 nm (dehydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, pH ~6.3",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High affinity due to chelation with crown ether units."
+                }
+            },
+            {
+                "Molecule Name": "sodium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, pH ~6.3",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Poor size suitability with 12C4E ring and weaker interaction."
+                }
+            },
+            {
+                "Molecule Name": "potassium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, pH ~6.3",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger diameter leads to steric hindrance in the 12C4E ring."
+                }
+            },
+            {
+                "Molecule Name": "calcium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, pH ~6.3",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stronger positive charge inhibits adsorption via electrostatic repulsion."
+                }
+            },
+            {
+                "Molecule Name": "magnesium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, pH ~6.3",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stronger positive charge inhibits adsorption via electrostatic repulsion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on molecular dimensions and chelation interaction.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments, XPS, FTIR, DFT calculations",
+            "Performance Metrics": "Li+ adsorption capacity: 30.4 mg g−1; Selectivity factors: Li+/Na+ = 9.2, Li+/K+ = 8.2, Li+/Ca2+ = 9.2, Li+/Mg2+ = 4.4"
+        },
+        "Other Information": {
+            "Additional Info": "pH-dependent adsorption behavior; optimal performance observed at neutral pH range."
+        }
+    }
+]

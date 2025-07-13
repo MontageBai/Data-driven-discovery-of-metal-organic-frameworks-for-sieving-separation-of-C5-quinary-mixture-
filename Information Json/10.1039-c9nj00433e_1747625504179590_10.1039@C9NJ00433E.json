@@ -1,0 +1,114 @@
+[
+    {
+        "Materials Name": "MIL-53(Fe, Al)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.51 nm (Average pore width)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+",
+            "Al3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glutathione",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "sieving effect, coordination, hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, adsorption time up to 300 min, solution pH=6",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity increased by 52.53% and 27.81% compared to MIL-53(Fe) and MIL-53(Al), respectively."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale, along with hydrogen bonding and coordination effects.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments, FTIR analysis, Langmuir and Freundlich isotherm models, pseudo-second-order kinetic model",
+            "Performance Metrics": "Maximum adsorption capacity: 159.74 mg/g (Langmuir model)"
+        },
+        "Other Information": {
+            "Additional Info": "The material was optimized for synthesis conditions including reaction temperature, ratio of aluminum to iron, and ratio of terephthalic acid to metal ions."
+        }
+    },
+    {
+        "Materials Name": "MIL-53(Fe)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "15.56 nm (Average pore width)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glutathione",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "sieving effect, coordination, hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, adsorption time up to 300 min, solution pH=6",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower adsorption efficiency compared to MIL-53(Fe, Al)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale, along with hydrogen bonding and coordination effects.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments, Langmuir and Freundlich isotherm models, pseudo-second-order kinetic model",
+            "Performance Metrics": "Maximum adsorption capacity: 99.80 mg/g (Langmuir model)"
+        },
+        "Other Information": {
+            "Additional Info": "Used as a comparison material to evaluate the performance of MIL-53(Fe, Al)."
+        }
+    },
+    {
+        "Materials Name": "MIL-53(Al)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.69 nm (Average pore width)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glutathione",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "sieving effect, coordination, hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, adsorption time up to 300 min, solution pH=6",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption efficiency than MIL-53(Fe) but lower than MIL-53(Fe, Al)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale, along with hydrogen bonding and coordination effects.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments, Langmuir and Freundlich isotherm models, pseudo-second-order kinetic model",
+            "Performance Metrics": "Maximum adsorption capacity: 125.31 mg/g (Langmuir model)"
+        },
+        "Other Information": {
+            "Additional Info": "Used as a comparison material to evaluate the performance of MIL-53(Fe, Al)."
+        }
+    }
+]

@@ -1,0 +1,628 @@
+[
+    {
+        "Materials Name": "Homo-chiral L-POST-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D layer with chiral 1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Protonated pyridyl groups"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "[Ru(2,20-bipyridyl)3]Cl2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical adsorption and enantioselective separation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "80% proton exchange in channels, 66% enantiomeric excess obtained."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enantioselective separation via chemical mechanism",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption experiment",
+            "Performance Metrics": "66% enantiomeric excess"
+        },
+        "Other Information": {
+            "Additional Info": "First instance of liquid phase adsorption using MCPs."
+        }
+    },
+    {
+        "Materials Name": "Cd2+ quitenine-based hybrid zeolite analogue",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Chiral pores accommodating (S)-2-butanol"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "Quitenine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "(S)-2-butanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size and shape selectivity",
+                "Other Information": {
+                    "Test Conditions": "Solvothermal conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "98% enantiomeric excess achieved."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size and shape selective inclusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single crystal X-ray diffraction",
+            "Performance Metrics": "98% enantiomeric excess"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrates enantio-differentiation for small molecules."
+        }
+    },
+    {
+        "Materials Name": "Ammonia-treated homochiral samarium bisphosphonate MCP",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Samarium"
+        ],
+        "Ligands": [
+            "Bisphosphonate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "trans-1,2-diaminocyclohexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Enantioselective adsorption",
+                "Other Information": {
+                    "Test Conditions": "Chromatographic separation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "13.6% S,S-enrichment in beginning fractions, 10.0% R,R-enrichment in ending fractions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enantioselective adsorption",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Chromatographic separation",
+            "Performance Metrics": "13.6% and 10.0% enantiomeric enrichment"
+        },
+        "Other Information": {
+            "Additional Info": "Relatively modest enantioselectivities achieved."
+        }
+    },
+    {
+        "Materials Name": "PIZA-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Porous structure favoring smaller or less sterically bulky molecules"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cobalt(III)",
+            "Trinuclear Co(II) clusters"
+        ],
+        "Ligands": [
+            "Ruffled porphyrin cores",
+            "Carboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Acts as a better desiccant than zeolite 4A."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbs smaller molecules."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbs smaller molecules."
+                }
+            },
+            {
+                "Molecule Name": "tetrahydrofuran",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbs smaller molecules."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size and shape selective adsorption",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiment",
+            "Performance Metrics": "Better desiccant performance compared to zeolite 4A."
+        },
+        "Other Information": {
+            "Additional Info": "Fast kinetics for guest inclusion observed."
+        }
+    },
+    {
+        "Materials Name": "BOF-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Channels decorated with functional groups favoring hydrogen bonding interactions"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Nickel"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen bonding interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Largest binding constant due to hydrogen bonding."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen bonding interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate binding affinity."
+                }
+            },
+            {
+                "Molecule Name": "isopropanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen bonding interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower binding affinity compared to methanol and ethanol."
+                }
+            },
+            {
+                "Molecule Name": "benzyl alcohol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "p–p interactions with the framework",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest binding constant among studied molecules."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Functional group-directed adsorption",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption study",
+            "Performance Metrics": "Binding constants: Methanol > Ethanol > Isopropanol > Benzyl alcohol."
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrates role of specific functional groups in adsorption preference."
+        }
+    },
+    {
+        "Materials Name": "MOF-177",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "11 Å (diameter of pore)",
+            "Structure Type": "Large pores allowing diffusion of C60 and organic dyes"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zinc carboxylate clusters"
+        ],
+        "Ligands": [
+            "1,3,5-(triscarboxyphenyl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "C60",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Free diffusion through large pores",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Inclusion confirmed by Raman spectroscopy."
+                }
+            },
+            {
+                "Molecule Name": "Astrazon Orange R",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selective adsorption",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake exceeded 40 wt%, 16 molecules per unit cell."
+                }
+            },
+            {
+                "Molecule Name": "Nile Red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selective adsorption",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "2 molecules adsorbed per unit cell."
+                }
+            },
+            {
+                "Molecule Name": "Reichardt’s dye",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size-selective adsorption",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Only able to penetrate outer part of the crystal."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-selective adsorption for large molecules",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Raman spectroscopy and adsorption experiments",
+            "Performance Metrics": "High uptake capacities for large dyes."
+        },
+        "Other Information": {
+            "Additional Info": "First demonstration of size selectivity for large molecules in MCPs."
+        }
+    },
+    {
+        "Materials Name": "HKUST-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Pores suitable for mesitylene and triphenylmethane but excluding larger molecules"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Copper paddlewheel clusters"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "mesitylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size and flexibility compatibility",
+                "Other Information": {
+                    "Test Conditions": "Hexane solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed due to appropriate size and flexibility."
+                }
+            },
+            {
+                "Molecule Name": "triphenylmethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size and flexibility compatibility",
+                "Other Information": {
+                    "Test Conditions": "Hexane solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed due to appropriate size and flexibility."
+                }
+            },
+            {
+                "Molecule Name": "1,3,5-triethylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Hexane solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size."
+                }
+            },
+            {
+                "Molecule Name": "1,3,5-triisopropylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Hexane solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size."
+                }
+            },
+            {
+                "Molecule Name": "triphenylmethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size and flexibility compatibility",
+                "Other Information": {
+                    "Test Conditions": "Hexane solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed due to appropriate size and flexibility."
+                }
+            },
+            {
+                "Molecule Name": "triphenylethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Hexane solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size."
+                }
+            },
+            {
+                "Molecule Name": "pyrene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Hexane solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size."
+                }
+            },
+            {
+                "Molecule Name": "p-dichlorobenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective discrimination based on molecular interactions",
+                "Other Information": {
+                    "Test Conditions": "Competitive adsorption from hexane",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity factor of 9.0 over o-dichlorobenzene."
+                }
+            },
+            {
+                "Molecule Name": "o-dichlorobenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective discrimination based on molecular interactions",
+                "Other Information": {
+                    "Test Conditions": "Competitive adsorption from hexane",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less favored due to steric effects."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size and shape selective sorption",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Competitive adsorption experiments",
+            "Performance Metrics": "Selectivity factor of 9.0 for p-dichlorobenzene over o-dichlorobenzene."
+        },
+        "Other Information": {
+            "Additional Info": "Early example of competitive adsorption in an MCP."
+        }
+    },
+    {
+        "Materials Name": "MIL-47",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "One-dimensional pores with steric confinement"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Vanadium(V) octahedra"
+        ],
+        "Ligands": [
+            "Terephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular packing effect",
+                "Other Information": {
+                    "Test Conditions": "Hexane solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferred adsorption over m-xylene and ethylbenzene."
+                }
+            },
+            {
+                "Molecule Name": "m-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular packing effect",
+                "Other Information": {
+                    "Test Conditions": "Hexane solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate preference compared to p-xylene."
+                }
+            },
+            {
+                "Molecule Name": "ethylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Hexane solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Least preferred due to steric reasons."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular packing-driven selectivity",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pulse chromatography",
+            "Performance Metrics": "Separate peaks obtained for ethylbenzene, m-xylene, and p-xylene."
+        },
+        "Other Information": {
+            "Additional Info": "First example of industrially relevant xylene isomer separation using an MCP."
+        }
+    },
+    {
+        "Materials Name": "MIL-53(Al)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "One-dimensional pores favoring ortho isomers"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Aluminum(III) octahedra"
+        ],
+        "Ligands": [
+            "Terephthalate",
+            "OH-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "o-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Specific interaction with carboxylate groups",
+                "Other Information": {
+                    "Test Conditions": "Hexane solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong preference due to geometry allowing interactions with carboxylate groups."
+                }
+            },
+            {
+                "Molecule Name": "m-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Hexane solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not discriminated against p-xylene."
+                }
+            },
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Hexane solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not discriminated against m-xylene."
+                }
+            },
+            {
+                "Molecule Name": "ethylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Hexane solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not adsorbed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Interaction-driven selectivity for ortho isomers",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "Higher sorption capacity for o-xylene (45 wt%) compared to p-xylene (5 wt%)."
+        },
+        "Other Information": {
+            "Additional Info": "Contrasts MIL-47 in selectivity behavior."
+        }
+    },
+    {
+        "Materials Name": "Zinc-metallosalen based material",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zinc"
+        ],
+        "Ligands": [
+            "Metallosalen ligands"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "2-butanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Enantioselective inclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "AdditionalInfo": "Achieved 99.8% enantiomeric excess for R-isomer."
+                }
+            },
+            {
+                "Molecule Name": "3-methyl-2-butanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Enantioselective inclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved 99.6% enantiomeric excess for R-isomer."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enantioselective inclusion",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption experiment",
+            "Performance Metrics": "99.8% and 99.6% enantiomeric excess for respective alcohols."
+        },
+        "Other Information": {
+            "Additional Info": "Highest enantiomeric excesses achieved to date using MCPs."
+        }
+    }
+]

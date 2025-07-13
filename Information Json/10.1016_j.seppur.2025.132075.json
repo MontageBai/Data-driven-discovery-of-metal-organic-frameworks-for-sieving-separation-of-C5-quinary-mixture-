@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "CTGU-44",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.1 Å (PLD), 3.5 Å (PLD)",
+            "Structure Type": "1D flattened rectangular channels"
+        },
+        "Topology": "fta",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "bicyclo[1.1.1]pentane-1,3-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.18 × 3.33 × 5.4 Å3",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic-kinetic synergy effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption due to local-molecule trap (LMT) and narrow pore size."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.32 × 3.34 × 5.7 Å3",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Limited entry into channel I due to PLD of ~3.1 Å; restricted passage in channel II due to PLD of ~3.5 Å."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combination of narrow window cross-section and polar pore surface.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "IAST selectivity: 13.7 for 50/50 C2H2/CO2 mixture; actual separation factor: 8.3"
+        },
+        "Other Information": {
+            "Additional Info": "CTGU-44 exhibits ultrahigh C2H2/CO2 uptake ratio, excellent adsorption selectivity, and moderate Qst of C2H2 during separation."
+        }
+    }
+]

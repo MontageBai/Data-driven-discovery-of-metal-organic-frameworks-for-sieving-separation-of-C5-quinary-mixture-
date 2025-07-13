@@ -1,0 +1,92 @@
+MOF Name: Manganese formate
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Manganese formate:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of Manganese formate: Based on the adsorption of carbon dioxide (intermediate dimension 3.200 Å), the effective pore size of Manganese formate is inferred to be at least 3.200 Å. There is no experimental data provided for a molecule that is *not* adsorbed due to size exclusion, which would typically define an upper limit for the pore size.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is the only molecule confirmed to be adsorbed by Manganese formate in the provided data. In the context of MOF materials and size exclusion phenomena, if a MOF selectively adsorbs a smaller molecule through a "size exclusion" mechanism, it implies its pores are specifically sized. Without further data indicating adsorption of larger molecules, it is highly probable that molecules substantially larger than the confirmed adsorbed species cannot pass through due to size exclusion. Therefore, based on the limited but direct experimental data, isoprene is predicted not to be adsorbed.
+
+---
+
+MOF Name: Manganese formate
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Manganese formate:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of Manganese formate: Based on the adsorption of carbon dioxide (intermediate dimension 3.200 Å), the effective pore size of Manganese formate is inferred to be at least 3.200 Å. There is no experimental data provided for a molecule that is *not* adsorbed due to size exclusion, which would typically define an upper limit for the pore size.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is the only molecule confirmed to be adsorbed by Manganese formate in the provided data. In the context of MOF materials and size exclusion phenomena, if a MOF selectively adsorbs a smaller molecule through a "size exclusion" mechanism, it implies its pores are specifically sized. Without further data indicating adsorption of larger molecules, it is highly probable that molecules substantially larger than the confirmed adsorbed species cannot pass through due to size exclusion. Therefore, based on the limited but direct experimental data, cis-2-pentene is predicted not to be adsorbed.
+
+---
+
+MOF Name: Manganese formate
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Manganese formate:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of Manganese formate: Based on the adsorption of carbon dioxide (intermediate dimension 3.200 Å), the effective pore size of Manganese formate is inferred to be at least 3.200 Å. There is no experimental data provided for a molecule that is *not* adsorbed due to size exclusion, which would typically define an upper limit for the pore size.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is the only molecule confirmed to be adsorbed by Manganese formate in the provided data. In the context of MOF materials and size exclusion phenomena, if a MOF selectively adsorbs a smaller molecule through a "size exclusion" mechanism, it implies its pores are specifically sized. Without further data indicating adsorption of larger molecules, it is highly probable that molecules substantially larger than the confirmed adsorbed species cannot pass through due to size exclusion. Therefore, based on the limited but direct experimental data, 1-pentene is predicted not to be adsorbed.
+
+---
+
+MOF Name: Manganese formate
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Manganese formate:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of Manganese formate: Based on the adsorption of carbon dioxide (intermediate dimension 3.200 Å), the effective pore size of Manganese formate is inferred to be at least 3.200 Å. There is no experimental data provided for a molecule that is *not* adsorbed due to size exclusion, which would typically define an upper limit for the pore size.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is the only molecule confirmed to be adsorbed by Manganese formate in the provided data. In the context of MOF materials and size exclusion phenomena, if a MOF selectively adsorbs a smaller molecule through a "size exclusion" mechanism, it implies its pores are specifically sized. Without further data indicating adsorption of larger molecules, it is highly probable that molecules substantially larger than the confirmed adsorbed species cannot pass through due to size exclusion. Therefore, based on the limited but direct experimental data, trans-2-pentene is predicted not to be adsorbed.
+
+---
+
+MOF Name: Manganese formate
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Manganese formate:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of Manganese formate: Based on the adsorption of carbon dioxide (intermediate dimension 3.200 Å), the effective pore size of Manganese formate is inferred to be at least 3.200 Å. There is no experimental data provided for a molecule that is *not* adsorbed due to size exclusion, which would typically define an upper limit for the pore size.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is the only molecule confirmed to be adsorbed by Manganese formate in the provided data. In the context of MOF materials and size exclusion phenomena, if a MOF selectively adsorbs a smaller molecule through a "size exclusion" mechanism, it implies its pores are specifically sized. Without further data indicating adsorption of larger molecules, it is highly probable that molecules substantially larger than the confirmed adsorbed species cannot pass through due to size exclusion. Therefore, based on the limited but direct experimental data, n-pentane is predicted not to be adsorbed.

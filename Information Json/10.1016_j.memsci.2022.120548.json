@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "CANAL-TB-1-derived CMS membranes",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.85 to 3.70 Å (average d-spacing values)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeability of 4.95 Barrer at 900 °C pyrolysis temperature."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeability decreased slightly from 0.069 Barrer at 2 bar to 0.066 Barrer at 15 bar for CANAL-850 °C CMS membrane."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen permeabilities for CMS membranes pyrolyzed at 850 and 900 °C could not be measured accurately as the measurements were below the detection limit of the gas permeation equipment (<0.005 Barrer)."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methane permeabilities for CMS membranes pyrolyzed at 850 and 900 °C could not be measured accurately as the measurements were below the detection limit of the gas permeation equipment (<0.005 Barrer)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pure-gas permeation experiments",
+            "Performance Metrics": "H2/CO2 selectivity of 248 at 35 °C for CANAL-900 °C; H2/CO2 mixed-gas selectivity of 174 at 100 °C and 10 bar feed pressure."
+        },
+        "Other Information": {
+            "Additional Info": "The CANAL-900 °C exhibited the highest pure-and-mixed H2/CO2 selectivities, with values similar to the ultrathin 2D GO membrane. To the best of our knowledge, to date this is the highest pure-and-mixed H2/CO2 separation performance reported for CMS membranes at high pressure and temperature."
+        }
+    }
+]

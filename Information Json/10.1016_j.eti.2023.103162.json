@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "UiO-66 incorporated UF membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "strontium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Membranes with MOF-0.6 wt.% possessed the maximum potentially toxic elements removal."
+                }
+            },
+            {
+                "Molecule Name": "lead",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Membranes with MOF-0.6 wt.% possessed the maximum potentially toxic elements removal."
+                }
+            },
+            {
+                "Molecule Name": "cadmium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Membranes with MOF-0.6 wt.% possessed the maximum potentially toxic elements removal."
+                }
+            },
+            {
+                "Molecule Name": "chromium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Membranes with MOF-0.6 wt.% possessed the maximum potentially toxic elements removal."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "High metal rejection properties showed the potential of UiO-66 incorporated membranes for use in water and wastewater treatment."
+        }
+    },
+    {
+        "Materials Name": "amine-functionalized ZIF-8-decorated GO for UF membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Escherichia coli",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Modified membrane with 1.0% ZGO-NH has superior antibacterial performance against Gram-positive and Gram-negative bacteria."
+                }
+            },
+            {
+                "Molecule Name": "Staphylococcus aureus",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Modified membrane with 1.0% ZGO-NH has superior antibacterial performance against Gram-positive and Gram-negative bacteria."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "The antibacterial efficiency was 81.1% and 85.7% against E. coli and S. aureus, respectively."
+        }
+    }
+]

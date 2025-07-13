@@ -1,0 +1,117 @@
+MOF Name: HIAM-203
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for HIAM-203:
+- Hexane: 10.359×4.607×3.969 → Intermediate = 4.607 Å | Adsorbed (Yes)
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å | Adsorbed (Conditional)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of HIAM-203:
+The material can adsorb molecules with intermediate dimensions up to 6.008 Å (conditionally, implying a tight fit or kinetic limitations). It strictly excludes molecules with an intermediate dimension of 6.545 Å. Therefore, the effective pore size is sensitive to dimensions in the range of [~6.008 Å, 6.545 Å).
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since 3-methylpentane (intermediate 6.008 Å) is already adsorbed only conditionally, and isoprene's intermediate dimension (6.093 Å) is larger than 3-methylpentane's, isoprene is likely too large to pass through the pore, similar to how 2,2-dimethylbutane is excluded. The "Conditional" adsorption for 3-methylpentane suggests that 6.008 Å is at or very near the effective pore opening, making a slightly larger molecule like isoprene unable to pass.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: HIAM-203
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for HIAM-203:
+- Hexane: 10.359×4.607×3.969 → Intermediate = 4.607 Å | Adsorbed (Yes)
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å | Adsorbed (Conditional)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of HIAM-203:
+The material can adsorb molecules with intermediate dimensions up to 6.008 Å (conditionally). It strictly excludes molecules with an intermediate dimension of 6.545 Å. Thus, molecules smaller than or equal to ~6.008 Å can be adsorbed.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than 3-methylpentane (6.008 Å), which can be conditionally adsorbed, and also larger than hexane (4.607 Å) which is fully adsorbed, it falls well within the range of adsorbable molecules.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: HIAM-203
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for HIAM-203:
+- Hexane: 10.359×4.607×3.969 → Intermediate = 4.607 Å | Adsorbed (Yes)
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å | Adsorbed (Conditional)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of HIAM-203:
+The material can adsorb molecules with intermediate dimensions up to 6.008 Å (conditionally). It strictly excludes molecules with an intermediate dimension of 6.545 Å. Thus, molecules smaller than or equal to ~6.008 Å can be adsorbed.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than 3-methylpentane (6.008 Å), which can be conditionally adsorbed, and also larger than hexane (4.607 Å) which is fully adsorbed, it falls well within the range of adsorbable molecules.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: HIAM-203
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for HIAM-203:
+- Hexane: 10.359×4.607×3.969 → Intermediate = 4.607 Å | Adsorbed (Yes)
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å | Adsorbed (Conditional)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of HIAM-203:
+The material can adsorb molecules with intermediate dimensions up to 6.008 Å (conditionally). It strictly excludes molecules with an intermediate dimension of 6.545 Å. Thus, molecules smaller than or equal to ~6.008 Å can be adsorbed.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than 3-methylpentane (6.008 Å), which can be conditionally adsorbed, and also larger than hexane (4.607 Å) which is fully adsorbed, it falls well within the range of adsorbable molecules.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: HIAM-203
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for HIAM-203:
+- Hexane: 10.359×4.607×3.969 → Intermediate = 4.607 Å | Adsorbed (Yes)
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å | Adsorbed (Conditional)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of HIAM-203:
+The material can adsorb molecules with intermediate dimensions up to 6.008 Å (conditionally). It strictly excludes molecules with an intermediate dimension of 6.545 Å. Thus, molecules smaller than or equal to ~6.008 Å can be adsorbed.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than hexane (4.607 Å), which is known to be fully adsorbed, it should readily be adsorbed by HIAM-203.
+
+Therefore, the result is: **Can Adsorb**

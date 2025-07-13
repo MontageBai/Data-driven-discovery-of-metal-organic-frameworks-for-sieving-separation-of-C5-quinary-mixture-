@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "In(aip)2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.57 Å (experimental average), 3.46 Å (PLD)",
+            "Structure Type": "3D network formed by staggered AB-like stacking of layers"
+        },
+        "Topology": "sql",
+        "Metal Nodes": [
+            "In(COO)4 cluster"
+        ],
+        "Ligands": [
+            "5-aminoisophthalic acid (H2aip)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake: 1.27 mmol/g at 298 K and 101 kPa"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption: 0.02 mmol/g at 298 K and 101 kPa"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption: 0.01 mmol/g at 298 K and 101 kPa"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale with hydrogen bonding interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "IAST selectivity: CO2/CH4 = 1808, CO2/N2 = 2635 at 298 K and 101 kPa"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits ultra-high selectivities due to its pore size (~3.57 Å) and functional -NH2 groups that form hydrogen bonds with CO2."
+        }
+    }
+]

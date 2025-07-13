@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "UIO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.8 nm, 1.1 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "calix[6]arene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Calix[6]arene is larger than the pore openings and remains outside the grains."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "0.59 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Toluene used as a solvent for dispersion experiments."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Gas uptake properties were consistent with BET surface areas."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Gas uptake properties were consistent with BET surface areas."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Gas uptake properties were consistent with BET surface areas."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms, DLS, XRD, BET analysis, TEM, SEM, TGA",
+            "Performance Metrics": "BET surface area: 1385 m2/g (calix[6]arene-coated), CO2/N2/CH4 gas uptake tested"
+        },
+        "Other Information": {
+            "Additional Info": "Calix[6]arene coating preserved porosity and enhanced colloidal stability in nonpolar media like toluene."
+        }
+    }
+]

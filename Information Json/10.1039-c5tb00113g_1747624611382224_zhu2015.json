@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.1 nm (PLD), 6 Å (pore window)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "30% ACN/0.1% TFA buffer, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Only smaller phosphopeptides (e.g., m/z 1252.5 and 2061.7) were enriched due to size-selective molecular sieving."
+                }
+            },
+            {
+                "Molecule Name": "tetraphosphorylated peptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "30% ACN/0.1% TFA buffer, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore entrance of UiO-66 is not large enough to allow access for tetraphosphorylated peptides."
+                }
+            },
+            {
+                "Molecule Name": "proteins",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30% ACN/0.1% TFA buffer, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Interfering proteins (e.g., a-casein and BSA) were excluded during enrichment due to their larger size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis after enrichment",
+            "Performance Metrics": "Selective enrichment of phosphopeptides with high specificity and sensitivity (detected down to 0.1 fmol mL⁻¹)"
+        },
+        "Other Information": {
+            "Additional Info": "UiO-66 demonstrated excellent chemical and thermal stability, making it highly promising for applications in phosphopeptidome research."
+        }
+    },
+    {
+        "Materials Name": "UiO-67",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.2 nm and 1.6 nm (PLD), 8 Å (pore window)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "4,4'-biphenyldicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "30% ACN/0.1% TFA buffer, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Phosphopeptides with varying sizes (e.g., m/z 1252.5, 2061.7, 2620.1, and 2721.5) were enriched due to the larger pore size compared to UiO-66."
+                }
+            },
+            {
+                "Molecule Name": "tetraphosphorylated peptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "30% ACN/0.1% TFA buffer, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Despite its larger pore size, UiO-67 still could not enrich tetraphosphorylated peptides due to size restrictions."
+                }
+            },
+            {
+                "Molecule Name": "proteins",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30% ACN/0.1% TFA buffer, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Interfering proteins (e.g., a-casein and BSA) were effectively excluded during enrichment due to their larger size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis after enrichment",
+            "Performance Metrics": "Highly specific enrichment of phosphopeptides even in complex biological samples (e.g., human serum)"
+        },
+        "Other Information": {
+            "Additional Info": "UiO-67 exhibited superior performance compared to UiO-66 in terms of accommodating larger phosphopeptides while maintaining effective protein exclusion."
+        }
+    }
+]

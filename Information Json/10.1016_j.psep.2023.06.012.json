@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "CS/UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "15.03 Å (Average Pore Diameter)",
+            "Structure Type": "Microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxy-1,4-benzene dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "0.4 nm (thickness), 0.61 nm (depth), 1.43 nm (width)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interactions, hydrogen bonding, pi-pi interactions, pore filling, coordinate bonding",
+                "Other Information": {
+                    "Test Conditions": "pH > 6.07, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 2321 mg/g"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "0.4 nm (thickness), 0.61 nm (depth), 1.43 nm (width)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interactions, hydrogen bonding, pi-pi interactions, pore filling, coordinate bonding",
+                "Other Information": {
+                    "Test Conditions": "pH < 6.07, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 900 mg/g"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments, Langmuir isotherm model, Ho’s second-order kinetic model",
+            "Performance Metrics": "MB adsorption capacity: 2321 mg/g, MO adsorption capacity: 900 mg/g"
+        },
+        "Other Information": {
+            "Additional Info": "The material showed enhanced adsorption and photocatalytic degradation capabilities after composite formation with chitosan."
+        }
+    }
+]

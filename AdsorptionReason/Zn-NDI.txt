@@ -1,0 +1,97 @@
+MOF Name: Zn-NDI
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-NDI:
+*   **Adsorbed:** isobutane (6.404×6.393×4.866) → Intermediate = 6.393 Å. This molecule was successfully adsorbed.
+*   **Not Adsorbed (Size exclusion):** toluene (8.117×6.501×3.750) → Intermediate = 6.501 Å. This molecule was not adsorbed due to size exclusion.
+
+Inferred effective pore size of Zn-NDI: Based on these data points, the MOF's effective pore size is inferred to be capable of accommodating molecules with an intermediate dimension up to 6.393 Å, but not 6.501 Å or larger. Therefore, the effective pore size (P) lies in the range: 6.393 Å ≤ P < 6.501 Å.
+
+Target guest molecule dimensions:
+*   isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is smaller than the intermediate dimension of the largest molecule adsorbed (isobutane, 6.393 Å), and falls within the inferred pore size range, it can be adsorbed by Zn-NDI. While kinetic sieving has been observed for other adsorbed molecules by Zn-NDI, suggesting tight fits and potential selective adsorption rates, this does not prevent the molecule from entering the pores based on its geometric size.
+
+***
+
+MOF Name: Zn-NDI
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-NDI:
+*   **Adsorbed:** isobutane (6.404×6.393×4.866) → Intermediate = 6.393 Å. This molecule was successfully adsorbed.
+*   **Not Adsorbed (Size exclusion):** toluene (8.117×6.501×3.750) → Intermediate = 6.501 Å. This molecule was not adsorbed due to size exclusion.
+
+Inferred effective pore size of Zn-NDI: Based on these data points, the MOF's effective pore size is inferred to be capable of accommodating molecules with an intermediate dimension up to 6.393 Å, but not 6.501 Å or larger. Therefore, the effective pore size (P) lies in the range: 6.393 Å ≤ P < 6.501 Å.
+
+Target guest molecule dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly smaller than the intermediate dimension of the largest molecule adsorbed (isobutane, 6.393 Å), and falls well within the inferred pore size range, it can be adsorbed by Zn-NDI. While kinetic sieving has been observed for other adsorbed molecules by Zn-NDI, suggesting tight fits and potential selective adsorption rates, this does not prevent the molecule from entering the pores based on its geometric size.
+
+***
+
+MOF Name: Zn-NDI
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-NDI:
+*   **Adsorbed:** isobutane (6.404×6.393×4.866) → Intermediate = 6.393 Å. This molecule was successfully adsorbed.
+*   **Not Adsorbed (Size exclusion):** toluene (8.117×6.501×3.750) → Intermediate = 6.501 Å. This molecule was not adsorbed due to size exclusion.
+
+Inferred effective pore size of Zn-NDI: Based on these data points, the MOF's effective pore size is inferred to be capable of accommodating molecules with an intermediate dimension up to 6.393 Å, but not 6.501 Å or larger. Therefore, the effective pore size (P) lies in the range: 6.393 Å ≤ P < 6.501 Å.
+
+Target guest molecule dimensions:
+*   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly smaller than the intermediate dimension of the largest molecule adsorbed (isobutane, 6.393 Å), and falls well within the inferred pore size range, it can be adsorbed by Zn-NDI. While kinetic sieving has been observed for other adsorbed molecules by Zn-NDI, suggesting tight fits and potential selective adsorption rates, this does not prevent the molecule from entering the pores based on its geometric size.
+
+***
+
+MOF Name: Zn-NDI
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-NDI:
+*   **Adsorbed:** isobutane (6.404×6.393×4.866) → Intermediate = 6.393 Å. This molecule was successfully adsorbed.
+*   **Not Adsorbed (Size exclusion):** toluene (8.117×6.501×3.750) → Intermediate = 6.501 Å. This molecule was not adsorbed due to size exclusion.
+
+Inferred effective pore size of Zn-NDI: Based on these data points, the MOF's effective pore size is inferred to be capable of accommodating molecules with an intermediate dimension up to 6.393 Å, but not 6.501 Å or larger. Therefore, the effective pore size (P) lies in the range: 6.393 Å ≤ P < 6.501 Å.
+
+Target guest molecule dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly smaller than the intermediate dimension of the largest molecule adsorbed (isobutane, 6.393 Å), and falls well within the inferred pore size range, it can be adsorbed by Zn-NDI. While kinetic sieving has been observed for other adsorbed molecules by Zn-NDI, suggesting tight fits and potential selective adsorption rates, this does not prevent the molecule from entering the pores based on its geometric size.
+
+***
+
+MOF Name: Zn-NDI
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-NDI:
+*   **Adsorbed:** isobutane (6.404×6.393×4.866) → Intermediate = 6.393 Å. This molecule was successfully adsorbed.
+*   **Not Adsorbed (Size exclusion):</B> toluene (8.117×6.501×3.750) → Intermediate = 6.501 Å. This molecule was not adsorbed due to size exclusion.
+
+Inferred effective pore size of Zn-NDI: Based on these data points, the MOF's effective pore size is inferred to be capable of accommodating molecules with an intermediate dimension up to 6.393 Å, but not 6.501 Å or larger. Therefore, the effective pore size (P) lies in the range: 6.393 Å ≤ P < 6.501 Å.
+
+Target guest molecule dimensions:
+*   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly smaller than the intermediate dimension of the largest molecule adsorbed (isobutane, 6.393 Å), and falls well within the inferred pore size range, it can be adsorbed by Zn-NDI. While kinetic sieving has been observed for other adsorbed molecules by Zn-NDI, suggesting tight fits and potential selective adsorption rates, this does not prevent the molecule from entering the pores based on its geometric size.

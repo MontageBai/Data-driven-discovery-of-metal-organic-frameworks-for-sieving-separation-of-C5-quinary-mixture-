@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Fe3O4@UiO-66-NH2-Zr4+ HFs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.78 nm, 8.55 nm, 14.42 nm",
+            "Structure Type": "hollow nanoflower with hierarchical pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+",
+            "Fe3O4"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material showed excellent size-exclusion effect, excluding large proteins like BSA while capturing small phosphopeptides."
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin (BSA)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The hollow nanoflower structure effectively excluded large-size interfering substances such as BSA."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF mass spectrometry",
+            "Performance Metrics": "Selectivity: β-casein:BSA = 1:1000, Sensitivity: 1.0 fmol"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibited good selectivity, high sensitivity, and excellent size-exclusion effects for phosphopeptide enrichment from complex biological samples."
+        }
+    }
+]

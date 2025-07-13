@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "JNU-3a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.5 Å × 5.3 Å (1D channel), 3.7 Å ('gourd-shaped' aperture)",
+            "Structure Type": "1D channels with embedded molecular pockets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "5-(3-methyl-5-(pyridin-4-yl)-4H-1,2,4-triazol-4-yl)-1,3-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.0 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Orthogonal-array dynamic molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "303 K, variable pressure",
+                    "Threshold Pressure": "Low pressure (gate-opening observed at substantially lower pressures than propane)",
+                    "Additional Info": "Preferential adsorption over propane; maximum uptake of 58.6 cm³ g⁻¹ at 1 bar and 303 K."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3 Å (kinetic diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Orthogonal-array dynamic molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "303 K, variable pressure",
+                    "Threshold Pressure": "High pressure (gate-opening observed at approximately five times higher pressure than propylene)",
+                    "Additional Info": "Weak interaction with the framework; minimal co-adsorption after propylene-induced gate-opening."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Orthogonal-array dynamic molecular sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, gas adsorption isotherms, DFT calculations",
+            "Performance Metrics": "C3H6/C3H8 selectivity: 513 (IAST), C3H6 productivity: up to 53.5 l kg⁻¹ at 99.5% purity"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrated recyclability over 50 cycles without loss of performance; retains separation capability under humid conditions (50% RH)."
+        }
+    }
+]

@@ -1,0 +1,724 @@
+[
+    {
+        "Materials Name": "NKMOF-1-Ni",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.75 Å",
+            "Structure Type": "3D networks with 1D square channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "[Ni(pdt)2]-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen bonding and π–π interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong interactions between acetylene and framework"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake capacity for methane"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Specific binding site for acetylene",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "IAST selectivity of 6409.1 for C2H2/CH4 (1/1, v/v)"
+        },
+        "Other Information": {
+            "Additional Info": "Benchmark selectivity for C2H2/CH4 separation"
+        }
+    },
+    {
+        "Materials Name": "BSF-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "closo-dodecaborate cluster",
+            "bpa"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "B–H···H–C dihydrogen bonds",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake capacity for acetylene"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake capacity for methane"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "IAST selectivity of 46.9 for C2H2/CH4"
+        },
+        "Other Information": {
+            "Additional Info": "Good cyclability and stability"
+        }
+    },
+    {
+        "Materials Name": "UTSA-200a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Rigid 1D open cylindrical channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "azpy"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Controlled by temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Mesh-adjustable molecular sieve"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake capacity for methane"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "High selectivity for ethylene over methane"
+        },
+        "Other Information": {
+            "Additional Info": "First MOF-based mesh-adjustable molecular sieve"
+        }
+    },
+    {
+        "Materials Name": "UTSA-200a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Rigid 1D open cylindrical channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "azpy"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake capacity for ethylene"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Complete exclusion of ethane molecules"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ideal molecular sieving effect",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "IAST selectivity >10,000 for equimolar C2H4/C2H6 mixture"
+        },
+        "Other Information": {
+            "Additional Info": "Record selectivity and working capacity for C2H4/C2H6 separation"
+        }
+    },
+    {
+        "Materials Name": "NbU-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Planar metal-binding sites"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "adenine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetics-driven mechanism",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fast diffusion rate within NbU-1 for ethylene"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Longest dimensionless breakthrough time for ethylene"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "Selectivity of 12.1 at 100 kPa, 273 K"
+        },
+        "Other Information": {
+            "Additional Info": "Potential practical adsorbent material"
+        }
+    },
+    {
+        "Materials Name": "ELM-12",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.1×4.3×4.3 Å³ and 6.8×4.0×4.2 Å³",
+            "Structure Type": "Two kinds of cavities"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "bpy",
+            "OTf"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propyne",
+                "Molecular Size": "0.41 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Short C−H···O hydrogen bonds",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake capacity for propyne"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake capacity for propylene"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "IAST selectivity of 83 for 1/99 C3H4/C3H6 mixture"
+        },
+        "Other Information": {
+            "Additional Info": "Efficient removal of trace propyne from propylene"
+        }
+    },
+    {
+        "Materials Name": "ZJUT-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.5×3.7×3.7 Å³",
+            "Structure Type": "Isoreticular network"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "pyz-NH2"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propyne",
+                "Molecular Size": "0.41 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Multiple hydrogen bonds",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake capacity for propyne"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake capacity for propylene"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "IAST selectivity of 70 for 1/99 C3H4/C3H6 mixture"
+        },
+        "Other Information": {
+            "Additional Info": "Fine-tuned nanocages and multiple hydrogen bonds"
+        }
+    },
+    {
+        "Materials Name": "GeFSIX-14-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.2 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ge4+"
+        ],
+        "Ligands": [
+            "azpy"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "butadiene",
+                "Molecular Size": "0.49 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "C–H···F hydrogen bonds",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake capacity for butadiene"
+                }
+            },
+            {
+                "Molecule Name": "1-butene",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Molecular exclusion of larger molecules"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "High selectivity for butadiene over 1-butene"
+        },
+        "Other Information": {
+            "Additional Info": "Precise control of threshold pressures"
+        }
+    },
+    {
+        "Materials Name": "Zn-BTM",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.6 Å",
+            "Structure Type": "Flexible quasi-discrete pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "btm"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1-butene",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Inverse selective adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher uptake capacity for 1-butene compared to butadiene"
+                }
+            },
+            {
+                "Molecule Name": "butadiene",
+                "Molecular Size": "0.49 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Weaker adsorption due to large bending energy penalty"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "Productivity of high-purity butadiene up to 0.89 mmol/g"
+        },
+        "Other Information": {
+            "Additional Info": "Inverse selective adsorption of n-C4H8, i-C4H8, and C4H10 over C4H6"
+        }
+    },
+    {
+        "Materials Name": "Fe2(BDP)3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Triangle channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "1,4-Benzenedipyrazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Van der Waals interactions",
+                "Other Information": {
+                    "Test Conditions": "160 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest uptake capacity for linear hexane"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.51 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "160 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No uptake for highly branched isomers"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "RON value of 92 for eluted mixture"
+        },
+        "Other Information": {
+            "Additional Info": "Separates hexane isomers based on branching degree"
+        }
+    },
+    {
+        "Materials Name": "Ca(H2tcpb)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.5–6 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "tetrakis(4-carboxyphenyl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "60 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selective adsorption of linear and mono-branched isomers"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.51 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "60 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Complete exclusion of di-branched isomers"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "Complete separation of linear, mono-, and di-branched hexane isomers"
+        },
+        "Other Information": {
+            "Additional Info": "Temperature- and adsorbate-dependent process"
+        }
+    },
+    {
+        "Materials Name": "Zr6O4(OH)4(bptc)3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "~4.5 Å",
+            "Structure Type": "Cubic cage-like pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "biphenyldicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Van der Waals interactions",
+                "Other Information": {
+                    "Test Conditions": "150 °C, 110 torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest uptake capacity for linear hexane"
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "0.51 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "150 °C, 110 torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nearly no uptake for branched isomers"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "RON value of up to 90 for eluted product"
+        },
+        "Other Information": {
+            "Additional Info": "Molecular sieving of C6 alkane isomers"
+        }
+    },
+    {
+        "Materials Name": "MAF-X8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "0.58 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Commensurate stacking",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Efficient stacking of p-xylene molecules"
+                }
+            },
+            {
+                "Molecule Name": "m-xylene",
+                "Molecular Size": "0.60 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less efficient packing of m-xylene"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Transient breakthrough simulations",
+            "Performance Metrics": "Best performance for p-xylene selective separation"
+        },
+        "Other Information": {
+            "Additional Info": "Optimized channel dimensions for xylene isomer separation"
+        }
+    },
+    {
+        "Materials Name": "Co2(dobdc)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "dobdc4−"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "o-xylene",
+                "Molecular Size": "0.60 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Interactions with open metal centers",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest affinity for o-xylene"
+                }
+            },
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "0.58 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Weakest binding for p-xylene"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-crystal X-ray diffraction",
+            "Performance Metrics": "Differentiates all four xylene isomers"
+        },
+        "Other Information": {
+            "Additional Info": "Distinct adsorption behavior based on interactions with cobalt(II) sites"
+        }
+    },
+    {
+        "Materials Name": "DiaMM-1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "373 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Longer retention time for linear alkanes"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.51 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Enhanced interaction with pore surface",
+                "Other Information": {
+                    "Test Conditions": "373 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stronger interactions with branched isomers"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Pulse gas chromatography",
+            "Performance Metrics": "Elution order: n-hexane < 2-methylpentane < 3-methylpentane < 2,3-dimethylbutane < 2,2-dimethylbutane"
+        },
+        "Other Information": {
+            "Additional Info": "Low-energy separation of C6 hydrocarbons"
+        }
+    }
+]

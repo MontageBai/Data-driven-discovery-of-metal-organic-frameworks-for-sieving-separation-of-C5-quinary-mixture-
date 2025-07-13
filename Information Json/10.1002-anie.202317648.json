@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MAF-42-sp",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5×4.3 Å² (aperture), 4.0×5.3×7.0 Å³ (cavity)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "bis(5-methyl-1H-1,2,4-triazol-3-yl)methane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.28×4.18×4.84 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 36 atm",
+                    "Threshold Pressure": "16.6 atm",
+                    "Additional Info": "C2H4 adsorption enthalpy: ~16 kJ/mol."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "3.81×4.08×4.82 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 36 atm",
+                    "Threshold Pressure": "7.7 atm",
+                    "Additional Info": "Negligible C2H6 uptake before pore-opening pressure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H4/C2H6 selectivity: ca. 300 (IAST), C2H4 uptake: 0.73 mmol/g, negligible C2H6 uptake."
+        },
+        "Other Information": {
+            "Additional Info": "High hydrophobicity; negligible water adsorption even at high humidity; stable under humid conditions."
+        }
+    }
+]

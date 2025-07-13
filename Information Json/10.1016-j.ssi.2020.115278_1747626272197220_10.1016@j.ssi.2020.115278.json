@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "WO3@ZIF-71",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "4.8 Å (effective pore size), 16.8 Å (cavities)",
+            "Structure Type": "Core-shell structure with WO3 core and ZIF-71 shell"
+        },
+        "Topology": "RHO",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4,5-dichloroimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "3.62 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "250 K, 20 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Response increased from 2.24 (pure WO3) to 19.12 after coating with ZIF-71."
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "4.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "250 K, 20 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Response increased from 0.47 (pure WO3) to 1.63 after coating with ZIF-71."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "4.53 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "250 K, 20 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Response increased from 0.27 (pure WO3) to 1.01 after coating with ZIF-71."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen dioxide",
+                "Molecular Size": "5.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 K, 20 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked by the membrane due to larger kinetic diameter."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sensing measurement",
+            "Performance Metrics": "H2S selectivity improved 9 times (ΔR/Ra = 2.24 for WO3 vs. ΔR/Ra = 19.12 for WO3@ZIF-71)"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-71 layer enhances H2S selectivity via molecular sieving and interaction with organic ligand."
+        }
+    }
+]

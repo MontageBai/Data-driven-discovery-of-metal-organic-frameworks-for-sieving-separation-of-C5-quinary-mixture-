@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "UiO-66-NH2/PAN fibers",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5.5 Å (dominant pore size)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylbenzene",
+                "Molecular Size": "0.58 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption via hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention rate of U50/P filter for methylbenzene: 91.7%"
+                }
+            },
+            {
+                "Molecule Name": "ethylbenzene",
+                "Molecular Size": "0.64 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption via hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention rate of U50/P filter for ethylbenzene: 88.6%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective adsorption based on hydrogen bonding and microporous structure",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms and breakthrough experiments",
+            "Performance Metrics": "U50/P filter shows retention rates of 91.7% for methylbenzene and 88.6% for ethylbenzene at 298 K, 101 kPa, and 5000 ppm"
+        },
+        "Other Information": {
+            "Additional Info": "The UiO-66-NH2 loading ratio in the U50/P filter is 41.9 ± 0.1 wt%. The material exhibits high air permeability and stable performance over 8 hours."
+        }
+    }
+]

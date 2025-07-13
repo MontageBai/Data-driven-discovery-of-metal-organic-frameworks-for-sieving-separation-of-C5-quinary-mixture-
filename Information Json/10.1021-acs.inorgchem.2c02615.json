@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (apertures), 11.6 Å (cages)",
+            "Structure Type": "sodalite topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1-butyl-3-methylimidazolium bromide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Steric trapping after formation inside cages",
+                "Other Information": {
+                    "Test Conditions": "70 °C, vapor-phase loading",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The IL is formed inside the ZIF-8 cages via the reaction of precursors 1-methylimidazole and 1-bromobutane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "TGA, NMR, PXRD, ToF-SIMS, Ellipsometry",
+            "Performance Metrics": "IL loading: 2.7 ion pairs per cage (powder), 2.8-3.4 ion pairs per cage (film)"
+        },
+        "Other Information": {
+            "Additional Info": "The [bmim]Br@ZIF-8 composite demonstrates reduced BET surface area (from 1671 to 411 m²/g) and can be reversibly loaded/unloaded without damaging the ZIF-8 host."
+        }
+    }
+]

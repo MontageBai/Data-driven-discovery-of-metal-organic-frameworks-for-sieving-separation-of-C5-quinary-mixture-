@@ -1,0 +1,102 @@
+MOF Name: ZIF-20
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-20:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Dynamic window-widening process)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Reason: Size exclusion)
+
+Inferred effective pore size of ZIF-20:
+Based on the experimental data, ZIF-20 can adsorb molecules with an intermediate dimension of 3.200 Å (carbon dioxide, potentially through dynamic window-widening, indicating a tight fit or flexible pore) but excludes molecules with an intermediate dimension of 3.877 Å (methane) due to size exclusion. This strongly suggests that the effective pore aperture of ZIF-20 is less than 3.877 Å, likely around 3.200 Å or slightly larger due to flexibility. Therefore, the inferred effective pore size is between 3.200 Å and 3.877 Å, effectively filtering out molecules with an intermediate dimension of 3.877 Å or larger.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the upper bound of ZIF-20's inferred effective pore size (~3.877 Å), it cannot be adsorbed by ZIF-20.
+
+---
+
+MOF Name: ZIF-20
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-20:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Dynamic window-widening process)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Reason: Size exclusion)
+
+Inferred effective pore size of ZIF-20:
+Based on the experimental data, ZIF-20 can adsorb molecules with an intermediate dimension of 3.200 Å (carbon dioxide, potentially through dynamic window-widening, indicating a tight fit or flexible pore) but excludes molecules with an intermediate dimension of 3.877 Å (methane) due to size exclusion. This strongly suggests that the effective pore aperture of ZIF-20 is less than 3.877 Å, likely around 3.200 Å or slightly larger due to flexibility. Therefore, the inferred effective pore size is between 3.200 Å and 3.877 Å, effectively filtering out molecules with an intermediate dimension of 3.877 Å or larger.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the upper bound of ZIF-20's inferred effective pore size (~3.877 Å), it cannot be adsorbed by ZIF-20.
+
+---
+
+MOF Name: ZIF-20
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-20:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Dynamic window-widening process)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Reason: Size exclusion)
+
+Inferred effective pore size of ZIF-20:
+Based on the experimental data, ZIF-20 can adsorb molecules with an intermediate dimension of 3.200 Å (carbon dioxide, potentially through dynamic window-widening, indicating a tight fit or flexible pore) but excludes molecules with an intermediate dimension of 3.877 Å (methane) due to size exclusion. This strongly suggests that the effective pore aperture of ZIF-20 is less than 3.877 Å, likely around 3.200 Å or slightly larger due to flexibility. Therefore, the inferred effective pore size is between 3.200 Å and 3.877 Å, effectively filtering out molecules with an intermediate dimension of 3.877 Å or larger.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the upper bound of ZIF-20's inferred effective pore size (~3.877 Å), it cannot be adsorbed by ZIF-20.
+
+---
+
+MOF Name: ZIF-20
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-20:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Dynamic window-widening process)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Reason: Size exclusion)
+
+Inferred effective pore size of ZIF-20:
+Based on the experimental data, ZIF-20 can adsorb molecules with an intermediate dimension of 3.200 Å (carbon dioxide, potentially through dynamic window-widening, indicating a tight fit or flexible pore) but excludes molecules with an intermediate dimension of 3.877 Å (methane) due to size exclusion. This strongly suggests that the effective pore aperture of ZIF-20 is less than 3.877 Å, likely around 3.200 Å or slightly larger due to flexibility. Therefore, the inferred effective pore size is between 3.200 Å and 3.877 Å, effectively filtering out molecules with an intermediate dimension of 3.877 Å or larger.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the upper bound of ZIF-20's inferred effective pore size (~3.877 Å), it cannot be adsorbed by ZIF-20.
+
+---
+
+MOF Name: ZIF-20
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-20:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Dynamic window-widening process)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Reason: Size exclusion)
+
+Inferred effective pore size of ZIF-20:
+Based on the experimental data, ZIF-20 can adsorb molecules with an intermediate dimension of 3.200 Å (carbon dioxide, potentially through dynamic window-widening, indicating a tight fit or flexible pore) but excludes molecules with an intermediate dimension of 3.877 Å (methane) due to size exclusion. This strongly suggests that the effective pore aperture of ZIF-20 is less than 3.877 Å, likely around 3.200 Å or slightly larger due to flexibility. Therefore, the inferred effective pore size is between 3.200 Å and 3.877 Å, effectively filtering out molecules with an intermediate dimension of 3.877 Å or larger.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the upper bound of ZIF-20's inferred effective pore size (~3.877 Å), it cannot be adsorbed by ZIF-20.

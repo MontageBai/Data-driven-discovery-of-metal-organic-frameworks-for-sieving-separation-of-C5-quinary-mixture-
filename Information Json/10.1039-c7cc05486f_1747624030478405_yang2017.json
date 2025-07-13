@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "[Ni1.5(4,4’-bipy)1.5H3L(H2O)3](H2O)7",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.42 nm (window), 1.2 nm (cavity)",
+            "Structure Type": "3D network with cavity-window pore structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni(II)"
+        ],
+        "Ligands": [
+            "2,4,6-trimethylbenzene-1,3,5-triyl)tris(methylene)triphosphonic acid",
+            "4,4’-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance rate: 1.44×10^-9 mol/Pa·m²·s"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 0.3 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Zero permeance rate detected"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion for CH4 but suitable permeance for H2",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeance experiments (single-component and binary mixtures)",
+            "Performance Metrics": "H2/CH4 selectivity exceptionally high, H2 permeance: 1.44×10^-9 mol/Pa·m²·s"
+        },
+        "Other Information": {
+            "Additional Info": "First reported phosphonate-based MOF membrane; high mechanical stability and resistance to sonication; optimized synthesis temperature is 413 K."
+        }
+    }
+]

@@ -1,0 +1,160 @@
+[
+    {
+        "Materials Name": "ZIF-8-7",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (initial, ZIF-8), 3.0 Å (adjusted with bIm)",
+            "Structure Type": "sod topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/CH4 separation factor of 62 for ZIF-8-715 membrane."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly hindered by the reduced pore size in ZIF-8-7 membranes."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.40 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effectively excluded by the ZIF-8-78 membrane."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded by the ZIF-8-78 membrane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests using Wicke-Kallenbach technique",
+            "Performance Metrics": "CO2/CH4 selectivity: 62 for ZIF-8-715 membrane"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8-7 membrane exhibits ultra-long duration stability (>300 days)."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8-90",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "4.0 Å (initial, ZIF-8), 5.0 Å (adjusted with ICA)",
+            "Structure Type": "sod topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "2-imidazolecarboxaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.40 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6 permeance of 70.1 × 10^-9 mol s^-1 m^-2 Pa^-1 for ZIF-8-9030 membrane."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exclusion depends on ICA content; selectivity decreases as ICA increases."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests",
+            "Performance Metrics": "C3H6/C3H8 selectivity: >30 for ZIF-8-9030 membrane"
+        },
+        "Other Information": {
+            "Additional Info": "The incorporation of ICA enhances flexibility and gas permeance."
+        }
+    },
+    {
+        "Materials Name": "ZIF-90-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "5.0 Å (initial, ZIF-90), adjusted with Hmim",
+            "Structure Type": "sod topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-imidazolecarboxaldehyde",
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.40 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Decrease in C3H6 permeance but increase in C3H6/C3H8 selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests",
+            "Performance Metrics": "Enhanced C3H6/C3H8 selectivity after reverse doping."
+        },
+        "Other Information": {
+            "Additional Info": "Reverse doping reduces effective pore size for improved selectivity."
+        }
+    }
+]

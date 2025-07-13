@@ -1,0 +1,77 @@
+Here's the analysis of the adsorption capability of GeFSIX-14-Cu-i for the specified guest molecules, based on the provided data:
+
+**1. Inferring GeFSIX-14-Cu-i’s Effective Pore Size:**
+
+From the experimental data for GeFSIX-14-Cu-i:
+*   **Adsorbed Molecule:**
+    *   `propyne`: 6.433×3.818×3.961 Å → Intermediate = **3.961 Å**. Adsorbed (Yes), via "Gate-opening adsorption". This indicates the MOF *can* accommodate molecules of this size, but potentially requires an activated process or specific conditions (e.g., the threshold pressure).
+*   **Non-Adsorbed (due to size exclusion) Molecule:**
+    *   `propylene`: 6.257×5.051×3.961 Å → Intermediate = **5.051 Å**. Adsorption is "Conditional (see Additional Info)", and the mechanism is "Size exclusion at sub-nanometer scale". This strongly implies that under standard conditions, propylene is generally excluded by size. The "conditional" aspect suggests it might pass under very specific, likely non-standard, or high-pressure conditions, but the fundamental limitation is size.
+
+Based on this, the inferred effective pore size of GeFSIX-14-Cu-i is:
+*   Greater than or equal to 3.961 Å (since `propyne` can adsorb, albeit via gate-opening).
+*   Less than 5.051 Å (since `propylene` is generally size-excluded).
+*   Inferred effective pore size range: **[3.961 Å, 5.051 Å)**.
+    This means molecules with an intermediate dimension ≤ 3.961 Å (like propyne) *can* adsorb, while molecules with an intermediate dimension ≥ 5.051 Å (like propylene) *cannot* adsorb due to size exclusion under standard conditions. Molecules within this range are borderline and require careful consideration of observed trends.
+
+---
+
+**2. Evaluation of Target Guest Molecules:**
+
+**MOF Name: GeFSIX-14-Cu-i**
+**Guest Molecule: isoprene**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+*   **MOF's Inferred Pore Size:** Allows molecules with intermediate dimension up to 3.961 Å (propyne), but generally excludes molecules at or above 5.051 Å (propylene) due to size.
+*   **Isoprene Dimensions:** 7.746×6.093×3.963 Å → Intermediate = **6.093 Å**
+*   **Conclusion:** Isoprene's intermediate dimension (6.093 Å) is significantly larger than propylene's intermediate dimension (5.051 Å), which is already generally excluded by GeFSIX-14-Cu-i due to size exclusion. Therefore, isoprene cannot be adsorbed.
+
+---
+
+**MOF Name: GeFSIX-14-Cu-i**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+*   **MOF's Inferred Pore Size:** Allows molecules with intermediate dimension up to 3.961 Å (propyne), but generally excludes molecules at or above 5.051 Å (propylene) due to size.
+*   **cis-2-pentene Dimensions:** 8.067×5.572×5.136 Å → Intermediate = **5.572 Å**
+*   **Conclusion:** cis-2-pentene's intermediate dimension (5.572 Å) is larger than propylene's intermediate dimension (5.051 Å), which is generally excluded by GeFSIX-14-Cu-i due to size exclusion. Therefore, cis-2-pentene cannot be adsorbed.
+
+---
+
+**MOF Name: GeFSIX-14-Cu-i**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+*   **MOF's Inferred Pore Size:** Allows molecules with intermediate dimension up to 3.961 Å (propyne, via gate-opening), but generally excludes molecules at or above 5.051 Å (propylene) due to size.
+*   **1-pentene Dimensions:** 8.847×4.995×4.897 Å → Intermediate = **4.995 Å**
+*   **Conclusion:** 1-pentene's intermediate dimension (4.995 Å) falls within the ambiguous range [3.961 Å, 5.051 Å). It is larger than propyne (3.961 Å), which explicitly requires "Gate-opening adsorption" for passage, suggesting the native pore is even smaller. It is slightly smaller than propylene (5.051 Å), which is "Conditional" and subject to "Size exclusion at sub-nanometer scale." Given that molecules of 3.961 Å already need active gate-opening and molecules of 5.051 Å are generally excluded by size, it is highly probable that 1-pentene, being larger than propyne and very close to the size-exclusion limit of propylene, would also face significant kinetic sieving or size exclusion effects preventing adsorption under standard conditions.
+
+---
+
+**MOF Name: GeFSIX-14-Cu-i**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+*   **MOF's Inferred Pore Size:** Allows molecules with intermediate dimension up to 3.961 Å (propyne, via gate-opening), but generally excludes molecules at or above 5.051 Å (propylene) due to size.
+*   **trans-2-pentene Dimensions:** 8.796×4.733×4.564 Å → Intermediate = **4.733 Å**
+*   **Conclusion:** trans-2-pentene's intermediate dimension (4.733 Å) falls within the ambiguous range [3.961 Å, 5.051 Å). Similar to 1-pentene, it is larger than propyne (3.961 Å), which requires "Gate-opening adsorption," and it is also close to propylene (5.051 Å), which is generally size-excluded. The MOF's behavior suggests a very tight pore, where even slightly larger molecules than the "gate-opened" propyne are likely to be restricted or excluded due to size or kinetic sieving.
+
+---
+
+**MOF Name: GeFSIX-14-Cu-i**
+**Guest Molecule: n-pentane**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+*   **MOF's Inferred Pore Size:** Allows molecules with intermediate dimension up to 3.961 Å (propyne, via gate-opening), but generally excludes molecules at or above 5.051 Å (propylene) due to size.
+*   **n-pentane Dimensions:** 9.118×4.364×3.969 Å → Intermediate = **4.364 Å**
+*   **Conclusion:** n-pentane's intermediate dimension (4.364 Å) falls within the ambiguous range [3.961 Å, 5.051 Å). It is larger than propyne (3.961 Å), which explicitly requires "Gate-opening adsorption" for passage, implying a very tight pore. While smaller than propylene (5.051 Å) which is generally size-excluded, it is still significantly larger than propyne. The observed kinetic sieving/size exclusion behavior for molecules in this range suggests that n-pentane would also face significant challenges in adsorbing under standard conditions.

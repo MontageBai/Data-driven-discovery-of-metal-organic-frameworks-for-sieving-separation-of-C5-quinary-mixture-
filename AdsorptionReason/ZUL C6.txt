@@ -1,0 +1,109 @@
+MOF Name: ZUL C6
+
+**Inferring the MOF’s Effective Pore Size:**
+
+From the experimental data for ZUL C6:
+*   **3-methylpentane:** 9.052×6.008×4.985 → Intermediate = 6.008 Å | Adsorbed (Yes)
+*   **2,2-dimethylbutane:** 7.829×5.502×6.545 → Intermediate = 6.545 Å | Adsorbed (Conditional, via Gate-opening effect at 16 kPa. Since the standard conditions are 1 bar (approx. 100 kPa), this molecule would be adsorbed.)
+
+Based on this, ZUL C6 can adsorb molecules with an intermediate dimension of at least 6.008 Å without explicit pressure requirement, and can adsorb molecules up to 6.545 Å by utilizing a "gate-opening effect" at 1 bar. Therefore, the effective pore size can accommodate molecules up to at least 6.545 Å.
+
+---
+
+MOF Name: ZUL C6
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for ZUL C6:
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å | Adsorbed
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Adsorbed (Conditional, via Gate-opening effect at 1 bar conditions)
+
+Inferred effective pore size of ZUL C6 allows molecules with intermediate dimensions up to at least 6.545 Å, with molecules larger than 6.008 Å potentially utilizing a gate-opening mechanism.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is greater than 3-methylpentane (6.008 Å) but less than 2,2-dimethylbutane (6.545 Å), and 2,2-dimethylbutane is adsorbed via a gate-opening effect, isoprene is also expected to be adsorbed by ZUL C6, likely facilitated by the same gate-opening mechanism under standard conditions.
+
+---
+
+MOF Name: ZUL C6
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for ZUL C6:
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å | Adsorbed
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Adsorbed (Conditional, via Gate-opening effect at 1 bar conditions)
+
+Inferred effective pore size of ZUL C6 allows molecules with intermediate dimensions up to at least 6.545 Å.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than that of 3-methylpentane (6.008 Å), which is adsorbed by ZUL C6, cis-2-pentene is expected to be adsorbed.
+
+---
+
+MOF Name: ZUL C6
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for ZUL C6:
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å | Adsorbed
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Adsorbed (Conditional, via Gate-opening effect at 1 bar conditions)
+
+Inferred effective pore size of ZUL C6 allows molecules with intermediate dimensions up to at least 6.545 Å.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than that of 3-methylpentane (6.008 Å), which is adsorbed by ZUL C6, 1-pentene is expected to be adsorbed.
+
+---
+
+MOF Name: ZUL C6
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for ZUL C6:
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å | Adsorbed
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Adsorbed (Conditional, via Gate-opening effect at 1 bar conditions)
+
+Inferred effective pore size of ZUL C6 allows molecules with intermediate dimensions up to at least 6.545 Å.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than that of 3-methylpentane (6.008 Å), which is adsorbed by ZUL C6, trans-2-pentene is expected to be adsorbed.
+
+---
+
+MOF Name: ZUL C6
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for ZUL C6:
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å | Adsorbed
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Adsorbed (Conditional, via Gate-opening effect at 1 bar conditions)
+
+Inferred effective pore size of ZUL C6 allows molecules with intermediate dimensions up to at least 6.545 Å.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than that of 3-methylpentane (6.008 Å), which is adsorbed by ZUL C6, n-pentane is expected to be adsorbed.

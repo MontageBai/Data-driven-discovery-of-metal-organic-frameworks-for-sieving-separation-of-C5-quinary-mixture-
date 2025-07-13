@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "ZU-36-Co",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.82 Å to 5.25 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "GeF6 2−"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "butane",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 2.20 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 0.12 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "1-butene",
+                "Molecular Size": "4.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 2.35 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "isobutene",
+                "Molecular Size": "4.85 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 0.17 mmol/g"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "n-C4H8/iso-C4H8 selectivity: 2050, n-C4H10/iso-C4H10 selectivity: 140.4"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows high thermal stability and excellent cycling performance."
+        }
+    }
+]

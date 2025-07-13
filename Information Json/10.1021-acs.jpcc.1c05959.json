@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.37 Å (PLDt-r), 3.32 Å (PLDCCDC)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "krypton",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passing probability: 5.04% based on PLEt-r; 1.89% based on PLECCDC"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passing probability: 0.16% based on PLEt-r; 0.0037% based on PLECCDC"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2/CH4 passing probability ratio: 17 based on PLEt-r; 286 based on PLECCDC"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Transport cutoff falls between CO2 and Ar for PLDCCDC and shifts to between Ar and Kr for PLEt-r"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Ab initio molecular dynamics simulations, Pore limiting envelope analysis",
+            "Performance Metrics": "N2/CH4 passing probability ratio: 17 (PLEt-r), 286 (PLECCDC)"
+        },
+        "Other Information": {
+            "Additional Info": "Framework flexibility was considered in the analysis using nearly 1000 configurations from AIMD simulations."
+        }
+    }
+]

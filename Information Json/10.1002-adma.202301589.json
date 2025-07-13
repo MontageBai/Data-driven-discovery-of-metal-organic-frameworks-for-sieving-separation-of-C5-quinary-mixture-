@@ -1,0 +1,301 @@
+[
+    {
+        "Materials Name": "MFU-4l",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0 Å (small pore), 5.0 Å (large pore)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "100 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2-over-H2 selectivity of 11.1 reported"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.269 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "100 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher selectivity due to lower zero-point energy"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "D2/H2 selectivity: 11.1 at 100 K"
+        },
+        "Other Information": {
+            "Additional Info": "Cu(I)-modified MFU-4l shows enhanced selectivity"
+        }
+    },
+    {
+        "Materials Name": "MIL-53(Al)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.6 Å (breathing transition from narrow to large pores)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "40 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity depends on structural flexibility and breathing transition"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.269 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "40 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher D2-over-H2 selectivity due to breathing behavior"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum sieving in flexible framework",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "D2/H2 selectivity: 13.6 at 40 K"
+        },
+        "Other Information": {
+            "Additional Info": "Breathing phenomenon enhances quantum sieving"
+        }
+    },
+    {
+        "Materials Name": "Zeolite BCT",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "20 K, 25 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low affinity for H2 compared to heavier isotopes"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.269 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "20 K, 25 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High affinity due to lower zero-point energy"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Computational screening and experimental validation",
+            "Performance Metrics": "D2/H2 selectivity: 53.8 at 20 K"
+        },
+        "Other Information": {
+            "Additional Info": "Highest selectivity among zeolites for hydrogen isotope separation"
+        }
+    },
+    {
+        "Materials Name": "Graphene",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Stone-Wales defects ~ 7-membered rings",
+            "Structure Type": "2D layered"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum tunneling through defects",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H+/D+ selectivity of 10 reported"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.269 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum tunneling through defects",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher permeability than hydrogen due to lower zero-point energy"
+                }
+            },
+            {
+                "Molecule Name": "tritium",
+                "Molecular Size": "0.260 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum tunneling through defects",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H+/T+ selectivity of 12 predicted"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum tunneling through topological defects",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Electrochemical pumping",
+            "Performance Metrics": "T2/H2 selectivity: 30 presumed"
+        },
+        "Other Information": {
+            "Additional Info": "Defect engineering enhances isotope separation performance"
+        }
+    },
+    {
+        "Materials Name": "h-BN",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.34 Å (interlayer spacing)",
+            "Structure Type": "2D layered"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H+/D+ selectivity of 1.4 reported"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.269 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stronger binding due to lower zero-point energy"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum sieving via interstitial space",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Proton conductivity measurements",
+            "Performance Metrics": "H+/D+ selectivity: 1.4 at room temperature"
+        },
+        "Other Information": {
+            "Additional Info": "Small bending moduli allow conformational changes enhancing adsorption"
+        }
+    },
+    {
+        "Materials Name": "Ti2CTx MXene",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "7 Å (interlayer distance)",
+            "Structure Type": "Layered structure with nanochannels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti4+"
+        ],
+        "Ligands": [
+            "Terminal -F groups"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kubas-type interactions",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 60 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrogen uptake capacity of 8.8 wt% reported"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.269 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kubas-type interactions",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher storage capacity attributed to nanopump effect"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Weak chemisorption in subnanoscale interlayer space",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Hydrogen adsorption experiments",
+            "Performance Metrics": "Reversible hydrogen storage of 8.8 wt% at room temperature"
+        },
+        "Other Information": {
+            "Additional Info": "MXenes resist radiation damage making them suitable for fusion applications"
+        }
+    }
+]

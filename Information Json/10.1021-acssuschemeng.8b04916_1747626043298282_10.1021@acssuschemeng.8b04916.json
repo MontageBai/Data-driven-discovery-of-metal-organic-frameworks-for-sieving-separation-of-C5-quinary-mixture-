@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "ZU-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.55 Å (minimum), 5.01 Å (maximum)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "primitive-cubic net with doubly interpenetrated polymorph",
+        "Metal Nodes": [
+            "Zn2+",
+            "Zr4+"
+        ],
+        "Ligands": [
+            "4,4′-bipyridylacetylene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High CO2 capacity of 4.56 mmol g−1"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible CH4 uptake of 0.21 mmol g−1"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.65 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible N2 uptake of 0.08 mmol g−1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale via temporarily fixed molecular rotors under ambient conditions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/CH4 selectivity: 136, CO2/N2 selectivity: 355"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits dynamic behavior due to embedded molecular rotors that control channel size."
+        }
+    }
+]

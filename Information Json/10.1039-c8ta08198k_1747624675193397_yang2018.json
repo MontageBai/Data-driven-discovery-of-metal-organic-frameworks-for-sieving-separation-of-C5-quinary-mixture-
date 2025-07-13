@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "TIFSIX-14-Cu-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu"
+        ],
+        "Ligands": [
+            "4,4'-azobipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propyne",
+                "Molecular Size": "4.2 × 4.0 × 6.5 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening adsorption",
+                "Other Information": {
+                    "Test Conditions": "273–313 K, up to 1 bar",
+                    "Threshold Pressure": "500 ppm",
+                    "Additional Info": "Ultra-low threshold pressure due to weak C–H/F hydrogen bonding interaction allowing easy rotation of pyridine rings."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "5.3 × 4.2 × 6.4 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273–313 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted aperture caused by tilted pyridine rings resists propylene entry."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C3H4/C3H6 selectivity: 355, C3H4 retention time: 369 min (1280 mL g⁻¹)"
+        },
+        "Other Information": {
+            "Additional Info": "High sensitivity to propyne and significant exclusion of propylene; benchmark performance for 1/99 C3H4/C3H6 separation without leakage."
+        }
+    },
+    {
+        "Materials Name": "GeFSIX-14-Cu-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu"
+        ],
+        "Ligands": [
+            "4,4'-azobipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propyne",
+                "Molecular Size": "4.2 × 4.0 × 6.5 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening adsorption",
+                "Other Information": {
+                    "Test Conditions": "273–313 K, up to 1 bar",
+                    "Threshold Pressure": "1330 ppm",
+                    "Additional Info": "Higher threshold pressure compared to TIFSIX-14-Cu-i due to stronger C–H/F hydrogen bonding interaction."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "5.3 × 4.2 × 6.4 Å³",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273–313 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted pyridine ring rotation leads to poor uptake of propylene but some leakage observed in breakthrough tests."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C3H4/C3H6 selectivity: 217, Valid C3H4 processing capacity: 0.24 mmol g⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "Lower sensitivity to propyne and inferior mixed gas separation performance compared to TIFSIX-14-Cu-i."
+        }
+    }
+]

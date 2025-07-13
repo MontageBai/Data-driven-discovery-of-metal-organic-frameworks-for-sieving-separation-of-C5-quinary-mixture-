@@ -1,0 +1,284 @@
+[
+    {
+        "Materials Name": "MIL-101(Cr)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "12 Å (pentagonal windows), 14–16 Å (pentagonal-hexagonal windows)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High polarizability of H2S contributes to strong electrostatic interactions with the framework."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption capacity is high due to its polarizability and ability to interact with open metal sites."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 exhibits negligible adsorption due to non-polar nature and larger kinetic diameter."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 has low adsorption due to its non-polar nature and lower polarizability compared to H2S and CO2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with electrostatic interaction",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Volumetric gas adsorption measurements",
+            "Performance Metrics": "H2S uptake: 28.53 mmol g−1 at 15 bar; CO2 uptake: 22.27 mmol g−1 at 35 bar"
+        },
+        "Other Information": {
+            "Additional Info": "MIL-101(Cr) demonstrates excellent gas uptake but lower selectivity due to its larger pore size distribution."
+        }
+    },
+    {
+        "Materials Name": "UiO-66(Zr)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2 Å, 6 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Electrostatic interaction and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2S adsorption is limited by pore accessibility but enhanced by unsaturated metal sites."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Electrostatic interaction and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption benefits from abundant unsaturated metal sites but is restricted by narrow pores."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 diffusion into the structure is hindered by small pore sizes."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 diffusion is restricted by the small pore diameters of UiO-66(Zr)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with electrostatic interaction",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Volumetric gas adsorption measurements",
+            "Performance Metrics": "H2S uptake: 11.18 mmol g−1 at 15 bar; CO2 uptake: 7.76 mmol g−1 at 35 bar"
+        },
+        "Other Information": {
+            "Additional Info": "UiO-66(Zr) shows high selectivity but limited capacity due to its narrow pore size distribution."
+        }
+    },
+    {
+        "Materials Name": "MU-4",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2 Å, 6 Å, 14 Å",
+            "Structure Type": "Core-shell structure with bimodal pore distribution"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+",
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced H2S adsorption due to optimized pore size and additional open metal sites."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Improved CO2 adsorption compared to pristine UiO-66(Zr) due to increased pore volume in the 3–6 Å range."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 diffusion is limited by tuned pore size distribution."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 adsorption is reduced due to pore size optimization for size exclusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with electrostatic interaction",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Volumetric gas adsorption measurements and IAST calculations",
+            "Performance Metrics": "H2S uptake: 20.62 mmol g−1 at 15 bar; CO2 uptake: 17.21 mmol g−1 at 35 bar; H2S/CH4 selectivity: 33.1 at 1 bar, 75.4 at 15 bar"
+        },
+        "Other Information": {
+            "Additional Info": "MU-4 demonstrates superior selectivity and moderate capacity due to its core-shell structure and tuned pore size distribution."
+        }
+    },
+    {
+        "Materials Name": "MU-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2 Å, 6 Å, 14 Å",
+            "Structure Type": "Core-shell structure with bimodal pore distribution"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+",
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2S adsorption is enhanced due to optimized pore size and additional open metal sites."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption is improved compared to pristine UiO-66(Zr) due to increased pore volume in the 3–6 Å range."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 diffusion is restricted by the tuned pore size distribution."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 adsorption is reduced due to pore size optimization for size exclusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with electrostatic interaction",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Volumetric gas adsorption measurements and IAST calculations",
+            "Performance Metrics": "H2S uptake: 16.53 mmol g−1 at 15 bar; CO2 uptake: 13.03 mmol g−1 at 35 bar; H2S/CH4 selectivity: 31.2 at 1 bar, 75.3 at 15 bar"
+        },
+        "Other Information": {
+            "Additional Info": "MU-8 exhibits high selectivity and moderate capacity, balancing adsorption performance and pore accessibility."
+        }
+    }
+]

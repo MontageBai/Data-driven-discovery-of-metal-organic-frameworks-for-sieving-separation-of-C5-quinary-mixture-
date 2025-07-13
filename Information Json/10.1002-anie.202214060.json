@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "HIAM-203",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.82 Å (C-C, excluding van der Waals radius)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "pts",
+        "Metal Nodes": [
+            "CaII"
+        ],
+        "Ligands": [
+            "chloranilate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective molecular exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 90 °C, 150 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity decreases with increasing temperature."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Selective molecular exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 90 °C, 150 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption occurs at 30 °C and 90 °C but not at 150 °C."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 90 °C, 150 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fully excluded at all tested temperatures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective size-exclusion separation mechanism",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Single-component adsorption, Multicomponent column breakthrough experiments, Ab initio calculations",
+            "Performance Metrics": "Complete separation of hexane isomers achieved through temperature-programmed selective molecular exclusion."
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits temperature-dependent adsorption behavior due to its flexible framework. Full separation of monobranched and dibranched alkanes was achieved."
+        }
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "g-C3N4/MIL-100(Fe) membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Intercalated structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe(III) ions"
+        ],
+        "Ligands": [
+            "H3BTC"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion and Fenton-like degradation",
+                "Other Information": {
+                    "Test Conditions": "pH = 5.0, T = 25 °C, pressure = 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal efficiency varies with nano-MIL content; CN/MIL-2 shows 100% removal."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion and Fenton-like degradation",
+                "Other Information": {
+                    "Test Conditions": "pH = 5.0, T = 25 °C, pressure = 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CN/MIL-2 shows 99.2% removal."
+                }
+            },
+            {
+                "Molecule Name": "bisphenol A",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption and Fenton-like degradation",
+                "Other Information": {
+                    "Test Conditions": "pH = 5.0, T = 25 °C, pressure = 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CN/MIL-2 shows 94.8% removal after 180 min."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combination of size exclusion, electrostatic interaction, and steady radical generation",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Dead-end filtration experiments",
+            "Performance Metrics": "Water flux: 98.2 L m2·h−1·bar−1 for CN/MIL-2 membrane"
+        },
+        "Other Information": {
+            "Additional Info": "The intercalation of nano-MIL-100(Fe) into g-C3N4 membranes enables synergistic separation and Fenton-like processes."
+        }
+    }
+]

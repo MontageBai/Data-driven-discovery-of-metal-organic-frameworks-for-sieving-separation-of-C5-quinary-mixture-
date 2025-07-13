@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "Manganese formate [Mn(HCO2)2]",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mn2+"
+        ],
+        "Ligands": [
+            "formate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion along 1D channel system",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 40 °C; pressure range 0–10 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion occurs only along the y axis (b crystallographic axis); diffusion coefficient ~10^–12 m²/s."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Interference microscopy (IFM), X-ray diffraction (XRD), Scanning electron microscopy (SEM)",
+            "Performance Metrics": "BET surface area: 278 m²/g, methanol adsorption capacity: ~95 mL/g"
+        },
+        "Other Information": {
+            "Additional Info": "Synthesis performed via solvothermal route using formic acid, manganese(II) chloride, and 1,4-dioxane as structure-directing agent. Thermal stability up to 300 °C."
+        }
+    }
+]

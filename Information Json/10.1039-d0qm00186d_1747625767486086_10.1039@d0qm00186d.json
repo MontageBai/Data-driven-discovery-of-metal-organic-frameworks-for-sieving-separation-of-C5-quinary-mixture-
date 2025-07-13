@@ -1,0 +1,243 @@
+[
+    {
+        "Materials Name": "Fe2(dobdc)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe2+"
+        ],
+        "Ligands": [
+            "2,5-dioxido-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "318 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong affinity for unsaturated light hydrocarbons."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "318 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Weaker interactions with metal cations compared to ethylene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H4/C2H6 selectivity: 13–18 at 318 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "High affinity for unsaturated light hydrocarbons."
+        }
+    },
+    {
+        "Materials Name": "UTSA-280",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "14.4 Å² (cross-sectional area)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "squaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "13.7 Å²",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of 2.5 mmol/g."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "15.5 Å²",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption (0.098 mmol/g)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "High C2H4 productivity at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "Strong water stability and scalable synthesis."
+        }
+    },
+    {
+        "Materials Name": "Co-gallate",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.28 × 4.18 × 4.84 Å (ideal for ethylene), 3.81 × 4.08 × 4.82 Å (ideal for ethane)",
+            "Structure Type": "3D interconnected zigzag channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "gallate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity for ethylene."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effectively excluded from the pore structure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular size differentiation",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H4/C2H6 selectivity: 52 at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "Achieves unprecedented selectivity for ethylene over ethane."
+        }
+    },
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.35 Å and 4.36 Å (after ion-exchange)",
+            "Structure Type": "Flexible framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "Varied pressures",
+                    "Threshold Pressure": "Dependent on gate-opening mechanism",
+                    "Additional Info": "Ethylene can pass through selectively under certain pressure ranges."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Varied pressures",
+                    "Threshold Pressure": "Dependent on gate-opening mechanism",
+                    "Additional Info": "Excluded due to larger molecular size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dynamic molecular sieving via gate-opening",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Produces high-purity C2H4 (>99%) from C2H4/C2H6 mixtures."
+        },
+        "Other Information": {
+            "Additional Info": "First report of selective adsorption of C2H6 from C2H4/C2H6 mixtures."
+        }
+    },
+    {
+        "Materials Name": "Cu(OPTz)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Adjustable based on temperature",
+            "Structure Type": "1D zigzag channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "isophthalic acid",
+            "phenothiazine-5,5-dioxide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-responsive diffusion",
+                "Other Information": {
+                    "Test Conditions": "200–370 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption rate observed at higher temperatures."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "200–370 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less favored for adsorption due to weaker interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature-controlled diffusion",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Gas adsorption experiments",
+            "Performance Metrics": "C2H4/C2H6 selectivity: ~75 at 348 K"
+        },
+        "Other Information": {
+            "Additional Info": "Adjustable pore size through ligand flipping motion."
+        }
+    }
+]

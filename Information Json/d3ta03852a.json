@@ -1,0 +1,606 @@
+[
+    {
+        "Materials Name": "Fe2(dobdc)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe2+"
+        ],
+        "Ligands": [
+            "2,5-dioxido-1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "318 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong affinity towards ethylene compared to ethane."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "318 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Weak interaction with the FeII open metal sites."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H4/C2H6 selectivity: 18"
+        },
+        "Other Information": {
+            "Additional Info": "Fe2(dobdc) exhibited large olefin adsorption capacities and high olefin/paraffin selectivities."
+        }
+    },
+    {
+        "Materials Name": "JNU-4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "tetrahedral organic linkers"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "JNU-4 exhibited a steep adsorption curve at low pressures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H2 capture capacity: 7.14 mmol g−1"
+        },
+        "Other Information": {
+            "Additional Info": "JNU-4 consists of square-planar mononuclear CuII centers allowing for two accessible binding sites per metal center for C2H2 molecules."
+        }
+    },
+    {
+        "Materials Name": "JNU-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "12.7 to 10.8 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzotriazole-5-carboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "JNU-1 exhibited an induced-fit adsorption behavior when exposed to acetylene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Induced-fit adsorption behavior",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "In situ powder X-ray diffraction (PXRD)",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "JNU-1 contains 1-periodic Zn clusters with high-density open metal sites oriented toward the one-dimensional diamond-shaped channels."
+        }
+    },
+    {
+        "Materials Name": "Fe2(O2)(dobdc)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe2+"
+        ],
+        "Ligands": [
+            "2,5-dioxido-1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fe2(O2)(dobdc) exhibited a preferential binding of ethane over ethylene."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reversed C2H6/C2H4 adsorption behaviour as opposed to pristine Fe2(dobdc)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential binding of ethane over ethylene",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "High-resolution neutron powder diffraction (NPD)",
+            "Performance Metrics": "C2H6/C2H4 separation coefficient: 4.4"
+        },
+        "Other Information": {
+            "Additional Info": "The obtained Fe2(O2)(dobdc) exhibited a preferential binding of C2H6 over C2H4 and the highest C2H6/C2H4 separation coefficient."
+        }
+    },
+    {
+        "Materials Name": "Cu(Qc)2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "quinolone-5-carboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cu(Qc)2 has a smaller pore aperture and a larger aromatic π system than Cu(ina)2."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cu(Qc)2 provides superior C2H6/C2H4 uptake ratio."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential adsorption of alkanes over alkenes",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherm measurements",
+            "Performance Metrics": "C2H6/C2H4 uptake ratio: 237%"
+        },
+        "Other Information": {
+            "Additional Info": "Introducing nonpolar functional groups on the pore surface could provide a substantial energetic contribution to the preferential adsorption of alkanes over alkenes."
+        }
+    },
+    {
+        "Materials Name": "FJI-H11-Me(des)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential C2H6 adsorption over C2H4 due to hydrophobicity."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation performance was not affected even under high relative humidity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential adsorption of alkanes over alkenes",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption capacity measurements",
+            "Performance Metrics": "C2H6 adsorption capacity: 2.59 mmol g−1; C2H4 adsorption capacity: 2.08 mmol g−1"
+        },
+        "Other Information": {
+            "Additional Info": "The accessible surface of FJI-H11-Me(des) is decorated with aromatic rings and alkyl groups of the ligands."
+        }
+    },
+    {
+        "Materials Name": "MAF-49",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D zigzag channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "316 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher uptake of C2H6 than C2H4."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "316 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exceptionally high C2H6/C2H4 selectivity of 9."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential binding of ethane over ethylene",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "C2H6/C2H4 selectivity: 9"
+        },
+        "Other Information": {
+            "Additional Info": "The introduction of multiple hydrogen-bonding acceptors on the pore surface of molecular pockets is an effective strategy to discriminate paraffin from olefin."
+        }
+    },
+    {
+        "Materials Name": "JNU-2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.7 Å",
+            "Structure Type": "Cage-like cavities interconnected through tailored apertures"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential binding of C2H6 over C2H4."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large cavities of JNU-2 can be translated into large adsorption capacity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential binding of ethane over ethylene",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "C2H6 adsorption capacity: 4.19 mmol g−1"
+        },
+        "Other Information": {
+            "Additional Info": "Apertures connecting the cages function as screening sites for C2H6 molecules to preferentially go through."
+        }
+    },
+    {
+        "Materials Name": "JNU-3a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.7 Å",
+            "Structure Type": "1D channel with orthogonal-array molecular pockets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.40 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "0.52 bar",
+                    "Additional Info": "Gate-opening pressure of C3H8 is about 0.52 bar at 303 K, approximately five times higher than that of C3H6."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity of C3H6 over C3H8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Orthogonal-array dynamic molecular sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "C3H6 productivity: 34.2 L kg−1"
+        },
+        "Other Information": {
+            "Additional Info": "Diffusion kinetics of C3H6 and C3H8 on JNU-3a are at least one order of magnitude faster than those of the two reported best-performing sieving materials."
+        }
+    },
+    {
+        "Materials Name": "UTSA-280",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.7 Å",
+            "Structure Type": "Rigid 1D channel"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "squaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Complete blocking of C2H6."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Record C2H4/C2H6 separation coefficient (>10 000)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Complete blocking of larger molecules",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption data",
+            "Performance Metrics": "C2H6 adsorption at 298 K and 1 bar: 0.098 mmol g−1"
+        },
+        "Other Information": {
+            "Additional Info": "UTSA-280 can be synthesized on a kilogram scale under environmentally friendly conditions."
+        }
+    },
+    {
+        "Materials Name": "M-gallate (M = Ni, Mg, Co)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.47 × 4.85, 3.56 × 4.84, and 3.69 × 4.95 Å2 for Ni, Mg, Co-gallate, respectively",
+            "Structure Type": "Interconnected zigzag channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+",
+            "Mg2+",
+            "Co2+"
+        ],
+        "Ligands": [
+            "gallate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible amounts of C2H6 adsorbed."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H6 could be excluded from entering the pore channels."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Exclusion of larger molecules",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Neutron powder diffraction (NPD) experiments",
+            "Performance Metrics": "Negligible amounts of C2H6 adsorbed (<0.31 mmol g−1)"
+        },
+        "Other Information": {
+            "Additional Info": "Desorption is required to obtain C2H4."
+        }
+    },
+    {
+        "Materials Name": "KAUST-7",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.04 Å",
+            "Structure Type": "1D channel"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.40 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Complete molecular exclusion of C3H8 from C3H6."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Almost negligible heat of adsorption of C3H8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Complete molecular exclusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "(NbOF5)2− is a relatively larger spacer, leading to shorter C–H/F interaction distances between the anionic pillar and pyrazine."
+        }
+    },
+    {
+        "Materials Name": "Y-abtc",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Optimal pore window size"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Y3+"
+        ],
+        "Ligands": [
+            "abtc"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.40 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exclusive adsorption of C3H6 with fast kinetics."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Polymer-grade propylene can be produced with a purity of 99.5%."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Exclusive adsorption of smaller molecules",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough measurements",
+            "Performance Metrics": "C3H6 purity: 99.5%"
+        },
+        "Other Information": {
+            "Additional Info": "Custom-made frameworks designed for C3H6/C3H8 separation by precisely adjusting the pore size around 4.3–4.7 Å."
+        }
+    }
+]

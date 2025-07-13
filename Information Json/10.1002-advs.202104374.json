@@ -1,0 +1,161 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "300 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The ZIF-8 framework with a narrow aperture size of 3.4 Å prevents large molecules like toluene from entering the pores."
+                }
+            },
+            {
+                "Molecule Name": "formaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "300 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-8 coated ZnO sensors exhibited higher selectivity toward formaldehyde over other gases."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Chemiresistive sensing",
+            "Performance Metrics": "Enhanced selectivity toward formaldehyde"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "HKUST-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Variable humidity levels",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "HKUST-1 films showed sensitive detection toward variable humidity concentrations."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "QCM sensing",
+            "Performance Metrics": "Detection limit not explicitly reported; sensitive to humidity changes"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "ZIF-67",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "formaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "150 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-67 based sensor showed selective and linear detection toward formaldehyde in the range of 5–500 ppm."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Chemiresistive sensing",
+            "Performance Metrics": "Detection range: 5–500 ppm formaldehyde"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "UiO-66-NH2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "dimethyl methylphosphonate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "UiO-66-NH2 coated FET sensors detected dimethyl methylphosphonate with a detection limit of around 0.3 ppb."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "FET sensing",
+            "Performance Metrics": "Detection limit: 0.3 ppb DMMP"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "COF membranes",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.7 to 6.5 nm",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "dyes",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Molecular weight cut-off from 500 to 1,000 Da"
+                }
+            },
+            {
+                "Molecule Name": "divalent ions",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Donnan exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Synergistic effect of size sieving and Donnan exclusion"
+                }
+            },
+            {
+                "Molecule Name": "H2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cut-off between H2 and bulkier gases"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nano scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Composite membranes with sub-nano pore size achieved by MOF-on-COF or COF-on-COF strategies"
+        }
+    }
+]

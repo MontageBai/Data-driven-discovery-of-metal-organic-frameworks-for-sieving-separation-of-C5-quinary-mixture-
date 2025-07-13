@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MET-Fe",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.6 Å",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "dia",
+        "Metal Nodes": [
+            "Fe2+"
+        ],
+        "Ligands": [
+            "1H-1,2,3-triazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butene",
+                "Molecular Size": "4.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 1.82 mmol g^-1 at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "i-butene",
+                "Molecular Size": "4.84 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption capacity: 0.17 mmol g^-1 at 298 K and 1 bar."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "IAST selectivity for n-butene/i-butene: 576; Breakthrough capacity of n-butene: 1.47 mmol g^-1 at 298 K and 1 bar."
+        },
+        "Other Information": {
+            "Additional Info": "MET-Fe exhibits excellent stability in water, acid, base, organic solvents, and humid conditions. It shows consistent performance over multiple cycles under both dry and humid environments."
+        }
+    }
+]

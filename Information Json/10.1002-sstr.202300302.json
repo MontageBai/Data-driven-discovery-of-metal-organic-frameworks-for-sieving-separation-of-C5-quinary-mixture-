@@ -1,0 +1,182 @@
+[
+    {
+        "Materials Name": "Cu-WO4-TPA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.2 × 3.1 Å²",
+            "Structure Type": "Cage-like with confined channel"
+        },
+        "Topology": "ith-d",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "Tri(pyridin-4-yl)amine",
+            "WO4²⁻"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic separation",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separates linear and mono-branched isomers effectively."
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic separation",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity lower than linear and mono-branched isomers."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic separation",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity lower than linear and mono-branched isomers."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, adsorption isotherms, Monte Carlo simulations, DFT calculations",
+            "Performance Metrics": "n-Hex/2,3-DMB uptake ratio: 10.5 (best among materials), RON ≥ 95 achieved in 16 min"
+        },
+        "Other Information": {
+            "Additional Info": "Largest aperture among the three materials, exhibits slight flexibility for n-Hex adsorption."
+        }
+    },
+    {
+        "Materials Name": "Cu-CrO4-TPA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.1 × 2.6 Å²",
+            "Structure Type": "Cage-like with confined channel"
+        },
+        "Topology": "ith-d",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "Tri(pyridin-4-yl)amine",
+            "CrO4²⁻"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic separation",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separates linear and mono-branched isomers effectively."
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Combined thermodynamic-kinetic mechanism",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion partially hindered due to smaller aperture compared to Cu-WO4-TPA."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Combined thermodynamic-kinetic mechanism",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion partially hindered due to smaller aperture compared to Cu-WO4-TPA."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, adsorption isotherms, Monte Carlo simulations, DFT calculations",
+            "Performance Metrics": "RON ≥ 95 achieved in 20 min"
+        },
+        "Other Information": {
+            "Additional Info": "Intermediate aperture size, shows synergistic effect of diffusion rate differences between mono- and di-branched isomers."
+        }
+    },
+    {
+        "Materials Name": "Cu-MoO4-TPA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 × 2.4 Å²",
+            "Structure Type": "Cage-like with confined channel"
+        },
+        "Topology": "ith-d",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "Tri(pyridin-4-yl)amine",
+            "MoO4²⁻"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic separation",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strongest thermodynamic separation among the three materials."
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Unable to penetrate pores due to most restricted aperture."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Unable to penetrate pores due to most restricted aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, adsorption isotherms, Monte Carlo simulations, DFT calculations",
+            "Performance Metrics": "RON ≥ 95 achieved in 28 min"
+        },
+        "Other Information": {
+            "Additional Info": "Smallest aperture among the three materials, achieves molecular sieving separation of di-branched isomers."
+        }
+    }
+]

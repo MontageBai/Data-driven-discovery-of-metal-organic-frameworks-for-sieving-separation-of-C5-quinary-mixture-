@@ -1,0 +1,70 @@
+**MOF Name: UPC-613**
+
+**Analysis of Experimental Data for UPC-613:**
+
+*   **Ethylene:** 4.679×4.047×3.200 → Intermediate = **4.047 Å** | **Adsorbed (Yes)**
+*   **Ethane:** 4.731×4.175×4.170 → Intermediate = **4.175 Å** | **Not Adsorbed (No)** | Reason: "Stronger host-guest interaction" / "Preferential adsorption of other molecules"
+*   **Acetylene:** 5.538×3.200×3.200 → Intermediate = **3.200 Å** | **Not Adsorbed (No)** | Reason: "Stronger host-guest interaction"
+
+**Inferred MOF Pore Size (geometric compatibility for passage):**
+Based on the experimental data, UPC-613 adsorbs ethylene (intermediate 4.047 Å). Importantly, ethane (intermediate 4.175 Å) and acetylene (intermediate 3.200 Å) are *not adsorbed*, but the stated reason is related to "Stronger host-guest interaction" or "Preferential adsorption of other molecules," *not* size exclusion. This implies that these molecules are geometrically capable of passing through the pores, but they are not preferentially adsorbed under the given conditions. Therefore, the effective pore size of UPC-613, in terms of geometric passage, is at least large enough to accommodate ethane, meaning it is **> 4.175 Å**.
+
+**Inferred Adsorption Behavior (based on experimental outcomes):**
+Despite the pore being geometrically large enough for ethane (4.175 Å) and acetylene (3.200 Å) to pass, UPC-613 only shows adsorption for ethylene (4.047 Å) among the tested light hydrocarbons. This indicates a high selectivity governed by subtle host-guest interactions or kinetic sieving effects, rather than a strict size exclusion limit for the pore itself. The MOF *adsorbs* ethylene, but *does not adsorb* ethane or acetylene under these conditions. This suggests that molecules only slightly larger than ethylene, or even smaller but with different interaction properties, are not adsorbed.
+
+---
+
+**Evaluating Target Guest Molecules:**
+
+**1. MOF Name: UPC-613**
+**Guest Molecule: isoprene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **Target Molecule Dimensions:** isoprene: 7.746×6.093×3.963 → Intermediate = **6.093 Å**
+*   **Conclusion:** UPC-613 adsorbs ethylene (intermediate 4.047 Å). However, it *does not adsorb* ethane (intermediate 4.175 Å) or acetylene (intermediate 3.200 Å), attributing this to "Stronger host-guest interaction." While the MOF's pores are geometrically large enough for isoprene (intermediate 6.093 Å) to pass through, the experimental data clearly indicates a highly selective adsorption mechanism where molecules slightly larger than ethylene (like ethane) are not adsorbed. Given that isoprene (6.093 Å) is significantly larger than ethane (4.175 Å), it is highly unlikely to be adsorbed by UPC-613, aligning with the observed kinetic/interaction-driven non-adsorption of similar-sized molecules.
+
+---
+
+**2. MOF Name: UPC-613**
+**Guest Molecule: cis-2-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **Target Molecule Dimensions:** cis-2-pentene: 8.067×5.572×5.136 → Intermediate = **5.572 Å**
+*   **Conclusion:** UPC-613 adsorbs ethylene (intermediate 4.047 Å). However, it *does not adsorb* ethane (intermediate 4.175 Å) or acetylene (intermediate 3.200 Å), attributing this to "Stronger host-guest interaction." While the MOF's pores are geometrically large enough for cis-2-pentene (intermediate 5.572 Å) to pass through, the experimental data clearly indicates a highly selective adsorption mechanism where molecules slightly larger than ethylene (like ethane) are not adsorbed. Given that cis-2-pentene (5.572 Å) is significantly larger than ethane (4.175 Å), it is highly unlikely to be adsorbed by UPC-613, aligning with the observed kinetic/interaction-driven non-adsorption of similar-sized molecules.
+
+---
+
+**3. MOF Name: UPC-613**
+**Guest Molecule: 1-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **Target Molecule Dimensions:** 1-pentene: 8.847×4.995×4.897 → Intermediate = **4.995 Å**
+*   **Conclusion:** UPC-613 adsorbs ethylene (intermediate 4.047 Å). However, it *does not adsorb* ethane (intermediate 4.175 Å) or acetylene (intermediate 3.200 Å), attributing this to "Stronger host-guest interaction." While the MOF's pores are geometrically large enough for 1-pentene (intermediate 4.995 Å) to pass through, the experimental data clearly indicates a highly selective adsorption mechanism where molecules slightly larger than ethylene (like ethane) are not adsorbed. Given that 1-pentene (4.995 Å) is larger than ethane (4.175 Å), it is highly unlikely to be adsorbed by UPC-613, aligning with the observed kinetic/interaction-driven non-adsorption of similar-sized molecules.
+
+---
+
+**4. MOF Name: UPC-613**
+**Guest Molecule: trans-2-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **Target Molecule Dimensions:** trans-2-pentene: 8.796×4.733×4.564 → Intermediate = **4.733 Å**
+*   **Conclusion:** UPC-613 adsorbs ethylene (intermediate 4.047 Å). However, it *does not adsorb* ethane (intermediate 4.175 Å) or acetylene (intermediate 3.200 Å), attributing this to "Stronger host-guest interaction." While the MOF's pores are geometrically large enough for trans-2-pentene (intermediate 4.733 Å) to pass through, the experimental data clearly indicates a highly selective adsorption mechanism where molecules slightly larger than ethylene (like ethane) are not adsorbed. Given that trans-2-pentene (4.733 Å) is larger than ethane (4.175 Å), it is highly unlikely to be adsorbed by UPC-613, aligning with the observed kinetic/interaction-driven non-adsorption of similar-sized molecules.
+
+---
+
+**5. MOF Name: UPC-613**
+**Guest Molecule: n-pentane**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **Target Molecule Dimensions:** n-pentane: 9.118×4.364×3.969 → Intermediate = **4.364 Å**
+*   **Conclusion:** UPC-613 adsorbs ethylene (intermediate 4.047 Å). However, it *does not adsorb* ethane (intermediate 4.175 Å) or acetylene (intermediate 3.200 Å), attributing this to "Stronger host-guest interaction." While the MOF's pores are geometrically large enough for n-pentane (intermediate 4.364 Å) to pass through, the experimental data clearly indicates a highly selective adsorption mechanism where molecules slightly larger than ethylene (like ethane) are not adsorbed. Given that n-pentane (4.364 Å) is larger than ethane (4.175 Å), it is highly unlikely to be adsorbed by UPC-613, aligning with the observed kinetic/interaction-driven non-adsorption of similar-sized molecules.

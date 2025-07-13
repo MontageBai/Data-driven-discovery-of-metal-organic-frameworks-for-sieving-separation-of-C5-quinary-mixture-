@@ -1,0 +1,175 @@
+[
+    {
+        "Materials Name": "Cu-BDC microreactor",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 Å (theoretical, based on crystal structure)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Nile Red",
+                "Molecular Size": "1.43 nm × 0.575 nm × 0.519 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, immersion in dye solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The molecule was excluded from entering the MOF layer."
+                }
+            },
+            {
+                "Molecule Name": "FITC-Dextran",
+                "Molecular Size": "Greater than 2.30 nm × 1.20 nm × 0.866 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Dispersion in mixed solvent of n-octane and ethanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The molecule was retained within the microreactor and did not diffuse out."
+                }
+            },
+            {
+                "Molecule Name": "iodomethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size permeation",
+                "Other Information": {
+                    "Test Conditions": "Quenching experiment with iodomethane as quencher",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Small iodomethane molecules could pass through the MOF boundary to quench interior Rhodamine B."
+                }
+            },
+            {
+                "Molecule Name": "1-phenylethyl acetate",
+                "Molecular Size": "0.905 nm × 0.496 nm × 0.410 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size permeation",
+                "Other Information": {
+                    "Test Conditions": "Hydrolytic kinetic resolution reaction, 35 °C, flow rate 1.5 mL/h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved 43.8% conversion and 99% enantiomeric excess."
+                }
+            },
+            {
+                "Molecule Name": "1-(2-naphthyl)ethyl acetate",
+                "Molecular Size": "1.127 nm × 0.598 nm × 0.556 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size permeation with resistance",
+                "Other Information": {
+                    "Test Conditions": "Hydrolytic kinetic resolution reaction, 35 °C, flow rate 1.0 mL/h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved 27.5% conversion and 99% enantiomeric excess."
+                }
+            },
+            {
+                "Molecule Name": "α-methyl-3,5-bis(phenylmethoxy)-1-acetate",
+                "Molecular Size": "1.45 nm × 1.16 nm × 0.60 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Hydrolytic kinetic resolution reaction, 35 °C, flow rate 1.0 mL/h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Almost no reaction observed after 360 minutes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, fluorescence confocal microscopy, hydrolytic kinetic resolution reactions",
+            "Performance Metrics": "CO2/N2 selectivity: Not applicable, enzyme activity preserved over 1000 h continuous flow"
+        },
+        "Other Information": {
+            "Additional Info": "Microreactor exhibited excellent size-selective catalytic behavior and long-term stability."
+        }
+    },
+    {
+        "Materials Name": "MOF-74 microreactor",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "15 Å (theoretical, based on crystal structure)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxytelephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Nile Red",
+                "Molecular Size": "1.43 nm × 0.575 nm × 0.519 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size permeation",
+                "Other Information": {
+                    "Test Conditions": "Immersion in dye solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Increased molecular exchange ability due to expanded pore size."
+                }
+            },
+            {
+                "Molecule Name": "FITC-Dextran",
+                "Molecular Size": "Greater than 2.30 nm × 1.20 nm × 0.866 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion with slight release",
+                "Other Information": {
+                    "Test Conditions": "Dispersion in mixed solvent of n-octane and ethanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slight decrease in fluorescent intensity observed for release."
+                }
+            },
+            {
+                "Molecule Name": "1-phenylethyl acetate",
+                "Molecular Size": "0.905 nm × 0.496 nm × 0.410 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size permeation",
+                "Other Information": {
+                    "Test Conditions": "Hydrolytic kinetic resolution reaction, 35 °C, flow rate 1.5 mL/h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Final conversion of 40.0% and specific activity of 4.45 U/mg achieved."
+                }
+            },
+            {
+                "Molecule Name": "1-(2-naphthyl)ethyl acetate",
+                "Molecular Size": "1.127 nm × 0.598 nm × 0.556 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size permeation",
+                "Other Information": {
+                    "Test Conditions": "Hydrolytic kinetic resolution reaction, 35 °C, flow rate 1.0 mL/h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Final conversion of 28.0% and specific activity of 0.91 U/mg achieved."
+                }
+            },
+            {
+                "Molecule Name": "α-methyl-3,5-bis(phenylmethoxy)-1-acetate",
+                "Molecular Size": "1.45 nm × 1.16 nm × 0.60 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size permeation with resistance",
+                "Other Information": {
+                    "Test Conditions": "Hydrolytic kinetic resolution reaction, 35 °C, flow rate 1.0 mL/h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Conversion of 12.4% and specific activity of 0.13 U/mg achieved."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and permeation at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, fluorescence confocal microscopy, hydrolytic kinetic resolution reactions",
+            "Performance Metrics": "CO2/N2 selectivity: Not applicable, enzyme activity enhanced due to expanded pore size"
+        },
+        "Other Information": {
+            "Additional Info": "Enhanced catalytic performance observed for bulky substrates compared to Cu-BDC microreactor."
+        }
+    }
+]

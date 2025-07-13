@@ -1,0 +1,112 @@
+MOF Name: UPC-66-a
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UPC-66-a:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorption: Conditional (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in hexagonal A and elliptical C type pores).
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorption: Yes (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in hexagonal A type pores).
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorption: Conditional (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in elliptical C type pores).
+
+Based on this data, the largest intermediate dimension of a molecule observed to be adsorbed by UPC-66-a (even conditionally) is 4.170 Å (ethane). The "Conditional" nature of ethane's adsorption, attributed to "self-adaptive pore engineering" and specific sites, suggests that 4.170 Å is at or very near the practical upper limit of the MOF's effective pore size. While the MOF can adapt its pores, this adaptivity is typically within a limited range and does not imply an indefinite increase in pore size to accommodate significantly larger molecules. There is no experimental data point explicitly stating a molecule fails to adsorb due to size exclusion, but the conditional adsorption of ethane effectively serves as an indicator of the maximum operable pore aperture under these conditions.
+
+Target Guest Molecule Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the largest intermediate dimension observed to be adsorbed by UPC-66-a (4.170 Å), it is highly unlikely to be adsorbed due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: UPC-66-a
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UPC-66-a:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorption: Conditional (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in hexagonal A and elliptical C type pores).
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorption: Yes (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in hexagonal A type pores).
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorption: Conditional (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in elliptical C type pores).
+
+Based on this data, the largest intermediate dimension of a molecule observed to be adsorbed by UPC-66-a (even conditionally) is 4.170 Å (ethane). The "Conditional" nature of ethane's adsorption, attributed to "self-adaptive pore engineering" and specific sites, suggests that 4.170 Å is at or very near the practical upper limit of the MOF's effective pore size. While the MOF can adapt its pores, this adaptivity is typically within a limited range and does not imply an indefinite increase in pore size to accommodate significantly larger molecules. There is no experimental data point explicitly stating a molecule fails to adsorb due to size exclusion, but the conditional adsorption of ethane effectively serves as an indicator of the maximum operable pore aperture under these conditions.
+
+Target Guest Molecule Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the largest intermediate dimension observed to be adsorbed by UPC-66-a (4.170 Å), it is highly unlikely to be adsorbed due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: UPC-66-a
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UPC-66-a:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorption: Conditional (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in hexagonal A and elliptical C type pores).
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorption: Yes (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in hexagonal A type pores).
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorption: Conditional (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in elliptical C type pores).
+
+Based on this data, the largest intermediate dimension of a molecule observed to be adsorbed by UPC-66-a (even conditionally) is 4.170 Å (ethane). The "Conditional" nature of ethane's adsorption, attributed to "self-adaptive pore engineering" and specific sites, suggests that 4.170 Å is at or very near the practical upper limit of the MOF's effective pore size. While the MOF can adapt its pores, this adaptivity is typically within a limited range and does not imply an indefinite increase in pore size to accommodate significantly larger molecules. There is no experimental data point explicitly stating a molecule fails to adsorb due to size exclusion, but the conditional adsorption of ethane effectively serves as an indicator of the maximum operable pore aperture under these conditions.
+
+Target Guest Molecule Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the largest intermediate dimension observed to be adsorbed by UPC-66-a (4.170 Å), it is highly unlikely to be adsorbed due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: UPC-66-a
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UPC-66-a:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorption: Conditional (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in hexagonal A and elliptical C type pores).
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorption: Yes (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in hexagonal A type pores).
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorption: Conditional (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in elliptical C type pores).
+
+Based on this data, the largest intermediate dimension of a molecule observed to be adsorbed by UPC-66-a (even conditionally) is 4.170 Å (ethane). The "Conditional" nature of ethane's adsorption, attributed to "self-adaptive pore engineering" and specific sites, suggests that 4.170 Å is at or very near the practical upper limit of the MOF's effective pore size. While the MOF can adapt its pores, this adaptivity is typically within a limited range and does not imply an indefinite increase in pore size to accommodate significantly larger molecules. There is no experimental data point explicitly stating a molecule fails to adsorb due to size exclusion, but the conditional adsorption of ethane effectively serves as an indicator of the maximum operable pore aperture under these conditions.
+
+Target Guest Molecule Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the largest intermediate dimension observed to be adsorbed by UPC-66-a (4.170 Å), it is highly unlikely to be adsorbed due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: UPC-66-a
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UPC-66-a:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorption: Conditional (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in hexagonal A and elliptical C type pores).
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorption: Yes (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in hexagonal A type pores).
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorption: Conditional (Self-adaptive pore engineering with structural response to guest molecules, Privileged adsorption sites in elliptical C type pores).
+
+Based on this data, the largest intermediate dimension of a molecule observed to be adsorbed by UPC-66-a (even conditionally) is 4.170 Å (ethane). The "Conditional" nature of ethane's adsorption, attributed to "self-adaptive pore engineering" and specific sites, suggests that 4.170 Å is at or very near the practical upper limit of the MOF's effective pore size. While the MOF can adapt its pores, this adaptivity is typically within a limited range and does not imply an indefinite increase in pore size to accommodate significantly larger molecules. There is no experimental data point explicitly stating a molecule fails to adsorb due to size exclusion, but the conditional adsorption of ethane effectively serves as an indicator of the maximum operable pore aperture under these conditions.
+
+Target Guest Molecule Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is larger than the largest intermediate dimension observed to be adsorbed by UPC-66-a (4.170 Å), it is highly unlikely to be adsorbed due to size exclusion. While the difference is relatively small, the "Conditional" status for ethane suggests that 4.170 Å is already a challenging fit, and a slightly larger molecule would likely exceed the adaptable pore's capacity.
+
+Therefore, the result is: **Cannot Adsorb**

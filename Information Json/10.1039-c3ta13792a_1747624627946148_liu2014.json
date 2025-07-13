@@ -1,0 +1,99 @@
+[
+    {
+        "Materials Name": "NiAl-CO3 LDH",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.31 nm (gallery height)",
+            "Structure Type": "Layered structure with interlayer galleries"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+",
+            "Al3+"
+        ],
+        "Ligands": [
+            "CO32-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving through interlayer galleries",
+                "Other Information": {
+                    "Test Conditions": "180 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 5.2 × 10⁻⁸ mol m⁻² s⁻¹ Pa⁻¹ at 210 °C"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to larger kinetic diameter than gallery height",
+                "Other Information": {
+                    "Test Conditions": "180 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong adsorption of CO2 negatively affects H2 diffusion"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to larger kinetic diameter than gallery height",
+                "Other Information": {
+                    "Test Conditions": "180 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ideal selectivity for H2-N2: 27.6"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to larger kinetic diameter than gallery height",
+                "Other Information": {
+                    "Test Conditions": "180 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ideal selectivity for H2-CH4: 76.8"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke–Kallenbach permeation cell",
+            "Performance Metrics": "H2 permeance: 4.5 × 10⁻⁸ mol m⁻² s⁻¹ Pa⁻¹; H2-CH4 selectivity: 78 at 180 °C"
+        },
+        "Other Information": {
+            "Additional Info": "Thermal stability test showed consistent performance over 2 days at 180 °C"
+        }
+    },
+    {
+        "Materials Name": "ZnAl LDH",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.41 nm (gallery height)",
+            "Structure Type": "Layered structure with interlayer galleries"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+",
+            "Al3+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Gallery height measured but no separation data provided"
+        }
+    }
+]

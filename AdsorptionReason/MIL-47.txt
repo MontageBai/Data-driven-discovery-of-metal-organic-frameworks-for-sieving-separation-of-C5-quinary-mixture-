@@ -1,0 +1,92 @@
+MOF Name: MIL-47
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of MIL-47 is strictly less than 6.501 Å. There is no experimental data provided for any molecule being *adsorbed* by MIL-47, which means the `max_intermediate_adsorbed` value is undetermined from the given data.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is smaller than that of the experimentally excluded ethylbenzene (6.501 Å). While this suggests that isoprene is not excluded by the same size exclusion mechanism as ethylbenzene, the provided judgment criteria for determining "Can Adsorb" (i.e., "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed") cannot be applied because `max_intermediate_adsorbed` is unknown. Without positive experimental evidence or the ability to satisfy the criteria for confirmed adsorption, it cannot be definitively determined that MIL-47 *can* adsorb isoprene based solely on the given data. Therefore, the result is: **Cannot Adsorb**.
+
+---
+
+MOF Name: MIL-47
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of MIL-47 is strictly less than 6.501 Å. There is no experimental data provided for any molecule being *adsorbed* by MIL-47, which means the `max_intermediate_adsorbed` value is undetermined from the given data.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is smaller than that of the experimentally excluded ethylbenzene (6.501 Å). While this suggests that cis-2-pentene is not excluded by the same size exclusion mechanism as ethylbenzene, the provided judgment criteria for determining "Can Adsorb" (i.e., "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed") cannot be applied because `max_intermediate_adsorbed` is unknown. Without positive experimental evidence or the ability to satisfy the criteria for confirmed adsorption, it cannot be definitively determined that MIL-47 *can* adsorb cis-2-pentene based solely on the given data. Therefore, the result is: **Cannot Adsorb**.
+
+---
+
+MOF Name: MIL-47
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of MIL-47 is strictly less than 6.501 Å. There is no experimental data provided for any molecule being *adsorbed* by MIL-47, which means the `max_intermediate_adsorbed` value is undetermined from the given data.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is smaller than that of the experimentally excluded ethylbenzene (6.501 Å). While this suggests that 1-pentene is not excluded by the same size exclusion mechanism as ethylbenzene, the provided judgment criteria for determining "Can Adsorb" (i.e., "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed") cannot be applied because `max_intermediate_adsorbed` is unknown. Without positive experimental evidence or the ability to satisfy the criteria for confirmed adsorption, it cannot be definitively determined that MIL-47 *can* adsorb 1-pentene based solely on the given data. Therefore, the result is: **Cannot Adsorb**.
+
+---
+
+MOF Name: MIL-47
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of MIL-47 is strictly less than 6.501 Å. There is no experimental data provided for any molecule being *adsorbed* by MIL-47, which means the `max_intermediate_adsorbed` value is undetermined from the given data.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is smaller than that of the experimentally excluded ethylbenzene (6.501 Å). While this suggests that trans-2-pentene is not excluded by the same size exclusion mechanism as ethylbenzene, the provided judgment criteria for determining "Can Adsorb" (i.e., "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed") cannot be applied because `max_intermediate_adsorbed` is unknown. Without positive experimental evidence or the ability to satisfy the criteria for confirmed adsorption, it cannot be definitively determined that MIL-47 *can* adsorb trans-2-pentene based solely on the given data. Therefore, the result is: **Cannot Adsorb**.
+
+---
+
+MOF Name: MIL-47
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of MIL-47 is strictly less than 6.501 Å. There is no experimental data provided for any molecule being *adsorbed* by MIL-47, which means the `max_intermediate_adsorbed` value is undetermined from the given data.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is smaller than that of the experimentally excluded ethylbenzene (6.501 Å). While this suggests that n-pentane is not excluded by the same size exclusion mechanism as ethylbenzene, the provided judgment criteria for determining "Can Adsorb" (i.e., "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed") cannot be applied because `max_intermediate_adsorbed` is unknown. Without positive experimental evidence or the ability to satisfy the criteria for confirmed adsorption, it cannot be definitively determined that MIL-47 *can* adsorb n-pentane based solely on the given data. Therefore, the result is: **Cannot Adsorb**.

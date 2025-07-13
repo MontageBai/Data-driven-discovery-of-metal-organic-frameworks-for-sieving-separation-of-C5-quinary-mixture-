@@ -1,0 +1,105 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "1,4-benzene-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 ± 2 °C, 10.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water permeance: 0.14 L m−2 h−1 bar−1"
+                }
+            },
+            {
+                "Molecule Name": "chloride",
+                "Molecular Size": "6.6 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 ± 2 °C, 10.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: Moderate (~45-47%) for monovalent ions like K+ and Na+"
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "6.6 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 ± 2 °C, 10.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: ~45.7%"
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "7.2 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 ± 2 °C, 10.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: ~47.0%"
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "8.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 ± 2 °C, 10.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 86.3%"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "8.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 ± 2 °C, 10.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 98.0%"
+                }
+            },
+            {
+                "Molecule Name": "aluminum",
+                "Molecular Size": "9.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 ± 2 °C, 10.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.3%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Permeation test, ion rejection test",
+            "Performance Metrics": "Multivalent ion rejection: 86.3% for Ca2+, 98.0% for Mg2+, 99.3% for Al3%; Water permeability: 0.28 L m−2 h−1 bar−1 μm"
+        },
+        "Other Information": {
+            "Additional Info": "The UiO-66 membrane shows excellent chemical stability in saline solutions over 170 hours of continuous testing."
+        }
+    }
+]

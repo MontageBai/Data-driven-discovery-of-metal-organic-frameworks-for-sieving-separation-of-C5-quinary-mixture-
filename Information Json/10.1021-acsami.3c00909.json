@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "Ti3C2Tx-MIL-100 nanolaminate film",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.1 nm, 1.5 nm",
+            "Structure Type": "nanochannels between interlayers"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removed with >99% efficiency due to adsorption by MIL-100."
+                }
+            },
+            {
+                "Molecule Name": "tetracycline",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removed with 93.9% efficiency due to adsorption by MIL-100."
+                }
+            },
+            {
+                "Molecule Name": "green quantum dots",
+                "Molecular Size": "10 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removed with 99.7% efficiency due to size exclusion mechanism."
+                }
+            },
+            {
+                "Molecule Name": "gold nanoparticles",
+                "Molecular Size": "10 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Trapped on the upper surface of the film due to size exclusion."
+                }
+            },
+            {
+                "Molecule Name": "isatin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Conditional (see Additional Info)",
+                "Other Information": {
+                    "Test Conditions": "298 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passed through the membrane as it contains fewer benzene rings and is electrically neutral."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dual mechanism of adsorption and size exclusion",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Dead filtration experiment",
+            "Performance Metrics": "Water flux: 231 L m-2 h-1 bar-1; Removal rates: >99% for dyes and quantum dots, >90% for antibiotics"
+        },
+        "Other Information": {
+            "Additional Info": "The nanolaminate structure provides extensive fluidic channels and enhances collision probability between target molecules and MOFs."
+        }
+    }
+]

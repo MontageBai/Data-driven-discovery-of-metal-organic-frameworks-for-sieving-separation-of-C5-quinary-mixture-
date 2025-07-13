@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Fe-BTC",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "22 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ammonia",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption",
+                "Other Information": {
+                    "Test Conditions": "100 ppm initial concentration, 2 h test duration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest CDR of ≈60% observed in MOF+NF/NW configuration"
+                }
+            },
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption",
+                "Other Information": {
+                    "Test Conditions": "100 ppm initial concentration, 2 h test duration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest CDR of ≈35% observed in MOF+NF/NW configuration"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas detector tube method",
+            "Performance Metrics": "CDR values: ≈60% for ammonia, ≈35% for hydrogen sulfide (in MOF+NF/NW)"
+        },
+        "Other Information": {
+            "Additional Info": "Fe-BTC particles were integrated into hybrid membranes with PVA nanofibers to achieve dual functionality for PM and toxic gas filtration."
+        }
+    }
+]

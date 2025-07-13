@@ -1,0 +1,102 @@
+MOF Name: Cu(mcbdc) (STAM-1)
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu(mcbdc) (STAM-1):
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed, Mechanism: Kinetic separation.
+
+Inferred effective pore size of Cu(mcbdc) (STAM-1):
+The MOF is shown to adsorb oxygen (intermediate dimension 2.860 Å) via "Kinetic separation". This mechanism implies a tight fit and a constrained pore environment, where even a small molecule like oxygen experiences kinetic resistance to diffusion. This suggests that the pore size is not significantly larger than oxygen's dimensions.
+No experimental data is provided for molecules that were *not* adsorbed due to size exclusion, so an explicit upper bound for the effective pore size cannot be strictly defined from the provided "No" entries. However, the observation of kinetic sieving for oxygen strongly indicates that the pores are narrow.
+
+Target Guest Molecule Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å). Given that the MOF exhibits "Kinetic separation" for oxygen, implying a constrained pore, it is highly improbable that a molecule with an intermediate dimension more than double that of oxygen could be adsorbed. Therefore, isoprene is likely excluded by size.
+
+---
+
+MOF Name: Cu(mcbdc) (STAM-1)
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu(mcbdc) (STAM-1):
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed, Mechanism: Kinetic separation.
+
+Inferred effective pore size of Cu(mcbdc) (STAM-1):
+The MOF is shown to adsorb oxygen (intermediate dimension 2.860 Å) via "Kinetic separation". This mechanism implies a tight fit and a constrained pore environment, where even a small molecule like oxygen experiences kinetic resistance to diffusion. This suggests that the pore size is not significantly larger than oxygen's dimensions.
+No experimental data is provided for molecules that were *not* adsorbed due to size exclusion, so an explicit upper bound for the effective pore size cannot be strictly defined from the provided "No" entries. However, the observation of kinetic sieving for oxygen strongly indicates that the pores are narrow.
+
+Target Guest Molecule Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å). Given that the MOF exhibits "Kinetic separation" for oxygen, implying a constrained pore, it is highly improbable that a molecule with an intermediate dimension nearly double that of oxygen could be adsorbed. Therefore, cis-2-pentene is likely excluded by size.
+
+---
+
+MOF Name: Cu(mcbdc) (STAM-1)
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu(mcbdc) (STAM-1):
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed, Mechanism: Kinetic separation.
+
+Inferred effective pore size of Cu(mcbdc) (STAM-1):
+The MOF is shown to adsorb oxygen (intermediate dimension 2.860 Å) via "Kinetic separation". This mechanism implies a tight fit and a constrained pore environment, where even a small molecule like oxygen experiences kinetic resistance to diffusion. This suggests that the pore size is not significantly larger than oxygen's dimensions.
+No experimental data is provided for molecules that were *not* adsorbed due to size exclusion, so an explicit upper bound for the effective pore size cannot be strictly defined from the provided "No" entries. However, the observation of kinetic sieving for oxygen strongly indicates that the pores are narrow.
+
+Target Guest Molecule Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å). Given that the MOF exhibits "Kinetic separation" for oxygen, implying a constrained pore, it is highly improbable that a molecule with an intermediate dimension nearly double that of oxygen could be adsorbed. Therefore, 1-pentene is likely excluded by size.
+
+---
+
+MOF Name: Cu(mcbdc) (STAM-1)
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu(mcbdc) (STAM-1):
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed, Mechanism: Kinetic separation.
+
+Inferred effective pore size of Cu(mcbdc) (STAM-1):
+The MOF is shown to adsorb oxygen (intermediate dimension 2.860 Å) via "Kinetic separation". This mechanism implies a tight fit and a constrained pore environment, where even a small molecule like oxygen experiences kinetic resistance to diffusion. This suggests that the pore size is not significantly larger than oxygen's dimensions.
+No experimental data is provided for molecules that were *not* adsorbed due to size exclusion, so an explicit upper bound for the effective pore size cannot be strictly defined from the provided "No" entries. However, the observation of kinetic sieving for oxygen strongly indicates that the pores are narrow.
+
+Target Guest Molecule Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å). Given that the MOF exhibits "Kinetic separation" for oxygen, implying a constrained pore, it is highly improbable that a molecule with an intermediate dimension nearly double that of oxygen could be adsorbed. Therefore, trans-2-pentene is likely excluded by size.
+
+---
+
+MOF Name: Cu(mcbdc) (STAM-1)
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu(mcbdc) (STAM-1):
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed, Mechanism: Kinetic separation.
+
+Inferred effective pore size of Cu(mcbdc) (STAM-1):
+The MOF is shown to adsorb oxygen (intermediate dimension 2.860 Å) via "Kinetic separation". This mechanism implies a tight fit and a constrained pore environment, where even a small molecule like oxygen experiences kinetic resistance to diffusion. This suggests that the pore size is not significantly larger than oxygen's dimensions.
+No experimental data is provided for molecules that were *not* adsorbed due to size exclusion, so an explicit upper bound for the effective pore size cannot be strictly defined from the provided "No" entries. However, the observation of kinetic sieving for oxygen strongly indicates that the pores are narrow.
+
+Target Guest Molecule Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å). Given that the MOF exhibits "Kinetic separation" for oxygen, implying a constrained pore, it is highly improbable that a molecule with an intermediate dimension nearly 1.5 times that of oxygen could be adsorbed. Therefore, n-pentane is likely excluded by size.

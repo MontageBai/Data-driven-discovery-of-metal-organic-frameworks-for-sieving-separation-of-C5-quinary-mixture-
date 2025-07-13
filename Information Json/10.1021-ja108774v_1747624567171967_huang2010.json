@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "ZIF-90",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 Å (six-membered ring pores)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sodalite (SOD)",
+        "Metal Nodes": [
+            "zinc(II)"
+        ],
+        "Ligands": [
+            "imidazolate-2-carboxyaldehyde (ICA)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "200 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: 2.5 × 10^-7 mol·m^-2·s^-1·Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "200 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CO2 separation factor: 7.3"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "200 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/N2 separation factor: 11.7"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "200 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CH4 separation factor: 15.3"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "200 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/C2H4 separation factor: 62.8"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke-Kallenbach permeation experiments",
+            "Performance Metrics": "H2/CH4 selectivity: 15.9, H2 permeance: 2.5 × 10^-7 mol·m^-2·s^-1·Pa^-1"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-90 membrane shows high thermal and hydrothermal stability."
+        }
+    }
+]

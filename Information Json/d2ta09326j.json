@@ -1,0 +1,389 @@
+[
+    {
+        "Materials Name": "HIAM-301 (Y6(OH)8(eddi)3)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.6 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Y3+"
+        ],
+        "Ligands": [
+            "5,5′-(ethene-1,2-diyl)diisophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High IAST selectivity of over 150 for propylene/propane."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible propane uptake (<0.3 mmol g−1)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective molecular sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "IAST selectivity > 100, Propylene productivity: 38.5 cm³ g⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "In situ neutron powder diffraction analysis confirmed multiple host-guest interactions favoring propylene adsorption."
+        }
+    },
+    {
+        "Materials Name": "Zn3(OH)2(pzdc)(atz)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.8 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "3,5-pyrazoledicarboxylic acid",
+            "3-amino-1,2,4-trizole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Selectivity > 100"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "Y6(OH)8(dbai)3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Y3+"
+        ],
+        "Ligands": [
+            "5-(3,5-dicarboxybenzoylamino) isophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Selectivity > 100"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "Ni[Fe(CN)5NO]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.3 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+",
+            "Fe3+"
+        ],
+        "Ligands": [
+            "cyanide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic driving separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High propylene uptake capacity of 80 cm³ g⁻¹."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic driving separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene/propane selectivity of 10.5."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Separation factor: 9.6, Propylene capture productivity: 2.30 mol kg⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "DFT calculations revealed selective adsorption due to strong host-guest interactions."
+        }
+    },
+    {
+        "Materials Name": "MFM-520",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.6 Å × 4.0 Å × 3.6 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "5-aminoisophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic driving separation",
+                "Other Information": {
+                    "Test Conditions": "Various temperatures, up to 318 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Quick saturation at relatively low pressure."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic driving separation",
+                "Other Information": {
+                    "Test Conditions": "Various temperatures, up to 318 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sluggish kinetics in propane adsorption."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Efficient kinetic separation demonstrated at 318 K."
+        },
+        "Other Information": {
+            "Additional Info": "Synergistic host-guest interactions involving hydrogen bonding and π/π stacking underpin cooperative binding of propylene."
+        }
+    },
+    {
+        "Materials Name": "JNU-3a (Co(mptbdc))",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.7 Å",
+            "Structure Type": "1D channels with pockets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "5-(3-methyl-5-(pyridin-4-yl)-4H-1,2,4-triazol-4-yl)-1,3-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening separation",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stepwise adsorption indicating guest-induced gate-opening behavior."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening separation",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stepwise adsorption indicating guest-induced gate-opening behavior."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "High-purity propylene: 53.5 L kg⁻¹ from equimolar mixture."
+        },
+        "Other Information": {
+            "Additional Info": "Single-crystal X-ray diffraction and DFT calculations revealed stronger interactions with propylene."
+        }
+    },
+    {
+        "Materials Name": "HIAM-402 (Zr6O4(OH)4(tcppda)2)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "8/12 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sqc",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "N,N,N′,N′-tetrakis(4-carboxyphenyl)-1,4-phenylenediamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic driving separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane favored at low pressure; heat of adsorption: 34.5 kJ mol⁻¹."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic driving separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Heat of adsorption: 31.2 kJ mol⁻¹."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Selectivity: 1.43"
+        },
+        "Other Information": {
+            "Additional Info": "Strong supramolecular interactions of propane with framework via C–H/H and CH/O bonds."
+        }
+    },
+    {
+        "Materials Name": "PCP-IPA (Co(IPA)(DPG))",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.7 Å × 5.6 Å",
+            "Structure Type": "1D channel"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "isophthalic acid",
+            "meso-a,b-di(4-pyridyl) glycol"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic driving separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane favored at lower pressure; ultra-high purity propylene (99.99%) obtained."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic driving separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Saturated uptakes similar at 1 bar."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Propylene productivity: 15.23 L kg⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "Straight channel acts as efficient propane nano-trap."
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (aperture)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ion",
+                "Molecular Size": "0.076 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 °C, electrolyte containing 1.0 M LiTFSI and 0.1 M LiNO3 in DME/DOL mixture",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+ is smaller than the pore aperture of ZIF-8 and can pass through."
+                }
+            },
+            {
+                "Molecule Name": "lithium-polysulfides",
+                "Molecular Size": ">0.68 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 °C, electrolyte containing 1.0 M LiTFSI and 0.1 M LiNO3 in DME/DOL mixture",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Long-chain lithium-polysulfides are larger than the pore aperture of ZIF-8 and cannot pass through."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, electrochemical impedance spectroscopy (EIS)",
+            "Performance Metrics": "Improved cycling performance with a small capacity fading rate of 0.12% per cycle and high Coulombic efficiency above 96.5% for over 200 cycles"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 membrane thickness was ≈23 µm, similar to commercial polypropylene separators."
+        }
+    }
+]

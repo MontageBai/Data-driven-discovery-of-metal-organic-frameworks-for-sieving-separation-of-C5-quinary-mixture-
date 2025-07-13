@@ -1,0 +1,128 @@
+[
+    {
+        "Materials Name": "ZIF-8@Zn-MOF-74",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2.5 nm",
+            "Structure Type": "Core-shell structure"
+        },
+        "Topology": "SOD-type for ZIF-8 core, Not Reported for Zn-MOF-74 shell",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "2,5-dihydroxyterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interactions with open metal sites",
+                "Other Information": {
+                    "Test Conditions": "308 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced adsorption capacity attributed to open metal sites"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "308 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower adsorption capacity compared to ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Weak interaction following Henry's law",
+                "Other Information": {
+                    "Test Conditions": "308 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower adsorption capacity compared to ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "0.346 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "308 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower adsorption capacity compared to ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "308 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower adsorption capacity compared to ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Stronger van der Waals interactions with open metal sites",
+                "Other Information": {
+                    "Test Conditions": "308 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption capacity compared to ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Stronger van der Waals interactions with open metal sites",
+                "Other Information": {
+                    "Test Conditions": "308 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption capacity compared to ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.416 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π-interactions with open metal sites",
+                "Other Information": {
+                    "Test Conditions": "308 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption capacity compared to ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π-interactions with open metal sites",
+                "Other Information": {
+                    "Test Conditions": "308 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption capacity compared to ZIF-8"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with specific interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pressure decay method using dual-volume/dual-sensor experimental set-up",
+            "Performance Metrics": "CO2/N2 selectivity increased by 85.4%, CO2/CH4 selectivity increased by 74.4%"
+        },
+        "Other Information": {
+            "Additional Info": "Core-shell structure combines molecular sieving of ZIF-8 with enhanced diffusion and adsorption capacity of Zn-MOF-74"
+        }
+    }
+]

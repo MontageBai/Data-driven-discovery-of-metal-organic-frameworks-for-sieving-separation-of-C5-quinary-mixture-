@@ -1,0 +1,85 @@
+[
+    {
+        "Materials Name": "UiO-66-NH2-mixed ZIF-8-matrix membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (ZIF-8), 0.60 nm (UiO-66-NH2)",
+            "Structure Type": "Continuous ZIF-8 matrix with dispersed UiO-66-NH2 nanoparticles"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+",
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced permeability due to UiO-66-NH2 filler."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability increased with UiO-66-NH2 content."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Framework flexibility and linker rotation",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Transport facilitated by ZIF-8 aperture flexibility."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Framework flexibility and linker rotation",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Transport facilitated by ZIF-8 aperture flexibility."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size compared to ZIF-8 aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiment",
+            "Performance Metrics": "H2 permeability: 3349 Barrer; H2/N2 selectivity: 22.3; H2/CH4 selectivity: 38.0"
+        },
+        "Other Information": {
+            "Additional Info": "The UNZ-M5-10 membrane showed enhanced H2 permeability while maintaining selectivity compared to pure ZIF-8 membranes."
+        }
+    }
+]

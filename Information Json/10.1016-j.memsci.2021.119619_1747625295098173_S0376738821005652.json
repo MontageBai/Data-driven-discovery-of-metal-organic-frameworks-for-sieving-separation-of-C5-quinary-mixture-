@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "PIM-1-coated UiO-66 membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.5 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation efficiency: 97.7%"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation efficiency: 91.9%"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH > 7, 298 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation efficiency: 95.2%"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH < 7, 298 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation efficiency: 95.7%"
+                }
+            },
+            {
+                "Molecule Name": "acid fuchsin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Steric hindrance and electrostatic interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower separation efficiency due to sulfonic acid groups enhancing water interaction."
+                }
+            },
+            {
+                "Molecule Name": "chrome black T",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation efficiency after 10 cycles: 96%, flux remained above 40 L m^-2 h^-1 bar^-1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with electrostatic repulsion",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Separation efficiency for various dyes exceeded 90%, MWCO derived from PEG rejection was inconsistent with dye molecular weight rejection."
+        },
+        "Other Information": {
+            "Additional Info": "Composite membrane showed excellent swelling resistance and maintained over 90% separation efficiency after 24h immersion in water."
+        }
+    }
+]

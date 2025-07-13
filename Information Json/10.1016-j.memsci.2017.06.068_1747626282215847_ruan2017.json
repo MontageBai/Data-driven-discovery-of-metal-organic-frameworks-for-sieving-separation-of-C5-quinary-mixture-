@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "100 K, 0.10 MPaG",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 3980 GPU"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "100 K, 0.10 MPaG",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity H2/CO2: 9.9"
+                }
+            },
+            {
+                "Molecule Name": "carbon monoxide",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "100 K, 0.10 MPaG",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity H2/CO: 17.2"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "100 K, 0.10 MPaG",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity H2/CH4: 26.0"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test",
+            "Performance Metrics": "H2 permeance: 3980 GPU, H2/CO2 selectivity: 9.9, H2/CO selectivity: 17.2, H2/CH4 selectivity: 26.0"
+        },
+        "Other Information": {
+            "Additional Info": "Zn-PDA coating enhances mechanical stability and uniformity of ZIF-8 membranes."
+        }
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "Materials Name": "MOF-508",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D interpenetrated framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,4-benzene dicarboxylic acid",
+            "4,4′-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Cooperative adsorption",
+                "Other Information": {
+                    "Test Conditions": "195 K, pressure not specified",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Binding energy of 34 kJ/mol per CO2 molecule; cooperative adsorption mechanism confirmed by DFT calculations."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Raman spectroscopy, IR spectroscopy, DFT calculations",
+            "Performance Metrics": "CO2 binding energy: 34 kJ/mol per molecule"
+        },
+        "Other Information": {
+            "Additional Info": "MOF-508 undergoes structural transitions between guest-free (MOF-508b) and guest-adsorbed (MOF-508a) forms. The sliding of the framework is reversible and driven by ligand conformation changes and inter-linker interactions."
+        }
+    }
+]

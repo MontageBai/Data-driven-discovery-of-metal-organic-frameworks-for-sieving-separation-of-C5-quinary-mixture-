@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.292 μm (avg), microporous",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "323 K, vapor phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity decreases with binder addition."
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Acetone is readily adsorbed but pushed out by n-butanol."
+                }
+            },
+            {
+                "Molecule Name": "n-butanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbed over ethanol and acetone."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "n-butanol adsorption: 0.274 g/g (binder-free), reduced for composites."
+        },
+        "Other Information": {
+            "Additional Info": "Binder fraction affects mechanical stability and adsorption capacity."
+        }
+    }
+]

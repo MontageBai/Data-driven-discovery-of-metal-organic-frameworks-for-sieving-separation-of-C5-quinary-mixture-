@@ -1,0 +1,238 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (pore window), 11.4 Å (cavity)",
+            "Structure Type": "Cage-like pores"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "398 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Linear alkanes pass through the pore window while branched isomers are excluded."
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "398 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Small amounts of monobranched alkanes adsorb at their linear part in the pore mouth."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.60 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "398 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Dibranched isomers are fully excluded due to size restrictions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "High selectivity for linear over branched alkanes"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 shows structural flexibility allowing slight accommodation of larger molecules but excludes those >5.4 Å."
+        }
+    },
+    {
+        "Materials Name": "Fe2(bdp)3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D triangular channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "1,4-benzenedipyrazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic separation",
+                "Other Information": {
+                    "Test Conditions": "130-200 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption affinity for linear alkanes compared to branched isomers."
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic separation",
+                "Other Information": {
+                    "Test Conditions": "130-200 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Monobranched isomers show intermediate adsorption strength."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.60 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic separation",
+                "Other Information": {
+                    "Test Conditions": "130-200 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Dibranched isomers exhibit the weakest interaction and elute first."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Thermodynamically controlled separation based on van der Waals contacts",
+        "Separation Mechanism": "thermodynamic",
+        "Experimental Validation": {
+            "Method": "Multicomponent breakthrough experiments",
+            "Performance Metrics": "RON > 90 achieved for hexane blends"
+        },
+        "Other Information": {
+            "Additional Info": "All hexane isomers can diffuse into the channels but differ in adsorption affinity."
+        }
+    },
+    {
+        "Materials Name": "Zr-bptc",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.5 Å (tetrahedral windows), 12 Å (cages)",
+            "Structure Type": "Cage-like pores"
+        },
+        "Topology": "ftw",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "3,3′,5,5′-biphenyltetracarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "150 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Linear alkanes are selectively adsorbed while branched isomers are excluded."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "150 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Monobranched isomers are fully excluded due to size restrictions."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.60 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "150 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Dibranched isomers are fully excluded due to size restrictions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective molecular exclusion of branched alkanes",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Multicomponent breakthrough experiments",
+            "Performance Metrics": "Adsorption capacity: 130 mg/g for n-hexane at 150 °C"
+        },
+        "Other Information": {
+            "Additional Info": "Zr-bptc exhibits exceptional thermal and water stability."
+        }
+    },
+    {
+        "Materials Name": "Ca(H2tcpb)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.5 Å (1D open channels)",
+            "Structure Type": "1D open channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "1,2,4,5-tetrakis(4-carboxyphenyl)-benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "60 °C and 120 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "At 60 °C, n-hexane and 3-methylpentane are adsorbed; at 120 °C, only n-hexane is adsorbed."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "60 °C and 120 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed at 60 °C but excluded at 120 °C."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.60 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "60 °C and 120 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fully excluded at both temperatures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature-dependent selective molecular sieving behavior",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Multicomponent breakthrough experiments",
+            "Performance Metrics": "Complete separation of ternary mixtures into pure components"
+        },
+        "Other Information": {
+            "Additional Info": "First adsorbent material capable of fully separating monobranched and dibranched alkanes."
+        }
+    }
+]

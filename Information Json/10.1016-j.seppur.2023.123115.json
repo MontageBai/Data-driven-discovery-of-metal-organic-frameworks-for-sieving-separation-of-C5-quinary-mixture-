@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "ZnMOF",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "7.63 Å (PLD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "triethylenediamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Improved selectivity after PEG insertion"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reduced permeance after PEG insertion, indicating improved sieving effect"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Weak interaction with PEG results in less effective inhibition of CH4 permeation"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Single-gas and mixed-gas permeation tests",
+            "Performance Metrics": "H2/CO2 selectivity: 26.28, H2/CH4 selectivity: 17.58 (for PEG-on-MOF drop coating)"
+        },
+        "Other Information": {
+            "Additional Info": "PEG infiltration reduced effective pore size and improved diffusion selectivity for gas mixtures compared to pristine ZnMOF"
+        }
+    }
+]

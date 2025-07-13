@@ -1,0 +1,583 @@
+[
+    {
+        "Materials Name": "Co-gallate MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "16.8 Å² (Minimum cross-sectional area)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co"
+        ],
+        "Ligands": [
+            "gallic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High C3H6 adsorption capacity (66.6 cm³ g⁻¹) and low C3H8 adsorption capacity (5.2 cm³ cm⁻³)"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low C3H8 adsorption capacity due to pore size slightly smaller than the minimum cross-sectional area of C3H8 (21.2 Å²)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-component sorption isotherms",
+            "Performance Metrics": "C3H6/C3H8 selectivity >100"
+        },
+        "Other Information": {
+            "Additional Info": "Hydrogen bonding between C3H6 and the Co-gallate MOF enhances preferential adsorption"
+        }
+    },
+    {
+        "Materials Name": "UTSA-400",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "One-dimensional pore channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong host–guest interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exposed oxide/fluoride pairs enhance C3H6 binding"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Gate-opening effect excludes C3H8",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Regulated host framework dynamics exclude C3H8"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening effect facilitates selective separation",
+        "Separation Mechanism": "gate-opening",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "Produced high-purity C3H6 (>99.5%)"
+        },
+        "Other Information": {
+            "Additional Info": "Strong C3H6 binding allows near-saturation within the pore structure"
+        }
+    },
+    {
+        "Materials Name": "NJU-bai8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Flexible porous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu"
+        ],
+        "Ligands": [
+            "5-(pyrimidine-5-yl) isophthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "298–348 K, 1 bar",
+                    "Threshold Pressure": "49.0 kPa",
+                    "Additional Info": "High uptake ratio (1.68) for C3H6"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å (kinetic diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "298–348 K, 1 bar",
+                    "Threshold Pressure": "49.0 kPa",
+                    "Additional Info": "Flat pore size and strong acid-base interaction favor C3H6 over C3H8"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening effect enables selective separation",
+        "Separation Mechanism": "gate-opening",
+        "Experimental Validation": {
+            "Method": "Single-component adsorption isotherms",
+            "Performance Metrics": "Selectivity >100 at gate-opening pressure"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrated good separation performance for C3H6/C3H8 mixtures"
+        }
+    },
+    {
+        "Materials Name": "CPL-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Flexible structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu"
+        ],
+        "Ligands": [
+            "pyrazine-2,3-dicarboxylate",
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermoresponsive gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "273 K",
+                    "Threshold Pressure": "Temperature-dependent",
+                    "Additional Info": "Higher interaction with C3H6 due to hydrogen bonding"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Closed pores prevent surface adsorption",
+                "Other Information": {
+                    "Test Conditions": "273 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H8 only experiences surface adsorption due to closed pores"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Thermoresponsive gate-opening effect",
+        "Separation Mechanism": "gate-opening",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "Significantly higher C3H6 uptake at 273 K"
+        },
+        "Other Information": {
+            "Additional Info": "Gate-opening pressure for C3H6 influenced by temperature"
+        }
+    },
+    {
+        "Materials Name": "CAU-10-OMe",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Tunable in 0.1–0.5 Å scale",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al"
+        ],
+        "Ligands": [
+            "Methoxyl group"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Temperature-responsive molecular gate",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smart molecular gate achieved through temperature-responsive groups"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Temperature-responsive molecular gate",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effective aperture size tuned by controlling temperature"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature-responsive molecular gate",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Gas separation tests",
+            "Performance Metrics": "Achieved gas separation with molecular sizes between 3.6 Å and 5.2 Å"
+        },
+        "Other Information": {
+            "Additional Info": "Synthesized by grafting a methoxyl group into Al-MOF CAU-10"
+        }
+    },
+    {
+        "Materials Name": "Zr-BPYDC",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr"
+        ],
+        "Ligands": [
+            "2,2ꞌ-bipyridine-5,5ꞌ-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption via specific sites",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption capacity for C3H8 compared to C3H6"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Preferential adsorption of C3H8",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower uptake for C3H6 relative to C3H8"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential adsorption of C3H8",
+        "Separation Mechanism": "thermodynamic",
+        "Experimental Validation": {
+            "Method": "Adsorption measurements",
+            "Performance Metrics": "C3H6/C3H8 selectivity not explicitly reported; C3H8 capacity = 8.79 mmol g⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "Surface chemistry tweaking improved C3H6/C3H8 selectivity"
+        }
+    },
+    {
+        "Materials Name": "BUT-10",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selective separation of C3H8 from C3H6/C3H8 mixtures"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion based on pore environment",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Produced high purity C3H6 (>99.99%)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential adsorption of C3H8",
+        "Separation Mechanism": "thermodynamic",
+        "Experimental Validation": {
+            "Method": "Column breakthrough experiments",
+            "Performance Metrics": "High purity C3H6 (>99.99%) achieved"
+        },
+        "Other Information": {
+            "Additional Info": "Isomorphic Zr-MOFs used for C3H6/C3H8 separation"
+        }
+    },
+    {
+        "Materials Name": "NUM-7",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mn"
+        ],
+        "Ligands": [
+            "tcpe"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption via C—H···π interactions",
+                "Other Information": {
+                    "Test Conditions": "Low-pressure region",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reverse C3H8-selective behavior observed"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion based on pore environment",
+                "Other Information": {
+                    "Test Conditions": "Low-pressure region",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Greater binding affinity to C3H8 due to electronegative aromatic benzene rings"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential adsorption via C—H···π interactions",
+        "Separation Mechanism": "thermodynamic",
+        "Experimental Validation": {
+            "Method": "Grand Canonical Monte Carlo (GCMC) simulations",
+            "Performance Metrics": "Exceptional inverted ideal adsorption solution theoretically selective values"
+        },
+        "Other Information": {
+            "Additional Info": "Pore structure contains more electronegative aromatic benzene rings"
+        }
+    },
+    {
+        "Materials Name": "HIAM-301",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Deformed pore structure",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Y"
+        ],
+        "Ligands": [
+            "eddi"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity (>150) and significant capacity (~3.2 mmol g⁻¹) for C3H6"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion based on deformed pore structure",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Deformed pore structure efficiently excluded C3H8"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving via deformed pore structure",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Column breakthrough measurements",
+            "Performance Metrics": "High selectivity (>150) and capacity (~3.2 mmol g⁻¹)"
+        },
+        "Other Information": {
+            "Additional Info": "Pore distortion regulated separation of C3H6 and C3H8"
+        }
+    },
+    {
+        "Materials Name": "CPM-734c",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co",
+            "V"
+        ],
+        "Ligands": [
+            "ndc",
+            "tpbtc"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest potential C3H8 recovery among benchmarked materials"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion based on pore optimization",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pore size optimized for C3H8-selective adsorption"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential adsorption of C3H8 via pore optimization",
+        "Separation Mechanism": "thermodynamic",
+        "Experimental Validation": {
+            "Method": "Single-component adsorption isotherms and theoretical simulations",
+            "Performance Metrics": "IAST selectivity = 1.5 for C3H6/C3H8"
+        },
+        "Other Information": {
+            "Additional Info": "Reticular chemistry used to optimize interactions with guest molecules"
+        }
+    },
+    {
+        "Materials Name": "PCP-IPA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.7 Å",
+            "Structure Type": "1D channel structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co"
+        ],
+        "Ligands": [
+            "isophthalic acid",
+            "meso-α, β-di(4-pyridyl) glycol"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Stiff connections and aligned hydrogen atoms",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Directed adsorption of C3H8 via stiff connections"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion based on pore geometry",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Record separation selectivity (2.48) and separation potential (1.20 mol/L)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Directed adsorption of C3H8 via pore geometry",
+        "Separation Mechanism": "thermodynamic",
+        "Experimental Validation": {
+            "Method": "Equimolar mixture separation tests",
+            "Performance Metrics": "Ultra-high quality C3H6 (99.99%) with productivity of 15.23 L kg⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "Distinct pore size and environment enable directed adsorption of C3H8"
+        }
+    },
+    {
+        "Materials Name": "[Ni(bpe)2(WO4)]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Polycatenated molecular cage"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni"
+        ],
+        "Ligands": [
+            "bpe",
+            "WO4"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption via dense electronegative binding sites",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity (1.62–2.75) for C3H8"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion based on pore geometry",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Column breakthrough experiment demonstrated high purity C3H6 (99.6%)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential adsorption via dense electronegative binding sites",
+        "Separation Mechanism": "thermodynamic",
+        "Experimental Validation": {
+            "Method": "Column breakthrough experiments",
+            "Performance Metrics": "High purity C3H6 (99.6%) achieved without adsorption–desorption cycles"
+        },
+        "Other Information": {
+            "Additional Info": "Shape selectivity and multiple interactions enhance C3H8 adsorption"
+        }
+    }
+]

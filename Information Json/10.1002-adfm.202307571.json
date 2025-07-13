@@ -1,0 +1,139 @@
+[
+    {
+        "Materials Name": "MCGK/CMN",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.32 nm–1 μm (multi-pore sizes)",
+            "Structure Type": "Multilevel cellular graphene skeleton with continuous MOFs nanolayer"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "5,6-Dimethylbenzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Solar steam generation under 1–3 sun intensities, 25 °C, ≈70% humidity",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieves evaporation efficiency of up to 90%"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and adsorption",
+                "Other Information": {
+                    "Test Conditions": "Solar steam generation under 1–3 sun intensities",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely removed during evaporation sieving"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine-B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion and adsorption",
+                "Other Information": {
+                    "Test Conditions": "Solar steam generation under 1–3 sun intensities",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Concentration reduced to much lower than 0.2 μM"
+                }
+            },
+            {
+                "Molecule Name": "DMF",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Pressure-driven liquid phase sieving",
+                    "Threshold Pressure": "High external pressure",
+                    "Additional Info": "Sieving efficiency of 80.6–87.34%"
+                }
+            },
+            {
+                "Molecule Name": "DMSO",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Pressure-driven liquid phase sieving",
+                    "Threshold Pressure": "High external pressure",
+                    "Additional Info": "Effectively intercepted during evaporation sieving"
+                }
+            },
+            {
+                "Molecule Name": "NMP",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Pressure-driven liquid phase sieving",
+                    "Threshold Pressure": "High external pressure",
+                    "Additional Info": "Effectively intercepted during evaporation sieving"
+                }
+            },
+            {
+                "Molecule Name": "K+",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption",
+                "Other Information": {
+                    "Test Conditions": "Pressure-driven liquid phase sieving",
+                    "Threshold Pressure": "High external pressure",
+                    "Additional Info": "Concentration reduced by 127.5 mg L−1"
+                }
+            },
+            {
+                "Molecule Name": "Ca2+",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption",
+                "Other Information": {
+                    "Test Conditions": "Pressure-driven liquid phase sieving",
+                    "Threshold Pressure": "High external pressure",
+                    "Additional Info": "Concentration reduced by 153.4 mg L−1"
+                }
+            },
+            {
+                "Molecule Name": "Na+",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption",
+                "Other Information": {
+                    "Test Conditions": "Pressure-driven liquid phase sieving",
+                    "Threshold Pressure": "High external pressure",
+                    "Additional Info": "Concentration reduced by 2090 mg L−1"
+                }
+            },
+            {
+                "Molecule Name": "Mg2+",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption",
+                "Other Information": {
+                    "Test Conditions": "Pressure-driven liquid phase sieving",
+                    "Threshold Pressure": "High external pressure",
+                    "Additional Info": "Concentration reduced by 329 mg L−1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Multilevel and multi-pore sizes sieving strategy combining physical size exclusion and chemical adsorption",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Solar steam generation experiments, pressure-driven liquid phase sieve tests, gas chromatography for VOCs analysis",
+            "Performance Metrics": "Evaporation efficiency: 90%, VOCs rejection: 80.6–87.34%, ion concentration reduction: 127.5–2090 mg L−1"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane integrates femtosecond laser-induced multilevel graphene skeleton with ZIF-8 nanoparticles for enhanced stability and sieving performance."
+        }
+    }
+]

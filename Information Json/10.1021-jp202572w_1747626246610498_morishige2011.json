@@ -1,0 +1,142 @@
+[
+    {
+        "Materials Name": "ASMS-3A",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.33-0.38 nm (narrow necks)",
+            "Structure Type": "3D cages connected through narrow necks"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "283 K, up to 10 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption of CO2 due to smaller kinetic diameter."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "283 K, up to 10 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exclusion of CH4 molecules due to their larger dimensions relative to the narrow necks."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen is excluded at its boiling temperature."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrogen adsorption decreases slightly after surface hydration, indicating limited blocking of narrow necks for H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale based on kinetic diameters",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption-desorption isotherms, IAST prediction",
+            "Performance Metrics": "CO2/CH4 selectivity: ~200 at yCH4 = 0.95, 1 atm, 283 K"
+        },
+        "Other Information": {
+            "Additional Info": "Surface hydration does not affect CO2 adsorption capacity but reduces H2 and N2 adsorption due to narrowing of necks."
+        }
+    },
+    {
+        "Materials Name": "ASMS-5A",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.37-0.53 nm (narrow necks)",
+            "Structure Type": "3D cages connected through narrow necks"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption affinity",
+                "Other Information": {
+                    "Test Conditions": "283 K, up to 10 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 is preferentially adsorbed over CH4 based on adsorption affinity rather than molecular sieving."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption affinity",
+                "Other Information": {
+                    "Test Conditions": "283 K, up to 10 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 can diffuse through the narrow necks into the large cavities."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Surface hydration blocks N2 passage through narrow necks almost completely."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrogen adsorption decreases only slightly after surface hydration, indicating limited blocking of narrow necks for H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Adsorption affinity-based separation with some size-dependent effects",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption-desorption isotherms, IAST prediction",
+            "Performance Metrics": "CO2/CH4 selectivity: ~18 at yCH4 = 0.95, 1 atm, 283 K"
+        },
+        "Other Information": {
+            "Additional Info": "Surface hydration reduces N2 adsorption significantly while having a minor effect on H2 adsorption."
+        }
+    }
+]

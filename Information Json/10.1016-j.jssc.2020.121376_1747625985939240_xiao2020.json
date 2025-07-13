@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "Cd-MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D double layered framework with interlayer cavities"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "3,3',5,5'-biphenyl tetracarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interactions and size-exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH = 7, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest adsorption capacity of 595.4 mg g–1 at pH = 7"
+                }
+            },
+            {
+                "Molecule Name": "crystal violet",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "pH = 7, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake of 73%"
+                }
+            },
+            {
+                "Molecule Name": "malachite green oxalate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "pH = 7, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake of 30%"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "pH = 7, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake of 2.5%"
+                }
+            },
+            {
+                "Molecule Name": "neutral red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "pH = 7, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake of 88%"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH = 7, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No adsorption observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Electrostatic interactions and size-exclusion",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "UV–vis spectroscopy, adsorption experiments",
+            "Performance Metrics": "MB adsorption capacity: 595.4 mg g–1 at pH = 7"
+        },
+        "Other Information": {
+            "Additional Info": "The material selectively adsorbs cationic and neutral dyes while excluding anionic dyes due to its negative surface charge."
+        }
+    }
+]

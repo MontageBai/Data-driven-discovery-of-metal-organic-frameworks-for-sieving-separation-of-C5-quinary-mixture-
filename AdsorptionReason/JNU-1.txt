@@ -1,0 +1,97 @@
+MOF Name: JNU-1
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+
+Inferred effective pore size of JNU-1:
+The MOF is known to adsorb acetylene, implying an effective pore size of at least 3.200 Å. However, no experimental data is provided for any guest molecules that are *not* adsorbed due to size exclusion. Therefore, an upper limit for the effective pore size of JNU-1 cannot be inferred from the given information based on the size exclusion principle. The inferred pore size range is `[3.200 Å, ∞)`.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is larger than that of acetylene (3.200 Å). While it does not fall under the rule "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed," there is no experimental data indicating a size exclusion limit for JNU-1. Specifically, no molecule is listed as "No" due to size exclusion. Therefore, it is not possible to apply the rule "If molecule’s intermediate dimension ≥ min_intermediate_nonadsorbed" to conclude non-adsorption. Based strictly on the provided data and the absence of any information suggesting size exclusion for molecules larger than acetylene, we cannot definitively conclude that isoprene *cannot* be adsorbed. Given the requirement for a binary prediction, and without evidence of exclusion, the prediction is "Can Adsorb".
+
+---
+
+MOF Name: JNU-1
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+
+Inferred effective pore size of JNU-1:
+The MOF is known to adsorb acetylene, implying an effective pore size of at least 3.200 Å. However, no experimental data is provided for any guest molecules that are *not* adsorbed due to size exclusion. Therefore, an upper limit for the effective pore size of JNU-1 cannot be inferred from the given information based on the size exclusion principle. The inferred pore size range is `[3.200 Å, ∞)`.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is larger than that of acetylene (3.200 Å). While it does not fall under the rule "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed," there is no experimental data indicating a size exclusion limit for JNU-1. Specifically, no molecule is listed as "No" due to size exclusion. Therefore, it is not possible to apply the rule "If molecule’s intermediate dimension ≥ min_intermediate_nonadsorbed" to conclude non-adsorption. Based strictly on the provided data and the absence of any information suggesting size exclusion for molecules larger than acetylene, we cannot definitively conclude that cis-2-pentene *cannot* be adsorbed. Given the requirement for a binary prediction, and without evidence of exclusion, the prediction is "Can Adsorb".
+
+---
+
+MOF Name: JNU-1
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+
+Inferred effective pore size of JNU-1:
+The MOF is known to adsorb acetylene, implying an effective pore size of at least 3.200 Å. However, no experimental data is provided for any guest molecules that are *not* adsorbed due to size exclusion. Therefore, an upper limit for the effective pore size of JNU-1 cannot be inferred from the given information based on the size exclusion principle. The inferred pore size range is `[3.200 Å, ∞)`.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is larger than that of acetylene (3.200 Å). While it does not fall under the rule "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed," there is no experimental data indicating a size exclusion limit for JNU-1. Specifically, no molecule is listed as "No" due to size exclusion. Therefore, it is not possible to apply the rule "If molecule’s intermediate dimension ≥ min_intermediate_nonadsorbed" to conclude non-adsorption. Based strictly on the provided data and the absence of any information suggesting size exclusion for molecules larger than acetylene, we cannot definitively conclude that 1-pentene *cannot* be adsorbed. Given the requirement for a binary prediction, and without evidence of exclusion, the prediction is "Can Adsorb".
+
+---
+
+MOF Name: JNU-1
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+
+Inferred effective pore size of JNU-1:
+The MOF is known to adsorb acetylene, implying an effective pore size of at least 3.200 Å. However, no experimental data is provided for any guest molecules that are *not* adsorbed due to size exclusion. Therefore, an upper limit for the effective pore size of JNU-1 cannot be inferred from the given information based on the size exclusion principle. The inferred pore size range is `[3.200 Å, ∞)`.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is larger than that of acetylene (3.200 Å). While it does not fall under the rule "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed," there is no experimental data indicating a size exclusion limit for JNU-1. Specifically, no molecule is listed as "No" due to size exclusion. Therefore, it is not possible to apply the rule "If molecule’s intermediate dimension ≥ min_intermediate_nonadsorbed" to conclude non-adsorption. Based strictly on the provided data and the absence of any information suggesting size exclusion for molecules larger than acetylene, we cannot definitively conclude that trans-2-pentene *cannot* be adsorbed. Given the requirement for a binary prediction, and without evidence of exclusion, the prediction is "Can Adsorb".
+
+---
+
+MOF Name: JNU-1
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+
+Inferred effective pore size of JNU-1:
+The MOF is known to adsorb acetylene, implying an effective pore size of at least 3.200 Å. However, no experimental data is provided for any guest molecules that are *not* adsorbed due to size exclusion. Therefore, an upper limit for the effective pore size of JNU-1 cannot be inferred from the given information based on the size exclusion principle. The inferred pore size range is `[3.200 Å, ∞)`.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is larger than that of acetylene (3.200 Å). While it does not fall under the rule "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed," there is no experimental data indicating a size exclusion limit for JNU-1. Specifically, no molecule is listed as "No" due to size exclusion. Therefore, it is not possible to apply the rule "If molecule’s intermediate dimension ≥ min_intermediate_nonadsorbed" to conclude non-adsorption. Based strictly on the provided data and the absence of any information suggesting size exclusion for molecules larger than acetylene, we cannot definitively conclude that n-pentane *cannot* be adsorbed. Given the requirement for a binary prediction, and without evidence of exclusion, the prediction is "Can Adsorb".

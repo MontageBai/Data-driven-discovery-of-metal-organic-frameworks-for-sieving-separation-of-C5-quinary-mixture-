@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "JUC-160",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.58 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn(II)"
+        ],
+        "Ligands": [
+            "2-methylbenzimidazole",
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Congo red",
+                "Molecular Size": "2.5 × 0.7 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >99.8%"
+                }
+            },
+            {
+                "Molecule Name": "Coomassie Brilliant Blue R250",
+                "Molecular Size": "2.7 × 1.8 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >99.8%"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "1.8 × 1.4 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >99.8%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Dye rejection rate: >99.8%, Water flux: ~100 L∙m-2∙h-1"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane thickness: ~2.5 μm, Long-term durability tested for 150 hours"
+        }
+    }
+]

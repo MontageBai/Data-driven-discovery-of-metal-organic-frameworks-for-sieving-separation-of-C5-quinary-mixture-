@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "IPM-101",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.9 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cd clusters"
+        ],
+        "Ligands": [
+            "5-((9H-purin-6-yl) amino) isophthalic acid (PAIA)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "3.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 51.6 cm³ g⁻¹ at 1 bar and 298 K"
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "4.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 0.7 cm³ g⁻¹ at 1 bar and 298 K"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "n-C4H10/iso-C4H10 selectivity: Infinite (size-exclusive effect), iso-C4H10 purity: 99.9%"
+        },
+        "Other Information": {
+            "Additional Info": "IPM-101 exhibits restricted ligand rotation or swing due to multi-point coordination, enabling molecular-sieving separation of n-butane and isobutane."
+        }
+    }
+]

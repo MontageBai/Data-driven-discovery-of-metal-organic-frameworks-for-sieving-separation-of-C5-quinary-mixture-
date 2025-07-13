@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "MOF-EIA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.1 Å (hydrophobic hexagonal pore aperture), 5.1×5.2 Å (hydrophilic triangular pore)",
+            "Structure Type": "Two types of pores: hydrophobic hexagonal and hydrophilic triangular"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.4×2.4×3.14 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, loading pressures between 0–100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Local optimal operational temperature (LOOT) phenomenon observed at ~30 K for the larger hydrophilic pore; weaker hydrophobic pore contributes only at temperatures below ~30 K."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "2.4×2.4×3.14 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, loading pressures between 0–100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "LOOT phenomenon observed at ~30 K; quantum-induced exclusion dominates at specific temperatures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale with quantum effects",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Temperature-programmed desorption (TPD) using advanced cryogenic thermal desorption spectroscopy (ACTDS)",
+            "Performance Metrics": "Enrichment factor (EF) varies with pressure and temperature; LOOT identified as ~30 K for larger pore"
+        },
+        "Other Information": {
+            "Additional Info": "Two sequential desorption peaks observed corresponding to two adsorption sites; weaker hydrophobic pore effective only at low temperatures (<30 K)."
+        }
+    },
+    {
+        "Materials Name": "CPL-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4×6 Å",
+            "Structure Type": "Pillar-layered structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.4×2.4×3.14 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, loading pressures between 0–100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "LOOT phenomenon observed at ~40 K; quantum-induced exclusion effect reverses dependency on pressure at Texp=30 K."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "2.4×2.4×3.14 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, loading pressures between 0–100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "LOOT phenomenon observed at ~40 K; reverse isotope effect competes with quantum confinement at low temperatures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale with quantum effects",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Temperature-programmed desorption (TPD) using advanced cryogenic thermal desorption spectroscopy (ACTDS)",
+            "Performance Metrics": "Enrichment factor (EF) decreases sharply at Texp=30 K due to restrained quantum-induced exclusion; LOOT identified as ~40 K."
+        },
+        "Other Information": {
+            "Additional Info": "Two adsorption sites observed; secondary site shows weaker interaction potential, contributing to reverse dependency of EF on pressure."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (window size), 11.6 Å (cage diameter)",
+            "Structure Type": "Zeolitic window-caged sod-topological structure"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.4×2.4×3.14 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, loading pressures between 0–100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "LOOT phenomenon observed at ~50 K; wider cage (~11.6 Å) contributes to cross-linked quantum confinement."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "2.4×2.4×3.14 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, loading pressures between 0–100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "LOOT phenomenon observed at ~50 K; quantum swelling/excluding effect dominates separation performance."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale with quantum effects",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Temperature-programmed desorption (TPD) using advanced cryogenic thermal desorption spectroscopy (ACTDS)",
+            "Performance Metrics": "Enrichment factor (EF) increases monotonically with pressure and reaches a saturated plateau; LOOT identified as ~50 K."
+        },
+        "Other Information": {
+            "Additional Info": "Single desorption peak observed except at lowest exposure temperature (Texp=20 K); narrow window and wider cage contribute to quantum confinement."
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZIF-8/PBI MMMs",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "0.1 MPa at 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The diffusion coefficients for H2 of MMMs (1–7 L-b-L) were 4.4–13.5 times of that of neat PBI membranes."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 MPa at 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The ZIF-8 in MMMs exhibited the molecular sieving mechanism for gas molecules thus effectively preventing the transport of CO2."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 MPa at 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The ZIF-8 in MMMs exhibited the molecular sieving mechanism for gas molecules thus effectively preventing the transport of CH4."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 MPa at 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The ZIF-8 in MMMs exhibited the molecular sieving mechanism for gas molecules thus effectively preventing the transport of N2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation cell measurements",
+            "Performance Metrics": "H2 permeability enhanced to 15.1–80.7 times higher than that of neat PBI membrane; H2/CO2 separation performance surpassed the Robeson upper bound 2008."
+        },
+        "Other Information": {
+            "Additional Info": "Benefitting from the defect-free microstructure of the MMMs and ultra-high MOFs loading, the H2 separation performance was significantly improved."
+        }
+    }
+]

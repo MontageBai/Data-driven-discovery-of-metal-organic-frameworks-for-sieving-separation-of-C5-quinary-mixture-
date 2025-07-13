@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "BUCT-C19",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Core-shell structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Solution-diffusion mechanism",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 is highly soluble in the IL layer, facilitating transport."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H2 is almost fully excluded due to poor solubility in the IL layer."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, IAST calculations, DFT simulations, MD simulations",
+            "Performance Metrics": "IAST selectivity for CO2/C2H2: 4142.4 at 298 K and 100 kPa"
+        },
+        "Other Information": {
+            "Additional Info": "The material achieves molecular sieving-based full separation of CO2 and C2H2."
+        }
+    },
+    {
+        "Materials Name": "BUCT-C20",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Core-shell structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Solution-diffusion mechanism",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 is highly soluble in the IL layer, facilitating transport."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H2 is almost fully excluded due to poor solubility in the IL layer."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "IAST calculations",
+            "Performance Metrics": "IAST selectivity for CO2/C2H2: 2772.2 at 298 K and 100 kPa"
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrates molecular sieving-based separation similar to BUCT-C19."
+        }
+    }
+]

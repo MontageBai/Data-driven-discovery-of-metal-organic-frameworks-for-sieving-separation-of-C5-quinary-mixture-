@@ -1,0 +1,84 @@
+[
+    {
+        "Materials Name": "UiO-66-(NH2)2-TMC",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.556 nm (cavity), 0.488 nm (window)",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2,5-diaminoterephthalic acid",
+            "TMC (trimesoyl chloride)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion through low-resistance channels",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The diffusion energy barrier for water in UiO-66-(NH2)2-TMC pores is lower than in the PA matrix."
+                }
+            },
+            {
+                "Molecule Name": "sodium sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion and diffusion energy barriers",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sodium sulfate rejection decreases with higher UiO-66-(NH2)2-TMC loading due to lower diffusion energy barriers in UiO-66-(NH2)2-TMC pores compared to PA matrix."
+                }
+            },
+            {
+                "Molecule Name": "Amaranth Red",
+                "Molecular Size": "18.729 Å x 12.889 Å x 6.137 Å (de-solvated structure)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The de-solvated size of Amaranth Red is larger than the effective pore size of the membrane."
+                }
+            },
+            {
+                "Molecule Name": "Congo Red",
+                "Molecular Size": "29.136 Å (de-solvated structure)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Congo Red is rejected by both UiO-66-(NH2)2-TMC window pores and PA layer gaps."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "26.927 Å (de-solvated structure)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methylene Blue is rejected by both UiO-66-(NH2)2-TMC window pores and PA layer gaps."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combination of UiO-66-(NH2)2-TMC pore channels and PA matrix gaps",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, DFT simulation",
+            "Performance Metrics": "Water flux: 21.09 - 140.14 L·m−2·h−1; Na2SO4 rejection: 95.96% - 18.53%; CR rejection: 97.94%"
+        },
+        "Other Information": {
+            "Additional Info": "The TFN membranes prepared by dual interfacial polymerization showed four mass transfer pathways: UiO-66-(NH2)2-TMC nanochannels, PA free volume, gaps between UiO-66-(NH2)2-TMC and PA matrix, and gaps between agglomerated UiO-66-(NH2)2-TMC particles."
+        }
+    }
+]

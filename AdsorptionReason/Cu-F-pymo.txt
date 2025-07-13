@@ -1,0 +1,99 @@
+MOF Name: Cu-F-pymo
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu-F-pymo, focusing on size exclusion:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale, indicating passage)
+- Methane (CH4): 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+- Acetylene (C2H2): 5.538×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Reason: Blocked by residual water molecules, *not* due to size exclusion, so this data point is not used to infer pore size based on geometry)
+
+Inferred effective pore size of Cu-F-pymo:
+Based on CO2 (adsorbed, 3.200 Å) and CH4 (not adsorbed due to size, 3.877 Å), the MOF's effective pore size is greater than or equal to 3.200 Å but less than 3.877 Å. Thus, the effective pore size range is approximately **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the upper bound of the inferred effective pore size range (3.877 Å), it cannot be adsorbed by Cu-F-pymo due to size exclusion.
+
+---
+
+MOF Name: Cu-F-pymo
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu-F-pymo, focusing on size exclusion:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane (CH4): 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Cu-F-pymo is approximately **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the upper bound of the inferred effective pore size range (3.877 Å), it cannot be adsorbed by Cu-F-pymo due to size exclusion.
+
+---
+
+MOF Name: Cu-F-pymo
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu-F-pymo, focusing on size exclusion:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane (CH4): 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Cu-F-pymo is approximately **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the upper bound of the inferred effective pore size range (3.877 Å), it cannot be adsorbed by Cu-F-pymo due to size exclusion.
+
+---
+
+MOF Name: Cu-F-pymo
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu-F-pymo, focusing on size exclusion:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane (CH4): 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Cu-F-pymo is approximately **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the upper bound of the inferred effective pore size range (3.877 Å), it cannot be adsorbed by Cu-F-pymo due to size exclusion.
+
+---
+
+MOF Name: Cu-F-pymo
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu-F-pymo, focusing on size exclusion:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane (CH4): 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Cu-F-pymo is approximately **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the upper bound of the inferred effective pore size range (3.877 Å), it cannot be adsorbed by Cu-F-pymo due to size exclusion.

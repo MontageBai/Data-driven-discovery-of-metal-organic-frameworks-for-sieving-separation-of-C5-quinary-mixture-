@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å (window pore size)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "6.6 Å (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, concentration gradient",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation rate: 0.0614 mol/(m2·h)"
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "7.16 Å (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, concentration gradient",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation rate: 0.0525 mol/(m2·h), Rejection: 99.6%"
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "7.64 Å (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, concentration gradient",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation rate: 0.0366 mol/(m2·h)"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "8.56 Å (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, concentration gradient",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation rate: 0.0494 mol/(m2·h)"
+                }
+            },
+            {
+                "Molecule Name": "aluminum",
+                "Molecular Size": "9.6 Å (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, concentration gradient",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation rate: 0.0280 mol/(m2·h)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Na+ rejection: 99.6%, Water flux: 0.16 L/(m2 h bar)"
+        },
+        "Other Information": {
+            "Additional Info": "Prepared via ultrasonic-assisted nucleation followed by microwave-assisted growth; Membrane thickness: ~210 nm"
+        }
+    }
+]

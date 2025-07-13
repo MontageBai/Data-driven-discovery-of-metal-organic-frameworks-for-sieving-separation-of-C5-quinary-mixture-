@@ -1,0 +1,40 @@
+[
+    {
+        "Materials Name": "poly-SBMA@ZIF-8 (pSZ)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "sulfobetaine methacrylate (SBMA)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "0.39 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "75℃",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pSZ-11% membrane exhibited a methanol permeability of 7.66×10^-9 cm² s^-1, attributed to the size-sieving effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas chromatography measurement of methanol permeability",
+            "Performance Metrics": "Methanol permeability: 7.66×10^-9 cm² s^-1"
+        },
+        "Other Information": {
+            "Additional Info": "The pSZ membranes demonstrated both high proton conductivity (3.62×10^-2 S cm^-1 at 75℃, 95% RH) and hydroxide conductivity (2.52×10^-3 S cm^-1 at 75℃, 95% RH). The material was applied in direct methanol fuel cells (DMFCs)."
+        }
+    }
+]

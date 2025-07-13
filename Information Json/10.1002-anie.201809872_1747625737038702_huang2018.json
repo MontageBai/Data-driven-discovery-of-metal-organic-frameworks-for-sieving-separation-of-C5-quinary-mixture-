@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "1,4-benzene-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, pervaporation process",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water concentration improved from 10 wt.% to above 99 wt.% in the permeate."
+                }
+            },
+            {
+                "Molecule Name": "butanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, pervaporation process",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Butanol was retained while water passed through the membrane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pervaporation experiment",
+            "Performance Metrics": "Permeance: Not Reported, Selectivity: Over 1,000 (water/butanol separation factor)"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane thickness ranged from ~250 nm to ~1.0 μm depending on the patterned surface location. Patterned membranes showed a 100% improvement in flux compared to flat membranes."
+        }
+    }
+]

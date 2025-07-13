@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "CB[8]-based rotaxane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "6.9 Å x 8.8 Å x 9.1 Å (Van der Waals radii considered)",
+            "Structure Type": "Confined nanocavity"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "2,4,6-trinitrotoluene",
+                "Molecular Size": "167.75 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Fluorescence quenching via charge transfer complex formation",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, saturated vapor pressure (5.8 x 10⁻⁶ torr)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Quenches the fluorescence of the naphthalene core inside CB[8]"
+                }
+            },
+            {
+                "Molecule Name": "2,4-dinitrotoluene",
+                "Molecular Size": "150.12 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Fluorescence quenching via charge transfer complex formation",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, saturated vapor pressure (1.1 x 10⁻⁴ torr)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Quenches the fluorescence of the naphthalene core inside CB[8]"
+                }
+            },
+            {
+                "Molecule Name": "cyclotrimethylenetrinitramine",
+                "Molecular Size": "152.51 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Fluorescence enhancement via rigidifying effect",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, saturated vapor pressure (4.6 x 10⁻⁹ torr)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhances the fluorescence of the naphthalene core inside CB[8]"
+                }
+            },
+            {
+                "Molecule Name": "cyclotetramethylenetetranitramine",
+                "Molecular Size": "201.21 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Fluorescence enhancement via rigidifying effect",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, saturated vapor pressure (8.0 x 10⁻¹¹ torr)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhances the fluorescence of the naphthalene core inside CB[8]"
+                }
+            },
+            {
+                "Molecule Name": "pentaerythritol tetranitrate",
+                "Molecular Size": "244.69 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, saturated vapor pressure (1.4 x 10⁻⁸ torr)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Too large to enter the cavity, no optical response detected"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with confinement effects",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Fluorescence spectroscopy",
+            "Performance Metrics": "Detection limit for TNT: ppt level; Fast response time within seconds"
+        },
+        "Other Information": {
+            "Additional Info": "The system is regenerable by washing out trapped molecules and shows good sensitivity for explosive detection."
+        }
+    }
+]

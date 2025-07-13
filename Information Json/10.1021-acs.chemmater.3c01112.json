@@ -1,0 +1,113 @@
+[
+    {
+        "Materials Name": "Pd@Hollow ZIF-67",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 nm (mesopores)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "4-nitrophenol",
+                "Molecular Size": "0.9 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The hollow structure facilitates diffusion and enhances catalytic performance."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic reduction experiment",
+            "Performance Metrics": "Turnover frequency: 6.70 min^-1"
+        },
+        "Other Information": {
+            "Additional Info": "The hollow structure improves mass transfer efficiency compared to Pd@Solid ZIF-67."
+        }
+    },
+    {
+        "Materials Name": "Au@Hollow ZIF-67",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 nm (mesopores)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No explicit separation mechanism or guest molecules reported for this material."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "PXRD and TEM analysis",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Au nanoparticles are discretely distributed within the hollow shell."
+        }
+    },
+    {
+        "Materials Name": "Pt@Hollow ZIF-67",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 nm (mesopores)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No explicit separation mechanism or guest molecules reported for this material."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "PXRD and TEM analysis",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Pt nanocrystals are successfully confined in the hollow shell."
+        }
+    }
+]

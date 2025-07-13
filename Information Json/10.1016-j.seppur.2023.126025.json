@@ -1,0 +1,149 @@
+[
+    {
+        "Materials Name": "Zn2(NDC)2dabco",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.4 Å",
+            "Structure Type": "3D microporous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,4-naphthalene dicarboxylic acid (NDC)",
+            "1,4-diazabicyclo[2.2.2]octane (dabco)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å (hard core diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "20 K, 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity lower than deuterium."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "2.9 Å (hard core diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "20 K, 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption capacity and preferential adsorption compared to hydrogen."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic quantum sieving facilitated by mobile ligands acting as a gate.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Advanced cryogenic thermal desorption spectroscopy (ACTDS), Ultralow-frequency Raman spectroscopy",
+            "Performance Metrics": "Selectivity for D2 over H2: 36.7, D2 uptake: 17.3 mmol g−1 at 20 K"
+        },
+        "Other Information": {
+            "Additional Info": "Mobile NDC ligands enhance separation performance; flexibility maintained from 20 K to 70 K."
+        }
+    },
+    {
+        "Materials Name": "Zn2(BDC)2dabco",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.4 Å",
+            "Structure Type": "3D microporous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid (BDC)",
+            "1,4-diazabicyclo[2.2.2]octane (dabco)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å (hard core diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "20 K, 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower adsorption capacity compared to deuterium."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "2.9 Å (hard core diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "20 K, 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption capacity compared to hydrogen."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum sieving effect due to weak sorption sites.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Advanced cryogenic thermal desorption spectroscopy (ACTDS)",
+            "Performance Metrics": "Selectivity for D2 over H2: 3.85 at 20 K"
+        },
+        "Other Information": {
+            "Additional Info": "Rigid framework structure with larger pore size leading to lower selectivity."
+        }
+    },
+    {
+        "Materials Name": "Zn2(ADC)2dabco",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.7 Å",
+            "Structure Type": "3D microporous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "anthracene-9,10-dicarboxylic acid (ADC)",
+            "1,4-diazabicyclo[2.2.2]octane (dabco)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å (hard core diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "40 K, 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption blocked at 20 K due to steric hindrance."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "2.9 Å (hard core diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "40 K, 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Optimal adsorption achieved at 40 K due to reduced steric hindrance."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum sieving influenced by steric hindrance of ADC ligands.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Advanced cryogenic thermal desorption spectroscopy (ACTDS)",
+            "Performance Metrics": "Selectivity for D2 over H2: 2.57 at 40 K"
+        },
+        "Other Information": {
+            "Additional Info": "Smaller pore size results in steric hindrance limiting optimal temperature range."
+        }
+    }
+]

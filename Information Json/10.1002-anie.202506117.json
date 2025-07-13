@@ -1,0 +1,84 @@
+[
+    {
+        "Materials Name": "polyZIF (4:1)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "4.42 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazole",
+            "polybenzimidazole (PBI)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "butadiene",
+                "Molecular Size": "4.31 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption capacity of 9.8 cm³ g⁻¹."
+                }
+            },
+            {
+                "Molecule Name": "n-butene",
+                "Molecular Size": "4.46–4.84 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption significantly reduced (<2 cm³ g⁻¹)."
+                }
+            },
+            {
+                "Molecule Name": "iso-butene",
+                "Molecular Size": "4.46–4.84 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption significantly reduced (<2 cm³ g⁻¹)."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.69–5.28 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption significantly reduced (<2 cm³ g⁻¹)."
+                }
+            },
+            {
+                "Molecule Name": "iso-butane",
+                "Molecular Size": "4.69–5.28 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption significantly reduced (<2 cm³ g⁻¹)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas chromatography, single-gas permeation tests",
+            "Performance Metrics": "C4H6 permeance: 332 GPU; Selectivity for C4H6 over n-butene, iso-butene, n-butane, and iso-butane: 17.2, 28.1, 21.5, and 34.8 respectively."
+        },
+        "Other Information": {
+            "Additional Info": "Scalable manufacturing of membranes up to 80 cm² was demonstrated."
+        }
+    }
+]

@@ -1,0 +1,143 @@
+[
+    {
+        "Materials Name": "UiO-66/PPSU",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.8 nm (microporous)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "reactive orange 16",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.2 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.3%"
+                }
+            },
+            {
+                "Molecule Name": "brilliant blue G",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.2 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.6%"
+                }
+            },
+            {
+                "Molecule Name": "rose Bengal",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.2 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.7%"
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Donnan exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.2 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 7.69%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Cross-flow filtration experiment",
+            "Performance Metrics": "Water flux: 8.53 LMH⋅bar−1; Salt/dye separation factor: 30.1"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "DETA-UiO-66/PPSU",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.8 nm (microporous)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid",
+            "diethylenetriamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "reactive orange 16",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.2 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.3%"
+                }
+            },
+            {
+                "Molecule Name": "brilliant blue G",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.2 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.6%"
+                }
+            },
+            {
+                "Molecule Name": "rose Bengal",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.2 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.7%"
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Donnan exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.2 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 7.69%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Cross-flow filtration experiment",
+            "Performance Metrics": "Water flux: 16.52 LMH⋅bar−1; Salt/dye separation factor: 184.6"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    }
+]

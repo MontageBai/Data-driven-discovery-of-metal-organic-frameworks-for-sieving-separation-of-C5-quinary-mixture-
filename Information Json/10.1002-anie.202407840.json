@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "CUPMOF-5",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "3-methyl-1,2,4-triazole",
+            "oxalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong binding interaction via H···C=O hydrogen bonds."
+                }
+            },
+            {
+                "Molecule Name": "xenon",
+                "Molecular Size": "4.04 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely blocked by the narrow throat apertures."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely blocked by the narrow throat apertures."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely blocked by the narrow throat apertures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/Xe selectivity: 2.2×10^8; Xe recovery rate: 99.8%"
+        },
+        "Other Information": {
+            "Additional Info": "CUPMOF-5 exhibits ultra-strong CO2 capture capacity and high selectivity for CO2 over Xe, O2, and N2."
+        }
+    }
+]

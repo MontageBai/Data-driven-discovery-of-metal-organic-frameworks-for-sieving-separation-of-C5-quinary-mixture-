@@ -1,0 +1,74 @@
+[
+    {
+        "Materials Name": "Zn9(tba)9(dabco)3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "11.9 Å (triangular-like channels), 7.3 Å (quadrilateral-like channels)",
+            "Structure Type": "3D network with triangular-like and quadrilateral-like channels"
+        },
+        "Topology": "bcu",
+        "Metal Nodes": [
+            "Zn2+",
+            "Zn3 clusters"
+        ],
+        "Ligands": [
+            "4-(1H-tetrazol-5-yl)-benzoic acid (H2tba)",
+            "1,4-diazabicyclo[2.2.2]octane (dabco)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Sieving effect and diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, gas phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elutes first in the breakthrough experiment at 298 K."
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Sieving effect and diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, gas phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elutes second in the breakthrough experiment at 298 K."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Sieving effect and diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, gas phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elutes third in the breakthrough experiment at 298 K."
+                }
+            },
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Sieving effect and diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K to 423 K, gas phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elutes last at lower temperatures but first at higher temperatures (373 K and 423 K)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergetic contributory of sieving effect and diffusion.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "RON of eluted mixture: up to 95 at 298 K; complete separation achieved at 298 K."
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits high selectivity for hexane isomers based on their degree of branching, improving research octane numbers (RON) significantly."
+        }
+    }
+]

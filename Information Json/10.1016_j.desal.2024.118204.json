@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "HKUST-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.8 Å (window), 13.3 Å (cavity)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "benzene-1,3,5-tricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ion",
+                "Molecular Size": "0.76 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298.15 K, 1 atm",
+                    "Threshold Pressure": "400 MPa",
+                    "Additional Info": "Li+ ions exhibit a more deformable hydration structure favoring closer contact with the cavity wall."
+                }
+            },
+            {
+                "Molecule Name": "magnesium ion",
+                "Molecular Size": "0.72 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298.15 K, 1 atm",
+                    "Threshold Pressure": "400 MPa",
+                    "Additional Info": "Mg2+ ions form stable ionic associations in the cavities, blocking Li+ transport."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dehydration of the second hydration shells of Li+ and Mg2+ during passage through the narrow window.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Non-equilibrium molecular dynamics simulation",
+            "Performance Metrics": "Li+/Mg2+ selectivity decreased due to enhanced ionic association by Mg2+"
+        },
+        "Other Information": {
+            "Additional Info": "Negatively charged sites at the HKUST-1 windows facilitate cation entry into the cavities; presence of Mg2+ enhances ionic association, greatly blocking Li+ transport."
+        }
+    }
+]

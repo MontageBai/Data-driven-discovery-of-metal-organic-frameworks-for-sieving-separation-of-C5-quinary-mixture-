@@ -1,0 +1,242 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 110 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity comparable to D2."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.296 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 110 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption capacity compared to H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving based on μ3-OH group interactions",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "D2/H2 separation factor: Not Reported for UiO-66 alone."
+        },
+        "Other Information": {
+            "Additional Info": "Base material without functional groups; serves as reference for derivatives."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-NH2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Smaller than UiO-66 (exact value not reported)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "amino-functionalized terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 110 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Comparable adsorption capacity to D2 but lower than deuterium."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.296 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 110 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest adsorption capacity among all materials tested."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving enhanced by smaller pore size and higher channel polarity",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "D2/H2 separation factor: 1.38"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrated superior selectivity and recyclability in D2/H2 separation."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-NO2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Smaller than UiO-66 (exact value not reported)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "nitro-functionalized terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 110 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slight decrease in adsorption capacity compared to UiO-66."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.296 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 110 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slight decrease in adsorption capacity compared to UiO-66."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving modulated by functional group incorporation",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "D2/H2 separation factor: Improved but lower than UiO-66-NH2"
+        },
+        "Other Information": {
+            "Additional Info": "Improved separation performance with reduced H2 adsorption capacity."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-CH3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Smaller than UiO-66 (exact value not reported)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "methyl-functionalized terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 110 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Minor decrease in adsorption capacity compared to UiO-66."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.296 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 110 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity nearly equivalent to UiO-66."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving influenced by functional group incorporation",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "D2/H2 separation factor: Improved but lower than UiO-66-NH2"
+        },
+        "Other Information": {
+            "Additional Info": "Enhanced separation performance with slight reduction in H2 adsorption capacity."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-Ph",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Larger than expected due to benzene ring orientation and defects",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "phenyl-functionalized terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 110 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significant decline in adsorption capacity compared to UiO-66."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.296 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 110 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Most substantial reduction in adsorption capacity among all derivatives."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Reduced chemical affinity quantum sieving due to lower pore volume and polarity",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "D2/H2 separation factor: Lowest among all derivatives"
+        },
+        "Other Information": {
+            "Additional Info": "Least effective derivative for D2/H2 separation due to structural properties."
+        }
+    }
+]

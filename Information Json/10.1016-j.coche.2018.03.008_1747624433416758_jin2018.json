@@ -1,0 +1,316 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (crystallographic), 3.6 Å (effective under E-field)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effective pore size of ZIF-8 allows passage of methane despite larger kinetic diameter."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "12 kPa",
+                    "Additional Info": "Ethane has a lower gate-opening pressure than ethylene in ZIF-7."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "41 kPa",
+                    "Additional Info": "Ethylene requires higher pressure to open the gate compared to ethane in ZIF-7."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 transport is affected by applied electric field in ZIF-8 membranes."
+                }
+            },
+            {
+                "Molecule Name": "propene",
+                "Molecular Size": "0.40 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propene selectivity increases with applied electric field due to stiffening of ZIF-8 lattice."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sharp decrease in permeance observed between propene and propane."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 exhibits high permeance through ultrathin Zn2(bim)4 nanosheets."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening behavior influenced by external stimuli such as pressure, temperature, or electric field.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, single gas permeation, GCMC simulations, 2H NMR spectroscopy",
+            "Performance Metrics": "H2/CO2 separation factor: 291; H2 permeance: 2700 GPU; Propene/propane selectivity increased with E-field."
+        },
+        "Other Information": {
+            "Additional Info": "Gate-opening behavior can be controlled by external electric fields to tune separation performance."
+        }
+    },
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "12 kPa",
+                    "Additional Info": "Ethane selectively adsorbed due to lower gate-opening pressure than ethylene."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "41 kPa",
+                    "Additional Info": "Higher threshold pressure required for ethylene adsorption."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "78 kPa",
+                    "Additional Info": "CO2 adsorption occurs at lower pressure than CH4 or N2."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "1245 kPa",
+                    "Additional Info": "CH4 requires significantly higher pressure for adsorption compared to CO2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "None",
+                    "Additional Info": "N2 does not cause gate-opening within tested pressure range."
+                }
+            },
+            {
+                "Molecule Name": "nitrous oxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "35 kPa",
+                    "Additional Info": "N2O adsorbs at lower pressure than CO2 in ZIF-7."
+                }
+            },
+            {
+                "Molecule Name": "carbon monoxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO triggers gate-opening at lower pressure compared to N2, O2, or Ar."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Guest-dependent gate-opening pressure leading to selective adsorption.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms, DFT calculations, breakthrough experiments",
+            "Performance Metrics": "C2H6/C2H4 selectivity achieved via differential gate-opening pressures."
+        },
+        "Other Information": {
+            "Additional Info": "Gate-opening pressure varies with guest molecule type, temperature, and crystal size."
+        }
+    },
+    {
+        "Materials Name": "RPM3-Zn",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4,4'-biphenyldicarboxylate",
+            "1,2-bipyriylethylene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "30 kPa",
+                    "Additional Info": "Acetylene shows lower gate-opening pressure than ethane or ethylene."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "40 kPa",
+                    "Additional Info": "Ethane has intermediate gate-opening pressure among C2 hydrocarbons."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "60 kPa",
+                    "Additional Info": "Ethylene requires highest pressure for gate-opening among C2 hydrocarbons."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chain length-dependent gate-opening pressure for hydrocarbons.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Raman spectroscopy, van der Waals Density Functional calculations",
+            "Performance Metrics": "Successful separation of C1-C4 paraffins and C2 isomer pairs."
+        },
+        "Other Information": {
+            "Additional Info": "Hydrogen bonding strength influences gate-opening pressure for hydrocarbons."
+        }
+    },
+    {
+        "Materials Name": "Zn2(bim)4",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2.1 Å (static aperture), effective size >2.9 Å (under flexibility)",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High H2 permeance observed due to flexible benzimidazole linker rotation."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 excluded due to size larger than effective pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Rotation of benzimidazole linkers enables selective H2 transport.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests, structural analysis",
+            "Performance Metrics": "H2/CO2 separation factor: 291; H2 permeance: 2700 GPU."
+        },
+        "Other Information": {
+            "Additional Info": "Dimensional reduction to nanosheets enhances framework flexibility."
+        }
+    }
+]

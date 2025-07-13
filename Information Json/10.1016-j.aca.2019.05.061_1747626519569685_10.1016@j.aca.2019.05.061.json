@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "MOF-74-C",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.59 to 1.71 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "nickel(II)"
+        ],
+        "Ligands": [
+            "dihydroxyterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "2-chlorophenol",
+                "Molecular Size": "0.58 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "40 °C, 10% NaCl (wt.%), 60 min extraction, 250 °C desorption",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Extraction efficiency reduced by less than 10% in the presence of 10 mgC L⁻¹ DOM."
+                }
+            },
+            {
+                "Molecule Name": "2,4,6-trichloroanisole",
+                "Molecular Size": "0.77 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "40 °C, 10% NaCl (wt.%), 60 min extraction, 250 °C desorption",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Extraction efficiency reduced by less than 10% in the presence of 10 mgC L⁻¹ DOM."
+                }
+            },
+            {
+                "Molecule Name": "2-isobutyl-3-methoxypyrazine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "40 °C, 10% NaCl (wt.%), 60 min extraction, 250 °C desorption",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Extraction efficiency reduced by less than 10% in the presence of 10 mgC L⁻¹ DOM."
+                }
+            },
+            {
+                "Molecule Name": "thiophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "40 °C, 10% NaCl (wt.%), 60 min extraction, 250 °C desorption",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Extraction efficiency reduced by less than 10% in the presence of 10 mgC L⁻¹ DOM."
+                }
+            },
+            {
+                "Molecule Name": "4-methylthiophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "40 °C, 10% NaCl (wt.%), 60 min extraction, 250 °C desorption",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Extraction efficiency reduced by less than 10% in the presence of 10 mgC L⁻¹ DOM."
+                }
+            },
+            {
+                "Molecule Name": "dissolved organic matter",
+                "Molecular Size": "larger than 1.71 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "40 °C, 10% NaCl (wt.%), 60 min extraction, 250 °C desorption",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large DOM molecules were blocked from entering the nanosized pores of MOF-74-C."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Enrichment factors: 520–3000, LODs: 0.00001–0.1 mg L⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "MOF-74-C exhibited higher extraction efficiency compared to commercial fibers and showed excellent thermal and chemical stability."
+        }
+    }
+]

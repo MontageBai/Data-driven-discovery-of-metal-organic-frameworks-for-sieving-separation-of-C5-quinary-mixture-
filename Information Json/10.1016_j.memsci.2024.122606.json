@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "MXene/CNFs composite membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "6.6 Å (MXene-3), 7.0 Å (MXC-3-L)",
+            "Structure Type": "2D lamellar structure with intercalated 1D CNFs"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti"
+        ],
+        "Ligands": [
+            "carboxylated cellulose nanofibers (CNFs)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "17.4 × 5.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection increased from 46.2% to 82.4% with increasing CNFs-L content."
+                }
+            },
+            {
+                "Molecule Name": "Orange G",
+                "Molecular Size": "10.7 × 7.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection was 96.2% for MXC-3-L membrane."
+                }
+            },
+            {
+                "Molecule Name": "Congo red",
+                "Molecular Size": "22.0 × 11.0 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection was >99% for MXC-3-L membrane."
+                }
+            },
+            {
+                "Molecule Name": "Reactive Black 5",
+                "Molecular Size": "25.6 × 11.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection was 96.2% for MXC-3-L membrane."
+                }
+            },
+            {
+                "Molecule Name": "perfluorooctanoic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection was >95% for MXC-3-L membrane."
+                }
+            },
+            {
+                "Molecule Name": "perfluorooctane sulphonate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection was >95% for MXC-3-L membrane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CR rejection: >99%, PFOA/PFOS rejection: >95%"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane showed superior stability in water and maintained its morphology for up to 30 days."
+        }
+    }
+]

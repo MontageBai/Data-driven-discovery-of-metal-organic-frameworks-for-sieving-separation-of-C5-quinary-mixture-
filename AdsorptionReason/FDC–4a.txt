@@ -1,0 +1,104 @@
+MOF Name: FDC–4a
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for FDC–4a:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Mechanism: Gate opening for C3H6)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Mechanism: Diffusion regulation for C3H8)
+
+Inference of FDC-4a's adsorption behavior:
+The experimental data indicates FDC-4a exhibits a kinetic sieving mechanism, specifically "Diffusion-rate sieving with gate-opening for C3H6 and diffusion regulation for C3H8". This implies a selective adsorption based on molecular type (unsaturated alkenes vs. saturated alkanes) and kinetic factors, rather than a simple fixed pore size exclusion for all molecules.
+- The MOF can adsorb unsaturated molecules like propylene, which has an intermediate dimension of 5.051 Å. This adsorption is facilitated by a "gate-opening" mechanism.
+- The MOF cannot adsorb saturated alkanes like propane, despite its smaller intermediate dimension (4.354 Å), due to "diffusion regulation".
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene is an unsaturated diene, similar in type to the adsorbed propylene. However, its intermediate dimension (6.093 Å) is significantly larger than that of propylene (5.051 Å), which is the largest intermediate dimension observed to be adsorbed by FDC-4a. While the MOF exhibits a gate-opening mechanism for alkenes, there is no experimental data to suggest it can accommodate molecules with an intermediate dimension as large as 6.093 Å. Therefore, based strictly on the provided experimental data, isoprene is likely too large to pass through the MOF's pores.
+
+---
+
+MOF Name: FDC–4a
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for FDC–4a:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Mechanism: Gate opening for C3H6)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Mechanism: Diffusion regulation for C3H8)
+
+Inference of FDC-4a's adsorption behavior:
+FDC-4a exhibits "Diffusion-rate sieving with gate-opening for C3H6 and diffusion regulation for C3H8", indicating selective adsorption based on molecular type and kinetic factors. The MOF can adsorb unsaturated molecules like propylene (intermediate dimension 5.051 Å) via a "gate-opening" mechanism. Saturated alkanes like propane (intermediate dimension 4.354 Å) are not adsorbed due to "diffusion regulation".
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Cis-2-pentene is an unsaturated alkene, similar in type to the adsorbed propylene. However, its intermediate dimension (5.572 Å) is larger than that of propylene (5.051 Å), which is the largest intermediate dimension observed to be adsorbed by FDC-4a. While the MOF exhibits a gate-opening mechanism for alkenes, there is no experimental data to confirm it can accommodate molecules with an intermediate dimension of 5.572 Å. Therefore, based strictly on the provided experimental data, cis-2-pentene is likely too large to pass through the MOF's pores.
+
+---
+
+MOF Name: FDC–4a
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for FDC–4a:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Mechanism: Gate opening for C3H6)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Mechanism: Diffusion regulation for C3H8)
+
+Inference of FDC-4a's adsorption behavior:
+FDC-4a exhibits "Diffusion-rate sieving with gate-opening for C3H6 and diffusion regulation for C3H8", indicating selective adsorption based on molecular type and kinetic factors. The MOF can adsorb unsaturated molecules like propylene (intermediate dimension 5.051 Å) via a "gate-opening" mechanism. Saturated alkanes like propane (intermediate dimension 4.354 Å) are not adsorbed due to "diffusion regulation".
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene is an unsaturated alkene, similar in type to the adsorbed propylene. Its intermediate dimension (4.995 Å) is slightly smaller than that of propylene (5.051 Å), which is adsorbed by FDC-4a via a gate-opening mechanism. Given the MOF's demonstrated ability to adsorb alkenes and the comparable or smaller size of 1-pentene relative to propylene, it is highly probable that 1-pentene can also be adsorbed.
+
+---
+
+MOF Name: FDC–4a
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for FDC–4a:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Mechanism: Gate opening for C3H6)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Mechanism: Diffusion regulation for C3H8)
+
+Inference of FDC-4a's adsorption behavior:
+FDC-4a exhibits "Diffusion-rate sieving with gate-opening for C3H6 and diffusion regulation for C3H8", indicating selective adsorption based on molecular type and kinetic factors. The MOF can adsorb unsaturated molecules like propylene (intermediate dimension 5.051 Å) via a "gate-opening" mechanism. Saturated alkanes like propane (intermediate dimension 4.354 Å) are not adsorbed due to "diffusion regulation".
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Trans-2-pentene is an unsaturated alkene, similar in type to the adsorbed propylene. Its intermediate dimension (4.733 Å) is smaller than that of propylene (5.051 Å), which is adsorbed by FDC-4a via a gate-opening mechanism. Given the MOF's demonstrated ability to adsorb alkenes and the smaller size of trans-2-pentene relative to propylene, it is highly probable that trans-2-pentene can also be adsorbed.
+
+---
+
+MOF Name: FDC–4a
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for FDC–4a:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Mechanism: Gate opening for C3H6)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Mechanism: Diffusion regulation for C3H8)
+
+Inference of FDC-4a's adsorption behavior:
+FDC-4a exhibits "Diffusion-rate sieving with gate-opening for C3H6 and diffusion regulation for C3H8", indicating selective adsorption based on molecular type and kinetic factors. The MOF cannot adsorb saturated alkanes like propane (intermediate dimension 4.354 Å) due to "diffusion regulation".
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+N-pentane is a saturated alkane, similar in type to the non-adsorbed propane. Its intermediate dimension (4.364 Å) is very close to that of propane (4.354 Å). Given that FDC-4a does not adsorb propane due to a "diffusion regulation" mechanism for saturated alkanes, it is highly probable that n-pentane, being a similar molecule in terms of saturation and intermediate size, will also face similar kinetic hindrance and thus not be adsorbed.

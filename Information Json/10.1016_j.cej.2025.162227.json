@@ -1,0 +1,52 @@
+[
+    {
+        "Materials Name": "Co-N@C HoMS",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.5–3.0 nm (shell pore channels), > 30 nm (interstitial pores)",
+            "Structure Type": "3D hollow multi-shelled structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+",
+            "Co3+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "polydopamine-derived carbon"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbamazepine",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The outer carbon shell allows small molecules like carbamazepine to pass through while blocking larger molecules such as humic acid."
+                }
+            },
+            {
+                "Molecule Name": "humic acid",
+                "Molecular Size": "2.375 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The outer carbon shell prevents large molecules like humic acid from entering and interfering with the catalytic sites."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CBZ degradation efficiency: > 99% within 10 min in the presence of HA"
+        },
+        "Other Information": {
+            "Additional Info": "Co-N@C HoMS exhibits superior catalytic performance for PMS activation, achieving selective degradation of organic pollutants even in complex aquatic environments."
+        }
+    }
+]

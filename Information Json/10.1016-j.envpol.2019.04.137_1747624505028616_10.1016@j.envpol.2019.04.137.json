@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "Fe3O4@MIL-101",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.2 nm, 1.6 nm (pore windows), 2.9 nm, 34 nm (pores)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acenaphthene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Partitioning mechanism",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7.0",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Combined interactions: hydrophobic, π-π, and cation-π complexation."
+                }
+            },
+            {
+                "Molecule Name": "phenanthrene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Partitioning mechanism",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7.0",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Combined interactions: hydrophobic, π-π, and cation-π complexation."
+                }
+            },
+            {
+                "Molecule Name": "anthracene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Partitioning mechanism",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7.0",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Combined interactions: hydrophobic, π-π, and cation-π complexation."
+                }
+            },
+            {
+                "Molecule Name": "pyrene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Partitioning mechanism",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7.0",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Combined interactions: hydrophobic, π-π, and cation-π complexation."
+                }
+            },
+            {
+                "Molecule Name": "chrysene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Partitioning mechanism",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7.0",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Combined interactions: hydrophobic, π-π, and cation-π complexation."
+                }
+            },
+            {
+                "Molecule Name": "dissolved organic matter",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7.0",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size exclusion effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "The magnetic MOF composites exclude the extraction of dissolved organic matter (DOM) and DOM-associated PAHs by size exclusion. Combined interactions between PAHs and composites markedly reduced the extraction equilibration time to < 60 min for all studied PAHs with logKOW up to 5.74."
+        }
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "WP@PSS@Cu-MOF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.9 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.76 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH = 9, C0 = 150 mg/L",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Synergy between size-sieving effects of Cu-MOF and binding affinity of PSS."
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.72 nm (hydrated diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH = 9, C0 = 150 mg/L",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower selectivity compared to lithium due to competitive adsorption."
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "0.66 nm (hydrated diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH = 9, C0 = 150 mg/L",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower selectivity compared to lithium due to competitive adsorption."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.86 nm (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH = 9, C0 = 150 mg/L",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger hydrated diameter than pore size."
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH = 9, C0 = 150 mg/L",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Competitive adsorption with lower selectivity compared to lithium."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with chemical affinity from PSS.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments, XRD, SEM, FT-IR, EDS",
+            "Performance Metrics": "Li+ adsorption capacity: 9.69 mg/g (equilibrium), Selectivity for Li+ over Na+, K+, Mg2+, Ca2+ demonstrated."
+        },
+        "Other Information": {
+            "Additional Info": "Optimal PSS content is critical; excessive PSS hinders Cu-MOF crystal formation."
+        }
+    }
+]

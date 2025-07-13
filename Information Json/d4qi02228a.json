@@ -1,0 +1,253 @@
+[
+    {
+        "Materials Name": "BCE@ZIF-7",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzo-12-crown-4-ether"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Demonstrates notable Li+/Mg2+ ion selectivity."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.65 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Increased entry energy barrier",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Magnesium ions must overcome a higher energy barrier than lithium ions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Theoretical calculations and experiments",
+            "Performance Metrics": "Improved Li+/Mg2+ selectivity due to increased entry energy difference."
+        },
+        "Other Information": {
+            "Additional Info": "Crown ethers embedded in the MOF cavity modulate charge states for selective cation binding."
+        }
+    },
+    {
+        "Materials Name": "PSS@HKUST-1-6.7",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D sulfonate networks"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "polystyrene sulfonate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interactions with sulfonate groups",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High ion selectivities of 78, 99, and 10296 for Li+/Na+, Li+/K+, and Li+/Mg2+, respectively."
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.98 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Repulsion by negatively charged functional groups",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sodium ions are repelled by the negatively charged sulfonate groups."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.65 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Higher dehydration energy barrier",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Magnesium ions require higher activation energy to pass through the membrane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Electrostatic interactions and dehydration dynamics",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Ion transport experiments",
+            "Performance Metrics": "High Li+ conductivity and outstanding selectivity over Na+, K+, and Mg2+ ions."
+        },
+        "Other Information": {
+            "Additional Info": "Polymeric sulfonate threads enhance lithium-ion selectivity."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-(SH)2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Thiolated channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "thiol groups"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ion-sulfur interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Demonstrates excellent monovalent metal ion selectivity over divalent ions."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.65 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Higher transport energy barrier",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Magnesium ions face a higher energy barrier during transport through pores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ion-sulfur interactions and ion-dehydration dynamics",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Molecular dynamics simulations",
+            "Performance Metrics": "Li+/Mg2+ ion selectivity up to 103."
+        },
+        "Other Information": {
+            "Additional Info": "Thiol groups introduced into UiO-66 for enhanced lithium extraction."
+        }
+    },
+    {
+        "Materials Name": "Zn12-cluster-based MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Narrow portal surrounded by -CH2OH groups"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "dodecanuclear metallocyclic building block"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selective adsorption",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Alkaline metal cations are selectively adsorbed in the order: Li+ > Na+ > K+ > Cs+."
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.98 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion based on ionic radii",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger sodium ions excluded due to size mismatch."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-selective adsorption based on ionic radii",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments",
+            "Performance Metrics": "Highly size-selective adsorption capacities."
+        },
+        "Other Information": {
+            "Additional Info": "Hydroxyl groups facilitate selective lithium capture."
+        }
+    },
+    {
+        "Materials Name": "PSP-UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 Å",
+            "Structure Type": "Spiropyran-functionalized pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "polyspiropyran"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Light-triggered ligand modulation",
+                "Other Information": {
+                    "Test Conditions": "Dark conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High LiCl adsorption capacity up to 10.17 mmol g−1."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.65 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and ligand gating",
+                "Other Information": {
+                    "Test Conditions": "Dark conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Demonstrates high Li+/Mg2+ ion selectivity under varying ratios."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Light-triggered functional ligand effects",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms",
+            "Performance Metrics": "Li+/Mg2+ ion selectivity ranges from 5.8 to 29 under different ion ratios."
+        },
+        "Other Information": {
+            "Additional Info": "Regenerable via sunlight exposure."
+        }
+    }
+]

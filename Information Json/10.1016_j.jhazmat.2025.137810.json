@@ -1,0 +1,344 @@
+[
+    {
+        "Materials Name": "Fe-N-C-5",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "2.67 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe"
+        ],
+        "Ligands": [
+            "2-Methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glyphosate",
+                "Molecular Size": "0.9 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "PMG degradation via molecular oxygen activation with Fe-N-C-5"
+                }
+            },
+            {
+                "Molecule Name": "humic acid",
+                "Molecular Size": "> 2 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Humic acid excluded due to larger size compared to pore size of Fe-N-C-5"
+                }
+            },
+            {
+                "Molecule Name": "tannic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "TA excluded from accessing internal active sites due to size"
+                }
+            },
+            {
+                "Molecule Name": "sulfamethoxazole",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SMZ showed some inhibition but can access pores"
+                }
+            },
+            {
+                "Molecule Name": "imidacloprid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "IMP showed some inhibition but can access pores"
+                }
+            },
+            {
+                "Molecule Name": "3-aminophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "3-AP inhibited PMG degradation due to smaller size allowing access"
+                }
+            },
+            {
+                "Molecule Name": "hydroxyethylidene diphosphonic acid",
+                "Molecular Size": "0.7 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "HEDP inhibited PMG degradation despite being structurally similar"
+                }
+            },
+            {
+                "Molecule Name": "2-phosphonobutane-1,2,4-tricarboxylic acid",
+                "Molecular Size": "0.8 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "PBTCA inhibited PMG degradation despite being structurally similar"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale based on pore size structure",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "PMG degradation rate: 95% within 3 h under visible light, k = 0.919 h−1"
+        },
+        "Other Information": {
+            "Additional Info": "Fe-N-C-5 exhibited superior resistance to natural macromolecular organics like HA due to smaller pore size limiting access"
+        }
+    },
+    {
+        "Materials Name": "Fe-N-C-10",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.03 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe"
+        ],
+        "Ligands": [
+            "2-Methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glyphosate",
+                "Molecular Size": "0.9 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "PMG degradation via molecular oxygen activation with Fe-N-C-10"
+                }
+            },
+            {
+                "Molecule Name": "humic acid",
+                "Molecular Size": "> 2 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "HA significantly reduced PMG degradation performance"
+                }
+            },
+            {
+                "Molecule Name": "tannic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "TA caused significant inhibition likely due to pore blockage"
+                }
+            },
+            {
+                "Molecule Name": "sulfamethoxazole",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SMZ showed moderate inhibition"
+                }
+            },
+            {
+                "Molecule Name": "imidacloprid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "IMP showed moderate inhibition"
+                }
+            },
+            {
+                "Molecule Name": "3-aminophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "3-AP inhibited PMG degradation due to smaller size allowing access"
+                }
+            },
+            {
+                "Molecule Name": "hydroxyethylidene diphosphonic acid",
+                "Molecular Size": "0.7 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "HEDP inhibited PMG degradation despite being structurally similar"
+                }
+            },
+            {
+                "Molecule Name": "2-phosphonobutane-1,2,4-tricarboxylic acid",
+                "Molecular Size": "0.8 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "PBTCA inhibited PMG degradation despite being structurally similar"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale based on pore size structure",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "PMG degradation rate: 73% within 6 h under dark conditions, k = 0.457 h−1"
+        },
+        "Other Information": {
+            "Additional Info": "Performance improved with visible light irradiation achieving over 90% PMG elimination after 6 h"
+        }
+    },
+    {
+        "Materials Name": "Fe-N-C-20",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.62 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe"
+        ],
+        "Ligands": [
+            "2-Methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glyphosate",
+                "Molecular Size": "0.9 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "PMG degradation via molecular oxygen activation with Fe-N-C-20"
+                }
+            },
+            {
+                "Molecule Name": "humic acid",
+                "Molecular Size": "> 2 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "HA led to pronounced reduction in PMG degradation performance"
+                }
+            },
+            {
+                "Molecule Name": "tannic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "TA caused significant inhibition likely due to pore blockage"
+                }
+            },
+            {
+                "Molecule Name": "sulfamethoxazole",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SMZ showed moderate inhibition"
+                }
+            },
+            {
+                "Molecule Name": "imidacloprid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "IMP showed moderate inhibition"
+                }
+            },
+            {
+                "Molecule Name": "3-aminophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "3-AP inhibited PMG degradation due to smaller size allowing access"
+                }
+            },
+            {
+                "Molecule Name": "hydroxyethylidene diphosphonic acid",
+                "Molecular Size": "0.7 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "HEDP inhibited PMG degradation despite being structurally similar"
+                }
+            },
+            {
+                "Molecule Name": "2-phosphonobutane-1,2,4-tricarboxylic acid",
+                "Molecular Size": "0.8 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light irradiation, O2 atmosphere, pH 4.1, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "PBTCA inhibited PMG degradation despite being structurally similar"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale based on pore size structure",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "PMG degradation rate: 49% within 6 h under dark conditions, k = 0.255 h−1"
+        },
+        "Other Information": {
+            "Additional Info": "Performance improved with visible light irradiation achieving over 90% PMG elimination after 6 h"
+        }
+    }
+]

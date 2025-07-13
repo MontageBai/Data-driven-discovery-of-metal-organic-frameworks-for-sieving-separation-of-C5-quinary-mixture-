@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "UTSA-280",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8×3.8 Å2",
+            "Structure Type": "1D square channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca"
+        ],
+        "Ligands": [
+            "squaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.86×3.11 Å2",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "283 K, 308 K",
+                    "Threshold Pressure": "0.03 P/P0 at 283 K, 0.06 P/P0 at 308 K",
+                    "Additional Info": "Water adsorption capacity at 0.1 P/P0 is 44.06% (283 K) and 36.27% (308 K) relative to saturated adsorption."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "3.98×4.31 Å2",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "283 K, 308 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible ethanol adsorption (< 12 cm³/cm³)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "Ethanol purity: 99.7%, Separation factor: 9.6"
+        },
+        "Other Information": {
+            "Additional Info": "Stable after activation and multiple cycles; thermal stability up to 473 K."
+        }
+    },
+    {
+        "Materials Name": "Co-squarate",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.1×4.3 Å2",
+            "Structure Type": "1D rhombohedral channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co"
+        ],
+        "Ligands": [
+            "squaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.86×3.11 Å2",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "283 K, 308 K",
+                    "Threshold Pressure": "8.19e-4 P/P0 at 283 K, 5.05e-4 P/P0 at 308 K",
+                    "Additional Info": "Water adsorption capacity at 0.1 P/P0 is 81.79% (283 K) and 90.22% (308 K) relative to saturated adsorption."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "3.98×4.31 Å2",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "283 K, 308 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible ethanol adsorption (< 12 cm³/cm³)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "Ethanol purity: 99.9%, Separation factor: 57.0"
+        },
+        "Other Information": {
+            "Additional Info": "Stable after activation and multiple cycles; thermal stability up to 673 K."
+        }
+    }
+]

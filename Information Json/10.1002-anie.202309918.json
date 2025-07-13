@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "BCE@ZIF-7",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "4.3 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole",
+            "benzo-12-crown-4-ether"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M LiCl, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+ shows higher permeation rate in Al[BCE]3+@ZIF-7 due to electrostatic repulsion with Mg2+."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M MgCl2, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Mg2+ faces stronger electrostatic repulsion and higher entry energy in positively charged Al[BCE]3+@ZIF-7 channels."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Electrostatic repulsion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I-V) measurement, Density Functional Theory (DFT) simulations",
+            "Performance Metrics": "Li+/Mg2+ selectivity: 125 in positively charged Al[BCE]3+@ZIF-7 membrane"
+        },
+        "Other Information": {
+            "Additional Info": "The charge state of the MOF channel can be modulated by binding different valent cations, enhancing Li+/Mg2+ selectivity."
+        }
+    }
+]

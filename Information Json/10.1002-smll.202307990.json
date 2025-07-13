@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Y-dbai",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.0 Å, 4.5 Å (windows), 7.84 × 2.97 Å² (Window 1), 7.79 × 3.99 Å² (Window 2), 7.79 × 6.64 Å² (Window 3)",
+            "Structure Type": "3D framework with cage-like pores"
+        },
+        "Topology": "ftw",
+        "Metal Nodes": [
+            "Y³⁺"
+        ],
+        "Ligands": [
+            "dbai⁴⁻"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "butadiene",
+                "Molecular Size": "2.7 × 4.6 Å²",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic-kinetic synergistic effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 2.88 mmol g⁻¹ at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "1-butene",
+                "Molecular Size": "3.5 × 4.5 Å²",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic-kinetic synergistic effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 1.07 mmol g⁻¹ at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "isobutene",
+                "Molecular Size": "3.6 × 5.2 Å²",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 0.14 mmol g⁻¹ at 298 K and 1 bar."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect for i-C4H8 due to pore window size being smaller than its minimum cross-sectional size.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, static and dynamic adsorption experiments, Metropolis Monte Carlo simulations, DFT calculations",
+            "Performance Metrics": "C4H6/i-C4H8 uptake selectivity: 20.6, 1-C4H8/i-C4H8 uptake selectivity: 7.6, Henry’s selectivities: C4H6/i-C4H8 = 521, 1-C4H8/i-C4H8 = 125.7"
+        },
+        "Other Information": {
+            "Additional Info": "High isosteric heat of adsorption (Qst) for C4H6 (58 kJ mol⁻¹) compared to 1-C4H8 (46 kJ mol⁻¹). Excellent durability and recyclability demonstrated through cyclic breakthrough experiments."
+        }
+    }
+]

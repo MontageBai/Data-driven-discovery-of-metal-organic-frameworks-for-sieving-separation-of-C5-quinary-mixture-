@@ -1,0 +1,97 @@
+MOF Name: Zn(BDC)(4,4′-Bipy)0.5
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn(BDC)(4,4′-Bipy)0.5:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Reason: Selective adsorption based on molecular geometry, Size exclusion)
+
+Inferred effective pore size of Zn(BDC)(4,4′-Bipy)0.5:
+The fact that methane (intermediate dimension 3.877 Å) is adsorbed and the mechanism is stated as "Size exclusion" for its selectivity strongly suggests that the MOF's pore size is approximately tailored to allow molecules of this size or smaller, while excluding larger ones. Thus, the effective pore size is inferred to be around 3.877 Å.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the inferred effective pore size (approximately 3.877 Å) based on methane adsorption via size exclusion, it is predicted that isoprene cannot be adsorbed by Zn(BDC)(4,4′-Bipy)0.5.
+
+---
+
+MOF Name: Zn(BDC)(4,4′-Bipy)0.5
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn(BDC)(4,4′-Bipy)0.5:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Reason: Selective adsorption based on molecular geometry, Size exclusion)
+
+Inferred effective pore size of Zn(BDC)(4,4′-Bipy)0.5:
+The fact that methane (intermediate dimension 3.877 Å) is adsorbed and the mechanism is stated as "Size exclusion" for its selectivity strongly suggests that the MOF's pore size is approximately tailored to allow molecules of this size or smaller, while excluding larger ones. Thus, the effective pore size is inferred to be around 3.877 Å.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the inferred effective pore size (approximately 3.877 Å) based on methane adsorption via size exclusion, it is predicted that cis-2-pentene cannot be adsorbed by Zn(BDC)(4,4′-Bipy)0.5.
+
+---
+
+MOF Name: Zn(BDC)(4,4′-Bipy)0.5
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn(BDC)(4,4′-Bipy)0.5:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Reason: Selective adsorption based on molecular geometry, Size exclusion)
+
+Inferred effective pore size of Zn(BDC)(4,4′-Bipy)0.5:
+The fact that methane (intermediate dimension 3.877 Å) is adsorbed and the mechanism is stated as "Size exclusion" for its selectivity strongly suggests that the MOF's pore size is approximately tailored to allow molecules of this size or smaller, while excluding larger ones. Thus, the effective pore size is inferred to be around 3.877 Å.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the inferred effective pore size (approximately 3.877 Å) based on methane adsorption via size exclusion, it is predicted that 1-pentene cannot be adsorbed by Zn(BDC)(4,4′-Bipy)0.5.
+
+---
+
+MOF Name: Zn(BDC)(4,4′-Bipy)0.5
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn(BDC)(4,4′-Bipy)0.5:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Reason: Selective adsorption based on molecular geometry, Size exclusion)
+
+Inferred effective pore size of Zn(BDC)(4,4′-Bipy)0.5:
+The fact that methane (intermediate dimension 3.877 Å) is adsorbed and the mechanism is stated as "Size exclusion" for its selectivity strongly suggests that the MOF's pore size is approximately tailored to allow molecules of this size or smaller, while excluding larger ones. Thus, the effective pore size is inferred to be around 3.877 Å.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the inferred effective pore size (approximately 3.877 Å) based on methane adsorption via size exclusion, it is predicted that trans-2-pentene cannot be adsorbed by Zn(BDC)(4,4′-Bipy)0.5.
+
+---
+
+MOF Name: Zn(BDC)(4,4′-Bipy)0.5
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn(BDC)(4,4′-Bipy)0.5:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Reason: Selective adsorption based on molecular geometry, Size exclusion)
+
+Inferred effective pore size of Zn(BDC)(4,4′-Bipy)0.5:
+The fact that methane (intermediate dimension 3.877 Å) is adsorbed and the mechanism is stated as "Size exclusion" for its selectivity strongly suggests that the MOF's pore size is approximately tailored to allow molecules of this size or smaller, while excluding larger ones. Thus, the effective pore size is inferred to be around 3.877 Å.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the inferred effective pore size (approximately 3.877 Å) based on methane adsorption via size exclusion, it is predicted that n-pentane cannot be adsorbed by Zn(BDC)(4,4′-Bipy)0.5.

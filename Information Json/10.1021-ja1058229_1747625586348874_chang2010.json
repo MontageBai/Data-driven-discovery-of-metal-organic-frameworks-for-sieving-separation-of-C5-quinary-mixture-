@@ -1,0 +1,197 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (pore window), 11.4 Å (pore)",
+            "Structure Type": "Sodalite (SOD)-type zeolite structure"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "170 °C, N2 flow rate of 1 mL min-1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 1.52 min; Adsorption enthalpy: -29.5 kJ/mol"
+                }
+            },
+            {
+                "Molecule Name": "heptane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "170 °C, N2 flow rate of 1 mL min-1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 2.14 min; Adsorption enthalpy: -38.1 kJ/mol"
+                }
+            },
+            {
+                "Molecule Name": "octane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "170 °C, N2 flow rate of 1 mL min-1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 3.55 min; Adsorption enthalpy: -43.8 kJ/mol"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "6.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "170 °C, N2 flow rate of 1 mL min-1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 1.14 min; Adsorption enthalpy: -7.7 kJ/mol"
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "170 °C, N2 flow rate of 1 mL min-1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 1.20 min; Adsorption enthalpy: -18.9 kJ/mol"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylpentane",
+                "Molecular Size": "6.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "170 °C, N2 flow rate of 1 mL min-1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 1.19 min; Adsorption enthalpy: -13.7 kJ/mol"
+                }
+            },
+            {
+                "Molecule Name": "2-methylhexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "170 °C, N2 flow rate of 1 mL min-1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 1.35 min; Adsorption enthalpy: -24.2 kJ/mol"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylhexane",
+                "Molecular Size": "6.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "170 °C, N2 flow rate of 1 mL min-1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 1.32 min; Adsorption enthalpy: -20.7 kJ/mol"
+                }
+            },
+            {
+                "Molecule Name": "2-methylheptane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "170 °C, N2 flow rate of 1 mL min-1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 1.87 min; Adsorption enthalpy: -29.7 kJ/mol"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas chromatography (GC) separation",
+            "Performance Metrics": "Baseline separation of linear alkanes from branched isomers; High resolution and selectivity for linear alkanes"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 shows molecular sieving ability due to narrow pore windows (∼3.4 Å). Linear alkanes are retained longer than branched alkanes due to van der Waals interactions with hydrophobic micropores."
+        }
+    },
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2.9 Å (pore window), 4.3 Å (pore)",
+            "Structure Type": "Sodalite (SOD)-type zeolite structure"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time within 1.6 min; Poor separation due to inaccessible pores"
+                }
+            },
+            {
+                "Molecule Name": "heptane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time within 1.6 min; Poor separation due to inaccessible pores"
+                }
+            },
+            {
+                "Molecule Name": "octane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time within 1.6 min; Poor separation due to inaccessible pores"
+                }
+            },
+            {
+                "Molecule Name": "nonane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time within 1.6 min; Poor separation due to inaccessible pores"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas chromatography (GC) separation",
+            "Performance Metrics": "Poor separation of linear alkanes due to small pore size"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-7 has smaller pore windows (2.9 Å) compared to ZIF-8, making it unsuitable for separating linear alkanes."
+        }
+    }
+]

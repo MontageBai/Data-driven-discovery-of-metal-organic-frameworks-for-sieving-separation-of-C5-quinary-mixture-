@@ -1,0 +1,103 @@
+MOF Name: ZU-62
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZU-62:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+- isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å | Not Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of ZU-62:
+Based on the experimental data, ZU-62 can adsorb 1-pentene (intermediate dimension 4.995 Å) but cannot adsorb isoprene (intermediate dimension 6.093 Å) due to size exclusion. This indicates that the effective pore size of ZU-62 is greater than or equal to 4.995 Å and strictly less than 6.093 Å.
+Therefore, the inferred effective pore size range for ZU-62 is [4.995 Å, 6.093 Å).
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is at the upper limit (or slightly exceeds, depending on precise definition of "less than") of the inferred effective pore size range for adsorption due to size exclusion, it cannot be adsorbed by ZU-62. This aligns perfectly with the provided experimental data.
+
+---
+
+MOF Name: ZU-62
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for ZU-62:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+- isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å | Not Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of ZU-62:
+The inferred effective pore size range for ZU-62 is [4.995 Å, 6.093 Å), meaning molecules with an intermediate dimension within this range should be able to pass through.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) falls within the inferred effective pore size range for ZU-62 ([4.995 Å, 6.093 Å)), it is predicted to be adsorbed by ZU-62, primarily via a size exclusion mechanism.
+
+---
+
+MOF Name: ZU-62
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for ZU-62:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+- isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å | Not Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of ZU-62:
+The inferred effective pore size range for ZU-62 is [4.995 Å, 6.093 Å).
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is at the lower bound of the inferred effective pore size range for ZU-62, it can be adsorbed. This conclusion directly matches the provided experimental data.
+
+---
+
+MOF Name: ZU-62
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for ZU-62:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+- isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å | Not Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of ZU-62:
+The inferred effective pore size range for ZU-62 is [4.995 Å, 6.093 Å). Since 1-pentene (4.995 Å) can adsorb, any molecule with an intermediate dimension smaller than 4.995 Å is also expected to adsorb via size exclusion.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than 1-pentene's intermediate dimension (4.995 Å), which is experimentally confirmed to be adsorbed, trans-2-pentene is predicted to be adsorbed by ZU-62 through a size exclusion mechanism.
+
+---
+
+MOF Name: ZU-62
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for ZU-62:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+- isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å | Not Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of ZU-62:
+The inferred effective pore size range for ZU-62 is [4.995 Å, 6.093 Å). Since 1-pentene (4.995 Å) can adsorb, any molecule with an intermediate dimension smaller than 4.995 Å is also expected to adsorb via size exclusion.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than 1-pentene's intermediate dimension (4.995 Å), which is experimentally confirmed to be adsorbed, n-pentane is predicted to be adsorbed by ZU-62 through a size exclusion mechanism.

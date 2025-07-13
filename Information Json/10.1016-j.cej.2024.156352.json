@@ -1,0 +1,131 @@
+[
+    {
+        "Materials Name": "pNCE-SS@UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 Å (window size)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "1.20 Å (bare ion), 7.64 Å (hydrated)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 °C, 10,000 ppm LiCl solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The hydrated Mg2+ (8.56 Å) is excluded due to the smaller pore size."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "1.30 Å (bare ion), 8.56 Å (hydrated)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 °C, 10,000 ppm MgCl2 solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrated Mg2+ cannot enter the 6.0 Å window of UiO-66."
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "1.98 Å (bare ion)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 °C, 10,000 ppm CaCl2 solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Calcium ions are too large to form stable complexes with 12-crown-4 and cannot pass through the 6.0 Å window."
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "1.90 Å (bare ion)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 °C, 10,000 ppm NaCl solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sodium ions are too large to form stable complexes with 12-crown-4 and face steric hindrance in the 6.0 Å window."
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "2.66 Å (bare ion)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 °C, 10,000 ppm KCl solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Potassium ions are too large to form stable complexes with 12-crown-4 and face significant steric hindrance in the 6.0 Å window."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ion sieving via a combination of size exclusion and dehydration energy differences.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments and breakthrough tests in synthetic brines",
+            "Performance Metrics": "Li+/Mg2+ selectivity: 21.8, Li+/Ca2+ selectivity: 44.3, Li+/Na+ selectivity: 12.8, Li+/K+ selectivity: 9.7"
+        },
+        "Other Information": {
+            "Additional Info": "The material can be regenerated in warm water (≥40 °C) with excellent cycling stability (97.1% after 5 cycles)."
+        }
+    },
+    {
+        "Materials Name": "pNCE-SS@MOF-808",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "10.0 Å (window size)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "1.20 Å (bare ion), 7.64 Å (hydrated)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 °C, 10,000 ppm LiCl solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The larger window size allows both hydrated Li+ and Mg2+ to enter."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "1.30 Å (bare ion), 8.56 Å (hydrated)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 °C, 10,000 ppm MgCl2 solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The 10.0 Å window size permits entry of hydrated Mg2+, reducing selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ion sieving via size exclusion but less effective due to larger window size.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments in individual salt solutions",
+            "Performance Metrics": "Li+/Mg2+ selectivity: 5.1"
+        },
+        "Other Information": {
+            "Additional Info": "The larger pore size reduces selectivity compared to UiO-66-based composites."
+        }
+    }
+]

@@ -1,0 +1,137 @@
+MOF Name: ZIF-7
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-7:
+*   **Adsorbed Molecules (with intermediate dimensions and notes on gate-opening):**
+    *   nitrous_oxide: 5.287×3.060×3.060 → Intermediate = 3.060 Å | Adsorbed (Gate-opening effect)
+    *   carbon_monoxide: 4.168×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect)
+    *   carbon_dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect, multiple entries)
+    *   methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Gate-opening effect)
+    *   ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate-opening effect, multiple entries)
+    *   ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorbed (Gate-opening effect) - This is the largest molecule explicitly shown to be adsorbed, even if conditionally via gate-opening.
+*   **Non-Adsorbed Molecules (with intermediate dimensions and reasons for size exclusion):**
+    *   carbon_dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion at sub-nanometer scale, under specific conditions)
+    *   ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Not Adsorbed (Size exclusion, under specific conditions, despite gate-opening mentioned)
+
+Inferred effective pore size of ZIF-7: ZIF-7 is known for its flexible framework and gate-opening mechanism. While it can sometimes exclude molecules as small as 3.200 Å (CO2) or 4.170 Å (ethane) due to size exclusion under certain conditions (implying a 'closed' pore), the experimental data also clearly shows it *can* adsorb molecules up to an intermediate dimension of 4.170 Å (ethane) via its gate-opening effect. Therefore, the maximum practical effective pore size that ZIF-7 can achieve to allow molecular passage is around 4.170 Å. Any molecule with an intermediate dimension significantly larger than this is unlikely to pass.
+
+Target Molecule Dimensions:
+*   Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the maximum effective pore size observed for ZIF-7 (approx. 4.170 Å, the largest adsorbed molecule being ethane), it cannot be adsorbed by ZIF-7.
+
+---
+
+MOF Name: ZIF-7
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-7:
+*   **Adsorbed Molecules (with intermediate dimensions and notes on gate-opening):**
+    *   nitrous_oxide: 5.287×3.060×3.060 → Intermediate = 3.060 Å | Adsorbed (Gate-opening effect)
+    *   carbon_monoxide: 4.168×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect)
+    *   carbon_dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect, multiple entries)
+    *   methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Gate-opening effect)
+    *   ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate-opening effect, multiple entries)
+    *   ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorbed (Gate-opening effect) - This is the largest molecule explicitly shown to be adsorbed, even if conditionally via gate-opening.
+*   **Non-Adsorbed Molecules (with intermediate dimensions and reasons for size exclusion):**
+    *   carbon_dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion at sub-nanometer scale, under specific conditions)
+    *   ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Not Adsorbed (Size exclusion, under specific conditions, despite gate-opening mentioned)
+
+Inferred effective pore size of ZIF-7: ZIF-7 is known for its flexible framework and gate-opening mechanism. While it can sometimes exclude molecules as small as 3.200 Å (CO2) or 4.170 Å (ethane) due to size exclusion under certain conditions (implying a 'closed' pore), the experimental data also clearly shows it *can* adsorb molecules up to an intermediate dimension of 4.170 Å (ethane) via its gate-opening effect. Therefore, the maximum practical effective pore size that ZIF-7 can achieve to allow molecular passage is around 4.170 Å. Any molecule with an intermediate dimension significantly larger than this is unlikely to pass.
+
+Target Molecule Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the maximum effective pore size observed for ZIF-7 (approx. 4.170 Å, the largest adsorbed molecule being ethane), it cannot be adsorbed by ZIF-7.
+
+---
+
+MOF Name: ZIF-7
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-7:
+*   **Adsorbed Molecules (with intermediate dimensions and notes on gate-opening):**
+    *   nitrous_oxide: 5.287×3.060×3.060 → Intermediate = 3.060 Å | Adsorbed (Gate-opening effect)
+    *   carbon_monoxide: 4.168×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect)
+    *   carbon_dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect, multiple entries)
+    *   methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Gate-opening effect)
+    *   ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate-opening effect, multiple entries)
+    *   ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorbed (Gate-opening effect) - This is the largest molecule explicitly shown to be adsorbed, even if conditionally via gate-opening.
+*   **Non-Adsorbed Molecules (with intermediate dimensions and reasons for size exclusion):**
+    *   carbon_dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion at sub-nanometer scale, under specific conditions)
+    *   ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Not Adsorbed (Size exclusion, under specific conditions, despite gate-opening mentioned)
+
+Inferred effective pore size of ZIF-7: ZIF-7 is known for its flexible framework and gate-opening mechanism. While it can sometimes exclude molecules as small as 3.200 Å (CO2) or 4.170 Å (ethane) due to size exclusion under certain conditions (implying a 'closed' pore), the experimental data also clearly shows it *can* adsorb molecules up to an intermediate dimension of 4.170 Å (ethane) via its gate-opening effect. Therefore, the maximum practical effective pore size that ZIF-7 can achieve to allow molecular passage is around 4.170 Å. Any molecule with an intermediate dimension significantly larger than this is unlikely to pass.
+
+Target Molecule Dimensions:
+*   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the maximum effective pore size observed for ZIF-7 (approx. 4.170 Å, the largest adsorbed molecule being ethane), it cannot be adsorbed by ZIF-7.
+
+---
+
+MOF Name: ZIF-7
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-7:
+*   **Adsorbed Molecules (with intermediate dimensions and notes on gate-opening):**
+    *   nitrous_oxide: 5.287×3.060×3.060 → Intermediate = 3.060 Å | Adsorbed (Gate-opening effect)
+    *   carbon_monoxide: 4.168×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect)
+    *   carbon_dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect, multiple entries)
+    *   methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Gate-opening effect)
+    *   ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate-opening effect, multiple entries)
+    *   ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorbed (Gate-opening effect) - This is the largest molecule explicitly shown to be adsorbed, even if conditionally via gate-opening.
+*   **Non-Adsorbed Molecules (with intermediate dimensions and reasons for size exclusion):**
+    *   carbon_dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion at sub-nanometer scale, under specific conditions)
+    *   ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Not Adsorbed (Size exclusion, under specific conditions, despite gate-opening mentioned)
+
+Inferred effective pore size of ZIF-7: ZIF-7 is known for its flexible framework and gate-opening mechanism. While it can sometimes exclude molecules as small as 3.200 Å (CO2) or 4.170 Å (ethane) due to size exclusion under certain conditions (implying a 'closed' pore), the experimental data also clearly shows it *can* adsorb molecules up to an intermediate dimension of 4.170 Å (ethane) via its gate-opening effect. Therefore, the maximum practical effective pore size that ZIF-7 can achieve to allow molecular passage is around 4.170 Å. Any molecule with an intermediate dimension significantly larger than this is unlikely to pass.
+
+Target Molecule Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is larger than the maximum effective pore size observed for ZIF-7 (approx. 4.170 Å, the largest adsorbed molecule being ethane), it cannot be adsorbed by ZIF-7.
+
+---
+
+MOF Name: ZIF-7
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-7:
+*   **Adsorbed Molecules (with intermediate dimensions and notes on gate-opening):**
+    *   nitrous_oxide: 5.287×3.060×3.060 → Intermediate = 3.060 Å | Adsorbed (Gate-opening effect)
+    *   carbon_monoxide: 4.168×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect)
+    *   carbon_dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening effect, multiple entries)
+    *   methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Gate-opening effect)
+    *   ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate-opening effect, multiple entries)
+    *   ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorbed (Gate-opening effect) - This is the largest molecule explicitly shown to be adsorbed, even if conditionally via gate-opening.
+*   **Non-Adsorbed Molecules (with intermediate dimensions and reasons for size exclusion):**
+    *   carbon_dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion at sub-nanometer scale, under specific conditions)
+    *   ethane: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Not Adsorbed (Size exclusion, under specific conditions, despite gate-opening mentioned)
+
+Inferred effective pore size of ZIF-7: ZIF-7 is known for its flexible framework and gate-opening mechanism. While it can sometimes exclude molecules as small as 3.200 Å (CO2) or 4.170 Å (ethane) due to size exclusion under certain conditions (implying a 'closed' pore), the experimental data also clearly shows it *can* adsorb molecules up to an intermediate dimension of 4.170 Å (ethane) via its gate-opening effect. Therefore, the maximum practical effective pore size that ZIF-7 can achieve to allow molecular passage is around 4.170 Å. Any molecule with an intermediate dimension significantly larger than this is unlikely to pass.
+
+Target Molecule Dimensions:
+*   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is larger than the maximum effective pore size observed for ZIF-7 (approx. 4.170 Å, the largest adsorbed molecule being ethane), it cannot be adsorbed by ZIF-7.

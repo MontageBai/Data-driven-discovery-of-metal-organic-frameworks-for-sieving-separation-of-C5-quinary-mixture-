@@ -1,0 +1,179 @@
+[
+    {
+        "Materials Name": "cucurbit[7]uril (CB[7])",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Rigid and spherical cavities"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Shape- and size-selective binding",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions, pH 1-14, high salinity",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Binding constant: 2.5 × 10^9 M^-1; Achieves >99% purity in industrial mixtures."
+                }
+            },
+            {
+                "Molecule Name": "methylcyclohexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Shape- and size-selective binding",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions, pH 1-14, high salinity",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectively separated with CB[7]."
+                }
+            },
+            {
+                "Molecule Name": "methylcyclopentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Shape- and size-selective binding",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions, pH 1-14, high salinity",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectively separated with CB[7]."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to oblate shape",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded based on shape mismatch with CB[7] cavity."
+                }
+            },
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to linear structure",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded based on poor fit within CB[7] cavity."
+                }
+            },
+            {
+                "Molecule Name": "n-heptane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to linear structure",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded based on poor fit within CB[7] cavity."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to oblate shape",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded based on shape mismatch with CB[7] cavity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale coupled with shape selectivity",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Liquid–liquid extraction, NMR, GC-MS, single-crystal X-ray diffraction, fluorescence-based competitive titration",
+            "Performance Metrics": "Achieves >99% cyclohexane purity from crude oil and industrial mixtures; Energy savings of 57.4–82.4% compared to industrial methods."
+        },
+        "Other Information": {
+            "Additional Info": "CB[7] exhibits ultrahigh affinity for cyclic hydrocarbons, enabling selective separations under ambient and harsh conditions."
+        }
+    },
+    {
+        "Materials Name": "cucurbit[6]uril (CB[6])",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Rigid and spherical cavities"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Shape- and size-selective binding",
+                "Other Information": {
+                    "Test Conditions": "Strong acidic conditions (4 M HCl)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity observed under strong acidic conditions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale coupled with shape selectivity",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Liquid–liquid extraction, fluorescence-based competitive titration",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "CB[6] shows poor solubility in water but improved performance in strong acidic conditions."
+        }
+    },
+    {
+        "Materials Name": "cucurbit[8]uril (CB[8])",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Rigid and spherical cavities"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "large hydrocarbons C8-C14",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Shape- and size-selective binding",
+                "Other Information": {
+                    "Test Conditions": "Strong acidic conditions (4 M HCl)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Demonstrates separation capabilities for large hydrocarbons."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale coupled with shape selectivity",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Liquid–liquid extraction, fluorescence-based competitive titration",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "CB[8] shows poor solubility in water but improved performance in strong acidic conditions."
+        }
+    }
+]

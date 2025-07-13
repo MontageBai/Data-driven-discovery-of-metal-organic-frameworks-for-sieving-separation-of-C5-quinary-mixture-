@@ -1,0 +1,182 @@
+[
+    {
+        "Materials Name": "Co(4-DPDS)2CrO4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å (PLD)",
+            "Structure Type": "2D layered structure with intralayer and interlayer space interlaced 3D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "4,4-dipyridyldisulfide",
+            "CrO4^2-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect at threshold pressure",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "0.60 mmol g^-1 at 0.01 bar",
+                    "Additional Info": "High affinity binding sites present in the material."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to smaller pore size after activation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption capacity for ethylene observed."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion due to opposite quadrupole moment",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible CO2 uptake observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening effect controlled by intraframework hydrogen bonding",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Dynamic breakthrough experiments",
+            "Performance Metrics": "C2H2/C2H4 selectivity: 834 at 1 bar, 298 K; C2H2/CO2 selectivity: 302 at 1 bar, 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "Shorter CrO4^2− pillars strengthen intraframework hydrogen bonding, reducing structural flexibility and enabling precise control of gate-opening behavior."
+        }
+    },
+    {
+        "Materials Name": "Co(4-DPDS)2MoO4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.7 Å (PLD)",
+            "Structure Type": "2D layered structure with intralayer and interlayer space interlaced 3D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "4,4-dipyridyldisulfide",
+            "MoO4^2-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect at threshold pressure",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "0.17 bar",
+                    "Additional Info": "Adsorption capacity increases sharply after reaching threshold pressure."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to smaller pore size after activation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible ethylene adsorption observed."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion due to opposite quadrupole moment",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible CO2 uptake observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening effect controlled by intraframework hydrogen bonding",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Dynamic breakthrough experiments",
+            "Performance Metrics": "C2H2/C2H4 selectivity: >50 at 1 bar, 298 K; C2H2/CO2 separation factor: 5.1 at 273 K"
+        },
+        "Other Information": {
+            "Additional Info": "Moderate flexibility enables two-step adsorption behavior for acetylene."
+        }
+    },
+    {
+        "Materials Name": "Co(4-DPDS)2WO4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.9 Å (PLD)",
+            "Structure Type": "2D layered structure with intralayer and interlayer space interlaced 3D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "4,4-dipyridyldisulfide",
+            "WO4^2-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect at threshold pressure",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "0.11 bar",
+                    "Additional Info": "Adsorption capacity increases sharply after reaching threshold pressure."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to smaller pore size after activation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible ethylene adsorption observed."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion due to opposite quadrupole moment",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible CO2 uptake observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening effect controlled by intraframework hydrogen bonding",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Dynamic breakthrough experiments",
+            "Performance Metrics": "C2H2/C2H4 selectivity: >50 at 1 bar, 298 K; C2H2/CO2 separation factor: 7.2 at 273 K"
+        },
+        "Other Information": {
+            "Additional Info": "Higher flexibility leads to significant pore contraction after activation."
+        }
+    }
+]

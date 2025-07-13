@@ -1,0 +1,106 @@
+[
+    {
+        "Materials Name": "CAIP-MOF membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.640 nm (average), 0.178 (standard deviation)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "UiO-66-NH2"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 ± 1 °C, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection decreased due to reduced Donnan exclusion."
+                }
+            },
+            {
+                "Molecule Name": "perfluorobutanoic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 ± 1 °C, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher rejection due to enhanced size exclusion."
+                }
+            },
+            {
+                "Molecule Name": "perfluorobutane sulfonic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 ± 1 °C, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher rejection due to enhanced size exclusion."
+                }
+            },
+            {
+                "Molecule Name": "perfluoroheptanoic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 ± 1 °C, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher rejection due to enhanced size exclusion."
+                }
+            },
+            {
+                "Molecule Name": "perfluorooctanoic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 ± 1 °C, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher rejection due to enhanced size exclusion."
+                }
+            },
+            {
+                "Molecule Name": "ammonium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 ± 1 °C, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less affected due to higher possibility of dehydration and smaller size."
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 ± 1 °C, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less affected due to higher possibility of dehydration and smaller size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Water permeance: ~18.7 LMH/bar, Nutrient/PFAS selectivity: SPNI,PFAS = 7.49"
+        },
+        "Other Information": {
+            "Additional Info": "Capillary-assisted interfacial polymerization exposes more MOF nanochannels and creates a sharp gradient of PA cross-linking degree."
+        }
+    }
+]

@@ -1,0 +1,122 @@
+MOF Name: SNU-71
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SNU-71:
+- Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed (Yes)
+- No "Not Adsorbed" data specifically for SNU-71 due to size exclusion is provided.
+
+Inferred effective pore size of SNU-71:
+Based on carbon dioxide (intermediate dimension 3.200 Å) being adsorbed, the effective pore size of SNU-71 is at least 3.200 Å.
+The experimental data for SNU-71 states "Adsorption Type: Size exclusion at sub-nanometer scale". To understand what this implies as an upper limit for the pore size, we can refer to the behavior of NTU-67, which also exhibits "Size exclusion at sub-nanometer scale" and has more complete data:
+- NTU-67, Acetylene: 5.538×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed (Yes)
+- NTU-67, Ethylene: 4.679×4.047×3.200 Å → Intermediate = 4.047 Å | Not Adsorbed (No, due to Size exclusion)
+This suggests that for MOFs exhibiting "Size exclusion at sub-nanometer scale" and adsorbing molecules with an intermediate dimension of ~3.2 Å, molecules with intermediate dimensions around or above 4.047 Å are generally excluded. Thus, it's reasonable to infer that SNU-71's effective pore size is likely between 3.200 Å and ~4.047 Å.
+
+Target Guest Molecule Dimensions:
+- Isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å) which SNU-71 can adsorb, and also significantly larger than the inferred upper bound of ~4.047 Å for "sub-nanometer scale" pore exclusion, it cannot be adsorbed by SNU-71.
+
+---
+
+MOF Name: SNU-71
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SNU-71:
+- Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed (Yes)
+- No "Not Adsorbed" data specifically for SNU-71 due to size exclusion is provided.
+
+Inferred effective pore size of SNU-71:
+Based on carbon dioxide (intermediate dimension 3.200 Å) being adsorbed, the effective pore size of SNU-71 is at least 3.200 Å.
+The experimental data for SNU-71 states "Adsorption Type: Size exclusion at sub-nanometer scale". To understand what this implies as an upper limit for the pore size, we can refer to the behavior of NTU-67, which also exhibits "Size exclusion at sub-nanometer scale" and has more complete data:
+- NTU-67, Acetylene: 5.538×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed (Yes)
+- NTU-67, Ethylene: 4.679×4.047×3.200 Å → Intermediate = 4.047 Å | Not Adsorbed (No, due to Size exclusion)
+This suggests that for MOFs exhibiting "Size exclusion at sub-nanometer scale" and adsorbing molecules with an intermediate dimension of ~3.2 Å, molecules with intermediate dimensions around or above 4.047 Å are generally excluded. Thus, it's reasonable to infer that SNU-71's effective pore size is likely between 3.200 Å and ~4.047 Å.
+
+Target Guest Molecule Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 Å → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å) which SNU-71 can adsorb, and also significantly larger than the inferred upper bound of ~4.047 Å for "sub-nanometer scale" pore exclusion, it cannot be adsorbed by SNU-71.
+
+---
+
+MOF Name: SNU-71
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SNU-71:
+- Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed (Yes)
+- No "Not Adsorbed" data specifically for SNU-71 due to size exclusion is provided.
+
+Inferred effective pore size of SNU-71:
+Based on carbon dioxide (intermediate dimension 3.200 Å) being adsorbed, the effective pore size of SNU-71 is at least 3.200 Å.
+The experimental data for SNU-71 states "Adsorption Type: Size exclusion at sub-nanometer scale". To understand what this implies as an upper limit for the pore size, we can refer to the behavior of NTU-67, which also exhibits "Size exclusion at sub-nanometer scale" and has more complete data:
+- NTU-67, Acetylene: 5.538×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed (Yes)
+- NTU-67, Ethylene: 4.679×4.047×3.200 Å → Intermediate = 4.047 Å | Not Adsorbed (No, due to Size exclusion)
+This suggests that for MOFs exhibiting "Size exclusion at sub-nanometer scale" and adsorbing molecules with an intermediate dimension of ~3.2 Å, molecules with intermediate dimensions around or above 4.047 Å are generally excluded. Thus, it's reasonable to infer that SNU-71's effective pore size is likely between 3.200 Å and ~4.047 Å.
+
+Target Guest Molecule Dimensions:
+- 1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å) which SNU-71 can adsorb, and also significantly larger than the inferred upper bound of ~4.047 Å for "sub-nanometer scale" pore exclusion, it cannot be adsorbed by SNU-71.
+
+---
+
+MOF Name: SNU-71
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SNU-71:
+- Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed (Yes)
+- No "Not Adsorbed" data specifically for SNU-71 due to size exclusion is provided.
+
+Inferred effective pore size of SNU-71:
+Based on carbon dioxide (intermediate dimension 3.200 Å) being adsorbed, the effective pore size of SNU-71 is at least 3.200 Å.
+The experimental data for SNU-71 states "Adsorption Type: Size exclusion at sub-nanometer scale". To understand what this implies as an upper limit for the pore size, we can refer to the behavior of NTU-67, which also exhibits "Size exclusion at sub-nanometer scale" and has more complete data:
+- NTU-67, Acetylene: 5.538×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed (Yes)
+- NTU-67, Ethylene: 4.679×4.047×3.200 Å → Intermediate = 4.047 Å | Not Adsorbed (No, due to Size exclusion)
+This suggests that for MOFs exhibiting "Size exclusion at sub-nanometer scale" and adsorbing molecules with an intermediate dimension of ~3.2 Å, molecules with intermediate dimensions around or above 4.047 Å are generally excluded. Thus, it's reasonable to infer that SNU-71's effective pore size is likely between 3.200 Å and ~4.047 Å.
+
+Target Guest Molecule Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 Å → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å) which SNU-71 can adsorb, and also significantly larger than the inferred upper bound of ~4.047 Å for "sub-nanometer scale" pore exclusion, it cannot be adsorbed by SNU-71.
+
+---
+
+MOF Name: SNU-71
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SNU-71:
+- Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed (Yes)
+- No "Not Adsorbed" data specifically for SNU-71 due to size exclusion is provided.
+
+Inferred effective pore size of SNU-71:
+Based on carbon dioxide (intermediate dimension 3.200 Å) being adsorbed, the effective pore size of SNU-71 is at least 3.200 Å.
+The experimental data for SNU-71 states "Adsorption Type: Size exclusion at sub-nanometer scale". To understand what this implies as an upper limit for the pore size, we can refer to the behavior of NTU-67, which also exhibits "Size exclusion at sub-nanometer scale" and has more complete data:
+- NTU-67, Acetylene: 5.538×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed (Yes)
+- NTU-67, Ethylene: 4.679×4.047×3.200 Å → Intermediate = 4.047 Å | Not Adsorbed (No, due to Size exclusion)
+This suggests that for MOFs exhibiting "Size exclusion at sub-nanometer scale" and adsorbing molecules with an intermediate dimension of ~3.2 Å, molecules with intermediate dimensions around or above 4.047 Å are generally excluded. Thus, it's reasonable to infer that SNU-71's effective pore size is likely between 3.200 Å and ~4.047 Å.
+
+Target Guest Molecule Dimensions:
+- n-pentane: 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is larger than the intermediate dimension of carbon dioxide (3.200 Å) which SNU-71 can adsorb, and also larger than the inferred upper bound of ~4.047 Å for "sub-nanometer scale" pore exclusion, it cannot be adsorbed by SNU-71.

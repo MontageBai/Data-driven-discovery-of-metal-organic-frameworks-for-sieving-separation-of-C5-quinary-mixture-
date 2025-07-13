@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "Lys@UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid",
+            "lysine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "magnesium ion",
+                "Molecular Size": "8.0 Å (hydrated)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "5 mM MgCl2 and 5 mM Na2SO4 mixed solution, 3 bar, 25 ± 1 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced rejection due to positively charged surface of Lys@UiO-66 nanoparticles."
+                }
+            },
+            {
+                "Molecule Name": "calcium ion",
+                "Molecular Size": "8.24 Å (hydrated)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "10 mmol L−1 CaCl2, 3 bar, 25 ± 1 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection increased from 64.27% to 92.81% compared to control PA-TFC membrane."
+                }
+            },
+            {
+                "Molecule Name": "sodium ion",
+                "Molecular Size": "7.16 Å (hydrated)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "5 mM NaCl and 5 mM MgCl2 mixed solution, 3 bar, 25 ± 1 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Experienced almost no change in rejection compared with PA-TFC membrane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with electrostatic effects",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Water permeability: 18.27 L m−2 h−1 bar−1, MgCl2 rejection: 97.81%, CaCl2 rejection: 92.81%"
+        },
+        "Other Information": {
+            "Additional Info": "Lys@UiO-66 nanoparticles enhance water permeability by 55% and improve mono-/divalent cation selectivity significantly."
+        }
+    }
+]

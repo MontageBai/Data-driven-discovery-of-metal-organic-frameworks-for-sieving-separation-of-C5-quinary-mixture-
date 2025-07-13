@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "MMP-b-MOFs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.80 nm, 6.79 nm",
+            "Structure Type": "Core-shell structure with mesoporous channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr"
+        ],
+        "Ligands": [
+            "UiO-66-NH2 organic ligand"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "serum peptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and hydrophilic interaction",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrophilic peptides are preferentially adsorbed while larger proteins are excluded."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-exclusion effect due to narrow pore sizes (3.80 nm and 6.79 nm)",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis after enrichment by MMP-b-MOFs",
+            "Performance Metrics": "AUC value of 1.000 for distinguishing Crohn's disease from healthy controls"
+        },
+        "Other Information": {
+            "Additional Info": "The material was used to extract high-quality serum peptide fingerprints, leading to the identification of 8 specific peptide biomarkers for Crohn's disease diagnosis and subtype classification."
+        }
+    }
+]

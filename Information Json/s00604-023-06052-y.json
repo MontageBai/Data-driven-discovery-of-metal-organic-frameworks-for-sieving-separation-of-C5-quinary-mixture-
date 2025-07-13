@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Al-MOFs composite",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5.6 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "aluminum ions"
+        ],
+        "Ligands": [
+            "1H-pyrazole-3,5-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "horseradish peroxidase",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "95% ACN/H2O, 0.1% TFA, 37°C, 30 min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enrichment of N-glycopeptides from HRP was successful with LOD of 0.5 fmol/μL"
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "95% ACN/H2O, 0.1% TFA, 37°C, 30 min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "BSA was excluded due to size-exclusion ability of the Al-MOFs composite"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF–MS analysis",
+            "Performance Metrics": "LOD: 0.5 fmol/μL, Enriched 300 N-glycopeptides from 1 μL human serum"
+        },
+        "Other Information": {
+            "Additional Info": "The composite showed excellent reusability (at least 10 cycles) and stability over 3 months"
+        }
+    }
+]

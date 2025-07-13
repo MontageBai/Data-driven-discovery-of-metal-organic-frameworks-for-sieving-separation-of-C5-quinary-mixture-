@@ -1,0 +1,116 @@
+[
+    {
+        "Materials Name": "2D Zn(BDC) lamellar membranes",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "1.5 nm (longest side), 8 nm (average pore size after PVA addition)",
+            "Structure Type": "2D nanosheets with layered stacking"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate (BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium iodide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion and charge interaction",
+                "Other Information": {
+                    "Test Conditions": "pH range of 3-10.5, 25 °C",
+                    "Threshold Pressure": "2.5 bar",
+                    "Additional Info": "Rejection rate increases with pH due to deprotonation of carboxyl groups leading to enhanced negative charge on the membrane surface."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "1.25 × 0.51 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and electrostatic attraction",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, 25 °C",
+                    "Threshold Pressure": "2.5 bar",
+                    "Additional Info": "Low rejection rate (79.9%) due to cationic nature interacting with negatively charged channels."
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "1.7 × 0.69 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, 25 °C",
+                    "Threshold Pressure": "2.5 bar",
+                    "Additional Info": "High rejection rate (91.6%) attributed to size and negative charge matching membrane properties."
+                }
+            },
+            {
+                "Molecule Name": "methyl blue",
+                "Molecular Size": "2.3 × 0.87 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, 25 °C",
+                    "Threshold Pressure": "2.5 bar",
+                    "Additional Info": "High rejection rate (95.3%) due to larger size and negative charge."
+                }
+            },
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "2.56 × 0.73 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, 25 °C",
+                    "Threshold Pressure": "2.5 bar",
+                    "Additional Info": "Very high rejection rate (99.7%) due to large size and strong negative charge."
+                }
+            },
+            {
+                "Molecule Name": "chrome black T",
+                "Molecular Size": "1.55 × 0.88 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, 25 °C",
+                    "Threshold Pressure": "2.5 bar",
+                    "Additional Info": "Exceptionally high rejection rate (99.8%) despite smaller size, attributed to very high negative charge density."
+                }
+            },
+            {
+                "Molecule Name": "reactive black",
+                "Molecular Size": "2.59 × 1.52 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, 25 °C",
+                    "Threshold Pressure": "2.5 bar",
+                    "Additional Info": "Very high rejection rate (99.8%) due to large size and negative charge."
+                }
+            },
+            {
+                "Molecule Name": "direct red 23",
+                "Molecular Size": "3.36 × 1.02 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, 25 °C",
+                    "Threshold Pressure": "2.5 bar",
+                    "Additional Info": "Highest rejection rate (99.9%) due to largest size among tested dyes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic effect of molecular sieving and electrostatic repulsion",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment using cross-flow filtration module",
+            "Performance Metrics": "Permeance: 372.9 L m−2 h−1 bar−1; Rejection rates: >99.7% for anionic dyes like direct red (DR23), reactive black (RB5), chrome black T (CBT), Congo red (CR)"
+        },
+        "Other Information": {
+            "Additional Info": "The incorporation of polyvinyl alcohol (PVA) as a cross-linking agent significantly enhanced the stability and separation performance of the membrane by reducing average pore size from 20.34 nm to 8.06 nm and improving regularity in nanosheet stacking."
+        }
+    }
+]

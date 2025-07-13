@@ -1,0 +1,102 @@
+MOF Name: MUV-26a
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MUV-26a:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of MUV-26a:
+The experimental data indicates that MUV-26a can adsorb carbon dioxide, which has an intermediate dimension of 3.200 Å. This suggests that the effective pore size of MUV-26a is at least 3.200 Å.
+However, there is no data provided for molecules that were *not* adsorbed by MUV-26a due to size exclusion. Therefore, an explicit upper bound for the effective pore size cannot be determined solely from the given data using the rule "less than the smallest intermediate dimension of the non-adsorbed molecules".
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Given that MUV-26a's adsorption mechanism is described as "Size exclusion at sub-nanometer scale" and the only molecule known to be adsorbed (CO2) has an intermediate dimension of 3.200 Å, it is highly probable that molecules significantly larger than 3.200 Å will be excluded. The intermediate dimension of isoprene (6.093 Å) is nearly twice that of carbon dioxide. Such a significant difference in intermediate molecular dimension, especially for materials operating under "size exclusion at sub-nanometer scale", typically prevents adsorption.
+
+---
+
+MOF Name: MUV-26a
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MUV-26a:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of MUV-26a:
+The experimental data indicates that MUV-26a can adsorb carbon dioxide, which has an intermediate dimension of 3.200 Å. This suggests that the effective pore size of MUV-26a is at least 3.200 Å.
+However, there is no data provided for molecules that were *not* adsorbed by MUV-26a due to size exclusion. Therefore, an explicit upper bound for the effective pore size cannot be determined solely from the given data using the rule "less than the smallest intermediate dimension of the non-adsorbed molecules".
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Given that MUV-26a's adsorption mechanism is described as "Size exclusion at sub-nanometer scale" and the only molecule known to be adsorbed (CO2) has an intermediate dimension of 3.200 Å, it is highly probable that molecules significantly larger than 3.200 Å will be excluded. The intermediate dimension of cis-2-pentene (5.572 Å) is substantially larger than that of carbon dioxide. Such a significant difference in intermediate molecular dimension, especially for materials operating under "size exclusion at sub-nanometer scale", typically prevents adsorption.
+
+---
+
+MOF Name: MUV-26a
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MUV-26a:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of MUV-26a:
+The experimental data indicates that MUV-26a can adsorb carbon dioxide, which has an intermediate dimension of 3.200 Å. This suggests that the effective pore size of MUV-26a is at least 3.200 Å.
+However, there is no data provided for molecules that were *not* adsorbed by MUV-26a due to size exclusion. Therefore, an explicit upper bound for the effective pore size cannot be determined solely from the given data using the rule "less than the smallest intermediate dimension of the non-adsorbed molecules".
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Given that MUV-26a's adsorption mechanism is described as "Size exclusion at sub-nanometer scale" and the only molecule known to be adsorbed (CO2) has an intermediate dimension of 3.200 Å, it is highly probable that molecules significantly larger than 3.200 Å will be excluded. The intermediate dimension of 1-pentene (4.995 Å) is substantially larger than that of carbon dioxide. Such a significant difference in intermediate molecular dimension, especially for materials operating under "size exclusion at sub-nanometer scale", typically prevents adsorption.
+
+---
+
+MOF Name: MUV-26a
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MUV-26a:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of MUV-26a:
+The experimental data indicates that MUV-26a can adsorb carbon dioxide, which has an intermediate dimension of 3.200 Å. This suggests that the effective pore size of MUV-26a is at least 3.200 Å.
+However, there is no data provided for molecules that were *not* adsorbed by MUV-26a due to size exclusion. Therefore, an explicit upper bound for the effective pore size cannot be determined solely from the given data using the rule "less than the smallest intermediate dimension of the non-adsorbed molecules".
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Given that MUV-26a's adsorption mechanism is described as "Size exclusion at sub-nanometer scale" and the only molecule known to be adsorbed (CO2) has an intermediate dimension of 3.200 Å, it is highly probable that molecules significantly larger than 3.200 Å will be excluded. The intermediate dimension of trans-2-pentene (4.733 Å) is substantially larger than that of carbon dioxide. Such a significant difference in intermediate molecular dimension, especially for materials operating under "size exclusion at sub-nanometer scale", typically prevents adsorption.
+
+---
+
+MOF Name: MUV-26a
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MUV-26a:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of MUV-26a:
+The experimental data indicates that MUV-26a can adsorb carbon dioxide, which has an intermediate dimension of 3.200 Å. This suggests that the effective pore size of MUV-26a is at least 3.200 Å.
+However, there is no data provided for molecules that were *not* adsorbed by MUV-26a due to size exclusion. Therefore, an explicit upper bound for the effective pore size cannot be determined solely from the given data using the rule "less than the smallest intermediate dimension of the non-adsorbed molecules".
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Given that MUV-26a's adsorption mechanism is described as "Size exclusion at sub-nanometer scale" and the only molecule known to be adsorbed (CO2) has an intermediate dimension of 3.200 Å, it is highly probable that molecules significantly larger than 3.200 Å will be excluded. The intermediate dimension of n-pentane (4.364 Å) is substantially larger than that of carbon dioxide. Such a significant difference in intermediate molecular dimension, especially for materials operating under "size exclusion at sub-nanometer scale", typically prevents adsorption.

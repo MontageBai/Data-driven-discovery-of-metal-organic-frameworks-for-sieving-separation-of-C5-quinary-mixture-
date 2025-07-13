@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "bio-MOF-14",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "lvt",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "adeninate",
+            "valerate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gating process",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "0.15 bar",
+                    "Additional Info": "CO2 can access the inner cavities after a breakthrough point due to pressure-induced configurational changes of the valerate chains."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 cannot access the pores at elevated temperatures due to a molecular sieving effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect for CO2 over N2",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single component isotherms, GCMC simulations",
+            "Performance Metrics": "Extremely high CO2/N2 selectivity inferred from single component isotherms"
+        },
+        "Other Information": {
+            "Additional Info": "Bio-MOF-14 exhibits no loss of crystallinity or porosity after soaking in water for one month."
+        }
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "Materials Name": "UiO-66-(COOH)2@CuBDC@MgAC",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 Å (CuBDC), 6.8 Å (UiO-66-(COOH)2)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+",
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "pyromellitic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and affinity-based separation",
+                "Other Information": {
+                    "Test Conditions": "5 bar, 323 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Free carboxylic acid groups in UiO-66-(COOH)2 interact with CO2, enhancing selectivity."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "5 bar, 323 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CuBDC nanosheets sieve out nitrogen due to smaller pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeability measurement (constant pressure/variable volume)",
+            "Performance Metrics": "CO2 permeability: up to 320.15 barrer, CO2/N2 selectivity: up to 147.27"
+        },
+        "Other Information": {
+            "Additional Info": "MgAC induces CuBDC nanosheet formation, improving interfacial interaction with PEBAX matrix."
+        }
+    },
+    {
+        "Materials Name": "MIL-121@CuBDC@MgAC",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 Å (CuBDC), 8.7×5.7 Å (MIL-121)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+",
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "pyromellitic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Affinity-based separation",
+                "Other Information": {
+                    "Test Conditions": "5 bar, 323 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Free carboxylate groups in MIL-121 interact strongly with CO2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Non-selective transport",
+                "Other Information": {
+                    "Test Conditions": "5 bar, 323 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large pores of MIL-121 allow non-selective gas transport."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeability measurement (constant pressure/variable volume)",
+            "Performance Metrics": "CO2 permeability: up to 436.89 barrer, CO2/N2 selectivity: up to 74.71"
+        },
+        "Other Information": {
+            "Additional Info": "CuBDC-MIL-121 interphase influences gas separation behavior."
+        }
+    },
+    {
+        "Materials Name": "ZrAC@UiO-66-(COOH)2@CuBDC@MgAC",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 Å (CuBDC), 6.8 Å (UiO-66-(COOH)2)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+",
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "pyromellitic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and affinity-based separation",
+                "Other Information": {
+                    "Test Conditions": "5 bar, 323 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZrAC addition enhances polymer-composite interfacial interaction."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "5 bar, 323 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZrAC balances MOF-MOF and polymer-composite interphases."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeability measurement (constant pressure/variable volume)",
+            "Performance Metrics": "CO2 permeability: up to 407.77 barrer, CO2/N2 selectivity: up to 87.46"
+        },
+        "Other Information": {
+            "Additional Info": "ZrAC amorphizes MOFs partially, increasing interacting sites for gas separation."
+        }
+    },
+    {
+        "Materials Name": "ZrAC@MIL-121@CuBDC@MgAC",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 Å (CuBDC), 8.7×5.7 Å (MIL-121)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+",
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "pyromellitic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Affinity-based separation",
+                "Other Information": {
+                    "Test Conditions": "5 bar, 323 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZrAC addition improves CO2 selectivity by modifying interphases."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "5 bar, 323 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Amorphization induced by ZrAC enhances selective gas transport."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeability measurement (constant pressure/variable volume)",
+            "Performance Metrics": "CO2 permeability: up to 382.28 barrer, CO2/N2 selectivity: up to 72.5"
+        },
+        "Other Information": {
+            "Additional Info": "ZrAC converts non-selective CuBDC-MIL-121 interphase into selective layers."
+        }
+    }
+]

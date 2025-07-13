@@ -1,0 +1,114 @@
+MOF Name: JNU-3
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for JNU-3:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Adsorption Type: Size exclusion at sub-nanometer scale)
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Adsorption Type: Size exclusion at sub-nanometer scale)
+
+**Analysis of MOF's Effective Pore Size and Selectivity:**
+The experimental data presents a paradoxical situation if strictly interpreted by the "intermediate dimension" rule for a simple size exclusion model: Propylene (intermediate dimension 5.051 Å) is adsorbed, while propane (intermediate dimension 4.354 Å), a seemingly "smaller" molecule by this metric, is *not* adsorbed due to size exclusion. This contradicts the expectation that a pore allowing a larger molecule should also allow a smaller one, assuming a singular, fixed pore size governed solely by the intermediate dimension.
+
+This suggests that JNU-3 exhibits highly specific shape selectivity or kinetic sieving, where factors beyond just the intermediate dimension (e.g., molecular shape, flexibility, or specific interactions) play a critical role, even though the adsorption type is generally categorized as "size exclusion at sub-nanometer scale". The MOF's pores are effectively large enough to accommodate propylene (intermediate 5.051 Å) but somehow reject propane (intermediate 4.354 Å). This points towards a mechanism where propylene's specific geometry and/or chemical nature (alkene) allows it to pass, while propane's (alkane) prevents it, despite its smaller intermediate dimension.
+
+**Isoprene Dimensions:**
+-   Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+**Conclusion:**
+Isoprene (an alkene/diene) has an intermediate dimension of 6.093 Å. This is significantly larger than propylene's intermediate dimension (5.051 Å), which was observed to be adsorbed. Given the MOF's already tight and selective behavior (rejecting smaller propane), it is highly probable that molecules with intermediate dimensions substantially larger than the successfully adsorbed propylene will be excluded due to a physical size limit of the pore.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: JNU-3
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for JNU-3:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Adsorption Type: Size exclusion at sub-nanometer scale)
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Adsorption Type: Size exclusion at sub-nanometer scale)
+
+**Analysis of MOF's Effective Pore Size and Selectivity:**
+As detailed for isoprene, the experimental data indicates that JNU-3 possesses a highly specific shape selectivity or kinetic sieving ability, where propylene (intermediate 5.051 Å) is adsorbed but propane (intermediate 4.354 Å) is not. This implies that the MOF's pores are precisely tailored, allowing certain molecular geometries to pass while blocking others, even if the "intermediate dimension" value appears to be smaller for the rejected molecule.
+
+**cis-2-pentene Dimensions:**
+-   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+**Conclusion:**
+cis-2-pentene (an alkene) has an intermediate dimension of 5.572 Å. While it is also an alkene like propylene, its intermediate dimension (5.572 Å) is larger than that of propylene (5.051 Å), which was barely admitted. Given the MOF's observed precise selectivity (rejecting a smaller alkane), it's reasonable to infer that the pore size limit for alkenes is close to 5.051 Å. Therefore, a slightly larger alkene like cis-2-pentene is likely to be excluded.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: JNU-3
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for JNU-3:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Adsorption Type: Size exclusion at sub-nanometer scale)
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Adsorption Type: Size exclusion at sub-nanometer scale)
+
+**Analysis of MOF's Effective Pore Size and Selectivity:**
+As established, JNU-3 demonstrates complex size/shape selectivity, allowing propylene (intermediate 5.051 Å) but rejecting propane (intermediate 4.354 Å). This suggests that the MOF's pores are capable of accommodating molecules with intermediate dimensions up to at least 5.051 Å, particularly if they are alkenes like propylene, but are highly restrictive to certain other shapes or chemical families (like alkanes) even if their intermediate dimension is smaller.
+
+**1-pentene Dimensions:**
+-   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+**Conclusion:**
+1-pentene (an alkene) has an intermediate dimension of 4.995 Å. This dimension is slightly *smaller* than propylene's (5.051 Å), which was successfully adsorbed. Since 1-pentene is also an alkene and its intermediate dimension is within the range of successfully adsorbed molecules of similar chemical nature, it is highly likely to be adsorbed by JNU-3.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: JNU-3
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for JNU-3:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Adsorption Type: Size exclusion at sub-nanometer scale)
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Adsorption Type: Size exclusion at sub-nanometer scale)
+
+**Analysis of MOF's Effective Pore Size and Selectivity:**
+As detailed, JNU-3 exhibits a nuanced size/shape selectivity, permitting propylene (intermediate 5.051 Å) but excluding propane (intermediate 4.354 Å). This indicates that the MOF's pores are capable of adsorbing molecules of similar chemical nature (alkenes) with intermediate dimensions up to at least 5.051 Å, while demonstrating strong exclusion for certain other molecular types (alkanes) even at smaller intermediate dimensions.
+
+**trans-2-pentene Dimensions:**
+-   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+**Conclusion:**
+trans-2-pentene (an alkene) has an intermediate dimension of 4.733 Å. This value falls between the intermediate dimensions of the adsorbed propylene (5.051 Å) and the non-adsorbed propane (4.354 Å). Crucially, trans-2-pentene is an alkene, similar in chemical class to the adsorbed propylene, and its intermediate dimension is larger than that of the rejected alkane (propane). Therefore, considering the MOF's likely preference for alkenes and the fact that 4.733 Å is well within the range of molecules that *can* fit (as indicated by propylene), it is likely to be adsorbed.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: JNU-3
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for JNU-3:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Adsorption Type: Size exclusion at sub-nanometer scale)
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Adsorption Type: Size exclusion at sub-nanometer scale)
+
+**Analysis of MOF's Effective Pore Size and Selectivity:**
+As explained, JNU-3 displays a peculiar selectivity where propylene (intermediate 5.051 Å) is adsorbed, but propane (intermediate 4.354 Å) is not. This suggests that the MOF is highly selective against alkanes or specific alkane shapes, even if their intermediate dimension is smaller than that of adsorbed alkenes. The "size exclusion" for propane indicates a strong kinetic or shape-based barrier for this type of molecule.
+
+**n-pentane Dimensions:**
+-   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+**Conclusion:**
+n-pentane (an alkane) has an intermediate dimension of 4.364 Å. This value is extremely close to propane's intermediate dimension (4.354 Å), and both are alkanes. Given that propane was explicitly rejected due to size exclusion, it is highly probable that n-pentane, being of the same chemical family and having an almost identical intermediate dimension to the rejected molecule, will also be excluded by JNU-3 for the same reasons.
+
+Therefore, the result is: **Cannot Adsorb**

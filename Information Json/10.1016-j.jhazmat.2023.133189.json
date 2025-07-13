@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Fe3O4@SiO2@UiO-67-COOH",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2.5 nm",
+            "Structure Type": "microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "biphenyl-4,4-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "10 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "9 min vortex mixing with 1 mg mL^-1 BSA solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "BSA rejection rate was 98.9–99.8%"
+                }
+            },
+            {
+                "Molecule Name": "quetiapine",
+                "Molecular Size": "0.8–2.0 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction, hydrogen bonding, π-π interaction",
+                "Other Information": {
+                    "Test Conditions": "pH 7, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Antipsychotic drug, can enter pores and adsorb onto material"
+                }
+            },
+            {
+                "Molecule Name": "N-dealkylquetiapine",
+                "Molecular Size": "0.8–2.0 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction, hydrogen bonding, π-π interaction",
+                "Other Information": {
+                    "Test Conditions": "pH 7, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Metabolite of quetiapine, can enter pores and adsorb onto material"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "96-well magnetic solid-phase microextraction (96W-M-µSPE) followed by UPLC-MS/MS",
+            "Performance Metrics": "LOD: 0.2–3 ng mL^-1, LOQ: 0.06–0.09 ng mL^-1, Recovery: 83.16–110.84%"
+        },
+        "Other Information": {
+            "Additional Info": "Functionalized magnetic MOF composite prepared by layer-by-layer modification; exhibits excellent water dispersibility, thermal stability, chemical stability, and hydrophobicity."
+        }
+    }
+]

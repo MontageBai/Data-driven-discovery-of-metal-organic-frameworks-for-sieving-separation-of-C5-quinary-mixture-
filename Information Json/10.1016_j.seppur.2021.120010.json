@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Y-abtc",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Yttrium"
+        ],
+        "Ligands": [
+            "3,3′,5,5′-azobenzene-tetracarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene uptake capacity is 1.8 mmol/g at large scale."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane uptake capacity is negligible at large scale."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective molecular exclusion for propane/propylene mixtures",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Polymer-grade propylene purity (>99.5%) achieved in large-scale column breakthrough experiments."
+        },
+        "Other Information": {
+            "Additional Info": "The material retains high crystallinity and separation performance when scaled up to 100 g synthesis."
+        }
+    }
+]

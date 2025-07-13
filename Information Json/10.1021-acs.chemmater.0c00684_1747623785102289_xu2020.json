@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "UiO-66-NH2 MOF-Cs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Nile red",
+                "Molecular Size": "17.2 × 9 × 5.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ethanol solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Encapsulation of Nile red was achieved during self-assembly process."
+                }
+            },
+            {
+                "Molecule Name": "iodomethane",
+                "Molecular Size": "5.9 × 4.5 × 4.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ethanol solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Iodomethane diffused into NR@MOF-Cs to quench Nile red molecules."
+                }
+            },
+            {
+                "Molecule Name": "5-(bromomethyl)undecane",
+                "Molecular Size": "15.6 × 13.5 × 10 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ethanol solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "5-(bromomethyl)undecane could not diffuse into NR@MOF-Cs due to molecular sieving effect."
+                }
+            },
+            {
+                "Molecule Name": "cobalt(II) meso-tetra(4-methoxyphenyl)porphine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, epoxidation reaction conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cobalt porphyrin encapsulated in MOF-Cs exhibited size-selective catalytic behavior depending on substrate size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Fluorescence spectroscopy, Catalytic testing",
+            "Performance Metrics": "Quenching efficiency for iodomethane and 5-(bromomethyl)undecane; Conversion efficiency: cyclohexene (69.8%), trans-stilbene (5.4%)"
+        },
+        "Other Information": {
+            "Additional Info": "MOF-Cs were formed by self-assembly of surface-modified UiO-66-NH2 NPs at the water-oil interface followed by PMMA deposition."
+        }
+    }
+]

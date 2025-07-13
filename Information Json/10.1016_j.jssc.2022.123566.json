@@ -1,0 +1,84 @@
+[
+    {
+        "Materials Name": "{[Co6(5-MIA)5(tmbpy)(μ3-OH)2(ethanol)2]∙(ethanol)2}n",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 Å",
+            "Structure Type": "3D network with 1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "5-methoxyl-isophthalic acid",
+            "3,3′-dimethyl-4,4′-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and host-guest interactions",
+                "Other Information": {
+                    "Test Conditions": "273 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Maximum uptake of 64.87 cm³ g⁻¹ at 273 K"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and host-guest interactions",
+                "Other Information": {
+                    "Test Conditions": "273 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Maximum uptake of 63.97 cm³ g⁻¹ at 273 K"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake of 11.12 cm³ g⁻¹ at 298 K"
+                }
+            },
+            {
+                "Molecule Name": "carbon monoxide",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake of 6.19 cm³ g⁻¹ at 298 K"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake of 3.74 cm³ g⁻¹ at 298 K"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic effect of size sieving (3.5 Å aperture) and multi-functional sites (open Co2+ sites and methoxy groups)",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption experiments",
+            "Performance Metrics": "C2H2/CH4 selectivity: 26.6 at 298 K; CO2/CH4 selectivity: 12.3 at 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits excellent stability in humid environments and has good reusability."
+        }
+    }
+]

@@ -1,0 +1,102 @@
+MOF Name: MAF-58
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Not Adsorbed (Reason: Size exclusion due to coordinated methanol blocking the aperture; Conditions: 298 K, liquid phase).
+
+Based solely on the provided data, for MAF-58 under conditions where coordinated methanol blocks the aperture, benzene (intermediate dimension 6.762 Å) is explicitly excluded due to size exclusion. This implies that the effective pore aperture of MAF-58 under these conditions is less than 6.762 Å.
+
+Isoprene Dimensions:
+*   Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+The experimental data only provides an upper bound for the effective pore size of MAF-58 (i.e., < 6.762 Å) under the specified blocked conditions. There is no data available for any molecule that *can* be adsorbed by MAF-58 to establish a lower bound for its effective pore size. While isoprene's intermediate dimension (6.093 Å) is smaller than that of benzene (6.762 Å), we cannot confirm if the effective pore aperture, reduced by the methanol blocking, is large enough to accommodate isoprene. Without evidence of passage or a lower bound for the effective pore size, and given the explicit "size exclusion due to coordinated methanol blocking" mechanism, adsorption cannot be confirmed.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: MAF-58
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Not Adsorbed (Reason: Size exclusion due to coordinated methanol blocking the aperture; Conditions: 298 K, liquid phase).
+
+Based solely on the provided data, for MAF-58 under conditions where coordinated methanol blocks the aperture, benzene (intermediate dimension 6.762 Å) is explicitly excluded due to size exclusion. This implies that the effective pore aperture of MAF-58 under these conditions is less than 6.762 Å.
+
+cis-2-pentene Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+The experimental data only provides an upper bound for the effective pore size of MAF-58 (i.e., < 6.762 Å) under the specified blocked conditions. There is no data available for any molecule that *can* be adsorbed by MAF-58 to establish a lower bound for its effective pore size. While cis-2-pentene's intermediate dimension (5.572 Å) is smaller than that of benzene (6.762 Å), we cannot confirm if the effective pore aperture, reduced by the methanol blocking, is large enough to accommodate cis-2-pentene. Without evidence of passage or a lower bound for the effective pore size, and given the explicit "size exclusion due to coordinated methanol blocking" mechanism, adsorption cannot be confirmed.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: MAF-58
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Not Adsorbed (Reason: Size exclusion due to coordinated methanol blocking the aperture; Conditions: 298 K, liquid phase).
+
+Based solely on the provided data, for MAF-58 under conditions where coordinated methanol blocks the aperture, benzene (intermediate dimension 6.762 Å) is explicitly excluded due to size exclusion. This implies that the effective pore aperture of MAF-58 under these conditions is less than 6.762 Å.
+
+1-pentene Dimensions:
+*   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+The experimental data only provides an upper bound for the effective pore size of MAF-58 (i.e., < 6.762 Å) under the specified blocked conditions. There is no data available for any molecule that *can* be adsorbed by MAF-58 to establish a lower bound for its effective pore size. While 1-pentene's intermediate dimension (4.995 Å) is smaller than that of benzene (6.762 Å), we cannot confirm if the effective pore aperture, reduced by the methanol blocking, is large enough to accommodate 1-pentene. Without evidence of passage or a lower bound for the effective pore size, and given the explicit "size exclusion due to coordinated methanol blocking" mechanism, adsorption cannot be confirmed.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: MAF-58
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Not Adsorbed (Reason: Size exclusion due to coordinated methanol blocking the aperture; Conditions: 298 K, liquid phase).
+
+Based solely on the provided data, for MAF-58 under conditions where coordinated methanol blocks the aperture, benzene (intermediate dimension 6.762 Å) is explicitly excluded due to size exclusion. This implies that the effective pore aperture of MAF-58 under these conditions is less than 6.762 Å.
+
+trans-2-pentene Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+The experimental data only provides an upper bound for the effective pore size of MAF-58 (i.e., < 6.762 Å) under the specified blocked conditions. There is no data available for any molecule that *can* be adsorbed by MAF-58 to establish a lower bound for its effective pore size. While trans-2-pentene's intermediate dimension (4.733 Å) is smaller than that of benzene (6.762 Å), we cannot confirm if the effective pore aperture, reduced by the methanol blocking, is large enough to accommodate trans-2-pentene. Without evidence of passage or a lower bound for the effective pore size, and given the explicit "size exclusion due to coordinated methanol blocking" mechanism, adsorption cannot be confirmed.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: MAF-58
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Not Adsorbed (Reason: Size exclusion due to coordinated methanol blocking the aperture; Conditions: 298 K, liquid phase).
+
+Based solely on the provided data, for MAF-58 under conditions where coordinated methanol blocks the aperture, benzene (intermediate dimension 6.762 Å) is explicitly excluded due to size exclusion. This implies that the effective pore aperture of MAF-58 under these conditions is less than 6.762 Å.
+
+n-pentane Dimensions:
+*   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+The experimental data only provides an upper bound for the effective pore size of MAF-58 (i.e., < 6.762 Å) under the specified blocked conditions. There is no data available for any molecule that *can* be adsorbed by MAF-58 to establish a lower bound for its effective pore size. While n-pentane's intermediate dimension (4.364 Å) is smaller than that of benzene (6.762 Å), we cannot confirm if the effective pore aperture, reduced by the methanol blocking, is large enough to accommodate n-pentane. Without evidence of passage or a lower bound for the effective pore size, and given the explicit "size exclusion due to coordinated methanol blocking" mechanism, adsorption cannot be confirmed.
+
+Therefore, the result is: **Cannot Adsorb**

@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "nbo464",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "nbo",
+        "Metal Nodes": [
+            "Cu(II)"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Thermodynamic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "40 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation of hydrogen isotopes (D2/H2)"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Thermodynamic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "40 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation of hydrogen isotopes (D2/H2)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Thermodynamic quantum sieving",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "D2/H2 selectivity: 36.9, Adsorbent Performance Score (APS): 315.9 at 40 K and 1.0 bar"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits excellent separation performance for hydrogen isotopes under cryogenic conditions, surpassing industrial cryogenic distillation processes."
+        }
+    }
+]

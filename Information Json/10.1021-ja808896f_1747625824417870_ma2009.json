@@ -1,0 +1,344 @@
+[
+    {
+        "Materials Name": "MAMS-2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.82 Å (hydrophilic channels), 9.71 Å (hydrophobic cage slits)",
+            "Structure Type": "2D sandwich layers with 1D triangular hydrophilic channels and hydrophobic cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4′-tert-butyl-biphenyl-3,5-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectively adsorbed over CO, N2, and O2 at 77 K."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "87 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed selectively over N2 and CO at 87 K."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "113 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate uptake observed at 113 K."
+                }
+            },
+            {
+                "Molecule Name": "carbon monoxide",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "113 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake compared to nitrogen at 113 K."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "143 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Distinguished from ethylene at 143 K."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "195 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Distinguished from propylene at 195 K."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.50 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "231 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Distinguished from isobutane at 231 K."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.00 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to channel size limit",
+                "Other Information": {
+                    "Test Conditions": "231 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Limited uptake due to kinetic diameter exceeding channel size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature-tuned gate opening controlled by van der Waals interactions of tert-butyl groups",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Gas adsorption measurements using Beckman Coulter SA 3100 surface area analyzer",
+            "Performance Metrics": "Selective adsorption of H2 over CO, N2, and O2 at 77 K; selective adsorption of O2 over N2 and CO at 87 K."
+        },
+        "Other Information": {
+            "Additional Info": "Linear relationship between mesh size and temperature: D = 0.0073T + 2.83."
+        }
+    },
+    {
+        "Materials Name": "MAMS-3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "8.07 Å (hydrophilic channels), 9.87 Å (hydrophobic cage slits)",
+            "Structure Type": "2D sandwich layers with 1D triangular hydrophilic channels and hydrophobic cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "4′-tert-butyl-biphenyl-3,5-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "87 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "113 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            },
+            {
+                "Molecule Name": "carbon monoxide",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "113 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "143 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "195 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.50 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "231 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.00 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to channel size limit",
+                "Other Information": {
+                    "Test Conditions": "231 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature-tuned gate opening controlled by van der Waals interactions of tert-butyl groups",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Gas adsorption measurements using Beckman Coulter SA 3100 surface area analyzer",
+            "Performance Metrics": "Similar gas adsorption behavior to MAMS-2."
+        },
+        "Other Information": {
+            "Additional Info": "Linear relationship between mesh size and temperature: D = 0.0073T + 2.83."
+        }
+    },
+    {
+        "Materials Name": "MAMS-4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.90 Å (hydrophilic channels), 9.60 Å (hydrophobic cage slits)",
+            "Structure Type": "2D sandwich layers with 1D triangular hydrophilic channels and hydrophobic cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4′-tert-butyl-biphenyl-3,5-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "87 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "113 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            },
+            {
+                "Molecule Name": "carbon monoxide",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "113 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "143 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "195 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.50 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving via tert-butyl gating",
+                "Other Information": {
+                    "Test Conditions": "231 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.00 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to channel size limit",
+                "Other Information": {
+                    "Test Conditions": "231 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar behavior to MAMS-2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature-tuned gate opening controlled by van der Waals interactions of tert-butyl groups",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Gas adsorption measurements using Beckman Coulter SA 3100 surface area analyzer",
+            "Performance Metrics": "Similar gas adsorption behavior to MAMS-2."
+        },
+        "Other Information": {
+            "Additional Info": "Linear relationship between mesh size and temperature: D = 0.0073T + 2.83."
+        }
+    }
+]

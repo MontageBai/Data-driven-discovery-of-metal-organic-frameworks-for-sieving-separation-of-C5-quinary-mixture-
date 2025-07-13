@@ -1,0 +1,122 @@
+[
+    {
+        "Materials Name": "NNM-5",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.8 Å (square windows), 3.8 Å (hexagonal windows)",
+            "Structure Type": "Big cage and small aperture"
+        },
+        "Topology": "SOD",
+        "Metal Nodes": [
+            "Zr6"
+        ],
+        "Ligands": [
+            "4,4’,4’’-nitrilotribenzoic acid",
+            "formic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exceptional high uptake of 65.9 cm³ g⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower uptake compared to n-hexane"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-exclusion based separation due to narrow window",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "n-hexane uptake: 65.9 cm³ g⁻¹, Complete exclusion of 2,2-dimethylbutane"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrated excellent recyclability and structural stability after multiple cycles"
+        }
+    },
+    {
+        "Materials Name": "NNM-6",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.6 Å (6MR window), 4.4 Å (3MR window)",
+            "Structure Type": "Large hexagonal window accommodating two ligands"
+        },
+        "Topology": "dia",
+        "Metal Nodes": [
+            "Zr6"
+        ],
+        "Ligands": [
+            "6,6’,6’’-(1,3,5-Benzenetriyl)tris[2-naphthalenecarboxylic acid]",
+            "bicyclo[1.1.1]pentane-1,3-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower separation potential observed"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower separation potential observed"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower separation potential observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption measurement",
+            "Performance Metrics": "Lower separation potential compared to NNM-5"
+        },
+        "Other Information": {
+            "Additional Info": "NNM-6 has larger windows, leading to lower separation potential"
+        }
+    }
+]

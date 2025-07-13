@@ -1,0 +1,100 @@
+[
+    {
+        "Materials Name": "MUV-26a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.58 Å",
+            "Structure Type": "2D"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe(III)",
+            "Fe(II)"
+        ],
+        "Ligands": [
+            "isonicotinate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption capacity is higher at low temperatures due to thermodynamic effects."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 is excluded due to its larger kinetic diameter compared to the pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Virtually infinite CO2/N2 selectivity"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits complete regeneration at room temperature and ambient pressure."
+        }
+    },
+    {
+        "Materials Name": "MUV-26b",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.58 Å",
+            "Structure Type": "3D"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe(III)",
+            "Fe(II)"
+        ],
+        "Ligands": [
+            "isonicotinate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption capacity is higher at low temperatures due to thermodynamic effects."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 is excluded due to its larger kinetic diameter compared to the pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Virtually infinite CO2/N2 selectivity"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits complete regeneration at room temperature and ambient pressure."
+        }
+    }
+]

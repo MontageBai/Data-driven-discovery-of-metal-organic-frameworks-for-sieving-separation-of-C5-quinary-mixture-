@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "JLNU-4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "10.4 Å x 8.7 Å, 7.8 Å x 7.5 Å",
+            "Structure Type": "3D microporous framework"
+        },
+        "Topology": "pts",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "3,3',5,5'-azobenzenetetracarboxylic acid (H4ABTC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions, in DMA solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The relatively small-sized dye methylene blue was selectively adsorbed by JLNU-4 due to the size-exclusion effect."
+                }
+            },
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions, column-chromatographic separation in DMA solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Congo red was excluded by the pores of JLNU-4 during column-chromatographic separation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "UV/vis spectroscopy, column-chromatographic separation",
+            "Performance Metrics": "Complete and rapid adsorption of methylene blue; successful separation of methylene blue from congo red"
+        },
+        "Other Information": {
+            "Additional Info": "JLNU-4 is a multifunctional microporous MOF that also shows excellent iodine adsorption both in solution and vapor phases."
+        }
+    }
+]

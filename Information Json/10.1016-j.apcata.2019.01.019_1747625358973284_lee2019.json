@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "SGU-29",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.5 × 7.3 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "silicate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cyclohexene",
+                "Molecular Size": "5.7 × 3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "1 bar of O2 at 70 °C for 12 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Only inner zeolitic conversion occurs within SGU-29 nanochannels."
+                }
+            },
+            {
+                "Molecule Name": "octadecyl–3–(3,5–di–tertbutyl–4–hydroxyphenyl)–propionate (OBHP)",
+                "Molecular Size": "˜9.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "1 bar of O2 at 70 °C for 12 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Bulky scavenger unable to enter SGU-29 channels; inhibits external surface and solvent reactions."
+                }
+            },
+            {
+                "Molecule Name": "cis-cyclooctene",
+                "Molecular Size": "6.2 × 4.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "1 bar of O2 at 70 °C for 12 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Unable to enter SGU-29 channels due to size similarity with window dimensions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Cyclohexene conversion yield: 42%, Selectivity: 2-cyclohexene-1-ol (23%), 2-cyclohexene-1-one (48%), cyclohexene hydroperoxide (23%)"
+        },
+        "Other Information": {
+            "Additional Info": "Catalytic activity is attributed to [CuO4] square planar units in confined nanochannels; no physical or chemical destruction of SGU-29 observed."
+        }
+    }
+]

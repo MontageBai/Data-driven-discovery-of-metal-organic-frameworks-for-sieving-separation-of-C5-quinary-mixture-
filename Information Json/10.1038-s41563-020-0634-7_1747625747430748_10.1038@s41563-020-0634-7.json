@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "UiO-66-(COOH)2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å (triangular window), 8-11 Å (cavities)",
+            "Structure Type": "3D porous network with cavity-neck architecture"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "1,2,4,5-benzenetetracarboxylic acid (H4BTEC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Partial dehydration and ion-COOH interactions",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, pH 5.7, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High K+ conductivity due to low energy barrier and high concentration in the MOF channels."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Strong binding with carboxyl groups and repeated dehydration-rehydration",
+                "Other Information": {
+                    "Test Conditions": "0.1 M MgCl2, pH 5.7, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Extremely low Mg2+ conductivity due to high energy barrier and low mobility in the MOF channels."
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Partial dehydration and ion-COOH interactions",
+                "Other Information": {
+                    "Test Conditions": "0.1 M LiCl, pH 5.7, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+ conductivity lower than K+ but higher than divalent ions."
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Strong binding with carboxyl groups and repeated dehydration-rehydration",
+                "Other Information": {
+                    "Test Conditions": "0.1 M CaCl2, pH 5.7, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low Ca2+ conductivity similar to Mg2+."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dehydration-rehydration effect and ion-COOH interactions leading to ultrahigh mono/divalent cation selectivity.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I-V) measurements, binary ion permeation experiments, MD simulations, DFT calculations",
+            "Performance Metrics": "K+/Mg2+ selectivity up to 4948 at -1 V, Na+/Mg2+ selectivity up to 336.7 in binary separation."
+        },
+        "Other Information": {
+            "Additional Info": "pH-tunable selectivity; increased K+/Mg2+ selectivity from ~10^2 to ~10^4 as pH increased from 3 to 8."
+        }
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "BMAT3H5",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.04 nm (micropores), 4.46 nm and 35.59 nm (mesopores)",
+            "Structure Type": "Hierarchical pore structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "4-(4-carboxy-N-(4-carboxyphenyl) anilino) benzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "tetracycline",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The hierarchical pore structure enhances the interaction between tetracycline and Zr-MOF, improving detection sensitivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Fluorescence detection and adsorption experiments",
+            "Performance Metrics": "LOD: 28 ± 0.012 nM, KSV: 1.89 ± 0.001 × 10^6 M^-1, Maximum adsorption capacity: 317.6 mg/g"
+        },
+        "Other Information": {
+            "Additional Info": "BMAT3H5 exhibits excellent stability, recyclability, and selectivity for tetracycline detection and adsorption."
+        }
+    }
+]

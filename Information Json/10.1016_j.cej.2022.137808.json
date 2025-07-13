@@ -1,0 +1,84 @@
+[
+    {
+        "Materials Name": "MoS2/CMOF composite membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.309 nm (mean pore diameter)",
+            "Structure Type": "Hierarchical architecture with multistage micropores and mesopores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "chitosan"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ciprofloxacin",
+                "Molecular Size": "12.9 × 7.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion, electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH = 7.0, 0.2 MPa applied pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 98.01 ± 1.12%"
+                }
+            },
+            {
+                "Molecule Name": "ofloxacin",
+                "Molecular Size": "13.6 × 7.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion, faint electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH = 7.0, 0.2 MPa applied pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 94.31 ± 0.68%"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "15.0 × 6.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 97.74 ± 0.77%"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "17.0 × 13.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 95.68 ± 0.25%"
+                }
+            },
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "26.2 × 7.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.17 ± 0.18%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combination of molecular sieving effect (size exclusion), electrostatic repulsion, and hydrophilic-hydrophobic interaction",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Nanofiltration performance test using a laboratory cross-flow equipment",
+            "Performance Metrics": "Water permeance: 78.98 ± 1.45 L·m-2h−1 bar−1; Ciprofloxacin rejection: 98.01 ± 1.12%; Ofloxacin rejection: 94.31 ± 0.68%"
+        },
+        "Other Information": {
+            "Additional Info": "The MoS2/CMOF composite membrane was prepared via an electrostatic layer-by-layer self-assembly method, integrating MoS2 nanosheets and chitosan-crosslinked UiO-66-NH2 MOFs."
+        }
+    }
+]

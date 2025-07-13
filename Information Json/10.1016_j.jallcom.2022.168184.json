@@ -1,0 +1,78 @@
+[
+    {
+        "Materials Name": "TpPa-1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.8–2 nm (micropores)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [],
+        "Ligands": [
+            "1,3,5-triformylphloroglucinol",
+            "p-phenylenediamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium polysulfide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The microporous nature of TpPa-1 acts as a barrier to lithium polysulfides while allowing Li+ ion transport."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "H-type cell diffusion test",
+            "Performance Metrics": "Effectively blocks polysulfide crossover while maintaining Li+ ion transport."
+        },
+        "Other Information": {
+            "Additional Info": "TpPa-1 exhibits weak interaction energies with Li2S (-0.73 eV) and Li2S4 (-0.53 eV), confirming its role as a physical barrier rather than a strong chemical adsorbent."
+        }
+    },
+    {
+        "Materials Name": "Co/Ti-NC@TpPa",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.8–2 nm (micropores), 3.5–4 nm (mesopores)",
+            "Structure Type": "Core-shell"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+",
+            "Ti4+"
+        ],
+        "Ligands": [
+            "2-Aminoterephthalic acid",
+            "1,3,5-triformylphloroglucinol",
+            "p-phenylenediamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium polysulfide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Combined chemical adsorption and physical sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The TpPa-1 shell prevents direct contact between lithium polysulfides and the Co/Ti-NC core during solution-based tests. However, in battery operation, lithium polysulfides are confined within the core where they are chemically adsorbed and catalytically converted."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combined chemical adsorption and physical sieving",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Adsorption tests, CV, LSV, and battery cycling performance",
+            "Performance Metrics": "Initial specific capacity: 1135 mAh g−1 at 0.2 C; Capacity retention: 600 mAh g−1 after 500 cycles at 1 C."
+        },
+        "Other Information": {
+            "Additional Info": "The Co/Ti-NC core provides strong chemical affinity for lithium polysulfides, while the TpPa-1 shell physically restricts their diffusion out of the material."
+        }
+    }
+]

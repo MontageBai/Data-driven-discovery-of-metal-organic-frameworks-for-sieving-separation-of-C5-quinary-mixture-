@@ -1,0 +1,104 @@
+MOF Name: apo + N320 + N14 + E51
+
+**Important Note on Data Limitations:**
+The provided experimental data for "apo + N320 + N14 + E51" includes only one adsorbed molecule (carbon dioxide) and no molecules that were *not* adsorbed due to size exclusion. Therefore, while a lower bound for the MOF's effective pore size can be inferred, an upper bound (i.e., a threshold beyond which molecules are excluded) cannot be established from the provided data. This means that, based *strictly* on the size exclusion principle using the given information, we cannot definitively rule out the adsorption of molecules larger than carbon dioxide. The predictions below are made under this critical data limitation.
+
+---
+
+MOF Name: apo + N320 + N14 + E51
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Inferred effective pore size of apo + N320 + N14 + E51 is at least 3.200 Å, as it successfully adsorbs carbon dioxide.
+Crucially, no experimental data is provided for a molecule *not* adsorbed by this MOF due to size exclusion. Therefore, an upper limit for the effective pore size cannot be established from the given data to predict size exclusion for larger molecules.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is larger than the intermediate dimension of adsorbed carbon dioxide (3.200 Å). However, without an experimentally determined upper size exclusion limit for the MOF, it cannot be definitively concluded that isoprene *cannot* be adsorbed based solely on the provided size exclusion data. Thus, there is no evidence from the given data to suggest it cannot pass.
+
+---
+
+MOF Name: apo + N320 + N14 + E51
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Inferred effective pore size of apo + N320 + N14 + E51 is at least 3.200 Å, as it successfully adsorbs carbon dioxide.
+Crucially, no experimental data is provided for a molecule *not* adsorbed by this MOF due to size exclusion. Therefore, an upper limit for the effective pore size cannot be established from the given data to predict size exclusion for larger molecules.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is larger than the intermediate dimension of adsorbed carbon dioxide (3.200 Å). However, without an experimentally determined upper size exclusion limit for the MOF, it cannot be definitively concluded that cis-2-pentene *cannot* be adsorbed based solely on the provided size exclusion data. Thus, there is no evidence from the given data to suggest it cannot pass.
+
+---
+
+MOF Name: apo + N320 + N14 + E51
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Inferred effective pore size of apo + N320 + N14 + E51 is at least 3.200 Å, as it successfully adsorbs carbon dioxide.
+Crucially, no experimental data is provided for a molecule *not* adsorbed by this MOF due to size exclusion. Therefore, an upper limit for the effective pore size cannot be established from the given data to predict size exclusion for larger molecules.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is larger than the intermediate dimension of adsorbed carbon dioxide (3.200 Å). However, without an experimentally determined upper size exclusion limit for the MOF, it cannot be definitively concluded that 1-pentene *cannot* be adsorbed based solely on the provided size exclusion data. Thus, there is no evidence from the given data to suggest it cannot pass.
+
+---
+
+MOF Name: apo + N320 + N14 + E51
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Inferred effective pore size of apo + N320 + N14 + E51 is at least 3.200 Å, as it successfully adsorbs carbon dioxide.
+Crucially, no experimental data is provided for a molecule *not* adsorbed by this MOF due to size exclusion. Therefore, an upper limit for the effective pore size cannot be established from the given data to predict size exclusion for larger molecules.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is larger than the intermediate dimension of adsorbed carbon dioxide (3.200 Å). However, without an experimentally determined upper size exclusion limit for the MOF, it cannot be definitively concluded that trans-2-pentene *cannot* be adsorbed based solely on the provided size exclusion data. Thus, there is no evidence from the given data to suggest it cannot pass.
+
+---
+
+MOF Name: apo + N320 + N14 + E51
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Inferred effective pore size of apo + N320 + N14 + E51 is at least 3.200 Å, as it successfully adsorbs carbon dioxide.
+Crucially, no experimental data is provided for a molecule *not* adsorbed by this MOF due to size exclusion. Therefore, an upper limit for the effective pore size cannot be established from the given data to predict size exclusion for larger molecules.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is larger than the intermediate dimension of adsorbed carbon dioxide (3.200 Å). However, without an experimentally determined upper size exclusion limit for the MOF, it cannot be definitively concluded that n-pentane *cannot* be adsorbed based solely on the provided size exclusion data. Thus, there is no evidence from the given data to suggest it cannot pass.

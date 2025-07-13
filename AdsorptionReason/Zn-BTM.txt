@@ -1,0 +1,102 @@
+MOF Name: Zn-BTM
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-BTM:
+- 1-butene: 7.585×4.583×4.535 → Intermediate = 4.583 Å | Adsorbed
+- Butadiene: 7.663×5.161×3.200 → Intermediate = 5.161 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn-BTM:
+Based on the adsorption of 1-butene (intermediate dimension 4.583 Å) and the size exclusion of butadiene (intermediate dimension 5.161 Å), the effective pore size of Zn-BTM is inferred to be greater than or equal to 4.583 Å and less than 5.161 Å. Thus, the inferred effective pore size range is **[4.583 Å, 5.161 Å)**.
+
+Target molecule details:
+- Isoprene Dimensions: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is larger than the upper bound of the inferred effective pore size range (5.161 Å), it cannot be adsorbed by Zn-BTM due to size exclusion.
+
+---
+
+MOF Name: Zn-BTM
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-BTM:
+- 1-butene: 7.585×4.583×4.535 → Intermediate = 4.583 Å | Adsorbed
+- Butadiene: 7.663×5.161×3.200 → Intermediate = 5.161 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn-BTM:
+Based on the adsorption of 1-butene (intermediate dimension 4.583 Å) and the size exclusion of butadiene (intermediate dimension 5.161 Å), the effective pore size of Zn-BTM is inferred to be greater than or equal to 4.583 Å and less than 5.161 Å. Thus, the inferred effective pore size range is **[4.583 Å, 5.161 Å)**.
+
+Target molecule details:
+- cis-2-pentene Dimensions: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is larger than the upper bound of the inferred effective pore size range (5.161 Å), it cannot be adsorbed by Zn-BTM due to size exclusion.
+
+---
+
+MOF Name: Zn-BTM
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-BTM:
+- 1-butene: 7.585×4.583×4.535 → Intermediate = 4.583 Å | Adsorbed
+- Butadiene: 7.663×5.161×3.200 → Intermediate = 5.161 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn-BTM:
+Based on the adsorption of 1-butene (intermediate dimension 4.583 Å) and the size exclusion of butadiene (intermediate dimension 5.161 Å), the effective pore size of Zn-BTM is inferred to be greater than or equal to 4.583 Å and less than 5.161 Å. Thus, the inferred effective pore size range is **[4.583 Å, 5.161 Å)**.
+
+Target molecule details:
+- 1-pentene Dimensions: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) falls within the inferred effective pore size range [4.583 Å, 5.161 Å), it is predicted that it can be adsorbed by Zn-BTM. Although 1-butene exhibited "Inverse selective adsorption", the primary mechanism for non-adsorption of butadiene was size exclusion, suggesting a clear pore aperture defined by these sizes.
+
+---
+
+MOF Name: Zn-BTM
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-BTM:
+- 1-butene: 7.585×4.583×4.535 → Intermediate = 4.583 Å | Adsorbed
+- Butadiene: 7.663×5.161×3.200 → Intermediate = 5.161 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn-BTM:
+Based on the adsorption of 1-butene (intermediate dimension 4.583 Å) and the size exclusion of butadiene (intermediate dimension 5.161 Å), the effective pore size of Zn-BTM is inferred to be greater than or equal to 4.583 Å and less than 5.161 Å. Thus, the inferred effective pore size range is **[4.583 Å, 5.161 Å)**.
+
+Target molecule details:
+- trans-2-pentene Dimensions: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) falls within the inferred effective pore size range [4.583 Å, 5.161 Å), it is predicted that it can be adsorbed by Zn-BTM. Although 1-butene exhibited "Inverse selective adsorption", the primary mechanism for non-adsorption of butadiene was size exclusion, suggesting a clear pore aperture defined by these sizes.
+
+---
+
+MOF Name: Zn-BTM
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-BTM:
+- 1-butene: 7.585×4.583×4.535 → Intermediate = 4.583 Å | Adsorbed
+- Butadiene: 7.663×5.161×3.200 → Intermediate = 5.161 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn-BTM:
+Based on the adsorption of 1-butene (intermediate dimension 4.583 Å) and the size exclusion of butadiene (intermediate dimension 5.161 Å), the effective pore size of Zn-BTM is inferred to be greater than or equal to 4.583 Å and less than 5.161 Å. Thus, the inferred effective pore size range is **[4.583 Å, 5.161 Å)**.
+
+Target molecule details:
+- n-pentane Dimensions: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the intermediate dimension of 1-butene (4.583 Å), which was experimentally adsorbed, it is predicted that n-pentane can be adsorbed by Zn-BTM.

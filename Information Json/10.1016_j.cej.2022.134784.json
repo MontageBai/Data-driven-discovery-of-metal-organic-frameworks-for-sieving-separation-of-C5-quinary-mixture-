@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Milli-Zn-ATA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.1 × 3.8 Å2 (contracted pore window)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "hcb",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "5-aminotetrazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "6.5 × 4.0 × 3.8 Å3",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Dominant role of intracrystalline diffusion."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "6.8 × 4.2 × 3.8 Å3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slow diffusion due to higher energy penalty in contracted pore windows."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C3H6/C3H8 separation factor: 129, C3H6 purity: 93% in one adsorption–desorption cycle"
+        },
+        "Other Information": {
+            "Additional Info": "Millimetric-sized flake-like crystals with prolonged quasi-discrete pores running parallel to the top crystal surface."
+        }
+    }
+]

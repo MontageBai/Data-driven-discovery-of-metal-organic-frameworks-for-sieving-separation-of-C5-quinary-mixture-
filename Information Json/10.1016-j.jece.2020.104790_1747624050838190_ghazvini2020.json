@@ -1,0 +1,579 @@
+[
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.3 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "220 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor is independent of feed composition."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "220 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor is independent of feed composition."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect based on pore size between 0.29 nm and 0.33 nm.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2/CO2 separation factor reported for equimolar binary mixtures at different H2 concentrations."
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-7 membrane achieves high selectivity of H2 over CO2 due to its pore size."
+        }
+    },
+    {
+        "Materials Name": "NbOFFIVE-1-Ni (KAUST-7)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Extremely small (not explicitly reported)",
+            "Structure Type": "Pillared square grid structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane molecules are excluded due to the extremely small final pore aperture."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene molecules are transported through the solid, resulting in infinite selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Steric effect excluding propane while allowing propylene transport.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Infinite selectivity for propylene over propane."
+        },
+        "Other Information": {
+            "Additional Info": "KAUST-7 is a superior structure for C3H6/C3H8 separation."
+        }
+    },
+    {
+        "Materials Name": "Cu MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "argon",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic separation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Argon molecules separated from CF4 mixture due to smaller size."
+                }
+            },
+            {
+                "Molecule Name": "carbon tetrafluoride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic separation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CF4 molecules not separated due to larger size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "kinetic",
+        "Experimental Validation": {
+            "Method": "Adsorption-based measurement",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Reported by Krungleviciute et al., 2008."
+        }
+    },
+    {
+        "Materials Name": "RPM1-Co",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "argon",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic separation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Argon diffuses faster than CF4."
+                }
+            },
+            {
+                "Molecule Name": "carbon tetrafluoride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic separation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CF4 diffusion rate is slower compared to argon."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "kinetic",
+        "Experimental Validation": {
+            "Method": "Adsorption-based measurement",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Reported by Krungleviciute et al., 2008."
+        }
+    },
+    {
+        "Materials Name": "Cu-BTC",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "argon",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Equilibrium separation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Side pockets with tetrahedral shape can adsorb argon molecules."
+                }
+            },
+            {
+                "Molecule Name": "carbon tetrafluoride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Equilibrium separation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Side pockets with tetrahedral shape cannot adsorb CF4 molecules."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "equilibrium",
+        "Experimental Validation": {
+            "Method": "Equilibrium isotherm study",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Reported by Krungleviciute et al., 2008."
+        }
+    },
+    {
+        "Materials Name": "Cu(mcbdc) (STAM-1)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Two channels (hydrophobic and hydrophilic surfaces)"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "5-methoxycarbonyl-benzene1,3-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic separation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "O2 adsorbs faster than N2 due to channel properties."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic separation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 adsorbs slower than O2 due to channel properties."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "kinetic",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "STAM-1 exhibits kinetic control for O2/N2 separation."
+        }
+    },
+    {
+        "Materials Name": "Zn-based MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic separation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 adsorbed faster than CO2."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic separation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorbs slower than CH4."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "kinetic",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Reported by Huelsenbeck et al., 2019."
+        }
+    },
+    {
+        "Materials Name": "Ni-MOF-74",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 323 K, and 348 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "At 348 K, both equilibrium and kinetic mechanisms apply."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 323 K, and 348 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "At 348 K, both equilibrium and kinetic mechanisms apply."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "kinetic",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment and isotherm analysis",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Reported by Chen et al., 2014."
+        }
+    },
+    {
+        "Materials Name": "Zeolite-A@MOF-74-1",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic separation",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 breakthrough time was very long compared to H2."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic separation",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 breaks through faster than CO2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "kinetic",
+        "Experimental Validation": {
+            "Method": "Binary and multicomponent breakthrough measurements",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Reported by Al-Naddaf et al., 2019."
+        }
+    },
+    {
+        "Materials Name": "MOF-177",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Equilibrium separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher affinity towards CO2 compared to CH4."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Equilibrium separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower affinity towards CH4 compared to CO2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "equilibrium",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and breakthrough curves",
+            "Performance Metrics": "Equilibrium selectivity of CO2 over CH4: 3.21 at 298 K."
+        },
+        "Other Information": {
+            "Additional Info": "Reported by Ullah et al., 2019."
+        }
+    },
+    {
+        "Materials Name": "Zn-aminotriazolato-oxalate (Zn-Atz)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "aminotriazolato-oxalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Equilibrium separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.1 to 50 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significant difference in adsorption capacities between CO2 and other gases."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Equilibrium separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.1 to 50 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low affinity towards H2 compared to CO2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "equilibrium",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Reported by Erucar and Keskin, 2013."
+        }
+    },
+    {
+        "Materials Name": "Zn2(BDC)2(Dabco)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzenedicarboxylate",
+            "Dabco"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Equilibrium separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 323 K, 0-15 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High affinity towards CO2 observed in isotherms."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Equilibrium separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 323 K, 0-15 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower affinity towards CH4 compared to CO2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "equilibrium",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Reported by Liang et al., 2010."
+        }
+    }
+]

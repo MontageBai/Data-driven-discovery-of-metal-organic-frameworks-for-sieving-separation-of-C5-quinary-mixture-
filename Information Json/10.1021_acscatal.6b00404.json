@@ -1,0 +1,96 @@
+[
+    {
+        "MOF Name": "ZJU-28",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "9 Å",
+            "Structure Type": "Interpenetrated MOF containing two unique channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "In3+"
+        ],
+        "Ligands": [
+            "4,4′,4″-benzene-1,3,5-triyl-tribenzoate (BTB)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "2a",
+                "Molecular Size": "9.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.54 mol % of [Rh] in benzene at 35 °C for 24 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Kinetic diameter of 2a (9.5 Å) is larger than the MOF's pore window (9 Å), preventing hydrogenation."
+                }
+            },
+            {
+                "Molecule Name": "2b",
+                "Molecular Size": "16 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.54 mol % of [Rh] in benzene at 35 °C for 24 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Kinetic diameter of 2b (16 Å) is significantly larger than the MOF's pore window (9 Å), preventing hydrogenation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-selective catalysis based on rigid pore apertures",
+        "Experimental Validation": {
+            "Method": "1H NMR spectroscopy of reaction mixture",
+            "Performance Metrics": "No hydrogenation of 2a or 2b detected (TON = 0)."
+        },
+        "Other Information": {
+            "Additional Info": "Anionic at the metal node. Modest thermal stability (~120 °C). Used as a support for cationic Rh complexes via ion exchange."
+        }
+    },
+    {
+        "MOF Name": "MIL-101-SO3",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "16 Å x 14 Å (hexagonal pore windows)",
+            "Structure Type": "Large pseudospherical pores with hexagonal pore windows"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid sulfonate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "2a",
+                "Molecular Size": "9.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion, smaller molecule passes readily",
+                "Other Information": {
+                    "Test Conditions": "0.54 mol % of [Rh] in benzene at 35 °C for 24 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Kinetic diameter (9.5 Å) is smaller than the pore window (16 x 14 Å), allowing full conversion."
+                }
+            },
+            {
+                "Molecule Name": "2b",
+                "Molecular Size": "16 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion, passage restricted by proximity to pore window size",
+                "Other Information": {
+                    "Test Conditions": "0.54 mol % of [Rh] in benzene at 35 °C for 24 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Kinetic diameter (16 Å) is close to the pore window (16 x 14 Å), leading to partial hydrogenation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-selective catalysis based on pore aperture",
+        "Experimental Validation": {
+            "Method": "1H NMR spectroscopy of reaction mixture",
+            "Performance Metrics": "Full conversion for 2a (TON = 185); Partial hydrogenation for 2b (TON = 52)."
+        },
+        "Other Information": {
+            "Additional Info": "Anionic charge centered on the organic linker. High thermal stability (~275 °C). Used as a support for cationic Rh complexes via ion exchange."
+        }
+    }
+]

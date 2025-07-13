@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Cu2(BPY)2(NDIDS)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "8.85 Å (distance between stacked NDIDS ligands)",
+            "Structure Type": "2D sheet-like architecture"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu(I)"
+        ],
+        "Ligands": [
+            "NDIDS",
+            "4,4′-bipyridine (BPY)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ion",
+                "Molecular Size": "0.76 Å (ionic radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination with sulfonate and carbonyl oxygen atoms",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions (ca. 20 °C, 40% RH)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "LiClO4 infiltration increased ionic conductivity significantly."
+                }
+            },
+            {
+                "Molecule Name": "tetrabutylammonium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion or facile removal",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions (ca. 20 °C, 40% RH)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Bu4NClO4 treatment did not change the conductivity of the MOF."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "ac impedance spectroscopy",
+            "Performance Metrics": "Ionic conductivity: 2.3 × 10^-4 S/m for LiClO4-treated MOF"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF retains its structural integrity after treatments with salts and exhibits low activation energy (0.167 eV) for Li+ ion conduction."
+        }
+    }
+]

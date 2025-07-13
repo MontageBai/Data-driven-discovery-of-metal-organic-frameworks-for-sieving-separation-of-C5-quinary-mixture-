@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "NTU-69",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 Å × 3.6 Å (tube), 6.6 Å × 7.0 Å (cage)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "hcb",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "3,5-bis(2-methyl-1H-imidazol-1-yl)pyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å × 3.3 Å × 5.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption near F atom of ZrF6 with a strong affinity."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.2 Å × 4.1 Å × 4.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake observed under the same conditions as acetylene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "IAST selectivity: 45.5 (1/99, v/v), Uptake ratio: 8.1 (1 bar)"
+        },
+        "Other Information": {
+            "Additional Info": "Reversible crystal transformation upon activation; chemical robustness demonstrated by moisture and water stability tests."
+        }
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "P(Ph-3MVIm-Br)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.24 to 7.60 Å (narrowly distributed)",
+            "Structure Type": "Interconnected ultramicroporous channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "1,3,5-tris(1′-methylene-3′-vinylimidazolium bromide)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size sieving effect and hydrogen-bonding-like interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H2 uptake capacity: 32.7 cm³ g⁻¹ at 298 K and 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H4 uptake capacity: 6.89 cm³ g⁻¹ at 298 K and 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K, low pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen is blocked out of the ionic network even at low cryogenic temperature"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Microporous structure allows access",
+                "Other Information": {
+                    "Test Conditions": "195 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption indicates microporous structure with Langmuir surface area of 244 m² g⁻¹"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "C2H2/C2H4 selectivity: 52.7–107.0 at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits excellent thermal and water stability, retaining C2H2 adsorption capacity after exposure to air for 1 year and immersion in hot water at 373 K for 1 month"
+        }
+    },
+    {
+        "Materials Name": "P(Ph-3MVIm-SiF6)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.24 to 7.60 Å (narrowly distributed)",
+            "Structure Type": "Interconnected ultramicroporous channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "1,3,5-tris(1′-methylene-3′-vinylimidazolium hexafluorosilicate)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size sieving effect and hydrogen-bonding-like interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H2 uptake capacity: 29.5 cm³ g⁻¹ at 298 K and 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H4 uptake capacity: 3.09 cm³ g⁻¹ at 298 K and 1 bar"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "C2H2/C2H4 selectivity: 286.1–474.4 at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "High-density basic SiF6²⁻ anions selectively recognize C2H2 molecules based on hydrogen bonding mechanism"
+        }
+    }
+]

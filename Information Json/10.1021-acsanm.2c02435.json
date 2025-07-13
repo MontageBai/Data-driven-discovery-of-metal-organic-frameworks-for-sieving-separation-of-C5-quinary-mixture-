@@ -1,0 +1,117 @@
+[
+    {
+        "Materials Name": "SA-NH-UiO-66",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.6 nm (window), 9.0 Å (cavity)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "sulfoacetic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, osmotic pressure-driven",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methanol flux: 40.2 LMH under PRO mode"
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, osmotic pressure-driven",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethanol flux: 9.3 LMH under FO mode"
+                }
+            },
+            {
+                "Molecule Name": "isopropanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, osmotic pressure-driven",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Isopropanol flux: 2.4 LMH under FO mode"
+                }
+            },
+            {
+                "Molecule Name": "lithium ion",
+                "Molecular Size": "0.764 nm (hydrated)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.1 M LiCl solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "LiCl conductance reduced to 0.11 μS after sulfonation"
+                }
+            },
+            {
+                "Molecule Name": "chloride ion",
+                "Molecular Size": "0.664 nm (hydrated)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.1 M LiCl solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reverse solute flux reduced to 1.3 gMH under PRO mode"
+                }
+            },
+            {
+                "Molecule Name": "paracetamol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, osmotic pressure-driven",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >99%"
+                }
+            },
+            {
+                "Molecule Name": "tetracycline",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, osmotic pressure-driven",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >99%"
+                }
+            },
+            {
+                "Molecule Name": "vitamin B12",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, osmotic pressure-driven",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >99%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with electrostatic repulsion",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Methanol flux: 40.2 LMH, Reverse salt flux: 1.3 gMH, API rejection: >99%"
+        },
+        "Other Information": {
+            "Additional Info": "The sulfonated MOF membrane exhibited high organic solvent permeance and low reverse salt flux in the OSFO process."
+        }
+    }
+]

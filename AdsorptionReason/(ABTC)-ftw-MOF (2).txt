@@ -1,0 +1,81 @@
+**MOF Name: (ABTC)-ftw-MOF (2)**
+**Guest Molecule: isoprene**
+
+**Predicted Result: Cannot Adsorb**
+
+Detailed Reasoning:
+From the experimental data for (ABTC)-ftw-MOF (2) at 298 K:
+*   **Adsorbed (Yes):**
+    *   Propylene (6.257×5.051×3.961) → Intermediate = **5.051 Å**
+    *   1-butene (7.585×4.583×4.535) → Intermediate = **4.583 Å**
+*   **Not Adsorbed (No):**
+    *   Propane (6.552×4.354×3.970) → Intermediate = **4.354 Å**. *Crucially, propane has a smaller intermediate dimension than propylene, yet it is not adsorbed, indicating strong kinetic/shape sieving.*
+    *   Isobutane (6.404×6.393×4.866) → Intermediate = **6.393 Å** (likely size exclusion of a branched molecule).
+
+Inferred effective pore size/selectivity of (ABTC)-ftw-MOF (2):
+This MOF clearly demonstrates **kinetic sieving**, where molecular shape and flexibility play a critical role beyond just the intermediate dimension. It can accommodate relatively linear alkenes with intermediate dimensions up to at least **5.051 Å** (e.g., propylene, 1-butene). However, it specifically excludes molecules like propane (intermediate = 4.354 Å) despite its smaller intermediate dimension compared to propylene, suggesting that its non-planar structure or unfavorable interactions prevent passage. Larger branched molecules like isobutane (6.393 Å) are also excluded. Therefore, the ability to adsorb depends on both the intermediate dimension and the molecular shape/flexibility, with alkanes being more restricted than alkenes of similar or even larger intermediate dimensions.
+
+Isoprene Dimensions: 7.746×6.093×3.963 → Intermediate = **6.093 Å**
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than the largest adsorbed molecule (propylene, 5.051 Å) and is close in size to isobutane (6.393 Å), which is experimentally confirmed as not adsorbed by this MOF. Given the strong kinetic sieving observed and the rejection of a slightly larger branched molecule like isobutane, it is highly probable that isoprene, being a larger molecule, will also be excluded.
+
+---
+
+**MOF Name: (ABTC)-ftw-MOF (2)**
+**Guest Molecule: cis-2-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+Detailed Reasoning:
+(Inferred effective pore size/selectivity of (ABTC)-ftw-MOF (2) as detailed above)
+
+cis-2-pentene Dimensions: 8.067×5.572×5.136 → Intermediate = **5.572 Å**
+
+Conclusion:
+The MOF's experimental data shows it can adsorb molecules with intermediate dimensions up to 5.051 Å (propylene). Cis-2-pentene's intermediate dimension (5.572 Å) is larger than that of propylene (5.051 Å). While the MOF exhibits kinetic sieving, the general trend indicates rejection of molecules with intermediate dimensions significantly exceeding ~5.051 Å (e.g., isobutane at 6.393 Å). Therefore, it is highly likely that cis-2-pentene will be too large to pass the aperture effectively.
+
+---
+
+**MOF Name: (ABTC)-ftw-MOF (2)**
+**Guest Molecule: 1-pentene**
+
+**Predicted Result: Can Adsorb**
+
+Detailed Reasoning:
+(Inferred effective pore size/selectivity of (ABTC)-ftw-MOF (2) as detailed above)
+
+1-pentene Dimensions: 8.847×4.995×4.897 → Intermediate = **4.995 Å**
+
+Conclusion:
+The MOF's experimental data shows it can adsorb propylene (intermediate = 5.051 Å) and 1-butene (intermediate = 4.583 Å). 1-pentene's intermediate dimension (4.995 Å) is slightly smaller than propylene's (5.051 Å) and comparable to other adsorbed linear alkenes. Despite the MOF's kinetic sieving behavior that rejects propane (4.354 Å), 1-pentene is a linear alkene similar to 1-butene and propylene, which are adsorbed. Its intermediate dimension falls well within the range of successfully adsorbed molecules (4.583 Å to 5.051 Å). Thus, it is highly plausible that 1-pentene can be adsorbed.
+
+---
+
+**MOF Name: (ABTC)-ftw-MOF (2)**
+**Guest Molecule: trans-2-pentene**
+
+**Predicted Result: Can Adsorb**
+
+Detailed Reasoning:
+(Inferred effective pore size/selectivity of (ABTC)-ftw-MOF (2) as detailed above)
+
+trans-2-pentene Dimensions: 8.796×4.733×4.564 → Intermediate = **4.733 Å**
+
+Conclusion:
+The MOF's experimental data shows it can adsorb propylene (intermediate = 5.051 Å) and 1-butene (intermediate = 4.583 Å). Trans-2-pentene's intermediate dimension (4.733 Å) is similar to that of 1-butene (4.583 Å) and smaller than propylene (5.051 Å). Its trans configuration makes it relatively linear, similar to other adsorbed alkenes. Given its intermediate dimension falls within the range of successfully adsorbed molecules (4.583 Å to 5.051 Å) and its linear shape, it is highly plausible that trans-2-pentene can be adsorbed, even with the presence of kinetic sieving effects for other molecular types.
+
+---
+
+**MOF Name: (ABTC)-ftw-MOF (2)**
+**Guest Molecule: n-pentane**
+
+**Predicted Result: Cannot Adsorb**
+
+Detailed Reasoning:
+(Inferred effective pore size/selectivity of (ABTC)-ftw-MOF (2) as detailed above)
+
+n-pentane Dimensions: 9.118×4.364×3.969 → Intermediate = **4.364 Å**
+
+Conclusion:
+The MOF's experimental data shows that it explicitly rejects propane (intermediate = 4.354 Å) due to kinetic/shape sieving, despite propylene (intermediate = 5.051 Å) being adsorbed. N-pentane's intermediate dimension (4.364 Å) is almost identical to that of propane (4.354 Å). Given that both are linear alkanes with similar flexibility and non-planar structures, it is highly probable that n-pentane will be rejected by the same kinetic sieving mechanism that excludes propane.

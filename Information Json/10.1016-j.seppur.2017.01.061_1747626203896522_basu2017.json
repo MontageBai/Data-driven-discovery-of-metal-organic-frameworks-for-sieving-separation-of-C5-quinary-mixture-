@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.32 cm³/g (microporous volume), Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetaminophen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention increased from 46% without ZIF-8 to 55% with ZIF-8 in PA layer."
+                }
+            },
+            {
+                "Molecule Name": "magnesium sulphate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection was 91% for PSF/PA and similar for PSF/ZIF-8/PA membranes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Nanofiltration experiment",
+            "Performance Metrics": "Permeance: 4 L/m² h bar for acetaminophen, 2 L/m² h bar for MgSO4"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 improved permeance while maintaining high rejection rates."
+        }
+    }
+]

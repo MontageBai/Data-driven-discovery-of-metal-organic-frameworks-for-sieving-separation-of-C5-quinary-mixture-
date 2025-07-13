@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance up to 201 × 10⁻⁷ mol m⁻² s⁻¹ Pa⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ideal H2/CO2 selectivity of 7:1"
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "O2 permeability estimated as 2940 Barrer"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Flexibility of organic ligands allows passage",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 permeability estimated as 3096 Barrer due to flexibility of ultrathin ZIF-8 layer"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Flexibility of organic ligands allows passage",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 permeability estimated as 2808 Barrer due to flexibility of ultrathin ZIF-8 layer"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale with some flexibility for larger molecules",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeance measurements, XRD, SEM, EDX, TGA, ATR-FTIR",
+            "Performance Metrics": "H2 permeance up to 201 × 10⁻⁷ mol m⁻² s⁻¹ Pa⁻¹, ideal H2/CO2 selectivity of 7:1"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 membrane is supported on a titania-functionalized PVDF polymer substrate. The membrane exhibits mechanical flexibility and can sustain bending without visible fragmentation or loss of gas permeation performance."
+        }
+    }
+]

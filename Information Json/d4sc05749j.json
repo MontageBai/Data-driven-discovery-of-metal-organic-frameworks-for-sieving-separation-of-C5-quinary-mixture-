@@ -1,0 +1,248 @@
+[
+    {
+        "Materials Name": "Zr-fum-FA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.74 Å (PLD), 5.49 Å (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6"
+        ],
+        "Ligands": [
+            "fumarate",
+            "formate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong adsorption at all tested temperatures"
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption enhanced at higher temperatures"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption enhanced at higher temperatures"
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "0.56 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded at all temperatures"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.56 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded at all temperatures"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and kinetic sieving at higher temperatures",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, in situ PXRD, DRIFTS, DFT calculations",
+            "Performance Metrics": "n-Hex/3-MP selectivity: 5.7 at 303 K, 2.8 at 423 K"
+        },
+        "Other Information": {
+            "Additional Info": "Pore structure transforms from segmented triangular channels to integrated rhombic configuration with temperature increase"
+        }
+    },
+    {
+        "Materials Name": "Zr-mes-FA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.02 Å (PLD), 5.29 Å (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6"
+        ],
+        "Ligands": [
+            "mesaconate",
+            "formate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity reduced at higher temperatures"
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption at all temperatures"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption at all temperatures"
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "0.56 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded at all temperatures"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.56 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded at all temperatures"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, in situ PXRD, DRIFTS",
+            "Performance Metrics": "Negligible adsorption capacities above 363 K"
+        },
+        "Other Information": {
+            "Additional Info": "Global dynamics restricted by steric hindrance from methyl groups"
+        }
+    },
+    {
+        "Materials Name": "Hf-fum-FA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.73 Å (PLD), 5.42 Å (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Hf6"
+        ],
+        "Ligands": [
+            "fumarate",
+            "formate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity partially maintained at higher temperatures"
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption at all temperatures"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption at all temperatures"
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "0.56 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded at all temperatures"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.56 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, 10 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded at all temperatures"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, in situ PXRD, DRIFTS",
+            "Performance Metrics": "Intermediate performance between Zr-fum-FA and Zr-mes-FA"
+        },
+        "Other Information": {
+            "Additional Info": "Local flexibility restricted due to enhanced metal node rigidity"
+        }
+    }
+]

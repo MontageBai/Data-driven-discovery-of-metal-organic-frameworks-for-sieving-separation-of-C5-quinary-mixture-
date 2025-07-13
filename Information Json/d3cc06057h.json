@@ -1,0 +1,168 @@
+[
+    {
+        "Materials Name": "COF membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitroaniline",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, methanol solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selective passage of nitroaniline over rose Bengal was observed."
+                }
+            },
+            {
+                "Molecule Name": "rose Bengal",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, methanol solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rose Bengal was retained while nitroaniline passed through."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Nanofiltration experiment",
+            "Performance Metrics": "High rejection rate for rose Bengal (>99%) and successful separation of nitroaniline."
+        },
+        "Other Information": {
+            "Additional Info": "The COF membrane demonstrated stability in various solvents including DMF, acetone, ethanol, methanol, hexane, and isopropanol over 48 hours."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8 interlayer-based OSN membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Small aperture sizes (exact value not reported)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "vitamins",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Various solvent systems: water, methanol, ethanol, acetonitrile, DMF",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Complete rejection of vitamins observed."
+                }
+            },
+            {
+                "Molecule Name": "drugs",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Various solvent systems: water, methanol, ethanol, acetonitrile, DMF",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Membrane showed complete rejection of drugs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Permeability and rejection tests",
+            "Performance Metrics": "Methanol permeability: 3.07–3.4 L m⁻² h⁻¹ bar⁻¹; Water permeability: 15.57 L m⁻² h⁻¹ bar⁻¹; Complete rejection of vitamins and drugs."
+        },
+        "Other Information": {
+            "Additional Info": "Polyethylene glycol acted as a multifunctional agent during ZIF-8 growth, enhancing uniform crystallization and pore retention."
+        }
+    },
+    {
+        "Materials Name": "UiO-66 MOF-based conjugated nanoporous membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Sub-nanometer pores",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "Terephthalic acid derivatives"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "rose Bengal",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ethanol solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.1%."
+                }
+            },
+            {
+                "Molecule Name": "brilliant blue R",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ethanol solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.9%."
+                }
+            },
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ethanol solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.9%."
+                }
+            },
+            {
+                "Molecule Name": "crystal violet",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ethanol solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 94.4%, indicating molecular weight cutoff below 400 Da."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "OSN performance tests",
+            "Performance Metrics": "Permeance: 53.9 L m⁻² h⁻¹ bar⁻¹ (ethanol), 58.1 L m⁻² h⁻¹ bar⁻¹ (water), 244.0 L m⁻² h⁻¹ bar⁻¹ (pentane), 172.9 L m⁻² h⁻¹ bar⁻¹ (hexane)."
+        },
+        "Other Information": {
+            "Additional Info": "Carboxyl groups in MOF and polyelectrolyte improved affinity with polar solvents."
+        }
+    }
+]

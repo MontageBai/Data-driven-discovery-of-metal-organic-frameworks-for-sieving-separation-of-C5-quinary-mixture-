@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Co(bdp)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.43 Å (CO2-expanded phase), 1.55 Å (collapsed phase)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedipyrazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 3.6 bar partial pressure of CO2",
+                    "Threshold Pressure": "2 bar (first phase change)",
+                    "Additional Info": "CO2 induces structural expansion to form a templated clathrate."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 7.2 bar total pressure (50:50 CO2:CH4 mixture)",
+                    "Threshold Pressure": "18 bar (CH4-induced phase change)",
+                    "Additional Info": "CH4 is excluded due to pore size in CO2-expanded phase."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Reversible CO2 templating leading to near-perfect CO2 selectivity.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Multicomponent equilibrium adsorption experiments, in situ powder X-ray diffraction",
+            "Performance Metrics": "Near-perfect CO2/CH4 selectivity under 50:50 gas mixture at 6.7, 13.9, and 25.3 bar; Selectivity of 61 ± 4 under CH4-rich conditions (6:94 CO2:CH4 ratio)."
+        },
+        "Other Information": {
+            "Additional Info": "The material shows flexibility and undergoes reversible structural changes upon CO2 adsorption. The first CO2-induced phase transition occurs at ~2 bar, enabling selective CO2 uptake while excluding CH4."
+        }
+    }
+]

@@ -1,0 +1,73 @@
+MOF Name: GeFSIX-2-Cu-i (ZU-32)
+
+Detailed Reasoning for Pore Size Inference:
+From the provided experimental data for GeFSIX-2-Cu-i (ZU-32):
+*   **Adsorbed:**
+    *   1-butene: 7.585×4.583×4.535 → Intermediate dimension = 4.583 Å
+*   **Not Adsorbed (due to Size exclusion):**
+    *   isobutene: 6.527×5.566×3.960 → Intermediate dimension = 5.566 Å
+
+Based on these observations, the inferred effective pore size of GeFSIX-2-Cu-i (ZU-32) is:
+*   Greater than or equal to the largest intermediate dimension of adsorbed molecules (4.583 Å).
+*   Less than the smallest intermediate dimension of non-adsorbed molecules (5.566 Å).
+Therefore, the effective pore size range for GeFSIX-2-Cu-i (ZU-32) is approximately **[4.583 Å, 5.566 Å)**.
+
+---
+
+**MOF Name: GeFSIX-2-Cu-i (ZU-32)**
+**Guest Molecule: isoprene**
+
+**Predicted Result: Cannot Adsorb**
+
+Detailed Reasoning:
+*   Isoprene Dimensions: 7.746×6.093×3.963 → Intermediate dimension = 6.093 Å
+*   Comparison: Isoprene's intermediate dimension (6.093 Å) is larger than the upper bound of the inferred effective pore size of GeFSIX-2-Cu-i (5.566 Å).
+*   Conclusion: Due to size exclusion, isoprene cannot be adsorbed by GeFSIX-2-Cu-i.
+
+---
+
+**MOF Name: GeFSIX-2-Cu-i (ZU-32)**
+**Guest Molecule: cis-2-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+Detailed Reasoning:
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 → Intermediate dimension = 5.572 Å
+*   Comparison: cis-2-pentene's intermediate dimension (5.572 Å) is slightly larger than the upper bound of the inferred effective pore size of GeFSIX-2-Cu-i (5.566 Å).
+*   Conclusion: Due to size exclusion, cis-2-pentene cannot be adsorbed by GeFSIX-2-Cu-i.
+
+---
+
+**MOF Name: GeFSIX-2-Cu-i (ZU-32)**
+**Guest Molecule: 1-pentene**
+
+**Predicted Result: Can Adsorb**
+
+Detailed Reasoning:
+*   1-pentene Dimensions: 8.847×4.995×4.897 → Intermediate dimension = 4.995 Å
+*   Comparison: 1-pentene's intermediate dimension (4.995 Å) falls within the inferred effective pore size range of GeFSIX-2-Cu-i ([4.583 Å, 5.566 Å)). Specifically, it is greater than 4.583 Å (adsorbed) and less than 5.566 Å (not adsorbed due to size exclusion).
+*   Conclusion: 1-pentene can be adsorbed by GeFSIX-2-Cu-i.
+
+---
+
+**MOF Name: GeFSIX-2-Cu-i (ZU-32)**
+**Guest Molecule: trans-2-pentene**
+
+**Predicted Result: Can Adsorb**
+
+Detailed Reasoning:
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 → Intermediate dimension = 4.733 Å
+*   Comparison: trans-2-pentene's intermediate dimension (4.733 Å) falls within the inferred effective pore size range of GeFSIX-2-Cu-i ([4.583 Å, 5.566 Å)). Specifically, it is greater than 4.583 Å (adsorbed) and less than 5.566 Å (not adsorbed due to size exclusion).
+*   Conclusion: trans-2-pentene can be adsorbed by GeFSIX-2-Cu-i.
+
+---
+
+**MOF Name: GeFSIX-2-Cu-i (ZU-32)**
+**Guest Molecule: n-pentane**
+
+**Predicted Result: Can Adsorb**
+
+Detailed Reasoning:
+*   n-pentane Dimensions: 9.118×4.364×3.969 → Intermediate dimension = 4.364 Å
+*   Comparison: n-pentane's intermediate dimension (4.364 Å) is smaller than the largest intermediate dimension of molecules known to be adsorbed (1-butene, 4.583 Å). Since GeFSIX-2-Cu-i can adsorb molecules with an intermediate dimension of 4.583 Å, it should also be able to adsorb smaller molecules.
+*   Conclusion: n-pentane can be adsorbed by GeFSIX-2-Cu-i.

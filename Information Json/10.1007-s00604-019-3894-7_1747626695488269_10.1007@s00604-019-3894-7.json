@@ -1,0 +1,172 @@
+[
+    {
+        "Materials Name": "poly(VOI-co-EDMA-co-styrene) monolithic column",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D skeleton structure with suitable channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "1-vinyl-3-octylimidazolium bromide",
+            "styrene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophobic interaction, π stacking, ion exclusion interaction",
+                "Other Information": {
+                    "Test Conditions": "20 mM PB (containing 60% ACN, v/v), buffer pH 3.0, applied voltage -15 kV",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor decreases linearly with increase in ACN content from 30% to 70%."
+                }
+            },
+            {
+                "Molecule Name": "ethylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophobic interaction, π stacking, ion exclusion interaction",
+                "Other Information": {
+                    "Test Conditions": "20 mM PB (containing 60% ACN, v/v), buffer pH 3.0, applied voltage -15 kV",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor decreases linearly with increase in ACN content from 30% to 70%."
+                }
+            },
+            {
+                "Molecule Name": "n-propylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophobic interaction, π stacking, ion exclusion interaction",
+                "Other Information": {
+                    "Test Conditions": "20 mM PB (containing 60% ACN, v/v), buffer pH 3.0, applied voltage -15 kV",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor decreases linearly with increase in ACN content from 30% to 70%."
+                }
+            },
+            {
+                "Molecule Name": "n-butylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophobic interaction, π stacking, ion exclusion interaction",
+                "Other Information": {
+                    "Test Conditions": "20 mM PB (containing 60% ACN, v/v), buffer pH 3.0, applied voltage -15 kV",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor decreases linearly with increase in ACN content from 30% to 70%."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophobic interaction, π stacking",
+                "Other Information": {
+                    "Test Conditions": "20 mM PB (containing 60% ACN, v/v), buffer pH 3.0, applied voltage -15 kV",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elution order is based on hydrophobicity and π-conjugation degree."
+                }
+            },
+            {
+                "Molecule Name": "naphthalene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophobic interaction, π stacking",
+                "Other Information": {
+                    "Test Conditions": "20 mM PB (containing 60% ACN, v/v), buffer pH 3.0, applied voltage -15 kV",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elution order is based on hydrophobicity and π-conjugation degree."
+                }
+            },
+            {
+                "Molecule Name": "fluorine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophobic interaction, π stacking",
+                "Other Information": {
+                    "Test Conditions": "20 mM PB (containing 60% ACN, v/v), buffer pH 3.0, applied voltage -15 kV",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elution order is based on hydrophobicity and π-conjugation degree."
+                }
+            },
+            {
+                "Molecule Name": "phenanthrene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophobic interaction, π stacking",
+                "Other Information": {
+                    "Test Conditions": "20 mM PB (containing 60% ACN, v/v), buffer pH 3.0, applied voltage -15 kV",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elution order is based on hydrophobicity and π-conjugation degree."
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ion exclusion interaction, hydrophobic interaction",
+                "Other Information": {
+                    "Test Conditions": "20 mM PB (containing 30% ACN, v/v), buffer pH 3.5, applied voltage -15 kV",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elution order is related to net positive charges of proteins."
+                }
+            },
+            {
+                "Molecule Name": "equine myoglobin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ion exclusion interaction, hydrophobic interaction",
+                "Other Information": {
+                    "Test Conditions": "20 mM PB (containing 30% ACN, v/v), buffer pH 3.5, applied voltage -15 kV",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elution order is related to net positive charges of proteins."
+                }
+            },
+            {
+                "Molecule Name": "cytochrome c",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ion exclusion interaction, hydrophobic interaction",
+                "Other Information": {
+                    "Test Conditions": "20 mM PB (containing 30% ACN, v/v), buffer pH 3.5, applied voltage -15 kV",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elution order is related to net positive charges of proteins."
+                }
+            },
+            {
+                "Molecule Name": "tryptophan",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ion exclusion interaction, hydrophobic interaction",
+                "Other Information": {
+                    "Test Conditions": "30 mM PB (containing 30% ACN, v/v), buffer pH 3.5, applied voltage -15 kV",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elution order is determined by electrophoretic mobility, hydrophobicity, and ion exclusion interaction."
+                }
+            },
+            {
+                "Molecule Name": "phenylalanine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ion exclusion interaction, hydrophobic interaction",
+                "Other Information": {
+                    "Test Conditions": "30 mM PB (containing 30% ACN, v/v), buffer pH 3.5, applied voltage -15 kV",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elution order is determined by electrophoretic mobility, hydrophobicity, and ion exclusion interaction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Mixed-mode retention mechanisms including hydrophobic interaction, π-stacking, ion-exclusion interaction",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Capillary electrochromatography (CEC)",
+            "Performance Metrics": "Column efficiency: 8.72 × 10^4 plates·m−1; Resolution: alkylbenzenes (2.54, 2.86, 4.62), PAHs (2.79, 4.83, 4.77), proteins (4.35, 2.86), amino acids (3.34)"
+        },
+        "Other Information": {
+            "Additional Info": "Monolithic column exhibits strong anodic electroosmotic flow, good reproducibility, and mechanical stability."
+        }
+    }
+]

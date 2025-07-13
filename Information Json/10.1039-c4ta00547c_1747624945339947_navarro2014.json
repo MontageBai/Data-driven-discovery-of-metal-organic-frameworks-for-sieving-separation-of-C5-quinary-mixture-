@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (PLD), 11.6 Å (LCD)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "35–150 °C, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance decreases slightly with increasing temperature."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35–150 °C, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 permeance is lower than H2 due to size exclusion effect."
+                }
+            },
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "2.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Helium permeance is lower than hydrogen, possibly due to Knudsen diffusion in defects."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Adsorption-based sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 separation was not satisfactory due to low adsorption affinity of ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "O2 selectivity over N2 was low due to similar molecular sizes."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 is excluded due to its larger size compared to the pore window."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2/CH4 selectivity: 6.9–14.4, He/CH4 selectivity: 4.1–8.7"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane preparation yielded guest-free, activated ZIF-8 confirmed by TGA analysis."
+        }
+    }
+]

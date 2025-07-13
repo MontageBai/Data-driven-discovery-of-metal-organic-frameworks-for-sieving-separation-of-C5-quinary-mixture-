@@ -1,0 +1,139 @@
+[
+    {
+        "Materials Name": "ZIF-62",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.14 nm (predicted limiting pore size window), 0.46 nm (cage diameter)",
+            "Structure Type": "3D cages connected by narrow windows"
+        },
+        "Topology": "cag",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate",
+            "benzimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "0.346 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "77 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Oxygen exhibits high uptake and promotes structural expansion in ZIF-62."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Kinetic restrictions due to weaker interactions with the framework",
+                "Other Information": {
+                    "Test Conditions": "77 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen is excluded at 77 K but gains access upon a temperature increase to 90 K, promoting structural changes."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methane shows low uptake compared to larger hydrocarbons."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption of saturated hydrocarbons",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane exhibits higher uptake than ethylene due to better fitting in ZIF cavities."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Faster diffusion of unsaturated hydrocarbons",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylene diffuses faster than ethane despite lower uptake."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane experiences limitations in accessing porosity, showing unexpected steps and irreversibility in adsorption."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene shows typical adsorption behavior without significant kinetic restrictions."
+                }
+            },
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-Hexane exhibits severe problems accessing inner cavities, showing irreversible hysteresis."
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "2-Methylpentane shows a sudden decrease in uptake, indicating partial accessibility."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.62 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "2,2-Dimethylbutane is mainly excluded from the porosity due to its large size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Breathing effect and structural expansion upon gas adsorption",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption measurements, synchrotron X-ray powder diffraction, GCMC simulations",
+            "Performance Metrics": "O2/N2 selectivity: >68 at 77 K, Ethane/Ethylene separation factor: >1 at 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-62 undergoes a breathing effect, expanding its unit cell volume by ~3.8% upon gas adsorption at low temperatures."
+        }
+    }
+]

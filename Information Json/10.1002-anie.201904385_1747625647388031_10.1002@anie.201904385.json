@@ -1,0 +1,216 @@
+[
+    {
+        "Materials Name": "P33DT-ThC4",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.35 nm, 0.66 nm",
+            "Structure Type": "3D network with intrinsic and permanent open channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-exclusive separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeability: 626 Barrer"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size-exclusive separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 diffusivity: 11 x 10^-8 cm^2/s"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size-exclusive separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Performance surpasses Robeson upper bound for H2/N2 separation"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size-exclusive separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Performance surpasses Robeson upper bound for H2/CH4 separation"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-exclusive mechanism for gas separation",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Positronium annihilation lifetime spectroscopy (PALS)",
+            "Performance Metrics": "H2/CO2 selectivity: 50, H2 permeability: 626 Barrer"
+        },
+        "Other Information": {
+            "Additional Info": "Long-term stability demonstrated over seven days of continuous measurement"
+        }
+    },
+    {
+        "Materials Name": "P33DT-ThC6",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.47 nm, 0.76 nm",
+            "Structure Type": "3D network with intrinsic and permanent open channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-exclusive separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeability: 283 Barrer"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size-exclusive separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CO2 selectivity: 28"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-exclusive mechanism for gas separation",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Positronium annihilation lifetime spectroscopy (PALS)",
+            "Performance Metrics": "H2/CO2 selectivity: 28, H2 permeability: 283 Barrer"
+        },
+        "Other Information": {
+            "Additional Info": "Performance lies above Robeson upper bound but lower than P33DT-ThC4"
+        }
+    },
+    {
+        "Materials Name": "PDTBD-ThC4",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.28 nm, 0.68 nm",
+            "Structure Type": "Crosslinked polymer network"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CO2 selectivity close to Knudsen diffusion coefficient"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "PALS results indicate insufficient selectivity"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Knudsen diffusion gas transport mechanism",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Positronium annihilation lifetime spectroscopy (PALS)",
+            "Performance Metrics": "H2/CO2 selectivity: 4"
+        },
+        "Other Information": {
+            "Additional Info": "Performance does not exceed Robeson upper bound"
+        }
+    },
+    {
+        "Materials Name": "P22DT-ThC4",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Crosslinked polymer network"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion-dominated transport",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeability: 70 Barrer"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Diffusion-dominated transport",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low permeability suggests closely packed polymer chains"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2 permeability: 70 Barrer"
+        },
+        "Other Information": {
+            "Additional Info": "Performance below Robeson upper bound"
+        }
+    }
+]

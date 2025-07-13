@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Zn-SDBA-bpy",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.7 × 7.2 × 7.9 Å3 (interlayer cavities), 2.2 × 2.2 Å2 (ultramicroporous window aperture)",
+            "Structure Type": "3D framework with interpenetrated layers"
+        },
+        "Topology": "sql",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4,4′-sulfonyldibenzoic acid (SDBA)",
+            "4,4′-bipyridine (bpy)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.32 × 3.34 × 5.7 Å3",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect induced by strong host-guest interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "0.01 bar",
+                    "Additional Info": "Exhibits significant uptake at low pressure (20.7 cm³ g⁻¹ at 0.1 bar)"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.18 × 3.33 × 5.36 Å3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and unfavorable electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake (3.4 cm³ g⁻¹ at 1 bar)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective gate-opening for acetylene due to strong C2H2-host interactions and framework flexibility",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, GCMC simulations, DFT-D calculations",
+            "Performance Metrics": "C2H2/CO2 selectivity: 490.2, C2H2/CO2 uptake ratio: 37.4 (0.1 bar), Working capacity: 27.61 cm³ g⁻¹ at 2 mL min⁻¹ flow rate"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrates excellent cyclability and structural stability; lowest reported threshold pressure (0.01 bar) for flexible MOFs in C2H2/CO2 separation"
+        }
+    }
+]

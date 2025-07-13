@@ -1,0 +1,99 @@
+MOF Name: BFFOUR-Cu-dpds
+
+**Detailed Inference of BFFOUR-Cu-dpds Adsorption Behavior:**
+
+From the experimental data, BFFOUR-Cu-dpds exhibits "Interaction-selective molecular sieving driven by guest-host interactions" and "Selective opening of contracted spaces," indicating that adsorption is not solely based on a rigid pore size but also on molecular type and interactions.
+
+**Molecules Adsorbed by BFFOUR-Cu-dpds:**
+*   **ethylene**: 4.679×4.047×3.200 → Intermediate = **4.047 Å** (Type: Alkene)
+*   **propylene**: 6.257×5.051×3.961 → Intermediate = **5.051 Å** (Type: Alkene)
+*   **benzene**: 7.134×6.762×3.200 → Intermediate = **6.762 Å** (Type: Aromatic) - Adsorbed via "Selective opening of contracted spaces."
+
+**Molecules Not Adsorbed by BFFOUR-Cu-dpds (due to size exclusion/energy barrier):**
+*   **ethane**: 4.731×4.175×4.170 → Intermediate = **4.175 Å** (Type: Alkane) - Not Adsorbed due to "Size exclusion due to higher energy barrier."
+*   **propane**: 6.552×4.354×3.970 → Intermediate = **4.354 Å** (Type: Alkane) - Not Adsorbed due to "Size exclusion due to higher energy barrier."
+*   **cyclohexane**: 6.949×7.090×4.855 → Intermediate = **6.949 Å** (Type: Cycloalkane) - Not Adsorbed due to "Size exclusion due to saturated structure."
+
+**Inferred Effective Pore Size/Selectivity of BFFOUR-Cu-dpds:**
+The MOF demonstrates a clear preference for unsaturated molecules (alkenes, aromatics) over saturated ones (alkanes, cycloalkanes).
+*   It can accommodate molecules with intermediate dimensions up to at least **6.762 Å** (benzene), with flexibility playing a role for larger molecules.
+*   However, it actively excludes alkanes like ethane (4.175 Å) and propane (4.354 Å) due to "higher energy barriers," despite these being geometrically smaller than adsorbed alkenes like propylene (5.051 Å). This highlights a strong **kinetic sieving** and **interaction-selective** mechanism.
+*   The absolute upper limit for entry seems to be below **6.949 Å**, as cyclohexane is excluded.
+
+Therefore, for prediction, we will consider both the intermediate molecular dimension and the chemical type (alkane vs. alkene/aromatic) in conjunction with the observed sieving mechanisms.
+
+---
+
+**MOF Name: BFFOUR-Cu-dpds**
+**Guest Molecule: isoprene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+*   **Target Molecule Dimensions:** isoprene: 7.746×6.093×3.963 → Intermediate = **6.093 Å**
+*   **Comparison to MOF behavior:**
+    *   Isoprene is an unsaturated diene, similar in nature to alkenes (ethylene, propylene) and the aromatic benzene, all of which are adsorbed by BFFOUR-Cu-dpds.
+    *   Its intermediate dimension (6.093 Å) is larger than adsorbed propylene (5.051 Å) but smaller than adsorbed benzene (6.762 Å).
+    *   The MOF demonstrated "Selective opening of contracted spaces" to adsorb benzene (6.762 Å), which is larger than isoprene.
+    *   While smaller alkanes like ethane (4.175 Å) and propane (4.354 Å) are excluded, this is explicitly stated as "size exclusion due to higher energy barrier" for alkanes, which does not apply to unsaturated molecules like isoprene.
+*   **Conclusion:** Given that BFFOUR-Cu-dpds readily adsorbs larger and similarly unsaturated molecules (alkenes, aromatics), and isoprene's intermediate dimension falls within the range of successfully adsorbed species for this MOF, it is predicted to be adsorbed.
+
+---
+
+**MOF Name: BFFOUR-Cu-dpds**
+**Guest Molecule: cis-2-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+*   **Target Molecule Dimensions:** cis-2-pentene: 8.067×5.572×5.136 → Intermediate = **5.572 Å**
+*   **Comparison to MOF behavior:**
+    *   Cis-2-pentene is an alkene, a class of molecules (ethylene, propylene) that are successfully adsorbed by BFFOUR-Cu-dpds.
+    *   Its intermediate dimension (5.572 Å) is larger than adsorbed propylene (5.051 Å) but significantly smaller than adsorbed benzene (6.762 Å).
+    *   The "Interaction-selective molecular sieving" mechanism favors alkenes. Although some alkanes with smaller intermediate dimensions (ethane 4.175 Å, propane 4.354 Å) are excluded, this exclusion is due to a "higher energy barrier" specific to alkanes, not a general geometric cut-off that would hinder this alkene.
+*   **Conclusion:** As an alkene with an intermediate dimension well within the range of adsorbed unsaturated molecules, cis-2-pentene is predicted to be adsorbed.
+
+---
+
+**MOF Name: BFFOUR-Cu-dpds**
+**Guest Molecule: 1-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+*   **Target Molecule Dimensions:** 1-pentene: 8.847×4.995×4.897 → Intermediate = **4.995 Å**
+*   **Comparison to MOF behavior:**
+    *   1-pentene is an alkene, consistent with the adsorption of other alkenes (ethylene, propylene) by BFFOUR-Cu-dpds.
+    *   Its intermediate dimension (4.995 Å) is very similar to adsorbed propylene (5.051 Å) and larger than adsorbed ethylene (4.047 Å).
+    *   The MOF's "Interaction-selective molecular sieving" actively favors alkenes. The exclusion of alkanes (ethane 4.175 Å, propane 4.354 Å) is due to specific energetic barriers for those saturated molecules and does not apply to alkenes of similar or larger intermediate dimensions.
+*   **Conclusion:** Based on its classification as an alkene and an intermediate dimension comparable to other adsorbed alkenes, 1-pentene is predicted to be adsorbed.
+
+---
+
+**MOF Name: BFFOUR-Cu-dpds**
+**Guest Molecule: trans-2-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+*   **Target Molecule Dimensions:** trans-2-pentene: 8.796×4.733×4.564 → Intermediate = **4.733 Å**
+*   **Comparison to MOF behavior:**
+    *   Trans-2-pentene is an alkene, falling into the category of molecules (ethylene, propylene) that are successfully adsorbed by BFFOUR-Cu-dpds.
+    *   Its intermediate dimension (4.733 Å) is larger than adsorbed ethylene (4.047 Å) and smaller than adsorbed propylene (5.051 Å).
+    *   The MOF's "Interaction-selective molecular sieving" mechanism supports the adsorption of alkenes. Although alkanes of similar or slightly smaller intermediate dimensions (ethane 4.175 Å, propane 4.354 Å) are excluded due to "higher energy barrier," this mechanism is specific to saturated molecules.
+*   **Conclusion:** Given its alkene nature and an intermediate dimension consistent with other adsorbed alkenes, trans-2-pentene is predicted to be adsorbed.
+
+---
+
+**MOF Name: BFFOUR-Cu-dpds**
+**Guest Molecule: n-pentane**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **Target Molecule Dimensions:** n-pentane: 9.118×4.364×3.969 → Intermediate = **4.364 Å**
+*   **Comparison to MOF behavior:**
+    *   N-pentane is a saturated alkane, a class of molecules (ethane, propane) that are explicitly *not* adsorbed by BFFOUR-Cu-dpds.
+    *   Its intermediate dimension (4.364 Å) is strikingly similar to that of propane (4.354 Å), which is specifically rejected due to "Size exclusion due to higher energy barrier." It is also larger than ethane (4.175 Å), another rejected alkane.
+    *   The "Interaction-selective molecular sieving" mechanism for this MOF clearly disfavors alkanes, regardless of whether a larger alkene or aromatic molecule can pass.
+*   **Conclusion:** Due to its nature as an alkane and its intermediate dimension being comparable to other alkanes that are explicitly excluded by BFFOUR-Cu-dpds (due to a high energy barrier for entry), n-pentane is predicted to be not adsorbed.

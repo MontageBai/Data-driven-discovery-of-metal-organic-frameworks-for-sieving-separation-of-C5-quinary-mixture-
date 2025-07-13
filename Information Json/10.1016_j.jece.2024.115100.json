@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "NH2-MIL-88B(Fe)/PVDF mixed matrix membranes",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.0402 μm (average for M2)",
+            "Structure Type": "Ultrafiltration membranes with dense skin layer and finger-hole-like support layer"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "2-amino terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "tetracycline hydrochloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25°C, 0.1 MPa, PMS activation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal efficiency depends on both sieving effect and catalytic degradation by reactive oxygen species."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic effect between size sieving of membrane surface pores and catalytic degradation of PMS",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Cross-flow filtration experiments, EPR analysis, quenching experiments",
+            "Performance Metrics": "TC removal rate: 90.36% after 1 hour at optimal conditions"
+        },
+        "Other Information": {
+            "Additional Info": "The system can maintain high activation effect of PMS in a wide pH range of 3–11, with a removal rate above 80% at 60 min."
+        }
+    }
+]

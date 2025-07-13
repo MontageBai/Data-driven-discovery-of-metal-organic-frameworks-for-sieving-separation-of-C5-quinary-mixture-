@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "ZIF-67",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "4.0–4.2 Å (actual sieving pore size), 3.4 Å (crystallographic pore size)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, pervaporation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption and diffusion due to polarity."
+                }
+            },
+            {
+                "Molecule Name": "dimethyl carbonate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, pervaporation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Steric hindrance prevents permeation."
+                }
+            },
+            {
+                "Molecule Name": "tetrahydrofuran",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, pervaporation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Steric hindrance prevents permeation."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, pervaporation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher free energy barrier for transport compared to methanol."
+                }
+            },
+            {
+                "Molecule Name": "methyl tert-butyl ether",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, pervaporation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Steric hindrance prevents permeation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, Molecular Dynamics simulation",
+            "Performance Metrics": "Methanol content in permeate: >98.4% for methanol/DMC and methanol/THF; >99.8% for methanol/toluene and methanol/MTBE; Self-diffusion coefficient of methanol: 4.3×10^-11 m²/s; Self-diffusion coefficient of toluene: 5.8×10^-13 m²/s"
+        },
+        "Other Information": {
+            "Additional Info": "Ultrathin ZIF-67 membranes with thicknesses ranging from 176–477 nm were prepared using hydroxy salt induction. The method is simple, rapid, and applicable to various substrates including AAO, PSf, and PAN."
+        }
+    }
+]

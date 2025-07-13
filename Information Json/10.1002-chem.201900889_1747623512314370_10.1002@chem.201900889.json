@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MFU-4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.5 Å (narrow apertures), 11.9 Å (large cavities)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "H2-BBTA (1H,5H-benzo(1,2-d:4,5-d’)bistriazole)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.4–3.1 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "27–207 K, gas flow conditions with neon carrier gas",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 diffuses faster than D2 above 64 K due to lower molecular weight; quantum effects reverse selectivity below 64 K."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "2.4–3.1 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "27–207 K, gas flow conditions with neon carrier gas",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2 diffuses faster than H2 below 64 K due to quantum effects and lower zero-point energy."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale with quantum effects influencing diffusion rates",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "On-chip surface acoustic wave (SAW) sensor measurements and molecular dynamics simulations",
+            "Performance Metrics": "Maximum D2/H2 selectivity of 1.35 at 27.5 K; crossover temperature at 64 K"
+        },
+        "Other Information": {
+            "Additional Info": "MFU-4 exhibits flexibility in narrow pores, enabling uptake of both H2 and D2 despite ultra-narrow pore apertures of 2.5 Å."
+        }
+    }
+]

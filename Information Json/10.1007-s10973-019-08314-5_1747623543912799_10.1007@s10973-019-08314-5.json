@@ -1,0 +1,76 @@
+[
+    {
+        "Materials Name": "CuBTC",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.7–0.9 nm",
+            "Structure Type": "3D network"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu–Cu dimers"
+        ],
+        "Ligands": [
+            "1,3,5-tricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "30 °C, atmospheric pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sorption capacity decreases with increasing pelletizing pressure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Thermogravimetric analysis (TGA)",
+            "Performance Metrics": "CO2 sorption capacity: 160 mg CO2/g adsorbent (powder), 95 mg CO2/g adsorbent (tablet at 3.7 kN m-2)"
+        },
+        "Other Information": {
+            "Additional Info": "Pelletizing without binder affects crystallinity and sorption capacity depending on the applied pressure."
+        }
+    },
+    {
+        "Materials Name": "MIL-53(Al)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Octahedral AlO4(OH)2 units connected by ligands"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Aluminum octahedra"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "30 °C, atmospheric pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sorption capacity remains unchanged after pelletizing at 3.7 kN m-2 for 2 minutes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Thermogravimetric analysis (TGA)",
+            "Performance Metrics": "CO2 sorption capacity: 60 mg CO2/g adsorbent (powder and tablet)"
+        },
+        "Other Information": {
+            "Additional Info": "Pelletizing without binder retains crystallinity and sorption capacity under specific conditions."
+        }
+    }
+]

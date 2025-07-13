@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "UiO-66-NH2 / UiO-66-(OH)2 core-shell MOF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "4 Å (micropores), 480 nm (macropores)",
+            "Structure Type": "Hierarchical micro-macroporous"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "2,5-dihydroxyterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake capacity of 227 μmol/g."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water uptake capacity up to 27% w/w."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale for micropores and macropores accessible to small molecules.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption experiments, Scanning Electron Microscopy (SEM)",
+            "Performance Metrics": "CO2 uptake: 227 μmol/g (1 bar, 298 K); Water uptake: 27% w/w"
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrates thermal switching behavior with a thermal conductivity increase from 0.140 W/(m·K) to 0.256 W/(m·K) upon water loading."
+        }
+    }
+]

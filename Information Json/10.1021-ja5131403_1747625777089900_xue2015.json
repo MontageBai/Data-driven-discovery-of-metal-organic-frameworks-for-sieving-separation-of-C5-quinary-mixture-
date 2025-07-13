@@ -1,0 +1,105 @@
+[
+    {
+        "Materials Name": "Eu-1,4-NDC-MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.4 Å (minimum), 5 Å (maximum)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Eu3+"
+        ],
+        "Ligands": [
+            "1,4-naphthalenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential interaction with the framework",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/N2 selectivity: 82 at 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-C4H10/CH4 selectivity: ~2385 at 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption kinetics",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Kinetics coefficient: 3.5 × 10^-3 s^-1"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption kinetics",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Kinetics coefficient: 2.1 × 10^-3 s^-1"
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption kinetics",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Kinetics coefficient: 8.0 × 10^-4 s^-1; n-C4H10/CH4 selectivity: ~2710 at 2 bar"
+                }
+            },
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption kinetics",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, vapor pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fastest uptake among tested VOCs"
+                }
+            },
+            {
+                "Molecule Name": "butanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, vapor pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and adsorption kinetics",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, QCM measurements",
+            "Performance Metrics": "n-C4H10/CH4 selectivity: ~2385 at 1 bar; CO2/N2 selectivity: 82 at 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "High chemical and thermal stability; potential for NG upgrading and butanol separation"
+        }
+    }
+]

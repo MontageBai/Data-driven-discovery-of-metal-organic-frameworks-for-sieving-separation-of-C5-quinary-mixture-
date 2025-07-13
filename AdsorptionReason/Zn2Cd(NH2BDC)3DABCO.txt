@@ -1,0 +1,112 @@
+MOF Name: Zn2Cd(NH2BDC)3DABCO
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn2Cd(NH2BDC)3DABCO:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of Zn2Cd(NH2BDC)3DABCO:
+The largest molecule shown to be adsorbed is methane with an intermediate dimension of 3.877 Å. There are no molecules reported as "Not Adsorbed" due to size exclusion. Therefore, based on the provided data, the MOF's effective pore size is inferred to be at least 3.877 Å. Given that only small molecules have been demonstrated to adsorb, and the mechanism is stated as "Size exclusion", it is highly probable that the pore size is tightly defined, meaning molecules significantly larger than the largest adsorbed probe would be excluded.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of the largest molecule experimentally shown to be adsorbed by Zn2Cd(NH2BDC)3DABCO (methane, 3.877 Å), and considering the observed adsorption mechanism is "Size exclusion", it is predicted that isoprene cannot be adsorbed due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn2Cd(NH2BDC)3DABCO
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn2Cd(NH2BDC)3DABCO:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of Zn2Cd(NH2BDC)3DABCO:
+The largest molecule shown to be adsorbed is methane with an intermediate dimension of 3.877 Å. There are no molecules reported as "Not Adsorbed" due to size exclusion. Therefore, based on the provided data, the MOF's effective pore size is inferred to be at least 3.877 Å. Given that only small molecules have been demonstrated to adsorb, and the mechanism is stated as "Size exclusion", it is highly probable that the pore size is tightly defined, meaning molecules significantly larger than the largest adsorbed probe would be excluded.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of the largest molecule experimentally shown to be adsorbed by Zn2Cd(NH2BDC)3DABCO (methane, 3.877 Å), and considering the observed adsorption mechanism is "Size exclusion", it is predicted that cis-2-pentene cannot be adsorbed due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn2Cd(NH2BDC)3DABCO
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn2Cd(NH2BDC)3DABCO:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of Zn2Cd(NH2BDC)3DABCO:
+The largest molecule shown to be adsorbed is methane with an intermediate dimension of 3.877 Å. There are no molecules reported as "Not Adsorbed" due to size exclusion. Therefore, based on the provided data, the MOF's effective pore size is inferred to be at least 3.877 Å. Given that only small molecules have been demonstrated to adsorb, and the mechanism is stated as "Size exclusion", it is highly probable that the pore size is tightly defined, meaning molecules significantly larger than the largest adsorbed probe would be excluded.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of the largest molecule experimentally shown to be adsorbed by Zn2Cd(NH2BDC)3DABCO (methane, 3.877 Å), and considering the observed adsorption mechanism is "Size exclusion", it is predicted that 1-pentene cannot be adsorbed due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn2Cd(NH2BDC)3DABCO
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn2Cd(NH2BDC)3DABCO:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of Zn2Cd(NH2BDC)3DABCO:
+The largest molecule shown to be adsorbed is methane with an intermediate dimension of 3.877 Å. There are no molecules reported as "Not Adsorbed" due to size exclusion. Therefore, based on the provided data, the MOF's effective pore size is inferred to be at least 3.877 Å. Given that only small molecules have been demonstrated to adsorb, and the mechanism is stated as "Size exclusion", it is highly probable that the pore size is tightly defined, meaning molecules significantly larger than the largest adsorbed probe would be excluded.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of the largest molecule experimentally shown to be adsorbed by Zn2Cd(NH2BDC)3DABCO (methane, 3.877 Å), and considering the observed adsorption mechanism is "Size exclusion", it is predicted that trans-2-pentene cannot be adsorbed due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn2Cd(NH2BDC)3DABCO
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn2Cd(NH2BDC)3DABCO:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of Zn2Cd(NH2BDC)3DABCO:
+The largest molecule shown to be adsorbed is methane with an intermediate dimension of 3.877 Å. There are no molecules reported as "Not Adsorbed" due to size exclusion. Therefore, based on the provided data, the MOF's effective pore size is inferred to be at least 3.877 Å. Given that only small molecules have been demonstrated to adsorb, and the mechanism is stated as "Size exclusion", it is highly probable that the pore size is tightly defined, meaning molecules significantly larger than the largest adsorbed probe would be excluded.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is larger than the intermediate dimension of the largest molecule experimentally shown to be adsorbed by Zn2Cd(NH2BDC)3DABCO (methane, 3.877 Å), and considering the observed adsorption mechanism is "Size exclusion", it is predicted that n-pentane cannot be adsorbed due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**

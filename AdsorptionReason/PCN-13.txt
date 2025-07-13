@@ -1,0 +1,73 @@
+MOF Name: PCN-13
+
+### Analysis of PCN-13's Inferred Effective Pore Size:
+
+From the provided experimental data for PCN-13:
+*   **Adsorbed:** Oxygen (Yes) - Dimensions: 4.076×2.860×2.860 → Intermediate dimension = **2.860 Å**
+
+Based on this single data point, we can infer that the effective pore size of PCN-13 is **at least 2.860 Å**.
+There are no experimental data points indicating molecules that were *not* adsorbed due to size exclusion. Therefore, an upper bound for PCN-13's effective pore size cannot be strictly inferred from the provided data.
+
+However, the task requires a definitive "Can Adsorb" or "Cannot Adsorb" prediction. When only a single, very small molecule's adsorption is reported, and significantly larger molecules are being evaluated, it is generally inferred that the MOF's pores are likely constrained to a smaller range, otherwise, adsorption of larger molecules would typically be observed and reported. This aligns with the concept of "size exclusion" being a primary mechanism.
+
+---
+
+### Evaluation of Target Guest Molecules:
+
+**Guest Molecule: isoprene**
+
+*   Full Dimensions: 7.746×6.093×3.963
+*   Intermediate Dimension: **6.093 Å**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+The MOF PCN-13 has been shown to adsorb oxygen, with an intermediate dimension of 2.860 Å. This indicates that PCN-13 has an effective pore size of at least 2.860 Å. Isoprene's intermediate dimension (6.093 Å) is significantly larger than that of oxygen. Given the principle of size exclusion and the absence of any data suggesting that PCN-13 can adsorb molecules of this size, it is inferred that isoprene is too large to pass through PCN-13's pore apertures.
+
+---
+
+**Guest Molecule: cis-2-pentene**
+
+*   Full Dimensions: 8.067×5.572×5.136
+*   Intermediate Dimension: **5.572 Å**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+PCN-13 has been shown to adsorb oxygen (intermediate dimension: 2.860 Å). This sets a lower bound for the MOF's effective pore size. Cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of oxygen. Without experimental evidence of PCN-13 adsorbing molecules of this size, and based on the principle of size exclusion, it is highly probable that cis-2-pentene cannot be adsorbed by PCN-13.
+
+---
+
+**Guest Molecule: 1-pentene**
+
+*   Full Dimensions: 8.847×4.995×4.897
+*   Intermediate Dimension: **4.995 Å**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+PCN-13 is known to adsorb oxygen (intermediate dimension: 2.860 Å). This implies PCN-13's effective pore size is at least 2.860 Å. 1-pentene's intermediate dimension (4.995 Å) is considerably larger than that of oxygen. In the absence of data supporting adsorption of molecules this size, and considering the likely size-exclusion limit of the MOF based on the smallest known adsorbed molecule, it is predicted that 1-pentene cannot be adsorbed by PCN-13.
+
+---
+
+**Guest Molecule: trans-2-pentene**
+
+*   Full Dimensions: 8.796×4.733×4.564
+*   Intermediate Dimension: **4.733 Å**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+PCN-13 has been shown to adsorb oxygen (intermediate dimension: 2.860 Å). This implies the MOF's effective pore size is at least 2.860 Å. Trans-2-pentene's intermediate dimension (4.733 Å) is substantially larger than that of oxygen. Based on the principle of size exclusion and the limited available adsorption data, it is inferred that trans-2-pentene is too large for the pores of PCN-13.
+
+---
+
+**Guest Molecule: n-pentane**
+
+*   Full Dimensions: 9.118×4.364×3.969
+*   Intermediate Dimension: **4.364 Å**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+PCN-13 has been shown to adsorb oxygen (intermediate dimension: 2.860 Å). This indicates an effective pore size of at least 2.860 Å. N-pentane's intermediate dimension (4.364 Å) is significantly larger than oxygen's. Given the limited experimental data where only a small molecule's adsorption is confirmed, it is highly probable that the MOF's effective pore size is not sufficiently large to accommodate n-pentane due to the size exclusion effect.

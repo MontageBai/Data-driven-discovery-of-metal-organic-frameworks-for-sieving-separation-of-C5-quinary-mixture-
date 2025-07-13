@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 6 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced CO2 uptake observed in ZIF-8 + 2HAP PL compared to neat 2HAP."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 6 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 uptake lower than CO2 due to size exclusion effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/N2 selectivity: 12.6"
+        },
+        "Other Information": {
+            "Additional Info": "Neat ZIF-8 was determined to have a BET surface area of 1405 m²/g."
+        }
+    },
+    {
+        "Materials Name": "ZIF-L",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D layers with 0D cavity pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 6 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher CO2 uptake at low pressures due to strong interaction with 0D cavity pores."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 6 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower N2 uptake compared to CO2 attributed to pore structure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/N2 selectivity: 360"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-L demonstrated enhanced CO2/N2 selectivity in ZIF-L + 2HAP PL."
+        }
+    },
+    {
+        "Materials Name": "amorphous milled ZIF-8 (amZIF-8)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Amorphous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 6 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Decreased CO2 uptake due to degradation of pore aperture and loss of periodic porosity."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 6 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower gas uptake compared to neat solvent due to amorphization effects."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Amorphization led to distortion of pore aperture and reduced CO2 adsorption capacity."
+        }
+    }
+]

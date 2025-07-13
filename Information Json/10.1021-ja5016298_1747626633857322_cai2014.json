@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.29 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-7 membranes are effective for H2/CO2 separations in precombustion processes."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30-75 °C, varying pressures",
+                    "Threshold Pressure": "60 kPa at 30 °C",
+                    "Additional Info": "ZIF-7-S exhibits reversible CO2 adsorption/desorption isotherms at 30-75 °C, while ZIF-7-D and -R show hysteretic behavior."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "H2/CO2 selectivity: Not Reported, CO2/N2 selectivity: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "The thermal activation process at ~200 °C under air leads to the removal of guest molecules (mainly DMF), resulting in a structural transition to the ZIF-7-I phase. The smallest ZIF-7 particles (~100 nm) exhibit flexible pore structures near their outer surface, favoring reversible CO2 adsorption/desorption."
+        }
+    }
+]

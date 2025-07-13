@@ -1,0 +1,117 @@
+MOF Name: CALF-35 (La3+)
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CALF-35 (La3+):
+- Carbon dioxide (5.198×3.200×3.200): Intermediate = 3.200 Å | Adsorbed (Yes)
+- Acetylene (5.538×3.200×3.200): Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane (3.877×3.849×3.918): Intermediate = 3.877 Å | Not Adsorbed (No, Size exclusion)
+- Ethylene (4.679×4.047×3.200): Intermediate = 4.047 Å | Conditional (Size exclusion, implies difficult passage/non-passage)
+- Ethane (4.731×4.175×4.170): Intermediate = 4.175 Å | Not Adsorbed (No, Size exclusion)
+
+Inferred effective pore size of CALF-35 (La3+):
+Based on the experimental data, molecules with intermediate dimensions of 3.200 Å (carbon dioxide, acetylene) are adsorbed, while molecules with intermediate dimensions of 3.877 Å (methane) and larger (ethylene, ethane) are not adsorbed or are conditionally adsorbed due to size exclusion. Therefore, the inferred effective pore size of CALF-35 (La3+) lies between **3.200 Å** (inclusive) and **3.877 Å** (exclusive).
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the upper bound of the inferred effective pore size of CALF-35 (La3+) (~3.877 Å), it cannot be adsorbed.
+
+---
+
+MOF Name: CALF-35 (La3+)
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CALF-35 (La3+):
+- Carbon dioxide (5.198×3.200×3.200): Intermediate = 3.200 Å | Adsorbed (Yes)
+- Acetylene (5.538×3.200×3.200): Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane (3.877×3.849×3.918): Intermediate = 3.877 Å | Not Adsorbed (No, Size exclusion)
+- Ethylene (4.679×4.047×3.200): Intermediate = 4.047 Å | Conditional (Size exclusion, implies difficult passage/non-passage)
+- Ethane (4.731×4.175×4.170): Intermediate = 4.175 Å | Not Adsorbed (No, Size exclusion)
+
+Inferred effective pore size of CALF-35 (La3+):
+The inferred effective pore size of CALF-35 (La3+) lies between **3.200 Å** (inclusive) and **3.877 Å** (exclusive).
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the upper bound of the inferred effective pore size of CALF-35 (La3+) (~3.877 Å), it cannot be adsorbed.
+
+---
+
+MOF Name: CALF-35 (La3+)
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CALF-35 (La3+):
+- Carbon dioxide (5.198×3.200×3.200): Intermediate = 3.200 Å | Adsorbed (Yes)
+- Acetylene (5.538×3.200×3.200): Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane (3.877×3.849×3.918): Intermediate = 3.877 Å | Not Adsorbed (No, Size exclusion)
+- Ethylene (4.679×4.047×3.200): Intermediate = 4.047 Å | Conditional (Size exclusion, implies difficult passage/non-passage)
+- Ethane (4.731×4.175×4.170): Intermediate = 4.175 Å | Not Adsorbed (No, Size exclusion)
+
+Inferred effective pore size of CALF-35 (La3+):
+The inferred effective pore size of CALF-35 (La3+) lies between **3.200 Å** (inclusive) and **3.877 Å** (exclusive).
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the upper bound of the inferred effective pore size of CALF-35 (La3+) (~3.877 Å), it cannot be adsorbed.
+
+---
+
+MOF Name: CALF-35 (La3+)
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CALF-35 (La3+):
+- Carbon dioxide (5.198×3.200×3.200): Intermediate = 3.200 Å | Adsorbed (Yes)
+- Acetylene (5.538×3.200×3.200): Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane (3.877×3.849×3.918): Intermediate = 3.877 Å | Not Adsorbed (No, Size exclusion)
+- Ethylene (4.679×4.047×3.200): Intermediate = 4.047 Å | Conditional (Size exclusion, implies difficult passage/non-passage)
+- Ethane (4.731×4.175×4.170): Intermediate = 4.175 Å | Not Adsorbed (No, Size exclusion)
+
+Inferred effective pore size of CALF-35 (La3+):
+The inferred effective pore size of CALF-35 (La3+) lies between **3.200 Å** (inclusive) and **3.877 Å** (exclusive).
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the upper bound of the inferred effective pore size of CALF-35 (La3+) (~3.877 Å), it cannot be adsorbed.
+
+---
+
+MOF Name: CALF-35 (La3+)
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CALF-35 (La3+):
+- Carbon dioxide (5.198×3.200×3.200): Intermediate = 3.200 Å | Adsorbed (Yes)
+- Acetylene (5.538×3.200×3.200): Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane (3.877×3.849×3.918): Intermediate = 3.877 Å | Not Adsorbed (No, Size exclusion)
+- Ethylene (4.679×4.047×3.200): Intermediate = 4.047 Å | Conditional (Size exclusion, implies difficult passage/non-passage)
+- Ethane (4.731×4.175×4.170): Intermediate = 4.175 Å | Not Adsorbed (No, Size exclusion)
+
+Inferred effective pore size of CALF-35 (La3+):
+The inferred effective pore size of CALF-35 (La3+) lies between **3.200 Å** (inclusive) and **3.877 Å** (exclusive).
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the upper bound of the inferred effective pore size of CALF-35 (La3+) (~3.877 Å), it cannot be adsorbed.

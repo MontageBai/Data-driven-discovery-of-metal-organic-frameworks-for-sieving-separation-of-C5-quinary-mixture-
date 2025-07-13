@@ -1,0 +1,182 @@
+[
+    {
+        "Materials Name": "CAU-10-PDC-H (7:3)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "4.10 Å (PLD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "I41/amd",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "pyridine-3,5-dicarboxylic acid",
+            "benzene-1,3-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 35°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest CO2 permeability among tested membranes."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 35°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low CH4 permeability contributes to high selectivity."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 35°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low N2 permeability enhances CO2/N2 selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/CH4 selectivity: 74.2, CO2 permeability: 1,111.1 Barrer"
+        },
+        "Other Information": {
+            "Additional Info": "Mixed-linker approach stabilizes structure against CH4-induced deformation."
+        }
+    },
+    {
+        "Materials Name": "CAU-10-PDC-H (5:5)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "I41/amd",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "pyridine-3,5-dicarboxylic acid",
+            "benzene-1,3-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 35°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate CO2 permeability."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 35°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low CH4 permeability."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 35°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low N2 permeability."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/CH4 selectivity: Not Reported, CO2 permeability: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Mixed-linker approach enhances structural stability."
+        }
+    },
+    {
+        "Materials Name": "CAU-10-PDC-H (3:7)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "I41/amd",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "pyridine-3,5-dicarboxylic acid",
+            "benzene-1,3-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 35°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest CO2 permeability among tested membranes."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 35°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low CH4 permeability."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 35°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low N2 permeability."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/CH4 selectivity: Not Reported, CO2 permeability: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Mixed-linker approach improves lattice rigidity."
+        }
+    }
+]

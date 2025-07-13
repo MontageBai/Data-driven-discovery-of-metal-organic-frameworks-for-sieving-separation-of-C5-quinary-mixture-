@@ -1,0 +1,149 @@
+[
+    {
+        "Materials Name": "Uio-66-F4",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate with fluorinated substituents"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen peroxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Intracellular environment, physiological pH 7.4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "MOF selectively excludes non-redox species while allowing redox-active molecules like hydrogen peroxide to interact with the nanopotentiometer."
+                }
+            },
+            {
+                "Molecule Name": "glutathione",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Intracellular environment, physiological pH 7.4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Glutathione (GSH) interacts with the nanopotentiometer due to its redox activity, while non-redox species are excluded by the MOF layer."
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Intracellular environment, physiological pH 7.4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Non-redox species like sodium chloride are excluded by the MOF layer, demonstrating anti-interference capability."
+                }
+            },
+            {
+                "Molecule Name": "glucose",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Intracellular environment, physiological pH 7.4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Non-redox species like glucose are excluded by the MOF layer, demonstrating anti-interference capability."
+                }
+            },
+            {
+                "Molecule Name": "uric acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Intracellular environment, physiological pH 7.4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Non-redox species like uric acid are excluded by the MOF layer, demonstrating anti-interference capability."
+                }
+            },
+            {
+                "Molecule Name": "lactic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Intracellular environment, physiological pH 7.4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Non-redox species like lactic acid are excluded by the MOF layer, demonstrating anti-interference capability."
+                }
+            },
+            {
+                "Molecule Name": "arginine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Intracellular environment, physiological pH 7.4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Non-redox species like arginine are excluded by the MOF layer, demonstrating anti-interference capability."
+                }
+            },
+            {
+                "Molecule Name": "L-cysteine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Intracellular environment, physiological pH 7.4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reductants like L-cysteine interact with the nanopotentiometer due to their redox activity."
+                }
+            },
+            {
+                "Molecule Name": "vitamin C",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Intracellular environment, physiological pH 7.4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reductants like vitamin C interact with the nanopotentiometer due to their redox activity."
+                }
+            },
+            {
+                "Molecule Name": "hydroxyl radical",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Intracellular environment, physiological pH 7.4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Oxidants like hydroxyl radicals interact with the nanopotentiometer due to their redox activity."
+                }
+            },
+            {
+                "Molecule Name": "hypochlorous acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Intracellular environment, physiological pH 7.4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Oxidants like hypochlorous acid interact with the nanopotentiometer due to their redox activity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Surface-enhanced Raman scattering (SERS) spectroscopy and cyclic voltammetry",
+            "Performance Metrics": "Redox potential quantification range: -250 mV to 100 mV; high sensitivity to redox changes in living cells"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF layer provides chemical stability and selective size exclusion, enabling long-term use in biological environments."
+        }
+    }
+]

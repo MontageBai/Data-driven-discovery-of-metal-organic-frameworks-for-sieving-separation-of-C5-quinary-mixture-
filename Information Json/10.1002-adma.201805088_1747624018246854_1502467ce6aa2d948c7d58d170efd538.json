@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Y-abtc",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.72 Å (activated at 200 °C), 4.93 Å (activated at 300 °C)",
+            "Structure Type": "cage-like pores"
+        },
+        "Topology": "4,12-c ftw",
+        "Metal Nodes": [
+            "Y3+"
+        ],
+        "Ligands": [
+            "3,3′,5,5′-azobenzene-tetracarboxylates"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: ≈2 mmol g−1 at 298 K and 1 bar when activated at 200 °C; enhanced to 3.5 mmol g−1 when activated at 300 °C."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake observed (≈2 mg g−1) when activated at 300 °C."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective molecular exclusion based on kinetic diameter difference",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Retention time: 12.9 min per gram of adsorbent for propylene; produced 99.5% pure propylene from a 5/95 propane/propylene mixture."
+        },
+        "Other Information": {
+            "Additional Info": "Synthesis scalable; high thermal and hydrothermal stability; charge-balancing cations (dimethylammonium) influence pore aperture size."
+        }
+    }
+]

@@ -1,0 +1,210 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (effective pore size: 4.0–4.2 Å)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sodalite",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 15 % RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong adsorption on ZIF-8 surface with Eads = 0.469 eV."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "4.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 15 % RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion hindered due to larger kinetic diameter than effective pore size of ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "4.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 15 % RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion hindered due to larger kinetic diameter than effective pore size of ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "isopropanol",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 15 % RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion hindered due to larger kinetic diameter than effective pore size of ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "5.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 15 % RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion hindered due to larger kinetic diameter than effective pore size of ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "triethylamine",
+                "Molecular Size": "8.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 15 % RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion hindered due to larger kinetic diameter than effective pore size of ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen dioxide",
+                "Molecular Size": "4.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 15 % RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion hindered due to larger kinetic diameter than effective pore size of ZIF-8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect due to effective pore size range of 4.0–4.2 Å.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas-sensing measurement using a home-made static volumetric system.",
+            "Performance Metrics": "High response of 68.65 to 10 ppm methanol at 25 °C; Selectivity factor k < 1 for interfering gases."
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 exhibits inherent hydrophobicity due to lack of hydrophilic sites in 2-mim linkers."
+        }
+    },
+    {
+        "Materials Name": "SnS/ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (effective pore size: 4.0–4.2 Å) for ZIF-8 part",
+            "Structure Type": "Core-shell heterostructure"
+        },
+        "Topology": "sodalite (for ZIF-8 part)",
+        "Metal Nodes": [
+            "Zn2+",
+            "Sn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "Sulfur"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 15 % RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enrichment of high concentrations of methanol due to pre-concentration effect or capillary condensation effect."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "4.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 15 % RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion hindered due to larger kinetic diameter than effective pore size of ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "4.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 15 % RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion hindered due to larger kinetic diameter than effective pore size of ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "isopropanol",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 15 % RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion hindered due to larger kinetic diameter than effective pore size of ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "5.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 15 % RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion hindered due to larger kinetic diameter than effective pore size of ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "triethylamine",
+                "Molecular Size": "8.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 15 % RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion hindered due to larger kinetic diameter than effective pore size of ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen dioxide",
+                "Molecular Size": "4.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 15 % RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion hindered due to larger kinetic diameter than effective pore size of ZIF-8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect due to effective pore size range of 4.0–4.2 Å provided by ZIF-8 shell.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas-sensing measurement using a home-made static volumetric system.",
+            "Performance Metrics": "High response of 68.65 to 10 ppm methanol at 25 °C; LOD of 8.27 ppb; Selectivity factor k < 1 for interfering gases."
+        },
+        "Other Information": {
+            "Additional Info": "The SnS/ZIF-8 nanocomposite demonstrates excellent moisture resistance up to 65% RH due to the hydrophobic nature of ZIF-8."
+        }
+    }
+]

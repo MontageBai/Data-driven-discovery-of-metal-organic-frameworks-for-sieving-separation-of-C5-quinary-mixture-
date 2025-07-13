@@ -1,0 +1,69 @@
+MOF Name: Mn-dhbq
+
+**1. Inferring the MOF’s Effective Pore Size for Mn-dhbq:**
+
+From the experimental data provided for Mn-dhbq:
+*   **3-methylpentane**: Full dimensions = 9.052×6.008×4.985 Å → **Intermediate dimension = 6.008 Å**. Adsorbed. The mechanism is "Kinetic sieving," indicating it's a tight fit but can pass through the pores.
+*   **2,3-dimethylbutane**: Full dimensions = 7.778×6.170×5.399 Å → **Intermediate dimension = 6.170 Å**. Not Adsorbed. The mechanism is "Size exclusion," indicating it is too large to pass through the pores.
+
+Based on this, we can infer the effective pore size of Mn-dhbq:
+*   It is large enough to allow 3-methylpentane (6.008 Å) to pass, albeit with kinetic limitations.
+*   It is too small to allow 2,3-dimethylbutane (6.170 Å) to pass.
+
+Therefore, the effective pore size (based on the intermediate dimension) of Mn-dhbq is approximately between **6.008 Å (inclusive, with kinetic sieving) and 6.170 Å (exclusive, due to size exclusion)**. This implies that molecules with an intermediate dimension equal to or slightly larger than 6.008 Å will experience significant kinetic resistance or exclusion, while molecules with an intermediate dimension smaller than 6.008 Å should pass more readily. Molecules with an intermediate dimension equal to or larger than 6.170 Å will be excluded.
+
+---
+
+**2. Evaluation of Target Guest Molecules:**
+
+**MOF Name: Mn-dhbq**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   The MOF Mn-dhbq allows 3-methylpentane (9.052×6.008×4.985 Å; intermediate = 6.008 Å) to be adsorbed via kinetic sieving, implying a tight fit.
+*   It excludes 2,3-dimethylbutane (7.778×6.170×5.399 Å; intermediate = 6.170 Å) due to size exclusion.
+*   This suggests the effective pore size of Mn-dhbq is just above 6.008 Å and below 6.170 Å.
+*   Isoprene's dimensions are 7.746×6.093×3.963 Å, giving an **intermediate dimension of 6.093 Å**.
+*   Comparing isoprene's intermediate dimension (6.093 Å) to the known data: It is larger than 3-methylpentane (6.008 Å) which is already kinetically sieved, and smaller than 2,3-dimethylbutane (6.170 Å) which is size excluded. Given that 3-methylpentane is at the very edge of the pore window causing kinetic sieving, a slightly larger molecule like isoprene (6.093 Å) is highly likely to be excluded or experience negligible adsorption under standard conditions due to increased steric hindrance.
+
+**MOF Name: Mn-dhbq**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   The MOF Mn-dhbq allows 3-methylpentane (intermediate = 6.008 Å) to be adsorbed via kinetic sieving. It excludes 2,3-dimethylbutane (intermediate = 6.170 Å) due to size exclusion.
+*   Cis-2-pentene's dimensions are 8.067×5.572×5.136 Å, giving an **intermediate dimension of 5.572 Å**.
+*   Comparing cis-2-pentene's intermediate dimension (5.572 Å) to the known data: It is smaller than 3-methylpentane (6.008 Å), which is known to be adsorbed. Therefore, cis-2-pentene should be able to pass through the pores of Mn-dhbq.
+
+**MOF Name: Mn-dhbq**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   The MOF Mn-dhbq allows 3-methylpentane (intermediate = 6.008 Å) to be adsorbed via kinetic sieving. It excludes 2,3-dimethylbutane (intermediate = 6.170 Å) due to size exclusion.
+*   1-pentene's dimensions are 8.847×4.995×4.897 Å, giving an **intermediate dimension of 4.995 Å**.
+*   Comparing 1-pentene's intermediate dimension (4.995 Å) to the known data: It is significantly smaller than 3-methylpentane (6.008 Å), which is known to be adsorbed. Therefore, 1-pentene should be able to pass through the pores of Mn-dhbq.
+
+**MOF Name: Mn-dhbq**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   The MOF Mn-dhbq allows 3-methylpentane (intermediate = 6.008 Å) to be adsorbed via kinetic sieving. It excludes 2,3-dimethylbutane (intermediate = 6.170 Å) due to size exclusion.
+*   Trans-2-pentene's dimensions are 8.796×4.733×4.564 Å, giving an **intermediate dimension of 4.733 Å**.
+*   Comparing trans-2-pentene's intermediate dimension (4.733 Å) to the known data: It is significantly smaller than 3-methylpentane (6.008 Å), which is known to be adsorbed. Therefore, trans-2-pentene should be able to pass through the pores of Mn-dhbq.
+
+**MOF Name: Mn-dhbq**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   The MOF Mn-dhbq allows 3-methylpentane (intermediate = 6.008 Å) to be adsorbed via kinetic sieving. It excludes 2,3-dimethylbutane (intermediate = 6.170 Å) due to size exclusion.
+*   n-pentane's dimensions are 9.118×4.364×3.969 Å, giving an **intermediate dimension of 4.364 Å**.
+*   Comparing n-pentane's intermediate dimension (4.364 Å) to the known data: It is significantly smaller than 3-methylpentane (6.008 Å), which is known to be adsorbed. Therefore, n-pentane should be able to pass through the pores of Mn-dhbq.

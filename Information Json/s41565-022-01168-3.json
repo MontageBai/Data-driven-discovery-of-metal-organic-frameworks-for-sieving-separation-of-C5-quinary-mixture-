@@ -1,0 +1,195 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (crystallographic), 4.3 Å (effective)",
+            "Structure Type": "Zeolitic imidazolate framework"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene/propane separation factor >50 in ZIF-8 membranes prepared by counterdiffusion."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene/propane separation factor >50 in ZIF-8 membranes prepared by counterdiffusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Framework flexibility leads to larger effective pore size than crystallographic pore size.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Counterdiffusion synthesis and gas separation experiments",
+            "Performance Metrics": "Propylene/propane separation factor >50"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 exhibits framework flexibility, allowing molecules larger than the 'average' pore diameter to pass through."
+        }
+    },
+    {
+        "Materials Name": "ZIF-67",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Zeolitic imidazolate framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene/propane separation factor >200 in ZIF-67 membranes prepared by heteroepitaxial growth."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene/propane separation factor >200 in ZIF-67 membranes prepared by heteroepitaxial growth."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Heteroepitaxial growth and gas separation experiments",
+            "Performance Metrics": "Propylene/propane separation factor >200"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-67 shows enhanced selectivity compared to ZIF-8 due to restricted framework flexibility."
+        }
+    },
+    {
+        "Materials Name": "COF-LZU1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D layered covalent organic framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Nanofiltration",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "COF-LZU1 membrane shows high water permeance and excellent dye rejection rates."
+                }
+            },
+            {
+                "Molecule Name": "dyes",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High rejection of various water-soluble dyes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Nanofiltration based on controlled stacking of COF nanosheets.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "In situ growth on tubular ceramic support",
+            "Performance Metrics": "Seven times higher water permeance than standard nanofiltration membranes."
+        },
+        "Other Information": {
+            "Additional Info": "COF-LZU1 is suitable for nanofiltration but not gas separation due to large pore sizes."
+        }
+    },
+    {
+        "Materials Name": "MOF-in-COF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Reduced from >1 nm to ultramicropore range",
+            "Structure Type": "Hybrid MOF-COF structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+",
+            "Co2+"
+        ],
+        "Ligands": [
+            "Imidazole-based linkers"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selective hydrogen separation achieved through pore-size narrowing."
+                }
+            },
+            {
+                "Molecule Name": "other gases",
+                "Molecular Size": "Varies",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "MOF-in-COF selectively separates hydrogen from other gases."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Pore-size narrowing achieved by growing a 1D MOF structure within the 1D pores of a COF.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Synthesis of MOF-in-COF composite",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "MOF-in-COF concept exploits the stability of COFs for gas separation applications."
+        }
+    }
+]

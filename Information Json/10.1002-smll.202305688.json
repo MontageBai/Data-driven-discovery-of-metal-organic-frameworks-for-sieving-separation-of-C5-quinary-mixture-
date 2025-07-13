@@ -1,0 +1,84 @@
+[
+    {
+        "Materials Name": "CuBDC/PmPD MMM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "≈5 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate (H2BDC)",
+            "m-phenylenediamine (mPD)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dehydration effect and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+ permeability: 12.54 mol m−2 h−1"
+                }
+            },
+            {
+                "Molecule Name": "sodium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dehydration effect and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Na+ permeability: 4.80 mol m−2 h−1"
+                }
+            },
+            {
+                "Molecule Name": "potassium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dehydration effect and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "K+ permeability: 6.11 mol m−2 h−1"
+                }
+            },
+            {
+                "Molecule Name": "magnesium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Dehydration effect and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+/Mg2+ selectivity: 1221.95"
+                }
+            },
+            {
+                "Molecule Name": "calcium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Dehydration effect and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+/Ca2+ selectivity: 1195.20"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale based on hydrated ion diameter",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Current–voltage (I–V) measurement",
+            "Performance Metrics": "Li+/Mg2+ selectivity: 1221.95, Li+ permeability: 12.54 mol m−2 h−1"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane also exhibits excellent solar water evaporation performance with an efficiency of 88.74%."
+        }
+    }
+]

@@ -1,0 +1,91 @@
+MOF Name: ZnATZoxH2O
+
+**Detailed Reasoning for ZnATZoxH2O:**
+
+From the experimental data for ZnATZoxH2O:
+*   **Carbon dioxide (CO2):** 5.198×3.200×3.200 Å → Intermediate = **3.200 Å** | Adsorbed (Yes)
+*   **Methane (CH4):** 3.877×3.849×3.918 Å → Intermediate = **3.877 Å** | Not Adsorbed (No), Reason: Size exclusion at sub-nanometer scale
+*   **Oxygen (O2):** 4.076×2.860×2.860 Å → Intermediate = **2.860 Å** | Not Adsorbed (No), Reason: Size exclusion at sub-nanometer scale
+
+**Inference of MOF's Effective Pore Size:**
+According to the instructions, the effective pore size should be:
+*   Greater than or equal to the largest intermediate dimension of the adsorbed molecules.
+*   Less than the smallest intermediate dimension of the non-adsorbed molecules (due to size exclusion).
+
+Based on the adsorption of CO2 (intermediate 3.200 Å), the pore size must be at least **3.200 Å**.
+Based on the non-adsorption of CH4 (intermediate 3.877 Å) due to size exclusion, the pore size must be less than **3.877 Å**.
+
+This leads to an inferred effective pore size range for ZnATZoxH2O of **[3.200 Å, 3.877 Å)**.
+
+**Note on Oxygen Data:**
+The non-adsorption of Oxygen (intermediate 2.860 Å) due to "size exclusion" presents an inconsistency with the other data points if strictly interpreted by the "intermediate dimension" rule for "passing through." Since a larger molecule (CO2, 3.200 Å) is adsorbed, it is contradictory for a smaller molecule (O2, 2.860 Å) to be excluded by size. For the purpose of this analysis, given the explicit instruction to prioritize the intermediate dimension for pore passage, we will use the consistent upper bound established by methane's exclusion relative to carbon dioxide's adsorption to define the pore size limit. The non-adsorption of O2 is considered an anomaly or indicates a different mechanism (e.g., weak interaction or specific pore shape leading to non-adsorption) not solely based on its intermediate dimension relative to the pore opening.
+
+---
+
+MOF Name: ZnATZoxH2O
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   Isoprene Dimensions: 7.746×6.093×3.963 Å → Intermediate = **6.093 Å**
+*   The inferred effective pore size of ZnATZoxH2O is between 3.200 Å and 3.877 Å.
+*   Isoprene's intermediate dimension (6.093 Å) is significantly larger than the upper bound of the inferred pore size (3.877 Å).
+
+Conclusion: Isoprene's intermediate dimension is too large for the pores of ZnATZoxH2O.
+
+---
+
+MOF Name: ZnATZoxH2O
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 Å → Intermediate = **5.572 Å**
+*   The inferred effective pore size of ZnATZoxH2O is between 3.200 Å and 3.877 Å.
+*   cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the upper bound of the inferred pore size (3.877 Å).
+
+Conclusion: cis-2-pentene's intermediate dimension is too large for the pores of ZnATZoxH2O.
+
+---
+
+MOF Name: ZnATZoxH2O
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   1-pentene Dimensions: 8.847×4.995×4.897 Å → Intermediate = **4.995 Å**
+*   The inferred effective pore size of ZnATZoxH2O is between 3.200 Å and 3.877 Å.
+*   1-pentene's intermediate dimension (4.995 Å) is significantly larger than the upper bound of the inferred pore size (3.877 Å).
+
+Conclusion: 1-pentene's intermediate dimension is too large for the pores of ZnATZoxH2O.
+
+---
+
+MOF Name: ZnATZoxH2O
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 Å → Intermediate = **4.733 Å**
+*   The inferred effective pore size of ZnATZoxH2O is between 3.200 Å and 3.877 Å.
+*   trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the upper bound of the inferred pore size (3.877 Å).
+
+Conclusion: trans-2-pentene's intermediate dimension is too large for the pores of ZnATZoxH2O.
+
+---
+
+MOF Name: ZnATZoxH2O
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   n-pentane Dimensions: 9.118×4.364×3.969 Å → Intermediate = **4.364 Å**
+*   The inferred effective pore size of ZnATZoxH2O is between 3.200 Å and 3.877 Å.
+*   n-pentane's intermediate dimension (4.364 Å) is significantly larger than the upper bound of the inferred pore size (3.877 Å).
+
+Conclusion: n-pentane's intermediate dimension is too large for the pores of ZnATZoxH2O.

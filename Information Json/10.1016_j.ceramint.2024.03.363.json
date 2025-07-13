@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "UiO-66 membranes",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "H2BDC (C8H6O4)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "70 °C, 3.5 wt% NaCl solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water flux: 28.74 L m−2 h−1"
+                }
+            },
+            {
+                "Molecule Name": "sodium ion",
+                "Molecular Size": "7.2 Å (hydrated)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "70 °C, 3.5 wt% NaCl solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Salt rejection: > 99.9 %"
+                }
+            },
+            {
+                "Molecule Name": "chloride ion",
+                "Molecular Size": "6.6 Å (hydrated)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "70 °C, 3.5 wt% NaCl solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Salt rejection: > 99.9 %"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Pervaporation desalination tests",
+            "Performance Metrics": "Water flux: 28.74 L m−2 h−1, Salt rejection: > 99.9 %"
+        },
+        "Other Information": {
+            "Additional Info": "The UiO-66 membranes demonstrated robust performance under harsh conditions including pH 3, pH 11, NaClO (1000 ppm), and ultrasonication."
+        }
+    }
+]

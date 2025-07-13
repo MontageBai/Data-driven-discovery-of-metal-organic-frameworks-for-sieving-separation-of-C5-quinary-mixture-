@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "NTU-67",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (Channel B entrance), 0.92 Å (Channel A)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "mmo net",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "SiF6^2−"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Aligned in wavy lines in Channel B, trapped in Channel A"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.40 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Aligned in wavy lines in Channel B, trapped in Channel A"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.30 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cannot pass through Channel B due to restricted space"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/N2 selectivity: Not Reported, C2H4 productivity: 121.5 mL g−1"
+        },
+        "Other Information": {
+            "Additional Info": "Three-bladed array of trap-and-flow channels enhances kinetic selectivity"
+        }
+    }
+]

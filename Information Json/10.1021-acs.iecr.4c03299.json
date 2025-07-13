@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "ZU-301a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.35 × 6.96 Å",
+            "Structure Type": "Regularly layered three-dimensional configuration"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "3-methyl-1H-1,2,4-triazole",
+            "oxalate anions"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interactions and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake capacity: 4.54 mmol/g at 298 K and 5 bar"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Minimal adsorption of CH4"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Narrow pore size effectively blocks CH4 while allowing CO2 to pass through",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments and VPSA simulation",
+            "Performance Metrics": "CO2/CH4 selectivity: 2.89 × 10^13 at 298 K and 1 bar; CO2 purity: 99.59%; CO2 recovery: 98.01%"
+        },
+        "Other Information": {
+            "Additional Info": "ZU-301a exhibits excellent chemical stability and thermal stability up to 340 °C"
+        }
+    }
+]

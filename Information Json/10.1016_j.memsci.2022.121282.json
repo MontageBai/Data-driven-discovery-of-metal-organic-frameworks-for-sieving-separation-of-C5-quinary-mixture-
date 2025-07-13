@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "ZJU-74a",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.38 nm × 0.36 nm (b axis), 0.27 nm × 0.27 nm (c axis), 0.36 nm × 0.17 nm (a axis)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "fsc-net",
+        "Metal Nodes": [
+            "Ni2+",
+            "Co2+"
+        ],
+        "Ligands": [
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance ranged from 14.1 to 206 GPU with separation factors up to 100 for H2/CO2."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor around 2.58 for C2H2/CO2."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest permeance among evaluated gases due to adsorption narrowing passages and higher molecular weight."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test using Wicke-Kallenbach technique",
+            "Performance Metrics": "H2/CO2 selectivity: up to 100, C2H2/CO2 selectivity: ~2.58"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane durability tested for 580 hours with stable performance. Achieved separation beyond Robeson upper bound lines."
+        }
+    }
+]

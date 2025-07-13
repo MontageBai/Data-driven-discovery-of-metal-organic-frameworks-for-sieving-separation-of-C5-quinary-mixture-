@@ -1,0 +1,97 @@
+MOF Name: [Cd3(OH)2L4(H2O)2]
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The reason explicitly states "Different nature of host-guest interactions rather than size-exclusion effect", indicating that the pore size is sufficient for carbon dioxide and its adsorption is not limited by size.
+
+Inferred effective pore size of [Cd3(OH)2L4(H2O)2]:
+Based on the adsorption of carbon dioxide (intermediate dimension 3.200 Å), the MOF's effective pore size is inferred to be at least 3.200 Å. However, no experimental data is provided for molecules that were *not* adsorbed due to size exclusion. Therefore, an upper bound for the effective pore size that would lead to size exclusion cannot be established from the given experimental data.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+While isoprene's intermediate dimension (6.093 Å) is larger than that of carbon dioxide (3.200 Å), there is no experimental data to suggest that molecules of this size are excluded by the MOF's pores due to size exclusion. The provided data only confirms that molecules with an intermediate dimension of 3.200 Å are readily adsorbed and are not size-limited by the MOF's pores. Without any "No" adsorption data points due to size exclusion for larger molecules, it is not possible to determine an upper size limit for adsorption based on the provided information. Therefore, based on the absence of evidence for size exclusion, we predict that [Cd3(OH)2L4(H2O)2] can adsorb isoprene.
+
+---
+
+MOF Name: [Cd3(OH)2L4(H2O)2]
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The reason explicitly states "Different nature of host-guest interactions rather than size-exclusion effect", indicating that the pore size is sufficient for carbon dioxide and its adsorption is not limited by size.
+
+Inferred effective pore size of [Cd3(OH)2L4(H2O)2]:
+Based on the adsorption of carbon dioxide (intermediate dimension 3.200 Å), the MOF's effective pore size is inferred to be at least 3.200 Å. However, no experimental data is provided for molecules that were *not* adsorbed due to size exclusion. Therefore, an upper bound for the effective pore size that would lead to size exclusion cannot be established from the given experimental data.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+While cis-2-pentene's intermediate dimension (5.572 Å) is larger than that of carbon dioxide (3.200 Å), there is no experimental data to suggest that molecules of this size are excluded by the MOF's pores due to size exclusion. The provided data only confirms that molecules with an intermediate dimension of 3.200 Å are readily adsorbed and are not size-limited by the MOF's pores. Without any "No" adsorption data points due to size exclusion for larger molecules, it is not possible to determine an upper size limit for adsorption based on the provided information. Therefore, based on the absence of evidence for size exclusion, we predict that [Cd3(OH)2L4(H2O)2] can adsorb cis-2-pentene.
+
+---
+
+MOF Name: [Cd3(OH)2L4(H2O)2]
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The reason explicitly states "Different nature of host-guest interactions rather than size-exclusion effect", indicating that the pore size is sufficient for carbon dioxide and its adsorption is not limited by size.
+
+Inferred effective pore size of [Cd3(OH)2L4(H2O)2]:
+Based on the adsorption of carbon dioxide (intermediate dimension 3.200 Å), the MOF's effective pore size is inferred to be at least 3.200 Å. However, no experimental data is provided for molecules that were *not* adsorbed due to size exclusion. Therefore, an upper bound for the effective pore size that would lead to size exclusion cannot be established from the given experimental data.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+While 1-pentene's intermediate dimension (4.995 Å) is larger than that of carbon dioxide (3.200 Å), there is no experimental data to suggest that molecules of this size are excluded by the MOF's pores due to size exclusion. The provided data only confirms that molecules with an intermediate dimension of 3.200 Å are readily adsorbed and are not size-limited by the MOF's pores. Without any "No" adsorption data points due to size exclusion for larger molecules, it is not possible to determine an upper size limit for adsorption based on the provided information. Therefore, based on the absence of evidence for size exclusion, we predict that [Cd3(OH)2L4(H2O)2] can adsorb 1-pentene.
+
+---
+
+MOF Name: [Cd3(OH)2L4(H2O)2]
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The reason explicitly states "Different nature of host-guest interactions rather than size-exclusion effect", indicating that the pore size is sufficient for carbon dioxide and its adsorption is not limited by size.
+
+Inferred effective pore size of [Cd3(OH)2L4(H2O)2]:
+Based on the adsorption of carbon dioxide (intermediate dimension 3.200 Å), the MOF's effective pore size is inferred to be at least 3.200 Å. However, no experimental data is provided for molecules that were *not* adsorbed due to size exclusion. Therefore, an upper bound for the effective pore size that would lead to size exclusion cannot be established from the given experimental data.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+While trans-2-pentene's intermediate dimension (4.733 Å) is larger than that of carbon dioxide (3.200 Å), there is no experimental data to suggest that molecules of this size are excluded by the MOF's pores due to size exclusion. The provided data only confirms that molecules with an intermediate dimension of 3.200 Å are readily adsorbed and are not size-limited by the MOF's pores. Without any "No" adsorption data points due to size exclusion for larger molecules, it is not possible to determine an upper size limit for adsorption based on the provided information. Therefore, based on the absence of evidence for size exclusion, we predict that [Cd3(OH)2L4(H2O)2] can adsorb trans-2-pentene.
+
+---
+
+MOF Name: [Cd3(OH)2L4(H2O)2]
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The reason explicitly states "Different nature of host-guest interactions rather than size-exclusion effect", indicating that the pore size is sufficient for carbon dioxide and its adsorption is not limited by size.
+
+Inferred effective pore size of [Cd3(OH)2L4(H2O)2]:
+Based on the adsorption of carbon dioxide (intermediate dimension 3.200 Å), the MOF's effective pore size is inferred to be at least 3.200 Å. However, no experimental data is provided for molecules that were *not* adsorbed due to size exclusion. Therefore, an upper bound for the effective pore size that would lead to size exclusion cannot be established from the given experimental data.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+While n-pentane's intermediate dimension (4.364 Å) is larger than that of carbon dioxide (3.200 Å), there is no experimental data to suggest that molecules of this size are excluded by the MOF's pores due to size exclusion. The provided data only confirms that molecules with an intermediate dimension of 3.200 Å are readily adsorbed and are not size-limited by the MOF's pores. Without any "No" adsorption data points due to size exclusion for larger molecules, it is not possible to determine an upper size limit for adsorption based on the provided information. Therefore, based on the absence of evidence for size exclusion, we predict that [Cd3(OH)2L4(H2O)2] can adsorb n-pentane.

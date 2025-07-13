@@ -1,0 +1,84 @@
+[
+    {
+        "Materials Name": "HPM membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (ZIF-8 window), 0.8 nm (cavity in linker-mixed 3DS phase)",
+            "Structure Type": "2D lamellar and 3D sodalite phases"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole",
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance reaches 3.9 × 10^-7 mol m^-2 s^-1 Pa^-1 (1176 GPU)"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CO2 selectivity averages 327"
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/O2 selectivity averages 414"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/N2 selectivity averages 470"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CH4 selectivity averages 522"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale due to narrow transport pathways in the 3DS phase and suppressed framework flexibility",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "H2/CO2 selectivity: 327, H2/N2 selectivity: 470, H2/CH4 selectivity: 522, H2 permeance: 1176 GPU"
+        },
+        "Other Information": {
+            "Additional Info": "The HPM membrane is robust, reproducible, and shows long-term stability with minimal performance degradation over time."
+        }
+    }
+]

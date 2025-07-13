@@ -1,0 +1,212 @@
+[
+    {
+        "Materials Name": "[Zn3(vtz)6]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.2 Å (entrance), 3.4 Å (inner diameter), 2.0 Å (depth)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "dia",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,2,3-triazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "77 K, measured via N2 adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Saturation uptake of 1.0 N2/Zn."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "77 K, measured via H2 adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 adsorption enthalpy decreases with loading."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Quadrupole moment sieving",
+                "Other Information": {
+                    "Test Conditions": "195 K, measured via CO2 adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 cannot enter the pockets due to electrostatic mismatch."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "0.35 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quadrupole moment sieving",
+                "Other Information": {
+                    "Test Conditions": "195 K, measured via C2H2 adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H2 enters the pockets due to favorable quadrupole moment interaction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quadrupole-moment sieving and size exclusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "In-situ single-crystal X-ray diffraction and DFT simulations",
+            "Performance Metrics": "CO2/C2H2 selectivity: unprecedented"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits continuous pore-size adjustments in the precision of hundredth nanometers by altering metal ion size."
+        }
+    },
+    {
+        "Materials Name": "[Mn3(vtz)6]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.4 Å (entrance), 3.6 Å (inner diameter), 2.1 Å (depth)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "dia",
+        "Metal Nodes": [
+            "Mn2+"
+        ],
+        "Ligands": [
+            "1,2,3-triazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "77 K, measured via N2 adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Two-step isotherm with saturation uptakes of 1.0 and 1.9 N2/Mn."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "77 K, measured via H2 adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Abnormal H2 adsorption enthalpy profile increases with loading."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Quadrupole moment sieving",
+                "Other Information": {
+                    "Test Conditions": "195 K, measured via CO2 adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 cannot enter the pockets due to electrostatic mismatch."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "0.35 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quadrupole moment sieving",
+                "Other Information": {
+                    "Test Conditions": "195 K, measured via C2H2 adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H2 enters the pockets due to favorable quadrupole moment interaction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quadrupole-moment sieving and size exclusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "In-situ single-crystal X-ray diffraction and DFT simulations",
+            "Performance Metrics": "CO2/C2H2 selectivity: unprecedented"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits continuous pore-size adjustments in the precision of hundredth nanometers by altering metal ion size."
+        }
+    },
+    {
+        "Materials Name": "[Cd3(vtz)6]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.6 Å (entrance), 3.8 Å (inner diameter), 2.2 Å (depth)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "dia",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "1,2,3-triazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "77 K, measured via N2 adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Two-step isotherm with saturation uptakes of 0.8 and 2.0 N2/Cd."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "77 K, measured via H2 adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest zero-loading adsorption enthalpy among the series."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Quadrupole moment sieving",
+                "Other Information": {
+                    "Test Conditions": "195 K, measured via CO2 adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 cannot enter the pockets due to electrostatic mismatch."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "0.35 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quadrupole moment sieving",
+                "Other Information": {
+                    "Test Conditions": "195 K, measured via C2H2 adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H2 enters the pockets due to favorable quadrupole moment interaction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quadrupole-moment sieving and size exclusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "In-situ single-crystal X-ray diffraction and DFT simulations",
+            "Performance Metrics": "CO2/C2H2 selectivity: unprecedented"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits continuous pore-size adjustments in the precision of hundredth nanometers by altering metal ion size."
+        }
+    }
+]

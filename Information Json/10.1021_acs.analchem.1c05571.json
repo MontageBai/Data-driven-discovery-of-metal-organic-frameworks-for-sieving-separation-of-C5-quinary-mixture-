@@ -1,0 +1,82 @@
+[
+    {
+        "MOF Name": "PCN-224",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Cubic porous network, built with six-connected Zr6 clusters and metalloporphyrins"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6 clusters"
+        ],
+        "Ligands": [
+            "tetrakis(4-carboxyphenyl)porphyrin (H2TCPP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Target DNA (Perfectly matched)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Volume exclusion due to the formation of large DNA-functionalized MOF complexes that block the glass nanopipette pore",
+                "Other Information": {
+                    "Test Conditions": "Various concentrations (10 fM to 10^6 fM), constant voltage of +2.0 V, 10 mM Tris solution (pH = 7.4, 500 mM NaCl, 1 mM MgCl2)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Forms DNA complexes (CP-target-SP-PCN-224) at the orifice and inside of the glass nanopipette, leading to a significant reduction in ionic flow. Ionic current blockage reached 92% for high concentration target DNA."
+                }
+            },
+            {
+                "Molecule Name": "1-Mismatch target DNA",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Reduced complex formation/binding due to single-base mismatch, leading to less volume exclusion compared to perfectly matched DNA",
+                "Other Information": {
+                    "Test Conditions": "10^6 fM concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Results in 76 ± 2.0% signal reduction, indicating less effective blockage and enabling discrimination from perfectly matched DNA (89 ± 1.6%)."
+                }
+            },
+            {
+                "Molecule Name": "3-Mismatch target DNA",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Reduced complex formation/binding due to mismatch, leading to less volume exclusion compared to perfectly matched DNA",
+                "Other Information": {
+                    "Test Conditions": "10^6 fM concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Discriminated based on mismatch; leads to less effective blockage compared to perfectly matched or 1-mismatch DNA."
+                }
+            },
+            {
+                "Molecule Name": "5-Mismatch target DNA",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Reduced complex formation/binding due to mismatch, leading to less volume exclusion compared to perfectly matched DNA",
+                "Other Information": {
+                    "Test Conditions": "10^6 fM concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Discriminated based on mismatch; leads to less effective blockage compared to perfectly matched, 1-mismatch, or 3-mismatch DNA."
+                }
+            },
+            {
+                "Molecule Name": "Full-mismatch target DNA",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Minimal specific complex formation/binding due to full mismatch, resulting in negligible volume exclusion",
+                "Other Information": {
+                    "Test Conditions": "10^6 fM concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Current change is around 10%, primarily due to nonspecific interferences, indicating negligible specific blockage by the composite probe."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Volume exclusion via formation of large DNA-functionalized MOF nanoparticle complexes that physically block a larger external pore (glass nanopipette), enabling size-dependent signal changes and molecular discrimination based on hybridization efficiency.",
+        "Experimental Validation": {
+            "Method": "Electrochemical sensing (ionic current measurements, I-V curves, EIS), Scanning Electron Microscopy (SEM), Fluorescence imaging, UV-vis absorption spectra, Z-potential measurements, N2 sorption isotherms, X-ray diffraction (XRD)",
+            "Performance Metrics": "Detection limit for target DNA: 10 fM. Ionic current blockage for target DNA: 92%. Signal reduction for perfectly matched target DNA: 89 ± 1.6%. Signal reduction for 1-mismatch target DNA: 76 ± 2.0%. Signal reduction for full-mismatch target DNA: ~10%. Impedance for 10^6 fM target DNA: 429 MΩ (6 times higher than without target DNA). Event rates 1.7-fold higher and signal-to-noise ratio improved from 9.0 to 15 compared to simple probe."
+        },
+        "Other Information": {
+            "Additional Info": "PCN-224 nanoparticles (average size: 72 ± 2.5 nm) are used as a DNA probe carrier within a glass nanopipette (GN, ~260 nm diameter) for sensitive DNA sensing. The composite probe structure was optimized with a n(SP):n(poly T) ratio of 1:3. PCN-224 exhibits extraordinary stability, strong biocompatibility, and good optical quality (fluorescence signal)."
+        }
+    }
+]

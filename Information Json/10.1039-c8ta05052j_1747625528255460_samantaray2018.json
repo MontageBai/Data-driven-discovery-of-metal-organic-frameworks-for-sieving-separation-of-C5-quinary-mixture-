@@ -1,0 +1,52 @@
+[
+    {
+        "Materials Name": "Zn-MMOF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.22 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+",
+            "Zn2+"
+        ],
+        "Ligands": [
+            "trimesic acid",
+            "dithizone"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lead",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic interaction with dithizone",
+                "Other Information": {
+                    "Test Conditions": "50 ppm and 100 ppm lead solutions, 0.69 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selective localization of Pb ions in the Zn-MMOF interlayer"
+                }
+            },
+            {
+                "Molecule Name": "arsenic",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Affinity towards ferrite",
+                "Other Information": {
+                    "Test Conditions": "50 ppm and 100 ppm arsenic solutions, 0.69 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Arsenic localized specifically in the interlayer containing Fe3O4"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Inductively coupled plasma mass spectrometry (ICP-MS)",
+            "Performance Metrics": ">95% removal of lead and arsenic"
+        },
+        "Other Information": {
+            "Additional Info": "The Zn-MMOF was sandwiched between RAFT-synthesized active layer and commercial RO membrane"
+        }
+    }
+]

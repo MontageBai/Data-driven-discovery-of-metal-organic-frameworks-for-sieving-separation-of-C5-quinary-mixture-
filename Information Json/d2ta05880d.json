@@ -1,0 +1,149 @@
+[
+    {
+        "Materials Name": "PAN/CD-Py(0.5)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 Å to 7.8 Å (inner cavity of b-CD), 6.4 Å to 11.9 Å (outer space of cross-linked CD-Py-NH2)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lemon yellow",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Cross-flow filtration cell, water solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detected in permeance after filtration, indicating passage through the membrane."
+                }
+            },
+            {
+                "Molecule Name": "Congo red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and Donnan effect",
+                "Other Information": {
+                    "Test Conditions": "Cross-flow filtration cell, water solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejected by the membrane due to electrostatic attraction and size exclusion."
+                }
+            },
+            {
+                "Molecule Name": "brilliant blue G250",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and Donnan effect",
+                "Other Information": {
+                    "Test Conditions": "Cross-flow filtration cell, water solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High rejection rate due to charge and size effects."
+                }
+            },
+            {
+                "Molecule Name": "direct red 80",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and Donnan effect",
+                "Other Information": {
+                    "Test Conditions": "Cross-flow filtration cell, water solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High rejection rate due to charge and size effects."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic repulsion and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Cross-flow filtration cell, water solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low rejection rate due to small size and weak electrostatic repulsion."
+                }
+            },
+            {
+                "Molecule Name": "methyl green",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic repulsion and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Cross-flow filtration cell, water solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate rejection rate due to size and charge effects."
+                }
+            },
+            {
+                "Molecule Name": "tetrazolium blue chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Electrostatic repulsion and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Cross-flow filtration cell, water solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher rejection rate than neutral molecules due to charge effects."
+                }
+            },
+            {
+                "Molecule Name": "alcian blue 8GX",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and Donnan effect",
+                "Other Information": {
+                    "Test Conditions": "Cross-flow filtration cell, water solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High rejection rate due to large size and charge effects."
+                }
+            },
+            {
+                "Molecule Name": "poly(ethylene glycol) 800",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Cross-flow filtration cell, water solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Mostly passed through the membrane due to small size and lack of charge."
+                }
+            },
+            {
+                "Molecule Name": "roxithromycin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Cross-flow filtration cell, water solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passed through the membrane with minimal rejection."
+                }
+            },
+            {
+                "Molecule Name": "poly(ethylene glycol) 1500",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Cross-flow filtration cell, water solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Mostly passed through the membrane due to linear shape and lack of charge."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Donnan effect and size exclusion",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Cross-flow filtration cell, UV/Vis absorption spectra, HPLC, aqueous GPC",
+            "Performance Metrics": "Rejection rates: Congo red (98.3%), brilliant blue G250 (99.8%), alcian blue 8GX (99.9%), poly(ethylene glycol) 800 (4.6%)"
+        },
+        "Other Information": {
+            "Additional Info": "The charged CD-based membrane exhibited stable and precise molecular sieving performance for complex mixtures."
+        }
+    }
+]

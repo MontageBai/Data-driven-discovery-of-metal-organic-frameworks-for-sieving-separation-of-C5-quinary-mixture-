@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MGO/LCM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.35-0.38 nm (triangular windows)",
+            "Structure Type": "Ultrathin, defect-free, low-crystallinity layers between mesoporous nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr ions"
+        ],
+        "Ligands": [
+            "fumaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, H2/CO2 mixture feed",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High permeance of ≈4000 GPU due to ultrathin structure and reduced tortuosity."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Strong interaction with exposed metal clusters slows down CO2 migration",
+                "Other Information": {
+                    "Test Conditions": "25 °C, H2/CO2 mixture feed",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enrichment of CO2 molecules in membrane nanopores further reduces its permeation rate."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion combined with strong affinity of frameworks for CO2",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke-Kallenbach technique",
+            "Performance Metrics": "H2/CO2 selectivity: 104, H2 permeance: ≈4000 GPU"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane exhibits excellent stability under varying temperature and humidity conditions due to the tightly integrated LCM inhibiting MGO swelling."
+        }
+    }
+]

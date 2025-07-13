@@ -1,0 +1,69 @@
+**MOF Name: Zn2(BDC)2(Dabco)**
+
+**Inferred Effective Pore Size for Zn2(BDC)2(Dabco):**
+
+From the experimental data:
+*   **Carbon dioxide (CO2)**: 5.198×3.200×3.200 Å → Intermediate = **3.200 Å** | Adsorbed (Yes)
+*   **Methane (CH4)**: 3.877×3.849×3.918 Å → Intermediate = **3.877 Å** | Not Adsorbed (No)
+
+Based on these data, the MOF Zn2(BDC)2(Dabco) can adsorb molecules with an intermediate dimension of at least 3.200 Å (CO2) but cannot adsorb molecules with an intermediate dimension of 3.877 Å (CH4). Therefore, the inferred effective pore size of Zn2(BDC)2(Dabco) lies in the range **[3.200 Å, 3.877 Å)**.
+
+---
+
+**MOF Name: Zn2(BDC)2(Dabco)**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   The MOF’s inferred effective pore size is in the range **[3.200 Å, 3.877 Å)**.
+*   Isoprene Dimensions: 7.746×6.093×3.963 Å → Intermediate = **6.093 Å**
+*   Conclusion: Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by Zn2(BDC)2(Dabco).
+
+---
+
+**MOF Name: Zn2(BDC)2(Dabco)**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   The MOF’s inferred effective pore size is in the range **[3.200 Å, 3.877 Å)**.
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 Å → Intermediate = **5.572 Å**
+*   Conclusion: Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by Zn2(BDC)2(Dabco).
+
+---
+
+**MOF Name: Zn2(BDC)2(Dabco)**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   The MOF’s inferred effective pore size is in the range **[3.200 Å, 3.877 Å)**.
+*   1-pentene Dimensions: 8.847×4.995×4.897 Å → Intermediate = **4.995 Å**
+*   Conclusion: Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by Zn2(BDC)2(Dabco).
+
+---
+
+**MOF Name: Zn2(BDC)2(Dabco)**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   The MOF’s inferred effective pore size is in the range **[3.200 Å, 3.877 Å)**.
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 Å → Intermediate = **4.733 Å**
+*   Conclusion: Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by Zn2(BDC)2(Dabco).
+
+---
+
+**MOF Name: Zn2(BDC)2(Dabco)**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   The MOF’s inferred effective pore size is in the range **[3.200 Å, 3.877 Å)**.
+*   n-pentane Dimensions: 9.118×4.364×3.969 Å → Intermediate = **4.364 Å**
+*   Conclusion: Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by Zn2(BDC)2(Dabco).

@@ -1,0 +1,102 @@
+MOF Name: Zn-SDBA-bpy
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-SDBA-bpy:
+-   Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes), primarily due to "Selective gate-opening for acetylene due to strong C2H2-host interactions and framework flexibility". This implies the MOF's intrinsic pore size is smaller than 3.200 Å, but it can expand to accommodate this size upon specific interaction.
+-   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (No), due to "Size exclusion and unfavorable electrostatic interactions". This indicates that without specific interactions that trigger gate-opening (like for acetylene), molecules with an intermediate dimension of 3.200 Å or larger are size-excluded.
+
+Inferred effective pore size of Zn-SDBA-bpy:
+The MOF exhibits a gate-opening phenomenon for acetylene (intermediate dimension 3.200 Å). However, carbon dioxide, with the same intermediate dimension (3.200 Å), is *not* adsorbed due to "size exclusion" and unfavorable interactions. This strongly suggests that the MOF's pore is effectively smaller than 3.200 Å in its default state, and it only opens for specific molecules like acetylene. Therefore, for general adsorption, molecules with an intermediate dimension of 3.200 Å or greater are likely to be size-excluded unless they possess unique properties to induce a highly specific framework expansion.
+
+Isoprene Dimensions:
+-   Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than 3.200 Å (the intermediate dimension of CO2, which is size-excluded) and also significantly larger than acetylene (3.200 Å), which requires a specific gate-opening mechanism for adsorption. There is no indication that Zn-SDBA-bpy would exhibit such a large and specific expansion for a molecule of this size. Therefore, isoprene is predicted to be too large for adsorption by Zn-SDBA-bpy.
+
+---
+
+MOF Name: Zn-SDBA-bpy
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-SDBA-bpy:
+-   Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes), primarily due to "Selective gate-opening for acetylene due to strong C2H2-host interactions and framework flexibility". This implies the MOF's intrinsic pore size is smaller than 3.200 Å, but it can expand to accommodate this size upon specific interaction.
+-   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (No), due to "Size exclusion and unfavorable electrostatic interactions". This indicates that without specific interactions that trigger gate-opening (like for acetylene), molecules with an intermediate dimension of 3.200 Å or larger are size-excluded.
+
+Inferred effective pore size of Zn-SDBA-bpy:
+The MOF exhibits a gate-opening phenomenon for acetylene (intermediate dimension 3.200 Å). However, carbon dioxide, with the same intermediate dimension (3.200 Å), is *not* adsorbed due to "size exclusion" and unfavorable interactions. This strongly suggests that the MOF's pore is effectively smaller than 3.200 Å in its default state, and it only opens for specific molecules like acetylene. Therefore, for general adsorption, molecules with an intermediate dimension of 3.200 Å or greater are likely to be size-excluded unless they possess unique properties to induce a highly specific framework expansion.
+
+cis-2-pentene Dimensions:
+-   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than 3.200 Å (the intermediate dimension of CO2, which is size-excluded) and also significantly larger than acetylene (3.200 Å), which requires a specific gate-opening mechanism for adsorption. There is no indication that Zn-SDBA-bpy would exhibit such a large and specific expansion for a molecule of this size. Therefore, cis-2-pentene is predicted to be too large for adsorption by Zn-SDBA-bpy.
+
+---
+
+MOF Name: Zn-SDBA-bpy
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-SDBA-bpy:
+-   Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes), primarily due to "Selective gate-opening for acetylene due to strong C2H2-host interactions and framework flexibility". This implies the MOF's intrinsic pore size is smaller than 3.200 Å, but it can expand to accommodate this size upon specific interaction.
+-   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (No), due to "Size exclusion and unfavorable electrostatic interactions". This indicates that without specific interactions that trigger gate-opening (like for acetylene), molecules with an intermediate dimension of 3.200 Å or larger are size-excluded.
+
+Inferred effective pore size of Zn-SDBA-bpy:
+The MOF exhibits a gate-opening phenomenon for acetylene (intermediate dimension 3.200 Å). However, carbon dioxide, with the same intermediate dimension (3.200 Å), is *not* adsorbed due to "size exclusion" and unfavorable interactions. This strongly suggests that the MOF's pore is effectively smaller than 3.200 Å in its default state, and it only opens for specific molecules like acetylene. Therefore, for general adsorption, molecules with an intermediate dimension of 3.200 Å or greater are likely to be size-excluded unless they possess unique properties to induce a highly specific framework expansion.
+
+1-pentene Dimensions:
+-   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is significantly larger than 3.200 Å (the intermediate dimension of CO2, which is size-excluded) and also significantly larger than acetylene (3.200 Å), which requires a specific gate-opening mechanism for adsorption. There is no indication that Zn-SDBA-bpy would exhibit such a large and specific expansion for a molecule of this size. Therefore, 1-pentene is predicted to be too large for adsorption by Zn-SDBA-bpy.
+
+---
+
+MOF Name: Zn-SDBA-bpy
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-SDBA-bpy:
+-   Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes), primarily due to "Selective gate-opening for acetylene due to strong C2H2-host interactions and framework flexibility". This implies the MOF's intrinsic pore size is smaller than 3.200 Å, but it can expand to accommodate this size upon specific interaction.
+-   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (No), due to "Size exclusion and unfavorable electrostatic interactions". This indicates that without specific interactions that trigger gate-opening (like for acetylene), molecules with an intermediate dimension of 3.200 Å or larger are size-excluded.
+
+Inferred effective pore size of Zn-SDBA-bpy:
+The MOF exhibits a gate-opening phenomenon for acetylene (intermediate dimension 3.200 Å). However, carbon dioxide, with the same intermediate dimension (3.200 Å), is *not* adsorbed due to "size exclusion" and unfavorable interactions. This strongly suggests that the MOF's pore is effectively smaller than 3.200 Å in its default state, and it only opens for specific molecules like acetylene. Therefore, for general adsorption, molecules with an intermediate dimension of 3.200 Å or greater are likely to be size-excluded unless they possess unique properties to induce a highly specific framework expansion.
+
+trans-2-pentene Dimensions:
+-   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than 3.200 Å (the intermediate dimension of CO2, which is size-excluded) and also significantly larger than acetylene (3.200 Å), which requires a specific gate-opening mechanism for adsorption. There is no indication that Zn-SDBA-bpy would exhibit such a large and specific expansion for a molecule of this size. Therefore, trans-2-pentene is predicted to be too large for adsorption by Zn-SDBA-bpy.
+
+---
+
+MOF Name: Zn-SDBA-bpy
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-SDBA-bpy:
+-   Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes), primarily due to "Selective gate-opening for acetylene due to strong C2H2-host interactions and framework flexibility". This implies the MOF's intrinsic pore size is smaller than 3.200 Å, but it can expand to accommodate this size upon specific interaction.
+-   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (No), due to "Size exclusion and unfavorable electrostatic interactions". This indicates that without specific interactions that trigger gate-opening (like for acetylene), molecules with an intermediate dimension of 3.200 Å or larger are size-excluded.
+
+Inferred effective pore size of Zn-SDBA-bpy:
+The MOF exhibits a gate-opening phenomenon for acetylene (intermediate dimension 3.200 Å). However, carbon dioxide, with the same intermediate dimension (3.200 Å), is *not* adsorbed due to "size exclusion" and unfavorable interactions. This strongly suggests that the MOF's pore is effectively smaller than 3.200 Å in its default state, and it only opens for specific molecules like acetylene. Therefore, for general adsorption, molecules with an intermediate dimension of 3.200 Å or greater are likely to be size-excluded unless they possess unique properties to induce a highly specific framework expansion.
+
+n-pentane Dimensions:
+-   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is significantly larger than 3.200 Å (the intermediate dimension of CO2, which is size-excluded) and also significantly larger than acetylene (3.200 Å), which requires a specific gate-opening mechanism for adsorption. There is no indication that Zn-SDBA-bpy would exhibit such a large and specific expansion for a molecule of this size. Therefore, n-pentane is predicted to be too large for adsorption by Zn-SDBA-bpy.

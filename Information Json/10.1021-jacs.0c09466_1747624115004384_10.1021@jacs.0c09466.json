@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Co-gallate",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 Å",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "gallic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "5.1 Å x 4.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene uptake capacity is 66.6 cm³ cm⁻³ (STP) at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.3 Å x 5.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane uptake is negligible (5.2 cm³ cm⁻³, STP)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C3H6/C3H8 selectivity: 330 (IAST at 1 bar, 298 K); Dynamic separation productivity: 36.4 cm³ cm⁻³ (STP)"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows high water stability and retains its performance after multiple cycles. It can produce propylene with a purity of 97.7% in a single PSA process."
+        }
+    }
+]

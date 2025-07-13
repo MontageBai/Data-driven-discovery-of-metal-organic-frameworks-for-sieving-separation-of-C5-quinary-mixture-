@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "TNU-132",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D network"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ag(I)"
+        ],
+        "Ligands": [
+            "1,2,4,5-tetra(pyridin-3-yl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perrhenate",
+                "Molecular Size": "0.26 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination bonding after sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ReO4- ions are selectively captured and fixed via coordination bonds with Ag–O interactions."
+                }
+            },
+            {
+                "Molecule Name": "dichromate",
+                "Molecular Size": "0.32 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cr2O7^2- is excluded due to its larger size and adheres to the external surface via electrostatic interactions."
+                }
+            },
+            {
+                "Molecule Name": "permanganate",
+                "Molecular Size": "0.24 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination bonding after sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "MnO4- shows preferential capture over ReO4- due to smaller size and lower hydration energy."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Nano-sieving followed by reconstruction process for ReO4-",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, STEM-EDS, SC-XRD",
+            "Performance Metrics": "ReO4- removal efficiency: >99%, Cr2O7^2- removal efficiency: ~72.8%"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits high selectivity for ReO4- over competing anions like NO3- and SO4^2- even at high concentrations."
+        }
+    }
+]

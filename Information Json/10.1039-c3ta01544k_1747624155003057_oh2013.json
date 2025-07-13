@@ -1,0 +1,194 @@
+[
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "PhIM"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.83–2.89 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "19.5–70 K, 0–1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrogen cannot penetrate due to comparable pore aperture and kinetic diameter."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "2.83–2.89 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "19.5–70 K, 0–1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Deuterium cannot penetrate due to comparable pore aperture and kinetic diameter."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherm measurements",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Quantum cryo-sieving effect is negligible due to pore size being too small for penetration."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "MeIM"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.83–2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "19.5–70 K, 0–1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption of deuterium over hydrogen observed due to quantum confinement effect."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "2.83–2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "19.5–70 K, 0–1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Favorable adsorption compared to hydrogen due to quantum statistical mass effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum confinement effect at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherm measurements",
+            "Performance Metrics": "Maximum D2/H2 molar ratio: ~11 at 19.5 K under zero coverage pressure."
+        },
+        "Other Information": {
+            "Additional Info": "Optimum pore size for quantum cryo-sieving determined between 3.0 Å and 3.4 Å."
+        }
+    },
+    {
+        "Materials Name": "COF-1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "9.0 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "C3H2BO"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.83–2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "19.5–70 K, 0–1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Quantum confinement effect observed with higher D2/H2 molar ratio at low temperatures."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "2.83–2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "19.5–70 K, 0–1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption enthalpy compared to hydrogen due to smaller pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum confinement effect at larger pore sizes",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherm measurements",
+            "Performance Metrics": "Maximum D2/H2 molar ratio: ~7 at 19.5 K under zero coverage pressure."
+        },
+        "Other Information": {
+            "Additional Info": "Pressure range shifted to higher pressures at moderate temperatures (30–40 K)."
+        }
+    },
+    {
+        "Materials Name": "COF-102",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "12.0 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "C25H16B4O4"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.83–2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Surface adsorption",
+                "Other Information": {
+                    "Test Conditions": "19.5–70 K, 0–1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Quantum cryo-sieving effect nearly negligible; behaves like conventional porous materials."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "2.83–2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Surface adsorption",
+                "Other Information": {
+                    "Test Conditions": "19.5–70 K, 0–1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slight preference for deuterium adsorption due to favorable surface interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Negligible quantum confinement effect",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherm measurements",
+            "Performance Metrics": "D2/H2 molar ratio slightly above 1 across all conditions."
+        },
+        "Other Information": {
+            "Additional Info": "Large pore size diminishes quantum sieving effects."
+        }
+    }
+]

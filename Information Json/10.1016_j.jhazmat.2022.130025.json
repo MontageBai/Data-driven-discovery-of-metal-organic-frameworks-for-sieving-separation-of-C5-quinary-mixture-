@@ -1,0 +1,211 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.75 nm ∼3.55 nm, 0.74 nm ∼3.93 nm, 0.70 nm ∼5.69 nm, 0.77 nm ∼8.26 nm, 0.78 nm ∼0.94 nm",
+            "Structure Type": "Hierarchically porous structures"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "1,4-terephthalic acid",
+            "acetic acid",
+            "n-pentanoic acid",
+            "n-caprylic acid",
+            "n-dodecanoic acid",
+            "n-myristic acid",
+            "n-pentacyclic acid",
+            "n-palmitic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ibuprofen",
+                "Molecular Size": "0.56 nm × 0.93 nm × 1.17 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "20 mg/L, deionized water, 120 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The adsorption kinetics increased significantly with increasing mesoporous distribution (Dmeso/Dmicro)."
+                }
+            },
+            {
+                "Molecule Name": "antipyrine",
+                "Molecular Size": "0.33 nm × 0.43 nm × 0.74 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The adsorption rates follow the sequence IM > IBU > DF > KP > CA > AP."
+                }
+            },
+            {
+                "Molecule Name": "clofibric acid",
+                "Molecular Size": "0.33 nm × 0.43 nm × 0.74 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The adsorption rates follow the sequence IM > IBU > DF > KP > CA > AP."
+                }
+            },
+            {
+                "Molecule Name": "diclofenac",
+                "Molecular Size": "0.33 nm × 0.43 nm × 0.74 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The adsorption rates follow the sequence IM > IBU > DF > KP > CA > AP."
+                }
+            },
+            {
+                "Molecule Name": "ketoprofen",
+                "Molecular Size": "0.33 nm × 0.43 nm × 0.74 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The adsorption rates follow the sequence IM > IBU > DF > KP > CA > AP."
+                }
+            },
+            {
+                "Molecule Name": "indomethacin",
+                "Molecular Size": "0.33 nm × 0.43 nm × 0.74 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The adsorption rates follow the sequence IM > IBU > DF > KP > CA > AP."
+                }
+            },
+            {
+                "Molecule Name": "sulfamethoxazole",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption performance shows an opposite trend with decreasing adsorption performance."
+                }
+            },
+            {
+                "Molecule Name": "sulfadimethoxine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption performance shows an opposite trend with decreasing adsorption performance."
+                }
+            },
+            {
+                "Molecule Name": "sulfaclozine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption performance shows an opposite trend with decreasing adsorption performance."
+                }
+            },
+            {
+                "Molecule Name": "ofloxacin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The adsorption rates can be improved with the increasing mesoporous distributions for all three quinolones."
+                }
+            },
+            {
+                "Molecule Name": "norfloxacin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The adsorption rates can be improved with the increasing mesoporous distributions for all three quinolones."
+                }
+            },
+            {
+                "Molecule Name": "ciprofloxacin",
+                "Molecular Size": "1.36 nm × 0.55 nm × 0.85 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The adsorption rates can be improved with the increasing mesoporous distributions for all three quinolones."
+                }
+            },
+            {
+                "Molecule Name": "phenacetin",
+                "Molecular Size": "0.99 nm × 0.31 nm × 0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller molecular sizes could lack interaction to reach enough binding energy."
+                }
+            },
+            {
+                "Molecule Name": "paracetamol",
+                "Molecular Size": "0.99 nm × 0.31 nm × 0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller molecular sizes could lack interaction to reach enough binding energy."
+                }
+            },
+            {
+                "Molecule Name": "chloramphenicol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CBZ (1030.89 μg/g) and AT (250.01 μg/g) have ultrahigh adsorption capacity probably because of π-π interaction and electrostatic attraction."
+                }
+            },
+            {
+                "Molecule Name": "carbamazepine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption mechanism",
+                "Other Information": {
+                    "Test Conditions": "100 μg/L, 60 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CBZ (1030.89 μg/g) and AT (250.01 μg/g) have ultrahigh adsorption capacity probably because of π-π interaction and electrostatic attraction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, HPLC analysis",
+            "Performance Metrics": "IBU adsorption capacity: 70 mg/g∼ 80 mg/g; CFC has the largest size of 1.36 nm × 0.55 nm × 0.85 nm compared to the other two."
+        },
+        "Other Information": {
+            "Additional Info": "The series of controllable hierarchically porous materials based on the water-stable Zr-based MOFs was precisely designed and successfully synthesized in the study."
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (window), 11.4 Å (cage)",
+            "Structure Type": "Sodalite-type cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "373 K, up to 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption constant: 0.40 kPa^-1; Saturation loading: 2.7 mmol g^-1"
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "373 K, up to 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption constant: 0.20 kPa^-1; Saturation loading: 2.57 mmol g^-1"
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "0.58 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "373 K, up to 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption constant: 0.02 kPa^-1; Saturation loading: 2.72 mmol g^-1"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.63 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "373 K, up to 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Almost totally excluded from adsorption"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening effect due to flexibility of imidazole linkers",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment and GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: Not Reported, Permeance: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Effective pore size estimated between 5.8 Å and 6.3 Å despite formal window size of 3.4 Å."
+        }
+    }
+]

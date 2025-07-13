@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Zn-Ade-TCPE",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.9 Å",
+            "Structure Type": "3D framework with hierarchical cavities"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "adenine",
+            "tetrakis(4-carboxyphenyl)ethylene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "0.34 nm (thickness), ~0.67 nm (width)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, low pressure (~10 Pa to ~12 kPa)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake even at low pressures, e.g., 2.49 mmol/g at 8.2 Pa."
+                }
+            },
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "0.51 nm (thickness in chair conformation), ~0.67 nm (width)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, low pressure (~10 Pa to ~12 kPa)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake, e.g., 0.23 mmol/g at 12.4 kPa."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Narrow slit-like pore aperture and strong host-guest interactions enable selective adsorption of benzene over cyclohexane.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "Bz/Cy selectivity: 216 (1:1 v/v liquid mixture), 723 (1:10 v/v), 1027 (1:20 v/v); Bz removal >99% from Cy with trace Bz (1000 ppm)."
+        },
+        "Other Information": {
+            "Additional Info": "β-Zn-Ade-TCPE showed similar separation performance but lower adsorption capacities due to blocked pores by coordinated DMA molecules."
+        }
+    }
+]

@@ -1,0 +1,139 @@
+MOF Name: UTSA-200
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UTSA-200:
+*   **Adsorbed (Yes):**
+    *   acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å (Adsorbed due to strong binding)
+    *   propyne: 6.433×3.818×3.961 → Intermediate = 3.961 Å (Adsorbed due to strong binding and pore flexibility)
+*   **Non-Adsorbed (No, due to size exclusion):**
+    *   ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å (Not Adsorbed, Size exclusion)
+    *   propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å (Not Adsorbed, Size exclusion due to smaller pore size)
+    *   carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å (Not Adsorbed, Size exclusion)
+
+Inferred effective pore size of UTSA-200:
+A direct contradiction arises in the experimental data for carbon dioxide (intermediate 3.200 Å) being explicitly "Not Adsorbed" due to "Size exclusion", while acetylene (intermediate 3.200 Å) *is* adsorbed, and propyne (intermediate 3.961 Å) is also adsorbed. If the pore size were strictly defined by the intermediate dimension for size exclusion, then the pore would have to be < 3.200 Å (from CO2), which contradicts the adsorption of propyne (3.961 Å) and acetylene (3.200 Å).
+
+Given the explicit guidance to focus on "geometric compatibility based on the intermediate molecular dimension" and the consistent exclusion of larger molecules, the most plausible effective pore size range for general passage is derived from the largest adsorbed molecule (propyne, 3.961 Å) and the smallest *larger* molecule consistently excluded by size (ethylene, 4.047 Å). This suggests the pore size is approximately between **3.961 Å and 4.047 Å**. The carbon dioxide case may represent a specific kinetic sieving or shape-dependent exclusion that is labeled as 'size exclusion' but deviates from a simple intermediate-dimension-only geometric cut-off, or the MOF has complex, non-uniform pores. For this prediction, we will use the most consistent geometric range: 3.961 Å ≤ Pore Size < 4.047 Å.
+
+Isoprene Dimensions:
+*   isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the inferred upper bound of UTSA-200's effective pore size (~4.047 Å), it cannot be adsorbed by UTSA-200 based on size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: UTSA-200
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UTSA-200:
+*   **Adsorbed (Yes):**
+    *   acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å (Adsorbed due to strong binding)
+    *   propyne: 6.433×3.818×3.961 → Intermediate = 3.961 Å (Adsorbed due to strong binding and pore flexibility)
+*   **Non-Adsorbed (No, due to size exclusion):**
+    *   ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å (Not Adsorbed, Size exclusion)
+    *   propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å (Not Adsorbed, Size exclusion due to smaller pore size)
+    *   carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å (Not Adsorbed, Size exclusion)
+
+Inferred effective pore size of UTSA-200:
+As detailed above, the effective pore size of UTSA-200 is inferred to be approximately between **3.961 Å and 4.047 Å**.
+
+cis-2-pentene Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the inferred upper bound of UTSA-200's effective pore size (~4.047 Å), it cannot be adsorbed by UTSA-200 based on size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: UTSA-200
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UTSA-200:
+*   **Adsorbed (Yes):**
+    *   acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å (Adsorbed due to strong binding)
+    *   propyne: 6.433×3.818×3.961 → Intermediate = 3.961 Å (Adsorbed due to strong binding and pore flexibility)
+*   **Non-Adsorbed (No, due to size exclusion):**
+    *   ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å (Not Adsorbed, Size exclusion)
+    *   propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å (Not Adsorbed, Size exclusion due to smaller pore size)
+    *   carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å (Not Adsorbed, Size exclusion)
+
+Inferred effective pore size of UTSA-200:
+As detailed above, the effective pore size of UTSA-200 is inferred to be approximately between **3.961 Å and 4.047 Å**.
+
+1-pentene Dimensions:
+*   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the inferred upper bound of UTSA-200's effective pore size (~4.047 Å), it cannot be adsorbed by UTSA-200 based on size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: UTSA-200
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UTSA-200:
+*   **Adsorbed (Yes):**
+    *   acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å (Adsorbed due to strong binding)
+    *   propyne: 6.433×3.818×3.961 → Intermediate = 3.961 Å (Adsorbed due to strong binding and pore flexibility)
+*   **Non-Adsorbed (No, due to size exclusion):**
+    *   ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å (Not Adsorbed, Size exclusion)
+    *   propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å (Not Adsorbed, Size exclusion due to smaller pore size)
+    *   carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å (Not Adsorbed, Size exclusion)
+
+Inferred effective pore size of UTSA-200:
+As detailed above, the effective pore size of UTSA-200 is inferred to be approximately between **3.961 Å and 4.047 Å**.
+
+trans-2-pentene Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the inferred upper bound of UTSA-200's effective pore size (~4.047 Å), it cannot be adsorbed by UTSA-200 based on size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: UTSA-200
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UTSA-200:
+*   **Adsorbed (Yes):**
+    *   acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å (Adsorbed due to strong binding)
+    *   propyne: 6.433×3.818×3.961 → Intermediate = 3.961 Å (Adsorbed due to strong binding and pore flexibility)
+*   **Non-Adsorbed (No, due to size exclusion):**
+    *   ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å (Not Adsorbed, Size exclusion)
+    *   propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å (Not Adsorbed, Size exclusion due to smaller pore size)
+    *   carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å (Not Adsorbed, Size exclusion)
+
+Inferred effective pore size of UTSA-200:
+As detailed above, the effective pore size of UTSA-200 is inferred to be approximately between **3.961 Å and 4.047 Å**.
+
+n-pentane Dimensions:
+*   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is larger than the inferred upper bound of UTSA-200's effective pore size (~4.047 Å), it cannot be adsorbed by UTSA-200 based on size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**

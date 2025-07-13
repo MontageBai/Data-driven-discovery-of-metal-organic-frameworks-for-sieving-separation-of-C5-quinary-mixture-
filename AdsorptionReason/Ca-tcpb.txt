@@ -1,0 +1,68 @@
+MOF Name: Ca-tcpb
+
+**Inferred Effective Pore Size of Ca-tcpb:**
+
+From the experimental data for Ca-tcpb:
+*   **2,2-dimethylbutane:** 7.829×5.502×6.545 → Intermediate = **6.545 Å**. Adsorbed: No. Reason: Size exclusion. This indicates that the effective pore size of Ca-tcpb is less than 6.545 Å.
+*   **3-methylpentane:** 9.052×6.008×4.985 → Intermediate = **6.008 Å**. Adsorbed: Temperature-dependent. Reason: Temperature-dependent size exclusion where adsorption behavior changes with temperature, at 60°C, 120°C.
+    Given that adsorption is "Temperature-dependent size exclusion" and the experimental temperatures (60°C, 120°C) are higher than the standard condition (298 K, or ~25°C), it is highly probable that 3-methylpentane would also be excluded at 298 K. This is because MOF frameworks can sometimes exhibit flexibility that leads to larger effective pores at higher temperatures, or diffusion becomes more activated. If a molecule is "temperature-dependent" for size exclusion, it implies it is at the very limit of the pore, and at a lower temperature, the pore would likely be effectively smaller or less accessible.
+
+Therefore, for predictions under standard conditions (298 K, 1 bar), we infer that both 3-methylpentane (6.008 Å) and 2,2-dimethylbutane (6.545 Å) are effectively excluded by Ca-tcpb. This establishes an upper limit for molecules that can pass.
+The inferred effective pore size of Ca-tcpb at 298 K is **less than 6.008 Å**.
+
+---
+
+**Evaluation of Target Guest Molecules:**
+
+**MOF Name: Ca-tcpb**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+-   **isoprene Dimensions:** 7.746×6.093×3.963 → Intermediate = **6.093 Å**.
+-   **Comparison:** Since isoprene's intermediate dimension (6.093 Å) is greater than the inferred effective pore size of Ca-tcpb (< 6.008 Å), it cannot be adsorbed.
+
+---
+
+**MOF Name: Ca-tcpb**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+-   **cis-2-pentene Dimensions:** 8.067×5.572×5.136 → Intermediate = **5.572 Å**.
+-   **Comparison:** Since cis-2-pentene's intermediate dimension (5.572 Å) is less than the inferred effective pore size of Ca-tcpb (< 6.008 Å), it can be adsorbed.
+
+---
+
+**MOF Name: Ca-tcpb**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+-   **1-pentene Dimensions:** 8.847×4.995×4.897 → Intermediate = **4.995 Å**.
+-   **Comparison:** Since 1-pentene's intermediate dimension (4.995 Å) is less than the inferred effective pore size of Ca-tcpb (< 6.008 Å), it can be adsorbed.
+
+---
+
+**MOF Name: Ca-tcpb**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+-   **trans-2-pentene Dimensions:** 8.796×4.733×4.564 → Intermediate = **4.733 Å**.
+-   **Comparison:** Since trans-2-pentene's intermediate dimension (4.733 Å) is less than the inferred effective pore size of Ca-tcpb (< 6.008 Å), it can be adsorbed.
+
+---
+
+**MOF Name: Ca-tcpb**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+-   **n-pentane Dimensions:** 9.118×4.364×3.969 → Intermediate = **4.364 Å**.
+-   **Comparison:** Since n-pentane's intermediate dimension (4.364 Å) is less than the inferred effective pore size of Ca-tcpb (< 6.008 Å), it can be adsorbed.

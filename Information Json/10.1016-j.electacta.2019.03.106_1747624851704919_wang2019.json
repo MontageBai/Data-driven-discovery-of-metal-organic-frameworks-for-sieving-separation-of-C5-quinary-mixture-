@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "PPy/HKUST-1 composite film",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ion",
+                "Molecular Size": "0.076 nm (ionic radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Reduction potential of -0.3 V vs. SCE, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 37.55 mg/g; Li+/Na+ ideal separation factor: 119.14"
+                }
+            },
+            {
+                "Molecule Name": "sodium ion",
+                "Molecular Size": "0.098 nm (ionic radius)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Reduction potential of -0.3 V vs. SCE, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+/Na+ ideal separation factor: 119.14"
+                }
+            },
+            {
+                "Molecule Name": "potassium ion",
+                "Molecular Size": "0.133 nm (ionic radius)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Reduction potential of -0.3 V vs. SCE, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+/K+ ideal separation factor: 35.85"
+                }
+            },
+            {
+                "Molecule Name": "magnesium ion",
+                "Molecular Size": "0.057 nm (ionic radius)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Reduction potential of -0.3 V vs. SCE, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+/Mg2+ ideal separation factor: 170.4"
+                }
+            },
+            {
+                "Molecule Name": "copper ion",
+                "Molecular Size": "0.072 nm (ionic radius)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Reduction potential of -0.3 V vs. SCE, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+/Cu2+ ideal separation factor: 29.68"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Electrochemically switched ion exchange technique",
+            "Performance Metrics": "Li+/Na+ selectivity: 119.14, Li+/K+ selectivity: 35.85, Li+/Mg2+ selectivity: 170.4, Li+/Cu2+ selectivity: 29.68"
+        },
+        "Other Information": {
+            "Additional Info": "The PPy/HKUST-1 composite film exhibits a high selective extraction ability for Li+ present in low concentrations."
+        }
+    }
+]

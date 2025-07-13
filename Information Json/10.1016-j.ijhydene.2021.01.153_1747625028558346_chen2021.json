@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-67@NH2eSiO2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 Å, 11.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, He carrier gas at 20 mL/min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation resolution R = 1.52, separation time t = 10.15 min."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.296 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, He carrier gas at 20 mL/min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation resolution R = 1.52, separation time t = 10.15 min."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combination of kinetic quantum sieving (KQS) and chemical affinity quantum sieving (CAQS)",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas chromatography",
+            "Performance Metrics": "H2/D2 separation resolution: 1.52, separation time: 10.15 min"
+        },
+        "Other Information": {
+            "Additional Info": "The material was prepared by loading ZIF-67 onto amino-modified SiO2 via layer-by-layer self-assembly method."
+        }
+    }
+]

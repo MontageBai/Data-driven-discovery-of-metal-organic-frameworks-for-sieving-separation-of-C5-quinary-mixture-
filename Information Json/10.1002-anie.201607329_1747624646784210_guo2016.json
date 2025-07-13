@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "PSS@HKUST-1-6.7",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.62 nm",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "H3BTC"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.76 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Binding affinity to sulfonate groups and size sieving effects",
+                "Other Information": {
+                    "Test Conditions": "25°C, 0.5m LiCl electrolyte",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+ conductivity: 5.53 × 10⁻⁴ S cm⁻¹ at 25°C; Flux: 6.75 mol m⁻² h⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.72 nm (hydrated diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Binding affinity to sulfonate groups and size sieving effects",
+                "Other Information": {
+                    "Test Conditions": "25°C, 0.5m NaCl electrolyte",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity for Li+/Na+: 35"
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "0.66 nm (hydrated diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Binding affinity to sulfonate groups and size sieving effects",
+                "Other Information": {
+                    "Test Conditions": "25°C, 0.5m KCl electrolyte",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity for Li+/K+: 67"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.86 nm (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Binding affinity to sulfonate groups and size sieving effects",
+                "Other Information": {
+                    "Test Conditions": "25°C, 0.5m MgCl2 electrolyte",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity for Li+/Mg2+: 1815"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and binding affinity differences among metal ions",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Inductively Coupled Plasma Mass Spectroscopy (ICP-MS), Alternating Current Impedance, I-V Curves",
+            "Performance Metrics": "Li+ conductivity: 5.53 × 10⁻⁴ S cm⁻¹ at 25°C; Selectivities: Li+/Na+: 35, Li+/K+: 67, Li+/Mg2+: 1815"
+        },
+        "Other Information": {
+            "Additional Info": "The PSS@HKUST-1-6.7 membrane exhibits superior water stability compared to pristine HKUST-1."
+        }
+    }
+]

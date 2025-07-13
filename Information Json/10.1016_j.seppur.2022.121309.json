@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Zn-TCPP",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.39 nm",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "Tetrakis(4-carboxyphenyl)porphyrin"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.764 nm (hydrated ion diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and electrostatic attraction",
+                "Other Information": {
+                    "Test Conditions": "pH = 3 ∼ 10, 0.1 M LiCl/MgCl2, 0.01 M KCl, 3.0 V, 25 cm2 membrane area",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+ permeation enhanced due to negative charge density and larger pore size than hydrated Li+ diameter."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Pore size-sieving effect",
+                "Other Information": {
+                    "Test Conditions": "pH = 3 ∼ 10, 0.1 M LiCl/MgCl2, 0.01 M KCl, 3.0 V, 25 cm2 membrane area",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Mg2+ was trapped outside the dense layer due to its larger size compared to Li+."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and electrostatic interaction",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Electrodialysis experiments, ATR-FTIR, XRD, SEM, TEM, Zeta potential measurements",
+            "Performance Metrics": "J_Li+ = 9.12 × 10^-9 mol cm^-2 s^-1, P_Mg2+/Li+ = 8.99"
+        },
+        "Other Information": {
+            "Additional Info": "Zn-TCPP nanosheets were introduced into PVA/SPES membranes to enhance Li+/Mg2+ separation performance."
+        }
+    }
+]

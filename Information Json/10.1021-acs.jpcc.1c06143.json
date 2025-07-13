@@ -1,0 +1,290 @@
+[
+    {
+        "Materials Name": "SIFSIX-2-Ni-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "1,4-bis(pyridin-4-ylethynyl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows molecular sieving behavior for C3H6 over C3H8 with selectivity of 26.07."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3−5.12 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejected due to size in molecular sieving mechanism."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "C3H6/C3H8 selectivity: 26.07, C3H6 loading: 2.63 mmol/g at 100 kPa and 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "No open metal sites; separation based purely on pore size."
+        }
+    },
+    {
+        "Materials Name": "NbOFFIVE-14-Co-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "1,4-bis(pyridin-4-ylethynyl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows selective adsorption of C2H4 over C2H6 with selectivity of 2.51."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.44 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejected due to size in molecular sieving mechanism."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "C2H4/C2H6 selectivity: 2.51, C2H4 loading: 0.86 mmol/g at 100 kPa and 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "Smaller pores favor C2H4 over C2H6 due to size-based selectivity."
+        }
+    },
+    {
+        "Materials Name": "GaFFIVE-3-Cd",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "1,4-bis(pyridin-4-ylethynyl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.44 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "van der Waals interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows preferential adsorption of C2H6 over C2H4 with selectivity of 2.00."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "van der Waals interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed but less favored compared to C2H6."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "C2H6/C2H4 selectivity: 2.00, C2H6 loading: 1.02 mmol/g at 100 kPa and 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "Preferential adsorption driven by stronger van der Waals interactions with alkanes."
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-6-Cd-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "1,4-bis(pyridin-4-ylethynyl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.44 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "van der Waals interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows high selectivity for C2H6 over CH4 with selectivity of 25.00."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "van der Waals interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less favored compared to C2H6 due to weaker interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "C2H6/CH4 selectivity: 25.00, C2H6 loading: 3.59 mmol/g at 100 kPa and 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "Stronger van der Waals interactions with heavier hydrocarbons drive selectivity."
+        }
+    },
+    {
+        "Materials Name": "InFFIVE-5-Zn-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,4-bis(pyridin-4-ylethynyl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "van der Waals interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows high selectivity for C3H6 over C2H4 with selectivity of 12.06."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "van der Waals interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less favored compared to C3H6 due to weaker interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "C3H6/C2H4 selectivity: 12.06, C3H6 loading: 4.37 mmol/g at 100 kPa and 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "Selective adsorption driven by differences in molecular size and interactions."
+        }
+    },
+    {
+        "Materials Name": "GaFFIVE-5-Cd-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "1,4-bis(pyridin-4-ylethynyl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3−5.12 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "van der Waals interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows high selectivity for C3H8 over C2H4 with selectivity of 17.71."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "van der Waals interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less favored compared to C3H8 due to weaker interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "C3H8/C2H4 selectivity: 17.71, C3H8 loading: 4.34 mmol/g at 100 kPa and 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "Selective adsorption driven by differences in molecular size and interactions."
+        }
+    }
+]

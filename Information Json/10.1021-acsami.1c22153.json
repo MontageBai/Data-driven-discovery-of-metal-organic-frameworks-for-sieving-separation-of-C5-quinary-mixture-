@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glucose",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Glucose enters the pores of ZIF-8, leading to oxidation and pH reduction.",
+                "Other Information": {
+                    "Test Conditions": "Physiological conditions (HEPES buffer, 10 mM, pH 7.4, 37 °C)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Glucose-responsive insulin release occurs due to the acidic byproducts of glucose oxidation disrupting ZIF-8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, glucose-responsive release studies",
+            "Performance Metrics": "Insulin release: 137.2 μg/mL (normoglycemic, 1 mg/mL glucose), 448.9 μg/mL (hyperglycemic, 4 mg/mL glucose)"
+        },
+        "Other Information": {
+            "Additional Info": "Encapsulation efficiency of insulin was nearly 100%, with enhanced loading via microfluidic synthesis."
+        }
+    }
+]

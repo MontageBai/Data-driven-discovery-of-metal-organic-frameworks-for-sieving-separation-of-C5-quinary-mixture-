@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "FOLA@NH2-Eu:TMU-62",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "8.33 nm (initial), 7.95 nm (after FOLA attachment), 6.41 nm (after 5-Fu loading)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Eu(III)"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid (2-ATA)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "5-fluorouracil",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "pH-dependent",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "pH 5.3, 6.8, 7.4, 37 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Drug release is pH-responsive; higher release at lower pH."
+                }
+            }
+        ],
+        "Sieving Mechanism": "pH-responsive drug release through hydrolysis of metal-linked bonds",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "UV−Vis spectrophotometry, FT-IR spectroscopy, PXRD analysis",
+            "Performance Metrics": "Drug loading content: 53.8%, Drug loading efficiency: 94.2%"
+        },
+        "Other Information": {
+            "Additional Info": "FOLA conjugation enhances targeting and cellular uptake in FR-positive cancer cells."
+        }
+    }
+]

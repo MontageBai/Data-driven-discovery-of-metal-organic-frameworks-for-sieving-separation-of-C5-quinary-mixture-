@@ -1,0 +1,164 @@
+[
+    {
+        "Materials Name": "ag(ZIF-62)0.7/(SSZ-13)0.3",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å × 3.8 Å (CHA structure), Not Reported for agZIF-62",
+            "Structure Type": "3D cages (CHA structure), Not Reported for agZIF-62"
+        },
+        "Topology": "CHA",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazole or benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1,3-butadiene",
+                "Molecular Size": "5.2 Å × 3.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Zeolite SSZ-13 selectively adsorbs C4H6 over other C4 hydrocarbons."
+                }
+            },
+            {
+                "Molecule Name": "n-butene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SSZ-13 zeolite excludes n-butene from entering the pores."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SSZ-13 zeolite excludes n-butane from entering the pores."
+                }
+            },
+            {
+                "Molecule Name": "isobutene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SSZ-13 zeolite excludes isobutene from entering the pores."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SSZ-13 zeolite excludes isobutane from entering the pores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeance and selectivity testing",
+            "Performance Metrics": "C4H6 permeance: 693.00 ± 21.83 GPU, C4H6/i-C4H10 selectivity: 11.94"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane demonstrated stable performance over 75 hours in C4H6/i-C4H10 separation tests."
+        }
+    },
+    {
+        "Materials Name": "ag(ZIF-62)0.7/(SAPO-34)0.3",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å × 3.8 Å (CHA structure), Not Reported for agZIF-62",
+            "Structure Type": "3D cages (CHA structure), Not Reported for agZIF-62"
+        },
+        "Topology": "CHA",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazole or benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1,3-butadiene",
+                "Molecular Size": "5.2 Å × 3.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Zeolite SAPO-34 selectively adsorbs C4H6 over other C4 hydrocarbons."
+                }
+            },
+            {
+                "Molecule Name": "n-butene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SAPO-34 zeolite excludes n-butene from entering the pores."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SAPO-34 zeolite excludes n-butane from entering the pores."
+                }
+            },
+            {
+                "Molecule Name": "isobutene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SAPO-34 zeolite excludes isobutene from entering the pores."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SAPO-34 zeolite excludes isobutane from entering the pores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeance and selectivity testing",
+            "Performance Metrics": "C4H6 permeance: 537.37 ± 14.29 GPU, C4H6/i-C4H10 selectivity: 8.98"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane showed effective dispersion and interfacial properties of the zeolite within the agZIF-62 matrix."
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "polyIRMOF-1-7a",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5.8 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "polymeric-bdc-acid (pbdc-7a)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "5.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows exceptional selectivity in both unary and multicomponent mixtures."
+                }
+            },
+            {
+                "Molecule Name": "ethylbenzene",
+                "Molecular Size": "6.0 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "polyIRMOF-1-7a discriminates p-xylene from ethylbenzene effectively."
+                }
+            },
+            {
+                "Molecule Name": "meta-xylene",
+                "Molecular Size": "6.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity over m-xylene is high in both ternary and quaternary mixtures."
+                }
+            },
+            {
+                "Molecule Name": "ortho-xylene",
+                "Molecular Size": "6.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "o-xylene shows negligible adsorption compared to p-xylene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Unary vapor and liquid adsorption experiments, breakthrough experiment using GC and NMR quantification",
+            "Performance Metrics": "𝛼pX/OM = 15, 𝛼pX/OME = 9"
+        },
+        "Other Information": {
+            "Additional Info": "The bridging alkyl chains in polyIRMOF-1-7a create a pore environment that enhances stability and selectivity for p-xylene separation."
+        }
+    }
+]

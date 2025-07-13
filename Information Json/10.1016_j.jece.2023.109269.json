@@ -1,0 +1,101 @@
+[
+    {
+        "Materials Name": "CXMs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.35–0.75 ± 0.05 nm",
+            "Structure Type": "Pearl-like structures"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "2-amino terephthalic acid",
+            "melamine",
+            "cyanuric chloride"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeability reached 398.9 ± 12.1 Barrer"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 permeability significantly reduced compared to CO2"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation test",
+            "Performance Metrics": "CO2/CH4 selectivity: 44.2 ± 1.3"
+        },
+        "Other Information": {
+            "Additional Info": "CXMs incorporated into Pebax membrane; surpassed Robeson's upper bounds"
+        }
+    },
+    {
+        "Materials Name": "mCOFs",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "1.00–1.90 ± 0.05 nm",
+            "Structure Type": "Two-dimensional layered structure"
+        },
+        "Topology": "AB stacking",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "melamine",
+            "cyanuric chloride"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeability reached 477.2 ± 17.0 Barrer"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large pore size led to higher diffusion rate for CH4"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation test",
+            "Performance Metrics": "CO2/CH4 selectivity: 31.9 ± 1.1"
+        },
+        "Other Information": {
+            "Additional Info": "mCOFs incorporated into Pebax membrane"
+        }
+    }
+]

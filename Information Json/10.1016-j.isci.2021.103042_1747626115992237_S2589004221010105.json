@@ -1,0 +1,517 @@
+[
+    {
+        "Materials Name": "CuBTC",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "11 Å (PLD), 13 Å (PLD), 5 Å (PLD)",
+            "Structure Type": "Interconnected cavities"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzne-tricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "pi-complexation with open metal sites",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong pi-complexation observed between ethylene and Cu(II) sites"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane binds in small octahedral pockets but excluded from larger molecules like butene due to size"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "pi-complexation with open metal sites",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene strongly binds via pi-complexation with Cu(II) centers"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving for larger molecules like butene; pi-complexation for olefins",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-component adsorption experiments",
+            "Performance Metrics": "Ethylene uptake: 6 mmol g⁻¹ at 298 K, 100 kPa"
+        },
+        "Other Information": {
+            "Additional Info": "CuBTC demonstrated high selectivity for olefins over paraffins via pi-complexation"
+        }
+    },
+    {
+        "Materials Name": "MOF-74-M (M = Mg, Co, Mn)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "11 Å channels",
+            "Structure Type": "Channels aligned with square pyramidal M²⁺ centers"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mg2+",
+            "Co2+",
+            "Mn2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxy-1,4-benzenedicaroxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "pi-complexation with open metal sites",
+                "Other Information": {
+                    "Test Conditions": "318 K, equimolar mixture",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher affinity toward ethylene compared to ethane confirmed by adsorption enthalpy"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.443 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion or weaker interactions",
+                "Other Information": {
+                    "Test Conditions": "318 K, equimolar mixture",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower affinity toward ethane compared to ethylene"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "pi-complexation with open metal sites",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exceptional propylene/propane selectivity of 46 for MOF-74-Co"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion or weaker interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower affinity toward propane compared to propylene"
+                }
+            }
+        ],
+        "Sieving Mechanism": "pi-complexation for olefins; size exclusion for larger molecules",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "IAST-based selectivity calculations",
+            "Performance Metrics": "C₂H₄/C₂H₆ selectivity: 13–18 for MOF-74-Fe; C₃H₆/C₃H₈ selectivity: 46 for MOF-74-Co"
+        },
+        "Other Information": {
+            "Additional Info": "MOF-74 series exhibits high density of open metal sites for olefin separation"
+        }
+    },
+    {
+        "Materials Name": "PAF-1-SO₃Ag",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ag(I)"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "pi-complexation with Ag(I) sites",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High ethylene/ethane selectivity of 27 reported"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.443 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Weaker interactions or size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower affinity toward ethane compared to ethylene"
+                }
+            }
+        ],
+        "Sieving Mechanism": "pi-complexation for ethylene; size exclusion for ethane",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and IAST calculations",
+            "Performance Metrics": "Ethylene/ethane selectivity: 27"
+        },
+        "Other Information": {
+            "Additional Info": "PAF-1-SO₃Ag shows strong pi-complexation due to Ag(I) doping"
+        }
+    },
+    {
+        "Materials Name": "NOTT-300",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Hydroxy-functionalized organic linkers"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "293 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption capacity toward ethylene (4.28 mmol g⁻¹) compared to ethane (0.85 mmol g⁻¹)"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.443 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Weaker hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "293 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly lower adsorption capacity for ethane"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Hydrogen bonding for ethylene; size exclusion for ethane",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-component gas adsorption",
+            "Performance Metrics": "C₂H₄/C₂H₆ selectivity: 48.7"
+        },
+        "Other Information": {
+            "Additional Info": "NOTT-300 demonstrates exceptionally high selectivity for ethylene over ethane"
+        }
+    },
+    {
+        "Materials Name": "KAUST-7 (NbOFFIVE-1-Ni)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3–4.8 Å",
+            "Structure Type": "Periodic net with cubic topology"
+        },
+        "Topology": "cubic",
+        "Metal Nodes": [
+            "Ni"
+        ],
+        "Ligands": [
+            "Pyrazine, NbOF₅⁻"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-compatible pore aperture",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene adsorption uptake: 2.7 mmol g⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to unfavorable pore size",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible propane adsorption observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion mechanism for propane; molecular sieving for propylene",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-component and breakthrough experiments",
+            "Performance Metrics": "Complete molecular exclusion of propane from propylene"
+        },
+        "Other Information": {
+            "Additional Info": "KAUST-7 retains separation performance even after 10 cycles"
+        }
+    },
+    {
+        "Materials Name": "Y-abtc",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Optimal for propylene",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Y"
+        ],
+        "Ligands": [
+            "3,3',5,5'-azobenzene-tetracarboxylates"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-compatible pore aperture",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs propylene selectively while excluding propane"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3–5.118 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane completely excluded due to unfavorable pore size"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion for propane; molecular sieving for propylene",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Multicomponent breakthrough experiments",
+            "Performance Metrics": "Produces propylene with 99.5% purity"
+        },
+        "Other Information": {
+            "Additional Info": "Y-abtc has optimal pore size for separating propylene from propane"
+        }
+    },
+    {
+        "Materials Name": "Co-gallate MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.47–3.69 Å",
+            "Structure Type": "Zig-zag shaped channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co"
+        ],
+        "Ligands": [
+            "Gallic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-compatible cross-section",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Equilibrium ethylene uptake: 3.37 mmol g⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.443 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane rejected due to larger kinetic diameter"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion for ethane; molecular sieving for ethylene",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough tests",
+            "Performance Metrics": "Complete separation of ethylene and ethane"
+        },
+        "Other Information": {
+            "Additional Info": "Co-gallate MOF achieves selective ethylene adsorption"
+        }
+    },
+    {
+        "Materials Name": "UTSA-280",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1D channel with 14.4 Å² cross-sectional area",
+            "Structure Type": "Robust organic ligand framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-compatible cross-section",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylene adsorption capacity: 2.5 mmol g⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.443 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible ethane adsorption (0.098 mmol g⁻¹)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion for ethane; molecular sieving for ethylene",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "Pure ethylene productivity: 1.86 mol kg⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "UTSA-280 selectively excludes ethane from ethylene"
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-14-Cu-i (UTSA-200)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu"
+        ],
+        "Ligands": [
+            "4,4'-azopyridine, SiF₆²⁻"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-compatible pore aperture",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Steep uptake of acetylene at low pressure"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible ethylene adsorption (0.24 mmol g⁻¹)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion for ethylene; molecular sieving for acetylene",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "IAST calculations and breakthrough experiments",
+            "Performance Metrics": "C₂H₂/C₂H₄ selectivity: >6000 at 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "UTSA-200 demonstrates exceptional selectivity for acetylene over ethylene"
+        }
+    },
+    {
+        "Materials Name": "MAF-41",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Flexible structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "styrene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-compatible pore aperture",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs 2.31 mmol g⁻¹ of styrene"
+                }
+            },
+            {
+                "Molecule Name": "ethylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligibly small adsorption of ethylbenzene"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion for ethylbenzene; molecular sieving for styrene",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-component adsorption experiments",
+            "Performance Metrics": "Selective separation of styrene with 99% purity"
+        },
+        "Other Information": {
+            "Additional Info": "MAF-41 undergoes structural changes upon guest molecule interaction"
+        }
+    }
+]

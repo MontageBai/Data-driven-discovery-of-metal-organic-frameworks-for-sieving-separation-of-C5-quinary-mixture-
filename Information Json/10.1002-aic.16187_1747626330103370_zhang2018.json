@@ -1,0 +1,194 @@
+[
+    {
+        "Materials Name": "MIL-53-PC@PPO-PEG",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Aluminum"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Energetic molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "303 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High charge density at N sites facilitates favorable interaction with CO2."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Gate-closing effect",
+                "Other Information": {
+                    "Test Conditions": "303 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Crowded out due to strong affinity of CO2 to MOF-PCs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Energetic molecular sieving originating from interactions between fillers and CO2.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas permeation measurements using Wicke-Kallenbach technique",
+            "Performance Metrics": "CO2 permeability: 912 Barrer, CH4 permeability: 20.4 Barrer, CO2/CH4 selectivity: 45.5"
+        },
+        "Other Information": {
+            "Additional Info": "MMMs exhibit excellent long-term stability, hydrothermal and chemical stability."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8-PC@PPO-PEG",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zinc"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Energetic molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "303 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption of CO2 due to N-doping."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Gate-closing effect",
+                "Other Information": {
+                    "Test Conditions": "303 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Crowded out due to strong affinity of CO2 to MOF-PCs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Energetic molecular sieving originating from interactions between fillers and CO2.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas permeation measurements using Wicke-Kallenbach technique",
+            "Performance Metrics": "CO2 permeability: 1060 Barrer, CH4 permeability: 25.4 Barrer, CO2/CH4 selectivity: 41.6"
+        },
+        "Other Information": {
+            "Additional Info": "MMMs exhibit excellent long-term stability, hydrothermal and chemical stability."
+        }
+    },
+    {
+        "Materials Name": "Al-PCP-PC@PPO-PEG",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Aluminum"
+        ],
+        "Ligands": [
+            "1,4-naphthalenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Energetic molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "303 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption of CO2 due to N-doping."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Gate-closing effect",
+                "Other Information": {
+                    "Test Conditions": "303 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Crowded out due to strong affinity of CO2 to MOF-PCs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Energetic molecular sieving originating from interactions between fillers and CO2.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas permeation measurements using Wicke-Kallenbach technique",
+            "Performance Metrics": "CO2 permeability: 1425 Barrer, CH4 permeability: 34.1 Barrer, CO2/CH4 selectivity: 41.4"
+        },
+        "Other Information": {
+            "Additional Info": "MMMs exhibit excellent long-term stability, hydrothermal and chemical stability."
+        }
+    },
+    {
+        "Materials Name": "MIL-101-PC@PPO-PEG",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Chromium"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Energetic molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "303 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption of CO2 due to N-doping."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Gate-closing effect",
+                "Other Information": {
+                    "Test Conditions": "303 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Crowded out due to strong affinity of CO2 to MOF-PCs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Energetic molecular sieving originating from interactions between fillers and CO2.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas permeation measurements using Wicke-Kallenbach technique",
+            "Performance Metrics": "CO2 permeability: 1297 Barrer, CH4 permeability: 33.7 Barrer, CO2/CH4 selectivity: 38.5"
+        },
+        "Other Information": {
+            "Additional Info": "MMMs exhibit excellent long-term stability, hydrothermal and chemical stability."
+        }
+    }
+]

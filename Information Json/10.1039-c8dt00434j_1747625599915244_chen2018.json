@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Ru-PMOF-1(Hf)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.9 × 1.9 nm2 (orthogonal 1D open channels), 1.3 nm and 2.3 nm (DFT pore distribution)",
+            "Structure Type": "3D structure with orthogonal 1D open channels"
+        },
+        "Topology": "she",
+        "Metal Nodes": [
+            "Hf4+"
+        ],
+        "Ligands": [
+            "5,10,15,20-tetrakis(4-carboxyphenyl)porphyrinato](monocarbonyl)ruthenium"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "diethylamine",
+                "Molecular Size": "6.8 Å (length), 2.2 Å (width)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 15 min reaction time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Yield decreased for longer chain amines under size-selective conditions."
+                }
+            },
+            {
+                "Molecule Name": "dibutylamine",
+                "Molecular Size": "11.9 Å (length), 2.2 Å (width)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 15 min reaction time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Yield decreased compared to diethylamine due to size selectivity."
+                }
+            },
+            {
+                "Molecule Name": "dipentylamine",
+                "Molecular Size": "14.4 Å (length), 2.2 Å (width)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 15 min reaction time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest yield among unbranched dialkylamines due to size exclusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale based on amine chain length",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic N–H insertion reactions of ethyl 2-diazoacetate (EDA) into secondary amines",
+            "Performance Metrics": "Diethylamine: 75% yield, Dibutylamine: 63% yield, Dipentylamine: 23% yield (for particles < 0.054 mm)"
+        },
+        "Other Information": {
+            "Additional Info": "Ru-PMOF-1(Hf) exhibits size selectivity in catalysis, unlike the corresponding homogeneous catalyst Ru(TMCPP)(CO)."
+        }
+    }
+]

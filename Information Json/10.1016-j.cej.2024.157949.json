@@ -1,0 +1,213 @@
+[
+    {
+        "Materials Name": "MOF-801",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "4.8 Å, 5.6 Å (tetrahedral cavities), 7.4 Å (octahedral cavity)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4(−CO2)12"
+        ],
+        "Ligands": [
+            "fumarate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.76 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Used for desalination and water/alcohol separation."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "343 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water/ethanol separation achieved with high selectivity."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Conformation-controlled molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 212 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation of propylene/propane mixtures achieved."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Conformation-controlled molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 212 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Only the 'eclipsed' conformation can pass through the membrane."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High CO2/N2 selectivity observed."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Used in CH4/N2 separation."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2/CH4 selectivity achieved due to asymmetric pore windows."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.3 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher selectivity for n-butane over isobutane due to favorable adsorption interactions."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.0 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted passage compared to linear n-butane molecules."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, Pervaporation",
+            "Performance Metrics": "C3H6/C3H8 selectivity: 150, CO2/N2 selectivity: 66, Water flux: up to 5100 g m−2 h−1"
+        },
+        "Other Information": {
+            "Additional Info": "MOF-801 membranes exhibit excellent hydrophilicity and tunable sub-nanometer pores, making them ideal for challenging separations such as alcohol/water, gas separations, and dye rejection."
+        }
+    },
+    {
+        "Materials Name": "Zr-fum67-mes33-fcu MOF",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4(−CO2)12"
+        ],
+        "Ligands": [
+            "fumarate",
+            "mes"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Linear N2 molecules selectively pass while larger methane molecules are blocked."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Asymmetric pore windows restrict passage of methane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests",
+            "Performance Metrics": "N2/CH4 selectivity: 17, CO2/CH4 selectivity: 28.5"
+        },
+        "Other Information": {
+            "Additional Info": "The Zr-fum67-mes33-fcu MOF membrane demonstrated superior performance under elevated pressures up to 50 bar."
+        }
+    },
+    {
+        "Materials Name": "Zr-fumarate (Zr-fum) MOF",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4(−CO2)12"
+        ],
+        "Ligands": [
+            "fumarate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "xenon",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced xenon adsorption and separation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption studies",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Methyl functionalization enhances the adsorption capacity and separation efficiency for xenon."
+        }
+    }
+]

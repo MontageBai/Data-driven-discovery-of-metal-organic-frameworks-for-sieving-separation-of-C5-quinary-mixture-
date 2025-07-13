@@ -1,0 +1,50 @@
+[
+    {
+        "MOF Name": "mCOF@PEI@B(OH)2",
+        "Material Category": "Others",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Porous core-shell nanomaterial"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "None"
+        ],
+        "Ligands": [
+            "1,3,5-triformylbenzene",
+            "3,3-dihydroxybenzidine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "N-glycopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion (passes through pores due to smaller size)",
+                "Other Information": {
+                    "Test Conditions": "Enrichment in NH4HCO3 buffer (50 mM) at 37 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Captured by boric acid affinity and pass through material while larger proteins are excluded."
+                }
+            },
+            {
+                "Molecule Name": "Intact HRP protein",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion (blocked by pores due to larger size)",
+                "Other Information": {
+                    "Test Conditions": "Mixed with HRP digests",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger than glycopeptides, hence excluded by the material's size-exclusion effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on differential molecular size, allowing passage of smaller glycopeptides while blocking larger intact proteins.",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis of eluent and supernatant after enrichment",
+            "Performance Metrics": "Intact HRP protein signals absent in eluent, present in supernatant, confirming size-exclusion performance."
+        },
+        "Other Information": {
+            "Additional Info": "Covalent Organic Framework (COF) material; core-shell structured magnetic nanoparticles; functionalized with polyethyleneimine (PEI) and 4-methoxyphenylboronic acid (boric acid); primarily used for N-glycopeptide enrichment via boric acid affinity chemistry; demonstrated good reusability (ten cycles), low detection limit (0.5 fmol·μL−1), and high loading capacity (80 μg·mg−1)."
+        }
+    }
+]

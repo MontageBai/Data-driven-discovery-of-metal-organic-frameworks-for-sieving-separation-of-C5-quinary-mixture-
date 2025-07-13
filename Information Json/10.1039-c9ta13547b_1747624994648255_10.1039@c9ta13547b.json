@@ -1,0 +1,143 @@
+[
+    {
+        "Materials Name": "soc-MOF-IM",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2.5 × 2.5 Å (b axis), 3.2 × 3.2 Å (c axis)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3(μ3-O)(CH3COO)6"
+        ],
+        "Ligands": [
+            "3, 3’, 5, 5’-azobenzenetetracarboxylic acid",
+            "imidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.8 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance significantly enhanced due to molecular sieving effect."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.8 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 blocked by narrowed pore windows and interactions with imidazole."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.8 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 blocked due to size larger than modified pore window sizes."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.8 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 blocked due to size larger than modified pore window sizes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas permeation experiments, Mixed gas separation tests",
+            "Performance Metrics": "H2/CO2 selectivity: 48 (ideal), H2/CO2 selectivity: 19 (mixed gas)"
+        },
+        "Other Information": {
+            "Additional Info": "The modification of SBU with imidazole led to narrowed channels, enhancing the molecular sieving effect and improving H2/CO2 selectivity."
+        }
+    },
+    {
+        "Materials Name": "soc-MOF",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.9 × 3.9 Å (b axis), 4.7 × 3.2 Å (c axis)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3(μ3-O)(CH3COO)6"
+        ],
+        "Ligands": [
+            "3, 3’, 5, 5’-azobenzenetetracarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.8 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 exhibits highest permeance due to small size and Knudsen diffusion mechanism."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.8 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance lower than H2 but still passes through due to larger pore size."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.8 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 permeance higher than CO2 due to Knudsen diffusion mechanism."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.8 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 permeance comparable to N2 due to similar diffusion mechanism."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Knudsen diffusion dominates due to larger pore size",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Single gas permeation experiments",
+            "Performance Metrics": "H2/CO2 selectivity: 6"
+        },
+        "Other Information": {
+            "Additional Info": "soc-MOF shows less selective gas separation due to larger pore sizes allowing all gases to pass."
+        }
+    }
+]

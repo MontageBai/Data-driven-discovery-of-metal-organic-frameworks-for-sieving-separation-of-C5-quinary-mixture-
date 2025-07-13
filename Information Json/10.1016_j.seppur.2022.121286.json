@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "SIFSIX-18-Cd",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 Å (LCD)",
+            "Structure Type": "1D square channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cd(II)"
+        ],
+        "Ligands": [
+            "3,3′,5,5′-tetramethyl-1H,1′H-4,4′-bipyrazole",
+            "SiF6 2−"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.24-0.31 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enrichment factor (EF) reaches 5.1 at 30 K and 1.0 bar"
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.24-0.31 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Competitive adsorption exists between D2 and H2; adsorption affinity toward D2 becomes stronger at lower temperatures"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving effect dominates the separation process",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, ACTDS measurements",
+            "Performance Metrics": "IAST-predicted D2/H2 selectivity: 1.4 at 77 K, Enrichment factors (EF): 3.3 at 50 K, 4.4 at 40 K, 5.1 at 30 K"
+        },
+        "Other Information": {
+            "Additional Info": "High hydrophobic property stabilizes long-term separation performance"
+        }
+    }
+]

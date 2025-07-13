@@ -1,0 +1,179 @@
+[
+    {
+        "Materials Name": "MIL-96",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.25-0.35 nm (as-synthesized), increases by 0.2 nm after activation",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "trans-piperylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Efficient packing in the cages",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferred over cis-piperylene and isoprene"
+                }
+            },
+            {
+                "Molecule Name": "cis-piperylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Less efficient packing compared to trans-piperylene",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed at one molecule per cage or less"
+                }
+            },
+            {
+                "Molecule Name": "isoprene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Steric constraints due to methyl side group",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake values between 1.0 and 1.5 wt % in competitive conditions"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and packing effects",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments, breakthrough experiments",
+            "Performance Metrics": "Separation factor of trans-piperylene vs cis-piperylene: up to 10"
+        },
+        "Other Information": {
+            "Additional Info": "Capable of separating all three C5-diolefin isomers from other C5-compounds"
+        }
+    },
+    {
+        "Materials Name": "chabazite",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.4-0.45 nm (eight-ring windows)",
+            "Structure Type": "Cages interconnected via small windows"
+        },
+        "Topology": "CHA",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "trans-piperylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Efficient packing in the cages",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferred over cis-piperylene"
+                }
+            },
+            {
+                "Molecule Name": "cis-piperylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Less efficient packing compared to trans-piperylene",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed at one molecule per cage or less"
+                }
+            },
+            {
+                "Molecule Name": "isoprene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to branched structure",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cannot pass through narrow cage windows"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion of branched isomers",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments, breakthrough experiments",
+            "Performance Metrics": "Separation factor of trans-piperylene vs cis-piperylene: up to >20"
+        },
+        "Other Information": {
+            "Additional Info": "Suitable for separating linear from branched mono-olefins and paraffins"
+        }
+    },
+    {
+        "Materials Name": "[Cu3(BTC)2]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D network containing three types of cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1-pentene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Interaction of double bond with free ligation site on Cu atom",
+                "Other Information": {
+                    "Test Conditions": "Liquid phase, bulky TIPB solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential uptake over pentane"
+                }
+            },
+            {
+                "Molecule Name": "pentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Exclusion due to lack of functional group",
+                "Other Information": {
+                    "Test Conditions": "Liquid phase, bulky TIPB solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake saturation levels of 8-14 wt %"
+                }
+            },
+            {
+                "Molecule Name": "isoprene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Interaction of double bond with free ligation site on Cu atom",
+                "Other Information": {
+                    "Test Conditions": "Liquid phase, bulky TIPB solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential uptake over pentane"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Interaction with free ligation sites on Cu atoms",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Competitive batch adsorption experiments",
+            "Performance Metrics": "Separation factors between 2.8 and 3.5 at saturation levels"
+        },
+        "Other Information": {
+            "Additional Info": "Capable of separating C5-olefins from paraffins"
+        }
+    }
+]

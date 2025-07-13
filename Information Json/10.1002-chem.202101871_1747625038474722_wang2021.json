@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Co3(HCOO)6",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.5 Å",
+            "Structure Type": "3D framework with 1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "formate (HCOO-)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "linear alkanes",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: ~1.5–1.7 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "monobranched alkanes",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: ~1.5–1.7 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "dibranched alkanes",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Selective molecular exclusion",
+                "Other Information": {
+                    "Test Conditions": "30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fully excluded from adsorption"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-component vapor adsorption, Multicomponent column breakthrough measurements, Naphtha separation test",
+            "Performance Metrics": "RON upgrading from 69.41 to 85.69 for the first drop of eluted product; Products collected with RON > 83: 3.26 g"
+        },
+        "Other Information": {
+            "Additional Info": "Outperforms benchmark zeolite ZSM-5 and MOF Al-bttotb in naphtha separation efficiency; Easily scalable synthesis; Low cost."
+        }
+    }
+]

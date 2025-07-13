@@ -1,0 +1,113 @@
+[
+    {
+        "Materials Name": "ZIF-L",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D leaf-like"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.275 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The hydrophilic nature of ZIF-L allows water molecules to pass through its structure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Water contact angle measurement, SEM imaging",
+            "Performance Metrics": "Hydrophilicity improved with increasing ethanol content and temperature"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-L showed good antibacterial performance but lower hydrostability compared to ZIF-8."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (PLD), 11.6 Å (LCD)",
+            "Structure Type": "3D dodecahedral"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.275 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-8 demonstrated improved hydrostability and smaller crystal sizes enhanced antibacterial properties."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Water contact angle measurement, SEM imaging, XRD analysis",
+            "Performance Metrics": "Reduced particle size improved antibacterial efficiency and hydrophilicity"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 exhibited better hydrostability than ZIF-L but lower antibacterial performance in some cases."
+        }
+    },
+    {
+        "Materials Name": "ZIF-L/ZIF-8 mixed phase",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Mixed 2D/3D"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.275 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The mixed-phase material combined the hydrophilicity of ZIF-L and the hydrostability of ZIF-8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Antibacterial testing, SEM imaging, XRD analysis",
+            "Performance Metrics": "Superior antibacterial performance compared to pure ZIF-L or ZIF-8 phases"
+        },
+        "Other Information": {
+            "Additional Info": "Stacking of nanosheets created increased surface nanoroughness, enhancing antibacterial properties."
+        }
+    }
+]

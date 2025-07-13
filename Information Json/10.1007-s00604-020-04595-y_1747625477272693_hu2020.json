@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "Mag Zr-MOF@G6P",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "10 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glycopeptides",
+                "Molecular Size": "< 10 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O/TFA (90/9.2/0.8, v/v/v), 37 °C, 25 min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The Mag Zr-MOF@G6P composite selectively captures glycopeptides while excluding larger molecules such as proteins."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS and nano-LC-ESI-MS/MS analysis",
+            "Performance Metrics": "Captured 21 glycopeptides from HRP digests; LOD: 0.1 fmol μL−1; Selectivity ratio: up to 1:200 (HRP vs. BSA)"
+        },
+        "Other Information": {
+            "Additional Info": "The material combines a magnetic Fe3O4 core, a Zr-MOF layer with selective size-sieving pores, and hydrophilic glucose-6-phosphate (G6P) functionalization."
+        }
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "MOF Name": "{Zn2Cl2(BBC)}n",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "24 × 24 Å2",
+            "Structure Type": "Porous 2D (6,3) net with hexagonal pores, partially blocked channels due to layer shift."
+        },
+        "Topology": "(6,3) net",
+        "Metal Nodes": [
+            "Zn2(COO)3 paddle-wheels",
+            "Cl- ions"
+        ],
+        "Ligands": [
+            "4,4′,4′′-(benzene-1,3,5-triyl-tris(benzene-4,1-diyl))tribenzoate (BBC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Pore blockage by shifted layers and residual solvent molecules.",
+                "Other Information": {
+                    "Test Conditions": "77 K, after vacuum drying at 150 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No significant adsorption observed due to blocked channels and unidentified solvent molecules in interstices, despite a calculated solvent accessible volume of 67.4% by PLATON. This indicates a lack of effective porosity for gas uptake."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Absence of effective molecular sieving due to inherent pore blockage from layer stacking and occlusion by residual solvent molecules.",
+        "Experimental Validation": {
+            "Method": "N2 adsorption measurement",
+            "Performance Metrics": "No significant nitrogen adsorption"
+        },
+        "Other Information": {
+            "Additional Info": "A 2D zinc-organic network easily exfoliated into isolated sheets. Its formation is sensitive to the exclusion of water from the zinc source and solvent. Layers are bonded by chloride anions, not water molecules."
+        }
+    }
+]

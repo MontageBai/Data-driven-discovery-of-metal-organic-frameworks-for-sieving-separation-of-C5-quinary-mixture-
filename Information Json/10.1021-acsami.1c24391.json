@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "MIL-53(Al)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.0 Å x 5.0 Å (aperture), 7.9 Å x 10.1 Å x 6.6 Å (channel dimensions)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "terephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cannabidiol",
+                "Molecular Size": "4.1 Å (radius of gyration)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, acetonitrile solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cannabidiol is too large to pass through the pore aperture due to size-exclusion effects."
+                }
+            },
+            {
+                "Molecule Name": "cannabinol",
+                "Molecular Size": "4.1 Å (radius of gyration)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, acetonitrile solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cannabinol is too large to pass through the pore aperture due to size-exclusion effects."
+                }
+            },
+            {
+                "Molecule Name": "Δ9-tetrahydrocannabinol",
+                "Molecular Size": "4.1 Å (radius of gyration)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, acetonitrile solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Δ9-tetrahydrocannabinol is too large to pass through the pore aperture due to size-exclusion effects."
+                }
+            },
+            {
+                "Molecule Name": "acetonitrile",
+                "Molecular Size": "3.26 Å (radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Acetonitrile can readily diffuse into the MOF bulk as evidenced by BET results."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, BET surface area analysis, HPLC-DAD, HPLC-QQQ",
+            "Performance Metrics": "DCRUavg: 0.007 ± 0.004 μgcannabinoids/mgMOF"
+        },
+        "Other Information": {
+            "Additional Info": "The suitability of MIL-53(Al) for adsorptive separations in liquid chromatography has an upper size limitation for analytes due to size-exclusion effects and solvation shell interference."
+        }
+    }
+]

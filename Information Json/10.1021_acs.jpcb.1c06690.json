@@ -1,0 +1,26 @@
+[
+    {
+        "MOF Name": "{Cu24L24}",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Nanocage structure with microporosity"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "Isophthalic acid (IPA)"
+        ],
+        "Guest Molecules": [],
+        "Sieving Mechanism": "Not Reported",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Coordination nanocage formation is entropy-driven, influenced by the size and conformation entropy loss of macromolecular IPA ligands due to space crowding on the surface. The chemical equilibrium of formation can be tuned by the Cu2+/IPA ratio. Studied by Isothermal Titration Calorimetry (ITC) for thermodynamics and Size Exclusion Chromatography (SEC) for monitoring size evolution during assembly."
+        }
+    }
+]

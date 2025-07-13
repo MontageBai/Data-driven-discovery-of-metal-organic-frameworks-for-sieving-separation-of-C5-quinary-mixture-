@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "carbon nano tube (CNT)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "5.87167 Å (radius)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "Low temperature, nonequilibrium flow",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "More supercooled and delocalized compared to deuterium."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "Low temperature, nonequilibrium flow",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less delocalized and less condensed by the nonequilibrium flow."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Isotope-dependent flow-induced condensation",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Non-empirical quantum molecular dynamics (NEWPMD) simulation",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrates anomalous condensed-phase quantum sieving under nonequilibrium flow conditions."
+        }
+    }
+]

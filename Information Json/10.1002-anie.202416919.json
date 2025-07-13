@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZIF-8-PEI0.08",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (theoretical aperture size), 11.6 Å (large cavities)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: 1985 GPU"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower permeance due to strong interaction with amino groups in the coordination polymer interlayer"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hampered by compact Zn-PEI coordination polymer interlayer"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower permeance compared to hydrogen"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-excluding effect at brick-mortar interface and interlayer",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke-Kallenbach method, Single-gas permeation, Mixed-gas separation",
+            "Performance Metrics": "H2/CO2 selectivity: 176, H2 permeability: ~1.78×10^5 Barrer"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane shows excellent long-term stability over 160 h without degradation"
+        }
+    }
+]

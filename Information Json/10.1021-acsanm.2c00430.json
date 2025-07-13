@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "H-ZIF-8 colloidosomes",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2-10 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen-doped graphene quantum dots",
+                "Molecular Size": "15.9 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Anchored on the outer surface due to molecular sieving property of the shell."
+                }
+            },
+            {
+                "Molecule Name": "glucose oxidase",
+                "Molecular Size": "6.0 nm x 5.2 nm x 7.7 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Encapsulated in the hollow cavity due to fitting within pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Confocal laser scanning microscopy (CLSM), Nitrogen adsorption-desorption isotherms",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "The H-ZIF-8 colloidosome shell exhibited mesoporous features and molecular sieving properties, enabling compartmentalization of guest molecules."
+        }
+    }
+]

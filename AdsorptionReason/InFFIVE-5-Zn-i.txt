@@ -1,0 +1,107 @@
+MOF Name: InFFIVE-5-Zn-i
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for InFFIVE-5-Zn-i:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed
+
+Since both propylene (intermediate dimension 5.051 Å) and ethylene (intermediate dimension 4.047 Å) are adsorbed, the effective pore size of InFFIVE-5-Zn-i must be at least 5.051 Å (the intermediate dimension of the largest adsorbed molecule in the provided data). There is no data for non-adsorbed molecules by size exclusion, so an upper bound cannot be inferred.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is greater than the intermediate dimension of propylene (5.051 Å) which is known to be adsorbed by InFFIVE-5-Zn-i, and given the inferred pore size is at least 5.051 Å, it is predicted that isoprene can be adsorbed.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: InFFIVE-5-Zn-i
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for InFFIVE-5-Zn-i:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed
+
+The effective pore size of InFFIVE-5-Zn-i must be at least 5.051 Å.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is greater than the intermediate dimension of propylene (5.051 Å) which is known to be adsorbed by InFFIVE-5-Zn-i, it is predicted that cis-2-pentene can be adsorbed.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: InFFIVE-5-Zn-i
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for InFFIVE-5-Zn-i:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed
+
+The effective pore size of InFFIVE-5-Zn-i must be at least 5.051 Å.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the intermediate dimension of propylene (5.051 Å), which is known to be adsorbed by InFFIVE-5-Zn-i, and also smaller than the intermediate dimension of cis-2-pentene (5.572 Å) and isoprene (6.093 Å) that are predicted to adsorb, it is predicted that 1-pentene can be adsorbed. No kinetic sieving is indicated for smaller molecules.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: InFFIVE-5-Zn-i
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for InFFIVE-5-Zn-i:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed
+
+The effective pore size of InFFIVE-5-Zn-i must be at least 5.051 Å.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the intermediate dimension of propylene (5.051 Å), which is known to be adsorbed by InFFIVE-5-Zn-i, it is predicted that trans-2-pentene can be adsorbed.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: InFFIVE-5-Zn-i
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for InFFIVE-5-Zn-i:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed
+
+The effective pore size of InFFIVE-5-Zn-i must be at least 5.051 Å.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the intermediate dimension of propylene (5.051 Å), which is known to be adsorbed by InFFIVE-5-Zn-i, it is predicted that n-pentane can be adsorbed.
+
+Therefore, the result is: **Can Adsorb**

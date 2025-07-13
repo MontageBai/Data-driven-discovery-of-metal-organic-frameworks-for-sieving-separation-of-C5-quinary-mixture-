@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Zn-BDC",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.3 Å",
+            "Structure Type": "2D layered"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "6.628 × 7.337 × 3.277 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Temperature-dependent molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 45 °C, 60 °C",
+                    "Threshold Pressure": "1 kPa at 25 °C, 2 kPa at 45 °C, 4 kPa at 60 °C",
+                    "Additional Info": "Uptake capacities: 2.15 mmol/g at 25 °C, 2.01 mmol/g at 45 °C, 1.95 mmol/g at 60 °C"
+                }
+            },
+            {
+                "Molecule Name": "cyclohexene",
+                "Molecular Size": "6.973 × 6.560 × 5.020 Å³",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Temperature-dependent molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 45 °C, 60 °C",
+                    "Threshold Pressure": "2 kPa at 25 °C, 9 kPa at 45 °C",
+                    "Additional Info": "Uptake capacities: 2.04 mmol/g at 25 °C, 1.55 mmol/g at 45 °C, negligible at 60 °C"
+                }
+            },
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "7.168 × 6.580 × 4.982 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 45 °C, 60 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake at all temperatures tested"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature-dependent molecular sieving based on interlayer expansion",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "C6H6/C6H12 selectivity: third highest among MOFs, C6H10/C6H12 selectivity: second highest among MOFs"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows fully reversible structural changes upon activation and hydrocarbon adsorption. It exhibits excellent recyclability and stability under air and moisture."
+        }
+    }
+]

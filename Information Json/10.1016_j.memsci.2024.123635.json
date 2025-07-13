@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "A-Ti-MOF",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "10 Å (micropores), 22 Å (mesopores)",
+            "Structure Type": "Amorphous aggregates with short-range order"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti8(μ2-O)8(μ2-OH)4"
+        ],
+        "Ligands": [
+            "1,4-benzene dicarboxylate (BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.8%"
+                }
+            },
+            {
+                "Molecule Name": "acid fuchsin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 27.1%"
+                }
+            },
+            {
+                "Molecule Name": "crystal violet",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 19.2%"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 16.5%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Cross-flow permeation experiments",
+            "Performance Metrics": "Water permeance: 107 L m⁻² h⁻¹ bar⁻¹, Molecular weight cutoff (MWCO): ~600 Da"
+        },
+        "Other Information": {
+            "Additional Info": "Defect-rich dual water channels enhance permeance."
+        }
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "Materials Name": "PPF-11",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "17 Å x 17 Å x 14 Å (cavities)",
+            "Structure Type": "3D porous framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "tetrakis(4-carboxyphenyl)porphyrin",
+            "2,2'-dimethyl-4,4'-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "fullerene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Encapsulation in cavities",
+                "Other Information": {
+                    "Test Conditions": "Saturated C60 solution in toluene at 60 °C for 7 days",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C60 occupies approximately half of the cavities, leading to ZnTCPP/C60 charge transfer interaction"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on cavity dimensions",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Photovoltaic performance measurement, UV-Vis spectroscopy, photoluminescence studies",
+            "Performance Metrics": "Undoped PPF-11/ZnO film: JSC = 4.65 mA/cm², VOC = 470 mV, PCE = 0.86%; C60-doped PPF-11/ZnO film: JSC = 1.05 mA/cm², VOC = 298 mV, PCE = 0.17%"
+        },
+        "Other Information": {
+            "Additional Info": "The [100]-oriented PPF-11 films displayed superior photovoltaic performance compared to control devices and previously reported MOF-based solar cells."
+        }
+    }
+]

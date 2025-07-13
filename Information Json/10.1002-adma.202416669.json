@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "MOF-801",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "4.6 Å (intrinsic lattice aperture), 5.6 Å (cluster-missing defect-free)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6-oxo cluster"
+        ],
+        "Ligands": [
+            "fumaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "50 °C, methanol content in feed: 10 wt.%",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Freely passes through the membrane due to smaller size compared to pore size."
+                }
+            },
+            {
+                "Molecule Name": "methyl acetate",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "50 °C, methanol content in feed: 10 wt.%",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked by the intrinsic lattice aperture of 4.6 Å."
+                }
+            },
+            {
+                "Molecule Name": "dimethyl carbonate",
+                "Molecular Size": "5.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "50 °C, methanol content in feed: 10 wt.%",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Encounters high transport resistance through the lattice pores."
+                }
+            },
+            {
+                "Molecule Name": "methyl tertiary butyl ether",
+                "Molecular Size": "6.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "50 °C, methanol content in feed: 10 wt.%",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Experiences much higher resistance passing through the membrane pore."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pervaporation experiments and gas permeation tests",
+            "Performance Metrics": "Methanol/MAC separation factor: ≈248, Methanol/DMC separation factor: ≈362, Methanol/MTBE separation factor: ≈524, Total flux: ≈3700 g·m−2 h−1"
+        },
+        "Other Information": {
+            "Additional Info": "Constructed using a stepwise assembling strategy to eliminate angstrom-scale defects."
+        }
+    },
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "4.6 Å (intrinsic lattice aperture)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6-oxo cluster"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Freely passes through the membrane due to its small size."
+                }
+            },
+            {
+                "Molecule Name": "dimethyl carbonate",
+                "Molecular Size": "5.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked by the intrinsic lattice aperture of 4.6 Å."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests",
+            "Performance Metrics": "Methanol/DMC separation factor: ≈414, Total flux: ∼6000 g·m−2·h−1"
+        },
+        "Other Information": {
+            "Additional Info": "Constructed using a stepwise assembling strategy to create an angstrom-sized defect-free lattice aperture."
+        }
+    }
+]

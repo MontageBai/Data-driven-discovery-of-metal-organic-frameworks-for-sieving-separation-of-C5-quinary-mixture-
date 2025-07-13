@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "UiO-66-SO3H",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å (aperture size)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-sulfoterephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water molecules",
+                "Molecular Size": "0.3 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water molecules pass through due to their smaller size compared to hydrated ions."
+                }
+            },
+            {
+                "Molecule Name": "sodium ion",
+                "Molecular Size": "0.716 nm (hydrated size)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrated sodium ions are too large to pass through the aperture size of UiO-66-SO3H."
+                }
+            },
+            {
+                "Molecule Name": "chloride ion",
+                "Molecular Size": "0.664 nm (hydrated size)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrated chloride ions are too large to pass through the aperture size of UiO-66-SO3H."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Water permeability: 347% increase, Salt rejection: 94.7%"
+        },
+        "Other Information": {
+            "Additional Info": "The sulfonated UiO-66-SO3H nanoparticles provide additional water transport pathways and enhance hydrophilicity, improving both water flux and salt rejection."
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-8 membranes",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (PLD), 6.0 Å (LCD)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Cm, R3m, and I43m",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.40 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The ZIF-8_Cm phase allows propylene to pass with reduced mobility compared to ZIF-8_I43m."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane passage is significantly hindered in the ZIF-8_Cm phase due to suppressed linker mobility."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: 50, Permeance: 200 GPU"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 membranes were synthesized using a fast current-driven synthesis (FCDS) method, resulting in a mixture of three polymorphs, with ZIF-8_Cm being the dominant phase (~70%). The separation factor for propylene/propane was above 300."
+        }
+    }
+]

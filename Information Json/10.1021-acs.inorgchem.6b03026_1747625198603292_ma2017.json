@@ -1,0 +1,106 @@
+[
+    {
+        "Materials Name": "JXNU-4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "9.8 Å (aperture)",
+            "Structure Type": "3D framework with 1D square channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "adeninate",
+            "4,4'-biphenyldicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High affinity due to polarizability and dipole moment."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High affinity due to polarizability."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low affinity due to low polarizability."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "13.8 x 5.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Charge-based selectivity",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selective adsorption due to anionic nature of framework."
+                }
+            },
+            {
+                "Molecule Name": "resorufin sodium salt",
+                "Molecular Size": "11.1 x 4.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Charge-based selectivity",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to anionic charge repulsion."
+                }
+            },
+            {
+                "Molecule Name": "Janus Green B",
+                "Molecular Size": "19.2 x 9.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size larger than channel aperture."
+                }
+            },
+            {
+                "Molecule Name": "ethyl violet",
+                "Molecular Size": "15.1 x 12.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size larger than channel aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and charge-based selectivity",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sorption isotherms, UV/vis spectroscopy",
+            "Performance Metrics": "C3H8/CH4 selectivity: 144, C2H6/CH4 selectivity: 14.6, CO2/CH4 selectivity: 6.5"
+        },
+        "Other Information": {
+            "Additional Info": "Anionic MOF with high stability in water across pH 4–11."
+        }
+    }
+]

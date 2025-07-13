@@ -1,0 +1,194 @@
+[
+    {
+        "Materials Name": "[Cu2(L)(H2O)2] 1.4DMF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.9 Å (narrowest point), 13.9 by 20.2 Å (between Cu centers)",
+            "Structure Type": "3D framework with diamond-shaped channels"
+        },
+        "Topology": "rutile-type topology",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,1,2,2-tetrakis[4-(4-carboxyphenyl)-1H-pyrazol-1-yl]ethane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "195 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Gating behavior observed in CO2 isotherms."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "77 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Gating behavior observed in N2 isotherms."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "BET surface area: 844.5 m² g⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF showed appreciable affinity for CO2 at 293 K but did not exhibit molecular sieving of CO2/N2 due to larger pore sizes."
+        }
+    },
+    {
+        "Materials Name": "[Zn2(L)]·DMF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.6 Å (narrowest point), 13.5 by 18.9 Å (between Zn centers)",
+            "Structure Type": "3D framework with diamond-shaped channels"
+        },
+        "Topology": "binodal 6-connected net",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,1,2,2-tetrakis[4-(4-carboxyphenyl)-1H-pyrazol-1-yl]ethane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "195 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Gating behavior observed in CO2 isotherms."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "77 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Gating behavior observed in N2 isotherms."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "BET surface area: 1075.4 m² g⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF showed the highest CO2 uptake among the materials at 293 K but did not exhibit molecular sieving of CO2/N2 due to larger pore sizes."
+        }
+    },
+    {
+        "Materials Name": "[Cd2(L)]·1.75DMF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.4 Å (narrowest point), 13.7 by 19.4 Å (between Cd centers)",
+            "Structure Type": "3D framework with diamond-shaped channels"
+        },
+        "Topology": "binodal 6-connected net",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "1,1,2,2-tetrakis[4-(4-carboxyphenyl)-1H-pyrazol-1-yl]ethane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "195 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Gating behavior observed in CO2 isotherms."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "77 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Gating behavior observed in N2 isotherms."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "BET surface area: 571.7 m² g⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF showed good low-pressure affinity for CO2 at 293 K but did not exhibit molecular sieving of CO2/N2 due to larger pore sizes."
+        }
+    },
+    {
+        "Materials Name": "[Co2(L)(H2O)6]·DMF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "8.5 Å (largest maximum pore diameter), 15.2 by 22.7 Å (between Co centers)",
+            "Structure Type": "3D hydrogen-bonded network with diamond-shaped channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "1,1,2,2-tetrakis[4-(4-carboxyphenyl)-1H-pyrazol-1-yl]ethane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "293 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Displayed little affinity for CO2 at 293 K."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "77 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Did not display gating behavior in N2 isotherms."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "BET surface area: 734.6 m² g⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "The material remained in a 'locked' form and did not show any gating behavior or particular affinity for CO2 at 293 K despite having the highest overall uptake."
+        }
+    }
+]

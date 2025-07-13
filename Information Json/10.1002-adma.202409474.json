@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "C-Suc-750",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.0 Å",
+            "Structure Type": "Slit pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "krypton",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Kr uptake: 1.14 mmol g−1 at 298 K and 1.0 bar"
+                }
+            },
+            {
+                "Molecule Name": "xenon",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Xe uptake: 0.03 mmol g−1 at 298 K and 1.0 bar"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Narrow slit-pores in the carbon molecular sieve enable selective diffusion of krypton over xenon.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Molecular Dynamics (MD) simulation",
+            "Performance Metrics": "Kr/Xe selectivity ratio: 39.3 at 298 K and 1.0 bar"
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrates excellent stability under gamma-ray irradiation up to 300 kGy and shows consistent performance over multiple cycles."
+        }
+    }
+]

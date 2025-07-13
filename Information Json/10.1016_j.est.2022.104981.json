@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Ce-MOF-808",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "1.8 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ce6 clusters"
+        ],
+        "Ligands": [
+            "benzene-1,3,5-tricarboxylate (BTC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium polysulfides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, electrolyte in DOL/DME solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The Ce-MOF-808 membrane exhibits strong adsorption and sieving effects on lithium polysulfides, inhibiting their shuttle effect while allowing Li-ion transport."
+                }
+            },
+            {
+                "Molecule Name": "lithium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Fast and uniform diffusion facilitated by O-containing groups",
+                "Other Information": {
+                    "Test Conditions": "298 K, electrolyte in DOL/DME solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The Ce-MOF-808 membrane promotes rapid and homogeneous Li-ion diffusion, suppressing lithium dendrite growth."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective sieving of lithium polysulfides while allowing Li-ion transport",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, adsorption tests, CV measurements, EIS, symmetric cell cycling",
+            "Performance Metrics": "Initial discharge capacity: 954.7 mAh g−1 at 1 C, capacity retention: 87% over 500 cycles, low decay rate: 0.025% per cycle"
+        },
+        "Other Information": {
+            "Additional Info": "The Ce-MOF-808 membrane also catalyzes the conversion of lithium polysulfides, enhancing battery performance under high sulfur loading and lean electrolyte conditions."
+        }
+    }
+]

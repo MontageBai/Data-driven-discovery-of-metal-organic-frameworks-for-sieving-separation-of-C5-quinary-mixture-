@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "Zn-FBIFs",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "10 nm, 13 nm (mesopores)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "N-(6-(benzothiazol-2-yl)pyridin-3-yl)-5-(dimethylamino)naphthalene-1-sulfonamide (BPNS)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "amyloid-beta peptide",
+                "Molecular Size": "4.3 kDa",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Competitive binding to Zn2+ after entering the pores",
+                "Other Information": {
+                    "Test Conditions": "37 °C, undiluted serum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material exhibits strong hydrophobicity and size-exclusion effects, allowing selective enrichment of amyloid-beta peptides."
+                }
+            },
+            {
+                "Molecule Name": "human serum albumin",
+                "Molecular Size": "66 kDa",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Excluded due to size",
+                "Other Information": {
+                    "Test Conditions": "37 °C, undiluted serum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Human serum albumin cannot enter the pores due to its larger size compared to amyloid-beta peptides."
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "66 kDa",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Excluded due to size",
+                "Other Information": {
+                    "Test Conditions": "37 °C, undiluted serum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Bovine serum albumin is excluded from the pores due to its size."
+                }
+            },
+            {
+                "Molecule Name": "transferrin",
+                "Molecular Size": "77 kDa",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Excluded due to size",
+                "Other Information": {
+                    "Test Conditions": "37 °C, undiluted serum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Transferrin cannot enter the pores due to its larger molecular size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at mesoporous scale (10–13 nm)",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Fluorescence detection, BCA assay, PXRD, FTIR, XPS",
+            "Performance Metrics": "Detection limit: 3.22 nM for amyloid-beta peptide in undiluted serum"
+        },
+        "Other Information": {
+            "Additional Info": "The probe Zn-FBIFs integrates hydrophobicity and size-selectivity features for selective enrichment of amyloid-beta peptides with excellent anti-interference ability."
+        }
+    }
+]

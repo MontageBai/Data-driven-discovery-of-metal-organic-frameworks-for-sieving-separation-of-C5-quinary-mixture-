@@ -1,0 +1,179 @@
+[
+    {
+        "Materials Name": "ZrFA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.33 Å (pore aperture), 5.04 Å (maximum pore void)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6-cluster"
+        ],
+        "Ligands": [
+            "formate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 1.14 mmol/g at 273 K; 0.782 mmol/g at 298 K"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 0.626 mmol/g at 273 K; 0.346 mmol/g at 298 K"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 1.08 mmol/g at 273 K; 0.679 mmol/g at 298 K"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on molecular dimensions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H2/C2H4 selectivity: 13.0–38.9; CO2/C2H4 selectivity: 2.3–4.4"
+        },
+        "Other Information": {
+            "Additional Info": "Low-cost synthesis using formic acid as ligand and scalable production via solvent recycling"
+        }
+    },
+    {
+        "Materials Name": "ZrFA-D",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Larger than ZrFA due to defects",
+            "Structure Type": "1D channels with defects"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6-cluster"
+        ],
+        "Ligands": [
+            "formate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion with enhanced affinity due to defects",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 1.74 mmol/g at 273 K; 1.33 mmol/g at 298 K"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 0.829 mmol/g at 273 K; 0.513 mmol/g at 298 K"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion with enhanced affinity due to defects",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 1.25 mmol/g at 273 K; 0.795 mmol/g at 298 K"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion with defect-enhanced interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H2/C2H4 selectivity: Comparable to ZrFA; CO2/C2H4 selectivity: Improved over ZrFA"
+        },
+        "Other Information": {
+            "Additional Info": "Defect-engineered MOF with higher gas uptake capacities compared to pristine ZrFA"
+        }
+    },
+    {
+        "Materials Name": "ZrFA-D-Cu(I)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Comparable to ZrFA-D with Cu(I) sites",
+            "Structure Type": "1D channels with defects and Cu(I) sites"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6-cluster"
+        ],
+        "Ligands": [
+            "formate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion with strong σ-π coordination to Cu(I)",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 2.03 mmol/g at 273 K; 1.52 mmol/g at 298 K"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 1.01 mmol/g at 273 K; 0.501 mmol/g at 298 K"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion with Cu(I)-O interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 1.33 mmol/g at 273 K; 0.809 mmol/g at 298 K"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion with Cu(I)-enhanced interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H2/C2H4 selectivity: Highest among the series; CO2/C2H4 selectivity: Improved over ZrFA and ZrFA-D"
+        },
+        "Other Information": {
+            "Additional Info": "Cu(I)-doped MOF showing highest C2H2 uptake and separation efficiency in the series"
+        }
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Co-B@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (microporous ZIF-8 shell), mesoporous Co-B yolk, macroporous yolk-shell cavity",
+            "Structure Type": "Yolk-shell structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+",
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "2-hexanone",
+                "Molecular Size": "0.5 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "80°C, 1 atm H2, 18 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Conversion rate of 25% observed"
+                }
+            },
+            {
+                "Molecule Name": "cyclooctanone",
+                "Molecular Size": "0.9 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "80°C, 1 atm H2, 18 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No activity observed due to size exclusion by ZIF-8 shell"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Liquid-phase hydrogenation experiments",
+            "Performance Metrics": "2-hexanone conversion: 25%, cyclooctanone conversion: 0%"
+        },
+        "Other Information": {
+            "Additional Info": "The Co-B@ZIF-8 material combines the molecular sieving capability of the ZIF-8 shell with the catalytic activity of the Co-B alloy yolk."
+        }
+    }
+]

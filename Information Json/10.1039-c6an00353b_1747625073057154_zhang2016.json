@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "MIL-101@graphene hybrid aerogel",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "29 Å and 34 Å (mesoporous cages), 12 Å (pentagonal windows), 14.5 Å × 16 Å (hexagonal windows)",
+            "Structure Type": "3D interconnected macroporous framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ribonuclease A",
+                "Molecular Size": "1.95–2.35 nm (Stokes radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction and hydrophobic effect",
+                "Other Information": {
+                    "Test Conditions": "PBS buffer solution (20 mM, pH 7.4)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selective enrichment due to neutral charge and larger size compared to the pore windows of MIL-101"
+                }
+            },
+            {
+                "Molecule Name": "cytochrome C",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "PBS buffer solution (20 mM, pH 7.4)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to positive charge leading to electrostatic repulsion with coordinatively unsaturated metal sites in MIL-101"
+                }
+            },
+            {
+                "Molecule Name": "lysozyme",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "PBS buffer solution (20 mM, pH 7.4)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to positive charge leading to electrostatic repulsion with coordinatively unsaturated metal sites in MIL-101"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with electrostatic interactions",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis",
+            "Performance Metrics": "Ribonuclease A signal enhanced over two orders of magnitude; Cytochrome C and lysozyme excluded"
+        },
+        "Other Information": {
+            "Additional Info": "The material also demonstrated excellent adsorption performance for non-steroidal anti-inflammatory drugs (NSAIDs) in SPE applications."
+        }
+    }
+]

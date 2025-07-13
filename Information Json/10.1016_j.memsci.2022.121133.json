@@ -1,0 +1,167 @@
+[
+    {
+        "Materials Name": "TMC@MIL-101(Cr)–NH2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6.5 Å, 25 Å",
+            "Structure Type": "Mesoporous crystalline structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "2-amino-1,4-benzenedicarboxylic acid",
+            "Trimesoyl chloride"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "7.16 Å (Na+), 6.64 Å (Cl−)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "150 psi, 23 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High rejection of 98.0% achieved at optimal loading"
+                }
+            },
+            {
+                "Molecule Name": "magnesium chloride",
+                "Molecular Size": "8.80 Å (Mg2+), 6.64 Å (Cl−)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "150 psi, 23 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High rejection achieved with optimized membrane"
+                }
+            },
+            {
+                "Molecule Name": "boric acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "150 psi, pH 7.5, 23 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate improved compared to control membrane"
+                }
+            },
+            {
+                "Molecule Name": "poly(ethylene glycol) with a molecular weight of 200 Da",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "150 psi, 23 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate improved compared to control membrane"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving through reduced pore apertures",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Interfacial polymerization, RO/NF testing",
+            "Performance Metrics": "NaCl rejection: 98.0%, Water permeance: 0.73 L m−2 h−1 bar−1"
+        },
+        "Other Information": {
+            "Additional Info": "TMC modification reduces pore size and enhances selectivity"
+        }
+    },
+    {
+        "Materials Name": "TMC@GPTES@MIL-101(Cr)–NH2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å",
+            "Structure Type": "Sub-nanometer pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "2-amino-1,4-benzenedicarboxylic acid",
+            "(3-Glycidyloxypropyl)triethoxysilane",
+            "Trimesoyl chloride"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "7.16 Å (Na+), 6.64 Å (Cl−)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "150 psi, 23 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection >99.0% achieved"
+                }
+            },
+            {
+                "Molecule Name": "magnesium chloride",
+                "Molecular Size": "8.80 Å (Mg2+), 6.64 Å (Cl−)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "150 psi, 23 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection >99.0% achieved"
+                }
+            },
+            {
+                "Molecule Name": "sodium sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "150 psi, 23 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection >99.0% achieved"
+                }
+            },
+            {
+                "Molecule Name": "magnesium sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "150 psi, 23 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection >99.0% achieved"
+                }
+            },
+            {
+                "Molecule Name": "boric acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "150 psi, pH 7.5, 23 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate of 89.0% achieved"
+                }
+            },
+            {
+                "Molecule Name": "poly(ethylene glycol) with a molecular weight of 200 Da",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "150 psi, 23 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate of 99.2% achieved"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving through sub-nanometer pores",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Interfacial polymerization, RO/NF testing",
+            "Performance Metrics": "NaCl rejection: 99.0%, Water permeance: 0.9 L m−2 h−1 bar−1"
+        },
+        "Other Information": {
+            "Additional Info": "Combination of GPTES and TMC modifications enhance both dispersibility and selectivity"
+        }
+    }
+]

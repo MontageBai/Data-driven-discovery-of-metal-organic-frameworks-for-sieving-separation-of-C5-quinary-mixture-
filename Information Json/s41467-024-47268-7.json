@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "FDC–4a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.76 Å (diffusion gate), 1594 Å³ void volume",
+            "Structure Type": "1D helical pores"
+        },
+        "Topology": "Kagomé-type layered structure",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "MODBAP-ipa"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.0 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate opening for C3H6",
+                "Other Information": {
+                    "Test Conditions": "300 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion rate at 300 K: 7.09 × 10⁻² R² s⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Diffusion regulation for C3H8",
+                "Other Information": {
+                    "Test Conditions": "300 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion rate at 300 K: 1.13 × 10⁻³ R² s⁻¹"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Diffusion-rate sieving with gate-opening for C3H6 and diffusion regulation for C3H8",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, TPD, GCMC simulation",
+            "Performance Metrics": "C3H6/C3H8 selectivity: 318, C3H6 purity: 99.7%, C3H6 productivity: 19.5 L kg⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "Global dynamics triggered by C3H6 and local dynamics regulating C3H8 diffusion."
+        }
+    }
+]

@@ -1,0 +1,102 @@
+MOF Name: ZJNU-19
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZJNU-19:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (The reported reason is "Chemical adsorption via N-oxide groups", which indicates that the pore is geometrically large enough to accommodate CO2, thus implying an effective pore size of at least 3.200 Å).
+
+No other guest molecules are listed as "Not Adsorbed" due to "Size exclusion" or "Kinetic sieving". Therefore, an upper bound for the MOF's effective pore size cannot be precisely inferred from the provided data. The inferred effective pore size of ZJNU-19 is only known to be ≥ 3.200 Å.
+
+Target Guest Molecule Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+The intermediate dimension of isoprene (6.093 Å) is significantly larger than the intermediate dimension of the only known adsorbed molecule (carbon dioxide, 3.200 Å).
+According to the provided rule, "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed, → Can Adsorb". Since isoprene's intermediate dimension (6.093 Å) is not ≤ 3.200 Å, adsorption cannot be confirmed by this rule.
+Furthermore, without any experimental data on molecules that are *not* adsorbed due to size exclusion, it is impossible to establish an upper limit for ZJNU-19's pore size based on size exclusion. Given the requirement for a binary "Can Adsorb / Cannot Adsorb" result and the lack of sufficient data to confirm adsorption by size, a positive prediction of "Can Adsorb" cannot be made. Therefore, the result is "Cannot Adsorb" in the absence of evidence for passage based on the provided size data.
+
+---
+
+MOF Name: ZJNU-19
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZJNU-19:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (The reported reason is "Chemical adsorption via N-oxide groups", which indicates that the pore is geometrically large enough to accommodate CO2, thus implying an effective pore size of at least 3.200 Å).
+
+No other guest molecules are listed as "Not Adsorbed" due to "Size exclusion" or "Kinetic sieving". Therefore, an upper bound for the MOF's effective pore size cannot be precisely inferred from the provided data. The inferred effective pore size of ZJNU-19 is only known to be ≥ 3.200 Å.
+
+Target Guest Molecule Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+The intermediate dimension of cis-2-pentene (5.572 Å) is significantly larger than the intermediate dimension of the only known adsorbed molecule (carbon dioxide, 3.200 Å).
+According to the provided rule, "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed, → Can Adsorb". Since cis-2-pentene's intermediate dimension (5.572 Å) is not ≤ 3.200 Å, adsorption cannot be confirmed by this rule.
+Furthermore, without any experimental data on molecules that are *not* adsorbed due to size exclusion, it is impossible to establish an upper limit for ZJNU-19's pore size based on size exclusion. Given the requirement for a binary "Can Adsorb / Cannot Adsorb" result and the lack of sufficient data to confirm adsorption by size, a positive prediction of "Can Adsorb" cannot be made. Therefore, the result is "Cannot Adsorb" in the absence of evidence for passage based on the provided size data.
+
+---
+
+MOF Name: ZJNU-19
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZJNU-19:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (The reported reason is "Chemical adsorption via N-oxide groups", which indicates that the pore is geometrically large enough to accommodate CO2, thus implying an effective pore size of at least 3.200 Å).
+
+No other guest molecules are listed as "Not Adsorbed" due to "Size exclusion" or "Kinetic sieving". Therefore, an upper bound for the MOF's effective pore size cannot be precisely inferred from the provided data. The inferred effective pore size of ZJNU-19 is only known to be ≥ 3.200 Å.
+
+Target Guest Molecule Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+The intermediate dimension of 1-pentene (4.995 Å) is significantly larger than the intermediate dimension of the only known adsorbed molecule (carbon dioxide, 3.200 Å).
+According to the provided rule, "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed, → Can Adsorb". Since 1-pentene's intermediate dimension (4.995 Å) is not ≤ 3.200 Å, adsorption cannot be confirmed by this rule.
+Furthermore, without any experimental data on molecules that are *not* adsorbed due to size exclusion, it is impossible to establish an upper limit for ZJNU-19's pore size based on size exclusion. Given the requirement for a binary "Can Adsorb / Cannot Adsorb" result and the lack of sufficient data to confirm adsorption by size, a positive prediction of "Can Adsorb" cannot be made. Therefore, the result is "Cannot Adsorb" in the absence of evidence for passage based on the provided size data.
+
+---
+
+MOF Name: ZJNU-19
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZJNU-19:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (The reported reason is "Chemical adsorption via N-oxide groups", which indicates that the pore is geometrically large enough to accommodate CO2, thus implying an effective pore size of at least 3.200 Å).
+
+No other guest molecules are listed as "Not Adsorbed" due to "Size exclusion" or "Kinetic sieving". Therefore, an upper bound for the MOF's effective pore size cannot be precisely inferred from the provided data. The inferred effective pore size of ZJNU-19 is only known to be ≥ 3.200 Å.
+
+Target Guest Molecule Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+The intermediate dimension of trans-2-pentene (4.733 Å) is significantly larger than the intermediate dimension of the only known adsorbed molecule (carbon dioxide, 3.200 Å).
+According to the provided rule, "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed, → Can Adsorb". Since trans-2-pentene's intermediate dimension (4.733 Å) is not ≤ 3.200 Å, adsorption cannot be confirmed by this rule.
+Furthermore, without any experimental data on molecules that are *not* adsorbed due to size exclusion, it is impossible to establish an upper limit for ZJNU-19's pore size based on size exclusion. Given the requirement for a binary "Can Adsorb / Cannot Adsorb" result and the lack of sufficient data to confirm adsorption by size, a positive prediction of "Can Adsorb" cannot be made. Therefore, the result is "Cannot Adsorb" in the absence of evidence for passage based on the provided size data.
+
+---
+
+MOF Name: ZJNU-19
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZJNU-19:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (The reported reason is "Chemical adsorption via N-oxide groups", which indicates that the pore is geometrically large enough to accommodate CO2, thus implying an effective pore size of at least 3.200 Å).
+
+No other guest molecules are listed as "Not Adsorbed" due to "Size exclusion" or "Kinetic sieving". Therefore, an upper bound for the MOF's effective pore size cannot be precisely inferred from the provided data. The inferred effective pore size of ZJNU-19 is only known to be ≥ 3.200 Å.
+
+Target Guest Molecule Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+The intermediate dimension of n-pentane (4.364 Å) is significantly larger than the intermediate dimension of the only known adsorbed molecule (carbon dioxide, 3.200 Å).
+According to the provided rule, "If molecule’s intermediate dimension ≤ max_intermediate_adsorbed, → Can Adsorb". Since n-pentane's intermediate dimension (4.364 Å) is not ≤ 3.200 Å, adsorption cannot be confirmed by this rule.
+Furthermore, without any experimental data on molecules that are *not* adsorbed due to size exclusion, it is impossible to establish an upper limit for ZJNU-19's pore size based on size exclusion. Given the requirement for a binary "Can Adsorb / Cannot Adsorb" result and the lack of sufficient data to confirm adsorption by size, a positive prediction of "Can Adsorb" cannot be made. Therefore, the result is "Cannot Adsorb" in the absence of evidence for passage based on the provided size data.

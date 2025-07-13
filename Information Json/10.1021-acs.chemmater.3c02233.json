@@ -1,0 +1,278 @@
+[
+    {
+        "Materials Name": "CALF-35 (Sr2+)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.69 Å (aperture), 4.92 Å (width)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Sr2+"
+        ],
+        "Ligands": [
+            "1,3,5-tris(4-phosphonophenyl)-2,4,6-trimethylbenzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.189 Å × 3.339 Å × 5.361 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High affinity for CO2 due to pore complementarity."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.829 Å × 3.942 Å × 4.101 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate uptake observed."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.32 Å × 3.34 Å × 5.70 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slightly higher uptake compared to other molecules."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.28 Å × 4.18 Å × 4.84 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sharp uptake observed."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "3.809 Å × 4.079 Å × 4.821 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sharp uptake observed."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "2.991 Å × 3.054 Å × 4.046 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Modest uptake observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms and zero-length chromatography (ZLC)",
+            "Performance Metrics": "CO2/N2 selectivity: 18, C2H4/C2H6 selectivity: 0.74"
+        },
+        "Other Information": {
+            "Additional Info": "CALF-35 (Sr2+) exhibits high affinity for larger polarizable molecules like ethylene and ethane."
+        }
+    },
+    {
+        "Materials Name": "CALF-35 (La3+)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.27 Å (aperture), 4.62 Å (width)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "La3+"
+        ],
+        "Ligands": [
+            "1,3,5-tris(4-phosphonophenyl)-2,4,6-trimethylbenzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.189 Å × 3.339 Å × 5.361 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher uptake compared to CALF-35 (Sr2+)."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.829 Å × 3.942 Å × 4.101 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Molecularly excluded from pores."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.32 Å × 3.34 Å × 5.70 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reduced diffusion kinetics compared to CALF-35 (Sr2+)."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.28 Å × 4.18 Å × 4.84 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly reduced adsorption compared to CALF-35 (Sr2+)."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "3.809 Å × 4.079 Å × 4.821 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Molecularly excluded from pores."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "2.991 Å × 3.054 Å × 4.046 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Molecularly excluded from pores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms and zero-length chromatography (ZLC)",
+            "Performance Metrics": "CO2/CH4 selectivity: 37, C2H2/C2H6 selectivity: 8.7"
+        },
+        "Other Information": {
+            "Additional Info": "CALF-35 (La3+) shows enhanced stability and molecular exclusion of larger molecules."
+        }
+    },
+    {
+        "Materials Name": "CALF-35 (Ce3+)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.28 Å (aperture), 4.64 Å (width)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ce3+"
+        ],
+        "Ligands": [
+            "1,3,5-tris(4-phosphonophenyl)-2,4,6-trimethylbenzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.189 Å × 3.339 Å × 5.361 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Intermediate uptake between CALF-35 (Sr2+) and CALF-35 (La3+)."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.829 Å × 3.942 Å × 4.101 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower uptake compared to CALF-35 (Sr2+)."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.32 Å × 3.34 Å × 5.70 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Intermediate uptake between CALF-35 (Sr2+) and CALF-35 (La3+)."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.28 Å × 4.18 Å × 4.84 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Intermediate uptake between CALF-35 (Sr2+) and CALF-35 (La3+)."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "3.809 Å × 4.079 Å × 4.821 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower uptake compared to CALF-35 (Sr2+)."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "2.991 Å × 3.054 Å × 4.046 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Intermediate uptake between CALF-35 (Sr2+) and CALF-35 (La3+)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "CO2/CH4 selectivity: 9.3, C2H2/C2H6 selectivity: 5.9"
+        },
+        "Other Information": {
+            "Additional Info": "CALF-35 (Ce3+) exhibits intermediate properties between CALF-35 (Sr2+) and CALF-35 (La3+)."
+        }
+    }
+]

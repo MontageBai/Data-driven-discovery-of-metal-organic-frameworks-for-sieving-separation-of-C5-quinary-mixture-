@@ -1,0 +1,93 @@
+MOF Name: Zr-mes-FA
+
+**Inferred Effective Pore Size of Zr-mes-FA:**
+
+From the experimental data for Zr-mes-FA, the following molecules were *not* adsorbed due to "Size exclusion at sub-nanometer scale":
+
+*   **2-methylpentane**: 9.023×6.376×4.923 Å -> Intermediate dimension = 6.376 Å
+*   **3-methylpentane**: 9.052×6.008×4.985 Å -> Intermediate dimension = 6.008 Å
+*   **2,3-dimethylbutane**: 7.778×6.170×5.399 Å -> Intermediate dimension = 6.170 Å
+*   **2,2-dimethylbutane**: 7.829×5.502×6.545 Å -> Intermediate dimension = 6.545 Å
+
+The smallest intermediate dimension among these non-adsorbed (size-excluded) molecules is **6.008 Å** (from 3-methylpentane).
+Therefore, we infer that the effective pore size of Zr-mes-FA is **less than 6.008 Å**. Any molecule with an intermediate dimension equal to or greater than 6.008 Å will not be adsorbed due to size exclusion. Conversely, molecules with intermediate dimensions smaller than 6.008 Å are *not* excluded by size according to the provided data, suggesting they *can* adsorb based on a size exclusion mechanism.
+
+---
+
+MOF Name: Zr-mes-FA
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data, the smallest intermediate dimension of a molecule not adsorbed by Zr-mes-FA due to size exclusion is **6.008 Å** (3-methylpentane). This implies the effective pore size of Zr-mes-FA is less than 6.008 Å.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 Å → Intermediate dimension = **6.093 Å**
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is greater than or equal to the smallest intermediate dimension of the size-excluded molecules (6.008 Å), it is predicted that isoprene cannot be adsorbed by Zr-mes-FA due to size exclusion.
+
+---
+
+MOF Name: Zr-mes-FA
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data, the smallest intermediate dimension of a molecule not adsorbed by Zr-mes-FA due to size exclusion is **6.008 Å** (3-methylpentane). This implies the effective pore size of Zr-mes-FA is less than 6.008 Å.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 Å → Intermediate dimension = **5.572 Å**
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than the smallest intermediate dimension of the size-excluded molecules (6.008 Å), it is predicted that cis-2-pentene can be adsorbed by Zr-mes-FA, as it is not excluded by size.
+
+---
+
+MOF Name: Zr-mes-FA
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data, the smallest intermediate dimension of a molecule not adsorbed by Zr-mes-FA due to size exclusion is **6.008 Å** (3-methylpentane). This implies the effective pore size of Zr-mes-FA is less than 6.008 Å.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 Å → Intermediate dimension = **4.995 Å**
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the smallest intermediate dimension of the size-excluded molecules (6.008 Å), it is predicted that 1-pentene can be adsorbed by Zr-mes-FA, as it is not excluded by size.
+
+---
+
+MOF Name: Zr-mes-FA
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data, the smallest intermediate dimension of a molecule not adsorbed by Zr-mes-FA due to size exclusion is **6.008 Å** (3-methylpentane). This implies the effective pore size of Zr-mes-FA is less than 6.008 Å.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 Å → Intermediate dimension = **4.733 Å**
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the smallest intermediate dimension of the size-excluded molecules (6.008 Å), it is predicted that trans-2-pentene can be adsorbed by Zr-mes-FA, as it is not excluded by size.
+
+---
+
+MOF Name: Zr-mes-FA
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data, the smallest intermediate dimension of a molecule not adsorbed by Zr-mes-FA due to size exclusion is **6.008 Å** (3-methylpentane). This implies the effective pore size of Zr-mes-FA is less than 6.008 Å.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 Å → Intermediate dimension = **4.364 Å**
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the smallest intermediate dimension of the size-excluded molecules (6.008 Å), it is predicted that n-pentane can be adsorbed by Zr-mes-FA, as it is not excluded by size.

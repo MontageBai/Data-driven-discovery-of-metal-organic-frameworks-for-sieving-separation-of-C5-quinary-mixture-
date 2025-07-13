@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "H-SiO2",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "zeolite-like eight-membered ring pores and interlayer spaces"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "benzoic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "exchange with acetonitrile in intralayer microchannels",
+                "Other Information": {
+                    "Test Conditions": "acetonitrile solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Benzoic acid adsorption initiated by pre-adsorbed acetonitrile expanding the intralayer microchannels."
+                }
+            },
+            {
+                "Molecule Name": "phenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "adsorption in interlayer space in water, intralayer microchannels in acetonitrile",
+                "Other Information": {
+                    "Test Conditions": "acetonitrile or water, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Phenol adsorption depends on the solvent: hydrophobic interaction in acetonitrile, hydrophilic interaction in water."
+                }
+            },
+            {
+                "Molecule Name": "acetonitrile",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "accommodation in intralayer microchannels via hydrophobic interactions",
+                "Other Information": {
+                    "Test Conditions": "vapor phase and liquid phase, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Acetonitrile pre-adsorption expands intralayer microchannels, enabling further adsorption of benzoic acid or phenol."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale via flexible intralayer microchannels",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms, XRD, DFT calculations",
+            "Performance Metrics": "Maximum benzoic acid uptake: ~2 mmol/g; Basal spacing expansion to 1.36 nm during adsorption"
+        },
+        "Other Information": {
+            "Additional Info": "H-SiO2 exhibits gate-opening behavior due to flexible framework allowing expansion for molecular uptake."
+        }
+    },
+    {
+        "Materials Name": "H-mag",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "interlayer spaces only"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "benzoic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "acetonitrile solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H-mag does not adsorb benzoic acid effectively; basal spacing increases gradually."
+                }
+            },
+            {
+                "Molecule Name": "phenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "adsorption in interlayer spaces",
+                "Other Information": {
+                    "Test Conditions": "aqueous solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Phenol adsorption occurs preferentially in the interlayer spaces of H-mag."
+                }
+            },
+            {
+                "Molecule Name": "acetonitrile",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "gradual adsorption into interlayer spaces",
+                "Other Information": {
+                    "Test Conditions": "vapor phase and liquid phase, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Acetonitrile adsorption causes gradual basal spacing increase but no abrupt uptake like in H-SiO2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms, XRD",
+            "Performance Metrics": "Basal spacing increases gradually during adsorption; lower adsorption capacity than H-SiO2"
+        },
+        "Other Information": {
+            "Additional Info": "H-mag lacks intralayer microchannels and shows conventional adsorption behavior typical of layered silicates."
+        }
+    }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "Materials Name": "UiO/ZIF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D/2D heterostructures"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+",
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "atrazine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, concentration range: 0.5–20 mg L−1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material exhibits specific rebinding effects even at low concentrations."
+                }
+            },
+            {
+                "Molecule Name": "terbuthylazine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Selective binding to imprinted sites",
+                "Other Information": {
+                    "Test Conditions": "25 °C, concentration range: 0.5–20 mg L−1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower affinity compared to atrazine."
+                }
+            },
+            {
+                "Molecule Name": "ametryn",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Selective binding to imprinted sites",
+                "Other Information": {
+                    "Test Conditions": "25 °C, concentration range: 0.5–20 mg L−1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower affinity compared to atrazine."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Specific recognition sites embedded within artificial transfer channels",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Batch-model rebinding experiments, selective permeation tests",
+            "Performance Metrics": "Permselectivity coefficients (β ATZ/TBL = 3.77 and β ATZ/AMT = 4.10)"
+        },
+        "Other Information": {
+            "Additional Info": "The UiO/ZIF composite showed superior visible light absorption and enhanced photoelectrochemical properties."
+        }
+    },
+    {
+        "Materials Name": "MN-IMs",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D selective channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+",
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "2-methylimidazole",
+            "2-hydroxyethyl methacrylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "atrazine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective binding to imprinted sites",
+                "Other Information": {
+                    "Test Conditions": "Continuous separation process with simulated actual samples",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved separation efficiency of over 99% after 36 h."
+                }
+            },
+            {
+                "Molecule Name": "terbuthylazine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Selective binding to imprinted sites",
+                "Other Information": {
+                    "Test Conditions": "Continuous separation process with simulated actual samples",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation efficiency approximately 18%."
+                }
+            },
+            {
+                "Molecule Name": "ametryn",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Selective binding to imprinted sites",
+                "Other Information": {
+                    "Test Conditions": "Continuous separation process with simulated actual samples",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation efficiency approximately 18%."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Artificial recognition sites constructed in channels possess superior rebinding selectivity towards atrazine",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Continuous separation experiments using a dead-end membrane apparatus",
+            "Performance Metrics": "Separation efficiency for atrazine reached more than 99% after 36 h"
+        },
+        "Other Information": {
+            "Additional Info": "Photoinduced self-recovery process was interspersed every 6 h to maintain long-lasting selective separation performance."
+        }
+    }
+]

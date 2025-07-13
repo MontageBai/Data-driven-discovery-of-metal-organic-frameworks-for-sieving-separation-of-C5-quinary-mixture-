@@ -1,0 +1,49 @@
+[
+    {
+        "MOF Name": "ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 Å",
+            "Structure Type": "Three-dimensional interconnected cages with flexible windows"
+        },
+        "Topology": "SOD",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "methyl imidazolate linkers"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Ethanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Concentration-dependent",
+                "Mechanism": "Cooperative/competitive adsorption driven by adsorbate-adsorbate interactions within hydrophobic pores.",
+                "Other Information": {
+                    "Test Conditions": "313 K; Ethanol partial pressure: 360 Pa; 1-Butanol partial pressure: 40, 80, or 125 Pa; Flow rate: 40 mL/min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Increased equilibrium capacity in the presence of 1-butanol at certain conditions (e.g., ethanol partial pressure 500-1500 Pa with 1-butanol partial pressure 10 Pa), and decreased capacity at higher ethanol partial pressures. Faster breakthrough compared to 1-butanol due to lower adsorption affinity."
+                }
+            },
+            {
+                "Molecule Name": "1-butanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Concentration-dependent",
+                "Mechanism": "Cooperative/competitive adsorption driven by adsorbate-adsorbate interactions within hydrophobic pores.",
+                "Other Information": {
+                    "Test Conditions": "313 K; 1-Butanol partial pressure: 40, 80, or 125 Pa; Ethanol partial pressure: 360 Pa; Flow rate: 40 mL/min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Increased equilibrium capacity in the presence of ethanol; observed 'roll-up' effect during desorption linked to ethanol removal and cooperative adsorption. Slower breakthrough compared to ethanol due to higher adsorption affinity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Adsorption-driven separation based on competitive and cooperative effects between alcohol molecules within hydrophobic pores.",
+        "Experimental Validation": {
+            "Method": "Gravimetric adsorption measurements, Grand Canonical Monte Carlo (GCMC) simulations, Breakthrough experiments (packed column)",
+            "Performance Metrics": "Saturation capacities: 3.9 mmol/g for 1-butanol, 5.8 mmol/g for ethanol. Cooperative adsorption leads to increased equilibrium capacities for both alcohols in mixtures under certain conditions. Observed 'roll-up' effect for 1-butanol during desorption."
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 possesses structural flexibility, allowing for a 0.5 Å increase in pore entrance at high pressures (>1.47 GPa) due to linker rotation, but this flexibility was found to have little influence on the adsorption equilibrium of alcohols in this study. Material prepared as pellets (250-500 µm) and studied for adsorptive recovery of alcohols from vapor phase."
+        }
+    }
+]

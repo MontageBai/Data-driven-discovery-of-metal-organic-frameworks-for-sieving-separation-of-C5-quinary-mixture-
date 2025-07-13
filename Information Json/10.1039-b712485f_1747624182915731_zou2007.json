@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "[Cd3(OH)2L4(H2O)2]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.5 Å (effective pore window)",
+            "Structure Type": "3D network with 1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "4-aminophenyl-1H-tetrazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dipole-induced dipole interactions and quadrupole moment interaction",
+                "Other Information": {
+                    "Test Conditions": "195 K, adsorption/desorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong sorbate-sorbent interactions observed."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "77 K, adsorption/desorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hysteresis observed in the isotherm."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.54 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Prevented by strong host-guest interactions at pore windows",
+                "Other Information": {
+                    "Test Conditions": "77 K and 193 K, adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen molecules likely interact strongly with polar environments around metal centers, preventing further diffusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Different nature of host-guest interactions rather than size-exclusion effect",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas sorption isotherms (CO2, H2, N2)",
+            "Performance Metrics": "CO2 and H2 adsorbed, N2 not adsorbed; BET surface area: 210 m²/g (CO2), 90 m²/g (H2)"
+        },
+        "Other Information": {
+            "Additional Info": "Framework retains stability up to 300 °C; Solvent-free form (1a) prepared by thermal treatment."
+        }
+    }
+]

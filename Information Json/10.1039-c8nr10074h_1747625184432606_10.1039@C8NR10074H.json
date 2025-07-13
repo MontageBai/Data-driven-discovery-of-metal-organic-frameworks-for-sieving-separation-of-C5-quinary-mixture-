@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MagG@Mg-MOFs-1C",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.0 nm (DFT)",
+            "Structure Type": "1D hexagonal channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "magnesium ions"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Mass ratio of HRP digests : BSA : HRP = 1:500:500",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Proteins excluded due to size-exclusion effect."
+                }
+            },
+            {
+                "Molecule Name": "horseradish peroxidase",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Mass ratio of HRP digests : BSA : HRP = 1:500:500",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Target glycopeptides selectively captured."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS and LC-MS/MS analysis",
+            "Performance Metrics": "406 unique N-glycosylation peptides identified from 185 glycoproteins in human urine"
+        },
+        "Other Information": {
+            "Additional Info": "Composite exhibits ultralow detection limit (0.1 fmol/μL), high binding capacity (150 mg/g), and excellent recyclability."
+        }
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (PLD)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 0 bar pressure drop",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 2.07 × 10⁻⁷ mol m⁻² s⁻¹ Pa⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 0 bar pressure drop",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 2.1 × 10⁻⁸ mol m⁻² s⁻¹ Pa⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 0 bar pressure drop",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance not explicitly reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2/CH4 selectivity: 10.5 ± 0.6, H2/N2 selectivity: 12.4 ± 0.9"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane grown on porous polysulfone support using alternating crystallization of micro- and nano-sized ZIF-8 crystals"
+        }
+    }
+]

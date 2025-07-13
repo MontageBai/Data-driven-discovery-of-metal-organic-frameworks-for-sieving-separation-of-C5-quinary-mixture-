@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "α-Mg3(O2CH)6",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mg2+"
+        ],
+        "Ligands": [
+            "formate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "tetrahydrofuran",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake confirmed by 1H NMR spectroscopy."
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake confirmed by 1H NMR spectroscopy."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake confirmed by 1H NMR spectroscopy, but with lower preference compared to tetrahydrofuran and acetone."
+                }
+            },
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size, as confirmed by 1H NMR spectroscopy."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "1H NMR spectroscopy",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Host-guest chemistry studied using 1H NMR spectroscopy. Pore size measurements made using CrystalMaker or Mercury software based on .cif files."
+        }
+    }
+]

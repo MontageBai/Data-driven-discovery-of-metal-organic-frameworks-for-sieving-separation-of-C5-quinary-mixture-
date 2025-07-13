@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "CuBTC.ns",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "9 Å (main pores), 3.5 Å (side pockets)",
+            "Structure Type": "3D rigid structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "benzene-1,3,5-tricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption at coordinatively unsaturated Cu-sites",
+                "Other Information": {
+                    "Test Conditions": "298 K, pressures up to 12 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption of CO2 enhances selectivity."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pressures up to 12 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Side pockets with 3.5 Å diameter impact CH4 sieving."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pressures up to 12 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Side pockets with 3.5 Å diameter impact N2 sieving."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with preferential adsorption",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2 permeability: 178.9 Barrer, CO2/CH4 selectivity: 34.6 at 35 wt% loading"
+        },
+        "Other Information": {
+            "Additional Info": "Nano-sized CuBTC particles (35 nm) exhibited uniform dispersion in the PEBA matrix and enhanced separation performance."
+        }
+    },
+    {
+        "Materials Name": "CuBTC.ms",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "9 Å (main pores), 3.5 Å (side pockets)",
+            "Structure Type": "3D rigid structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "benzene-1,3,5-tricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption at coordinatively unsaturated Cu-sites",
+                "Other Information": {
+                    "Test Conditions": "298 K, pressures up to 12 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption of CO2 enhances selectivity."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pressures up to 12 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Side pockets with 3.5 Å diameter impact CH4 sieving."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pressures up to 12 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Side pockets with 3.5 Å diameter impact N2 sieving."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with preferential adsorption",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2 permeability: 138.9 Barrer, CO2/CH4 selectivity: 33.9 at 35 wt% loading"
+        },
+        "Other Information": {
+            "Additional Info": "Micro-sized CuBTC particles (~11 μm) showed nonuniform dispersion in the PEBA matrix, limiting separation performance."
+        }
+    }
+]

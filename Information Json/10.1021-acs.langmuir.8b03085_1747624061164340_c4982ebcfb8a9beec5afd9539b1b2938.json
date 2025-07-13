@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "Zr-fum-100",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.7 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr(IV)"
+        ],
+        "Ligands": [
+            "fumarate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fast adsorption kinetics observed."
+                }
+            },
+            {
+                "Molecule Name": "iso-butane",
+                "Molecular Size": "5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake observed in breakthrough experiments."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "n-butane/iso-butane selectivity: near complete exclusion of iso-butane"
+        },
+        "Other Information": {
+            "Additional Info": "Minimal defects confirmed by HRTEM and EDS analysis."
+        }
+    },
+    {
+        "Materials Name": "Zr-fum-200",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.7 Å (widened due to defects)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr(IV)"
+        ],
+        "Ligands": [
+            "fumarate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "293 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fast adsorption kinetics observed."
+                }
+            },
+            {
+                "Molecule Name": "iso-butane",
+                "Molecular Size": "5 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "293 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slow diffusion observed due to widened aperture from defects."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Defect-induced kinetic control",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, calorimetric studies",
+            "Performance Metrics": "n-butane/iso-butane separation driven by kinetics"
+        },
+        "Other Information": {
+            "Additional Info": "Defects quantified via solid-state NMR showing ~20% linker replacement by formate."
+        }
+    },
+    {
+        "Materials Name": "Zr-fum-20",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.7 Å (widened due to defects)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr(IV)"
+        ],
+        "Ligands": [
+            "fumarate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic equilibrium",
+                "Other Information": {
+                    "Test Conditions": "293 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time ~13.7 minutes in breakthrough tests."
+                }
+            },
+            {
+                "Molecule Name": "iso-butane",
+                "Molecular Size": "5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic equilibrium",
+                "Other Information": {
+                    "Test Conditions": "293 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time ~7.8 minutes in breakthrough tests."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Thermodynamically driven separation",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, PXRD, EDS",
+            "Performance Metrics": "Poor n-butane/iso-butane separation due to defects"
+        },
+        "Other Information": {
+            "Additional Info": "High defect concentration evidenced by chlorine presence and low crystallinity."
+        }
+    }
+]

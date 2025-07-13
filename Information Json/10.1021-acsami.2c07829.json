@@ -1,0 +1,152 @@
+[
+    {
+        "Materials Name": "Co(pyz)[Pd(CN)4]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.0 × 3.9 Å2",
+            "Structure Type": "3D pillared-layered structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+",
+            "Pd2+"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "cyanide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "25 K, 10 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption of D2 over H2 observed."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "25 K, 10 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher uptake and selectivity compared to H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving (CAQS) due to high density of open metal sites.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Thermal desorption spectroscopy (TDS)",
+            "Performance Metrics": "SD2/H2 selectivity: 21.7 at 25 K, D2 uptake: 10.5 mmol/g"
+        },
+        "Other Information": {
+            "Additional Info": "High OMS density (8.50 mmol/cm3) facilitates large D2 uptake and preferential enrichment over H2."
+        }
+    },
+    {
+        "Materials Name": "Co(pyz)[Ni(CN)4]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.0 × 3.9 Å2",
+            "Structure Type": "3D pillared-layered structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+",
+            "Ni2+"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "cyanide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "25 K, 10 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption of D2 over H2 observed."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "25 K, 10 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher uptake and selectivity compared to H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving (CAQS) due to high density of open metal sites.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Thermal desorption spectroscopy (TDS)",
+            "Performance Metrics": "SD2/H2 selectivity: 17.8 at 25 K, D2 uptake: 11.2 mmol/g"
+        },
+        "Other Information": {
+            "Additional Info": "High OMS density facilitates large D2 uptake and preferential enrichment over H2."
+        }
+    },
+    {
+        "Materials Name": "Co(pyz)[Pt(CN)4]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.0 × 3.9 Å2",
+            "Structure Type": "3D pillared-layered structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+",
+            "Pt2+"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "cyanide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "25 K, 10 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption of D2 over H2 observed."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "25 K, 10 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher uptake and selectivity compared to H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving (CAQS) due to high density of open metal sites.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Thermal desorption spectroscopy (TDS)",
+            "Performance Metrics": "SD2/H2 selectivity: 16.1 at 25 K, D2 uptake: 9.7 mmol/g"
+        },
+        "Other Information": {
+            "Additional Info": "High OMS density facilitates large D2 uptake and preferential enrichment over H2."
+        }
+    }
+]

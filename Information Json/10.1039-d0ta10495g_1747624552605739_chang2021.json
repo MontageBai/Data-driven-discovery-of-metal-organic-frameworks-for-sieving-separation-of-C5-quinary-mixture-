@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "2D CuBDC sheets",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 Å (theoretical), 5.6-5.8 Å (experimental)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "polysulfides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Polysulfide diffusion experiment for 48 hours",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Polysulfides could not penetrate or bond in the nanopores of the 2D CuBDC sheets even after 60 days of immersion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Polysulfide diffusion experiment, operando Raman spectroscopy",
+            "Performance Metrics": "Capacity retention: 78% over 500 cycles at 0.5 C, specific capacity: 795 mA h g⁻¹ at high sulfur loading of 5.2 mg cm⁻²"
+        },
+        "Other Information": {
+            "Additional Info": "The 2D CuBDC sheets exhibited excellent suppression of polysulfide shuttling and facilitated long cycling stability in Li-S batteries."
+        }
+    }
+]

@@ -1,0 +1,97 @@
+MOF Name: MAMS-4
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAMS-4:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (at 231 K)
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (at 231 K, due to size exclusion)
+
+Inferred effective pore size of MAMS-4 at 231 K lies in the range of `[5.051 Å, 6.393 Å)`. The mechanism described is "Temperature-tuned gate opening controlled by van der Waals interactions of tert-butyl groups", indicating that the pore aperture *increases* with increasing temperature. Since the evaluation is for standard conditions (298 K), which is a higher temperature than 231 K, the gate in MAMS-4 would be *more open* or at least as open as it was at 231 K.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is greater than that of adsorbed propylene (5.051 Å) but smaller than that of non-adsorbed isobutane (6.393 Å) at 231 K. Given that the MOF exhibits "Temperature-tuned gate opening", the increased temperature from 231 K to 298 K is expected to cause the gate to open further. Therefore, it is highly probable that MAMS-4 can adsorb isoprene at 298 K.
+
+---
+
+MOF Name: MAMS-4
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAMS-4:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (at 231 K)
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (at 231 K, due to size exclusion)
+
+Inferred effective pore size of MAMS-4 at 231 K lies in the range of `[5.051 Å, 6.393 Å)`. The mechanism described is "Temperature-tuned gate opening controlled by van der Waals interactions of tert-butyl groups", indicating that the pore aperture *increases* with increasing temperature. Since the evaluation is for standard conditions (298 K), which is a higher temperature than 231 K, the gate in MAMS-4 would be *more open* or at least as open as it was at 231 K.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is greater than that of adsorbed propylene (5.051 Å) but smaller than that of non-adsorbed isobutane (6.393 Å) at 231 K. Given the "Temperature-tuned gate opening" mechanism, the higher temperature (298 K) is expected to allow the gate to open sufficiently to adsorb cis-2-pentene.
+
+---
+
+MOF Name: MAMS-4
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAMS-4:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (at 231 K)
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (at 231 K, due to size exclusion)
+
+Inferred effective pore size of MAMS-4 at 231 K lies in the range of `[5.051 Å, 6.393 Å)`. The mechanism described is "Temperature-tuned gate opening controlled by van der Waals interactions of tert-butyl groups", indicating that the pore aperture *increases* with increasing temperature. Since the evaluation is for standard conditions (298 K), which is a higher temperature than 231 K, the gate in MAMS-4 would be *more open* or at least as open as it was at 231 K.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is smaller than that of adsorbed propylene (5.051 Å). Since propylene was adsorbed at 231 K, 1-pentene, being smaller, will also be adsorbed by MAMS-4 at 298 K, especially given the temperature-dependent gate opening.
+
+---
+
+MOF Name: MAMS-4
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAMS-4:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (at 231 K)
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (at 231 K, due to size exclusion)
+
+Inferred effective pore size of MAMS-4 at 231 K lies in the range of `[5.051 Å, 6.393 Å)`. The mechanism described is "Temperature-tuned gate opening controlled by van der Waals interactions of tert-butyl groups", indicating that the pore aperture *increases* with increasing temperature. Since the evaluation is for standard conditions (298 K), which is a higher temperature than 231 K, the gate in MAMS-4 would be *more open* or at least as open as it was at 231 K.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is smaller than that of adsorbed propylene (5.051 Å). Since propylene was adsorbed at 231 K, trans-2-pentene, being smaller, will also be adsorbed by MAMS-4 at 298 K, especially given the temperature-dependent gate opening.
+
+---
+
+MOF Name: MAMS-4
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAMS-4:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (at 231 K)
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (at 231 K, due to size exclusion)
+
+Inferred effective pore size of MAMS-4 at 231 K lies in the range of `[5.051 Å, 6.393 Å)`. The mechanism described is "Temperature-tuned gate opening controlled by van der Waals interactions of tert-butyl groups", indicating that the pore aperture *increases* with increasing temperature. Since the evaluation is for standard conditions (298 K), which is a higher temperature than 231 K, the gate in MAMS-4 would be *more open* or at least as open as it was at 231 K.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is smaller than that of adsorbed propylene (5.051 Å). Since propylene was adsorbed at 231 K, n-pentane, being smaller, will also be adsorbed by MAMS-4 at 298 K, especially given the temperature-dependent gate opening.

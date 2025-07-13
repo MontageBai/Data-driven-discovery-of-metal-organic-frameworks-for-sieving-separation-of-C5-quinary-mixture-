@@ -1,0 +1,111 @@
+To determine whether JNU-3a (Co(mptbdc)) can adsorb the specified guest molecules, we will analyze the provided experimental data and molecular dimensions.
+
+**1. Inferring JNU-3a’s Effective Pore Characteristics:**
+From the experimental data for JNU-3a (Co(mptbdc)):
+*   **Propylene:** 6.257×5.051×3.961 Å → Intermediate = **5.051 Å** | Adsorbed (Yes) | Mechanism: Gate-opening separation
+*   **Propane:** 6.552×4.354×3.970 Å → Intermediate = **4.354 Å** | Adsorbed (Yes) | Mechanism: Gate-opening separation
+
+Based on this, the MOF JNU-3a (Co(mptbdc)) can adsorb molecules with an intermediate dimension of at least 5.051 Å (propylene). The stated mechanism, "Gate-opening separation," indicates that the MOF possesses a flexible or dynamic framework that can adjust its pore dimensions to facilitate adsorption. Crucially, there is no experimental data indicating non-adsorption due to size exclusion for any molecule with this MOF, meaning an upper bound for a rigid pore size cannot be inferred from the provided data.
+
+**2. Evaluate Target Guest Molecules:**
+
+*   **isoprene:** 7.746×6.093×3.963 Å → Intermediate = **6.093 Å**
+*   **cis-2-pentene:** 8.067×5.572×5.136 Å → Intermediate = **5.572 Å**
+*   **1-pentene:** 8.847×4.995×4.897 Å → Intermediate = **4.995 Å**
+*   **trans-2-pentene:** 8.796×4.733×4.564 Å → Intermediate = **4.733 Å**
+*   **n-pentane:** 9.118×4.364×3.969 Å → Intermediate = **4.364 Å**
+
+---
+
+**MOF Name: JNU-3a (Co(mptbdc))**
+**Guest Molecule: isoprene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for JNU-3a:
+*   Propylene: 6.257×5.051×3.961 Å → Intermediate = 5.051 Å | Adsorbed
+*   Propane: 6.552×4.354×3.970 Å → Intermediate = 4.354 Å | Adsorbed
+
+The MOF JNU-3a has shown adsorption for molecules with intermediate dimensions up to 5.051 Å (propylene). The observed adsorption mechanism is "Gate-opening separation," which implies a dynamic and flexible pore structure capable of adapting to guest molecules.
+Isoprene Dimensions:
+*   isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+
+Conclusion:
+While isoprene's intermediate dimension (6.093 Å) is larger than that of the largest experimentally adsorbed molecule (propylene, 5.051 Å), the "Gate-opening separation" mechanism indicates the MOF's flexibility. Without any experimental data showing non-adsorption (size exclusion) for this MOF to establish an upper pore size limit, and given the dynamic nature of the pore, it is plausible that JNU-3a can accommodate isoprene. Therefore, based on the demonstrated flexibility, it is predicted to adsorb.
+
+---
+
+**MOF Name: JNU-3a (Co(mptbdc))**
+**Guest Molecule: cis-2-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for JNU-3a:
+*   Propylene: 6.257×5.051×3.961 Å → Intermediate = 5.051 Å | Adsorbed
+*   Propane: 6.552×4.354×3.970 Å → Intermediate = 4.354 Å | Adsorbed
+
+The MOF JNU-3a has shown adsorption for molecules with intermediate dimensions up to 5.051 Å (propylene). The observed adsorption mechanism is "Gate-opening separation," which implies a dynamic and flexible pore structure capable of adapting to guest molecules.
+cis-2-pentene Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 Å → Intermediate = 5.572 Å
+
+Conclusion:
+Similar to isoprene, cis-2-pentene's intermediate dimension (5.572 Å) is slightly larger than that of the largest experimentally adsorbed molecule (propylene, 5.051 Å). However, the "Gate-opening separation" mechanism suggests that JNU-3a is flexible. In the absence of experimental data establishing an upper limit for non-adsorption, and considering the MOF's dynamic nature, it is reasonable to predict that JNU-3a can adsorb cis-2-pentene.
+
+---
+
+**MOF Name: JNU-3a (Co(mptbdc))**
+**Guest Molecule: 1-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for JNU-3a:
+*   Propylene: 6.257×5.051×3.961 Å → Intermediate = 5.051 Å | Adsorbed
+*   Propane: 6.552×4.354×3.970 Å → Intermediate = 4.354 Å | Adsorbed
+
+The MOF JNU-3a has shown adsorption for molecules with intermediate dimensions up to 5.051 Å (propylene).
+1-pentene Dimensions:
+*   1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the largest intermediate dimension of an adsorbed molecule (propylene, 5.051 Å) by JNU-3a, it falls well within the experimentally proven adsorption capability of the MOF. Therefore, JNU-3a can adsorb 1-pentene.
+
+---
+
+**MOF Name: JNU-3a (Co(mptbdc))**
+**Guest Molecule: trans-2-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for JNU-3a:
+*   Propylene: 6.257×5.051×3.961 Å → Intermediate = 5.051 Å | Adsorbed
+*   Propane: 6.552×4.354×3.970 Å → Intermediate = 4.354 Å | Adsorbed
+
+The MOF JNU-3a has shown adsorption for molecules with intermediate dimensions up to 5.051 Å (propylene).
+trans-2-pentene Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 Å → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the largest intermediate dimension of an adsorbed molecule (propylene, 5.051 Å) by JNU-3a, it falls within the experimentally proven adsorption capability of the MOF. Therefore, JNU-3a can adsorb trans-2-pentene.
+
+---
+
+**MOF Name: JNU-3a (Co(mptbdc))**
+**Guest Molecule: n-pentane**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for JNU-3a:
+*   Propylene: 6.257×5.051×3.961 Å → Intermediate = 5.051 Å | Adsorbed
+*   Propane: 6.552×4.354×3.970 Å → Intermediate = 4.354 Å | Adsorbed
+
+The MOF JNU-3a has shown adsorption for molecules with intermediate dimensions up to 5.051 Å (propylene).
+n-pentane Dimensions:
+*   n-pentane: 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is very close to and slightly larger than propane (4.354 Å) and smaller than propylene (5.051 Å), both of which are adsorbed by JNU-3a, it falls well within the experimentally proven adsorption capability of the MOF. Therefore, JNU-3a can adsorb n-pentane.

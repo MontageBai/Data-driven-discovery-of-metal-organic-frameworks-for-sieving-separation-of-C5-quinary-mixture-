@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "[Zn(dcpy)(bpe)0.5]·3H2O (1)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.6 Å",
+            "Structure Type": "2-fold parallel interpenetrated net with 1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "3-(2’,5’-dicarboxylphenyl)pyridine (H2dcpy)",
+            "1,2-di(4-pyridyl)ethylenes (bpe)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H2 adsorption is favored due to strong interactions including π···π and C-H···π interactions."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H4 shows weaker interactions compared to C2H2 and cannot pass through the pore effectively."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 is excluded due to its larger size and low polarizability."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "C2H2/C2H4 selectivity: 3.3–4.7 (IAST), C2H2 uptake: 54.4 cm³/g at 273 K, 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits ultrahigh stability in pH=1–13 solutions, retaining its structure and porosity."
+        }
+    }
+]

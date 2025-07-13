@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Fe3O4@MIL-100 (Fe)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.93 nm, 3.91 nm",
+            "Structure Type": "Core-shell"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "benzene-1,3,5-tricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C, 30 min incubation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "BSA was excluded due to its larger size compared to the pore size of the material."
+                }
+            },
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C, 30 min incubation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Phosphopeptides were successfully enriched due to their smaller size compared to the pore size of the material."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis",
+            "Performance Metrics": "Detection limit: 0.5 fmol; Enrichment capacity: 60 mg g−1; Recovery: 84.47%"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows excellent reusability and batch-to-batch repeatability."
+        }
+    }
+]

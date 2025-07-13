@@ -1,0 +1,245 @@
+[
+    {
+        "Materials Name": "PCN-221",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "10 Å, 19 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "ftw",
+        "Metal Nodes": [
+            "Zr(IV)"
+        ],
+        "Ligands": [
+            "carboxyl porphyrin (TCPP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "adenosine triphosphate",
+                "Molecular Size": "17.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            },
+            {
+                "Molecule Name": "adenosine diphosphate",
+                "Molecular Size": "16.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            },
+            {
+                "Molecule Name": "adenosine monophosphate",
+                "Molecular Size": "14.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            },
+            {
+                "Molecule Name": "pyrophosphate",
+                "Molecular Size": "5.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            },
+            {
+                "Molecule Name": "inorganic phosphate",
+                "Molecular Size": "3.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Pore size-based sieving effect allowing differential access based on molecular dimensions.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Fluorescence spectroscopy, PXRD, XPS, FT-IR",
+            "Performance Metrics": "Successful discrimination of ATP-related phosphates in aqueous buffer and biological samples."
+        },
+        "Other Information": {
+            "Additional Info": "The pore sizes and topology enable selective fluorescence responses for different phosphates."
+        }
+    },
+    {
+        "Materials Name": "PCN-222",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "11 Å, 32 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "csq",
+        "Metal Nodes": [
+            "Zr(IV)"
+        ],
+        "Ligands": [
+            "carboxyl porphyrin (TCPP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "adenosine triphosphate",
+                "Molecular Size": "17.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            },
+            {
+                "Molecule Name": "adenosine diphosphate",
+                "Molecular Size": "16.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            },
+            {
+                "Molecule Name": "adenosine monophosphate",
+                "Molecular Size": "14.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            },
+            {
+                "Molecule Name": "pyrophosphate",
+                "Molecular Size": "5.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            },
+            {
+                "Molecule Name": "inorganic phosphate",
+                "Molecular Size": "3.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Pore size-based sieving effect allowing differential access based on molecular dimensions.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Fluorescence spectroscopy, PXRD, XPS, FT-IR",
+            "Performance Metrics": "Successful discrimination of ATP-related phosphates in aqueous buffer and biological samples."
+        },
+        "Other Information": {
+            "Additional Info": "The pore sizes and topology enable selective fluorescence responses for different phosphates."
+        }
+    },
+    {
+        "Materials Name": "PCN-224",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "11 Å, 18 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "she",
+        "Metal Nodes": [
+            "Zr(IV)"
+        ],
+        "Ligands": [
+            "carboxyl porphyrin (TCPP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "adenosine triphosphate",
+                "Molecular Size": "17.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            },
+            {
+                "Molecule Name": "adenosine diphosphate",
+                "Molecular Size": "16.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            },
+            {
+                "Molecule Name": "adenosine monophosphate",
+                "Molecular Size": "14.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            },
+            {
+                "Molecule Name": "pyrophosphate",
+                "Molecular Size": "5.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            },
+            {
+                "Molecule Name": "inorganic phosphate",
+                "Molecular Size": "3.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence enhancement observed due to formation of Zr-O-P bonds."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Pore size-based sieving effect allowing differential access based on molecular dimensions.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Fluorescence spectroscopy, PXRD, XPS, FT-IR",
+            "Performance Metrics": "Successful discrimination of ATP-related phosphates in aqueous buffer and biological samples."
+        },
+        "Other Information": {
+            "Additional Info": "The pore sizes and topology enable selective fluorescence responses for different phosphates."
+        }
+    }
+]

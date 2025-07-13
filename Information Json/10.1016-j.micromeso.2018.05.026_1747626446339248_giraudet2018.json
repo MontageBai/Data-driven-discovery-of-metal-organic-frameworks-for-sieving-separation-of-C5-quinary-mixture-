@@ -1,0 +1,56 @@
+[
+    {
+        "Materials Name": "FAU zeolites",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "11 Å (NaX, NaY), 7.3 Å (CHA), 4.6 Å and 4.4 Å (MFI)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Na+",
+            "Li+",
+            "K+",
+            "Mg2+",
+            "Ca2+",
+            "Ba2+",
+            "Mn2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.99 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77.4 K, below 1000 hPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher selectivity observed at low loading due to strong cation-molecule interactions."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "1.40 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77.4 K, below 1000 hPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower selectivity compared to deuterium due to quantum effects."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale based on quantum effects.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Coadsorption experiments and IAST calculations",
+            "Performance Metrics": "Selectivity ranges from 5.7 (MgX) to 2.4 (KX) at low loading; converges to 1.5±0.2 at high loading."
+        },
+        "Other Information": {
+            "Additional Info": "Cation size plays a key role in determining selectivity at low loading; pore size has minimal effect in pure silica zeolites."
+        }
+    }
+]

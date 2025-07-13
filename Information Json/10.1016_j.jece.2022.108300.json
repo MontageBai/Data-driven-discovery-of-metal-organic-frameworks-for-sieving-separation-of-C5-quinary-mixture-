@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "UTSA-280",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.2 × 4.5 Å, 3.8 × 3.8 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "oxalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "UTSA-280 exhibits high ethylene uptake and minimal ethane adsorption."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "UTSA-280 effectively excludes ethane from its pores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "IAST selectivity over 10,000 for C2H4/C2H6 mixtures"
+        },
+        "Other Information": {
+            "Additional Info": "UTSA-280 is easily synthesized and stable under humid conditions."
+        }
+    }
+]

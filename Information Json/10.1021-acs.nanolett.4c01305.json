@@ -1,0 +1,160 @@
+[
+    {
+        "Materials Name": "VOFFIVE-1-Ni",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.047 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "3D network"
+        },
+        "Topology": "I4/mcm space group",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "(VOF5)2−"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong affinity and favorable adsorption sites",
+                "Other Information": {
+                    "Test Conditions": "293 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High CO2 uptake capacity and low enthalpy of adsorption."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to limited pore aperture",
+                "Other Information": {
+                    "Test Conditions": "293 K, 0.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible CH4 uptake observed."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Partial accessibility at room temperature",
+                "Other Information": {
+                    "Test Conditions": "293 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slight expansion of pore aperture allows minimal N2 access."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Controlled dynamical movement and host-guest interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, in situ IR spectroscopy",
+            "Performance Metrics": "CO2/CH4 selectivity: >2280, CO2 uptake: 12.08 wt% (2.75 mmol/g) at 0.5 bar, 293 K"
+        },
+        "Other Information": {
+            "Additional Info": "Hydrolytically stable with fast CO2 adsorption kinetics."
+        }
+    },
+    {
+        "Materials Name": "NbOFFIVE-1-Ni",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "3D network"
+        },
+        "Topology": "I4/mcm space group",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "(NbOF5)2−"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption via strong interactions",
+                "Other Information": {
+                    "Test Conditions": "293 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate CO2 uptake capacity compared to VOFFIVE-1-Ni."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to limited pore aperture",
+                "Other Information": {
+                    "Test Conditions": "293 K, 0.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low CH4 uptake observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dynamic movement of pyz-ligand and pillar units",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation, in situ IR spectroscopy",
+            "Performance Metrics": "CO2/CH4 selectivity: ~73, CO2 uptake: 10.70 wt% (2.43 mmol/g) at 0.5 bar, 293 K"
+        },
+        "Other Information": {
+            "Additional Info": "Hydrolytically stable but less rigid than VOFFIVE-1-Ni."
+        }
+    },
+    {
+        "Materials Name": "TaOFFIVE-1-Ni",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "3D network"
+        },
+        "Topology": "I4/mcm space group",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "(TaOF5)2−"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption via strong interactions",
+                "Other Information": {
+                    "Test Conditions": "293 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate CO2 uptake capacity."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to limited pore aperture",
+                "Other Information": {
+                    "Test Conditions": "293 K, 0.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low CH4 uptake observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dynamic movement of pyz-ligand and pillar units",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation, in situ IR spectroscopy",
+            "Performance Metrics": "CO2/CH4 selectivity: ~36, CO2 uptake: 9.48 wt% (2.15 mmol/g) at 0.5 bar, 293 K"
+        },
+        "Other Information": {
+            "Additional Info": "Hydrolytically stable but less rigid than VOFFIVE-1-Ni."
+        }
+    }
+]

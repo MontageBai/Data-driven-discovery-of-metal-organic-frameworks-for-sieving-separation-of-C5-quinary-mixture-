@@ -1,0 +1,77 @@
+Here's the analysis for CAU-21-ODB based on the provided data:
+
+**MOF Name: CAU-21-ODB**
+
+**Known Experimental Data for CAU-21-ODB:**
+*   **3-methylpentane:** 9.052×6.008×4.985 Å (Intermediate = 6.008 Å) - **Not Adsorbed** (Reason: Size exclusion at sub-nanometer scale)
+*   **2,2-dimethylbutane:** 7.829×5.502×6.545 Å (Intermediate = 6.545 Å) - **Not Adsorbed** (Reason: Size exclusion at sub-nanometer scale)
+
+**Inferred Effective Pore Size of CAU-21-ODB:**
+From the experimental data, both 3-methylpentane (intermediate dimension 6.008 Å) and 2,2-dimethylbutane (intermediate dimension 6.545 Å) are excluded due to size. The smallest of these excluded molecules is 3-methylpentane with an intermediate dimension of **6.008 Å**. Therefore, it is inferred that the effective pore size of CAU-21-ODB is **less than 6.008 Å**. Since no molecules are reported as adsorbed, a lower bound for the pore size cannot be established from the given data.
+
+**Target Guest Molecules and their Intermediate Dimensions:**
+*   **isoprene:** 7.746×6.093×3.963 Å (Intermediate = 6.093 Å)
+*   **cis-2-pentene:** 8.067×5.572×5.136 Å (Intermediate = 5.572 Å)
+*   **1-pentene:** 8.847×4.995×4.897 Å (Intermediate = 4.995 Å)
+*   **trans-2-pentene:** 8.796×4.733×4.564 Å (Intermediate = 4.733 Å)
+*   **n-pentane:** 9.118×4.364×3.969 Å (Intermediate = 4.364 Å)
+
+---
+
+**MOF Name: CAU-21-ODB**
+**Guest Molecule: isoprene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data, CAU-21-ODB does not adsorb 3-methylpentane (intermediate dimension 6.008 Å) due to size exclusion. This indicates that the effective pore size of CAU-21-ODB is less than 6.008 Å.
+Isoprene has an intermediate dimension of **6.093 Å**.
+Since isoprene's intermediate dimension (6.093 Å) is greater than the smallest molecule known to be excluded (6.008 Å), it is too large to pass through the pores of CAU-21-ODB.
+
+---
+
+**MOF Name: CAU-21-ODB**
+**Guest Molecule: cis-2-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From experimental data, CAU-21-ODB does not adsorb 3-methylpentane (intermediate dimension 6.008 Å) due to size exclusion. This indicates that the effective pore size of CAU-21-ODB is less than 6.008 Å.
+Cis-2-pentene has an intermediate dimension of **5.572 Å**.
+Since cis-2-pentene's intermediate dimension (5.572 Å) is less than the smallest molecule known to be excluded (6.008 Å), and there is no experimental data to suggest exclusion for molecules of this size or smaller, it is inferred that it can be adsorbed by the size exclusion mechanism.
+
+---
+
+**MOF Name: CAU-21-ODB**
+**Guest Molecule: 1-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From experimental data, CAU-21-ODB does not adsorb 3-methylpentane (intermediate dimension 6.008 Å) due to size exclusion. This indicates that the effective pore size of CAU-21-ODB is less than 6.008 Å.
+1-pentene has an intermediate dimension of **4.995 Å**.
+Since 1-pentene's intermediate dimension (4.995 Å) is less than the smallest molecule known to be excluded (6.008 Å), and there is no experimental data to suggest exclusion for molecules of this size or smaller, it is inferred that it can be adsorbed by the size exclusion mechanism.
+
+---
+
+**MOF Name: CAU-21-ODB**
+**Guest Molecule: trans-2-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From experimental data, CAU-21-ODB does not adsorb 3-methylpentane (intermediate dimension 6.008 Å) due to size exclusion. This indicates that the effective pore size of CAU-21-ODB is less than 6.008 Å.
+Trans-2-pentene has an intermediate dimension of **4.733 Å**.
+Since trans-2-pentene's intermediate dimension (4.733 Å) is less than the smallest molecule known to be excluded (6.008 Å), and there is no experimental data to suggest exclusion for molecules of this size or smaller, it is inferred that it can be adsorbed by the size exclusion mechanism.
+
+---
+
+**MOF Name: CAU-21-ODB**
+**Guest Molecule: n-pentane**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From experimental data, CAU-21-ODB does not adsorb 3-methylpentane (intermediate dimension 6.008 Å) due to size exclusion. This indicates that the effective pore size of CAU-21-ODB is less than 6.008 Å.
+n-pentane has an intermediate dimension of **4.364 Å**.
+Since n-pentane's intermediate dimension (4.364 Å) is less than the smallest molecule known to be excluded (6.008 Å), and there is no experimental data to suggest exclusion for molecules of this size or smaller, it is inferred that it can be adsorbed by the size exclusion mechanism.

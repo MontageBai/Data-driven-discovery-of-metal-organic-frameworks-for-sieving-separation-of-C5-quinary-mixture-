@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "ED-MIL-101(Cr)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.67 to 3.94 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid",
+            "ethylenediamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "polystyrene",
+                "Molecular Size": "200–500 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH 2–10, 3 bar pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removed >99% for both positively and negatively charged polystyrene nanoparticles"
+                }
+            },
+            {
+                "Molecule Name": "polyethylene",
+                "Molecular Size": "200–900 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH 2–10, 3 bar pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removed >99% for both positively and negatively charged polyethylene nanoparticles"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at nano scale with electrostatic interactions",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Crossflow filtration experiment",
+            "Performance Metrics": "Water permeability: 769 Lm−2h−1bar−1, Removal efficiency: >99% for both polystyrene and polyethylene nanoparticles"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane showed stability under pH 4–10 and NaClO concentrations ranging from 500 to 1500 ppm"
+        }
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "Materials Name": "UiO-66/NH-MA@CLM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.42 nm (micropores), 4.90-6.68 nm (mesopores), 0.82-5.62 μm (macropores)",
+            "Structure Type": "3D rigid structure with hierarchical micro-, meso-, and macropores"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at micropore scale",
+                "Other Information": {
+                    "Test Conditions": "50% ACN mobile phase, nano-flow HPLC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation based on polarity and sieving effects"
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "0.58 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase chromatography",
+                "Other Information": {
+                    "Test Conditions": "50% ACN mobile phase, nano-flow HPLC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention governed by hydrophobic interactions"
+                }
+            },
+            {
+                "Molecule Name": "ethylbenzene",
+                "Molecular Size": "0.73 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase chromatography",
+                "Other Information": {
+                    "Test Conditions": "50% ACN mobile phase, nano-flow HPLC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention governed by hydrophobic interactions"
+                }
+            },
+            {
+                "Molecule Name": "propylbenzene",
+                "Molecular Size": "0.84 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase chromatography",
+                "Other Information": {
+                    "Test Conditions": "50% ACN mobile phase, nano-flow HPLC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention governed by hydrophobic interactions"
+                }
+            },
+            {
+                "Molecule Name": "butylbenzene",
+                "Molecular Size": "0.97 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase chromatography",
+                "Other Information": {
+                    "Test Conditions": "50% ACN mobile phase, nano-flow HPLC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention governed by hydrophobic interactions"
+                }
+            },
+            {
+                "Molecule Name": "pentylbenzene",
+                "Molecular Size": "1.08 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase chromatography",
+                "Other Information": {
+                    "Test Conditions": "50% ACN mobile phase, nano-flow HPLC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention governed by hydrophobic interactions"
+                }
+            },
+            {
+                "Molecule Name": "phenol",
+                "Molecular Size": "0.56 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic repulsion and reversed-phase interactions",
+                "Other Information": {
+                    "Test Conditions": "50% ACN with 0.1% TFA, nano-flow HPLC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention influenced by pH-dependent protonation"
+                }
+            },
+            {
+                "Molecule Name": "aniline",
+                "Molecular Size": "0.57 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic repulsion and reversed-phase interactions",
+                "Other Information": {
+                    "Test Conditions": "50% ACN with 0.1% TFA, nano-flow HPLC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention influenced by pH-dependent protonation"
+                }
+            },
+            {
+                "Molecule Name": "benzoic acid",
+                "Molecular Size": "0.64 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination interaction and reversed-phase interactions",
+                "Other Information": {
+                    "Test Conditions": "50% ACN with 0.1% TFA, nano-flow HPLC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention influenced by pH-dependent coordination with ZrIV"
+                }
+            },
+            {
+                "Molecule Name": "hydroquinone",
+                "Molecular Size": "0.64 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Micropore sieving and reversed-phase interactions",
+                "Other Information": {
+                    "Test Conditions": "10% ACN mobile phase, nano-flow HPLC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shape-dependent separation within micropores"
+                }
+            },
+            {
+                "Molecule Name": "resorcinol",
+                "Molecular Size": "0.62 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Micropore sieving and reversed-phase interactions",
+                "Other Information": {
+                    "Test Conditions": "10% ACN mobile phase, nano-flow HPLC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shape-dependent separation within micropores"
+                }
+            },
+            {
+                "Molecule Name": "catechol",
+                "Molecular Size": "0.56 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Micropore sieving and reversed-phase interactions",
+                "Other Information": {
+                    "Test Conditions": "10% ACN mobile phase, nano-flow HPLC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shape-dependent separation within micropores"
+                }
+            },
+            {
+                "Molecule Name": "myoglobin",
+                "Molecular Size": "3.47 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at micropore scale",
+                "Other Information": {
+                    "Test Conditions": "Gradient elution with ACN-TFA, nano-flow HPLC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Interaction occurs in mesopores and macropores"
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "5.76 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at micropore scale",
+                "Other Information": {
+                    "Test Conditions": "Gradient elution with ACN-TFA, nano-flow HPLC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Interaction occurs in mesopores and macropores"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer and nanometer scales combined with electrostatic and hydrophobic interactions",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Nano-flow HPLC with UV detection",
+            "Performance Metrics": "HETP values: ethylbenzene = 28.1 μm, catechol = 46.6 μm; Rs values: butylbenzene/pentylbenzene = 4.56, resorcinol/catechol = 1.53"
+        },
+        "Other Information": {
+            "Additional Info": "Hierarchical pore structure allows simultaneous separation of small and large molecules"
+        }
+    }
+]

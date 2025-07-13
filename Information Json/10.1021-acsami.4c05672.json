@@ -1,0 +1,84 @@
+[
+    {
+        "Materials Name": "15-crown-5@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (window), 11.6 Å (cavity)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "15-crown-5"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale and specific coordination with 15-crown-5",
+                "Other Information": {
+                    "Test Conditions": "0.1 M solutions, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High flux observed due to synergistic effects of size sieving and coordination"
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale and specific coordination with 15-crown-5",
+                "Other Information": {
+                    "Test Conditions": "0.1 M solutions, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower permeability compared to lithium due to strong binding effects and steric hindrance with 15-crown-5"
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale and specific coordination with 15-crown-5",
+                "Other Information": {
+                    "Test Conditions": "0.1 M solutions, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower permeability compared to lithium due to larger size and greater steric hindrance"
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "0.1 M solutions, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly lower permeability compared to monovalent ions due to divalent nature and larger hydrated ion diameter"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "0.1 M solutions, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly lower permeability compared to monovalent ions due to divalent nature and larger hydrated ion diameter"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and specific coordination of 15-crown-5 toward Na+",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, I-V measurements, Ion diffusion experiments",
+            "Performance Metrics": "Li+/Na+ selectivity: 3.9, Li+/K+ selectivity: 5.2, Li+/Ca2+ selectivity: 105.8, Li+/Mg2+ selectivity: 122.4, Li+ transport rate: 93.8 ± 3.6 mol h−1·m−2"
+        },
+        "Other Information": {
+            "Additional Info": "Functional micropipet exhibited stable Li+ selectivity under various conditions, including different ion concentrations, pH values, and mixed ion solutions."
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "TiO2/NTU-9",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Core-shell structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti4+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen peroxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "–0.25 V vs Ag/AgCl, Full spectrum light illumination",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Photogenerated holes accumulate at TiO2/NTU-9/electrolyte interface, allowing small molecules like H2O2 to pass through NTU-9 shell."
+                }
+            },
+            {
+                "Molecule Name": "glucose",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "–0.25 V vs Ag/AgCl, Full spectrum light illumination",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger glucose molecules are excluded by the NTU-9 shell due to size-dependent sieving."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale based on NTU-9 layer spacing",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Photoelectrochemical (PEC) measurements",
+            "Performance Metrics": "Photocurrent response of 30 µA against H2O2 (0.1 mM)"
+        },
+        "Other Information": {
+            "Additional Info": "The NTU-9 shell serves as a size-exclusion filter, enabling selective PEC sensing for small molecules like H2O2 at low applied potentials."
+        }
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "SSZ-13 zeolite",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å × 3.8 Å (large aperture), 2.5 Å × 2.5 Å (small aperture)",
+            "Structure Type": "3D framework with interconnected channels and cavities"
+        },
+        "Topology": "CHA",
+        "Metal Nodes": [
+            "Silicon (Si)",
+            "Aluminum (Al)"
+        ],
+        "Ligands": [
+            "Oxygen (O)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic Quantum Sieving",
+                "Other Information": {
+                    "Test Conditions": "Varied temperatures (25 K, 40 K, 60 K), 1000 mbar pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 eluted first in breakthrough experiments at 77 K."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic Quantum Sieving",
+                "Other Information": {
+                    "Test Conditions": "Varied temperatures (25 K, 40 K, 60 K), 1000 mbar pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2 exhibited stronger interaction and remained longer in the column during breakthrough experiments at 77 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale through Kinetic Quantum Sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Thermal Desorption Spectroscopy (TDS), Breakthrough experiments",
+            "Performance Metrics": "D2/H2 selectivity of 11.9 at 25 K and 1 bar exposure pressure; D2/H2 selectivity of approximately 1.6 at 77 K"
+        },
+        "Other Information": {
+            "Additional Info": "SSZ-13 demonstrated robustness under ionizing radiation doses up to 9 MGy."
+        }
+    }
+]

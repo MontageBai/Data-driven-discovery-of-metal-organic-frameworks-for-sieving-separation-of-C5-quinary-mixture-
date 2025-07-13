@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZnO@ZIF-8 core-shell nanorods film",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (micropores)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "200 °C, 50 ppm H2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced sensitivity due to thin ZIF-8 shell (~110 nm) and increased oxygen vacancies."
+                }
+            },
+            {
+                "Molecule Name": "carbon monoxide",
+                "Molecular Size": "3.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "200 °C, 50 ppm CO",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Suppressed framework mobility of ZIF-8 due to fine-grain confinement (<140 nm)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sensing measurements",
+            "Performance Metrics": "H2 sensitivity: Ra/Rg = 2.79 at 200 °C, No response to CO at 200 °C"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 shell strengthened molecular sieving effect due to fine-grain structure (<140 nm)."
+        }
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "HAF-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.14 Å (spacious channel), 4.04 Å (narrow throat)",
+            "Structure Type": "3D channels with local contraction throat and hanging molecular pockets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "3-amino-1,2,4-triazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 101.61 cm³ cm⁻³ at 1 bar; Qst: 65.88 kJ mol⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Local shrinkage throat with hanging molecular pocket mode",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "C3H6/C3H8 selectivity: >1.67 × 10⁷; C3H6 productivity: 33.9 l kg⁻¹ (≥99.7% purity)"
+        },
+        "Other Information": {
+            "Additional Info": "Synthesized in water using commercially available reagents; stable in aqueous solutions of pH 1–13 for at least 1 week"
+        }
+    },
+    {
+        "Materials Name": "HAF-2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.02 Å",
+            "Structure Type": "Non-porous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "3-methyl-1,2,4-triazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Complete pore blockage",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No significant adsorption observed"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Complete pore blockage",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No significant adsorption observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "No measurable adsorption capacity for C3H6 or C3H8"
+        },
+        "Other Information": {
+            "Additional Info": "Synthesized in a water/methanol mixture; crystalline but non-porous"
+        }
+    }
+]

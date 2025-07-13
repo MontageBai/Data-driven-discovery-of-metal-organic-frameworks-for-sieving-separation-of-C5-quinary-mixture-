@@ -1,0 +1,100 @@
+[
+    {
+        "Materials Name": "sulfated UIO-66 (UIO–66OSO3)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5 Å (peak pore size), 3.5–7 Å (range)",
+            "Structure Type": "Highly porous nanoparticles with angstrom scale sieving channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,3-Propanediol cyclic sulfate",
+            "NH2-BOC"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "proton",
+                "Molecular Size": "< 2.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 3 M H2SO4 electrolyte",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrated proton (e.g., H3O+) can pass through the 5 Å pores in UIO-66OSO3"
+                }
+            },
+            {
+                "Molecule Name": "vanadium ion",
+                "Molecular Size": "> 8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.5 M VO2+ + 3 M H2SO4 solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Vanadium ions are screened out by the 5 Å pores in UIO-66OSO3"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, electrochemical impedance spectroscopy (EIS)",
+            "Performance Metrics": "Vanadium permeability: 7.88 × 10^-9 cm2 s−1, Area resistance: 0.23 Ω cm−2"
+        },
+        "Other Information": {
+            "Additional Info": "The sulfated groups on UIO-66OSO3 provide numerous angstrom-scale sieving channels and enhance proton conductivity while repelling vanadium ions."
+        }
+    },
+    {
+        "Materials Name": "PBIU membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5 Å (UIO-66OSO3 pores), 8 nm (ionic clusters)",
+            "Structure Type": "Interconnected hierarchical proton sieving-conductive channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,3-Propanediol cyclic sulfate",
+            "NH2-BOC"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "proton",
+                "Molecular Size": "< 2.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 3 M H2SO4 electrolyte",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Protons are transported through 5 Å pores in UIO-66OSO3 and nanoscale ionic clusters (~8 nm)"
+                }
+            },
+            {
+                "Molecule Name": "vanadium ion",
+                "Molecular Size": "> 8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.5 M VO2+ + 3 M H2SO4 solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Vanadium ions are excluded by the 5 Å pores in UIO-66OSO3"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Hierarchical sieving through interconnected channels",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, electrochemical impedance spectroscopy (EIS), VRFB cycling test",
+            "Performance Metrics": "Energy efficiency: 86.1%, Discharge capacity decay rate: 0.15% per cycle"
+        },
+        "Other Information": {
+            "Additional Info": "The PBIU membrane exhibits excellent chemical stability and maintains performance over 2000 cycles (>2500 h) without morphological or chemical changes."
+        }
+    }
+]

@@ -1,0 +1,164 @@
+[
+    {
+        "MOF Name": "1a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D + 2D →3D parallel polycatenated framework, non-porous"
+        },
+        "Topology": "{44.62}",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4,4′-bispyridylethane",
+            "pimelate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Blocked due to non-porous nature of the framework",
+                "Other Information": {
+                    "Test Conditions": "77 K, 0.99 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake (up to ~12 mL/g) observed."
+                }
+            },
+            {
+                "Molecule Name": "CO2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Blocked due to non-porous nature of the framework",
+                "Other Information": {
+                    "Test Conditions": "195 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake (13 mL/g) observed."
+                }
+            },
+            {
+                "Molecule Name": "H2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Blocked due to non-porous nature of the framework",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake (up to 18 mL/g) observed."
+                }
+            },
+            {
+                "Molecule Name": "H2O",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Blocked due to non-porous nature of the framework",
+                "Other Information": {
+                    "Test Conditions": "298 K, P/P0 = 0.9",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very negligible uptake capacity."
+                }
+            },
+            {
+                "Molecule Name": "EtOH",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Blocked due to non-porous nature of the framework",
+                "Other Information": {
+                    "Test Conditions": "298 K, P/P0 = 0.9",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very negligible uptake capacity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Framework densification upon desolvation leading to a non-porous material, preventing molecular passage.",
+        "Experimental Validation": {
+            "Method": "Gas and vapor sorption studies (adsorption isotherms)",
+            "Performance Metrics": "Negligible uptake for all tested gases (N2: ~12 mL/g; CO2: 13 mL/g; H2: 18 mL/g) and vapors (H2O, EtOH)."
+        },
+        "Other Information": {
+            "Additional Info": "Flexible framework of compound 1 undergoing reversible single-crystal-to-single-crystal (SC-SC) structural transformation upon desolvation to form 1a, resulting in a higher dimensional polycatenated non-porous structure."
+        }
+    },
+    {
+        "MOF Name": "2a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "~4 × 2 Å2",
+            "Structure Type": "Doubly interpenetrated three-dimensional (3D) net with very narrow 1D channels, honeycomb-like structure"
+        },
+        "Topology": "{42.65.83}{42.6}",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "4,4′-bipyridine",
+            "2-nitro-1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and steric hindrance due to bulky -NO2 group and interpenetrated network within narrow channels",
+                "Other Information": {
+                    "Test Conditions": "77 K, 0.99 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake (~96 mL/g) due to negligible void spaces and narrow channels."
+                }
+            },
+            {
+                "Molecule Name": "H2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and steric hindrance due to bulky -NO2 group and interpenetrated network within narrow channels",
+                "Other Information": {
+                    "Test Conditions": "77 K, 0.99 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake (~27 mL/g) due to negligible void spaces and narrow channels."
+                }
+            },
+            {
+                "Molecule Name": "CO2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and steric hindrance due to bulky -NO2 group and interpenetrated network within narrow channels",
+                "Other Information": {
+                    "Test Conditions": "195 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake (11 mL/g) due to negligible void spaces and narrow channels."
+                }
+            },
+            {
+                "Molecule Name": "H2O",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Polar adsorption, preferred orientation within channels enabled by polar -NO2 group, and suitable molecular size for passage",
+                "Other Information": {
+                    "Test Conditions": "298 K, P/P0 = 0.9",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake (163 mL/g) with reversible desorption. Proposed as a drying agent."
+                }
+            },
+            {
+                "Molecule Name": "EtOH",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to higher kinetic diameter and less polarity compared to water, leading to limited passage",
+                "Other Information": {
+                    "Test Conditions": "298 K, P/P0 = 0.9",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake (14 mL/g), significantly lower than water. Framework shows 'extensive affection' for water over EtOH."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective adsorption based on polarity and size exclusion, influenced by narrow channel dimensions and steric hindrance from internal functional groups.",
+        "Experimental Validation": {
+            "Method": "Gas and vapor sorption studies (adsorption isotherms)",
+            "Performance Metrics": "H2O uptake: 163 mL/g at 298 K, P/P0 = 0.9; EtOH uptake: 14 mL/g at 298 K, P/P0 = 0.9. N2 uptake: ~96 mL/g, H2 uptake: ~27 mL/g, CO2 uptake: 11 mL/g."
+        },
+        "Other Information": {
+            "Additional Info": "Robust framework of compound 2 that retains crystallinity upon de/rehydration to form 2a. Contains a polar -NO2 group within the pore channel influencing vapor sorption."
+        }
+    }
+]

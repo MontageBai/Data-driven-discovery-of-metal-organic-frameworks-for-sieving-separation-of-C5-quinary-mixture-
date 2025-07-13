@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "nickel-based 2D-MOF nanosheet",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.96–2.0 nm",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "p-phthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 bar, 25 ± 2 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water molecules can transport through the pores of the 2D-MOF nanosheet surface."
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 bar, 25 ± 2 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Salt ions are rejected due to smaller pore size compared to hydrated Na+ and Cl− radius."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Water permeance: 50.4 L m−2 h−1·MPa−1, NaCl rejection: 99.2%"
+        },
+        "Other Information": {
+            "Additional Info": "The incorporation of 2D-MOF nanosheets improves water permeance and maintains high salt rejection."
+        }
+    }
+]

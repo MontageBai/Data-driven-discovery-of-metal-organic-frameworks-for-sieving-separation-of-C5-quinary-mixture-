@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "MFU-4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.9 Å (Pore A), 12 Å (Pore B)",
+            "Structure Type": "Alternating pore structure with narrow apertures"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzo-1,2,4,5-bistriazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "300 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fast diffusion of CO2 through the narrow pore windows"
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "300 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High kinetic barrier for C2H2 diffusion due to narrow pore windows"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/C2H2 selectivity: >98% purity C2H2 production"
+        },
+        "Other Information": {
+            "Additional Info": "MFU-4 exhibits inverse CO2/C2H2 separation via a kinetic sieving mechanism."
+        }
+    },
+    {
+        "Materials Name": "MFU-4-F",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.7 Å (expanded pore windows)",
+            "Structure Type": "Alternating pore structure with larger apertures"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "fluoride-modified benzo-1,2,4,5-bistriazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Equilibrium separation",
+                "Other Information": {
+                    "Test Conditions": "300 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fast diffusion of CO2 through the expanded pore windows"
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Equilibrium separation",
+                "Other Information": {
+                    "Test Conditions": "300 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reduced kinetic barrier for C2H2 diffusion due to smaller Zn-F groups"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Reversed selectivity due to equilibrium separation",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H2/CO2 selectivity: 5.5 at 1 bar, 300 K"
+        },
+        "Other Information": {
+            "Additional Info": "MFU-4-F shows reversed C2H2/CO2 selectivity compared to MFU-4 due to postsynthetic F/Cl ligand exchange."
+        }
+    }
+]

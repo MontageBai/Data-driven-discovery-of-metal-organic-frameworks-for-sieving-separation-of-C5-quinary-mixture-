@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "WNPC",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2–50 nm (mesopores), below 2 nm (micropores)",
+            "Structure Type": "Micro/mesoporous hierarchical structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sulfuric acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "1 M H2SO4, varying current densities from 1 to 20 A·g−1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The sieving effect promotes efficient ion migration from mesopores to micropores."
+                }
+            },
+            {
+                "Molecule Name": "tetraethylammonium tetrafluoroborate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "1 M TEABF4 in propylene carbonate, voltage window of 2 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The waffle-like morphology and interconnected micro/mesoporous structure facilitate electrolyte migration."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Promotes efficient ion migration via interconnected micro/mesoporous hierarchical structure.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Electrochemical measurements (CV, GCD, Ragone plot, cycling stability tests)",
+            "Performance Metrics": "Specific capacitance: 300.7 F·g−1 at 1 A·g−1; Specific energy: 27 W·h·kg−1 at 500 W·kg−1; Capacitance retention: ~85% after 10,000 cycles."
+        },
+        "Other Information": {
+            "Additional Info": "WNPC exhibits a high nitrogen content (7.5 wt%) and oxygen content (9.1 wt%), contributing to pseudocapacitance and enhanced electrolyte migration due to the sieving effect."
+        }
+    }
+]

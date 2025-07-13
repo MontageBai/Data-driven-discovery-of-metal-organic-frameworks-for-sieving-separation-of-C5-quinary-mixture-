@@ -1,0 +1,100 @@
+[
+    {
+        "Materials Name": "CuBOTf",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.87 × 0.87 nm2 (large pore), 0.20 × 0.20 nm2 (small pore)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu(II)"
+        ],
+        "Ligands": [
+            "4,4′-bipyridine",
+            "CF3SO3"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.2958 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Quantum molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 40 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 shows slower diffusion than D2 due to quantum effects."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 40 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2 diffuses more easily than H2 at low temperatures and pressures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum molecular sieving effect based on differences in diffusion rates of H2 and D2.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "GCMC simulation, experimental adsorption isotherms",
+            "Performance Metrics": "Selectivity S(D2/H2): 1.2 at 77 K; 2.6 to 5.8 at 40 K"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits a quantum sieving effect for H2 and D2, with marked selectivity at 40 K."
+        }
+    },
+    {
+        "Materials Name": "Cu-BTC",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Comparable to CuBOTf (not explicitly reported)",
+            "Structure Type": "3D networks"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu(II)"
+        ],
+        "Ligands": [
+            "benzene-1,3,5-tricarboxolate",
+            "H2O"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.2958 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Quantum molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 shows lower adsorption compared to D2."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2 exhibits higher adsorption than H2 by 20%."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum molecular sieving effect observed for H2 and D2.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Experimental adsorption isotherms",
+            "Performance Metrics": "Selectivity S(D2/H2): Not explicitly reported but higher than CuBOTf."
+        },
+        "Other Information": {
+            "Additional Info": "Cu-BTC shows a more pronounced difference between D2 and H2 adsorption compared to CuBOTf."
+        }
+    }
+]

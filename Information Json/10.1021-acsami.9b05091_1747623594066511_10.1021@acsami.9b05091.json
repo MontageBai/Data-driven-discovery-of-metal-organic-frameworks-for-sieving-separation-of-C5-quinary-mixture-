@@ -1,0 +1,116 @@
+[
+    {
+        "Materials Name": "PCN-222-NDC",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.2 nm, 3.0 nm",
+            "Structure Type": "Hierarchically porous structure with triangular microchannels and hexagonal mesochannels"
+        },
+        "Topology": "{3.2^4.25^2}2{3.8^4.16^5.8^613}",
+        "Metal Nodes": [
+            "Zr6"
+        ],
+        "Ligands": [
+            "TCPP",
+            "NDC"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Powder X-ray diffraction (PXRD), N2 sorption isotherms",
+            "Performance Metrics": "N2 uptake: 850 cm³ g⁻¹ (STP), BET surface area: 2150 m² g⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "Mixed-linker MOF formed by incorporating NDC auxiliary linker into PCN-222."
+        }
+    },
+    {
+        "Materials Name": "PCN-224-BPDC",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.6 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "{3.12^4.18^5.24^612}2{3.4^42}3",
+        "Metal Nodes": [
+            "Zr6"
+        ],
+        "Ligands": [
+            "TCPP",
+            "BPDC"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Powder X-ray diffraction (PXRD), N2 sorption isotherms",
+            "Performance Metrics": "N2 uptake: 725 cm³ g⁻¹ (STP), BET surface area: 2520 m² g⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "Mixed-linker MOF formed by incorporating BPDC auxiliary linker into PCN-224."
+        }
+    },
+    {
+        "Materials Name": "PCN-606-TPDC",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "{4.16^5.12^6.16^7}{4.4^52}2",
+        "Metal Nodes": [
+            "Zr6"
+        ],
+        "Ligands": [
+            "DTPC",
+            "TPDC"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Powder X-ray diffraction (PXRD), N2 sorption isotherms",
+            "Performance Metrics": "N2 uptake: 592 cm³ g⁻¹ (STP), BET surface area: 2165 m² g⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "Mixed-linker MOF formed by incorporating TPDC auxiliary linker into PCN-606."
+        }
+    }
+]

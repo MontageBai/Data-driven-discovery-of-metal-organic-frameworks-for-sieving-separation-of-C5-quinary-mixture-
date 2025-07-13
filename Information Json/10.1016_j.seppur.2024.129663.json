@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "P84/1.5CAU-10-H/PEI",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.59 nm (mean effective pore diameter)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Aluminum"
+        ],
+        "Ligands": [
+            "1,3-H2BTC"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate > 99%"
+                }
+            },
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate > 99%"
+                }
+            },
+            {
+                "Molecule Name": "evans blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate > 99%"
+                }
+            },
+            {
+                "Molecule Name": "alcian blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate > 99%"
+                }
+            },
+            {
+                "Molecule Name": "brilliant yellow",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate > 90%"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate 73.43%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Dead-end permeation cell",
+            "Performance Metrics": "Permeance: 42.4 LMH/bar (methanol), Rejection: >99% for large dyes"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane shows excellent stability in harsh organic solvents like NMP and DMSO."
+        }
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "Materials Name": "UMCM-310",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "17 Å, 25 Å",
+            "Structure Type": "3D structure with mesopores and micropores"
+        },
+        "Topology": "LYT (2,4,5-c net)",
+        "Metal Nodes": [
+            "Cu paddlewheels"
+        ],
+        "Ligands": [
+            "2,5,8,11-tetrakis(4-carboxyphenyl)perylene",
+            "4,4’-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrobenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electron-deficient aromatic interaction",
+                "Other Information": {
+                    "Test Conditions": "Hexanes as mobile phase, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 1.2 min"
+                }
+            },
+            {
+                "Molecule Name": "o-dinitrobenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electron-deficient aromatic interaction",
+                "Other Information": {
+                    "Test Conditions": "Hexanes as mobile phase, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 4.5 min"
+                }
+            },
+            {
+                "Molecule Name": "1,3,5-trinitrobenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electron-deficient aromatic interaction",
+                "Other Information": {
+                    "Test Conditions": "Hexanes as mobile phase, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 12 min"
+                }
+            },
+            {
+                "Molecule Name": "p-dinitrobenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electron-deficient aromatic interaction",
+                "Other Information": {
+                    "Test Conditions": "Hexanes as mobile phase, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 5.6 min"
+                }
+            },
+            {
+                "Molecule Name": "2,4-dinitrotoluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electron-deficient aromatic interaction",
+                "Other Information": {
+                    "Test Conditions": "Hexanes as eluent, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 3.5 min"
+                }
+            },
+            {
+                "Molecule Name": "2,4,6-trinitrotoluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electron-deficient aromatic interaction",
+                "Other Information": {
+                    "Test Conditions": "Hexanes as eluent, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 10.4 min"
+                }
+            },
+            {
+                "Molecule Name": "2,6-dinitrotoluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electron-deficient aromatic interaction",
+                "Other Information": {
+                    "Test Conditions": "Hexanes as eluent, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 9.5 min"
+                }
+            },
+            {
+                "Molecule Name": "1,3,5-triphenyl benzene",
+                "Molecular Size": "11.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Unretained in columns packed with HKUST-1"
+                }
+            },
+            {
+                "Molecule Name": "1,3,5-tris(4-bromophenyl)benzene",
+                "Molecular Size": "13.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Unretained in MOF-5"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Electronic interaction based on electron-deficient aromatic systems",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Liquid chromatography separation experiments",
+            "Performance Metrics": "Complete baseline separation of nitrobenzenes, dinitrotoluenes, and large organic molecules"
+        },
+        "Other Information": {
+            "Additional Info": "High BET surface area (4511–5110 m²/g), gradual framework collapse after guest removal, stable in acetone or methanol"
+        }
+    }
+]

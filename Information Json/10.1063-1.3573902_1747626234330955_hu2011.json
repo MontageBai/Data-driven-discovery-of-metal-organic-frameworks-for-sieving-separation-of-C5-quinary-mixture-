@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Zeolitic imidazolate framework-8 (ZIF-8)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (small apertures), 11.6 Å (large cavities)",
+            "Structure Type": "SOD zeolite-like topology with alternating cage-window-cage shaped pores"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn"
+        ],
+        "Ligands": [
+            "2-methylimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium ion",
+                "Molecular Size": "3.328 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "90 MPa, 300 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Na+ ions partially enter the membrane but cannot pass through due to small apertures."
+                }
+            },
+            {
+                "Molecule Name": "chloride ion",
+                "Molecular Size": "4.417 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "90 MPa, 300 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cl− ions primarily stay in large cavities and cannot transport across the membrane."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pressure-driven permeation through small apertures",
+                "Other Information": {
+                    "Test Conditions": "30–150 MPa, 300 K",
+                    "Threshold Pressure": "2.5 MPa (osmotic pressure of 0.5 M NaCl solution)",
+                    "Additional Info": "Water flux scales linearly with pressure difference and follows Arrhenius-type relation with temperature."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Small apertures (3.4 Å) block Na+ and Cl− ions while allowing water molecules to pass.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Molecular dynamics simulation",
+            "Performance Metrics": "Water flux: up to 25 × 10^4 kg h⁻¹ m⁻² at 150 MPa; Activation energy: 24.4 kJ/mol"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 exhibits mechanical robustness and high water permeation but lower flux compared to CNT/BNNT membranes."
+        }
+    }
+]

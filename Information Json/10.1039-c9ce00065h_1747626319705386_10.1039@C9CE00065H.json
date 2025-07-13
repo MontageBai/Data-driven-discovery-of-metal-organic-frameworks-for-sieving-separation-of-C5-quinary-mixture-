@@ -1,0 +1,208 @@
+[
+    {
+        "Materials Name": "1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.2 × 5.4 Å² and 5.4 × 5.0 Å² (point-to-point, excluding van der Waals radii)",
+            "Structure Type": "3D network with distinct 4,4,4,4-connected topology"
+        },
+        "Topology": "(4·6²·8³) (4·6³·8²) (4²·6²·8²) (4²·8⁴)",
+        "Metal Nodes": [
+            "In³⁺"
+        ],
+        "Ligands": [
+            "5-(3,5-dicarboxybenzamido)isophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic affinity and size-excluded effect",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, MeOH solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highly selective adsorption due to preferential electrostatic interactions."
+                }
+            },
+            {
+                "Molecule Name": "solvent yellow 2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Repulsive electrostatic effect",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, MeOH solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Neutral dye not effectively adsorbed."
+                }
+            },
+            {
+                "Molecule Name": "acid red 2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Repulsive electrostatic effect",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, MeOH solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Neutral dye not effectively adsorbed."
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Repulsive electrostatic effect",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, MeOH solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Anionic dye not effectively adsorbed."
+                }
+            },
+            {
+                "Molecule Name": "crystal violet",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size-excluded effect",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, MeOH solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large cationic dye not effectively adsorbed."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen-bonding interactions",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, MeOH solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption facilitated by hydrogen bonding with amide groups."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine 6G",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen-bonding interactions",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, MeOH solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption facilitated by hydrogen bonding with amide groups."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with diverse interaction sites",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment and UV-vis spectroscopy",
+            "Performance Metrics": "Maximum adsorption capacity: 281 mg g⁻¹ for methylene blue"
+        },
+        "Other Information": {
+            "Additional Info": "Framework demonstrates high stability and reusability in adsorption-desorption cycles."
+        }
+    },
+    {
+        "Materials Name": "2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 × 6.0 Å² (aperture size)",
+            "Structure Type": "1D square channels along the c axis"
+        },
+        "Topology": "PtS network with point symbol (4²·8⁴)",
+        "Metal Nodes": [
+            "In³⁺"
+        ],
+        "Ligands": [
+            "5-(3,5-dicarboxybenzamido)isophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic affinity and size-excluded effect",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, MeOH solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highly selective adsorption due to preferential electrostatic interactions."
+                }
+            },
+            {
+                "Molecule Name": "solvent yellow 2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Repulsive electrostatic effect",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, MeOH solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Neutral dye not effectively adsorbed."
+                }
+            },
+            {
+                "Molecule Name": "acid red 2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Repulsive electrostatic effect",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, MeOH solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Neutral dye not effectively adsorbed."
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Repulsive electrostatic effect",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, MeOH solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Anionic dye not effectively adsorbed."
+                }
+            },
+            {
+                "Molecule Name": "crystal violet",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size-excluded effect",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, MeOH solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large cationic dye not effectively adsorbed."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen-bonding interactions",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, MeOH solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption facilitated by hydrogen bonding with amide groups."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine 6G",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen-bonding interactions",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, MeOH solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption facilitated by hydrogen bonding with amide groups."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with diverse interaction sites",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment and UV-vis spectroscopy",
+            "Performance Metrics": "Maximum adsorption capacity: 181 mg g⁻¹ for methylene blue"
+        },
+        "Other Information": {
+            "Additional Info": "Framework demonstrates high stability and applicability as a stationary phase in chromatographic separation."
+        }
+    }
+]

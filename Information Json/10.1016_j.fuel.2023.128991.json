@@ -1,0 +1,247 @@
+[
+    {
+        "Materials Name": "NH2-MIL-101(Fe)/ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (ZIF-8), larger pores in NH2-MIL-101(Fe)",
+            "Structure Type": "Core-shell structure with NH2-MIL-101(Fe) core and ZIF-8 shell"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+",
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced adsorption due to amine functional groups and unsaturated metal sites"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly reduced adsorption in hybrid structure"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Gate-opening phenomenon",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Access limited by size exclusion effect of ZIF-8 shell"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.4163 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption of larger molecules like ethane over ethylene"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.4443 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher uptake than ethylene due to stronger attractive forces"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas adsorption measurements using dual-volume pressure-decay technique",
+            "Performance Metrics": "CO2/N2 selectivity: 3.8 times higher than NH2-MIL-101(Fe); CO2/CH4 selectivity: 4.98; C2H6/C2H4 selectivity: 1.55"
+        },
+        "Other Information": {
+            "Additional Info": "Hybrid structure shows synergistic effects for improved gas separation performance"
+        }
+    },
+    {
+        "Materials Name": "NH2-MIL-101(Fe)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Octahedral structure with mesopores and micropores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption capacity due to amine functional groups and unsaturated metal sites"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest adsorption among tested gases"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate adsorption capacity"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.4163 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity lower than ethane"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.4443 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher uptake than ethylene"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas adsorption measurements using dual-volume pressure-decay technique",
+            "Performance Metrics": "CO2 uptake: 3.982 mmol/g at 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "Provides facilitated transport pathways and favorable interactions with polar gas molecules"
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Microporous with rhombicdodecahedron topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate adsorption capacity"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest adsorption among all prepared MOFs"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Gate-opening phenomenon",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effective pore aperture increases under pressure"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.4163 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity lower than ethane"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.4443 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher uptake than ethylene due to stronger attractive forces"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption measurements using dual-volume pressure-decay technique",
+            "Performance Metrics": "Moderate gas adsorption capacities with high selectivity"
+        },
+        "Other Information": {
+            "Additional Info": "Acts as molecular filter enhancing sieving properties"
+        }
+    }
+]

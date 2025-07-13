@@ -1,0 +1,107 @@
+MOF Name: NTU-65
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NTU-65:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (via temperature-regulated gate-opening)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (via temperature-regulated gate-opening)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of NTU-65:
+The MOF adsorbs acetylene and carbon dioxide (intermediate dimension 3.200 Å), suggesting its effective pore size can accommodate molecules of at least this size (or larger, through gate opening). However, ethylene (intermediate dimension 4.047 Å) is explicitly *not* adsorbed due to "Size exclusion at sub-nanometer scale". This indicates that even with the gate-opening mechanism, the maximum accessible dimension for guest molecules is strictly less than 4.047 Å. Therefore, the inferred effective pore size of NTU-65 lies between 3.200 Å and 4.047 Å, allowing molecules with an intermediate dimension ≤ ~4.047 Å (as 4.047 Å is excluded).
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the upper bound of the inferred effective pore size (~4.047 Å), it cannot be adsorbed by NTU-65.
+
+---
+
+MOF Name: NTU-65
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NTU-65:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (via temperature-regulated gate-opening)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (via temperature-regulated gate-opening)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of NTU-65:
+The MOF adsorbs acetylene and carbon dioxide (intermediate dimension 3.200 Å). Ethylene (intermediate dimension 4.047 Å) is *not* adsorbed due to size exclusion. Thus, the inferred effective pore size of NTU-65 is less than 4.047 Å.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the upper bound of the inferred effective pore size (~4.047 Å), it cannot be adsorbed by NTU-65.
+
+---
+
+MOF Name: NTU-65
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NTU-65:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (via temperature-regulated gate-opening)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (via temperature-regulated gate-opening)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of NTU-65:
+The MOF adsorbs acetylene and carbon dioxide (intermediate dimension 3.200 Å). Ethylene (intermediate dimension 4.047 Å) is *not* adsorbed due to size exclusion. Thus, the inferred effective pore size of NTU-65 is less than 4.047 Å.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the upper bound of the inferred effective pore size (~4.047 Å), it cannot be adsorbed by NTU-65.
+
+---
+
+MOF Name: NTU-65
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NTU-65:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (via temperature-regulated gate-opening)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (via temperature-regulated gate-opening)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of NTU-65:
+The MOF adsorbs acetylene and carbon dioxide (intermediate dimension 3.200 Å). Ethylene (intermediate dimension 4.047 Å) is *not* adsorbed due to size exclusion. Thus, the inferred effective pore size of NTU-65 is less than 4.047 Å.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the upper bound of the inferred effective pore size (~4.047 Å), it cannot be adsorbed by NTU-65.
+
+---
+
+MOF Name: NTU-65
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NTU-65:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (via temperature-regulated gate-opening)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (via temperature-regulated gate-opening)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of NTU-65:
+The MOF adsorbs acetylene and carbon dioxide (intermediate dimension 3.200 Å). Ethylene (intermediate dimension 4.047 Å) is *not* adsorbed due to size exclusion. Thus, the inferred effective pore size of NTU-65 is less than 4.047 Å.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the upper bound of the inferred effective pore size (~4.047 Å), it cannot be adsorbed by NTU-65.

@@ -1,0 +1,224 @@
+[
+    {
+        "Materials Name": "MIL-101(Cr)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "proteins",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "MIL-101(Cr) successfully excluded all high-abundance proteins > 10 kDa."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "S/N ratios of peptides enhanced from 0 to 64, with a limit of detection (LOD) of 2 fmol μL−1."
+        },
+        "Other Information": {
+            "Additional Info": "MIL-101(Cr) has pore windows of 1.2 and 1.6 nm, allowing molecular sieving effect."
+        }
+    },
+    {
+        "Materials Name": "Fe3O4@MIL-100(Fe)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "proteins",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The core–shell structure facilitated efficient exclusion of proteins while enriching low-abundance peptides."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "563 unique peptides identified from 5 μL of primary human serum by LC-MS/MS."
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "Fe3O4-COOH@MIL-101(Cr)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "proteins",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The composites were employed to discriminate different Escherichia coli strains and capture protein biomarkers from bacterial cell lysates."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "High enrichment of BSA tryptic digest peptides, with a LOD of 0.25 fmol μL−1."
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Affinity-based sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Facilitated the detection of four endogenous phosphopeptides in human serum using MALDI-TOF MS."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Affinity-based sieving for phosphopeptides",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Efficiency tested with a tryptic digest of human serum; LOD of 0.1 fmol μL−1."
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "UiO-66-(OH)2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "hydroxyl-functionalized terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Affinity-based sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High affinity for phosphate groups due to Zr–O–P bonds, facilitating selective enrichment of phosphopeptides."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Affinity-based sieving for phosphopeptides",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Applied in combination with IMAC and MOAC for capturing multi- and monophosphopeptides."
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "Zn2(bim)4 nanosheets",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "biphenylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "dopamine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ionization efficiency",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Provided clean background MS spectra and good reproducibility in positive and negative ion modes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Detection limit of 1.07 ng mL−1 for dopamine."
+        },
+        "Other Information": {
+            "Additional Info": "Degraded in the presence of high salt concentrations (e.g., 1000 mM NH4HCO3 or NaCl)."
+        }
+    }
+]

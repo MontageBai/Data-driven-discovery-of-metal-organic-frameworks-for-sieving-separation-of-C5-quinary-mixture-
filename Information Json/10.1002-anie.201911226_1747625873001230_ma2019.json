@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZIF-7@PI MMM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.21 nm (estimated from crystallographic data, effective pore size slightly larger due to structural flexibility)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "100°C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrogen permeance: ~3.0 × 10⁻⁷ mol m⁻² s⁻¹ Pa⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "100°C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H₂/CO₂ mixture separation factor: 91.5"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "100°C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H₂/CH₄ mixture separation factor: 128.4"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "100°C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ideal H₂/C₃H₈ separation factor: 451.5"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke–Kallenbach technique",
+            "Performance Metrics": "H₂/CO₂ selectivity: 91.5, H₂/CH₄ selectivity: 128.4, H₂ permeance: ~3.0 × 10⁻⁷ mol m⁻² s⁻¹ Pa⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-7 sheets are oriented and penetrate both surfaces of the polyimide matrix, forming a continuous membrane layer with high hydrogen permselectivity."
+        }
+    }
+]

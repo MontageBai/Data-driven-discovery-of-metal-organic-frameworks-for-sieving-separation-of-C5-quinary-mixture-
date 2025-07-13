@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "Zn-Co-GOM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "sodalite-like",
+        "Metal Nodes": [
+            "Zn2+",
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "0.66 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH = 4, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest permeability due to lower activation energy (7.8209 kcal mol−1)"
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.72 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH = 4, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Activation energy: 8.6745 kcal mol−1"
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.76 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH = 4, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Activation energy: 8.9524 kcal mol−1"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.86 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH = 4, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest permeability due to highest activation energy (9.1509 kcal mol−1)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "K+/Mg2+ selectivity: 332.81, Na+/Mg2+ selectivity: 105.1, Li+/Mg2+ selectivity: 191.13"
+        },
+        "Other Information": {
+            "Additional Info": "Zn-Co bimetallic MOFs were in-situ synthesized within GO layers, enhancing ion separation performance."
+        }
+    }
+]

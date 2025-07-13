@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "Na-CHA",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3 Å (8MR windows)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "CHA",
+        "Metal Nodes": [
+            "Na+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "38 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity: 25.8 at 10.6 mmol/g loading"
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "38 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower selectivity compared to deuterium"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with quantum effects",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Coadsorption experiments",
+            "Performance Metrics": "D2/H2 selectivity: 25.8 at 38 K"
+        },
+        "Other Information": {
+            "Additional Info": "High D2/H2 selectivity attributed to smaller pore size and partial blocking of 8MR windows by Na+ cations."
+        }
+    },
+    {
+        "Materials Name": "Ca-CHA",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3 Å (8MR windows)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "CHA",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "38 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity: 18.3 at 12.9 mmol/g loading"
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "38 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower selectivity compared to deuterium"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with quantum effects",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Coadsorption experiments",
+            "Performance Metrics": "D2/H2 selectivity: 18.3 at 38 K"
+        },
+        "Other Information": {
+            "Additional Info": "Higher uptake capacity but slightly lower selectivity compared to Na-CHA; presence of cation-free 8MR windows facilitates D2/H2 separation."
+        }
+    }
+]

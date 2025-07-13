@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "TOX-PIM-1/ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "295 K, 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability increases with ZIF-8 loading."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "295 K, 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity decreases slightly with ZIF-8 loading."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "295 K, 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability and selectivity increase with ZIF-8 loading."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pure gas permeation experiments",
+            "Performance Metrics": "CO2/CH4 selectivity: ~27-38; H2/N2 selectivity: ~12-15"
+        },
+        "Other Information": {
+            "Additional Info": "Crosslinked nanocomposites maintain high permeability and selectivity after two years of ageing."
+        }
+    },
+    {
+        "Materials Name": "TOX-PIM-1/SiO2",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "295 K, 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability increases with silica loading."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "295 K, 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity decreases significantly with silica loading."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "0.35 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "295 K, 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability and selectivity improve with silica loading."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pure gas permeation experiments",
+            "Performance Metrics": "CO2/CH4 selectivity: ~33-64; O2/N2 selectivity: ~4-5"
+        },
+        "Other Information": {
+            "Additional Info": "Crosslinked nanocomposites maintain high permeability and selectivity after two years of ageing."
+        }
+    }
+]

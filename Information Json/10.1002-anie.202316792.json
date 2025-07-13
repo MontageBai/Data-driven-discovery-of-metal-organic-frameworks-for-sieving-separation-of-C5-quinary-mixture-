@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "NTU-88",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.6 Å (closed phase), 4.4 Å (open phase)",
+            "Structure Type": "1D zigzag channels"
+        },
+        "Topology": "sql",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "4,4'-dipyridylnitride"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propyne",
+                "Molecular Size": "4.4 Å × 6.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propyne opens the confined-rotational shutters due to its smaller size and stronger interactions with the framework."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "5.4 Å × 6.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene is too large to pass through the open phase aperture of NTU-88o (4.4 Å)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Confined-rotational shutters allowing exclusive propyne adsorption.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, in situ PXRD, DFT calculations",
+            "Performance Metrics": "C3H4/C3H6 selectivity: >50 at 20/80 kPa, 298 K; Polymer-grade C3H6 productivity: 2.42 mmol·g⁻¹ at 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "NTU-88 demonstrates scalable synthesis, good stability, and retains high capacity without co-adsorption."
+        }
+    }
+]

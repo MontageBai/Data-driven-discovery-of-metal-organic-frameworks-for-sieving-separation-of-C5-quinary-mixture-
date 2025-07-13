@@ -1,0 +1,142 @@
+[
+    {
+        "Materials Name": "JNU-80-NP",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2×5.9 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "(4,6)-connected net with the point symbol of (4.5^5)^2(4^2.5^8.6^2.8^3)",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "5,5’-(1,4-phenylenebis(5-methyl-4H-1,2,4-triazole-3,4-diyl)) diisophthalic acid (H4PMTD)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "JNU-80-NP excludes di-branched hexane isomers while allowing high adsorption of linear and mono-branched hexane isomers."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The energy barrier for 22DMB diffusion into the channels is as high as 248.7 kJ/mol, making it extremely difficult for 22DMB to diffuse into the channels."
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of 147 mg/g at low-pressure regions."
+                }
+            },
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of 181 mg/g at low-pressure regions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Liquid-phase extraction, GCMC simulation, DFT calculation",
+            "Performance Metrics": "Uptake ratios of nHEX/22DMB: 45.3, 2MP/22DMB: 36.8; Adsorption selectivity values for 2MP/22DMB: 330/1, nHEX/2MP/22DMB: 272/115/1; Purity of recovered 22DMB: 99.5%; Recovery rate of 22DMB: ~90% over ten cycles."
+        },
+        "Other Information": {
+            "Additional Info": "JNU-80 undergoes a reversible transformation between two crystalline phases: large pore (JNU-80-LP) and narrow pore (JNU-80-NP). The dehydration-induced cluster consolidation in JNU-80-NP results in channel shrinkage, enabling sieving of di-branched hexane isomers."
+        }
+    },
+    {
+        "Materials Name": "JNU-80-NP-block",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "JNU-80-NP-block selectively extracts 22DMB from hexane mixtures in liquid phase."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Recovered purity of 22DMB up to 99.5% over ten cycles."
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption capacity maintained."
+                }
+            },
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption capacity maintained."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Liquid-phase extraction",
+            "Performance Metrics": "Purity of recovered 22DMB: 99.5%; Recovery rate of 22DMB: ~90% over ten cycles."
+        },
+        "Other Information": {
+            "Additional Info": "MOF-polymer composite prepared by mixing JNU-80-NP with hydroxypropyl cellulose. Demonstrates excellent recyclability and potential for long-term use."
+        }
+    }
+]

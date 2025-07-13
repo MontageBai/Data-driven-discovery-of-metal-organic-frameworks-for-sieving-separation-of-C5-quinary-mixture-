@@ -1,0 +1,76 @@
+[
+    {
+        "Materials Name": "Zn(MeIm)2 (SOD topology, ZIF-8)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Gate-opening allows larger than expected molecules to be confined inside."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Inelastic neutron scattering (INS), heat capacity measurements",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Higher heat capacity at low temperatures attributed to methyl group dynamics."
+        }
+    },
+    {
+        "Materials Name": "Zn(MeIm)2 (dia topology)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "dia",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Adsorption at higher temperatures",
+                "Other Information": {
+                    "Test Conditions": "Higher temperatures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nonporous but may have potential for CO2 adsorption at higher temperatures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Heat capacity measurements",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Lower heat capacity compared to SOD topology below 10 K."
+        }
+    }
+]

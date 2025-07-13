@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "UiO-66-SO3Li",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.6 nm",
+            "Structure Type": "microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6O4"
+        ],
+        "Ligands": [
+            "1,4-benzodicarboxylic acid",
+            "2-sulfoterephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.15 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The −SO3− groups in the pore structure facilitate Li+ conduction."
+                }
+            },
+            {
+                "Molecule Name": "N-(ferrocenylmethyl)-N,N-dimethyl-N-ethylammonium",
+                "Molecular Size": "~1 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore size of the MOF limits diffusion of Fc1N112+."
+                }
+            },
+            {
+                "Molecule Name": "bis(trifluoromethanesulfonyl)imide",
+                "Molecular Size": "0.65 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The −SO3− groups impede TFSI− migration."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Permeability test using H-cell",
+            "Performance Metrics": "Ionic selectivity of Li+ to Fc1N112+ ions: 37.6; Ionic conductivity: 0.65 mS cm−1"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane exhibits high cycling stability over 500 cycles with 99.95% capacity retention per cycle."
+        }
+    }
+]

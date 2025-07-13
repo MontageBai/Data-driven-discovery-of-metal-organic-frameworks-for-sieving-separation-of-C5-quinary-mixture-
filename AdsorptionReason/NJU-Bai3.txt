@@ -1,0 +1,81 @@
+MOF Name: NJU-Bai3
+
+**Inferring the MOF’s Effective Pore Size:**
+
+From the experimental data for NJU-Bai3:
+*   **Carbon dioxide**: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes). The adsorption mechanism is noted as "Chemical adsorption via open metal sites and ligand interaction," indicating that the molecule passes through the pores and interacts with the framework.
+*   Crucially, there is **no experimental data provided for NJU-Bai3 indicating non-adsorption due to size exclusion**.
+
+Based on this, the effective pore size of NJU-Bai3 is inferred to be **at least 3.200 Å** (to accommodate carbon dioxide). However, without any data points for molecules that *cannot* be adsorbed due to size exclusion, an upper limit for the effective pore size cannot be determined from the provided information. Therefore, for molecules with intermediate dimensions larger than 3.200 Å, we cannot definitively conclude "Cannot Adsorb" based on size exclusion from the given data.
+
+---
+
+**Evaluation of Target Guest Molecules for NJU-Bai3:**
+
+### Guest Molecule: isoprene
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+*   From experimental data for NJU-Bai3: Carbon dioxide (intermediate dimension 3.200 Å) is adsorbed. This implies NJU-Bai3 has an effective pore size of at least 3.200 Å.
+*   No experimental data indicates any molecule was *not adsorbed* by NJU-Bai3 due to size exclusion, meaning an upper limit for the pore size cannot be determined from the provided information.
+
+*   **Isoprene Dimensions**: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+*   **Conclusion**: Isoprene's intermediate dimension (6.093 Å) is larger than that of carbon dioxide (3.200 Å). However, since there is no experimental data indicating a size exclusion limit for NJU-Bai3 for molecules larger than 3.200 Å, it cannot be concluded that isoprene's size prevents its adsorption. Based purely on the lack of evidence for size exclusion for molecules larger than 3.200 Å, and given that the pore is at least 3.200 Å, it is predicted that isoprene **can** be adsorbed.
+
+---
+
+### Guest Molecule: cis-2-pentene
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+*   From experimental data for NJU-Bai3: Carbon dioxide (intermediate dimension 3.200 Å) is adsorbed. This implies NJU-Bai3 has an effective pore size of at least 3.200 Å.
+*   No experimental data indicates any molecule was *not adsorbed* by NJU-Bai3 due to size exclusion, meaning an upper limit for the pore size cannot be determined from the provided information.
+
+*   **cis-2-pentene Dimensions**: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+*   **Conclusion**: cis-2-pentene's intermediate dimension (5.572 Å) is larger than that of carbon dioxide (3.200 Å). However, since there is no experimental data indicating a size exclusion limit for NJU-Bai3 for molecules larger than 3.200 Å, it cannot be concluded that cis-2-pentene's size prevents its adsorption. Based purely on the lack of evidence for size exclusion for molecules larger than 3.200 Å, and given that the pore is at least 3.200 Å, it is predicted that cis-2-pentene **can** be adsorbed.
+
+---
+
+### Guest Molecule: 1-pentene
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+*   From experimental data for NJU-Bai3: Carbon dioxide (intermediate dimension 3.200 Å) is adsorbed. This implies NJU-Bai3 has an effective pore size of at least 3.200 Å.
+*   No experimental data indicates any molecule was *not adsorbed* by NJU-Bai3 due to size exclusion, meaning an upper limit for the pore size cannot be determined from the provided information.
+
+*   **1-pentene Dimensions**: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+*   **Conclusion**: 1-pentene's intermediate dimension (4.995 Å) is larger than that of carbon dioxide (3.200 Å). However, since there is no experimental data indicating a size exclusion limit for NJU-Bai3 for molecules larger than 3.200 Å, it cannot be concluded that 1-pentene's size prevents its adsorption. Based purely on the lack of evidence for size exclusion for molecules larger than 3.200 Å, and given that the pore is at least 3.200 Å, it is predicted that 1-pentene **can** be adsorbed.
+
+---
+
+### Guest Molecule: trans-2-pentene
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+*   From experimental data for NJU-Bai3: Carbon dioxide (intermediate dimension 3.200 Å) is adsorbed. This implies NJU-Bai3 has an effective pore size of at least 3.200 Å.
+*   No experimental data indicates any molecule was *not adsorbed* by NJU-Bai3 due to size exclusion, meaning an upper limit for the pore size cannot be determined from the provided information.
+
+*   **trans-2-pentene Dimensions**: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+*   **Conclusion**: trans-2-pentene's intermediate dimension (4.733 Å) is larger than that of carbon dioxide (3.200 Å). However, since there is no experimental data indicating a size exclusion limit for NJU-Bai3 for molecules larger than 3.200 Å, it cannot be concluded that trans-2-pentene's size prevents its adsorption. Based purely on the lack of evidence for size exclusion for molecules larger than 3.200 Å, and given that the pore is at least 3.200 Å, it is predicted that trans-2-pentene **can** be adsorbed.
+
+---
+
+### Guest Molecule: n-pentane
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+*   From experimental data for NJU-Bai3: Carbon dioxide (intermediate dimension 3.200 Å) is adsorbed. This implies NJU-Bai3 has an effective pore size of at least 3.200 Å.
+*   No experimental data indicates any molecule was *not adsorbed* by NJU-Bai3 due to size exclusion, meaning an upper limit for the pore size cannot be determined from the provided information.
+
+*   **n-pentane Dimensions**: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+*   **Conclusion**: n-pentane's intermediate dimension (4.364 Å) is larger than that of carbon dioxide (3.200 Å). However, since there is no experimental data indicating a size exclusion limit for NJU-Bai3 for molecules larger than 3.200 Å, it cannot be concluded that n-pentane's size prevents its adsorption. Based purely on the lack of evidence for size exclusion for molecules larger than 3.200 Å, and given that the pore is at least 3.200 Å, it is predicted that n-pentane **can** be adsorbed.

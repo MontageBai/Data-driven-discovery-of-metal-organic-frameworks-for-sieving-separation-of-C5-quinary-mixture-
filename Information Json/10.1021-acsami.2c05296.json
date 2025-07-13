@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "HKUST-1/TiO2NM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.3 nm (micropores), 3.7 nm (mesopores)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "tyrosine",
+                "Molecular Size": "0.59 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "pH 7.0, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption driven by π−π interaction and microporous structure of HKUST-1."
+                }
+            },
+            {
+                "Molecule Name": "hemoglobin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "pH 7.0, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hemoglobin adsorbs on the external surface of HKUST-1 due to affinity interactions with Cu(II) nodes."
+                }
+            },
+            {
+                "Molecule Name": "β-casein",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "pH 7.0, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "β-casein adsorbs on the TiO2 surface via bidentate bindings with phosphate groups."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms, Langmuir model fitting, HPLC, SDS-PAGE",
+            "Performance Metrics": "Tyr: 3.1 mg g−1, Hb: 179.2 mg g−1, β-CN: 110.0 mg g−1"
+        },
+        "Other Information": {
+            "Additional Info": "Ethanol/H2O used for Tyr elution, SDS solution for Hb, NH3·H2O for β-CN."
+        }
+    }
+]

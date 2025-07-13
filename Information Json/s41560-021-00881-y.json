@@ -1,0 +1,142 @@
+[
+    {
+        "Materials Name": "Zr-fum-fcu-MOF",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Contracted triangular apertures (exact size not reported)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "fumarate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Conformation-controlled sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1-7 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Double-eclipsed conformers of propylene pass with less hindrance."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1-7 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Staggered conformers of propane are fully excluded."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-butane permeance is extremely low due to narrow aperture."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Isobutane is fully excluded due to size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Conformation-controlled molecular sieving through contracted triangular pore apertures.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke–Kallenbach technique for gas permeation measurements",
+            "Performance Metrics": "C3H6/C3H8 selectivity: ~130, C3H6 permeance: ~108 GPU at 1 atm."
+        },
+        "Other Information": {
+            "Additional Info": "The membrane showed excellent stability under humid and H2S-containing conditions."
+        }
+    },
+    {
+        "Materials Name": "Y-fum-fcu-MOF",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Slightly larger than Zr-fum-fcu-MOF (exact size not reported)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Y6(μ3-OH)8"
+        ],
+        "Ligands": [
+            "fumarate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1-7 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene passes without hindrance."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1-7 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "All conformers of propane can pass through the membrane."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher n-butane permeance compared to Zr-fum-fcu-MOF."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Isobutane is excluded effectively."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale through slightly larger triangular pore apertures.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke–Kallenbach technique for gas permeation measurements",
+            "Performance Metrics": "nC4/iC4 selectivity: ~75, nC4 permeance: ~16 GPU at 1 atm."
+        },
+        "Other Information": {
+            "Additional Info": "The membrane demonstrated high stability and robustness under industrial conditions."
+        }
+    }
+]

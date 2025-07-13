@@ -1,0 +1,95 @@
+[
+    {
+        "Materials Name": "FeOOH@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3-15 nm (gap between ZIF-8 nanoparticles)",
+            "Structure Type": "Core-satellite structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+",
+            "Fe3+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "alanine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "Presence of high salt (0.5 M NaCl) and protein (5 mg/mL BSA)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detected with high intensity in LDI MS"
+                }
+            },
+            {
+                "Molecule Name": "valine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "Presence of high salt (0.5 M NaCl) and protein (5 mg/mL BSA)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detected with high intensity in LDI MS"
+                }
+            },
+            {
+                "Molecule Name": "lysine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "Presence of high salt (0.5 M NaCl) and protein (5 mg/mL BSA)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detected with high intensity in LDI MS"
+                }
+            },
+            {
+                "Molecule Name": "arginine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "Presence of high salt (0.5 M NaCl) and protein (5 mg/mL BSA)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detected with high intensity in LDI MS"
+                }
+            },
+            {
+                "Molecule Name": "sucrose",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "Presence of high salt (0.5 M NaCl) and protein (5 mg/mL BSA)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detected with high intensity in LDI MS"
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size-exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "Presence of high salt (0.5 M NaCl) and protein (5 mg/mL BSA)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to large size; FeOOH@ZIF-8 showed selectivity for small metabolites over proteins"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-exclusion effect for selective detection of metabolites",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "LDI MS (laser desorption/ionization mass spectrometry)",
+            "Performance Metrics": "Enhanced ionization efficiency, signal-to-noise ratio, and sensitivity for small metabolites"
+        },
+        "Other Information": {
+            "Additional Info": "FeOOH@ZIF-8 composites displayed enhanced ionization efficiency and size-exclusion effect, enabling fast, sensitive, and selective LDI MS analysis of small metabolites in serum without pretreatment."
+        }
+    }
+]

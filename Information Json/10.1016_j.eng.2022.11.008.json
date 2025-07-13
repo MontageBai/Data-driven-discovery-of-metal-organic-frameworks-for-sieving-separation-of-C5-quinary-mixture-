@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "HCSNs",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.62 nm",
+            "Structure Type": "Hollow carbon nanospheres with microporous shells"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "vanadium ions",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, sulfuric acid solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "HCSNs act as a physical barrier to vanadium ion diffusion while facilitating proton transport."
+                }
+            },
+            {
+                "Molecule Name": "protons",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ultrafast proton transport through internal cavities",
+                "Other Information": {
+                    "Test Conditions": "25 °C, sulfuric acid solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Protons move efficiently through the hollow interior and micropores of HCSNs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with ultrafast proton transport channels",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Permeability testing, LF-NMR analysis, VFB performance evaluation",
+            "Performance Metrics": "Proton conductivity: 0.084 S·cm−1, Proton selectivity: 6.68 × 10^5 S·min·cm−3"
+        },
+        "Other Information": {
+            "Additional Info": "HCSNs improve mechanical strength, chemical stability, and proton conductivity of SPEEK membranes in vanadium flow batteries."
+        }
+    },
+    {
+        "Materials Name": "S/HCSN hybrid membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.62 nm (from HCSNs)",
+            "Structure Type": "Polymer matrix embedded with hollow carbon sieving nanospheres"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "vanadium ions",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion by microporous carbon shell",
+                "Other Information": {
+                    "Test Conditions": "25 °C, sulfuric acid solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Vanadium ion permeability significantly reduced compared to pure SPEEK membrane."
+                }
+            },
+            {
+                "Molecule Name": "protons",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Fast proton transport through hollow cavities",
+                "Other Information": {
+                    "Test Conditions": "25 °C, sulfuric acid solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Proton conductivity enhanced due to accessible internal cavities of HCSNs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ion sieving by microporous carbon shell and ultrafast proton transport via hollow cavities",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Permeability testing, VFB single-cell cycling tests, LF-NMR characterization",
+            "Performance Metrics": "EE: 84%, Capacity decay: 0.065% per cycle at 120 mA·cm−2"
+        },
+        "Other Information": {
+            "Additional Info": "Hybrid membrane exhibits superior proton selectivity and long-term stability in vanadium flow battery applications."
+        }
+    }
+]

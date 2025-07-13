@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Pd/UiO-66@PDMS",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrobenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Wettability-based sieving",
+                "Other Information": {
+                    "Test Conditions": "Hydrogenation conditions (Pd:NB molar ratio = 1:20)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrophobic nitrobenzene can pass through the hydrophobic PDMS layer."
+                }
+            },
+            {
+                "Molecule Name": "4-nitrophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Wettability-based sieving",
+                "Other Information": {
+                    "Test Conditions": "Hydrogenation conditions (Pd:4-NP molar ratio = 1:10)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrophilic 4-nitrophenol is impeded by the hydrophobic PDMS layer."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Wettability-selective sieving based on hydrophobicity of the PDMS layer",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Catalytic hydrogenation experiments",
+            "Performance Metrics": "Significantly improved activity for hydrophobic substrates; negligible activity for hydrophilic substrates"
+        },
+        "Other Information": {
+            "Additional Info": "The material also exhibits intrinsic size selectivity for sieving catalytic substrates of different sizes."
+        }
+    }
+]

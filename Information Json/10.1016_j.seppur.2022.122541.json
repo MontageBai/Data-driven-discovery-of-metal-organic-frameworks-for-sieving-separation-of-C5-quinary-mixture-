@@ -1,0 +1,243 @@
+[
+    {
+        "Materials Name": "N-Y-abtc",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.82 Å",
+            "Structure Type": "4,12-c ftw topology with cubic cage-like pores interconnected by small windows"
+        },
+        "Topology": "4,12-c ftw",
+        "Metal Nodes": [
+            "Y6(OH)8(COO)12"
+        ],
+        "Ligands": [
+            "3,3′,5,5′-azobenzene-tetracarboxylate (abtc4-)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene adsorption capacity is 64.8 cm³/g, significantly higher than M-Y-abtc."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane diffusion remains largely restricted even in downsized N-Y-abtc."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective molecular exclusion of propane from propylene through ultrasmall pore apertures.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Propylene productivity: 1.975 mol/kg; Propylene purity: 99.53%"
+        },
+        "Other Information": {
+            "Additional Info": "N-Y-abtc exhibits enhanced gas diffusion and notably improved adsorption capacity compared to micro-sized M-Y-abtc."
+        }
+    },
+    {
+        "Materials Name": "M-Y-abtc",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.8 Å",
+            "Structure Type": "4,12-c ftw topology with cubic cage-like pores interconnected by small windows"
+        },
+        "Topology": "4,12-c ftw",
+        "Metal Nodes": [
+            "Y6(OH)8(COO)12"
+        ],
+        "Ligands": [
+            "3,3′,5,5′-azobenzene-tetracarboxylate (abtc4-)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene adsorption capacity is 42.3 cm³/g."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane shows essentially no retention in M-Y-abtc."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective molecular exclusion of propane from propylene through ultrasmall pore apertures.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Propylene productivity: 1.245 mol/kg; Propylene purity: 99.96%"
+        },
+        "Other Information": {
+            "Additional Info": "M-Y-abtc suffers from relatively low adsorption capacity and slow diffusion kinetics."
+        }
+    },
+    {
+        "Materials Name": "KAUST-7",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni",
+            "Nb"
+        ],
+        "Ligands": [
+            "Pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene adsorption capacity is 30.9 cm³/g."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane elutes out first during breakthrough experiments."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Propylene productivity: 1.1451 mol/kg; Propylene purity: 99.69%"
+        },
+        "Other Information": {
+            "Additional Info": "KAUST-7 is capable of separating propane and propylene with high purity."
+        }
+    },
+    {
+        "Materials Name": "JNU-3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co"
+        ],
+        "Ligands": [
+            "5-(3-methyl-5-(pyridin-4-yl)-4H-1,2,4-triazol-4-yl)-1,3-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene adsorption capacity is 71.6 cm³/g."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane elutes out first during breakthrough experiments."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Propylene productivity: 1.3156 mol/kg; Propylene purity: 99.83%"
+        },
+        "Other Information": {
+            "Additional Info": "JNU-3 shows high adsorption selectivity for propylene over propane."
+        }
+    },
+    {
+        "Materials Name": "Co-gallate",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co"
+        ],
+        "Ligands": [
+            "Gallic acid monohydrate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene adsorption capacity is 35.6 cm³/g."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane elutes out first during breakthrough experiments."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Propylene productivity: 0.9969 mol/kg; Propylene purity: 99.64%"
+        },
+        "Other Information": {
+            "Additional Info": "Co-gallate demonstrates selective separation of propylene from propane."
+        }
+    }
+]

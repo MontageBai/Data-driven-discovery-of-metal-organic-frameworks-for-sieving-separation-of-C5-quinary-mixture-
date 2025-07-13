@@ -1,0 +1,98 @@
+MOF Name: bio-MOF-14
+
+**Evaluation for each guest molecule:**
+
+---
+MOF Name: bio-MOF-14
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for bio-MOF-14:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Molecular sieving effect for CO2 over N2, Gating process)
+
+Inferred effective pore size of bio-MOF-14:
+Based on the provided data, bio-MOF-14 is confirmed to adsorb carbon dioxide, which has an intermediate dimension of 3.200 Å. This implies the MOF's pores are at least 3.200 Å in effective dimension. However, no data for non-adsorbed molecules (due to size exclusion) is provided for bio-MOF-14, making it impossible to infer an upper bound for its effective pore size based strictly on size exclusion. The experimental data also notes a "Gating process" for adsorption, suggesting dynamic pore behavior rather than a fixed rigid pore.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of the only confirmed adsorbed molecule, carbon dioxide (3.200 Å). While a "Gating process" is mentioned, its extent is not quantified, and it does not guarantee that the pores can open sufficiently for molecules nearly double the size of the intermediate dimension of CO2. Without any experimental evidence of bio-MOF-14 adsorbing molecules much larger than CO2, and lacking an upper bound for the pore size from non-adsorbed species, it is predicted that isoprene, being substantially larger, cannot be adsorbed based on general size limitations, even with potential dynamic gating.
+
+---
+MOF Name: bio-MOF-14
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for bio-MOF-14:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Molecular sieving effect for CO2 over N2, Gating process)
+
+Inferred effective pore size of bio-MOF-14:
+As discussed for isoprene, the MOF can adsorb carbon dioxide (3.200 Å). No data is available for non-adsorbed molecules to establish an upper pore size limit. A "Gating process" is noted, indicating dynamic pore behavior.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than that of carbon dioxide (3.200 Å). Without further experimental data demonstrating adsorption of molecules substantially larger than CO2, or quantification of the "Gating process" extent, it is unlikely that the MOF can accommodate such a considerably larger molecule. Therefore, it is predicted that cis-2-pentene cannot be adsorbed.
+
+---
+MOF Name: bio-MOF-14
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for bio-MOF-14:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Molecular sieving effect for CO2 over N2, Gating process)
+
+Inferred effective pore size of bio-MOF-14:
+As discussed, the MOF adsorbs carbon dioxide (3.200 Å). No upper limit for the pore size can be inferred from the provided data. The "Gating process" indicates dynamic pores.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+The intermediate dimension of 1-pentene (4.995 Å) is considerably larger than that of the adsorbed carbon dioxide (3.200 Å). Given the lack of experimental evidence for the adsorption of larger molecules by bio-MOF-14 and the unquantified nature of the "Gating process" in accommodating such a size difference, it is predicted that 1-pentene cannot be adsorbed.
+
+---
+MOF Name: bio-MOF-14
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for bio-MOF-14:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Molecular sieving effect for CO2 over N2, Gating process)
+
+Inferred effective pore size of bio-MOF-14:
+As discussed, the MOF adsorbs carbon dioxide (3.200 Å). No upper limit for the pore size can be inferred from the provided data. The "Gating process" indicates dynamic pores.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the 3.200 Å intermediate dimension of adsorbed carbon dioxide. Without additional data confirming the adsorption of larger molecules or providing quantitative information on the extent of the "Gating process," it is predicted that trans-2-pentene cannot be adsorbed due to size limitations.
+
+---
+MOF Name: bio-MOF-14
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for bio-MOF-14:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Molecular sieving effect for CO2 over N2, Gating process)
+
+Inferred effective pore size of bio-MOF-14:
+As discussed, the MOF adsorbs carbon dioxide (3.200 Å). No upper limit for the pore size can be inferred from the provided data. The "Gating process" indicates dynamic pores.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is significantly larger than that of carbon dioxide (3.200 Å). Although a "Gating process" implies flexibility, the lack of data for larger adsorbed molecules or a defined upper limit for pore size from non-adsorbed molecules means a definitive "Can Adsorb" cannot be made. Considering the substantial difference in size, and in the absence of evidence for such large-scale pore expansion, it is predicted that n-pentane cannot be adsorbed.

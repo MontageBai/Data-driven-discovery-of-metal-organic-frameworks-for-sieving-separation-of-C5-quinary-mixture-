@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "KGF-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D-connected structure with 1D-chain and 0D SBUs"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Pb2+"
+        ],
+        "Ligands": [
+            "trithiocyanuric acid (H3ttc)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Small amount of sorption hysteresis observed."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K, adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not adsorbed by the material."
+                }
+            },
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, adsorption isotherm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not adsorbed by the material."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective adsorption behavior based on molecular size",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption and desorption isotherms",
+            "Performance Metrics": "Water adsorption capacity: approximately 1.9 molecules per pore at P/Po = 0.92 and 298 K; nitrogen and methanol not adsorbed."
+        },
+        "Other Information": {
+            "Additional Info": "The MOF exhibits visible-light absorption, semiconducting properties, and photocatalytic hydrogen evolution activity."
+        }
+    }
+]

@@ -1,0 +1,112 @@
+MOF Name: Cu-CrO4-TPA
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu-CrO4-TPA:
+-   **hexane:** 10.359×4.607×3.969 → Intermediate = 4.607 Å | Adsorbed (Yes)
+-   **2,3-dimethylbutane:** 7.778×6.170×5.399 → Intermediate = 6.170 Å | Adsorbed (Conditional, Combined thermodynamic-kinetic mechanism)
+-   **2,2-dimethylbutane:** 7.829×5.502×6.545 → Intermediate = 6.545 Å | Adsorbed (Conditional, Combined thermodynamic-kinetic mechanism)
+
+The experimental data indicates that Cu-CrO4-TPA can adsorb molecules with intermediate dimensions up to at least 6.545 Å. The "Conditional" adsorption for 2,3-dimethylbutane (6.170 Å) and 2,2-dimethylbutane (6.545 Å), with a "Combined thermodynamic-kinetic mechanism," suggests that these molecules are at or near the upper limit of the MOF's effective pore size for facile diffusion, implying kinetic sieving effects come into play for molecules of this size.
+
+Target guest molecule dimensions:
+-   **isoprene:** 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is smaller than that of both 2,3-dimethylbutane (6.170 Å) and 2,2-dimethylbutane (6.545 Å), which are known to be adsorbed (albeit conditionally), it is highly likely that isoprene can be adsorbed by Cu-CrO4-TPA. Given that even larger molecules can pass, isoprene should also pass.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: Cu-CrO4-TPA
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu-CrO4-TPA:
+-   **hexane:** 10.359×4.607×3.969 → Intermediate = 4.607 Å | Adsorbed (Yes)
+-   **2,3-dimethylbutane:** 7.778×6.170×5.399 → Intermediate = 6.170 Å | Adsorbed (Conditional, Combined thermodynamic-kinetic mechanism)
+-   **2,2-dimethylbutane:** 7.829×5.502×6.545 → Intermediate = 6.545 Å | Adsorbed (Conditional, Combined thermodynamic-kinetic mechanism)
+
+The experimental data indicates that Cu-CrO4-TPA can adsorb molecules with intermediate dimensions up to at least 6.545 Å. The "Conditional" adsorption for 2,3-dimethylbutane (6.170 Å) and 2,2-dimethylbutane (6.545 Å), with a "Combined thermodynamic-kinetic mechanism," suggests that these molecules are at or near the upper limit of the MOF's effective pore size for facile diffusion, implying kinetic sieving effects come into play for molecules of this size.
+
+Target guest molecule dimensions:
+-   **cis-2-pentene:** 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than that of both 2,3-dimethylbutane (6.170 Å) and 2,2-dimethylbutane (6.545 Å), which are known to be adsorbed (albeit conditionally), it is highly likely that cis-2-pentene can be adsorbed by Cu-CrO4-TPA.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: Cu-CrO4-TPA
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu-CrO4-TPA:
+-   **hexane:** 10.359×4.607×3.969 → Intermediate = 4.607 Å | Adsorbed (Yes)
+-   **2,3-dimethylbutane:** 7.778×6.170×5.399 → Intermediate = 6.170 Å | Adsorbed (Conditional, Combined thermodynamic-kinetic mechanism)
+-   **2,2-dimethylbutane:** 7.829×5.502×6.545 → Intermediate = 6.545 Å | Adsorbed (Conditional, Combined thermodynamic-kinetic mechanism)
+
+The experimental data indicates that Cu-CrO4-TPA can adsorb molecules with intermediate dimensions up to at least 6.545 Å. The "Conditional" adsorption for 2,3-dimethylbutane (6.170 Å) and 2,2-dimethylbutane (6.545 Å), with a "Combined thermodynamic-kinetic mechanism," suggests that these molecules are at or near the upper limit of the MOF's effective pore size for facile diffusion, implying kinetic sieving effects come into play for molecules of this size.
+
+Target guest molecule dimensions:
+-   **1-pentene:** 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than that of both 2,3-dimethylbutane (6.170 Å) and 2,2-dimethylbutane (6.545 Å), which are known to be adsorbed (albeit conditionally), it is highly likely that 1-pentene can be adsorbed by Cu-CrO4-TPA. Moreover, it is very close in size to hexane (4.607 Å), which adsorbs without conditions.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: Cu-CrO4-TPA
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu-CrO4-TPA:
+-   **hexane:** 10.359×4.607×3.969 → Intermediate = 4.607 Å | Adsorbed (Yes)
+-   **2,3-dimethylbutane:** 7.778×6.170×5.399 → Intermediate = 6.170 Å | Adsorbed (Conditional, Combined thermodynamic-kinetic mechanism)
+-   **2,2-dimethylbutane:** 7.829×5.502×6.545 → Intermediate = 6.545 Å | Adsorbed (Conditional, Combined thermodynamic-kinetic mechanism)
+
+The experimental data indicates that Cu-CrO4-TPA can adsorb molecules with intermediate dimensions up to at least 6.545 Å. The "Conditional" adsorption for 2,3-dimethylbutane (6.170 Å) and 2,2-dimethylbutane (6.545 Å), with a "Combined thermodynamic-kinetic mechanism," suggests that these molecules are at or near the upper limit of the MOF's effective pore size for facile diffusion, implying kinetic sieving effects come into play for molecules of this size.
+
+Target guest molecule dimensions:
+-   **trans-2-pentene:** 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than that of both 2,3-dimethylbutane (6.170 Å) and 2,2-dimethylbutane (6.545 Å), which are known to be adsorbed (albeit conditionally), it is highly likely that trans-2-pentene can be adsorbed by Cu-CrO4-TPA. This size is very close to hexane (4.607 Å), which adsorbs easily.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: Cu-CrO4-TPA
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Cu-CrO4-TPA:
+-   **hexane:** 10.359×4.607×3.969 → Intermediate = 4.607 Å | Adsorbed (Yes)
+-   **2,3-dimethylbutane:** 7.778×6.170×5.399 → Intermediate = 6.170 Å | Adsorbed (Conditional, Combined thermodynamic-kinetic mechanism)
+-   **2,2-dimethylbutane:** 7.829×5.502×6.545 → Intermediate = 6.545 Å | Adsorbed (Conditional, Combined thermodynamic-kinetic mechanism)
+
+The experimental data indicates that Cu-CrO4-TPA can adsorb molecules with intermediate dimensions up to at least 6.545 Å. The "Conditional" adsorption for 2,3-dimethylbutane (6.170 Å) and 2,2-dimethylbutane (6.545 Å), with a "Combined thermodynamic-kinetic mechanism," suggests that these molecules are at or near the upper limit of the MOF's effective pore size for facile diffusion, implying kinetic sieving effects come into play for molecules of this size.
+
+Target guest molecule dimensions:
+-   **n-pentane:** 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than that of both 2,3-dimethylbutane (6.170 Å) and 2,2-dimethylbutane (6.545 Å), which are known to be adsorbed (albeit conditionally), it is highly likely that n-pentane can be adsorbed by Cu-CrO4-TPA. Furthermore, n-pentane is even smaller than hexane (4.607 Å), which is adsorbed without conditions.
+
+Therefore, the result is: **Can Adsorb**

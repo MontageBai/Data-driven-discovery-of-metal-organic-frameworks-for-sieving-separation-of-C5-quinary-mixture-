@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Cu-F-pymo",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "5-fluoropyrimidin-2-olate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential binding sites with electrostatic and hydrogen-bonding interactions."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption uptake due to pore size restriction."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.76 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked diffusion due to ultrasmall pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: >107, CO2/CH4 selectivity: >107, Dynamic CO2 capture capacity: 1078 mmol kg−1 (for CO2/CH4), 941 mmol kg−1 (for CO2/N2)"
+        },
+        "Other Information": {
+            "Additional Info": "Cu-F-pymo showed dual functionalities involving both size-sieving effects and preferential binding affinities."
+        }
+    }
+]

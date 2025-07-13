@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Zn2(benzimidazolate)4 (Zn2(bim)4)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.21 nm (crystallographic aperture size)",
+            "Structure Type": "2D nanosheets with in-plane apertures and interlayer galleries"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazolate",
+            "5-aminobenzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, equimolar H2/CO2 mixture or single gas",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance through N10-Zn2(bim)4: 1417 GPU"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption-assisted molecular sieving with steric hindrance",
+                "Other Information": {
+                    "Test Conditions": "298 K, equimolar H2/CO2 mixture or single gas",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 excluded effectively due to constrained diffusion and adsorption; separation factor increased by up to 332%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic effect of molecular sieving, CO2 adsorption, and steric hindrance",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, single gas permeation, MD simulation",
+            "Performance Metrics": "H2/CO2 selectivity: up to 1158, H2 permeance: 1417 GPU"
+        },
+        "Other Information": {
+            "Additional Info": "Low-dose amino functionalization enhances separation accuracy without sacrificing H2 permeance; membranes stable for over 70 hours"
+        }
+    }
+]

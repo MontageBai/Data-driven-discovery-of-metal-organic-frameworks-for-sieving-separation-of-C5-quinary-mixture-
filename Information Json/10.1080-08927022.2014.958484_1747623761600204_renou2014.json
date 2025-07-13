@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "MIL-53(Cr)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5 Å (approximate radius)",
+            "Structure Type": "1D diamond channel"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Dielectric anisotropy observed; axial component of dielectric permittivity higher than bulk phase at certain locations."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Molecular dynamics simulation",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Material exhibits water resistance and chemical versatility for surface hydrophobicity modification. Hydrophilic anchoring decreases dipolar fluctuations and dielectric permittivity."
+        }
+    }
+]

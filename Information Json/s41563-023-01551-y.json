@@ -1,0 +1,179 @@
+[
+    {
+        "Materials Name": "Zr-fumarate MOF membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "5.1 Å (aperture size)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "fumarate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ideal H2/CO2 selectivity of 69.2, mixed H2/CO2 selectivity of 60.1."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher H2/CO2 selectivity than Knudsen diffusion selectivity indicates absence of intercrystalline defects."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Forward osmosis and reverse osmosis modes",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water/NaCl selectivity up to 9,000."
+                }
+            },
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "50 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methanol/dimethyl carbonate selectivity with >99.5 wt% methanol purity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Framework diversity and designability of pore architecture",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Low-dose high-resolution transmission electron microscopy, gas separation performance tests",
+            "Performance Metrics": "H2/CO2 selectivity: 69.2 (ideal), 60.1 (mixed); Water/NaCl selectivity: 9,000; Methanol purity: >99.5 wt%"
+        },
+        "Other Information": {
+            "Additional Info": "High ligand/SBU stoichiometric ratio (≥15-fold) used to eliminate lattice defects, SBU connectivity close to theoretical value of 12."
+        }
+    },
+    {
+        "Materials Name": "UiO-66 MOF membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 Å (aperture size)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "benzene-1,4-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher H2/CO2 selectivity than Knudsen diffusion selectivity indicates absence of intercrystalline defects."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher H2/CO2 selectivity than Knudsen diffusion selectivity indicates absence of intercrystalline defects."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Forward osmosis and reverse osmosis modes",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water/NaCl selectivity up to 9,000."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Framework diversity and designability of pore architecture",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Low-dose high-resolution transmission electron microscopy, gas separation performance tests",
+            "Performance Metrics": "H2/CO2 selectivity higher than Knudsen diffusion selectivity; Water/NaCl selectivity: 9,000"
+        },
+        "Other Information": {
+            "Additional Info": "High ligand/SBU stoichiometric ratio (≥15-fold) used to eliminate lattice defects, SBU connectivity close to theoretical value of 12."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-(OH)2 MOF membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher H2/CO2 selectivity than Knudsen diffusion selectivity indicates absence of intercrystalline defects."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher H2/CO2 selectivity than Knudsen diffusion selectivity indicates absence of intercrystalline defects."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Framework diversity and designability of pore architecture",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas separation performance tests",
+            "Performance Metrics": "H2/CO2 selectivity higher than Knudsen diffusion selectivity"
+        },
+        "Other Information": {
+            "Additional Info": "High ligand/SBU stoichiometric ratio (≥15-fold) used to eliminate lattice defects, SBU connectivity close to theoretical value of 12."
+        }
+    }
+]

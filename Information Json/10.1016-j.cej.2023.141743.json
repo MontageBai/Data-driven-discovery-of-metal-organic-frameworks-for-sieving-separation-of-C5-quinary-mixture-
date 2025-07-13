@@ -1,0 +1,123 @@
+[
+    {
+        "Materials Name": "CopzNi",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.22 Å (distance between pyrazine rings), 7.11 Å (distance between open Ni atoms)",
+            "Structure Type": "3D network with one-dimensional channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+",
+            "Ni2+"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "tetracyanonickelate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and binding affinity",
+                "Other Information": {
+                    "Test Conditions": "363 K, 120 torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High n-hexane uptake capacity of 162.2 mg/g at 363 K."
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Binding affinity difference",
+                "Other Information": {
+                    "Test Conditions": "303 K, 120 torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake decreases significantly from 126.5 mg/g to 23.7 mg/g as temperature increases from 303 K to 363 K."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.56 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "303–363 K, up to 120 torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake due to size exclusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with adsorbate-dependent affinity differences.",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, IAST calculations, CBMC simulations, DFT-D calculations",
+            "Performance Metrics": "IAST selectivity: 420.0 for 2MP/22DMB at 303 K; 171.7 for nHex/2MP at 363 K."
+        },
+        "Other Information": {
+            "Additional Info": "Excellent recyclability, stability, and lower energy regeneration compared to zeolite 5A."
+        }
+    },
+    {
+        "Materials Name": "NipzNi",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.10 Å (distance between pyrazine rings), 7.28 Å (distance between open Ni atoms)",
+            "Structure Type": "3D network with one-dimensional channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "tetracyanonickelate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and binding affinity",
+                "Other Information": {
+                    "Test Conditions": "363 K, 120 torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower uptake capacity of 128.7 mg/g at 363 K compared to CopzNi."
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Binding affinity difference",
+                "Other Information": {
+                    "Test Conditions": "303 K, 120 torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Relatively low uptake compared to CopzNi."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.56 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "303–363 K, up to 120 torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake due to size exclusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with adsorbate-dependent affinity differences.",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, IAST calculations, CBMC simulations, DFT-D calculations",
+            "Performance Metrics": "IAST selectivity: 27.3 for 2MP/22DMB at 303 K; 73.7 for nHex/2MP at 363 K."
+        },
+        "Other Information": {
+            "Additional Info": "Good recyclability and stability but lower performance than CopzNi."
+        }
+    }
+]

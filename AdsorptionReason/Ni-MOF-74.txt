@@ -1,0 +1,102 @@
+Based on the provided experimental data and known guest molecule probe sizes, here's the analysis for Ni-MOF-74:
+
+**Inferred Ni-MOF-74 Adsorption Behavior:**
+The experimental data for Ni-MOF-74 reveals a clear instance of kinetic sieving:
+*   **Adsorbed:** Propylene (6.257×5.051×3.961), with an intermediate dimension of **5.051 Å**.
+*   **Not Adsorbed:** Propane (6.552×4.354×3.970), with an intermediate dimension of **4.354 Å**. The reason explicitly stated is "Kinetic separation."
+
+This observation indicates that Ni-MOF-74 does not exhibit simple size exclusion based purely on the intermediate dimension. Instead, it demonstrates a highly selective kinetic sieving effect where a molecule with a numerically smaller intermediate dimension (propane, 4.354 Å) is kinetically hindered, while a larger molecule (propylene, 5.051 Å) is adsorbed. This typically implies that the molecular shape, flexibility, or specific interactions with the pore walls play a more dominant role than a simple geometric pore size.
+
+Therefore, the MOF's effective pore size is not a simple range. Instead, it allows molecules similar to propylene (alkenes, up to ~5.051 Å intermediate dimension) to pass, but kinetically hinders molecules similar to propane (alkanes, even if their intermediate dimension is ~4.354 Å or larger).
+
+---
+
+**Evaluation for Target Guest Molecules:**
+
+MOF Name: Ni-MOF-74
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Ni-MOF-74:
+- Propylene (6.257×5.051×3.961) → Intermediate = 5.051 Å | Adsorbed
+- Propane (6.552×4.354×3.970) → Intermediate = 4.354 Å | Not Adsorbed (Kinetic separation)
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Ni-MOF-74 has been shown to adsorb propylene (intermediate dimension 5.051 Å). Isoprene's intermediate dimension (6.093 Å) is significantly larger than that of propylene. Given that propylene represents the largest molecule known to be adsorbed, isoprene is likely too large to pass through the MOF's pores, even considering the kinetic sieving effect, as its overall size exceeds the demonstrated adsorption capacity.
+
+---
+
+MOF Name: Ni-MOF-74
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Ni-MOF-74:
+- Propylene (6.257×5.051×3.961) → Intermediate = 5.051 Å | Adsorbed
+- Propane (6.552×4.354×3.970) → Intermediate = 4.354 Å | Not Adsorbed (Kinetic separation)
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Ni-MOF-74 is known to adsorb propylene (intermediate dimension 5.051 Å). cis-2-pentene's intermediate dimension (5.572 Å) is larger than that of propylene, which is the largest molecule observed to adsorb. Therefore, it is likely too large to enter the MOF's pores.
+
+---
+
+MOF Name: Ni-MOF-74
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Ni-MOF-74:
+- Propylene (6.257×5.051×3.961) → Intermediate = 5.051 Å | Adsorbed
+- Propane (6.552×4.354×3.970) → Intermediate = 4.354 Å | Not Adsorbed (Kinetic separation)
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Ni-MOF-74 is known to adsorb propylene (an alkene) with an intermediate dimension of 5.051 Å. 1-pentene is also an alkene, and its intermediate dimension (4.995 Å) is very similar to, and slightly smaller than, that of propylene. Given the observed kinetic sieving effect where chemical nature and shape are crucial (propylene adsorbed while propane was not), 1-pentene is highly likely to be adsorbed by Ni-MOF-74 due to its comparable size and similar chemical nature to propylene.
+
+---
+
+MOF Name: Ni-MOF-74
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Ni-MOF-74:
+- Propylene (6.257×5.051×3.961) → Intermediate = 5.051 Å | Adsorbed
+- Propane (6.552×4.354×3.970) → Intermediate = 4.354 Å | Not Adsorbed (Kinetic separation)
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Ni-MOF-74 demonstrates kinetic sieving, allowing propylene (an alkene, 5.051 Å intermediate dimension) to adsorb while excluding propane (an alkane, 4.354 Å intermediate dimension). trans-2-pentene is an alkene, similar in chemical nature to propylene. Its intermediate dimension (4.733 Å) falls between the two reference molecules. Given that alkenes like propylene are adsorbed, and the kinetic exclusion was specific to an alkane (propane), it is reasonable to conclude that trans-2-pentene, being an alkene, will likely be adsorbed, especially since its intermediate dimension is within the range where adsorption (for propylene) is observed.
+
+---
+
+MOF Name: Ni-MOF-74
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Ni-MOF-74:
+- Propylene (6.257×5.051×3.961) → Intermediate = 5.051 Å | Adsorbed
+- Propane (6.552×4.354×3.970) → Intermediate = 4.354 Å | Not Adsorbed (Kinetic separation)
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Ni-MOF-74 is known to kinetically exclude propane (an alkane) with an intermediate dimension of 4.354 Å. N-pentane is also an alkane, and its intermediate dimension (4.364 Å) is extremely close to, and slightly larger than, that of propane. Given the strong kinetic sieving effect observed for alkanes in this MOF, n-pentane is highly likely to also be kinetically hindered from adsorption, similar to propane.

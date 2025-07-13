@@ -1,0 +1,106 @@
+Here's the analysis for FJI-H11-Me(des) based on the provided data:
+
+**FJI-H11-Me(des) Pore Inference:**
+From the experimental data:
+*   **Ethane:** 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Kinetic sieving)
+*   **Ethylene:** 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+
+**Detailed Interpretation:**
+This data presents a unique scenario. Ethane, with an intermediate dimension of 4.175 Å, is adsorbed, indicating that the MOF's pores can accommodate molecules of at least this size (or effective kinetic diameter). However, ethylene, with a smaller intermediate dimension of 4.047 Å, is *not* adsorbed due to "size exclusion". This apparent contradiction in simple geometric size exclusion (smaller molecule excluded, larger adsorbed) strongly suggests that FJI-H11-Me(des) exhibits a highly selective "kinetic sieving" mechanism. The "size exclusion" for ethylene is likely not based on its intermediate dimension alone but involves its specific shape, flexibility, or unfavorable interactions with the pore walls, making its effective kinetic diameter larger than 4.047 Å for this MOF.
+
+Given this complex kinetic sieving behavior, a simple, fixed "inferred effective pore size range" based solely on intermediate dimensions (e.g., [max_adsorbed, min_nonadsorbed)) cannot be robustly defined as a general geometric cutoff for *all* molecules. Instead, we interpret that the MOF is capable of adsorbing molecules up to an effective kinetic size of 4.175 Å (as demonstrated by ethane), but its selectivity is highly dependent on molecular shape and specific interactions. Therefore, molecules with intermediate dimensions *larger* than the largest adsorbed molecule (ethane, 4.175 Å) are highly likely to be excluded by size.
+
+---
+
+**MOF Name: FJI-H11-Me(des)**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed
+*   Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+
+As explained above, FJI-H11-Me(des) exhibits kinetic sieving. The largest molecule observed to be adsorbed is ethane, with an intermediate dimension of 4.175 Å.
+Isoprene Dimensions:
+*   Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of ethane (4.175 Å), which is the largest molecule observed to adsorb, it is highly probable that isoprene cannot be adsorbed by FJI-H11-Me(des) due to size exclusion.
+
+---
+
+**MOF Name: FJI-H11-Me(des)**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed
+*   Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+
+As explained above, FJI-H11-Me(des) exhibits kinetic sieving. The largest molecule observed to be adsorbed is ethane, with an intermediate dimension of 4.175 Å.
+cis-2-pentene Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of ethane (4.175 Å), which is the largest molecule observed to adsorb, it is highly probable that cis-2-pentene cannot be adsorbed by FJI-H11-Me(des) due to size exclusion.
+
+---
+
+**MOF Name: FJI-H11-Me(des)**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed
+*   Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+
+As explained above, FJI-H11-Me(des) exhibits kinetic sieving. The largest molecule observed to be adsorbed is ethane, with an intermediate dimension of 4.175 Å.
+1-pentene Dimensions:
+*   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of ethane (4.175 Å), which is the largest molecule observed to adsorb, it is highly probable that 1-pentene cannot be adsorbed by FJI-H11-Me(des) due to size exclusion.
+
+---
+
+**MOF Name: FJI-H11-Me(des)**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed
+*   Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+
+As explained above, FJI-H11-Me(des) exhibits kinetic sieving. The largest molecule observed to be adsorbed is ethane, with an intermediate dimension of 4.175 Å.
+trans-2-pentene Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of ethane (4.175 Å), which is the largest molecule observed to adsorb, it is highly probable that trans-2-pentene cannot be adsorbed by FJI-H11-Me(des) due to size exclusion.
+
+---
+
+**MOF Name: FJI-H11-Me(des)**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed
+*   Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+
+As explained above, FJI-H11-Me(des) exhibits kinetic sieving. The largest molecule observed to be adsorbed is ethane, with an intermediate dimension of 4.175 Å.
+n-pentane Dimensions:
+*   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is larger than the intermediate dimension of ethane (4.175 Å), which is the largest molecule observed to adsorb, it is highly probable that n-pentane cannot be adsorbed by FJI-H11-Me(des) due to size exclusion.

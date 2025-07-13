@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "Cu-MOF/graphene composite",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Cross-linked sheets with macropores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid (BTC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen peroxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion (molecular sieving)",
+                "Other Information": {
+                    "Test Conditions": "0.1 mol L^-1 N2-saturated PBS (pH 7.0), -0.4 V vs. Ag/AgCl",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The selectivity is due to the size exclusion provided by Cu-MOFs; H2O2 can be adsorbed while larger species such as UA and glucose cannot."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Amperometric response",
+            "Performance Metrics": "Linear detection range: 2.00 × 10^-7 to 1.85 × 10^-4 mol L^-1, Sensitivity: 0.792 A (mol L^-1)^-1, Detection limit: 6.7 × 10^-8 mol L^-1"
+        },
+        "Other Information": {
+            "Additional Info": "The Cu-MOF/graphene composite exhibited high electrocatalytic activity for H2O2 reduction, attributed to synergistic catalysis from graphene conductivity and Cu-MOF porosity."
+        }
+    }
+]

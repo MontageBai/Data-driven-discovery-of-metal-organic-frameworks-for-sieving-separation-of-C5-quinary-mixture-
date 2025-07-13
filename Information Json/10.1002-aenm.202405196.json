@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.2 Å (windows), 10 Å (internal cavities)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The ≈4.2 Å window in ZIF-8 is smaller than the diameter of solvated Li+ and serves as an ion sieve to accelerate Li+ desolvation."
+                }
+            },
+            {
+                "Molecule Name": "DME",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Solvated solvents are repelled away from the electrolyte/Cu current collector interface by the size-sieving effect of ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "DOL",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Solvated solvents are repelled away from the electrolyte/Cu current collector interface by the size-sieving effect of ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "LiTFSI",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Anion enrichment in internal cavities",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "LiTFSI is attracted by the sub-nano windows of ZIF-8 and confined in the internal cavities, forming anion-enriched clusters that promote the formation of LiF- and Li3N-rich SEI."
+                }
+            },
+            {
+                "Molecule Name": "LiNO3",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Anion enrichment in internal cavities",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "LiNO3 is attracted by the sub-nano windows of ZIF-8 and confined in the internal cavities, forming anion-enriched clusters that promote the formation of LiF- and Li3N-rich SEI."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Density Functional Theory (DFT), Monte Carlo simulations, Raman spectroscopy, X-ray photoelectron spectroscopy (XPS), Time-of-flight secondary ion mass spectrometry (TOF-SIMS), Electrochemical impedance spectroscopy (EIS), Cyclic voltammetry (CV), Tafel plots, Finite element method (FEM) simulations",
+            "Performance Metrics": "Aurbach coulombic efficiency: 99.84%, Capacity retention: 57.8% over 400 cycles"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 interphase layer accelerates Li+ desolvation kinetics via a size-sieving effect, suppresses unfavorable side reactions, facilitates the formation of LiF- and Li3N-rich SEI, and promotes dendrite-free Li deposition."
+        }
+    }
+]

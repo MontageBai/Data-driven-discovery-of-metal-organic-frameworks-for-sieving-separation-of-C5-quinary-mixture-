@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Zn-tcpt",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.9 Å",
+            "Structure Type": "3D hms-type network with large hexagonal channels"
+        },
+        "Topology": "hms",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2,4,6-tris(4-carboxyphenoxy)-1,3,5-triazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption uptake: 280 mg/g"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption uptake: 184 mg/g"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.57 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption uptake"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-exclusion based separation",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "n-hexane/2,2-dimethylbutane selectivity: 43.3, 3-methylpentane/2,2-dimethylbutane selectivity: 28.5"
+        },
+        "Other Information": {
+            "Additional Info": "High BET surface area of 1135 m²/g and pore volume of 0.43 cm³/g. Demonstrates complete exclusion of dibranched alkanes."
+        }
+    }
+]

@@ -1,0 +1,180 @@
+[
+    {
+        "MOF Name": "UiO-66-NH2–50 %",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.21 nm",
+            "Structure Type": "Microporous framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr"
+        ],
+        "Ligands": [
+            "terephthalic acid",
+            "2-amino-terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "BPA",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption, monolayer formation on homogeneous sites; influenced by size exclusion and hydrophobic interactions.",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 800 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Langmuir model provided best fit for adsorption isotherm."
+                }
+            },
+            {
+                "Molecule Name": "4-BP",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption, multilayer formation on heterogeneous sites; influenced by size exclusion and hydrophobic interactions.",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 800 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Freundlich model provided best fit for adsorption isotherm."
+                }
+            },
+            {
+                "Molecule Name": "PP",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption, multilayer formation on heterogeneous sites; influenced by size exclusion and hydrophobic interactions.",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 800 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Freundlich model provided best fit for adsorption isotherm."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Differential adsorption based on size-exclusion effect and hydrophobic interactions, limited by restricted pore accessibility for bulky alkylphenols.",
+        "Experimental Validation": {
+            "Method": "Adsorption kinetic and isotherm studies, N2 physisorption, SEM, TEM, FT-IR, XPS",
+            "Performance Metrics": "Maximum adsorption capacity: BPA 31.77 mg g-1, 4-BP 32.89 mg g-1, PP 104.85 mg g-1. Pseudo-second-order model best fit for kinetics."
+        },
+        "Other Information": {
+            "Additional Info": "Base UiO-66 structure with microporous framework, limiting uptake capacity for bulky alkylphenols. High chemical and thermal stability."
+        }
+    },
+    {
+        "MOF Name": "HCl‑meso-UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.62 nm",
+            "Structure Type": "Mesoporous structure with apparent mesopores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr"
+        ],
+        "Ligands": [
+            "terephthalic acid",
+            "2-amino-terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "BPA",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption, monolayer formation; enhanced accessibility due to mesopores; influenced by size exclusion and hydrophobic interactions.",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 800 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Langmuir model provided best fit for adsorption isotherm."
+                }
+            },
+            {
+                "Molecule Name": "4-BP",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption, multilayer formation; enhanced accessibility due to mesopores; influenced by size exclusion and hydrophobic interactions.",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 800 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Freundlich model provided best fit for adsorption isotherm."
+                }
+            },
+            {
+                "Molecule Name": "PP",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption, multilayer formation; enhanced accessibility due to mesopores; influenced by size exclusion and hydrophobic interactions.",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 800 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Freundlich model provided best fit for adsorption isotherm."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced differential adsorption due to mesoporous structure and increased pore accessibility, combined with hydrophobic interactions.",
+        "Experimental Validation": {
+            "Method": "Adsorption kinetic and isotherm studies, N2 physisorption, SEM, TEM, FT-IR, XPS",
+            "Performance Metrics": "Maximum adsorption capacity: BPA 39.71 mg g-1, 4-BP 52.67 mg g-1, PP 117.09 mg g-1. Pseudo-second-order model best fit for kinetics."
+        },
+        "Other Information": {
+            "Additional Info": "Mesoporous structure created via thermal treatment and acidification of UiO-66-NH2–50 %. Exhibited a rougher surface."
+        }
+    },
+    {
+        "MOF Name": "4‑meso-UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.41 nm",
+            "Structure Type": "Mesoporous structure with apparent mesopores and enhanced pore accessibility"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr"
+        ],
+        "Ligands": [
+            "terephthalic acid",
+            "2-amino-terephthalic acid",
+            "4-pentylbenzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "BPA",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption, monolayer formation; significantly enhanced pore accessibility and hydrophobicity due to modification, influenced by size exclusion.",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 800 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Langmuir model provided best fit for adsorption isotherm. Adsorption is exothermic and spontaneous at given temperature."
+                }
+            },
+            {
+                "Molecule Name": "4-BP",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption, multilayer formation; significantly enhanced pore accessibility and hydrophobicity due to modification, influenced by size exclusion.",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 800 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Freundlich model provided best fit for adsorption isotherm. Adsorption is endothermic and non-spontaneous."
+                }
+            },
+            {
+                "Molecule Name": "PP",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption, multilayer formation; significantly enhanced pore accessibility and hydrophobicity due to modification, resulting in highest adsorption capacity.",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 800 rpm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Freundlich model provided best fit for adsorption isotherm. Adsorption is exothermic and spontaneous at given temperature."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving driven by significantly enhanced pore accessibility and hydrophobicity, leading to size- and hydrophobicity-dependent differential adsorption capacities.",
+        "Experimental Validation": {
+            "Method": "Adsorption kinetic and isotherm studies, N2 physisorption, SEM, TEM, FT-IR, XPS, Reusability tests, Stability tests (XRD, SEM for regenerated material)",
+            "Performance Metrics": "Highest theoretical maximum adsorption capacity: BPA 40.64 mg g-1, 4-BP 115.06 mg g-1, PP 673.17 mg g-1. Pseudo-second-order model best fit for kinetics. Maintained >80% adsorption capacity after 5 cycles for PP. Excellent structural stability and durability under varying pH conditions (pH 5 and 9)."
+        },
+        "Other Information": {
+            "Additional Info": "Post-modified from HCl‑meso-UiO-66 with 4-pentylbenzoic acid, resulting in a smoother surface and increased hydrophobicity. Exhibited the highest adsorption capacity among the UiO-66 series for alkylphenols, particularly for PP."
+        }
+    }
+]

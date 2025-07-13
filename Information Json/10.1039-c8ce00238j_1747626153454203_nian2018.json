@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZIF-67",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "4.0 Å (theoretical aperture)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: 55.87 × 10−8 mol m−2 s−1 Pa−1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CO2 separation factor increases with temperature due to diffusion differences."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/N2 ideal separation factor: 14.7"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CH4 ideal separation factor: 15.3"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests",
+            "Performance Metrics": "H2 permeance: 55.87 × 10−8 mol m−2 s−1 Pa−1; H2/N2 selectivity: 14.7; H2/CH4 selectivity: 15.3"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-67 membrane was prepared by self-conversion of Co-NWAs in an aqueous solution of 2-methylimidazole. The membrane exhibits excellent stability and long-term performance even at elevated temperatures up to 120 °C."
+        }
+    }
+]

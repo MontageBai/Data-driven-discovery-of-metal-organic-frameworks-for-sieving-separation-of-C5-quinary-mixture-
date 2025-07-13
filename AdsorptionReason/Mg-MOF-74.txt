@@ -1,0 +1,97 @@
+MOF Name: Mg-MOF-74
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mg-MOF-74:
+- Carbon dioxide: 5.198×3.200×3.200 → Ordered dimensions: 3.200, 3.200, 5.198 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Ordered dimensions: 3.849, 3.877, 3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Mg-MOF-74: It allows molecules with an intermediate dimension of 3.200 Å but excludes molecules with an intermediate dimension of 3.877 Å due to size exclusion. Therefore, the effective pore size of Mg-MOF-74 is inferred to be in the range of **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Ordered dimensions: 3.963, 6.093, 7.746 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the inferred upper bound of Mg-MOF-74's effective pore size (3.877 Å), it cannot be adsorbed by Mg-MOF-74 based on size exclusion.
+
+---
+
+MOF Name: Mg-MOF-74
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mg-MOF-74:
+- Carbon dioxide: 5.198×3.200×3.200 → Ordered dimensions: 3.200, 3.200, 5.198 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Ordered dimensions: 3.849, 3.877, 3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Mg-MOF-74: It allows molecules with an intermediate dimension of 3.200 Å but excludes molecules with an intermediate dimension of 3.877 Å due to size exclusion. Therefore, the effective pore size of Mg-MOF-74 is inferred to be in the range of **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Ordered dimensions: 5.136, 5.572, 8.067 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the inferred upper bound of Mg-MOF-74's effective pore size (3.877 Å), it cannot be adsorbed by Mg-MOF-74 based on size exclusion.
+
+---
+
+MOF Name: Mg-MOF-74
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mg-MOF-74:
+- Carbon dioxide: 5.198×3.200×3.200 → Ordered dimensions: 3.200, 3.200, 5.198 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Ordered dimensions: 3.849, 3.877, 3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Mg-MOF-74: It allows molecules with an intermediate dimension of 3.200 Å but excludes molecules with an intermediate dimension of 3.877 Å due to size exclusion. Therefore, the effective pore size of Mg-MOF-74 is inferred to be in the range of **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Ordered dimensions: 4.897, 4.995, 8.847 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the inferred upper bound of Mg-MOF-74's effective pore size (3.877 Å), it cannot be adsorbed by Mg-MOF-74 based on size exclusion.
+
+---
+
+MOF Name: Mg-MOF-74
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mg-MOF-74:
+- Carbon dioxide: 5.198×3.200×3.200 → Ordered dimensions: 3.200, 3.200, 5.198 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Ordered dimensions: 3.849, 3.877, 3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Mg-MOF-74: It allows molecules with an intermediate dimension of 3.200 Å but excludes molecules with an intermediate dimension of 3.877 Å due to size exclusion. Therefore, the effective pore size of Mg-MOF-74 is inferred to be in the range of **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Ordered dimensions: 4.564, 4.733, 8.796 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the inferred upper bound of Mg-MOF-74's effective pore size (3.877 Å), it cannot be adsorbed by Mg-MOF-74 based on size exclusion.
+
+---
+
+MOF Name: Mg-MOF-74
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mg-MOF-74:
+- Carbon dioxide: 5.198×3.200×3.200 → Ordered dimensions: 3.200, 3.200, 5.198 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Ordered dimensions: 3.849, 3.877, 3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Mg-MOF-74: It allows molecules with an intermediate dimension of 3.200 Å but excludes molecules with an intermediate dimension of 3.877 Å due to size exclusion. Therefore, the effective pore size of Mg-MOF-74 is inferred to be in the range of **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Ordered dimensions: 3.969, 4.364, 9.118 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the inferred upper bound of Mg-MOF-74's effective pore size (3.877 Å), it cannot be adsorbed by Mg-MOF-74 based on size exclusion.

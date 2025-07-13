@@ -1,0 +1,105 @@
+[
+    {
+        "Materials Name": "PDA3MIL-101(Cr)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "29 Å and 34 Å (pore diameters), 12 Å and 16 Å (pore apertures), 1.5 nm (new narrow pore after PDA encapsulation)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "1,4-dicarboxybenzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "platinum nanoparticles",
+                "Molecular Size": "3 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "80 kPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate is 100% for 3 nm platinum nanoparticles."
+                }
+            },
+            {
+                "Molecule Name": "gold nanoparticles",
+                "Molecular Size": "13 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "80 kPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate is 100% for 13 nm gold nanoparticles."
+                }
+            },
+            {
+                "Molecule Name": "Eosin B",
+                "Molecular Size": "1.1 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption followed by size exclusion due to filter cake formation",
+                "Other Information": {
+                    "Test Conditions": "80 kPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate is 94.5% at 128 mM concentration."
+                }
+            },
+            {
+                "Molecule Name": "Orange G",
+                "Molecular Size": "1.3 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption followed by size exclusion due to filter cake formation",
+                "Other Information": {
+                    "Test Conditions": "80 kPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate is 99.5% at 240 mM concentration."
+                }
+            },
+            {
+                "Molecule Name": "mercury",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption by PDA functional groups",
+                "Other Information": {
+                    "Test Conditions": "Vacuum filtration method",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of SNF/PDA3101(22) WTM is 13.18 mg/g."
+                }
+            },
+            {
+                "Molecule Name": "lead",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption by PDA functional groups",
+                "Other Information": {
+                    "Test Conditions": "Vacuum filtration method",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of SNF/PDA3101(22) WTM is 13.6 mg/g."
+                }
+            },
+            {
+                "Molecule Name": "uranium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption by PDA functional groups",
+                "Other Information": {
+                    "Test Conditions": "Vacuum filtration method",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of SNF/PDA3101(22) WTM is 15.7 mg/g."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with adsorption by PDA functional groups",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Vacuum filtration experiments, dye rejection tests, heavy metal ion adsorption tests, ICP-OES analysis",
+            "Performance Metrics": "Water flux: 3249 L h^-1 m^-2 bar^-1 for 1-mm thick membrane; Rejection rates >94.5% for small molecule dyes; Adsorption capacities up to 35 mg/g for arsenic ions."
+        },
+        "Other Information": {
+            "Additional Info": "The membrane integrates size exclusion and adsorption capabilities, achieving high removal efficiency for nanoparticles, small-molecule dyes, heavy metals, and radioactive elements."
+        }
+    }
+]

@@ -1,0 +1,172 @@
+[
+    {
+        "Materials Name": "CC3",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D interconnected pore network"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "1,3,5-triformylbenzene (TFB)",
+            "(1 R ,2 R )-1,2-cyclohexanediamine (CHDA)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High H2/N2 selectivity of 30"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/N2 selectivity of ≈19"
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.82 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/CH4 selectivity of ≈10"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2 permeance: 1.53 × 10^-6 mol m^-2 s^-1 Pa^-1, CO2 permeance: 9.2 × 10^-7 mol m^-2 s^-1 Pa^-1"
+        },
+        "Other Information": {
+            "Additional Info": "Cage thin films show high diffusivity selectivity for gas pairs H2/CO2 (≈20), H2/N2 (≈87), and H2/CH4 (≈155)"
+        }
+    },
+    {
+        "Materials Name": "ASPOC",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "1,3,5-triformylbenzene (TFB)",
+            "1,2-ethylenediamine (EDA)",
+            "(1 R ,2 R )-1,2-cyclohexanediamine (CHDA)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/N2 selectivity up to 30"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.82 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/CH4 selectivity up to 17"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Initial CO2 permeability dropped to 160 Barrer with aging"
+        },
+        "Other Information": {
+            "Additional Info": "Permeability decreased significantly over time due to denser packing of cage molecules"
+        }
+    },
+    {
+        "Materials Name": "CC13",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "1,3,5-triformylbenzene (TFB)",
+            "2-methyl-1,2-propanediamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower permeance compared to CC3 but retains molecular sieving properties"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2 permeability of 48 Barrer after aging"
+        },
+        "Other Information": {
+            "Additional Info": "Shows lower permeance but still exhibits molecular sieving performance"
+        }
+    }
+]

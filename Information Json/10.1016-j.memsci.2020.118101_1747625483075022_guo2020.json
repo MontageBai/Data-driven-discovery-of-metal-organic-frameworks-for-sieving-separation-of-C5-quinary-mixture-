@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "IL@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (narrowed after IL confinement), 4.0 Å (dilated at elevated temperature)",
+            "Structure Type": "Nanocages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, feed pressure range of 3–8 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeability decreases with increasing IL concentration."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, feed pressure range of 3–8 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 molecules are cut off due to the narrowed effective cage size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion between CO2 and N2 by tuning the effective cage size with confined IL.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation measurements using constant-volume method",
+            "Performance Metrics": "Best CO2 permeability: 117 Barrer, Best CO2/N2 selectivity: 84.5 (IL8@ZIF-8/Pebax MMMs with 25 wt% filler loading)"
+        },
+        "Other Information": {
+            "Additional Info": "The effective cage size is tuned by controlling the IL content inside ZIF-8 nanocages. The strategy surpasses the 2008 Robeson upper bound for CO2/N2 separation."
+        }
+    }
+]

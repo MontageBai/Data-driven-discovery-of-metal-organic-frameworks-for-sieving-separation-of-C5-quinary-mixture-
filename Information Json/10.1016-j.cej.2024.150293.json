@@ -1,0 +1,179 @@
+[
+    {
+        "Materials Name": "NO3-BTR",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4 Å (triangle aperture), 14.5 Å (primary inner cage diameter)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Fd 3 c",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "BTR"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temporary deviation of gate-keeping groups (NO3-)",
+                "Other Information": {
+                    "Test Conditions": "230 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Threshold admission temperature (T0) for CO2 is 230 K"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temporary deviation of gate-keeping groups (NO3-)",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Threshold admission temperature (T0) for N2 is 298 K"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temporary deviation of gate-keeping groups (NO3-)",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Threshold admission temperature (T0) for CH4 is 298 K"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temporary deviation of gate-keeping groups to allow gas admission",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Gas adsorption experiments and DFT calculations",
+            "Performance Metrics": "CO2/N2 selectivity: 38, CO2/CH4 selectivity: 16 at 273 K"
+        },
+        "Other Information": {
+            "Additional Info": "Nitrate ions act as gate-keeping groups located at triangle apertures"
+        }
+    },
+    {
+        "Materials Name": "BF4-BTR",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4 Å (triangle aperture), 14.5 Å (primary inner cage diameter)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Fd 3 c",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "BTR"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temporary deviation of gate-keeping groups (BF4-)",
+                "Other Information": {
+                    "Test Conditions": "273 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Threshold admission temperature (T0) for CO2 is 273 K"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temporary deviation of gate-keeping groups (BF4-)",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Threshold admission temperature (T0) for N2 is 298 K"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temporary deviation of gate-keeping groups (BF4-)",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Threshold admission temperature (T0) for CH4 is 298 K"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temporary deviation of gate-keeping groups to allow gas admission",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Gas adsorption experiments and DFT calculations",
+            "Performance Metrics": "CO2/N2 selectivity: 243, CO2/CH4 selectivity: 19 at 273 K"
+        },
+        "Other Information": {
+            "Additional Info": "BF4- ions act as gate-keeping groups located at triangle apertures"
+        }
+    },
+    {
+        "Materials Name": "ClO4-BTR",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4 Å (triangle aperture), 14.5 Å (primary inner cage diameter)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Fd 3 c",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "BTR"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temporary deviation of gate-keeping groups (ClO4-)",
+                "Other Information": {
+                    "Test Conditions": "273 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Threshold admission temperature (T0) for CO2 is 273 K"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temporary deviation of gate-keeping groups (ClO4-)",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Threshold admission temperature (T0) for N2 is 298 K"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temporary deviation of gate-keeping groups (ClO4-)",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Threshold admission temperature (T0) for CH4 is 298 K"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temporary deviation of gate-keeping groups to allow gas admission",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Gas adsorption experiments and DFT calculations",
+            "Performance Metrics": "CO2/N2 selectivity: 697, CO2/CH4 selectivity: 22 at 273 K"
+        },
+        "Other Information": {
+            "Additional Info": "ClO4- ions act as gate-keeping groups located at triangle apertures"
+        }
+    }
+]

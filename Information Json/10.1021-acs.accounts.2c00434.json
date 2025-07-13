@@ -1,0 +1,231 @@
+[
+    {
+        "Materials Name": "Zn2(Bim)4 nanosheet membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.21 nm (in-plane four-membered-ring apertures)",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving through in-plane apertures",
+                "Other Information": {
+                    "Test Conditions": "120 °C coating temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeation activated while CO2 permeation remained constant"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Knudsen diffusion through interlayer galleries",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeation maintained at a constant level"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test",
+            "Performance Metrics": "H2 permeance proportional to H2/CO2 selectivity"
+        },
+        "Other Information": {
+            "Additional Info": "Nanosheets were prone to randomly stack along the c axis with sheet margins interlocked, opening size-exclusion apertures"
+        }
+    },
+    {
+        "Materials Name": "Supramolecule Array Membrane (SAM)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.30 nm (intermolecular spacing)",
+            "Structure Type": "0D molecules"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving through zigzag galleries",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sharp cutoff between H2 and CO2 observed"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity exceeded 3600"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ultrasmall size exclusion based on intermolecular spacing",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test",
+            "Performance Metrics": "H2/CO2 selectivity > 3600"
+        },
+        "Other Information": {
+            "Additional Info": "SAMs formed by ordered alignment of Mim molecules with opened intermolecular spacings as nanochannels"
+        }
+    },
+    {
+        "Materials Name": "ZIF-L membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving through opened interlaminar galleries",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High H2/CO2 selectivity achieved due to strengthened sheet boundaries"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Membrane-interlocked support structure improved mechanical strength"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on interlaminar galleries",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test",
+            "Performance Metrics": "H2/CO2 separation hit industrial target"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-L nanosheets aligned in a staggered stacking mode"
+        }
+    },
+    {
+        "Materials Name": "LTA zeolite membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D crystals"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.275 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophilic molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Industrial dewatering conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Used for ethanol dehydration with annual capacity of 100,000 tons"
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Industrial dewatering conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethanol retained during pervaporation"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Hydrophilic molecular sieving",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Industrial pervaporation",
+            "Performance Metrics": "Annual capacity: 100,000 tons for ethanol dehydration"
+        },
+        "Other Information": {
+            "Additional Info": "Microwave synthesis used for large-scale production"
+        }
+    },
+    {
+        "Materials Name": "MXene molecular sieving membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Sub-2-nanometer",
+            "Structure Type": "2D laminar material"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highly efficient gas separation achieved"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving through sub-2-nanometer pores",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "MXene membranes enabled highly efficient gas separation"
+        }
+    }
+]

@@ -1,0 +1,102 @@
+MOF Name: KAUST-7(MeOH)
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for KAUST-7(MeOH):
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Size exclusion)
+
+Observation and Inference:
+The experimental data presents a key observation: propylene (an olefin with an intermediate dimension of 5.051 Å) is adsorbed, while propane (an alkane with a *smaller* intermediate dimension of 4.354 Å) is *not* adsorbed, despite both being attributed to "Size exclusion." This indicates that the adsorption mechanism for KAUST-7(MeOH) is not a simple size exclusion based solely on the intermediate dimension. Instead, it strongly suggests a **kinetic sieving effect**, where molecular shape, flexibility, or specific interactions (e.g., preference for olefins over alkanes) play a crucial role in discrimination. The MOF effectively allows passage of propylene but restricts propane, even though propane is geometrically smaller by intermediate dimension. Therefore, a strict range for inferred effective pore size based on intermediate dimension cannot be defined in the usual manner. The MOF can accommodate olefins with intermediate dimensions up to at least 5.051 Å, but excludes alkanes with intermediate dimensions of 4.354 Å or larger.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is larger than that of propylene (5.051 Å), which was observed to adsorb. Given that KAUST-7(MeOH) exhibits a very tight sieving effect, even excluding a smaller molecule like propane (4.354 Å) due to shape-dependent kinetic sieving, it is highly unlikely that a larger molecule like isoprene would be able to pass through the pores.
+
+---
+
+MOF Name: KAUST-7(MeOH)
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for KAUST-7(MeOH):
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Size exclusion)
+
+Observation and Inference:
+The experimental data indicates a kinetic sieving effect where propylene (an olefin with an intermediate dimension of 5.051 Å) is adsorbed, while propane (an alkane with a *smaller* intermediate dimension of 4.354 Å) is *not* adsorbed. This suggests the MOF's adsorption is highly dependent on molecular shape, flexibility, or chemical nature, rather than solely on the intermediate dimension for simple size exclusion. The MOF can accommodate olefins with intermediate dimensions up to at least 5.051 Å but excludes alkanes with intermediate dimensions of 4.354 Å or larger.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene is an olefin, similar in chemical type to propylene. However, its intermediate dimension (5.572 Å) is larger than that of propylene (5.051 Å), which is the largest olefin observed to adsorb. Considering the MOF's high selectivity and the non-adsorption of a smaller alkane like propane, it is improbable for a larger molecule like cis-2-pentene to be adsorbed.
+
+---
+
+MOF Name: KAUST-7(MeOH)
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for KAUST-7(MeOH):
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Size exclusion)
+
+Observation and Inference:
+The experimental data demonstrates a kinetic sieving effect where propylene (an olefin with an intermediate dimension of 5.051 Å) is adsorbed, while propane (an alkane with a *smaller* intermediate dimension of 4.354 Å) is *not* adsorbed. This indicates that the MOF's adsorption is highly dependent on molecular shape, flexibility, or chemical nature (e.g., favoring olefins), rather than solely on the intermediate dimension for simple size exclusion. The MOF can accommodate olefins with intermediate dimensions up to at least 5.051 Å but excludes alkanes with intermediate dimensions of 4.354 Å or larger.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene is a linear olefin, chemically similar to propylene. Crucially, its intermediate dimension (4.995 Å) is *smaller* than that of propylene (5.051 Å), which is known to be adsorbed. Given that the MOF has demonstrated the ability to adsorb propylene (an olefin) and the intermediate dimension of 1-pentene is even slightly smaller, it is highly likely that 1-pentene can be adsorbed by KAUST-7(MeOH). The exclusion of propane despite its smaller size highlights the importance of molecular type (olefin vs. alkane) in this kinetic sieving process.
+
+---
+
+MOF Name: KAUST-7(MeOH)
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for KAUST-7(MeOH):
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Size exclusion)
+
+Observation and Inference:
+The experimental data indicates a kinetic sieving effect where propylene (an olefin with an intermediate dimension of 5.051 Å) is adsorbed, while propane (an alkane with a *smaller* intermediate dimension of 4.354 Å) is *not* adsorbed. This suggests the MOF's adsorption is highly dependent on molecular shape, flexibility, or chemical nature (e.g., favoring olefins), rather than solely on the intermediate dimension for simple size exclusion. The MOF can accommodate olefins with intermediate dimensions up to at least 5.051 Å but excludes alkanes with intermediate dimensions of 4.354 Å or larger.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene is an olefin, similar in chemical type to propylene. Its intermediate dimension (4.733 Å) is *smaller* than that of propylene (5.051 Å), which is known to be adsorbed. Despite being larger than the non-adsorbed propane, its chemical similarity and smaller intermediate dimension relative to the adsorbed propylene suggest it can pass, consistent with the observed kinetic sieving preference for olefins.
+
+---
+
+MOF Name: KAUST-7(MeOH)
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for KAUST-7(MeOH):
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Size exclusion)
+
+Observation and Inference:
+The experimental data clearly shows a kinetic sieving effect where KAUST-7(MeOH) selectively adsorbs propylene (an olefin with intermediate dimension 5.051 Å) but *excludes* propane (an alkane with a *smaller* intermediate dimension of 4.354 Å). This highlights that the MOF's adsorption is highly sensitive to molecular shape and chemical nature, specifically demonstrating an exclusion of alkanes at this size range.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane is a linear alkane, chemically and structurally very similar to propane. Its intermediate dimension (4.364 Å) is almost identical to that of propane (4.354 Å), which was experimentally determined not to be adsorbed by KAUST-7(MeOH) due to size exclusion / kinetic sieving. Therefore, based on its very similar size and chemical nature to propane, it is highly probable that n-pentane will also be excluded by KAUST-7(MeOH).

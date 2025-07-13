@@ -1,0 +1,105 @@
+[
+    {
+        "MOF Name": "Azo-COF",
+        "Material Category": "Others",
+        "Pore/Structural Features": {
+            "Pore Size": "~2.5 nm",
+            "Structure Type": "Mesoporous structure with uniform one-dimensional channels and quadrilateral connectivity"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "1,3,6,8-tetrakis(p-formylphenyl)pyrene",
+            "p-azoaniline"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Lysozyme",
+                "Molecular Size": "7.7 × 7.7 × 3.7 nm3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion; molecule too large to enter the pores.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No uptake observed; proteins are shown in the collected solution after treatment, indicating exclusion."
+                }
+            },
+            {
+                "Molecule Name": "Myoglobin",
+                "Molecular Size": "2.1 × 3.5 × 4.4 nm3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion; molecule too large to enter the pores.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low uptake observed; proteins are shown in the collected solution after treatment, indicating exclusion."
+                }
+            },
+            {
+                "Molecule Name": "Bovine Serum Albumin (BSA)",
+                "Molecular Size": "5.0 × 7.0 × 7.0 nm3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion; molecule too large to enter the pores.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low uptake observed; proteins are shown in the collected solution after treatment, indicating exclusion."
+                }
+            },
+            {
+                "Molecule Name": "FGFGF",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes through pores due to small size; selectively adsorbed within the pores due to hydrophobicity and π–π stacking interaction.",
+                "Other Information": {
+                    "Test Conditions": "Mixed with other peptides at 0.25 mg mL−1 concentration in water, 50 μL loaded into Lab-in-Tip; elution with 70% ACN solution.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Most hydrophobic peptide (GRAVY: 1.52). Efficiently captured with a maximum adsorption capacity of 36 mg g−1, 90% uptake, and 80% recovery. Signal intensity significantly enhanced after enrichment."
+                }
+            },
+            {
+                "Molecule Name": "GGFGG",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes through pores due to small size; not significantly adsorbed due to hydrophilicity.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrophilic peptide (GRAVY: 0.24). 3.9% uptake and 3.1% recovery. Observed in the collected solution after treatment, indicating passage but no retention."
+                }
+            },
+            {
+                "Molecule Name": "YGGFM",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes through pores due to small size; low adsorption due to hydrophilicity.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrophilic peptide (GRAVY: 0.52). 4.8% uptake and 4.2% recovery."
+                }
+            },
+            {
+                "Molecule Name": "YGGFL",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes through pores due to small size; low adsorption due to hydrophilicity.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrophilic peptide (GRAVY: 0.9). 5.7% uptake and 3.9% recovery."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combined mechanism: Molecular sieving based on rigid pore aperture for larger molecules (proteins) and selective adsorption based on hydrophobicity for smaller molecules (hydrophobic peptides).",
+        "Experimental Validation": {
+            "Method": "Nitrogen adsorption-desorption isotherms (for pore size determination), SEM, TEM, PXRD (for structural characterization); CE-UV and CE-ESI-MS/MS (for peptide/protein separation analysis).",
+            "Performance Metrics": "Pore size distribution calculated as 2.7 nm. Maximum adsorption capacity (Qe) of 36 mg g−1 for FGFGF, with 90% uptake. No uptake for Lysozyme and GGFGG, and very low uptake for BSA and Myoglobin. Significant enhancement in signal intensity of hydrophobic peptides observed after enrichment, with up to 69% recovery in real human serum samples."
+        },
+        "Other Information": {
+            "Additional Info": "Azo-COF is a Covalent Organic Framework (COF), not a Metal-Organic Framework. It is constructed from 1,3,6,8-tetrabromopyrene (TBPy) building block and p-azoaniline linking units. The as-synthesized Azo-COF exhibits high surface area and high thermochemical stability (up to 418 °C). It was utilized by packing into a 100 μL Axygen pipette tip (Lab-in-Tip) for robust enrichment and size-exclusive analysis in complex biological samples. The TBPy building block is super hydrophobic, enhancing binding efficiency for desirable peptides."
+        }
+    }
+]

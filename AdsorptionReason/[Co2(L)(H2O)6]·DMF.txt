@@ -1,0 +1,97 @@
+**MOF Name: [Co2(L)(H2O)6]·DMF**
+
+**Guest Molecule: isoprene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From the experimental data:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed
+
+Inferred effective pore size of [Co2(L)(H2O)6]·DMF: Since carbon dioxide with an intermediate dimension of 3.200 Å was *not* adsorbed, the effective pore size of this MOF is inferred to be **less than 3.200 Å**.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the inferred effective pore size of [Co2(L)(H2O)6]·DMF (< 3.200 Å), it cannot be adsorbed.
+
+---
+
+**MOF Name: [Co2(L)(H2O)6]·DMF**
+
+**Guest Molecule: cis-2-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From the experimental data:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed
+
+Inferred effective pore size of [Co2(L)(H2O)6]·DMF: Since carbon dioxide with an intermediate dimension of 3.200 Å was *not* adsorbed, the effective pore size of this MOF is inferred to be **less than 3.200 Å**.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the inferred effective pore size of [Co2(L)(H2O)6]·DMF (< 3.200 Å), it cannot be adsorbed.
+
+---
+
+**MOF Name: [Co2(L)(H2O)6]·DMF**
+
+**Guest Molecule: 1-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From the experimental data:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed
+
+Inferred effective pore size of [Co2(L)(H2O)6]·DMF: Since carbon dioxide with an intermediate dimension of 3.200 Å was *not* adsorbed, the effective pore size of this MOF is inferred to be **less than 3.200 Å**.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the inferred effective pore size of [Co2(L)(H2O)6]·DMF (< 3.200 Å), it cannot be adsorbed.
+
+---
+
+**MOF Name: [Co2(L)(H2O)6]·DMF**
+
+**Guest Molecule: trans-2-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From the experimental data:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed
+
+Inferred effective pore size of [Co2(L)(H2O)6]·DMF: Since carbon dioxide with an intermediate dimension of 3.200 Å was *not* adsorbed, the effective pore size of this MOF is inferred to be **less than 3.200 Å**.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the inferred effective pore size of [Co2(L)(H2O)6]·DMF (< 3.200 Å), it cannot be adsorbed.
+
+---
+
+**MOF Name: [Co2(L)(H2O)6]·DMF**
+
+**Guest Molecule: n-pentane**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From the experimental data:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed
+
+Inferred effective pore size of [Co2(L)(H2O)6]·DMF: Since carbon dioxide with an intermediate dimension of 3.200 Å was *not* adsorbed, the effective pore size of this MOF is inferred to be **less than 3.200 Å**.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the inferred effective pore size of [Co2(L)(H2O)6]·DMF (< 3.200 Å), it cannot be adsorbed.

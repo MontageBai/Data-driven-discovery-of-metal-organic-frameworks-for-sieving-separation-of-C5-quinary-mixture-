@@ -1,0 +1,91 @@
+MOF Name: Zn2(sdc)2(bpe)
+
+**Inferred Effective Pore Size of Zn2(sdc)2(bpe):**
+
+From the experimental data, we identify the intermediate dimensions of adsorbed and non-adsorbed molecules:
+
+*   **Adsorbed (Yes):**
+    *   `acetylene`: 5.538×3.200×3.200 → Intermediate = **3.200 Å**
+    *   `ethylene`: 4.679×4.047×3.200 → Intermediate = **4.047 Å**
+    *   `ethane`: 4.731×4.175×4.170 → Intermediate = **4.175 Å**
+    The largest intermediate dimension for an adsorbed molecule is **4.175 Å**.
+
+*   **Non-Adsorbed (No, due to size exclusion):**
+    *   `propane`: 6.552×4.354×3.970 → Intermediate = **4.354 Å**
+    *   `butane`: 7.709×4.532×3.969 → Intermediate = **4.532 Å**
+    *   `propylene`: 6.257×5.051×3.961 → Intermediate = **5.051 Å**
+    The smallest intermediate dimension for a non-adsorbed molecule (due to size exclusion) is **4.354 Å**.
+
+Based on this, the inferred effective pore size of Zn2(sdc)2(bpe) allows molecules with intermediate dimensions up to and including **4.175 Å**, but *excludes* molecules with intermediate dimensions **4.354 Å** or larger. Therefore, the effective pore size range is approximately **[4.175 Å, 4.354 Å)**.
+
+---
+
+**Evaluation of Target Guest Molecules:**
+
+**MOF Name: Zn2(sdc)2(bpe)**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   The MOF’s known adsorbed molecules (ethane, ethylene, acetylene) have intermediate dimensions up to 4.175 Å.
+*   The MOF’s known non-adsorbed molecules (propane, butane, propylene) have intermediate dimensions from 4.354 Å upwards.
+*   Inferred effective pore size of Zn2(sdc)2(bpe) is in the range [4.175 Å, 4.354 Å).
+*   Isoprene Dimensions: 7.746×6.093×3.963 → Intermediate dimension = **6.093 Å**.
+*   Conclusion: Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the upper bound of the inferred effective pore size (4.354 Å), it cannot be adsorbed by Zn2(sdc)2(bpe).
+
+---
+
+**MOF Name: Zn2(sdc)2(bpe)**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   The MOF’s known adsorbed molecules (ethane, ethylene, acetylene) have intermediate dimensions up to 4.175 Å.
+*   The MOF’s known non-adsorbed molecules (propane, butane, propylene) have intermediate dimensions from 4.354 Å upwards.
+*   Inferred effective pore size of Zn2(sdc)2(bpe) is in the range [4.175 Å, 4.354 Å).
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 → Intermediate dimension = **5.572 Å**.
+*   Conclusion: Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the upper bound of the inferred effective pore size (4.354 Å), it cannot be adsorbed by Zn2(sdc)2(bpe).
+
+---
+
+**MOF Name: Zn2(sdc)2(bpe)**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   The MOF’s known adsorbed molecules (ethane, ethylene, acetylene) have intermediate dimensions up to 4.175 Å.
+*   The MOF’s known non-adsorbed molecules (propane, butane, propylene) have intermediate dimensions from 4.354 Å upwards.
+*   Inferred effective pore size of Zn2(sdc)2(bpe) is in the range [4.175 Å, 4.354 Å).
+*   1-pentene Dimensions: 8.847×4.995×4.897 → Intermediate dimension = **4.995 Å**.
+*   Conclusion: Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the upper bound of the inferred effective pore size (4.354 Å), it cannot be adsorbed by Zn2(sdc)2(bpe).
+
+---
+
+**MOF Name: Zn2(sdc)2(bpe)**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   The MOF’s known adsorbed molecules (ethane, ethylene, acetylene) have intermediate dimensions up to 4.175 Å.
+*   The MOF’s known non-adsorbed molecules (propane, butane, propylene) have intermediate dimensions from 4.354 Å upwards.
+*   Inferred effective pore size of Zn2(sdc)2(bpe) is in the range [4.175 Å, 4.354 Å).
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 → Intermediate dimension = **4.733 Å**.
+*   Conclusion: Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the upper bound of the inferred effective pore size (4.354 Å), it cannot be adsorbed by Zn2(sdc)2(bpe).
+
+---
+
+**MOF Name: Zn2(sdc)2(bpe)**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   The MOF’s known adsorbed molecules (ethane, ethylene, acetylene) have intermediate dimensions up to 4.175 Å.
+*   The MOF’s known non-adsorbed molecules (propane, butane, propylene) have intermediate dimensions from 4.354 Å upwards.
+*   Inferred effective pore size of Zn2(sdc)2(bpe) is in the range [4.175 Å, 4.354 Å).
+*   n-pentane Dimensions: 9.118×4.364×3.969 → Intermediate dimension = **4.364 Å**.
+*   Conclusion: Since n-pentane's intermediate dimension (4.364 Å) is greater than the smallest intermediate dimension of non-adsorbed molecules (4.354 Å), it is excluded by size. Therefore, it cannot be adsorbed by Zn2(sdc)2(bpe).

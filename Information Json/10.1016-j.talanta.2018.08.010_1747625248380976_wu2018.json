@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Fe3O4@MIL-100(Fe)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.88 nm, 3.86 nm",
+            "Structure Type": "microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "N-linked glycopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enrichment achieved from complex mixtures (e.g., HRP:BSA at 1:500 mass ratio). Selectivity demonstrated with LOD of 0.1 fmol/μL."
+                }
+            },
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enrichment achieved from complex mixtures (e.g., β-casein:BSA at 1:500 mass ratio). Selectivity demonstrated with LOD of 0.1 fmol/μL."
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size during enrichment experiments."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS, nano-LC-MS/MS",
+            "Performance Metrics": "LOD: 0.1 fmol/μL for both N-linked glycopeptides and phosphopeptides; Selectivity: 1:20 (glycopeptides) and 1:50 (phosphopeptides); Size-exclusion ability: 1:500."
+        },
+        "Other Information": {
+            "Additional Info": "Core-shell structured magnetic MOF composite with dual functionalities: high hydrophilicity for glycopeptide enrichment and strong affinity for phosphopeptides. Exhibits excellent reusability (six cycles) and stability (two months). Applied successfully to human saliva samples for the enrichment of endogenous N-glycopeptides and phosphopeptides."
+        }
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "GO/ZS/MOF membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.8 nm (UiO-66-NH2 pore entrance), 10.17 Å (interlayer spacing)",
+            "Structure Type": "2D layered structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-amino-1,4-benzenedicarboxylate",
+            "aniline-N-propanesulfonic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "0.66 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and affinity-based sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ternary ion solution of KCl, MgCl2, and LiCl",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "K+ exhibits the highest permeability due to its smallest hydration diameter and favorable binding affinity with sulfonate groups."
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.76 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and affinity-based sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ternary ion solution of KCl, MgCl2, and LiCl",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+ shows intermediate permeability due to its larger hydration diameter compared to K+ and weaker binding affinity with sulfonate groups."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.86 nm (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and affinity-based sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ternary ion solution of KCl, MgCl2, and LiCl",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Mg2+ exhibits the lowest permeability due to its largest hydration diameter and strongest binding affinity with sulfonate groups, hindering transport through the membrane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combined effects of size-sieving and binding affinity for selective ion transport.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Ion permeation experiment using a homemade U-shaped device and ICP-OES analysis",
+            "Performance Metrics": "K+/Mg2+ selectivity: 207.7, K+/Li+ selectivity: 8.3 at pH = 2"
+        },
+        "Other Information": {
+            "Additional Info": "The GO/ZS/MOF membrane demonstrates high structural stability in different aqueous media and harsh chemical environments, making it suitable for applications such as extracting potassium from salt lake brine."
+        }
+    }
+]

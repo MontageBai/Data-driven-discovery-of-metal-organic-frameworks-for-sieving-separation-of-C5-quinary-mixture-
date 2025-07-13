@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "C-magG@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "10.6 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ovalbumin",
+                "Molecular Size": "4 x 5 x 7 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "37 °C, ratio of OVA digestion:OVA:BSA = 1:100:100 and 1:1000:1000",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N-linked glycans were detected even at high concentrations of interferential proteins."
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "5 x 7 x 7 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "37 °C, ratio of OVA digestion:OVA:BSA = 1:100:100 and 1:1000:1000",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N-linked glycans were detected even at high concentrations of interferential proteins."
+                }
+            },
+            {
+                "Molecule Name": "N-linked glycans",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "37 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "48 N-linked glycans were identified from human serum after enrichment with C-magG@ZIF-8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis",
+            "Performance Metrics": "Detection of 25 N-linked glycans with high signal intensity, even at a low concentration of 1.0 ng/mL OVA digests."
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibited excellent selectivity, sensitivity, recyclability, and size-exclusion performance for N-linked glycans."
+        }
+    }
+]

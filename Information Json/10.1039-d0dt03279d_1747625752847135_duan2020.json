@@ -1,0 +1,253 @@
+[
+    {
+        "Materials Name": "Fe-MOF-74",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "11 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake: 6.02 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake: 5.00 mmol/g, Selectivity: 13.6"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Thermodynamic effect caused by strong polar groups or OMS",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "IAST calculation",
+            "Performance Metrics": "C2H4/C2H6 selectivity: 13.6"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-2-Cu-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "SiF6^2-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake: 4.02 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake: 2.19 mmol/g, Selectivity: 44.54"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size and/or shape exclusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas adsorption and IAST calculation",
+            "Performance Metrics": "C2H2/C2H4 selectivity: 44.54"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "UTSA-200a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake: 3.65 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake: 0.63 mmol/g, Selectivity: >6,320"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size and/or shape exclusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas adsorption and IAST calculation",
+            "Performance Metrics": "C2H2/C2H4 selectivity: >6,320"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "Co-gallate",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.47-3.69 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "Gallate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake: 3.37 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake: 0.30 mmol/g, Selectivity: 52"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size and/or shape exclusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas adsorption and IAST calculation",
+            "Performance Metrics": "C2H4/C2H6 selectivity: 52"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "ITQ-55",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "2.38-3.08 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Flexibility & pore topology",
+                "Other Information": {
+                    "Test Conditions": "298 K, 8.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity: 50"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Flexibility & pore topology",
+                "Other Information": {
+                    "Test Conditions": "298 K, 8.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Flexibility and pore topology",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Kinetic diffusivities",
+            "Performance Metrics": "C2H4/C2H6 selectivity: 50"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    }
+]

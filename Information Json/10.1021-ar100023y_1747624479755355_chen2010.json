@@ -1,0 +1,209 @@
+[
+    {
+        "Materials Name": "Cu(FMA)(4,4′-Bpe)0.5",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.0 × 3.2 Å²",
+            "Structure Type": "3D primitive cubic-type structures"
+        },
+        "Topology": "primitive cubic net",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "fumarate",
+            "4,4′-Bpe"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows significantly higher uptake compared to CO and N2."
+                }
+            },
+            {
+                "Molecule Name": "carbon monoxide",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked by the pore size."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked by the pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sorption isotherms",
+            "Performance Metrics": "H2 uptake significantly higher than CO and N2 at 77 K"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits hysteretic sorption behaviors for CH4 and N2 at 196 K due to framework flexibility."
+        }
+    },
+    {
+        "Materials Name": "Zn(BDC)(4,4′-Bipy)0.5",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.0 Å",
+            "Structure Type": "One-dimensional micropores"
+        },
+        "Topology": "primitive cubic net",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "4,4′-Bipy"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slight size difference contributes to selective interactions."
+                }
+            },
+            {
+                "Molecule Name": "linear alkanes",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Surface interactions with linear parts",
+                "Other Information": {
+                    "Test Conditions": "Gas chromatographic separation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shorter linear parts interact weaker, eluting first in GC."
+                }
+            },
+            {
+                "Molecule Name": "branched alkanes",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Surface interactions based on structure",
+                "Other Information": {
+                    "Test Conditions": "Gas chromatographic separation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Branched alkanes have reduced interaction strength depending on branching."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective adsorption based on molecular geometry",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas chromatography",
+            "Performance Metrics": "Successful separation of natural gas mixtures and alkane isomers"
+        },
+        "Other Information": {
+            "Additional Info": "Exhibits reversible open-dense framework transformation."
+        }
+    },
+    {
+        "Materials Name": "Co2(DHTP)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong interactions with open Co2+ sites",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 atm",
+                    "Threshold Pressure": "0.2 MPa",
+                    "Additional Info": "Highest volumetric acetylene storage capacity reported."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced binding via open metal sites",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Acetylene adsorption isotherms",
+            "Performance Metrics": "Uptake of 230 cm³(STP)/cm³ at 295 K and 1 atm"
+        },
+        "Other Information": {
+            "Additional Info": "Confirmed by high-resolution neutron diffraction studies."
+        }
+    },
+    {
+        "Materials Name": "Zn3(BDC)3[Cu(Pyen)]",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Curved pores: 5.6 × 12.0 Å² along c-axis; Irregular ultramicropores along b-axis",
+            "Structure Type": "Three-dimensional framework"
+        },
+        "Topology": "Trinuclear Zn3(COO)6 SBUs linked by BDC anions",
+        "Metal Nodes": [
+            "Zn2+",
+            "Cu2+"
+        ],
+        "Ligands": [
+            "benzene-1,4-dicarboxylic acid",
+            "Pyen"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong interaction with open Cu2+ sites",
+                "Other Information": {
+                    "Test Conditions": "Variable temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrogen adsorption enthalpy: 12.29 ± 0.53 kJ/mol at zero coverage."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Variable temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rate constants faster for D2; lower activation energy."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic quantum sieving",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Adsorption kinetics study",
+            "Performance Metrics": "Demonstrated H2/D2 separation via differential adsorption kinetics"
+        },
+        "Other Information": {
+            "Additional Info": "First experimental observation of kinetic isotope quantum molecular sieving."
+        }
+    }
+]

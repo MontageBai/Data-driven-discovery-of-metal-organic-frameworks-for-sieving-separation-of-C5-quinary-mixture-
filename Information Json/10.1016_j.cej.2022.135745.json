@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "ZNU-3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.27 ∼ 4.19 Å (as-synthesized), 3.09–4.24 Å (DFT optimized)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "zyb",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "3,5-pyridinedicarboxylic acid (H2Pdc)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate opening and selective gate opening for C2H2",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H2 uptake capacity is 81.0 cm³/g at 1 bar and 298 K."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Gate opening pressure much higher for CO2 than C2H2",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake capacity is only 5.4 cm³/g at 1 bar and 298 K."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to smaller pore aperture",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H4 uptake capacity is only 5.3 cm³/g at 1 bar and 298 K."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to smaller pore aperture",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H6 uptake capacity is only 1.0 cm³/g at 1 bar and 298 K."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to smaller pore aperture",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake capacity is only 1.1 cm³/g at 1 bar and 298 K."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to smaller pore aperture",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 uptake capacity is only 1.1 cm³/g at 1 bar and 298 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective gate opening for C2H2 adsorption over other C1 and C2 gases under ambient temperature.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, DFT calculations",
+            "Performance Metrics": "C2H2/CO2 uptake ratio: 14.9, Dynamic separation selectivity: 5.7"
+        },
+        "Other Information": {
+            "Additional Info": "ZNU-3 exhibits flexible molecular sieving behavior due to mobile hydrogen bonds which allow selective gate opening for acetylene over other gases."
+        }
+    }
+]

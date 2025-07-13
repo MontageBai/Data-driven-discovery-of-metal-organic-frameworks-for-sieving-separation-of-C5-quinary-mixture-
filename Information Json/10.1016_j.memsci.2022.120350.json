@@ -1,0 +1,248 @@
+[
+    {
+        "Materials Name": "OLC-ZIF-67",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Decreased compared to pure ZIF-67 (Not Reported in absolute values)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "Octadecylphosphonic acid",
+            "Lecithin",
+            "Cholesterol"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced permeability and selectivity due to OLC bilayer modification."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size and interaction with modified pore environment."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Mixed-gas permeation tests",
+            "Performance Metrics": "C3H6 permeability: ~274.5 Barrer, C3H6/C3H8 selectivity: 34.5"
+        },
+        "Other Information": {
+            "Additional Info": "The OLC bilayer strengthens the sieving capacity and improves interfacial compatibility with XLPEO matrix."
+        }
+    },
+    {
+        "Materials Name": "ZIF-67",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Baseline performance before surface modification."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion-based separation",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower selectivity compared to OLC-modified variants."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Mixed-gas permeation tests",
+            "Performance Metrics": "Lower C3H6/C3H8 selectivity compared to OLC-ZIF-67"
+        },
+        "Other Information": {
+            "Additional Info": "Used as a base material before bilayer modification."
+        }
+    },
+    {
+        "Materials Name": "OLC-ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Decreased compared to pure ZIF-8 (Not Reported in absolute values)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "Octadecylphosphonic acid",
+            "Lecithin",
+            "Cholesterol"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "30 °C, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Improved separation performance after OLC modification."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size and interaction with modified pore environment."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Mixed-gas permeation tests",
+            "Performance Metrics": "C3H6/C3H8 selectivity increased from 9.1 to 37.1"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrates universality of OLC bilayer modification strategy."
+        }
+    },
+    {
+        "Materials Name": "OLC-MOF-808",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Decreased compared to pure MOF-808 (Not Reported in absolute values)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "30 °C, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Improved separation performance after OLC modification."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size and interaction with modified pore environment."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Mixed-gas permeation tests",
+            "Performance Metrics": "C3H6/C3H8 selectivity increased from 5.4 to 18.0"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrates universality of OLC bilayer modification strategy."
+        }
+    },
+    {
+        "Materials Name": "OLC-CuBTC",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Decreased compared to pure CuBTC (Not Reported in absolute values)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "hkust-1",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "30 °C, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Improved separation performance after OLC modification."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size and interaction with modified pore environment."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Mixed-gas permeation tests",
+            "Performance Metrics": "C3H6/C3H8 selectivity increased from 6.7 to 18.8"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrates universality of OLC bilayer modification strategy."
+        }
+    }
+]

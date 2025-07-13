@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "UTSA-300",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.4 × 3.3 Å² (apertures), 4.3 × 4.3 × 4.1 and 3.5 × 3.9 × 4.1 Å³ (cavities)",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "sql",
+        "Metal Nodes": [
+            "Zn(II)"
+        ],
+        "Ligands": [
+            "4,4′-dipyridylsulfide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.32 × 3.34 × 5.7 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Host-guest interactions in head-on orientation",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Binding to hexafluorosilicate F atoms opens the pore structure"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.18 × 3.33 × 5.36 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion prevents breaking hydrogen bonds",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cannot open closed-pore structure under ambient conditions"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.2 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to larger kinetic diameter",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Complete size exclusion observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size match and orientation binding mode enhance differences between acetylene and carbon dioxide",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Neutron powder diffraction, Molecular modeling",
+            "Performance Metrics": "C2H2/CO2 selectivity: >10⁴ at 273 K, 100 kPa; C2H2/C2H4 selectivity: >10⁴ at 273 K, 100 kPa"
+        },
+        "Other Information": {
+            "Additional Info": "Closed-pore UTSA-300a shows dispersed 0D cavities and strong hydrogen bonding that prevent CO₂ and C₂H₄ from passing through"
+        }
+    }
+]

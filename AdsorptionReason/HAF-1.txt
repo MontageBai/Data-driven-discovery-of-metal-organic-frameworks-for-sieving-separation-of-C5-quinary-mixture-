@@ -1,0 +1,112 @@
+MOF Name: HAF-1
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for HAF-1:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: "Local shrinkage throat with hanging molecular pocket mode, Size exclusion at sub-nanometer scale")
+
+Inferred MOF Adsorption Behavior:
+The experimental data for HAF-1 indicates a clear kinetic sieving effect. Propylene (a C3 alkene with an intermediate dimension of 5.051 Å) is adsorbed, while propane (a C3 alkane with an intermediate dimension of 4.354 Å) is *not* adsorbed, despite propane having a smaller intermediate dimension. This demonstrates that HAF-1's adsorption performance is highly sensitive to the guest molecule's specific shape, flexibility, and chemical nature (alkane vs. alkene), allowing certain molecular geometries to pass through its "local shrinkage throat" while blocking others. It can accommodate molecules with intermediate dimensions up to at least 5.051 Å if their shape is favorable (like propylene).
+
+Isoprene Dimensions:
+-   Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene is a branched alkene. Its intermediate dimension (6.093 Å) is significantly larger than that of propylene (5.051 Å), which is the largest intermediate dimension observed to be adsorbed by HAF-1. Given the tight "size exclusion at sub-nanometer scale" mechanism observed, isoprene is likely too large to pass through the MOF's pores.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: HAF-1
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for HAF-1:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: "Local shrinkage throat with hanging molecular pocket mode, Size exclusion at sub-nanometer scale")
+
+Inferred MOF Adsorption Behavior:
+HAF-1 exhibits kinetic sieving, selectively adsorbing propylene (intermediate 5.051 Å, alkene) while rejecting propane (intermediate 4.354 Å, alkane). This shows that adsorption is dependent on a combination of molecular size, shape, and flexibility, with the MOF accommodating specific geometries through its "local shrinkage throat." It allows passage of molecules with intermediate dimensions up to at least 5.051 Å for favorable shapes.
+
+cis-2-pentene Dimensions:
+-   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene is an alkene. Its intermediate dimension (5.572 Å) is larger than that of propylene (5.051 Å), the largest intermediate dimension observed to be adsorbed. Considering the "size exclusion at sub-nanometer scale" mechanism, even a slight increase in critical dimension beyond the largest adsorbed molecule makes passage unlikely.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: HAF-1
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for HAF-1:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: "Local shrinkage throat with hanging molecular pocket mode, Size exclusion at sub-nanometer scale")
+
+Inferred MOF Adsorption Behavior:
+HAF-1 displays kinetic sieving, demonstrated by its ability to adsorb propylene (intermediate 5.051 Å, alkene) but not propane (intermediate 4.354 Å, alkane). This indicates that the MOF's pore structure, characterized by a "local shrinkage throat," permits specific molecular shapes and flexibilities. For alkenes, it can accommodate an intermediate dimension of at least 5.051 Å.
+
+1-pentene Dimensions:
+-   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene is a linear alkene, similar in chemical nature to propylene. Its intermediate dimension (4.995 Å) is very close to, and slightly *smaller* than, that of propylene (5.051 Å), which is successfully adsorbed. Given that molecules of the same chemical family (alkenes) with intermediate dimensions up to 5.051 Å can pass, it is geometrically compatible for 1-pentene to be adsorbed, despite its longer overall length (C5 vs C3). The evaluation focuses primarily on the intermediate dimension for passage.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: HAF-1
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for HAF-1:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: "Local shrinkage throat with hanging molecular pocket mode, Size exclusion at sub-nanometer scale")
+
+Inferred MOF Adsorption Behavior:
+HAF-1 exhibits kinetic sieving, adsorbing propylene (intermediate 5.051 Å, alkene) while rejecting propane (intermediate 4.354 Å, alkane). This implies a selective pore environment that favors certain molecular shapes and flexibilities, allowing alkenes with intermediate dimensions up to at least 5.051 Å to pass through its "local shrinkage throat."
+
+trans-2-pentene Dimensions:
+-   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene is an alkene, similar in chemical nature to propylene. Its intermediate dimension (4.733 Å) is smaller than that of propylene (5.051 Å), which is adsorbed. While its overall length (C5 vs C3) is greater, the primary focus for passage is the intermediate dimension. As an alkene with a smaller intermediate dimension than propylene, it is geometrically compatible with the MOF's pore if the MOF discriminates based on the alkene/alkane nature and intermediate size.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: HAF-1
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for HAF-1:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: "Local shrinkage throat with hanging molecular pocket mode, Size exclusion at sub-nanometer scale")
+
+Inferred MOF Adsorption Behavior:
+HAF-1 exhibits kinetic sieving, demonstrating a preference for propylene (alkene) over propane (alkane), even though propane has a smaller intermediate dimension. This indicates that the MOF's "local shrinkage throat" actively discriminates based on molecular type and shape, rejecting alkanes with intermediate dimensions around 4.354 Å.
+
+n-pentane Dimensions:
+-   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane is a linear alkane, chemically similar to propane. Its intermediate dimension (4.364 Å) is nearly identical to propane's (4.354 Å), which was experimentally determined not to be adsorbed by HAF-1 due to size exclusion and its specific interaction with the pore. Given the strong rejection of propane, it is highly likely that n-pentane, a molecule of the same chemical family and very similar intermediate dimension, will also be rejected.
+
+Therefore, the result is: **Cannot Adsorb**

@@ -1,0 +1,190 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.26 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25–100 °C, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water flux increases with temperature, e.g., 5.8 kg/(m²·h) at 25 °C and 13.5 kg/(m²·h) at 100 °C."
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.72 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25–100 °C, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion rejection >99.8% across all temperatures."
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "0.66 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25–100 °C, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion rejection >99.8% across all temperatures."
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "0.82 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25–100 °C, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion rejection >99.6% across all temperatures."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.86 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25–100 °C, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion rejection >99.9% across all temperatures."
+                }
+            },
+            {
+                "Molecule Name": "chlorine",
+                "Molecular Size": "0.66 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25–100 °C, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion rejection >99.9% across all temperatures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ionic sieving due to small pore size (0.34 nm), which excludes hydrated ions but allows water molecules to pass.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Water flux: 5.8–13.5 kg/(m²·h) depending on temperature; Ion rejection >99.8% for major seawater ions."
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 membrane exhibits high thermal and chemical stability in seawater, maintaining performance over 7 days of continuous testing."
+        }
+    },
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.26 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25–100 °C, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High water flux observed; decreases slightly with increasing salt concentration."
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.72 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25–100 °C, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion rejection >99.5%."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Water flux decreases from 9.1 to 2.5 kg/(m²·h) as feed seawater concentration increases from 2 to 10 wt.%; Ion rejection remains >99.5%."
+        },
+        "Other Information": {
+            "Additional Info": "Similar performance trends as ZIF-8 membrane, with high stability and ion rejection."
+        }
+    },
+    {
+        "Materials Name": "ZIF-90",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate-2-carboxyaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.26 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25–100 °C, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High water flux observed; increases with temperature."
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.72 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25–100 °C, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion rejection >99.5%."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Water flux increases with temperature; Ion rejection remains >99.5%."
+        },
+        "Other Information": {
+            "Additional Info": "Similar performance trends as ZIF-8 membrane, with high stability and ion rejection."
+        }
+    }
+]

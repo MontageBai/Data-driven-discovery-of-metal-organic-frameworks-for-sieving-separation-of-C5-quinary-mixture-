@@ -1,0 +1,49 @@
+**MOF Name: SIFSIX-1-Cu**
+
+**Detailed Reasoning for SIFSIX-1-Cu Pore Size Inference:**
+From the experimental data, SIFSIX-1-Cu shows adsorption for:
+*   Carbon dioxide (CO2): Dimensions 5.198×3.200×3.200 Å. Its intermediate dimension is **3.200 Å**. It is listed as Adsorbed (Yes), with the reason "Size exclusion at sub-nanometer scale" and "Strong CO2-framework interactions".
+
+The phrasing "Size exclusion at sub-nanometer scale" for an *adsorbed* molecule is crucial. It implies that the MOF's pores are precisely sized to allow CO2 to pass, suggesting a tight fit or a highly selective pore aperture rather than a large, open pore. This indicates that the effective pore size is likely not significantly larger than 3.200 Å. While we cannot establish an exact upper bound from the provided data (as no molecules were excluded by size), the mechanism points to a finely tuned pore. Therefore, we infer that the effective pore size of SIFSIX-1-Cu is just above 3.200 Å, making it capable of adsorbing molecules of this size, but likely excluding molecules with significantly larger intermediate dimensions.
+
+**Evaluation of Target Guest Molecules:**
+
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   Isoprene Dimensions: 7.746×6.093×3.963 Å. Its intermediate dimension is **6.093 Å**.
+*   Comparison: SIFSIX-1-Cu adsorbs Carbon dioxide (intermediate dimension 3.200 Å) through a mechanism described as "Size exclusion at sub-nanometer scale". This suggests a pore aperture that is precisely tailored, likely close to 3.200 Å. Isoprene's intermediate dimension (6.093 Å) is significantly larger than 3.200 Å. Therefore, it is highly probable that isoprene would be too large to pass through or be adsorbed by the pores of SIFSIX-1-Cu.
+
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 Å. Its intermediate dimension is **5.572 Å**.
+*   Comparison: As inferred from the CO2 adsorption data (intermediate 3.200 Å, "Size exclusion at sub-nanometer scale"), SIFSIX-1-Cu likely possesses a precise pore aperture around this size. cis-2-pentene's intermediate dimension (5.572 Å) is substantially larger than 3.200 Å. Thus, it is expected to be excluded by the MOF's pores.
+
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   1-pentene Dimensions: 8.847×4.995×4.897 Å. Its intermediate dimension is **4.995 Å**.
+*   Comparison: Based on the "Size exclusion at sub-nanometer scale" for CO2 (intermediate 3.200 Å) adsorption, SIFSIX-1-Cu's pores are likely finely tuned. 1-pentene's intermediate dimension (4.995 Å) is considerably larger than 3.200 Å. Therefore, it is predicted to be too large for adsorption.
+
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 Å. Its intermediate dimension is **4.733 Å**.
+*   Comparison: Given that SIFSIX-1-Cu adsorbs CO2 (intermediate 3.200 Å) via a precise "Size exclusion at sub-nanometer scale" mechanism, its effective pore size is likely close to 3.200 Å. trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than this inferred pore size, suggesting it cannot be adsorbed.
+
+**Guest Molecule: n-pentane**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   n-pentane Dimensions: 9.118×4.364×3.969 Å. Its intermediate dimension is **4.364 Å**.
+*   Comparison: The adsorption of CO2 (intermediate 3.200 Å) through a "Size exclusion at sub-nanometer scale" mechanism indicates a highly selective and tight pore aperture for SIFSIX-1-Cu. n-pentane's intermediate dimension (4.364 Å) is notably larger than 3.200 Å. Therefore, it is predicted that n-pentane would be excluded due to its larger size relative to the MOF's precise pore dimensions.

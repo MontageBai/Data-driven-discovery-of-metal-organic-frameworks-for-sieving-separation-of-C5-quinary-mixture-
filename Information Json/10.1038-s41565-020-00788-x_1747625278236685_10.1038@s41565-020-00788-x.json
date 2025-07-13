@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å, 10 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "5,5′-dimethyl-2,2′-bis-p-benzoquinone (Me2BBQ)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The MOF-gel separator prevents the permeation of dissolved redox intermediates of Me2BBQ."
+                }
+            },
+            {
+                "Molecule Name": "p-benzoquinone (BQ)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-dependent passage",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller molecular organic electrode material diffuses through the MOF-gel separator."
+                }
+            },
+            {
+                "Molecule Name": "9,10-anthraquinone (9,10-AQ)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "MOF-gel separator blocks the migration of dissolved redox intermediates of AQ molecules."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Capacity retention: ~82.9% after 2,000 cycles for Li‒Me2BBQ battery"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF-gel separator prevents side reactions caused by dissolved organic electrode materials."
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "UiO-66@GO-CS (10:4)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 3.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection ratio: 97.0%"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 3.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection ratio: 99.0%"
+                }
+            },
+            {
+                "Molecule Name": "acid organic",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 3.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection ratio: 99.4%"
+                }
+            },
+            {
+                "Molecule Name": "direct red 80",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 3.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection ratio: 99.7%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Permeation experiments",
+            "Performance Metrics": "Water flux: 14.62 L m^-2 h^-1 bar^-1, Rejection ratios >99% for dyes"
+        },
+        "Other Information": {
+            "Additional Info": "Self-healing property demonstrated; rejection ratios restored to >98% after healing process."
+        }
+    }
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "Materials Name": "ZUL-500",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 × 3.7 Å (along c axis), 3.4 × 3.5 Å (along b axis), PLD: 3.42 Å, LCD: 4.11 Å, GCD: 4.11 Å",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "sql",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4′-dipyridylsulfone",
+            "hexafluorogermanate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 × 3.3 × 5.7 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Competitive adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Dynamic exclusion of CO2 observed; C2H2 uptake capacity up to 5.42 mmol/g at 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 × 3.3 × 5.4 Å³",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Competitive adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible CO2 uptake in mixture isotherms due to strong competitive adsorption by acetylene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dynamic exclusion based on affinity difference between C2H2 and CO2",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H2 dynamic uptake: 3.78 mmol/g; C2H2/CO2 separation factor: 39.3 for multicomponent mixture"
+        },
+        "Other Information": {
+            "Additional Info": "ZUL-500 shows high stability toward water and heat, with excellent mass transfer properties."
+        }
+    },
+    {
+        "Materials Name": "ZU-32",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4′-dipyridylacetylene",
+            "hexafluorogermanate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 × 3.3 × 5.7 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Competitive adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower C2H2 uptake compared to ZUL-500."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 × 3.3 × 5.4 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Competitive adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher CO2 uptake compared to ZUL-500, leading to lower selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H2 dynamic uptake: 2.63 mmol/g; C2H2/CO2 separation factor: Not explicitly reported but inferior to ZUL-500"
+        },
+        "Other Information": {
+            "Additional Info": "Lower performance in terms of C2H2 capacity and CO2 exclusion compared to ZUL-500."
+        }
+    }
+]

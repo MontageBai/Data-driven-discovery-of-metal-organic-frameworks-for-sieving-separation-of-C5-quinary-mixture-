@@ -1,0 +1,100 @@
+[
+    {
+        "Materials Name": "Aniline@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Cm, I_43 m",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "aniline"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective adsorption and molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, varying feed pressure up to 4.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced adsorption due to aniline as a selective adsorption site."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, varying feed pressure up to 4.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted diffusion due to steric hindrance and phase transformation to Cm."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and selective adsorption",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-gas permeance experiments, Rietveld refinement of XRD patterns, QCM measurements",
+            "Performance Metrics": "Propylene/propane selectivity: up to 85, Permeance: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Aniline modification promotes phase transition from I_43 m to Cm, enhancing propylene/propane separation performance."
+        }
+    },
+    {
+        "Materials Name": "Anix-ZIF-8 membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (four-membered windows)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Cm, I_43 m",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "aniline"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective adsorption and molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, varying feed pressure up to 4.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced adsorption due to aniline as a selective adsorption site."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, varying feed pressure up to 4.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted diffusion due to steric hindrance and phase transformation to Cm."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and selective adsorption",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeance experiments, Rietveld refinement of XRD patterns, DFT calculations",
+            "Performance Metrics": "Propylene/propane selectivity: up to 85, Permeance: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Aniline modification enhances lattice rigidity and promotes phase transition from I_43 m to Cm, improving separation performance."
+        }
+    }
+]

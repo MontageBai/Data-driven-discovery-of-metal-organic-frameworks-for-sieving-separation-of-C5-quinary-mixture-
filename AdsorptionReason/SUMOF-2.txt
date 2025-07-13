@@ -1,0 +1,107 @@
+MOF Name: SUMOF-2
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SUMOF-2:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of SUMOF-2 is greater than or equal to the largest intermediate dimension of the adsorbed molecules, which is 3.877 Å (from methane). However, without data on non-adsorbed molecules (specifically those excluded by size), a precise upper limit for the effective pore size cannot be strictly determined from the provided experimental information.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than the largest molecule experimentally confirmed to be adsorbed by SUMOF-2 (methane, 3.877 Å). Given that the adsorption mechanism mentioned for the adsorbed molecules is "Size exclusion," it is highly improbable that isoprene, with its considerably larger intermediate dimension, can pass through the pores of SUMOF-2.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: SUMOF-2
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SUMOF-2:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of SUMOF-2 is greater than or equal to the largest intermediate dimension of the adsorbed molecules, which is 3.877 Å (from methane). However, without data on non-adsorbed molecules (specifically those excluded by size), a precise upper limit for the effective pore size cannot be strictly determined from the provided experimental information.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the largest molecule experimentally confirmed to be adsorbed by SUMOF-2 (methane, 3.877 Å). Given that the adsorption mechanism mentioned for the adsorbed molecules is "Size exclusion," it is highly improbable that cis-2-pentene, with its considerably larger intermediate dimension, can pass through the pores of SUMOF-2.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: SUMOF-2
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SUMOF-2:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of SUMOF-2 is greater than or equal to the largest intermediate dimension of the adsorbed molecules, which is 3.877 Å (from methane). However, without data on non-adsorbed molecules (specifically those excluded by size), a precise upper limit for the effective pore size cannot be strictly determined from the provided experimental information.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is significantly larger than the largest molecule experimentally confirmed to be adsorbed by SUMOF-2 (methane, 3.877 Å). Given that the adsorption mechanism mentioned for the adsorbed molecules is "Size exclusion," it is highly improbable that 1-pentene, with its considerably larger intermediate dimension, can pass through the pores of SUMOF-2.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: SUMOF-2
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SUMOF-2:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of SUMOF-2 is greater than or equal to the largest intermediate dimension of the adsorbed molecules, which is 3.877 Å (from methane). However, without data on non-adsorbed molecules (specifically those excluded by size), a precise upper limit for the effective pore size cannot be strictly determined from the provided experimental information.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the largest molecule experimentally confirmed to be adsorbed by SUMOF-2 (methane, 3.877 Å). Given that the adsorption mechanism mentioned for the adsorbed molecules is "Size exclusion," it is highly improbable that trans-2-pentene, with its considerably larger intermediate dimension, can pass through the pores of SUMOF-2.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: SUMOF-2
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SUMOF-2:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of SUMOF-2 is greater than or equal to the largest intermediate dimension of the adsorbed molecules, which is 3.877 Å (from methane). However, without data on non-adsorbed molecules (specifically those excluded by size), a precise upper limit for the effective pore size cannot be strictly determined from the provided experimental information.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is significantly larger than the largest molecule experimentally confirmed to be adsorbed by SUMOF-2 (methane, 3.877 Å). Given that the adsorption mechanism mentioned for the adsorbed molecules is "Size exclusion," it is highly improbable that n-pentane, with its considerably larger intermediate dimension, can pass through the pores of SUMOF-2.
+
+Therefore, the result is: **Cannot Adsorb**

@@ -1,0 +1,113 @@
+[
+    {
+        "Materials Name": "Zn-PDI",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "19.2 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "perylene diimide (PDI) bispyrazoles"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Coloration efficiency: 941 cm2 C−1 at 746 nm"
+        },
+        "Other Information": {
+            "Additional Info": "Electrochromic response retained to more than 99% over 100 reduction−oxidation cycles."
+        }
+    },
+    {
+        "Materials Name": "Zn-NDI",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "14.8 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "naphthalene diimide (NDI) bispyrazoles"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Coloration efficiency: 610 cm2 C−1 at 472 nm"
+        },
+        "Other Information": {
+            "Additional Info": "Excellent electrochemical cyclability with <3% decrease in peak absorbance over 50 cycles."
+        }
+    },
+    {
+        "Materials Name": "Zn-PMDI",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "14.2 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "pyromellitic diimide (PMDI) bispyrazoles"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Coloration efficiency: 753 cm2 C−1 at 714 nm"
+        },
+        "Other Information": {
+            "Additional Info": "Comparatively the least stable among the three, showing some degree of delamination upon excessive cycling."
+        }
+    }
+]

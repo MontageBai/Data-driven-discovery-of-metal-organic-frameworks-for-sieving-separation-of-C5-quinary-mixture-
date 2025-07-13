@@ -1,0 +1,122 @@
+[
+    {
+        "Materials Name": "PCF/ZIF-8-Co",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (original ZIF-8), modified due to tight interfaces",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+",
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "9.7 × 4.5 × 4.0 Å3",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 50 Torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest nHex vapor uptake of 2.26 mmol⋅g−1"
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "9.2 × 6.4 × 5.3 Å3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 50 Torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake (<0.3 mmol⋅g−1)"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "9.3 × 6.2 × 5.2 Å3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 50 Torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake, diffusion decreased significantly"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Tight interfaces with benzene-ring hindered 3-MP entry into pore channels while allowing nHex passage",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Working capacity: 215.0 mg⋅g−1 for nHex, negligible uptake for 3-MP (4.1 mg⋅g−1)"
+        },
+        "Other Information": {
+            "Additional Info": "Excellent recyclability and stability over three adsorption–desorption cycles"
+        }
+    },
+    {
+        "Materials Name": "PCF/ZIF-8-NH2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Reduced from original ZIF-8 (3.4 Å)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "amino-functionalized ligand"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "9.7 × 4.5 × 4.0 Å3",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 50 Torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "nHex uptake: 1.31 mmol⋅g−1"
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "9.2 × 6.4 × 5.3 Å3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 50 Torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake (~0.1 mmol⋅g−1)"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "9.3 × 6.2 × 5.2 Å3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 50 Torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake (~0.1 mmol⋅g−1)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Full size-exclusion-based sample rejecting larger molecules",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms",
+            "Performance Metrics": "nHex/2-MP selectivity: 10.9, nHex/3-MP selectivity: 11.9"
+        },
+        "Other Information": {
+            "Additional Info": "Reduced pore size and volume resulted in lower nHex uptake compared to PCF/ZIF-8-Co"
+        }
+    }
+]

@@ -1,0 +1,102 @@
+MOF Name: TaOFFIVE-1-Ni
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for TaOFFIVE-1-Ni:
+- Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 Å → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of TaOFFIVE-1-Ni:
+The MOF adsorbs carbon dioxide (intermediate dimension 3.200 Å) but does not adsorb methane (intermediate dimension 3.877 Å) due to size exclusion. This strongly indicates that the effective pore aperture of TaOFFIVE-1-Ni is greater than or equal to 3.200 Å and strictly less than 3.877 Å. Therefore, the inferred effective pore size range is **[3.200 Å, 3.877 Å)**.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the upper limit of the inferred effective pore size (~3.877 Å), it cannot be adsorbed by TaOFFIVE-1-Ni due to size exclusion.
+
+---
+
+MOF Name: TaOFFIVE-1-Ni
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for TaOFFIVE-1-Ni:
+- Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 Å → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of TaOFFIVE-1-Ni:
+Based on the experimental data, the effective pore aperture of TaOFFIVE-1-Ni is inferred to be in the range **[3.200 Å, 3.877 Å)**.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 Å → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the upper limit of the inferred effective pore size (~3.877 Å), it cannot be adsorbed by TaOFFIVE-1-Ni due to size exclusion.
+
+---
+
+MOF Name: TaOFFIVE-1-Ni
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for TaOFFIVE-1-Ni:
+- Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 Å → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of TaOFFIVE-1-Ni:
+Based on the experimental data, the effective pore aperture of TaOFFIVE-1-Ni is inferred to be in the range **[3.200 Å, 3.877 Å)**.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the upper limit of the inferred effective pore size (~3.877 Å), it cannot be adsorbed by TaOFFIVE-1-Ni due to size exclusion.
+
+---
+
+MOF Name: TaOFFIVE-1-Ni
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for TaOFFIVE-1-Ni:
+- Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 Å → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of TaOFFIVE-1-Ni:
+Based on the experimental data, the effective pore aperture of TaOFFIVE-1-Ni is inferred to be in the range **[3.200 Å, 3.877 Å)**.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 Å → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the upper limit of the inferred effective pore size (~3.877 Å), it cannot be adsorbed by TaOFFIVE-1-Ni due to size exclusion.
+
+---
+
+MOF Name: TaOFFIVE-1-Ni
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for TaOFFIVE-1-Ni:
+- Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 Å → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of TaOFFIVE-1-Ni:
+Based on the experimental data, the effective pore aperture of TaOFFIVE-1-Ni is inferred to be in the range **[3.200 Å, 3.877 Å)**.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the upper limit of the inferred effective pore size (~3.877 Å), it cannot be adsorbed by TaOFFIVE-1-Ni due to size exclusion.

@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "FJI-H38",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.9 Å (initial), 4.2 Å (after activation)",
+            "Structure Type": "1D channel"
+        },
+        "Topology": "6-connected Co node and 4-connected DTBA linker",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "3,5-di(4H-1,2,4-triazol-4-yl)benzoic acid (HDTBA)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High-density electronegativity O and N atoms promote interactions with n-C4H10."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake due to larger size compared to pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic effect of pore confinement and uncoordinated carboxyl groups",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Gas-loaded single crystal X-ray analysis, Modeling calculation",
+            "Performance Metrics": "n-C4H10/iso-C4H10 selectivity: 246.75, n-C4H10 productivity: 42.83 L/kg, iso-C4H10 productivity: 42.35 L/kg"
+        },
+        "Other Information": {
+            "Additional Info": "Activated FJI-H38 exhibits high butane capacity at low pressure and excellent separation performance under various conditions."
+        }
+    }
+]

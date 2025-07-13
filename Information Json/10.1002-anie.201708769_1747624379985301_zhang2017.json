@@ -1,0 +1,182 @@
+[
+    {
+        "Materials Name": "GeFSIX-2-Cu-i (ZU-32)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.5 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4’-dipyridylacetylene",
+            "hexafluorogermanate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1, 3-butadiene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.01 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Steep increase in adsorption at low pressures."
+                }
+            },
+            {
+                "Molecule Name": "1-butene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.01 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate uptake compared to 1,3-butadiene."
+                }
+            },
+            {
+                "Molecule Name": "isobutene",
+                "Molecular Size": "4.52×5.76×6.71 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.01 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size-sieving effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Fine-tuned pore aperture for molecular recognition and size sieving.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C4H6/n-C4H8 selectivity: 2.94; C4H6/iso-C4H8 selectivity: 2.26"
+        },
+        "Other Information": {
+            "Additional Info": "High thermal stability up to 483 K and good water-stability."
+        }
+    },
+    {
+        "Materials Name": "NbFSIX-2-Cu-i (ZU-52)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.06 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4’-dipyridylacetylene",
+            "hexafluoroniobate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1, 3-butadiene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening phenomenon",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.01 bar",
+                    "Threshold Pressure": "Approximately 0.005 bar",
+                    "Additional Info": "Strong interaction after gate-opening."
+                }
+            },
+            {
+                "Molecule Name": "1-butene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening phenomenon",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.01 bar",
+                    "Threshold Pressure": "Approximately 0.005 bar",
+                    "Additional Info": "Moderate uptake observed."
+                }
+            },
+            {
+                "Molecule Name": "isobutene",
+                "Molecular Size": "4.52×5.76×6.71 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.01 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded from adsorption."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Fine-tuned pore aperture for molecular recognition and size sieving.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "n-C4H8/iso-C4H8 selectivity: 5.00; C4H6/iso-C4H8 selectivity: 5.74"
+        },
+        "Other Information": {
+            "Additional Info": "High thermal stability up to 518 K and good recyclability."
+        }
+    },
+    {
+        "Materials Name": "GeFSIX-14-Cu-i (ZU-33)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0 Å (H-H distance), 4.2 Å (F-F distance)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4′-azopyridine",
+            "hexafluorogermanate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1, 3-butadiene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening phenomenon",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.01 bar",
+                    "Threshold Pressure": "Not Reported",
+                    "Additional Info": "Significant uptake after gate-opening."
+                }
+            },
+            {
+                "Molecule Name": "1-butene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.01 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded from adsorption."
+                }
+            },
+            {
+                "Molecule Name": "isobutene",
+                "Molecular Size": "4.52×5.76×6.71 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.01 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded from adsorption."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Flexible pore window enabling selective gate-opening for specific molecules.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C4H6/n-C4H8 selectivity: 4.68; C4H6/iso-C4H8 selectivity: 6.40"
+        },
+        "Other Information": {
+            "Additional Info": "High thermal stability up to 513 K and excellent recyclability."
+        }
+    }
+]

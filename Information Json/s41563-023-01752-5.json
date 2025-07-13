@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-62",
+        "Material Category": "MOF glass",
+        "Pore/Structural Features": {
+            "Pore Size": "2.7 ± 0.5 Å (non-pressed), 3.2 ± 0.9 Å (pressed)",
+            "Structure Type": "Amorphous glass"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion through amorphous pores",
+                "Other Information": {
+                    "Test Conditions": "Tempered glass, monitored by infrared microimaging",
+                    "Threshold Pressure": "Not Reported",
+                    "Additional Info": "Diffusion constant measurable using infrared microimaging."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to pore collapse",
+                "Other Information": {
+                    "Test Conditions": "Tempered glass, monitored by infrared microimaging",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusivity too low to measure; excluded from the material."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Tunable pore size via tempering and mechanical pressing",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Infrared microimaging",
+            "Performance Metrics": "Diffusion constants measured for CO2; C2H6 excluded"
+        },
+        "Other Information": {
+            "Additional Info": "Processing conditions (temperature, pressure, time) control pore properties for molecular sieving applications."
+        }
+    }
+]

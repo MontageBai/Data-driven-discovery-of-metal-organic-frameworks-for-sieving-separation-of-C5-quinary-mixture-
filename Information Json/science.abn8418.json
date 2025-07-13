@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "ZU-609",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.5 × 8.1 × 11.1 Å3 (large channel), 4.2 Å × 5.1 Å (sieving gate)",
+            "Structure Type": "1D channels with local contraction"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "EDS2− (1,2-ethanedisulfonate)",
+            "dps (4,4’-dipyridyl sulfide)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.1 Å × 5.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption isotherm approaches linear type with moderate heat of adsorption (43 kJ mol−1). Dynamic C3H6 capacity is approximately 1.64 mmol g−1."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.1 Å × 5.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane breaks out immediately along with the inert gas He during breakthrough experiments, indicating sieving effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size/shape sieving based on cross-section size of the contraction falling between propylene and propane sizes.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, volumetric adsorption measurement",
+            "Performance Metrics": "C3H6/C3H8 selectivity: Not explicitly reported; Propylene diffusion coefficient: ~1.00 × 10−9 cm2 s−1 to 1.36 × 10−9 cm2 s−1; C3H6 productivity: 32.2 L kg−1 (99.9% purity)"
+        },
+        "Other Information": {
+            "Additional Info": "ZU-609 exhibits ultrafast adsorption kinetics for propylene separation with a measured diffusion coefficient one to two orders of magnitude higher than previous molecular sieves."
+        }
+    }
+]

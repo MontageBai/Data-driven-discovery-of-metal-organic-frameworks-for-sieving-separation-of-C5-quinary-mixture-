@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "Y-abtc-160",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "ftw",
+        "Metal Nodes": [
+            "Y3+"
+        ],
+        "Ligands": [
+            "3, 3′, 5, 5′-azobenzene-tetracarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1,3-butadiene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C4H6 uptake is 49.5 cm³ g⁻¹ at 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "n-butene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake ratio of C4H6/n-C4H8 is 40.9"
+                }
+            },
+            {
+                "Molecule Name": "iso-butene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake ratio of C4H6/iso-C4H8 is 63.1"
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "iso-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Efficient separation of C4H6/n-C4H8, C4H6/iso-C4H8, C4H6/n-C4H10, and C4H6/iso-C4H10 binary mixtures"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows excellent chemical stability and good regeneration ability for C4H6/n-C4H8 separation."
+        }
+    }
+]

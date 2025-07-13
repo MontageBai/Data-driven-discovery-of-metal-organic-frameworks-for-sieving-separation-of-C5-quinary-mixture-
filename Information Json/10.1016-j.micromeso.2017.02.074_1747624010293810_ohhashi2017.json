@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "Au NP@mSiO2@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "micropores (based on ZIF-8) and mesopores (based on mSiO2)"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitromethane",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, methanol solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitromethane molecules could diffuse into ZIF-8 pores."
+                }
+            },
+            {
+                "Molecule Name": "4-nitrophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, methanol solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion of 4-nitrophenol into ZIF-8 pores was prevented by the sieving effect."
+                }
+            },
+            {
+                "Molecule Name": "Cu2+ ions",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cu2+ ions induced quenching of fluorescent dyes."
+                }
+            },
+            {
+                "Molecule Name": "Cu(II)-EDTA complex",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Bulky Cu(II)-EDTA complexes could not induce quenching of fluorescent dyes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Fluorescence quenching experiments",
+            "Performance Metrics": "Quenching behavior observed for nitromethane and Cu2+ ions; no quenching observed for 4-nitrophenol and Cu(II)-EDTA complex."
+        },
+        "Other Information": {
+            "Additional Info": "The mSiO2 phase enables the encapsulation of functional molecules, while the ZIF-8 shell acts as a gate, controlling access of guest molecules via a sieving effect."
+        }
+    }
+]

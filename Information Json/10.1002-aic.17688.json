@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "UTSA-280",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "14.4 Å² (cross-sectional area)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "squaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "13.7 Å²",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "35°C, 2.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced solubility and diffusivity for ethylene compared to ethane."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "15.5 Å²",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35°C, 2.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size being larger than the pore cross-sectional area of UTSA-280."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pure gas permeability test, Mixed gas separation test",
+            "Performance Metrics": "C2H4 permeability: 6.49 Barrer, C2H4/C2H6 selectivity: 4.94 (at optimal loading of 21.80 wt%)"
+        },
+        "Other Information": {
+            "Additional Info": "The incorporation of UTSA-280 into 6FDA-DAM:DABA(3:2) MMMs enhanced both C2H4 permeability and C2H4/C2H6 selectivity, demonstrating the importance of permeability matching between filler and matrix."
+        }
+    }
+]

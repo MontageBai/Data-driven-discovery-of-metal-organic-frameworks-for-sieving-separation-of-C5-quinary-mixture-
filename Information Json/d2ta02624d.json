@@ -1,0 +1,170 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (aperture), 3.92 Å (largest aperture in dataset)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "SOD",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Fully flexible framework, conditions vary",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusivity ratio DCO2/DCH4 is approx. 9"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Fully flexible framework, conditions vary",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Used as a reference for diffusivity ratios"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Fully flexible framework, conditions vary",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Performance improves with metal substitution (e.g., Co2+ or Cu2+)"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Fully flexible framework, conditions vary",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation performance depends on metal substitution"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MD simulations and dc-TST calculations",
+            "Performance Metrics": "DCO2/DCH4 ratio: ~9, Dpropylene/Dpropane varies with modifications"
+        },
+        "Other Information": {
+            "Additional Info": "Aperture size controls diffusivity; structural modifications (metal/linker changes) significantly impact separation efficiency."
+        }
+    },
+    {
+        "Materials Name": "ZIF-7-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.95 Å (aperture after 15% decrease)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "SOD",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Fully flexible framework, conditions vary",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusivity ratio DCO2/DCH4 increases to 3 × 10^3"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Fully flexible framework, conditions vary",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked due to reduced aperture size"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MD simulations and dc-TST calculations",
+            "Performance Metrics": "DCO2/DCH4 ratio: 3 × 10^3"
+        },
+        "Other Information": {
+            "Additional Info": "Replacement of one mIm linker with bIm reduces aperture size by 15%, enhancing selectivity."
+        }
+    },
+    {
+        "Materials Name": "Be-ZIF-7-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.59 Å (aperture after 13% decrease)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "SOD",
+        "Metal Nodes": [
+            "Be2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Fully flexible framework, conditions vary",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusivity ratio DCO2/DCH4 increases to 6.43 × 10^9"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Fully flexible framework, conditions vary",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked due to further reduced aperture size"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MD simulations and dc-TST calculations",
+            "Performance Metrics": "DCO2/DCH4 ratio: 6.43 × 10^9"
+        },
+        "Other Information": {
+            "Additional Info": "Substitution of Zn2+ with Be2+ decreases aperture size by 13%, leading to extreme selectivity."
+        }
+    }
+]

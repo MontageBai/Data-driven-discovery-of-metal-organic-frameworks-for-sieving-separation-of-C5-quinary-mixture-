@@ -1,0 +1,112 @@
+MOF Name: Zn-based MOF
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-based MOF:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Yes), Mechanism: Kinetic separation
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Conditional), Mechanism: Kinetic separation
+
+Inferred effective pore size of Zn-based MOF:
+The experimental data indicates that methane (intermediate dimension 3.877 Å) and carbon dioxide (intermediate dimension 3.200 Å) are adsorbed via "Kinetic separation" or "Conditional" adsorption with kinetic separation. This observation is crucial: it signifies that the pore openings of the Zn-based MOF are a tight fit for these small molecules, leading to kinetically hindered diffusion or adsorption rather than rapid, unhindered passage. This strongly implies that the effective pore size is only marginally larger than the intermediate dimension of methane (3.877 Å), likely in the range of ~3.9 Å to ~4.2 Å. If the pores were significantly larger, kinetic separation would not be the primary reported mechanism for such small molecules.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of methane (3.877 Å), which itself undergoes kinetic separation upon adsorption, it is highly improbable that isoprene can be adsorbed by the Zn-based MOF. The effective pore size, inferred to be just above 3.877 Å, would exclude isoprene.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn-based MOF
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-based MOF:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Yes), Mechanism: Kinetic separation
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Conditional), Mechanism: Kinetic separation
+
+Inferred effective pore size of Zn-based MOF:
+As explained above, the "Kinetic separation" observed for methane (intermediate dimension 3.877 Å) and carbon dioxide (intermediate dimension 3.200 Å) strongly suggests that the effective pore aperture of the Zn-based MOF is a tight fit for these molecules, likely being only marginally larger than ~3.877 Å (e.g., ~3.9 Å to ~4.2 Å).
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Given that cis-2-pentene's intermediate dimension (5.572 Å) is substantially larger than that of methane (3.877 Å), which is already subject to kinetic separation, it is highly unlikely that cis-2-pentene can be adsorbed by the Zn-based MOF due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn-based MOF
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-based MOF:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Yes), Mechanism: Kinetic separation
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Conditional), Mechanism: Kinetic separation
+
+Inferred effective pore size of Zn-based MOF:
+The "Kinetic separation" mechanism observed for the adsorption of methane (intermediate dimension 3.877 Å) and carbon dioxide (intermediate dimension 3.200 Å) indicates a tight fit within the MOF's pores. This suggests that the effective pore aperture is likely just slightly larger than 3.877 Å (e.g., ~3.9 Å to ~4.2 Å).
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+With an intermediate dimension of 4.995 Å, 1-pentene is considerably larger than methane (3.877 Å), for which the MOF already exhibits kinetic sieving. It is therefore highly probable that 1-pentene would be excluded by the MOF's pores.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn-based MOF
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-based MOF:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Yes), Mechanism: Kinetic separation
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Conditional), Mechanism: Kinetic separation
+
+Inferred effective pore size of Zn-based MOF:
+The observed "Kinetic separation" for methane (intermediate dimension 3.877 Å) and carbon dioxide (intermediate dimension 3.200 Å) implies that the Zn-based MOF has a highly restrictive pore size, likely only slightly exceeding 3.877 Å (e.g., ~3.9 Å to ~4.2 Å).
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Trans-2-pentene, with an intermediate dimension of 4.733 Å, is significantly larger than methane (3.877 Å), which is already subject to kinetic sieving by this MOF. This size difference makes it highly improbable for trans-2-pentene to be adsorbed due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn-based MOF
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-based MOF:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Yes), Mechanism: Kinetic separation
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Conditional), Mechanism: Kinetic separation
+
+Inferred effective pore size of Zn-based MOF:
+The fact that both methane (intermediate dimension 3.877 Å) and carbon dioxide (intermediate dimension 3.200 Å) are adsorbed with "Kinetic separation" suggests that the MOF's pores are very narrow and pose a significant kinetic barrier even for these small molecules. This implies the effective pore size is likely just slightly above 3.877 Å (e.g., ~3.9 Å to ~4.2 Å).
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+N-pentane's intermediate dimension (4.364 Å) is notably larger than that of methane (3.877 Å), which already experiences kinetic separation during adsorption. Given the tight pore nature implied by the kinetic sieving of methane, it is highly unlikely that the larger n-pentane molecule could be adsorbed by the Zn-based MOF due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**

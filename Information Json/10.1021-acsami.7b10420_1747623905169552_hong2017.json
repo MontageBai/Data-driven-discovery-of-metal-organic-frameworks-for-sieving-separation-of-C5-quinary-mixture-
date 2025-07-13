@@ -1,0 +1,52 @@
+[
+    {
+        "Materials Name": "MECS-5",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "9.403 Å × 11.408 Å × 6.801 Å (2D layer grid cavity), 4.5×5.3 Å, 3.4×4.5 Å, 1.8×3.9 Å (small pore windows)",
+            "Structure Type": "3D pillar-layered"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cd2+",
+            "Cd3(O2CR)6"
+        ],
+        "Ligands": [
+            "terephthalic acid",
+            "2-Hydroxy-3-methoxybenzaldehyde-pyridin-3-ylcarbonylhydrazone (HMPCZ)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption amount: 86.2 cm³·g⁻¹ (2.74 mmol·g⁻¹) at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption amount: 25.5 cm³·g⁻¹ (1.14 mmol·g⁻¹) at 298 K and 1 bar."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "C2H2/C2H4 selectivity: 17.5 to 12.6 in the range of 0-100 kPa at 298 K; Breakthrough points: C2H4 = 3.85 mmol/g, C2H2 = 8.38 mmol/g; Purity of C2H4 > 99.996%"
+        },
+        "Other Information": {
+            "Additional Info": "The material combines sieving effects and pore space partitioning, with open Cd(II) sites and π…π interactions contributing to acetylene adsorption."
+        }
+    }
+]

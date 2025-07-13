@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "FeTPP@MIL-101(Cr)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.75 nm (micropores), 1.5 nm, 2.1 nm, 2.7 nm (reduced proportion)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid",
+            "5,10,15,20-tetrakis(4-methylphenyl)porphyrinato iron(III) chloride"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Extra interactions with FeTPP and Cr(III) open metal sites",
+                "Other Information": {
+                    "Test Conditions": "273 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced CO2 uptake due to synergistic effect of FeTPP and MIL-101(Cr)"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Sieving effect caused by narrow gap between FeTPP and Cr3O cluster",
+                "Other Information": {
+                    "Test Conditions": "273 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 molecules prevented from entering the narrow gap due to larger kinetic diameter"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale due to FeTPP incorporation",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: 41.8 (FeTPP@MIL-101(Cr)-1, 273 K, 100 kPa)"
+        },
+        "Other Information": {
+            "Additional Info": "Encapsulation of FeTPP enhances CO2/N2 separation performance significantly compared to pristine MIL-101(Cr)"
+        }
+    }
+]

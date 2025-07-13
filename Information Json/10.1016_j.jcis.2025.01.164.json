@@ -1,0 +1,150 @@
+[
+    {
+        "Materials Name": "CD-MOF-1",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "7.8 Å, 4.0 Å, 17 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "cubic",
+        "Metal Nodes": [
+            "K+"
+        ],
+        "Ligands": [
+            "γ-cyclodextrin"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexafluorophosphate",
+                "Molecular Size": "3.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The multilevel hierarchical pore structure of BCDM-1 (7.8, 4.0 Å) displays additional size-selective ion-sieving capability."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Density functional theory (DFT) calculations, ATR-FTIR, Raman measurements",
+            "Performance Metrics": "Binding energy: -3.47 eV, tLi+ = 0.82"
+        },
+        "Other Information": {
+            "Additional Info": "BCDM-1 with an open hierarchical pore structure can better absorb ions pairs and anchor anions, facilitating lithium salt dissociation and immobilizing the anions."
+        }
+    },
+    {
+        "Materials Name": "CD-MOF-2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "7.0 Å, 7.8 Å",
+            "Structure Type": "unidirectional sub-nanochannels"
+        },
+        "Topology": "triclinic",
+        "Metal Nodes": [
+            "Na+"
+        ],
+        "Ligands": [
+            "γ-cyclodextrin"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexafluorophosphate",
+                "Molecular Size": "3.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Unidirectional sub-nanochannels in BCDM-2 are more than double the size of PF6−, causing poor ion-sieving capacity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Density functional theory (DFT) calculations, ATR-FTIR, Raman measurements",
+            "Performance Metrics": "Binding energy: -2.18 eV, tLi+ = 0.35"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "CD-MOF-3",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 × 5.8 Å, 5.6 × 5.4 Å",
+            "Structure Type": "T shape structure with bowl-like pore, 8 type double channels"
+        },
+        "Topology": "monoclinic",
+        "Metal Nodes": [
+            "K+"
+        ],
+        "Ligands": [
+            "β-cyclodextrin"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexafluorophosphate",
+                "Molecular Size": "3.2 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "These electrolytes will be partly blocked by the bowl-like pore and won't effectively transport ions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Density functional theory (DFT) calculations, ATR-FTIR, Raman measurements",
+            "Performance Metrics": "Binding energy: -1.17 eV, tLi+ = 0.19"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "CD-MOF-4",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 × 5.8 Å, 5.6 × 5.4 Å",
+            "Structure Type": "T shape structure with bowl-like pore, 8 type double channels"
+        },
+        "Topology": "monoclinic",
+        "Metal Nodes": [
+            "Na+"
+        ],
+        "Ligands": [
+            "β-cyclodextrin"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexafluorophosphate",
+                "Molecular Size": "3.2 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "These electrolytes will be partly blocked by the bowl-like pore and won't effectively transport ions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Density functional theory (DFT) calculations, ATR-FTIR, Raman measurements",
+            "Performance Metrics": "Binding energy: -3.29 eV, tLi+ = 0.69"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    }
+]

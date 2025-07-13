@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MXene/Cellulose nanofiber membrane (MXene@CNF)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "13.76 Å (interlayer spacing)",
+            "Structure Type": "Lamellar structure with confined hydrogen bonding nanochannels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Cellulose nanofibers (CNF)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.641 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermal-recognized hydrogen bonding and diffusion kinetics difference",
+                "Other Information": {
+                    "Test Conditions": "70 °C, D2O content: 10%, Membrane thickness: 100 nm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water (H2O) diffuses faster than D2O due to weaker hydrogen bonding."
+                }
+            },
+            {
+                "Molecule Name": "deuterium water",
+                "Molecular Size": "2.641 Å (kinetic diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Thermal-recognized deuterium bonding and diffusion kinetics difference",
+                "Other Information": {
+                    "Test Conditions": "70 °C, D2O content: 10%, Membrane thickness: 100 nm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Deuterium water (D2O) exhibits slower diffusion due to stronger deuterium bonding under thermal conditions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Amplified diffusion kinetics differences between H2O and D2O via high-density ─OH/─OD network",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, FTIR, Raman spectroscopy, Molecular dynamics simulations",
+            "Performance Metrics": "D2O rejection: up to 26.2% at 80 °C, Separation factor: 5.2, Energy consumption: 2.9 GJ kg−1"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane shows excellent long-term stability and can reduce D2O content from 10% to 0.736% in eight stages of sieving processes."
+        }
+    }
+]

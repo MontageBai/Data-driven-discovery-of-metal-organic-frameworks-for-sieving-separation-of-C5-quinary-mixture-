@@ -1,0 +1,96 @@
+[
+    {
+        "Materials Name": "POMOF@IPN membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.686 nm (BJH)",
+            "Structure Type": "Network-like microstructure with POMOF particle inclusions"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+",
+            "Cu2+"
+        ],
+        "Ligands": [
+            "terephthalic acid",
+            "ethylene diamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "20 mg/L dye solution, 150 psi transmembrane pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal efficiency ~99%"
+                }
+            },
+            {
+                "Molecule Name": "Congo red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "20 mg/L dye solution, 150 psi transmembrane pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal efficiency ~99%"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic attraction",
+                "Other Information": {
+                    "Test Conditions": "20 mg/L dye solution, 150 psi transmembrane pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal efficiency ~99%"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic attraction",
+                "Other Information": {
+                    "Test Conditions": "20 mg/L dye solution, 150 psi transmembrane pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal efficiency ~99%"
+                }
+            },
+            {
+                "Molecule Name": "azithromycin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 mg/L solution, 150 psi transmembrane pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal efficiency ~97.98%"
+                }
+            },
+            {
+                "Molecule Name": "amoxicillin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 mg/L solution, 150 psi transmembrane pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal efficiency ~98.5%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Electrostatic Donnan exclusion effect facilitated by anionic POMOF cluster combined with size-based sieving through IPN architecture",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Dead-end filtration setup, UV-Vis spectrophotometry",
+            "Performance Metrics": "Dye rejection efficiency: ~99%, Antibiotic rejection: ~97-98%"
+        },
+        "Other Information": {
+            "Additional Info": "The POMOF@IPN membrane showed enhanced hydrophilicity (WCA ~51.63°) and high negative surface charge (-47.66 mV)"
+        }
+    }
+]

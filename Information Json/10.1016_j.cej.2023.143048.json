@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "6FDA-DAM/ZIF-8 MMM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "<5 nm (ZIF-8 filler particles), Not Reported (overall)",
+            "Structure Type": "Asymmetric structure with selective dense mixed-matrix top layer on a porous bottom layer"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Enhanced molecular sieving property of ZIF-8 nanofillers resulting from the restricted linker swing motion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, atmospheric pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6 permeance of 7.48 ± 1.39 GPU at 40 °C coagulation bath temperature"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale due to restricted linker swing motion of ZIF-8 fillers",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, atmospheric pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6/C3H8 separation factor of 106.93 ± 14.42 at 40 °C coagulation bath temperature"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale due to restricted linker swing motion of ZIF-8 fillers",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke-Kallenbach technique, Gas chromatography (GC) with flame ionized detector (FID)",
+            "Performance Metrics": "C3H6 permeance: 7.48 ± 1.39 GPU, C3H6/C3H8 selectivity: 106.93 ± 14.42"
+        },
+        "Other Information": {
+            "Additional Info": "The PIMOF process enabled one-step facile preparation of ZIF-8-containing MMMs with defect-free ultra-thin selective mixed-matrix skin layers"
+        }
+    }
+]

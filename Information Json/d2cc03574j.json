@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Trianglimine macrocycle 1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.0 Å (intrinsic cavity)",
+            "Structure Type": "Intrinsically porous, layered structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cis-1,2-dichloroethene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Host/guest C–H···π interaction and size/shape selectivity",
+                "Other Information": {
+                    "Test Conditions": "298 K, solid-vapor adsorption",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selective adsorption over trans-DCE with high purity (>96%) in both liquid and vapor phases."
+                }
+            },
+            {
+                "Molecule Name": "trans-1,2-dichloroethene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size/shape mismatch preventing penetration into the cavity",
+                "Other Information": {
+                    "Test Conditions": "298 K, solid-vapor adsorption",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake observed; unable to fit into the intrinsic cavity of the macrocycle."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size/shape exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Solid-vapor adsorption experiments, PXRD, SCXRD, TGA, GC analysis",
+            "Performance Metrics": "Cis-DCE purity: >96%, Selectivity: >92%"
+        },
+        "Other Information": {
+            "Additional Info": "Macrocycles are recyclable and reusable without loss of performance; stable under basic and humid conditions but degrade in acidic environments."
+        }
+    }
+]

@@ -1,0 +1,168 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (dynamic aperture for CO2)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-8's small apertures enable sieving of CO2 from mixtures containing N2 and CH4."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-8's flexible structure weakens its sieving ability, but IL@ZIF-8 narrows the cut-off size effectively."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-8's flexible structure weakens its sieving ability, but IL@ZIF-8 narrows the cut-off size effectively."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas absorption tests",
+            "Performance Metrics": "ZIF-8 shows a separation factor enhanced dramatically; the best ZIF-722-8 membrane achieves ten times better than pure ZIF-8."
+        },
+        "Other Information": {
+            "Additional Info": "The aperture size of ZIF-8 was tailored using ionic liquid 1-butyl-3-methylimidazolium bis(trifluoromethyl-sulfonyl) imide ([bmim][Tf2N]) as a pore size regulator."
+        }
+    },
+    {
+        "Materials Name": "IL@ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.59 nm (largest pore diameter after confinement)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "IL@ZIF-8 effectively narrows the cut-off size, enhancing CO2/CH4 separation performance."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "IL@ZIF-8 narrows the cut-off size effectively, improving selectivity."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "IL@ZIF-8 narrows the cut-off size effectively, improving selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas absorption tests",
+            "Performance Metrics": "MMM fabricated from IL@ZIF-8 and PSF crosses Robeson’s Upper bound."
+        },
+        "Other Information": {
+            "Additional Info": "Ionic liquid 1-butyl-3-methylimidazolium bis(trifluoromethyl-sulfonyl) imide ([bmim][Tf2N]) was used as a pore size regulator to tailor the aperture size of ZIF-8."
+        }
+    },
+    {
+        "Materials Name": "Zn4(bim)4 (ZIF-7)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.21 nm (calculated from crystal structure)",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Flexibility of ligands allows passage",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 molecules can pass through the aperture due to the flexibility of bim ligands."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Blocked by rigid aperture",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 molecules are blocked and can only transit through defects or gaps between layers."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion with ligand flexibility",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeance and selectivity tests",
+            "Performance Metrics": "Membrane displays proportional correlation between H2 permeance and H2/CO2 selectivity."
+        },
+        "Other Information": {
+            "Additional Info": "Single-layered ultrathin (ca. 1 nm) nanosheets were prepared into membranes using a hot-drop coating process."
+        }
+    }
+]

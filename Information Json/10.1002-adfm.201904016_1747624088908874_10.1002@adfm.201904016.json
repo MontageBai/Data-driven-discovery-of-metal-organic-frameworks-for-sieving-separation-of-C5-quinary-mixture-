@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "amorphous pMOF@Alg(Al)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Amorphous structures composed of Al3+-alginate crosslinks and Al3+-phosphonate organic ligand complexes"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "N,N'-piperazine-bis(methylenephosphonic acid)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.76 Å (ionic radius, dehydrated state), 0.38 nm (hydrated radius)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Dehydration-assisted ion transport",
+                "Other Information": {
+                    "Test Conditions": "Varies with reaction temperature and time (24 h or 48 h), pH 7, concentrations of 500 ppm and 1000 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+ ions are rejected in a dehydrated state due to strong repulsion from Al3+ ions coordinated within negatively charged groups. Dehydration occurs due to the synergistic effect of intertwined amorphous structure and Al3+-phosphonate organic ligand complexes."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.43 nm (hydrated radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydration energy-based adsorption",
+                "Other Information": {
+                    "Test Conditions": "Varies with reaction temperature and time (24 h or 48 h), pH 7, concentrations of 500 ppm and 1000 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Mg2+ ions remain hydrated and are effectively adsorbed due to their higher hydration energy compared to Li+ ions."
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.36 nm (hydrated radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption based on hydration affinity",
+                "Other Information": {
+                    "Test Conditions": "Reaction temperature 90 °C, 24 h, pH 7, initial concentration 1000 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Na+ ions exhibit lower adsorption capacity compared to Li+ due to repulsion from trivalent Al3+ ions."
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "0.33 nm (hydrated radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption based on hydration affinity",
+                "Other Information": {
+                    "Test Conditions": "Reaction temperature 90 °C, 24 h, pH 7, initial concentration 1000 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "K+ ions exhibit lower adsorption capacity compared to Li+ due to repulsion from trivalent Al3+ ions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size confinement effect through dehydration for small hydration energy ions (e.g., Li+)",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments, PXRD, FTIR, TEM, EDS, Solid-state NMR",
+            "Performance Metrics": "Li+/Mg2+ selectivity varies with reaction conditions; maximum adsorption capacities: Li+ = 0.664 mmol g-1, Mg2+ = 0.323 mmol g-1 (at 80 °C, 48 h)"
+        },
+        "Other Information": {
+            "Additional Info": "Amorphous structures modulated by reaction temperature, intertwinement degree of alginate networks, and partial hydrolysis. The material exhibits tunable ion sieving behavior without selective porosity."
+        }
+    }
+]

@@ -1,0 +1,113 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (PLD), 6.0 Å (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore opening of ZIF-8 allows for the concentration of small molecules like H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "TEM imaging and catalytic experiments",
+            "Performance Metrics": "High catalytic activity in hydrogenation reactions when functionalized with Pd nanoparticles."
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 demonstrated high stability during synthesis and catalytic experiments, particularly when used as a support for Pd nanoparticles."
+        }
+    },
+    {
+        "Materials Name": "ZIF-90-NH2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-aminoimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Amino-functionalized ZIF-90 demonstrated enhanced catalytic activity compared to non-functionalized ZIF-8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic testing",
+            "Performance Metrics": "Higher TOF values (up to 35.2 s^-1) in nitrophenol reduction compared to non-functionalized ZIF-8."
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-90-NH2 showed improved performance in catalytic hydrogenation when combined with Pd nanoparticles."
+        }
+    },
+    {
+        "Materials Name": "MAF-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "dia",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-amino-1,2,4-triazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "MAF-66 exhibited significant catalytic activity enhancement when combined with Pd/Fe3O4 nanoparticles."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic testing",
+            "Performance Metrics": "Highest TOF value of 4.10 s^-1 among all tested materials in nitrophenol reduction."
+        },
+        "Other Information": {
+            "Additional Info": "Microparticulated MAF-66 demonstrated superior catalytic performance compared to nanoparticulated supports."
+        }
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "Zn-ox-mtz",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 Å (window size), 4.8 Å (cage dimension)",
+            "Structure Type": "1D channels with interconnected hexahedral cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "oxalic acid",
+            "3-methyl-1H-1,2,4-triazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 is tightly trapped by multiple C=O⋅⋅⋅H-C hydrogen bonding and O=C⋅⋅⋅O forces in the cavity."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 displays an overlarge energy barrier to cross the contract pore windows."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 displays an overlarge energy barrier to cross the contract pore windows."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: >10^6, CO2/CH4 selectivity: >10^5, CO2 capacity: 2.60 ± 0.12 mmol g−1 at 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows excellent chemical stability, water stability, and thermal stability up to 340 °C. Granulated Zn-ox-mtz beads retained separation performance with high MOF loading (93.8%)."
+        }
+    }
+]

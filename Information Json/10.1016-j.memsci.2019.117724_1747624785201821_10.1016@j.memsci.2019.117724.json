@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "HSO3-UiO-66@PVC",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.60 nm (sulfonated)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-sulfobenzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.076 nm (unhydrated), 0.38 nm (hydrated)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "1 mol L-1 LiCl, pH=6.87",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion coefficient: 2.0×10^-10 cm² s⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.086 nm (unhydrated), 0.43 nm (hydrated)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Binding affinity with sulfonate groups",
+                "Other Information": {
+                    "Test Conditions": "1 mol L-1 MgCl2, pH=6.87",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion coefficient: 4.67×10^-11 cm² s⁻¹. Strong interaction between sulfonate groups and Mg2+ delays transfer."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion combined with chemical interaction",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I-V) measurement, diffusion experiment",
+            "Performance Metrics": "Li+/Mg2+ selectivity > 4"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane exhibits excellent stability after 78 days in saline solution."
+        }
+    },
+    {
+        "Materials Name": "UiO-66@PVC",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.60 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.076 nm (unhydrated), 0.38 nm (hydrated)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "1 mol L-1 LiCl, pH=6.87",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrated ions partially lose water molecules to enter pores."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.086 nm (unhydrated), 0.43 nm (hydrated)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "1 mol L-1 MgCl2, pH=6.87",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pores restrict hydrated Mg2+ transport."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I-V) measurement",
+            "Performance Metrics": "Li+/Mg2+ selectivity > 1"
+        },
+        "Other Information": {
+            "Additional Info": "Smaller pore size enhances Li+ selectivity over larger hydrated ions."
+        }
+    }
+]

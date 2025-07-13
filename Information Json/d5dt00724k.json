@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZIF-8/PVDF",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.35 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "6.62 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dehydration-dependent sieving",
+                "Other Information": {
+                    "Test Conditions": "0.1 M electrolyte solution, 298 K, +0.4 V applied potential",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Activation energy for transport through the channel is 5.9 kcal mol^-1."
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "7.16 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dehydration-dependent sieving",
+                "Other Information": {
+                    "Test Conditions": "0.1 M electrolyte solution, 298 K, +0.4 V applied potential",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Activation energy for transport through the channel is 7.6 kcal mol^-1."
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "7.64 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dehydration-dependent sieving",
+                "Other Information": {
+                    "Test Conditions": "0.1 M electrolyte solution, 298 K, +0.4 V applied potential",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Activation energy for transport through the channel is 8.8 kcal mol^-1."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "8.56 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dehydration-dependent sieving",
+                "Other Information": {
+                    "Test Conditions": "0.1 M electrolyte solution, 298 K, +0.4 V applied potential",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Activation energy for transport through the channel is 19.8 kcal mol^-1."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dehydration-dependent size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Ion transport measurements using an H-type electrolytic cell and DFT simulations",
+            "Performance Metrics": "K+/Mg2+ selectivity: 30.16, Li+/Mg2+ selectivity: 17.81, K+ permeance: 0.33 mol m^-2 h^-1"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 layer was grown on a PVDF substrate modified with polydopamine (PDA) and β-cyclodextrin (β-CD) to enhance interfacial compatibility. The material exhibited excellent stability and cycling performance in various ionic solutions."
+        }
+    }
+]

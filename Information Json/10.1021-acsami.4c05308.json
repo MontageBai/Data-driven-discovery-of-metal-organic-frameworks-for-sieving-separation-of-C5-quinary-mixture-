@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "CFGC-0.09−750",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.68 Å to 5.12 Å (sieving pores), <4.68 Å (invalid pores), >5.12 Å (nonsieving pores)",
+            "Structure Type": "Amorphous porous carbon with locally ordered graphitic microdomains"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake of 1.88 mmol/g at 298 K and 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.12 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Near-complete exclusion with uptake of 0.032 mmol/g at 298 K and 1 bar"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, isotherm measurement",
+            "Performance Metrics": "C3H6/C3H8 selectivity: 106.75, C3H6 uptake: 1.88 mmol/g at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "Proposed three-region model for pore size distribution in amorphous porous carbons; prepared from coffee bean biomass via pyrolysis and activation with FeCl3"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "MAF-41",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.9×6.7 Å² (aperture), 4.2×9.8×10.1 Å³ (cavity in as-synthesized state), 0.7×6.0×6.1 Å³ (cavity in shrunken state)",
+            "Structure Type": "3D hinged-fence-like network with 1D sugar-coated-berry type channels"
+        },
+        "Topology": "cds (four-connected CdSO4)",
+        "Metal Nodes": [
+            "Cu(i)"
+        ],
+        "Ligands": [
+            "2,6-ditrifluoromethyl-benzodiimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "styrene",
+                "Molecular Size": "3.3×6.7×9.7 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Intermediate-sized molecular sieving (iSMS)",
+                "Other Information": {
+                    "Test Conditions": "298 K, equimolar mixtures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity reaches theoretical values (2.38 mmol g⁻¹). Selectivity over ethylbenzene is 1,250."
+                }
+            },
+            {
+                "Molecule Name": "ethylbenzene",
+                "Molecular Size": "4.2×6.7×9.6 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion (kinetic mechanism)",
+                "Other Information": {
+                    "Test Conditions": "298 K, equimolar mixtures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded due to larger size than the maximal aperture of the MOF."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Thermodynamic exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, equimolar mixtures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded because its adsorption energy is too low to induce gate-opening action."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Thermodynamic exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, equimolar mixtures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded because its adsorption energy is too low to induce gate-opening action."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Intermediate-sized molecular sieving (iSMS) combining kinetic and thermodynamic guest exclusion mechanisms.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-component isotherms, mixture adsorption experiments, GCMC simulations, DFT optimizations, MD simulations",
+            "Performance Metrics": "ST/EB selectivity: 1,250; ST purity: >99.9% after single adsorption–desorption cycle"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits superhydrophobicity (water contact angle: 153±1°) and ultrahigh thermal/chemical stability (stable in boiling water for 7 days and at pH 3–14)."
+        }
+    }
+]

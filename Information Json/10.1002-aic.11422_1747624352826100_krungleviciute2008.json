@@ -1,0 +1,99 @@
+[
+    {
+        "Materials Name": "Cu-BTC",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "9.0 Å (main channels), 3.5 Å (triangular windows to side pockets)",
+            "Structure Type": "3D system of pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "Benzene-1,3,5-tricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "argon",
+                "Molecular Size": "3.40 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "90.03 K, 176 Pa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs in small tetrahedral-shaped side pockets."
+                }
+            },
+            {
+                "Molecule Name": "carbon tetrafluoride",
+                "Molecular Size": "3.99 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Steric hindrance",
+                "Other Information": {
+                    "Test Conditions": "118 K, 149 Pa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sterically forbidden from entering the side pockets."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Steric separation mechanism based on pore size incompatibility.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Equilibrium adsorption isotherms and kinetic measurements",
+            "Performance Metrics": "Argon can access small side pockets; CF4 cannot."
+        },
+        "Other Information": {
+            "Additional Info": "Kinetic differences observed for Ar and CF4 adsorption."
+        }
+    },
+    {
+        "Materials Name": "RPM1-Co",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.0–4.6 Å (triangular windows to super cages)",
+            "Structure Type": "One-dimensional channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "biphenyldicarboxylate",
+            "4,4'-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "argon",
+                "Molecular Size": "3.40 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "78.5 K, 164 Pa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs faster than CF4 due to smaller size."
+                }
+            },
+            {
+                "Molecule Name": "carbon tetrafluoride",
+                "Molecular Size": "3.99 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "118 K, 153 Pa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs much slower than Ar due to larger size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic separation mechanism based on diffusion rates.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Equilibrium adsorption isotherms and kinetic measurements",
+            "Performance Metrics": "Ar adsorbs significantly faster than CF4."
+        },
+        "Other Information": {
+            "Additional Info": "Main channels are too small for CF4 but accessible to Ar."
+        }
+    }
+]

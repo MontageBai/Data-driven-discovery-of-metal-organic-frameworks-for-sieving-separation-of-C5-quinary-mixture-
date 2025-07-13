@@ -1,0 +1,117 @@
+MOF Name: NTU-67
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NTU-67:
+*   Acetylene (5.538×3.200×3.200 Å): Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+*   Carbon dioxide (5.198×3.200×3.200 Å): Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+*   Ethylene (4.679×4.047×3.200 Å): Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NTU-67:
+The MOF can adsorb molecules with an intermediate dimension of 3.200 Å, but it excludes molecules with an intermediate dimension of 4.047 Å. This suggests that the effective pore size of NTU-67 is greater than or equal to 3.200 Å and strictly less than 4.047 Å. Therefore, the inferred effective pore size range is approximately **[3.200 Å, 4.047 Å)**.
+
+Isoprene Dimensions:
+*   Isoprene: 7.746×6.093×3.963 Å
+*   Sorted dimensions: 3.963, **6.093**, 7.746 Å
+*   Intermediate dimension = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the upper bound of the inferred effective pore size of NTU-67 (4.047 Å), it cannot be adsorbed.
+
+---
+
+MOF Name: NTU-67
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NTU-67:
+*   Acetylene (5.538×3.200×3.200 Å): Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+*   Carbon dioxide (5.198×3.200×3.200 Å): Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+*   Ethylene (4.679×4.047×3.200 Å): Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NTU-67:
+The MOF can adsorb molecules with an intermediate dimension of 3.200 Å, but it excludes molecules with an intermediate dimension of 4.047 Å. This suggests that the effective pore size of NTU-67 is greater than or equal to 3.200 Å and strictly less than 4.047 Å. Therefore, the inferred effective pore size range is approximately **[3.200 Å, 4.047 Å)**.
+
+cis-2-pentene Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 Å
+*   Sorted dimensions: 5.136, **5.572**, 8.067 Å
+*   Intermediate dimension = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the upper bound of the inferred effective pore size of NTU-67 (4.047 Å), it cannot be adsorbed.
+
+---
+
+MOF Name: NTU-67
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NTU-67:
+*   Acetylene (5.538×3.200×3.200 Å): Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+*   Carbon dioxide (5.198×3.200×3.200 Å): Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+*   Ethylene (4.679×4.047×3.200 Å): Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NTU-67:
+The MOF can adsorb molecules with an intermediate dimension of 3.200 Å, but it excludes molecules with an intermediate dimension of 4.047 Å. This suggests that the effective pore size of NTU-67 is greater than or equal to 3.200 Å and strictly less than 4.047 Å. Therefore, the inferred effective pore size range is approximately **[3.200 Å, 4.047 Å)**.
+
+1-pentene Dimensions:
+*   1-pentene: 8.847×4.995×4.897 Å
+*   Sorted dimensions: 4.897, **4.995**, 8.847 Å
+*   Intermediate dimension = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the upper bound of the inferred effective pore size of NTU-67 (4.047 Å), it cannot be adsorbed.
+
+---
+
+MOF Name: NTU-67
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NTU-67:
+*   Acetylene (5.538×3.200×3.200 Å): Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+*   Carbon dioxide (5.198×3.200×3.200 Å): Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+*   Ethylene (4.679×4.047×3.200 Å): Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NTU-67:
+The MOF can adsorb molecules with an intermediate dimension of 3.200 Å, but it excludes molecules with an intermediate dimension of 4.047 Å. This suggests that the effective pore size of NTU-67 is greater than or equal to 3.200 Å and strictly less than 4.047 Å. Therefore, the inferred effective pore size range is approximately **[3.200 Å, 4.047 Å)**.
+
+trans-2-pentene Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 Å
+*   Sorted dimensions: 4.564, **4.733**, 8.796 Å
+*   Intermediate dimension = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the upper bound of the inferred effective pore size of NTU-67 (4.047 Å), it cannot be adsorbed.
+
+---
+
+MOF Name: NTU-67
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NTU-67:
+*   Acetylene (5.538×3.200×3.200 Å): Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+*   Carbon dioxide (5.198×3.200×3.200 Å): Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+*   Ethylene (4.679×4.047×3.200 Å): Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NTU-67:
+The MOF can adsorb molecules with an intermediate dimension of 3.200 Å, but it excludes molecules with an intermediate dimension of 4.047 Å. This suggests that the effective pore size of NTU-67 is greater than or equal to 3.200 Å and strictly less than 4.047 Å. Therefore, the inferred effective pore size range is approximately **[3.200 Å, 4.047 Å)**.
+
+n-pentane Dimensions:
+*   n-pentane: 9.118×4.364×3.969 Å
+*   Sorted dimensions: 3.969, **4.364**, 9.118 Å
+*   Intermediate dimension = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is larger than the upper bound of the inferred effective pore size of NTU-67 (4.047 Å), it cannot be adsorbed.

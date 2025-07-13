@@ -1,0 +1,131 @@
+Here's the evaluation for Y-dbai based on the provided data:
+
+**Inferred Effective Pore Size of Y-dbai:**
+
+From the experimental data for Y-dbai:
+*   **Adsorbed (Yes):**
+    *   1-butene: 7.585×4.583×4.535 → Intermediate = **4.583 Å**
+    *   propylene: 6.257×5.051×3.961 → Intermediate = **5.051 Å**
+    *   butadiene: 7.663×5.161×3.200 → Intermediate = **5.161 Å**
+    *   *Largest intermediate dimension adsorbed: 5.161 Å (butadiene)*
+
+*   **Non-Adsorbed (No):**
+    *   propane: 6.552×4.354×3.970 → Intermediate = **4.354 Å** | Reason: "Size exclusion...molecular sieving" (Kinetic/shape effect, as it's smaller than some adsorbed molecules).
+    *   isobutene: 6.527×5.566×3.960 → Intermediate = **5.566 Å** | Reason: "Size exclusion" (Clear upper bound for simple size exclusion).
+    *   *Smallest intermediate dimension non-adsorbed by clear size exclusion: 5.566 Å (isobutene)*
+
+Based on the general size exclusion effect: Y-dbai can adsorb molecules with intermediate dimensions up to at least 5.161 Å (butadiene) but excludes molecules with intermediate dimensions of 5.566 Å (isobutene) or greater. Therefore, the effective pore size for simple size exclusion is likely in the range **[5.161 Å, 5.566 Å)**.
+
+Crucially, propane (intermediate dimension 4.354 Å) is *not* adsorbed, despite being smaller than other adsorbed molecules like 1-butene (4.583 Å), propylene (5.051 Å), and butadiene (5.161 Å). The reason provided ("Size exclusion at sub-nanometer scale due to pore window size and electrostatic interactions, molecular sieving") indicates that a kinetic sieving effect or specific shape-selective rejection mechanism is at play, particularly for n-alkanes like propane. This implies that even if a molecule's intermediate dimension is within the general pore size range, its specific shape, flexibility, or interaction with the pore walls might still lead to rejection.
+
+---
+
+**Evaluations for Target Guest Molecules:**
+
+**MOF Name: Y-dbai**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Y-dbai:
+*   Adsorbed examples (intermediate dimensions): 1-butene (4.583 Å), propylene (5.051 Å), butadiene (5.161 Å).
+*   Non-adsorbed examples (intermediate dimensions): propane (4.354 Å, kinetic/shape sieving), isobutene (5.566 Å, size exclusion).
+
+Inferred effective pore size of Y-dbai for simple size exclusion is approximately **[5.161 Å, 5.566 Å)**.
+
+Isoprene Dimensions:
+*   Isoprene: 7.746×6.093×3.963 → Intermediate = **6.093 Å**
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is larger than the intermediate dimension of isobutene (5.566 Å), which is experimentally confirmed as not adsorbed due to size exclusion, isoprene is too large to pass through the pores of Y-dbai.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+**MOF Name: Y-dbai**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Y-dbai:
+*   Adsorbed examples (intermediate dimensions): 1-butene (4.583 Å), propylene (5.051 Å), butadiene (5.161 Å).
+*   Non-adsorbed examples (intermediate dimensions): propane (4.354 Å, kinetic/shape sieving), isobutene (5.566 Å, size exclusion).
+
+Inferred effective pore size of Y-dbai for simple size exclusion is approximately **[5.161 Å, 5.566 Å)**.
+
+cis-2-pentene Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = **5.572 Å**
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is slightly larger than the intermediate dimension of isobutene (5.566 Å), which is experimentally confirmed as not adsorbed due to size exclusion, cis-2-pentene is too large to pass through the pores of Y-dbai.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+**MOF Name: Y-dbai**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Y-dbai:
+*   Adsorbed examples (intermediate dimensions): 1-butene (4.583 Å), propylene (5.051 Å), butadiene (5.161 Å).
+*   Non-adsorbed examples (intermediate dimensions): propane (4.354 Å, kinetic/shape sieving), isobutene (5.566 Å, size exclusion).
+
+Inferred effective pore size of Y-dbai for simple size exclusion is approximately **[5.161 Å, 5.566 Å)**.
+
+1-pentene Dimensions:
+*   1-pentene: 8.847×4.995×4.897 → Intermediate = **4.995 Å**
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is smaller than the largest experimentally adsorbed molecule, butadiene (5.161 Å), and significantly smaller than isobutene (5.566 Å), which is excluded by size. Furthermore, 1-pentene is an alkene, similar to the adsorbed 1-butene (4.583 Å) and propylene (5.051 Å), suggesting it won't face the same kinetic sieving issues as propane. Therefore, it is predicted to be adsorbed.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+**MOF Name: Y-dbai**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Y-dbai:
+*   Adsorbed examples (intermediate dimensions): 1-butene (4.583 Å), propylene (5.051 Å), butadiene (5.161 Å).
+*   Non-adsorbed examples (intermediate dimensions): propane (4.354 Å, kinetic/shape sieving), isobutene (5.566 Å, size exclusion).
+
+Inferred effective pore size of Y-dbai for simple size exclusion is approximately **[5.161 Å, 5.566 Å)**.
+
+trans-2-pentene Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = **4.733 Å**
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) falls within the range of molecules experimentally adsorbed (e.g., larger than 1-butene (4.583 Å) but smaller than butadiene (5.161 Å)). Like 1-pentene, it is an alkene, similar to other adsorbed alkenes, suggesting it would not be subject to the same kinetic sieving exclusion observed for propane.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+**MOF Name: Y-dbai**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Y-dbai:
+*   Adsorbed examples (intermediate dimensions): 1-butene (4.583 Å), propylene (5.051 Å), butadiene (5.161 Å).
+*   Non-adsorbed examples (intermediate dimensions): propane (4.354 Å, kinetic/shape sieving), isobutene (5.566 Å, size exclusion).
+
+Inferred effective pore size of Y-dbai for simple size exclusion is approximately **[5.161 Å, 5.566 Å)**.
+
+n-pentane Dimensions:
+*   n-pentane: 9.118×4.364×3.969 → Intermediate = **4.364 Å**
+
+Conclusion:
+While n-pentane's intermediate dimension (4.364 Å) is numerically smaller than several adsorbed molecules, it is very similar to that of propane (4.354 Å). Propane is experimentally confirmed as *not adsorbed* due to "size exclusion at sub-nanometer scale due to pore window size and electrostatic interactions, molecular sieving." As n-pentane is also a linear n-alkane, and specifically a longer homologue of propane, it is highly probable that it would experience the same kinetic/shape-selective rejection mechanism by Y-dbai.
+
+Therefore, the result is: **Cannot Adsorb**

@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Zn-adtb",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.5 Å (1D channel cross-sectional diameter)",
+            "Structure Type": "3D extended network with 1D channels"
+        },
+        "Topology": "scu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4,4′,4′′,4′′′-(anthracene-9,10-diylidenebis(methanediylylidene))tetrabenzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, partial pressure up to 50 Torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption rate reaches equilibrium rapidly (~9 min). Uptake amount: ~120 mg/g at 30 °C."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic separation",
+                "Other Information": {
+                    "Test Conditions": "30–90 °C, partial pressure up to 50 Torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake increases from 10 to 25 mg/g as temperature rises. Diffusion barrier: 0.45 eV."
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "30 °C, partial pressure up to 50 Torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake (~5 mg/g). Too large to pass through pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, in situ FTIR, solid-state NMR",
+            "Performance Metrics": "n-hexane breakthrough time: ~31 min; 3-methylpentane: ~8 min; 2,3-dimethylbutane: immediate elution"
+        },
+        "Other Information": {
+            "Additional Info": "Flexible MOF with rare scu topology. Demonstrates efficient separation of linear n-hexane from mono- and dibranched isomers."
+        }
+    }
+]

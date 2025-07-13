@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "ZIF-8@GO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "250 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: 1.3 × 10−7 mol·m−2·s−1·Pa−1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "250 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CO2 mixture separation factor: 14.9"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "250 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/N2 mixture separation factor: 90.5"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "250 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CH4 mixture separation factor: 139.1"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "250 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/C3H8 mixture separation factor: 3816.6"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke−Kallenbach technique",
+            "Performance Metrics": "H2/CH4 selectivity: 139.1, H2 permeance: 1.3 × 10−7 mol·m−2·s−1·Pa−1"
+        },
+        "Other Information": {
+            "Additional Info": "The GO layer suppresses linker distortion in ZIF-8, improving hydrogen selectivity."
+        }
+    }
+]

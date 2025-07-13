@@ -1,0 +1,71 @@
+[
+    {
+        "MOF Name": "ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Three-dimensional framework with dynamic pore apertures"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "CO2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption/binding at pore aperture, does not spontaneously enter internal pore space despite inducing gate-opening distortion.",
+                "Other Information": {
+                    "Test Conditions": "AIMD simulations at 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Energetically prefers to reside inside the ZIF-8 pore aperture due to strong van der Waals interactions. Can be blocked by larger solvent molecules."
+                }
+            },
+            {
+                "Molecule Name": "Water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Enters pore via van der Waals attraction followed by repulsive force from HMIm rotation pushing water into the pore.",
+                "Other Information": {
+                    "Test Conditions": "AIMD simulations at 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "4-12 molecules were able to enter the pore in 2 of 6 total PL simulations, and only in CO2 containing systems. Not a free entry."
+                }
+            },
+            {
+                "Molecule Name": "Ethylene glycol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Binding at pore aperture; prevented from entering internal pore space due to larger molecular size and hydrogen bonding with other solvent molecules.",
+                "Other Information": {
+                    "Test Conditions": "AIMD simulations at 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Bound in the ZIF-8 pore aperture. Migration to aperture was much slower due to larger molecular size. Formed stable hydrogen-bonded clusters with water."
+                }
+            },
+            {
+                "Molecule Name": "2-methylimidazole (HMIm)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Binding at pore aperture; prevented from entering internal pore space due to larger molecular size.",
+                "Other Information": {
+                    "Test Conditions": "AIMD simulations at 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Bound in the ZIF-8 pore aperture. Migration to aperture was much slower due to larger molecular size. This is also the organic linker of the MOF."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-selective adsorption/binding and exclusion at the pore aperture, with conditional internal pore entry for smaller molecules (e.g., water) due to framework flexibility and repulsive forces.",
+        "Experimental Validation": {
+            "Method": "Ab initio molecular dynamics (AIMD) and Density Functional Theory (DFT) simulations",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Studied as a component in a Type 3 porous liquid (PL) composed of a ZIF-8 particle solvated in a water, ethylene glycol, and 2-methylimidazole solvent system. Flexible framework capable of gate-opening. Simulations revealed differences in gas diffusion compared to crystalline ZIF-8, highlighting selective surface binding over bulk absorption."
+        }
+    }
+]

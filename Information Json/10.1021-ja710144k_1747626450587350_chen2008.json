@@ -1,0 +1,52 @@
+[
+    {
+        "Materials Name": "Zn3(BDC)3[Cu(Pyen)]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.6 × 12.0 Å (c axis), <0.6 nm (b axis)",
+            "Structure Type": "3D microporous framework"
+        },
+        "Topology": "36 tessellated Zn3(BDC)3 2-D sheets pillared by Cu(Pyen)",
+        "Metal Nodes": [
+            "Zn2+",
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid",
+            "5-methyl-4-oxo-1,4-dihydro-pyridine-3-carbaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.24–0.31 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "77.3 K and 87.3 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher quantum molecular sieving observed due to higher zero-point energy of H2."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.24–0.31 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "77.3 K and 87.3 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Faster adsorption kinetics for D2 compared to H2 due to lower zero-point energy."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "H2/D2 selectivity: 1.62 (slow component), 1.38 (fast component) at 77.3 K"
+        },
+        "Other Information": {
+            "Additional Info": "Combination of open metal centers and confinement in ultramicroporosity enhances H2-surface interactions."
+        }
+    }
+]

@@ -1,0 +1,114 @@
+MOF Name: SIFSIX-2-Ni-i
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-2-Ni-i:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Reason: Size exclusion)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: Size exclusion)
+
+**Inferred Effective Pore Size / Sieving Behavior:**
+Based on the provided data, a direct inference of a single effective pore size range using the rule [max_intermediate_adsorbed, min_intermediate_nonadsorbed) is not possible. Specifically, propylene (intermediate 5.051 Å) is adsorbed, while propane (intermediate 4.354 Å), with a smaller intermediate dimension, is not adsorbed, despite both being attributed to "size exclusion". This implies that the MOF's pore selectivity is not a simple hard cutoff based purely on the intermediate dimension across all molecules. Instead, it strongly suggests a complex sieving mechanism, likely involving shape selectivity or kinetic sieving, where factors like molecular shape, flexibility, or specific interactions play a dominant role, even if broadly categorized as "size exclusion" in the experimental data.
+
+The observed behavior indicates that SIFSIX-2-Ni-i can accommodate molecules with intermediate dimensions up to at least 5.051 Å (like propylene), but specifically excludes molecules like propane even with a smaller intermediate dimension, possibly due to its bulky conformation or specific pore-molecule interactions. This suggests a preference for alkenes (like propylene) over alkanes (like propane) of similar carbon count.
+
+**Isoprene Dimensions:**
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+**Conclusion:**
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than that of propylene (5.051 Å), which is the largest molecule confirmed to be adsorbed by SIFSIX-2-Ni-i. Given the strict sieving observed for propane and propylene, it is highly unlikely that SIFSIX-2-Ni-i can adsorb a molecule with a larger intermediate dimension like isoprene.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: SIFSIX-2-Ni-i
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-2-Ni-i:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Reason: Size exclusion)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: Size exclusion)
+
+**Inferred Effective Pore Size / Sieving Behavior:**
+As explained for isoprene, a simple intermediate dimension cutoff for "size exclusion" is insufficient to describe this MOF's behavior due to the contradictory adsorption data for propylene and propane. The MOF exhibits complex shape-selective or kinetic sieving, showing a preference for alkenes (like propylene) over alkanes (like propane). The largest intermediate dimension confirmed to be adsorbed is 5.051 Å (propylene).
+
+**cis-2-pentene Dimensions:**
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+**Conclusion:**
+cis-2-pentene's intermediate dimension (5.572 Å) is larger than that of propylene (5.051 Å), which is the largest molecule confirmed to be adsorbed. Despite cis-2-pentene being an alkene (similar to propylene), its larger intermediate dimension suggests it would likely exceed the effective pore opening, similar to how larger molecules were excluded in general.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: SIFSIX-2-Ni-i
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-2-Ni-i:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Reason: Size exclusion)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: Size exclusion)
+
+**Inferred Effective Pore Size / Sieving Behavior:**
+As noted, the MOF exhibits complex shape-selective or kinetic sieving, where propylene (alkene, 5.051 Å) is adsorbed, but propane (alkane, 4.354 Å) is not. This implies a strong preference for alkenes and a narrow effective pore passage. The MOF appears to be able to accommodate molecules up to at least 5.051 Å, especially if they are structurally similar to propylene.
+
+**1-pentene Dimensions:**
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+**Conclusion:**
+1-pentene is an alkene, similar to propylene. Its intermediate dimension (4.995 Å) is very close to and slightly *smaller* than that of propylene (5.051 Å), which is known to be adsorbed. Given the MOF's demonstrated ability to adsorb propylene and its likely preference for alkenes, 1-pentene, being an alkene of similar intermediate size, is likely to be adsorbed.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: SIFSIX-2-Ni-i
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-2-Ni-i:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Reason: Size exclusion)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: Size exclusion)
+
+**Inferred Effective Pore Size / Sieving Behavior:**
+The MOF demonstrates complex shape-selective or kinetic sieving, with propylene (alkene, 5.051 Å) adsorbed and propane (alkane, 4.354 Å) rejected. This indicates a very narrow and specific pore geometry that strongly differentiates molecules based on shape and, possibly, saturation. While the MOF shows a preference for alkenes, its rejection of propane, despite its smaller intermediate dimension, highlights a strict size/shape exclusion for certain molecules.
+
+**trans-2-pentene Dimensions:**
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+**Conclusion:**
+trans-2-pentene is an alkene. Its intermediate dimension (4.733 Å) falls between that of propane (4.354 Å, not adsorbed) and propylene (5.051 Å, adsorbed). While it is an alkene, the overall largest dimension of trans-2-pentene (8.796 Å) is significantly larger than propylene (6.257 Å). Considering the strict size exclusion observed for propane (a smaller intermediate dimension molecule), and the overall bulkiness of trans-2-pentene in its longest dimension, it is probable that trans-2-pentene is too large or has an unfavorable shape for passage through the MOF's constrained pores.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: SIFSIX-2-Ni-i
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-2-Ni-i:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Reason: Size exclusion)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: Size exclusion)
+
+**Inferred Effective Pore Size / Sieving Behavior:**
+The MOF exhibits a complex sieving behavior, rejecting propane (alkane, 4.354 Å intermediate dimension) while adsorbing propylene (alkene, 5.051 Å intermediate dimension). This indicates a strong discrimination against alkanes, likely due to their conformational flexibility and effective bulkiness within the pore, despite intermediate dimension values. The MOF effectively "sees" alkanes like propane as too large for its pores.
+
+**n-pentane Dimensions:**
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+**Conclusion:**
+n-pentane is an alkane, similar in chemical nature to propane, which was explicitly rejected by SIFSIX-2-Ni-i due to size exclusion. Furthermore, n-pentane's intermediate dimension (4.364 Å) is very close to, and slightly larger than, propane's (4.354 Å). Given the MOF's observed inability to adsorb propane, it is highly probable that n-pentane, a larger alkane with a very similar critical intermediate dimension, will also be excluded.
+
+Therefore, the result is: **Cannot Adsorb**

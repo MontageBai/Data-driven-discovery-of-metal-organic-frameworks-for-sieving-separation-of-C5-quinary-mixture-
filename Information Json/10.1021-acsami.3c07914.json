@@ -1,0 +1,212 @@
+[
+    {
+        "Materials Name": "MIL-53-NH2",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "6.6 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cesium",
+                "Molecular Size": "6.58 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M CsCl, 298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highly selective transport of cesium ions through the angstrom-scale pores."
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M LiCl, 298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked due to larger hydrated size compared to pore size."
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked due to larger hydrated size compared to pore size."
+                }
+            },
+            {
+                "Molecule Name": "rubidium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M RbCl, 298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar permeation behavior to cesium due to comparable hydration radius."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Ionic conductance measurement using I-V curves",
+            "Performance Metrics": "Cs+/Li+ selectivity: ~315, Cs+/K+ selectivity: ~143"
+        },
+        "Other Information": {
+            "Additional Info": "The functionalized MIL-53-NH2 showed unprecedented high selectivity for Cs+ over other alkali metal ions due to precise pore size control."
+        }
+    },
+    {
+        "Materials Name": "MIL-53-Cl",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "7 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "2-chloroterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cesium",
+                "Molecular Size": "6.58 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M CsCl, 298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highly selective transport of cesium ions through the angstrom-scale pores."
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M LiCl, 298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Small amount of lithium can pass due to slightly larger pore size compared to MIL-53-NH2."
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Small amount of potassium can pass due to slightly larger pore size compared to MIL-53-NH2."
+                }
+            },
+            {
+                "Molecule Name": "rubidium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M RbCl, 298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar permeation behavior to cesium due to comparable hydration radius."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Ionic conductance measurement using I-V curves",
+            "Performance Metrics": "Cs+/Li+ selectivity: 73, Cs+/K+ selectivity: 39"
+        },
+        "Other Information": {
+            "Additional Info": "The MIL-53-Cl membrane has slightly larger pores than MIL-53-NH2, allowing some larger ions to pass through with lower selectivity."
+        }
+    },
+    {
+        "Materials Name": "MIL-53",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "8.6 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cesium",
+                "Molecular Size": "6.58 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M CsCl, 298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cesium passes through but with reduced selectivity due to larger pore size."
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M LiCl, 298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger pores allow lithium to pass through with minimal selectivity."
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, 298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger pores allow potassium to pass through with minimal selectivity."
+                }
+            },
+            {
+                "Molecule Name": "rubidium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M RbCl, 298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rubidium passes through with minimal selectivity due to larger pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Ionic conductance measurement using I-V curves",
+            "Performance Metrics": "Cs+/Li+ selectivity: 5, Cs+/K+ selectivity: 3"
+        },
+        "Other Information": {
+            "Additional Info": "The pristine MIL-53 has larger pores, resulting in significantly lower selectivity compared to functionalized versions."
+        }
+    }
+]

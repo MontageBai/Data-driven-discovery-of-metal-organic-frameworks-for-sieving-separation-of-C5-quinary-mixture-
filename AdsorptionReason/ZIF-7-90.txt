@@ -1,0 +1,67 @@
+MOF Name: ZIF-7-90
+
+**Inferred Pore Size of ZIF-7-90:**
+Based on the provided experimental data:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate dimension = 3.200 Å | Adsorbed by ZIF-7-90.
+The mechanism is stated as "Size exclusion at sub-nanometer scale," implying that the pore size limits access based on molecular dimensions.
+This means the effective pore size of ZIF-7-90 is at least 3.200 Å. However, since no molecule is explicitly stated as "Not Adsorbed (Size exclusion)" for ZIF-7-90, a strict upper bound for its effective pore size cannot be precisely determined from the given data alone. The "Tunable pore size and gate-opening effect" noted for ZIF-7-90 suggests potential flexibility, but without further data on larger molecules being adsorbed, the most conservative and data-driven inference is that the material's ability to adsorb is limited by the largest molecule it is known to adsorb.
+
+---
+
+MOF Name: ZIF-7-90
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From the experimental data, ZIF-7-90 is shown to adsorb carbon dioxide (intermediate dimension 3.200 Å), with the mechanism described as "Size exclusion at sub-nanometer scale". This indicates that the MOF's pore structure effectively restricts the passage of molecules based on their dimensions.
+Isoprene has dimensions of 7.746×6.093×3.963 Å, with an intermediate dimension of 6.093 Å. This dimension is significantly larger than the 3.200 Å intermediate dimension of carbon dioxide, the largest molecule explicitly confirmed to be adsorbed by ZIF-7-90 in the provided data.
+While a precise upper limit for ZIF-7-90's effective pore size cannot be established from the single adsorption event, the principle of "size exclusion at sub-nanometer scale" strongly suggests that molecules nearly twice the size of carbon dioxide in their critical dimension are unlikely to be adsorbed. There is no experimental evidence provided to support the adsorption of molecules larger than 3.200 Å.
+
+---
+
+MOF Name: ZIF-7-90
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From the experimental data, ZIF-7-90 is shown to adsorb carbon dioxide (intermediate dimension 3.200 Å), with the mechanism described as "Size exclusion at sub-nanometer scale". This indicates that the MOF's pore structure effectively restricts the passage of molecules based on their dimensions.
+cis-2-pentene has dimensions of 8.067×5.572×5.136 Å, with an intermediate dimension of 5.572 Å. This dimension is significantly larger than the 3.200 Å intermediate dimension of carbon dioxide, the largest molecule explicitly confirmed to be adsorbed by ZIF-7-90 in the provided data.
+While a precise upper limit for ZIF-7-90's effective pore size cannot be established from the single adsorption event, the principle of "size exclusion at sub-nanometer scale" strongly suggests that molecules significantly larger than carbon dioxide in their critical dimension are unlikely to be adsorbed. There is no experimental evidence provided to support the adsorption of molecules larger than 3.200 Å.
+
+---
+
+MOF Name: ZIF-7-90
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From the experimental data, ZIF-7-90 is shown to adsorb carbon dioxide (intermediate dimension 3.200 Å), with the mechanism described as "Size exclusion at sub-nanometer scale". This indicates that the MOF's pore structure effectively restricts the passage of molecules based on their dimensions.
+1-pentene has dimensions of 8.847×4.995×4.897 Å, with an intermediate dimension of 4.995 Å. This dimension is significantly larger than the 3.200 Å intermediate dimension of carbon dioxide, the largest molecule explicitly confirmed to be adsorbed by ZIF-7-90 in the provided data.
+While a precise upper limit for ZIF-7-90's effective pore size cannot be established from the single adsorption event, the principle of "size exclusion at sub-nanometer scale" strongly suggests that molecules significantly larger than carbon dioxide in their critical dimension are unlikely to be adsorbed. There is no experimental evidence provided to support the adsorption of molecules larger than 3.200 Å.
+
+---
+
+MOF Name: ZIF-7-90
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From the experimental data, ZIF-7-90 is shown to adsorb carbon dioxide (intermediate dimension 3.200 Å), with the mechanism described as "Size exclusion at sub-nanometer scale". This indicates that the MOF's pore structure effectively restricts the passage of molecules based on their dimensions.
+trans-2-pentene has dimensions of 8.796×4.733×4.564 Å, with an intermediate dimension of 4.733 Å. This dimension is significantly larger than the 3.200 Å intermediate dimension of carbon dioxide, the largest molecule explicitly confirmed to be adsorbed by ZIF-7-90 in the provided data.
+While a precise upper limit for ZIF-7-90's effective pore size cannot be established from the single adsorption event, the principle of "size exclusion at sub-nanometer scale" strongly suggests that molecules significantly larger than carbon dioxide in their critical dimension are unlikely to be adsorbed. There is no experimental evidence provided to support the adsorption of molecules larger than 3.200 Å.
+
+---
+
+MOF Name: ZIF-7-90
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From the experimental data, ZIF-7-90 is shown to adsorb carbon dioxide (intermediate dimension 3.200 Å), with the mechanism described as "Size exclusion at sub-nanometer scale". This indicates that the MOF's pore structure effectively restricts the passage of molecules based on their dimensions.
+n-pentane has dimensions of 9.118×4.364×3.969 Å, with an intermediate dimension of 4.364 Å. This dimension is significantly larger than the 3.200 Å intermediate dimension of carbon dioxide, the largest molecule explicitly confirmed to be adsorbed by ZIF-7-90 in the provided data.
+While a precise upper limit for ZIF-7-90's effective pore size cannot be established from the single adsorption event, the principle of "size exclusion at sub-nanometer scale" strongly suggests that molecules significantly larger than carbon dioxide in their critical dimension are unlikely to be adsorbed. There is no experimental evidence provided to support the adsorption of molecules larger than 3.200 Å.

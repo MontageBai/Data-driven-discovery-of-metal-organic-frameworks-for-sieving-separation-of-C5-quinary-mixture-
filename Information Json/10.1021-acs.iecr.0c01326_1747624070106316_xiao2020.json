@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "CFs@ZIF-8(30)/PDMS",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water droplets aggregate and are rejected by the superhydrophobic surface."
+                }
+            },
+            {
+                "Molecule Name": "dodecane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Capillary-driven transport through collagen fibers",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Oil phase permeates due to low surface energy and capillary effect of CFs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with capillary transport",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Column separation experiment",
+            "Performance Metrics": "Flux: 2038 L m^-2 h^-1, Separation efficiency: >99.99%"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows two orders of magnitude higher flux compared to commercial PVDF and PTFE membranes."
+        }
+    },
+    {
+        "Materials Name": "CFs@HKUST-1/PDMS",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "9.0 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water is rejected due to superhydrophobicity."
+                }
+            },
+            {
+                "Molecule Name": "oil",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Capillary-driven transport through collagen fibers",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Oil permeates through the composite due to low surface energy."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with capillary transport",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Column separation experiment",
+            "Performance Metrics": "Flux: 2540-3081 L m^-2 h^-1, Separation efficiency: >99.99%"
+        },
+        "Other Information": {
+            "Additional Info": "High separation performance for both micro- and nanoemulsions."
+        }
+    }
+]

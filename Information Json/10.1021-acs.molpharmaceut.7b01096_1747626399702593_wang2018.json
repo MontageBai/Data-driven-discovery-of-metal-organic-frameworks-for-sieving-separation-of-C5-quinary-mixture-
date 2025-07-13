@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.7 nm (microporous)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "curcumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Acid-sensitive dissolution of ZIF-8 shell",
+                "Other Information": {
+                    "Test Conditions": "pH 5.0, 37 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CUR was preferentially released to inhibit P-gp related drug efflux."
+                }
+            },
+            {
+                "Molecule Name": "doxorubicin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Sustained release from core after CUR release",
+                "Other Information": {
+                    "Test Conditions": "pH 5.0, 37 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "DOX is released slower than CUR, achieving sequential delivery."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effects from CUR-loaded ZIF-8 coating",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "UV-vis absorbance and fluorescence spectrophotometry",
+            "Performance Metrics": "61% CUR released in 0.5 h at pH 5.0; 40% DOX released in 32 h at pH 5.0"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 shell prevents premature release of DOX, enabling sequential drug delivery."
+        }
+    }
+]

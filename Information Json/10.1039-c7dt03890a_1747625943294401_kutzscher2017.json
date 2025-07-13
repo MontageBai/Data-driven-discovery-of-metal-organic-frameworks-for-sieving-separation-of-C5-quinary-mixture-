@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "Cu2(bdc)2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 Å (diameter), Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "2D layers stacked along a-axis"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "copper paddle wheels"
+        ],
+        "Ligands": [
+            "terephthalate anions"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylamine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Chemical coordination to metal centers",
+                "Other Information": {
+                    "Test Conditions": "60 °C, 24 hours in ethanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylamine treatment results in partial delamination and crystal-surface defects."
+                }
+            },
+            {
+                "Molecule Name": "octylamine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical coordination to metal centers",
+                "Other Information": {
+                    "Test Conditions": "80 °C, 24 hours in ethanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Octylamine treatment induces phase transformation and increases interlayer distance, leading to efficient layer separation."
+                }
+            },
+            {
+                "Molecule Name": "oleylamine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical coordination to metal centers",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 24 hours in ethanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Oleylamine causes explicit exfoliation of the crystals, though layers remain strongly aggregated."
+                }
+            },
+            {
+                "Molecule Name": "1-azabicyclo[2.2.2]octane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical coordination to metal centers",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 24 hours in ethanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ABCO causes explicit exfoliation of the crystals, though layers remain strongly aggregated."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical coordination at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "SEM, TEM, AFM, PXRD, IR spectroscopy",
+            "Performance Metrics": "Nanoplates with thicknesses of 47 ± 9 nm (ethylamine), 75 ± 15 nm (octylamine), and 4 - 14 nm (PVP-assisted synthesis + ethylamine)"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits potential for molecular sieving applications due to its layered structure and controlled delamination capabilities."
+        }
+    }
+]

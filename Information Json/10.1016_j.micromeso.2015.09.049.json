@@ -1,0 +1,291 @@
+[
+    {
+        "MOF Name": "fb-POP",
+        "Material Category": "Others",
+        "Pore/Structural Features": {
+            "Pore Size": "6.6 Å",
+            "Structure Type": "Amorphous porous network of porphyrin rings; pores exhibit thermal contraction affecting sieving properties."
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Porphyrin",
+            "Terephthalaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "O2",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption by the polymer backbone; passes readily, with capacity increasing at lower temperatures.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 91 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not excluded by pore contraction at 91 K according to main selectivity claims and figures."
+                }
+            },
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to thermal contraction of pores below molecular kinetic diameter.",
+                "Other Information": {
+                    "Test Conditions": "91 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake at 91 K. Pores are suggested to contract to between 3.46 and 3.64 Å, effectively excluding nitrogen. Nitrogen gas adsorption exhibited a peak at a critical temperature (between 110 K and 160 K) and decreased thereafter."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on temperature-dependent pore contraction.",
+        "Experimental Validation": {
+            "Method": "Gas adsorption/desorption isotherms (BELSORP Max), isosteric heat of adsorption (Clausius–Clapeyron plot), rate of adsorption (LDF model), cycling studies.",
+            "Performance Metrics": "Contributes to overall O2:N2 selectivity up to 14.7 at 91 K through N2 exclusion. Isosteric heat of adsorption at zero loading: 17 kJ/mol for N2, 16 kJ/mol for O2. Oxygen adsorption rate constant: 0.16 s-1."
+        },
+        "Other Information": {
+            "Additional Info": "Neat porphyrin polymer (without metal). Amorphous. Thermally stable up to 220 °C in oxygen atmosphere. Oxygen uptake is stable and reversible over repeated cycles."
+        }
+    },
+    {
+        "MOF Name": "Fe-POP-O",
+        "Material Category": "Others",
+        "Pore/Structural Features": {
+            "Pore Size": "6.7 Å",
+            "Structure Type": "Amorphous porous network of porphyrin rings; described as relatively rigid and open structure, especially when Fe(III) is present, inhibiting significant thermal contraction for sieving."
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe(III)"
+        ],
+        "Ligands": [
+            "Porphyrin",
+            "Terephthalaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "O2",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption onto metal sites and polymer backbone; capacity increases at lower temperatures.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 91 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported."
+                }
+            },
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes through pores with lower uptake compared to O2, especially at low temperatures.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 91 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low selectivity over oxygen at 273 K. Nitrogen capacities were significantly lower than oxygen capacities at 91 K but not fully excluded. Did not exhibit the N2 adsorption peak observed for fb-POP and Co-POPs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Limited molecular sieving primarily based on static pore size; oxygen adsorption enhanced by metal sites.",
+        "Experimental Validation": {
+            "Method": "Gas adsorption/desorption isotherms (BELSORP Max), rate of adsorption (LDF model).",
+            "Performance Metrics": "O2:N2 selectivity: 1.04-1.09 at 273 K. Selectivity increase from 1.1 to 1.9 at 91 K. Oxygen adsorption rate constant: 0.17 s-1."
+        },
+        "Other Information": {
+            "Additional Info": "Amorphous. Thermally stable up to 220 °C. Higher surface area and pore volume compared to cobalt samples. Fe(III) ions contributed to the formation of the polymer network."
+        }
+    },
+    {
+        "MOF Name": "Fe-POP-L",
+        "Material Category": "Others",
+        "Pore/Structural Features": {
+            "Pore Size": "6.4 Å",
+            "Structure Type": "Amorphous porous network of porphyrin rings."
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe(II)"
+        ],
+        "Ligands": [
+            "Porphyrin",
+            "Terephthalaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "O2",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption onto metal sites and polymer backbone; capacity increases at lower temperatures.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 91 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported."
+                }
+            },
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes through pores with lower uptake compared to O2, especially at low temperatures.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 91 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low selectivity over oxygen at 273 K. Nitrogen capacities were significantly lower than oxygen capacities at 91 K but not fully excluded. Isobar suggests an N2 adsorption peak slightly below the studied temperature range (91–303 K)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Limited molecular sieving primarily based on static pore size; oxygen adsorption enhanced by metal sites.",
+        "Experimental Validation": {
+            "Method": "Gas adsorption/desorption isotherms (BELSORP Max), rate of adsorption (LDF model).",
+            "Performance Metrics": "O2:N2 selectivity: 1.04-1.09 at 273 K. Selectivity increase from 1.1 to 1.9 at 91 K. Oxygen adsorption rate constant: 0.19 s-1."
+        },
+        "Other Information": {
+            "Additional Info": "Amorphous. Thermally stable up to 220 °C. Lower surface area and pore volume compared to Fe(III) containing POPs. Forms a highly viscous gel during synthesis."
+        }
+    },
+    {
+        "MOF Name": "Fe-POP-H",
+        "Material Category": "Others",
+        "Pore/Structural Features": {
+            "Pore Size": "6.3 Å",
+            "Structure Type": "Amorphous porous network of porphyrin rings; described as relatively rigid and open pore structure due to presence of Fe(III) ions, inhibiting significant thermal contraction for sieving."
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe(II)",
+            "Fe(III)"
+        ],
+        "Ligands": [
+            "Porphyrin",
+            "Terephthalaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "O2",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption onto metal sites and polymer backbone; capacity increases at lower temperatures.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 91 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported."
+                }
+            },
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes through pores with lower uptake compared to O2, especially at low temperatures.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 91 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low selectivity over oxygen at 273 K. Nitrogen capacities were significantly lower than oxygen capacities at 91 K but not fully excluded. Did not exhibit the N2 adsorption peak observed for fb-POP and Co-POPs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Limited molecular sieving primarily based on static pore size; oxygen adsorption enhanced by metal sites.",
+        "Experimental Validation": {
+            "Method": "Gas adsorption/desorption isotherms (BELSORP Max), rate of adsorption (LDF model).",
+            "Performance Metrics": "O2:N2 selectivity: 1.04-1.09 at 273 K. Selectivity increase from 1.1 to 1.9 at 91 K. Oxygen adsorption rate constant: 0.19 s-1."
+        },
+        "Other Information": {
+            "Additional Info": "Amorphous. Thermally stable up to 220 °C. Contains higher metal loading (Fe). Surface area and pore volume are intermediate between Fe-POP-O and Fe-POP-L, supporting Fe(III) contribution to structure. Forms a highly viscous gel during synthesis."
+        }
+    },
+    {
+        "MOF Name": "Co-POP-L",
+        "Material Category": "Others",
+        "Pore/Structural Features": {
+            "Pore Size": "6.1 Å",
+            "Structure Type": "Amorphous porous network of porphyrin rings; pores exhibit thermal contraction affecting sieving properties."
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co(II)"
+        ],
+        "Ligands": [
+            "Porphyrin",
+            "Terephthalaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "O2",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption onto cobalt metal sites and polymer backbone; capacity increases at lower temperatures.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 91 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported."
+                }
+            },
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to thermal contraction of pores below molecular kinetic diameter.",
+                "Other Information": {
+                    "Test Conditions": "91 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen capacities were significantly lower than oxygen capacities at 91 K. Nitrogen gas adsorption exhibited a peak at a critical temperature and decreased thereafter."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on temperature-dependent pore contraction and enhanced oxygen adsorption by cobalt sites.",
+        "Experimental Validation": {
+            "Method": "Gas adsorption/desorption isotherms (BELSORP Max), rate of adsorption (LDF model).",
+            "Performance Metrics": "O2:N2 selectivity up to 1.3 at 273 K (for Co-POPs generally). O2:N2 selectivity up to 14.7 at 91 K (for Co-POPs generally). Oxygen adsorption rate constant: 0.24 s-1."
+        },
+        "Other Information": {
+            "Additional Info": "Amorphous. Thermally stable up to 220 °C. Lower cobalt loading. Increase in oxygen gas capacity and selectivity with increased cobalt content suggests potential for improvement. Oxygen uptake is stable and reversible over repeated cycles."
+        }
+    },
+    {
+        "MOF Name": "Co-POP-H",
+        "Material Category": "Others",
+        "Pore/Structural Features": {
+            "Pore Size": "6.4 Å",
+            "Structure Type": "Amorphous porous network of porphyrin rings; pores exhibit thermal contraction affecting sieving properties."
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co(II)"
+        ],
+        "Ligands": [
+            "Porphyrin",
+            "Terephthalaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "O2",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption onto cobalt metal sites and polymer backbone; initial uptake by cobalt ions in porphyrin rings.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 91 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Increase in gas adsorption capacity at lower temperatures. Oxygen heat of adsorption: 20 kJ/mol (at zero loading). High oxygen loading (13 wt% at 1 atm)."
+                }
+            },
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to thermal contraction of pores below molecular kinetic diameter.",
+                "Other Information": {
+                    "Test Conditions": "91 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen capacities were significantly lower than oxygen capacities at 91 K. Nitrogen gas adsorption exhibited a peak at a critical temperature and decreased thereafter. Isosteric heat of adsorption for N2: 17 kJ/mol (at zero loading)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on temperature-dependent pore contraction and strong oxygen adsorption by cobalt sites.",
+        "Experimental Validation": {
+            "Method": "Gas adsorption/desorption isotherms (BELSORP Max), isosteric heat of adsorption (Clausius–Clapeyron plot), cycling studies.",
+            "Performance Metrics": "Extraordinary O2:N2 selectivity of up to 14.7 at 91 K. Oxygen loading: 13 wt% at 1 atm. Isosteric heat of adsorption for O2: 20 kJ/mol, for N2: 17 kJ/mol (at zero loading). Stable and reversible oxygen uptake over 6 cycles."
+        },
+        "Other Information": {
+            "Additional Info": "Amorphous. Thermally stable up to 220 °C. Higher cobalt loading (0.44 wt% Co). Potential for use in hybrid adsorption–cryogenic air separation systems. Oxygen uptake is stable and reversible over repeated cycles."
+        }
+    }
+]

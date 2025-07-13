@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "MIL-53(Al)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "8 Å (LP), 3.5 Å (NP)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "terephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 15 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows increased uptake under mechanical pressure."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.7 Å",
+                "Can Pass Sieving": "Pressure-dependent",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 15 bar",
+                    "Threshold Pressure": "10 bar at 200 MPa",
+                    "Additional Info": "Negligible uptake until 10 bar at 200 MPa mechanical pressure."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Pressure-dependent",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K, up to 15 bar",
+                    "Threshold Pressure": "5 bar at 400 MPa",
+                    "Additional Info": "Negligible uptake until 5 bar at 400 MPa mechanical pressure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/N2 selectivity: infinite at >200 MPa, CO2/CH4 selectivity: infinite at >300 MPa"
+        },
+        "Other Information": {
+            "Additional Info": "Regeneration is achieved by releasing mechanical pressure, restoring the open-pore form."
+        }
+    },
+    {
+        "Materials Name": "MIL-53(Cr)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "8 Å (LP), 3.5 Å (NP)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 25 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar uptake as in NP phase when mechanically constrained."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 25 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake when mechanically constrained."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 25 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake when mechanically constrained."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: infinite, CO2/CH4 selectivity: infinite"
+        },
+        "Other Information": {
+            "Additional Info": "Simulations confirm structure remains in NP phase under mechanical constraint."
+        }
+    }
+]

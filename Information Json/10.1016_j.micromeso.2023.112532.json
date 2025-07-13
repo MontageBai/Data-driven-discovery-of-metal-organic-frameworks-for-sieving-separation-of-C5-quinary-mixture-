@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Co(aip)(pyz)0.5",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.0 × 4.1 Å2",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co node"
+        ],
+        "Ligands": [
+            "5-aminoisophthalic acid",
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H4 uptake of 1.78 mmol/g at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible C2H6 uptake (0.14 mmol/g) observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving separation of C2H4 from C2H6 due to reduced pore size.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H4/C2H6 selectivity exceeding 2000; High-purity C2H4 (>97%) with a productivity of 19.1 l/kg."
+        },
+        "Other Information": {
+            "Additional Info": "Excellent moisture stability and recyclability demonstrated."
+        }
+    }
+]

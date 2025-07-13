@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "Cu-THQ",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "1.1 nm",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "copper"
+        ],
+        "Ligands": [
+            "oxygen",
+            "carbon"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cadmium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 to 100 MPa, 300 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nearly 100% rejection rate observed."
+                }
+            },
+            {
+                "Molecule Name": "copper",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 to 100 MPa, 300 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nearly 100% rejection rate observed."
+                }
+            },
+            {
+                "Molecule Name": "mercury",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 to 100 MPa, 300 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nearly 100% rejection rate observed."
+                }
+            },
+            {
+                "Molecule Name": "lead",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 to 100 MPa, 300 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nearly 100% rejection rate observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Molecular dynamics simulation",
+            "Performance Metrics": "Water permeability: 16-17.5 L cm⁻² day⁻¹ MPa⁻¹, Ion rejection: nearly 100%"
+        },
+        "Other Information": {
+            "Additional Info": "Single-layered Cu-THQ MOF membrane shows excellent performance for heavy metal ion removal while maintaining high water permeability."
+        }
+    }
+]

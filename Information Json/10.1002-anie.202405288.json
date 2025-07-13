@@ -1,0 +1,168 @@
+[
+    {
+        "Materials Name": "UiO-66@xPtBMA@xPDMS",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.6 nm (aperture), Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake capacity normalized to MOF weight."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylene uptake capacity normalized to MOF weight."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.27 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, varying RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water vapor sorption isotherms indicate preserved porosity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Low-pressure adsorption isotherms, water vapor sorption experiments",
+            "Performance Metrics": "CO2/N2 selectivity: Not Reported, Permeance: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Dual-layer polymer coating prevents PDMS4k infiltration into pores."
+        }
+    },
+    {
+        "Materials Name": "MIL-101(Cr)@xPtBMA@xPDMS",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.2 nm and 1.6 nm (aperture), ~2.9 nm and ~3.4 nm (cage diameters), Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake capacity normalized to MOF weight."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylene uptake capacity normalized to MOF weight."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.27 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, varying RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water vapor sorption isotherms indicate preserved porosity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Low-pressure adsorption isotherms, water vapor sorption experiments",
+            "Performance Metrics": "CO2/N2 selectivity: Not Reported, Permeance: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Dual-layer polymer coating prevents PDMS4k infiltration into pores."
+        }
+    },
+    {
+        "Materials Name": "NU-1000@xPtBMA@xPDMS",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.1 nm (aperture), Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "hexagonal",
+        "Metal Nodes": [
+            "Zr6"
+        ],
+        "Ligands": [
+            "1,3,6,8-tetrakis(p-benzoate)pyrene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake capacity normalized to MOF weight."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.27 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, varying RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water vapor sorption isotherms indicate preserved mesoporosity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Water vapor sorption experiments",
+            "Performance Metrics": "CO2/N2 selectivity: Not Reported, Permeance: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Dual-layer polymer coating partially preserves mesopores."
+        }
+    }
+]

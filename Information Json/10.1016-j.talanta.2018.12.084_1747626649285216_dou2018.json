@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (aperture), 1.16 nm (internal cavity)",
+            "Structure Type": "sodalite-like topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen peroxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH 8.0, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Photocurrent enhancement observed with H2O2 but no catalytic effect."
+                }
+            },
+            {
+                "Molecule Name": "ascorbic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH 8.0, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Size-exclusion filter effect prevents diffusion of ascorbic acid into ZIF-8 coating."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on pore size dimensions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Photoelectrochemical response measurement",
+            "Performance Metrics": "Photocurrent slope to H2O2: 0.0917 mA/pC; Photocurrent slope to AA: 0.0342 mA/pC"
+        },
+        "Other Information": {
+            "Additional Info": "Used as a reference photoelectrode for differential sensing strategy."
+        }
+    },
+    {
+        "Materials Name": "ZIF-67",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (aperture), 1.16 nm (internal cavity)",
+            "Structure Type": "sodalite-like topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen peroxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and catalytic activity",
+                "Other Information": {
+                    "Test Conditions": "pH 8.0, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Photocurrent enhancement due to catalytic effect of ZIF-67."
+                }
+            },
+            {
+                "Molecule Name": "ascorbic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH 8.0, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Size-exclusion filter effect prevents diffusion of ascorbic acid into ZIF-67 coating."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on pore size dimensions combined with catalytic activity",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Photoelectrochemical response measurement",
+            "Performance Metrics": "Photocurrent slope to H2O2: 0.405 mA/pC; Photocurrent slope to AA: 0.0356 mA/pC"
+        },
+        "Other Information": {
+            "Additional Info": "Used as a sensing photoelectrode for differential sensing strategy."
+        }
+    }
+]

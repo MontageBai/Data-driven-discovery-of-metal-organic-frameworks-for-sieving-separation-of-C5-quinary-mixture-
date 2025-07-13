@@ -1,0 +1,112 @@
+MOF Name: Hf-fum-FA
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Hf-fum-FA, molecules that were *not adsorbed* due to "Size exclusion":
+- 2-methylpentane: 9.023×6.376×4.923 → Intermediate = 6.376 Å
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å
+- 2,3-dimethylbutane: 7.778×6.170×5.399 → Intermediate = 6.170 Å
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å
+
+Since all these molecules were explicitly stated as *not adsorbed* due to "Size exclusion", the effective pore size of Hf-fum-FA must be smaller than the smallest intermediate dimension among them. The smallest intermediate dimension is 6.008 Å (from 3-methylpentane).
+Thus, the inferred effective pore size of Hf-fum-FA is **< 6.008 Å**. No molecules were reported as adsorbed, so no lower bound for pore size can be inferred.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is larger than the inferred effective pore size (< 6.008 Å), it cannot be adsorbed by Hf-fum-FA due to size exclusion.
+
+---
+
+MOF Name: Hf-fum-FA
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Hf-fum-FA, molecules that were *not adsorbed* due to "Size exclusion":
+- 2-methylpentane: 9.023×6.376×4.923 → Intermediate = 6.376 Å
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å
+- 2,3-dimethylbutane: 7.778×6.170×5.399 → Intermediate = 6.170 Å
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å
+
+The smallest intermediate dimension among these non-adsorbed molecules is 6.008 Å (from 3-methylpentane).
+Thus, the inferred effective pore size of Hf-fum-FA is **< 6.008 Å**.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than the inferred upper limit of the effective pore size (< 6.008 Å), it is geometrically expected to be adsorbed by Hf-fum-FA. The experimental conditions (303 K to 423 K, 10 kPa) are different from standard conditions (298 K, 1 bar), but the size exclusion mechanism is primarily geometric.
+
+---
+
+MOF Name: Hf-fum-FA
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Hf-fum-FA, molecules that were *not adsorbed* due to "Size exclusion":
+- 2-methylpentane: 9.023×6.376×4.923 → Intermediate = 6.376 Å
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å
+- 2,3-dimethylbutane: 7.778×6.170×5.399 → Intermediate = 6.170 Å
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å
+
+The smallest intermediate dimension among these non-adsorbed molecules is 6.008 Å (from 3-methylpentane).
+Thus, the inferred effective pore size of Hf-fum-FA is **< 6.008 Å**.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the inferred upper limit of the effective pore size (< 6.008 Å), it is geometrically expected to be adsorbed by Hf-fum-FA. The experimental conditions (303 K to 423 K, 10 kPa) are different from standard conditions (298 K, 1 bar), but the size exclusion mechanism is primarily geometric.
+
+---
+
+MOF Name: Hf-fum-FA
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Hf-fum-FA, molecules that were *not adsorbed* due to "Size exclusion":
+- 2-methylpentane: 9.023×6.376×4.923 → Intermediate = 6.376 Å
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å
+- 2,3-dimethylbutane: 7.778×6.170×5.399 → Intermediate = 6.170 Å
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å
+
+The smallest intermediate dimension among these non-adsorbed molecules is 6.008 Å (from 3-methylpentane).
+Thus, the inferred effective pore size of Hf-fum-FA is **< 6.008 Å**.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the inferred upper limit of the effective pore size (< 6.008 Å), it is geometrically expected to be adsorbed by Hf-fum-FA. The experimental conditions (303 K to 423 K, 10 kPa) are different from standard conditions (298 K, 1 bar), but the size exclusion mechanism is primarily geometric.
+
+---
+
+MOF Name: Hf-fum-FA
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Hf-fum-FA, molecules that were *not adsorbed* due to "Size exclusion":
+- 2-methylpentane: 9.023×6.376×4.923 → Intermediate = 6.376 Å
+- 3-methylpentane: 9.052×6.008×4.985 → Intermediate = 6.008 Å
+- 2,3-dimethylbutane: 7.778×6.170×5.399 → Intermediate = 6.170 Å
+- 2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å
+
+The smallest intermediate dimension among these non-adsorbed molecules is 6.008 Å (from 3-methylpentane).
+Thus, the inferred effective pore size of Hf-fum-FA is **< 6.008 Å**.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the inferred upper limit of the effective pore size (< 6.008 Å), it is geometrically expected to be adsorbed by Hf-fum-FA. The experimental conditions (303 K to 423 K, 10 kPa) are different from standard conditions (298 K, 1 bar), but the size exclusion mechanism is primarily geometric.

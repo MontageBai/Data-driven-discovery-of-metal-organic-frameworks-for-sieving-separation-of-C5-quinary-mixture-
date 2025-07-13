@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Cu-F-pymo",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 Å (pore A), 3.2 Å (pore B)",
+            "Structure Type": "3D framework with zeolitic GIS topology"
+        },
+        "Topology": "gis",
+        "Metal Nodes": [
+            "Cu(II)"
+        ],
+        "Ligands": [
+            "5-fluoropyrimidin-2-olate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.2 × 3.3 × 5.4 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption in pore B",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Residual water molecules do not block CO2 adsorption."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 × 3.3 × 5.7 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Blocked by residual water molecules in pore A",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential sites for acetylene are occupied by water, suppressing its adsorption."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Suppression of acetylene adsorption due to blockage of preferential sites by residual water molecules.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/C2H2 selectivity: >105, C2H2 productivity: 166 mmol per kg sorbent"
+        },
+        "Other Information": {
+            "Additional Info": "Cu-F-pymo shows remarkable stability under harsh conditions and can be regenerated easily with helium at room temperature."
+        }
+    }
+]

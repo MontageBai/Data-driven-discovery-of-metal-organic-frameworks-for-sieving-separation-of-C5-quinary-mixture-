@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Gd2O3@Pt@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "11.6 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cinnamaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "160 °C, 2 MPa H2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity due to steric hindrance of ZIF-8 pores."
+                }
+            },
+            {
+                "Molecule Name": "citral",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "160 °C, 2 MPa H2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger molecular size and steric hindrance prevent passage through ZIF-8 channels."
+                }
+            },
+            {
+                "Molecule Name": "dimethyl 2-nitroterephthalate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "160 °C, 2 MPa H2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger molecular size and steric hindrance prevent passage through ZIF-8 channels."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Steric hindrance imposed by the porous ZIF structure enhances selectivity.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Selective hydrogenation experiments",
+            "Performance Metrics": "Conversion: >99.9%, Selectivity: >95% for various substrates"
+        },
+        "Other Information": {
+            "Additional Info": "The Gd2O3@Pt@ZIF-8 nanoreactor exhibits excellent recyclability over eight cycles without significant loss of activity or structural integrity."
+        }
+    }
+]

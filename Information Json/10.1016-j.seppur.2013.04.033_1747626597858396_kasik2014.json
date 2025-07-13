@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "MOF-5",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "8 Å (PLD), 12 Å and 15 Å (aperture sizes)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zn4O tetrahedra"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "0.58 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Initial flux of 18 × 10⁻⁴ mol/m² s decreased to a steady-state value of 11.9 × 10⁻⁴ mol/m² s after exposure to p-xylene for 24 h."
+                }
+            },
+            {
+                "Molecule Name": "o-xylene",
+                "Molecular Size": "0.68 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Steady state permeation flux in the range of 5.0–5.5 × 10⁻⁴ mol/m² s depending on activation duration."
+                }
+            },
+            {
+                "Molecule Name": "m-xylene",
+                "Molecular Size": "0.68 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Steady state permeation flux in the range of 5.8–7.4 × 10⁻⁴ mol/m² s depending on activation duration."
+                }
+            },
+            {
+                "Molecule Name": "1,3,5-triisopropylbenzene",
+                "Molecular Size": "0.84 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Initial flux of 24 × 10⁻⁵ mol/m² s decreased to 0.13 × 10⁻⁵ mol/m² s after fouling with xylene."
+                }
+            },
+            {
+                "Molecule Name": "1,3-di-tert-butylbenzene",
+                "Molecular Size": "1.1 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Much smaller pervaporation flux compared to previously reported MOF-5 membranes."
+                }
+            },
+            {
+                "Molecule Name": "2-di-cyclohexyl-phosphino-2'-(N,N-dimethylamino)-biphenyl",
+                "Molecular Size": "1.2 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, vacuum",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low flux of 0.47 × 10⁻⁵ mol/m² s due to size exclusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Pervaporation fluxes for various molecules as specified in 'Other Information' fields."
+        },
+        "Other Information": {
+            "Additional Info": "Membrane shows permanent reduction in flux after initial exposure to xylenes but maintains structural stability and molecular sieving effects."
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-8/P84 MMMs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.54 nm (six-membered ring), ~1.0 nm (SOD cage)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective adsorption and molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeability improved significantly with ZIF-8 loading."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 permeability less enhanced compared to CO2 due to molecular sieving effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with selective adsorption",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, Adsorption/diffusion model",
+            "Performance Metrics": "CO2/N2 selectivity: 92.6, Permeance: 10.92 Barrers"
+        },
+        "Other Information": {
+            "Additional Info": "Optimal performance observed at 27 wt% ZIF-8 loading; long-term stability demonstrated over 720 h."
+        }
+    }
+]

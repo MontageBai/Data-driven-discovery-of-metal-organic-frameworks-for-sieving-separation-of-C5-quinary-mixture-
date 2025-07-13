@@ -1,0 +1,112 @@
+MOF Name: MAF-41
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAF-41:
+- Styrene: 9.542×6.849×3.200 → Intermediate = 6.849 Å | Adsorbed (Reason: Size-compatible pore aperture / molecular sieving for styrene)
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Not Adsorbed (Reason: Size exclusion (kinetic mechanism))
+- Toluene: 8.117×6.501×3.750 → Intermediate = 6.501 Å | Not Adsorbed (Reason: Thermodynamic exclusion)
+- Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Not Adsorbed (Reason: Thermodynamic exclusion)
+
+Inferred effective pore size of MAF-41:
+The MOF can adsorb styrene, which has an intermediate dimension of 6.849 Å, indicating that the pore aperture can accommodate molecules of at least this size. However, ethylbenzene, with a smaller intermediate dimension of 6.501 Å, is reported as "Not Adsorbed" due to "Size exclusion (kinetic mechanism)". This suggests that while the MOF's aperture is large enough for 6.849 Å, there are specific kinetic barriers or unfavorable shape interactions that prevent adsorption of ethylbenzene, even though it is geometrically smaller than styrene. The experimental data indicates MAF-41 exhibits highly selective "Intermediate-sized molecular sieving (iSMS)" behavior combining kinetic and thermodynamic guest exclusion mechanisms.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is smaller than both styrene (6.849 Å, which is successfully adsorbed) and ethylbenzene (6.501 Å, which is kinetically excluded). Given that the MOF can pass the larger styrene molecule, the geometric aperture is sufficient. Since isoprene is also smaller than ethylbenzene and has a different molecular shape (alkene vs. aromatic), it is less likely to encounter the same specific kinetic or shape-dependent exclusion mechanism that prevents ethylbenzene's adsorption. Therefore, it is predicted that isoprene can be adsorbed by MAF-41.
+
+---
+
+MOF Name: MAF-41
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAF-41:
+- Styrene: 9.542×6.849×3.200 → Intermediate = 6.849 Å | Adsorbed (Reason: Size-compatible pore aperture / molecular sieving for styrene)
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Not Adsorbed (Reason: Size exclusion (kinetic mechanism))
+- Toluene: 8.117×6.501×3.750 → Intermediate = 6.501 Å | Not Adsorbed (Reason: Thermodynamic exclusion)
+- Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Not Adsorbed (Reason: Thermodynamic exclusion)
+
+Inferred effective pore size of MAF-41:
+The MOF can adsorb styrene, which has an intermediate dimension of 6.849 Å, indicating that the pore aperture can accommodate molecules of at least this size. However, ethylbenzene, with a smaller intermediate dimension of 6.501 Å, is reported as "Not Adsorbed" due to "Size exclusion (kinetic mechanism)". This suggests that while the MOF's aperture is large enough for 6.849 Å, there are specific kinetic barriers or unfavorable shape interactions that prevent adsorption of ethylbenzene, even though it is geometrically smaller than styrene. The experimental data indicates MAF-41 exhibits highly selective "Intermediate-sized molecular sieving (iSMS)" behavior combining kinetic and thermodynamic guest exclusion mechanisms.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is smaller than both styrene (6.849 Å, which is successfully adsorbed) and ethylbenzene (6.501 Å, which is kinetically excluded). Given that the MOF can pass the larger styrene molecule, the geometric aperture is sufficient. Since cis-2-pentene is also smaller than ethylbenzene and has a different molecular shape (alkene vs. aromatic), it is less likely to encounter the same specific kinetic or shape-dependent exclusion mechanism that prevents ethylbenzene's adsorption. Therefore, it is predicted that cis-2-pentene can be adsorbed by MAF-41.
+
+---
+
+MOF Name: MAF-41
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAF-41:
+- Styrene: 9.542×6.849×3.200 → Intermediate = 6.849 Å | Adsorbed (Reason: Size-compatible pore aperture / molecular sieving for styrene)
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Not Adsorbed (Reason: Size exclusion (kinetic mechanism))
+- Toluene: 8.117×6.501×3.750 → Intermediate = 6.501 Å | Not Adsorbed (Reason: Thermodynamic exclusion)
+- Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Not Adsorbed (Reason: Thermodynamic exclusion)
+
+Inferred effective pore size of MAF-41:
+The MOF can adsorb styrene, which has an intermediate dimension of 6.849 Å, indicating that the pore aperture can accommodate molecules of at least this size. However, ethylbenzene, with a smaller intermediate dimension of 6.501 Å, is reported as "Not Adsorbed" due to "Size exclusion (kinetic mechanism)". This suggests that while the MOF's aperture is large enough for 6.849 Å, there are specific kinetic barriers or unfavorable shape interactions that prevent adsorption of ethylbenzene, even though it is geometrically smaller than styrene. The experimental data indicates MAF-41 exhibits highly selective "Intermediate-sized molecular sieving (iSMS)" behavior combining kinetic and thermodynamic guest exclusion mechanisms.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is smaller than both styrene (6.849 Å, which is successfully adsorbed) and ethylbenzene (6.501 Å, which is kinetically excluded). Given that the MOF can pass the larger styrene molecule, the geometric aperture is sufficient. Since 1-pentene is also smaller than ethylbenzene and has a different molecular shape (alkene vs. aromatic), it is less likely to encounter the same specific kinetic or shape-dependent exclusion mechanism that prevents ethylbenzene's adsorption. Therefore, it is predicted that 1-pentene can be adsorbed by MAF-41.
+
+---
+
+MOF Name: MAF-41
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAF-41:
+- Styrene: 9.542×6.849×3.200 → Intermediate = 6.849 Å | Adsorbed (Reason: Size-compatible pore aperture / molecular sieving for styrene)
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Not Adsorbed (Reason: Size exclusion (kinetic mechanism))
+- Toluene: 8.117×6.501×3.750 → Intermediate = 6.501 Å | Not Adsorbed (Reason: Thermodynamic exclusion)
+- Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Not Adsorbed (Reason: Thermodynamic exclusion)
+
+Inferred effective pore size of MAF-41:
+The MOF can adsorb styrene, which has an intermediate dimension of 6.849 Å, indicating that the pore aperture can accommodate molecules of at least this size. However, ethylbenzene, with a smaller intermediate dimension of 6.501 Å, is reported as "Not Adsorbed" due to "Size exclusion (kinetic mechanism)". This suggests that while the MOF's aperture is large enough for 6.849 Å, there are specific kinetic barriers or unfavorable shape interactions that prevent adsorption of ethylbenzene, even though it is geometrically smaller than styrene. The experimental data indicates MAF-41 exhibits highly selective "Intermediate-sized molecular sieving (iSMS)" behavior combining kinetic and thermodynamic guest exclusion mechanisms.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is smaller than both styrene (6.849 Å, which is successfully adsorbed) and ethylbenzene (6.501 Å, which is kinetically excluded). Given that the MOF can pass the larger styrene molecule, the geometric aperture is sufficient. Since trans-2-pentene is also smaller than ethylbenzene and has a different molecular shape (alkene vs. aromatic), it is less likely to encounter the same specific kinetic or shape-dependent exclusion mechanism that prevents ethylbenzene's adsorption. Therefore, it is predicted that trans-2-pentene can be adsorbed by MAF-41.
+
+---
+
+MOF Name: MAF-41
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAF-41:
+- Styrene: 9.542×6.849×3.200 → Intermediate = 6.849 Å | Adsorbed (Reason: Size-compatible pore aperture / molecular sieving for styrene)
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Not Adsorbed (Reason: Size exclusion (kinetic mechanism))
+- Toluene: 8.117×6.501×3.750 → Intermediate = 6.501 Å | Not Adsorbed (Reason: Thermodynamic exclusion)
+- Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Not Adsorbed (Reason: Thermodynamic exclusion)
+
+Inferred effective pore size of MAF-41:
+The MOF can adsorb styrene, which has an intermediate dimension of 6.849 Å, indicating that the pore aperture can accommodate molecules of at least this size. However, ethylbenzene, with a smaller intermediate dimension of 6.501 Å, is reported as "Not Adsorbed" due to "Size exclusion (kinetic mechanism)". This suggests that while the MOF's aperture is large enough for 6.849 Å, there are specific kinetic barriers or unfavorable shape interactions that prevent adsorption of ethylbenzene, even though it is geometrically smaller than styrene. The experimental data indicates MAF-41 exhibits highly selective "Intermediate-sized molecular sieving (iSMS)" behavior combining kinetic and thermodynamic guest exclusion mechanisms.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is smaller than both styrene (6.849 Å, which is successfully adsorbed) and ethylbenzene (6.501 Å, which is kinetically excluded). Given that the MOF can pass the larger styrene molecule, the geometric aperture is sufficient. Since n-pentane is also significantly smaller than ethylbenzene and has a different molecular shape (alkane vs. aromatic), it is less likely to encounter the same specific kinetic or shape-dependent exclusion mechanism that prevents ethylbenzene's adsorption. Therefore, it is predicted that n-pentane can be adsorbed by MAF-41.

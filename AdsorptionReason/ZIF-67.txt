@@ -1,0 +1,112 @@
+MOF Name: ZIF-67
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-67:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Kinetic sieving)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed (Diffusion-based separation)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening allows adsorption)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of ZIF-67:
+The conflicting data for carbon dioxide (both 'Yes' via gate-opening and 'No' via size exclusion) implies that ZIF-67 is a flexible MOF. The 'No' indicates that the crystallographic (or static) pore aperture is smaller than 3.200 Å, while the 'Yes' with 'Gate-opening' mechanism and the adsorption of larger molecules like propylene (5.051 Å) and propane (4.354 Å) show that the MOF can dynamically expand its pore. The largest molecule experimentally confirmed to be adsorbed is propylene, with an intermediate dimension of 5.051 Å. This adsorption of propylene is also noted as 'Kinetic sieving', suggesting a tight fit. Therefore, based on the provided data, the effective pore size of ZIF-67 when opened is inferred to accommodate molecules up to approximately 5.051 Å.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is greater than the largest intermediate dimension of molecules experimentally confirmed to be adsorbed by ZIF-67 (5.051 Å), it is predicted not to adsorb. The 'Kinetic sieving' observed for propylene suggests that 5.051 Å is already a tight fit, making it unlikely for larger molecules like isoprene to pass.
+
+***
+
+MOF Name: ZIF-67
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-67:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Kinetic sieving)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed (Diffusion-based separation)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening allows adsorption)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of ZIF-67:
+As inferred above, ZIF-67 is a flexible MOF that can undergo gate-opening. The largest molecule confirmed to be adsorbed is propylene, with an intermediate dimension of 5.051 Å, via 'Kinetic sieving'. This suggests that the effective pore size when opened can accommodate molecules up to approximately 5.051 Å.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is greater than the largest intermediate dimension of molecules experimentally confirmed to be adsorbed by ZIF-67 (5.051 Å), it is predicted not to adsorb.
+
+***
+
+MOF Name: ZIF-67
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-67:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Kinetic sieving)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed (Diffusion-based separation)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening allows adsorption)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of ZIF-67:
+ZIF-67 is a flexible MOF with gate-opening behavior. The largest molecule confirmed to be adsorbed is propylene, with an intermediate dimension of 5.051 Å, implying the effective pore size when opened can accommodate molecules up to approximately 5.051 Å.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is less than or equal to the largest intermediate dimension of molecules experimentally confirmed to be adsorbed by ZIF-67 (5.051 Å), it is predicted to adsorb.
+
+***
+
+MOF Name: ZIF-67
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-67:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Kinetic sieving)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed (Diffusion-based separation)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening allows adsorption)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of ZIF-67:
+ZIF-67 is a flexible MOF that can undergo gate-opening. The largest molecule confirmed to be adsorbed is propylene, with an intermediate dimension of 5.051 Å, implying the effective pore size when opened can accommodate molecules up to approximately 5.051 Å.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is less than or equal to the largest intermediate dimension of molecules experimentally confirmed to be adsorbed by ZIF-67 (5.051 Å), it is predicted to adsorb.
+
+***
+
+MOF Name: ZIF-67
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for ZIF-67:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Kinetic sieving)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed (Diffusion-based separation)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate-opening allows adsorption)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of ZIF-67:
+ZIF-67 is a flexible MOF that can undergo gate-opening. The largest molecule confirmed to be adsorbed is propylene, with an intermediate dimension of 5.051 Å, implying the effective pore size when opened can accommodate molecules up to approximately 5.051 Å.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is less than or equal to the largest intermediate dimension of molecules experimentally confirmed to be adsorbed by ZIF-67 (5.051 Å), it is predicted to adsorb.

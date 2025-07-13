@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "NbOFFIVE-2-Cu-i (ZU-62)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 Å (static), 5.0 Å (expanded)",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4’-dipyridylacetylene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "xenon",
+                "Molecular Size": "4.10 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "273 K, up to 1 bar",
+                    "Threshold Pressure": "0.1 bar",
+                    "Additional Info": "Adsorption capacity: 4.95 mmol/g at 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "krypton",
+                "Molecular Size": "3.69 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, up to 0.92 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Kr excluded until 0.92 bar"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Inverse size-sieving effect",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Xe/Kr selectivity: 43.29 at 0.2 bar, Kr productivity: 206 mL/g, Xe productivity: 42 mL/g"
+        },
+        "Other Information": {
+            "Additional Info": "Dynamic breakthrough experiments confirmed record separation performance with excellent recyclability."
+        }
+    }
+]

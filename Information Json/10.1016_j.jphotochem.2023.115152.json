@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZnII-CA-LMOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.84 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "citric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "arginine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Turn-on fluorescence response",
+                "Other Information": {
+                    "Test Conditions": "Aqueous medium, 10^-3 M concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detection limit of 19 nM (3.3 ppb) with a response time of ~90 seconds."
+                }
+            },
+            {
+                "Molecule Name": "lysine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Restricted PET and non-covalent interactions",
+                "Other Information": {
+                    "Test Conditions": "Aqueous medium, 10^-3 M concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selective detection of arginine over lysine through fluorescence turn-on phenomenon."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Non-covalent interactions leading to host-guest stabilization in a confined zone.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Fluorometric recognition, DFT studies",
+            "Performance Metrics": "Detection limit: 3.3 ppb for arginine, selectivity over lysine and other amino acids."
+        },
+        "Other Information": {
+            "Additional Info": "The MOF was stable even after interaction with L-Arg as confirmed by PXRD and FESEM analysis."
+        }
+    }
+]

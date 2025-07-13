@@ -1,0 +1,72 @@
+MOF Name: [Cd3(vtz)6]
+
+Detailed Reasoning for Pore Size Inference:
+From the provided experimental data for [Cd3(vtz)6]:
+*   **Acetylene**: Dimensions: 5.538×3.200×3.200 Å → **Intermediate = 3.200 Å**. Adsorbed.
+*   **Carbon Dioxide**: Dimensions: 5.198×3.200×3.200 Å → **Intermediate = 3.200 Å**. Not Adsorbed. The reason given is "Quadrupole-moment sieving and size exclusion."
+
+The fact that acetylene (intermediate dimension 3.200 Å) is adsorbed indicates that the effective pore size of [Cd3(vtz)6] is at least 3.200 Å. However, carbon dioxide, which has the *same* intermediate dimension (3.200 Å), is *not* adsorbed, and "size exclusion" is cited as a reason along with "quadrupole-moment sieving." This scenario exemplifies kinetic sieving, where molecules with very similar or identical intermediate dimensions are separated due to subtle differences in their shape, flexibility, or specific interactions (like quadrupole moments) with the pore walls. This implies that the pore is very narrow, likely around **3.200 Å**, and any molecule with an intermediate dimension significantly larger than this would be excluded by pure size exclusion.
+
+Therefore, the inferred effective pore size of [Cd3(vtz)6] is approximately **3.200 Å**.
+
+---
+
+**Evaluations for Target Guest Molecules:**
+
+**MOF Name: [Cd3(vtz)6]**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   Isoprene Dimensions: 7.746×6.093×3.963 Å → **Intermediate = 6.093 Å**.
+*   The inferred effective pore size of [Cd3(vtz)6] is approximately 3.200 Å.
+*   Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the inferred effective pore size (3.200 Å), it is expected to be excluded by size.
+
+---
+
+**MOF Name: [Cd3(vtz)6]**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 Å → **Intermediate = 5.572 Å**.
+*   The inferred effective pore size of [Cd3(vtz)6] is approximately 3.200 Å.
+*   Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the inferred effective pore size (3.200 Å), it is expected to be excluded by size.
+
+---
+
+**MOF Name: [Cd3(vtz)6]**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   1-pentene Dimensions: 8.847×4.995×4.897 Å → **Intermediate = 4.995 Å**.
+*   The inferred effective pore size of [Cd3(vtz)6] is approximately 3.200 Å.
+*   Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the inferred effective pore size (3.200 Å), it is expected to be excluded by size.
+
+---
+
+**MOF Name: [Cd3(vtz)6]**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 Å → **Intermediate = 4.733 Å**.
+*   The inferred effective pore size of [Cd3(vtz)6] is approximately 3.200 Å.
+*   Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the inferred effective pore size (3.200 Å), it is expected to be excluded by size.
+
+---
+
+**MOF Name: [Cd3(vtz)6]**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   n-pentane Dimensions: 9.118×4.364×3.969 Å → **Intermediate = 4.364 Å**.
+*   The inferred effective pore size of [Cd3(vtz)6] is approximately 3.200 Å.
+*   Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the inferred effective pore size (3.200 Å), it is expected to be excluded by size.

@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "ZIF/TR-PBO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6.02 Å (window channel), 11.96 Å (cage cavity)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 4 atm feed pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significant increase in H2/CH4 selectivity attributed to the sieving effect of ZIF-8 layer."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 4 atm feed pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CH4 selectivity increased by more than 320% compared to pristine TR-PBO membrane."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 4 atm feed pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability reduced but selectivity improved significantly."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 4 atm feed pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/O2 selectivity showed improvement due to ZIF-8 layer."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 4 atm feed pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity for H2/CO2 pair improved significantly."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2/CH4 selectivity: 111, surpassing 1991 Robeson upper bound"
+        },
+        "Other Information": {
+            "Additional Info": "Composite membrane synthesized through magnetron sputtering and vapor phase growth; ZIF-8 layer thickness ~450-600 nm."
+        }
+    }
+]

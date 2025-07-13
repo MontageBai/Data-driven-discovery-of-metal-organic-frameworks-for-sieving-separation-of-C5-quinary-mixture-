@@ -1,0 +1,127 @@
+MOF Name: PCP-31
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for PCP-31:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed
+
+Analysis of PCP-31's inferred effective pore size:
+The experimental data shows that PCP-31 adsorbs acetylene (intermediate dimension: 3.200 Å). This indicates that the effective pore size of PCP-31 is at least 3.200 Å.
+However, carbon dioxide, which also has an intermediate dimension of 3.200 Å, is reported as not adsorbed by PCP-31. This cannot be explained by a simple size exclusion effect where the pore is *smaller* than 3.200 Å for CO2, as this would contradict the adsorption of acetylene. Instead, this highly selective behavior between two molecules with the same nominal intermediate dimension strongly suggests a **kinetic sieving** or precise **shape selectivity** mechanism. It implies that the pore is very tightly tuned around 3.200 Å, allowing acetylene to pass but posing a significant barrier for CO2 due to subtle differences in molecular shape, flexibility, or specific interactions within the pore, even if their reported intermediate dimensions are identical.
+
+Given this tight selectivity at 3.200 Å, it can be inferred that PCP-31's effective pore size is only marginally larger than 3.200 Å, and it is highly restrictive to molecules that are even slightly larger.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the inferred effective pore size (which is tightly tuned around 3.200 Å), it is predicted to be excluded by PCP-31 due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: PCP-31
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for PCP-31:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed
+
+Analysis of PCP-31's inferred effective pore size:
+The experimental data shows that PCP-31 adsorbs acetylene (intermediate dimension: 3.200 Å). This indicates that the effective pore size of PCP-31 is at least 3.200 Å.
+However, carbon dioxide, which also has an intermediate dimension of 3.200 Å, is reported as not adsorbed by PCP-31. This cannot be explained by a simple size exclusion effect where the pore is *smaller* than 3.200 Å for CO2, as this would contradict the adsorption of acetylene. Instead, this highly selective behavior between two molecules with the same nominal intermediate dimension strongly suggests a **kinetic sieving** or precise **shape selectivity** mechanism. It implies that the pore is very tightly tuned around 3.200 Å, allowing acetylene to pass but posing a significant barrier for CO2 due to subtle differences in molecular shape, flexibility, or specific interactions within the pore, even if their reported intermediate dimensions are identical.
+
+Given this tight selectivity at 3.200 Å, it can be inferred that PCP-31's effective pore size is only marginally larger than 3.200 Å, and it is highly restrictive to molecules that are even slightly larger.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the inferred effective pore size (which is tightly tuned around 3.200 Å), it is predicted to be excluded by PCP-31 due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: PCP-31
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for PCP-31:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed
+
+Analysis of PCP-31's inferred effective pore size:
+The experimental data shows that PCP-31 adsorbs acetylene (intermediate dimension: 3.200 Å). This indicates that the effective pore size of PCP-31 is at least 3.200 Å.
+However, carbon dioxide, which also has an intermediate dimension of 3.200 Å, is reported as not adsorbed by PCP-31. This cannot be explained by a simple size exclusion effect where the pore is *smaller* than 3.200 Å for CO2, as this would contradict the adsorption of acetylene. Instead, this highly selective behavior between two molecules with the same nominal intermediate dimension strongly suggests a **kinetic sieving** or precise **shape selectivity** mechanism. It implies that the pore is very tightly tuned around 3.200 Å, allowing acetylene to pass but posing a significant barrier for CO2 due to subtle differences in molecular shape, flexibility, or specific interactions within the pore, even if their reported intermediate dimensions are identical.
+
+Given this tight selectivity at 3.200 Å, it can be inferred that PCP-31's effective pore size is only marginally larger than 3.200 Å, and it is highly restrictive to molecules that are even slightly larger.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the inferred effective pore size (which is tightly tuned around 3.200 Å), it is predicted to be excluded by PCP-31 due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: PCP-31
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for PCP-31:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed
+
+Analysis of PCP-31's inferred effective pore size:
+The experimental data shows that PCP-31 adsorbs acetylene (intermediate dimension: 3.200 Å). This indicates that the effective pore size of PCP-31 is at least 3.200 Å.
+However, carbon dioxide, which also has an intermediate dimension of 3.200 Å, is reported as not adsorbed by PCP-31. This cannot be explained by a simple size exclusion effect where the pore is *smaller* than 3.200 Å for CO2, as this would contradict the adsorption of acetylene. Instead, this highly selective behavior between two molecules with the same nominal intermediate dimension strongly suggests a **kinetic sieving** or precise **shape selectivity** mechanism. It implies that the pore is very tightly tuned around 3.200 Å, allowing acetylene to pass but posing a significant barrier for CO2 due to subtle differences in molecular shape, flexibility, or specific interactions within the pore, even if their reported intermediate dimensions are identical.
+
+Given this tight selectivity at 3.200 Å, it can be inferred that PCP-31's effective pore size is only marginally larger than 3.200 Å, and it is highly restrictive to molecules that are even slightly larger.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the inferred effective pore size (which is tightly tuned around 3.200 Å), it is predicted to be excluded by PCP-31 due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: PCP-31
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for PCP-31:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed
+
+Analysis of PCP-31's inferred effective pore size:
+The experimental data shows that PCP-31 adsorbs acetylene (intermediate dimension: 3.200 Å). This indicates that the effective pore size of PCP-31 is at least 3.200 Å.
+However, carbon dioxide, which also has an intermediate dimension of 3.200 Å, is reported as not adsorbed by PCP-31. This cannot be explained by a simple size exclusion effect where the pore is *smaller* than 3.200 Å for CO2, as this would contradict the adsorption of acetylene. Instead, this highly selective behavior between two molecules with the same nominal intermediate dimension strongly suggests a **kinetic sieving** or precise **shape selectivity** mechanism. It implies that the pore is very tightly tuned around 3.200 Å, allowing acetylene to pass but posing a significant barrier for CO2 due to subtle differences in molecular shape, flexibility, or specific interactions within the pore, even if their reported intermediate dimensions are identical.
+
+Given this tight selectivity at 3.200 Å, it can be inferred that PCP-31's effective pore size is only marginally larger than 3.200 Å, and it is highly restrictive to molecules that are even slightly larger.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the inferred effective pore size (which is tightly tuned around 3.200 Å), it is predicted to be excluded by PCP-31 due to size exclusion.
+
+Therefore, the result is: **Cannot Adsorb**

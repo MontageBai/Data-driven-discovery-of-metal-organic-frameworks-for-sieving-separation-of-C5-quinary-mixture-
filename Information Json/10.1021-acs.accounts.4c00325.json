@@ -1,0 +1,194 @@
+[
+    {
+        "Materials Name": "FDC-0a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0 Å (at low temperatures)",
+            "Structure Type": "Cage-like cavities with diffusion channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "5,5-dioxido-10H-phenothiazin-10-yl (OPTz)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.47 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "180 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Maximum O2/Ar uptake ratio of 6.1 at 180 K."
+                }
+            },
+            {
+                "Molecule Name": "argon",
+                "Molecular Size": "3.54 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "180 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Maximum O2/Ar uptake ratio of 6.1 at 180 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature-responsive pore-aperture contraction and expansion",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "O2 separation factor: 354 at 180 K"
+        },
+        "Other Information": {
+            "Additional Info": "FDC-0a selectively adsorbs O2 over Ar due to temperature-responsive flipping motions."
+        }
+    },
+    {
+        "Materials Name": "FDC-2a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.0 Å (at low temperatures)",
+            "Structure Type": "Cage-like cavities with diffusion channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "5,5-dioxido-10H-phenothiazin-10-yl (OPTz)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion-rate amplification",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2O/D2O uptake ratio of 1.64 at P/PS = 0.98."
+                }
+            },
+            {
+                "Molecule Name": "deuterium oxide",
+                "Molecular Size": "2.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Diffusion-rate amplification",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2O/D2O uptake ratio of 1.64 at P/PS = 0.98."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Amplification of diffusion-rate differences",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2O separation factor: 212 at 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "FDC-2a enriches H2O from ternary H2O/HDO/D2O mixtures."
+        }
+    },
+    {
+        "Materials Name": "FDC-3a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.9 Å (at low temperatures)",
+            "Structure Type": "Cage-like cavities with diffusion channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "5,5-dioxido-10H-phenothiazin-10-yl (OPTz)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Switchable recognition by temperature",
+                "Other Information": {
+                    "Test Conditions": "200-280 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/C2H2 uptake ratio switches with temperature."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Switchable recognition by temperature",
+                "Other Information": {
+                    "Test Conditions": "290-370 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/C2H2 uptake ratio switches with temperature."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Switchable molecular recognition by temperature",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2 separation factor: 498 at 240 K; C2H2 separation factor: 181 at 320 K"
+        },
+        "Other Information": {
+            "Additional Info": "FDC-3a switches selectivity between CO2 and C2H2 based on temperature."
+        }
+    },
+    {
+        "Materials Name": "FDC-4a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å (at low temperatures)",
+            "Structure Type": "Cage-like cavities with diffusion channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "5,5-dioxido-10H-phenothiazin-10-yl (OPTz)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion-rate sieving",
+                "Other Information": {
+                    "Test Conditions": "300 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6/C3H8 diffusion-rate ratio of 63 at 300 K."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.12 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Diffusion-rate sieving",
+                "Other Information": {
+                    "Test Conditions": "300 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6/C3H8 diffusion-rate ratio of 63 at 300 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Global phase transition-induced diffusion-rate difference",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C3H6 purity: 99.1%; Productivity: 19.5 L kg−1 at 300 K"
+        },
+        "Other Information": {
+            "Additional Info": "FDC-4a achieves high-performance C3H6/C3H8 separation via diffusion-rate sieving."
+        }
+    }
+]

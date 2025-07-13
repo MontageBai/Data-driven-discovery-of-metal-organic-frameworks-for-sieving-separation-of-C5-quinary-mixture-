@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "PCP-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "9.53 Å x 9.56 Å (1D channels)",
+            "Structure Type": "3D porous network"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mn2+"
+        ],
+        "Ligands": [
+            "2,6-naphthalenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "195 K",
+                    "Threshold Pressure": "0.91 bar",
+                    "Additional Info": "Strong interaction through C-H···O interactions and dipole-induced dipole interaction"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Insignificant adsorption due to size-exclusion effect and lack of strong interactions"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sorption isotherms",
+            "Performance Metrics": "CO2 uptake: 49 mL/g at 0.91 bar, 195 K; N2 uptake: negligible at 77 K"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows permanent microporosity and exhibits selective CO2 adsorption over N2 due to the size-exclusion effect of interstitial channels along with dipole-induced dipole interactions."
+        }
+    }
+]

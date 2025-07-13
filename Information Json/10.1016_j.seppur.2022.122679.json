@@ -1,0 +1,84 @@
+[
+    {
+        "Materials Name": "ZIF-11@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (ZIF-8 aperture), 11.6 Å (ZIF-8 cavities), 3.0 Å (ZIF-11 aperture), 14.6 Å (ZIF-11 cavities)",
+            "Structure Type": "Core-shell structure with ZIF-11 core and ZIF-8 shell"
+        },
+        "Topology": "RHO (ZIF-11), SOD (ZIF-8)",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole",
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption due to higher polarity and quadrupole moment",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity increased from 4.35 mmol/g in ZIF-11 to 8.21 mmol/g in ZIF-11@ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to smaller pore windows than molecular size",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest uptake among tested gases due to nonpolar nature"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving with some flexibility effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slight increase in adsorption from 1.41 mmol/g in ZIF-11 to 1.59 mmol/g in ZIF-11@ZIF-8 at 298 K"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption through flexible windows",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity increased from 10.06 mmol/g in ZIF-11 to 11.81 mmol/g in ZIF-11@ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.443 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption due to larger size and higher polarizability",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significant increase in adsorption from 10.83 mmol/g in ZIF-11 to 17.83 mmol/g in ZIF-11@ZIF-8"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combination of size exclusion by ZIF-8 shell and enhanced adsorption by flexible ZIF-11 core",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption measurements using pressure-decay method",
+            "Performance Metrics": "CO2/N2 selectivity: 40.23, C2H6/C2H4 selectivity: 1.6"
+        },
+        "Other Information": {
+            "Additional Info": "The core-shell structure shows synergistic effect of high adsorption capacity and selectivity"
+        }
+    }
+]

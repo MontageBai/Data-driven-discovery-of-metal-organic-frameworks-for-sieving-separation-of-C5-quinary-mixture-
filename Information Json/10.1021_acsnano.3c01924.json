@@ -1,0 +1,95 @@
+[
+    {
+        "MOF Name": "UiO-66-NH2(PSS)/ZIF-8(PVP) membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4-11 Å",
+            "Structure Type": "Asymmetric bilayer nanochannels with angstrom-scale cavities, comprising tetrahedral pores (ZIF-8) and triangular, tetrahedral, and octahedral channels (UiO-66-NH2)."
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+",
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "K+",
+                "Molecular Size": "6.62 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving; fastest transmembrane conduction due to smallest hydrated diameter and lower hydration energy; cation permselectivity.",
+                "Other Information": {
+                    "Test Conditions": "Various KCl concentrations (e.g., 0.001-100 mM for I-V, 0.5 M for diffusion, 10 mM for conductance, 50-fold/500-fold salinity gradients)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest ionic conductance among tested ions. Experiences relatively unimpeded passage compared to larger ions."
+                }
+            },
+            {
+                "Molecule Name": "Na+",
+                "Molecular Size": "7.20 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving; transmembrane conduction due to relatively smaller hydrated diameter and lower hydration energy; cation permselectivity.",
+                "Other Information": {
+                    "Test Conditions": "Various NaCl concentrations (e.g., 0.5 M for diffusion, 5-fold/50-fold/500-fold salinity gradients)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Second highest ionic conductance among tested monovalent ions. Experiences relatively unimpeded passage compared to larger ions."
+                }
+            },
+            {
+                "Molecule Name": "Li+",
+                "Molecular Size": "7.60 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving; transmembrane conduction requiring dehydration; cation permselectivity.",
+                "Other Information": {
+                    "Test Conditions": "Various LiCl concentrations (e.g., 0.5 M for diffusion, 500-fold salinity gradient)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Experiences higher energy barrier compared to K+/Na+ due to larger hydrated size."
+                }
+            },
+            {
+                "Molecule Name": "Ca2+",
+                "Molecular Size": "8.20 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving; transmembrane conduction requiring significant dehydration; cation permselectivity.",
+                "Other Information": {
+                    "Test Conditions": "Various CaCl2 concentrations (e.g., 0.5 M for diffusion, 500-fold salinity gradient)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Experiences higher energy barrier compared to K+/Na+ due to larger hydrated size. Lower ionic conductance than monovalent ions."
+                }
+            },
+            {
+                "Molecule Name": "Mg2+",
+                "Molecular Size": "8.56 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving; transmembrane conduction requiring significant dehydration; cation permselectivity.",
+                "Other Information": {
+                    "Test Conditions": "Various MgCl2 concentrations (e.g., 0.5 M for diffusion, 500-fold salinity gradient)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest ionic conductance among tested ions due to largest hydrated diameter and highest hydration energy. Experiences highest energy barrier."
+                }
+            },
+            {
+                "Molecule Name": "Anions (Cl-)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Co-ion exclusion; electrostatic repulsion due to negatively charged channels and overlapped electric double layer (EDL).",
+                "Other Information": {
+                    "Test Conditions": "Various concentrations of KCl, NaCl, LiCl, MgCl2, CaCl2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Membrane selectively conducts cations over anions (permselectivity)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on hydrated ionic size exclusion and dehydration-assisted transport, coupled with cation permselectivity facilitated by overlapped electric double layer in asymmetric, negatively charged angstrom-scale nanochannels. Ion transport is influenced by flow direction and hydration energy barriers.",
+        "Experimental Validation": {
+            "Method": "I-V curves; Ionic conductance measurements; Diffusion-driven conductivity test; Electrochemical cell osmotic energy conversion; Molecular dynamics (MD) simulations; Zeta potential analysis; FT-IR; XPS; N2 adsorption-desorption; XRD.",
+            "Performance Metrics": "Ionic current rectification (ICR) behavior observed; Ionic conductance order: K+ > Na+ > Li+ > Ca2+ > Mg2+; Maximum osmotic power densities: 0.70 W/m2 (5-fold NaCl), 8.72 W/m2 (50-fold NaCl), 40.01 W/m2 (500-fold NaCl), 66.90 W/m2 (500-fold KCl); Permeability: >665 A/m2 (500-fold salinity gradient); Power density from real sea-river water: 9.20 W/m2; Osmotic energy conversion efficiency: 15.68%; Stable diffusion current for 3600 s with <0.1% change."
+        },
+        "Other Information": {
+            "Additional Info": "Bilayer MOF-on-MOF membrane constructed from ZIF-8 deposited on UiO-66-NH2; UiO-66-NH2 layer intercalated with poly(sodium-4-styrenesulfonate) (PSS); ZIF-8 layer grown using polyvinylpyrrolidone (PVP) as a structure-directing agent; Overall membrane is asymmetric in nanochannel shape, size, and surface charge; Negatively charged channels facilitate cation transport; Bilayer thickness: ~700 nm (UiO-66-NH2(PSS) film: 125 ± 15 nm, ZIF-8(PVP) top layer: 571 ± 18 nm) on a 74.6 μm AAO substrate. Studied for osmotic energy harvesting."
+        }
+    }
+]

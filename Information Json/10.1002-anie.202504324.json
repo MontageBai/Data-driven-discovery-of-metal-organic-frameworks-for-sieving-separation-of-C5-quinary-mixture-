@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "TYUT-20",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 × 6.4 Å2",
+            "Structure Type": "1D non-polar spherical pore channel"
+        },
+        "Topology": "dia",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "3-amino isonicotinic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "argon",
+                "Molecular Size": "3.55 × 3.46 × 3.46 Å3",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Shape-matched interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ar atoms are trapped in spheroidal cavities with maximized van der Waals forces."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "4.05 × 2.93 × 2.98 Å3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Repulsion due to linear shape",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Linear O2 molecules cannot be fitted well into the spheroidal cavities."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential adsorption of Ar over O2 through spheroidal shape-matched interactions.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, SCXRD analysis",
+            "Performance Metrics": "Ar/O2 selectivity: 1.54 at 298 K and 1 bar, High-purity O2 productivity: 6.6 L kg−1 from 5/95 Ar/O2 mixture"
+        },
+        "Other Information": {
+            "Additional Info": "TYUT-20 demonstrated exceptional Ar uptake (14.5 cm3 g−1) and top-performing Ar/O2 selectivity under ambient conditions."
+        }
+    }
+]

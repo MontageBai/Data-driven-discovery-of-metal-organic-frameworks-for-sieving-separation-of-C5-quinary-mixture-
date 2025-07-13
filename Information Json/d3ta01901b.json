@@ -1,0 +1,213 @@
+[
+    {
+        "Materials Name": "UiO-66-NH2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å (approximate window size)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid (BDC-NH2)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Charge-based repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH = 8, -1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "K+/Mg2+ selectivity of 24-fold at pH = 8 and +1 V."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Charge-based repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH = 8, -1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher difficulty for Mg2+ to pass due to stronger repulsion with positively charged -NH3+."
+                }
+            },
+            {
+                "Molecule Name": "chlorine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Charge-based attraction",
+                "Other Information": {
+                    "Test Conditions": "pH = 3, -1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cl-/SO42- selectivity of 186-fold at pH = 3 and -1 V."
+                }
+            },
+            {
+                "Molecule Name": "sulfur hexafluoride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH = 3, -1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SO42- has strong attraction with positively charged MOFs, resulting in harder transport."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with charge effects",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I-V) measurements",
+            "Performance Metrics": "Cl-/SO42- selectivity of 186-fold at pH = 3 and -1 V; K+/Mg2+ selectivity of 24-fold at pH = 8 and +1 V."
+        },
+        "Other Information": {
+            "Additional Info": "Amphoteric UiO-66-NH2 exhibits excellent anion sieving properties under acidic conditions and cation sieving properties under alkaline conditions."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-COOH",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å (approximate window size)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,2,4-benzenetricarboxylic acid (BDC-COOH)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Charge-based attraction",
+                "Other Information": {
+                    "Test Conditions": "pH = 8, -1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "K+/Mg2+ selectivity of 1028-fold at pH = 8 and -1 V."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Charge-based repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH = 8, -1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher difficulty for Mg2+ to pass due to stronger repulsion with negatively charged -COO-."
+                }
+            },
+            {
+                "Molecule Name": "bromine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Charge-based attraction",
+                "Other Information": {
+                    "Test Conditions": "pH = 3, -1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Br-/SO42- selectivity of 38-fold at pH = 3 and -1 V."
+                }
+            },
+            {
+                "Molecule Name": "sulfur hexafluoride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH = 3, -1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SO42- has strong repulsion with negatively charged MOFs, resulting in low conductance."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with charge effects",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I-V) measurements",
+            "Performance Metrics": "Br-/SO42- selectivity of 38-fold at pH = 3 and -1 V; K+/Mg2+ selectivity of 1028-fold at pH = 8 and -1 V."
+        },
+        "Other Information": {
+            "Additional Info": "Negatively charged -COOH groups enhance cation selectivity under high pH conditions."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-MIX2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å (approximate window size)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid (BDC-NH2)",
+            "1,2,4-benzenetricarboxylic acid (BDC-COOH)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Charge-based attraction",
+                "Other Information": {
+                    "Test Conditions": "pH = 8, -1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High cation selectivity under alkaline conditions."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Charge-based repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH = 8, -1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher difficulty for Mg2+ to pass due to mixed charge interactions."
+                }
+            },
+            {
+                "Molecule Name": "bromine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Charge-based attraction",
+                "Other Information": {
+                    "Test Conditions": "pH = 3, +1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Br-/SO42- selectivity of 39-fold at pH = 3 and +1 V."
+                }
+            },
+            {
+                "Molecule Name": "sulfur hexafluoride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH = 3, +1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SO42- has strong repulsion with negatively charged functional groups, resulting in low conductance."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with charge effects",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I-V) measurements",
+            "Performance Metrics": "Br-/SO42- selectivity of 39-fold at pH = 3 and +1 V; High cation selectivity under alkaline conditions."
+        },
+        "Other Information": {
+            "Additional Info": "Amphoteric UiO-66-MIX2 exhibits both cation and anion selectivity regulated by pH values."
+        }
+    }
+]

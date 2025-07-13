@@ -1,0 +1,107 @@
+MOF Name: Mn(INA)2
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mn(INA)2 at 298 K, 1 bar:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Pressure-dependent, requiring partial pressure > 0.8 bar, which is met at 1 bar)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion due to narrow bottleneck)
+
+Inferred effective pore size of Mn(INA)2: The MOF is able to adsorb CO2 (intermediate dimension 3.200 Å) under the given conditions (1 bar > 0.8 bar threshold), indicating the pore can open to at least this size. However, it cannot adsorb methane (intermediate dimension 3.877 Å) due to size exclusion. This suggests the effective pore size of Mn(INA)2 is approximately in the range **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the upper bound of the inferred effective pore size range (~3.877 Å), it cannot be adsorbed by Mn(INA)2.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Mn(INA)2
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mn(INA)2 at 298 K, 1 bar:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Pressure-dependent, requiring partial pressure > 0.8 bar, which is met at 1 bar)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion due to narrow bottleneck)
+
+Inferred effective pore size of Mn(INA)2: Based on the adsorption of CO2 (3.200 Å) and non-adsorption of methane (3.877 Å) due to size exclusion, the effective pore size is approximately in the range **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the upper bound of the inferred effective pore size range (~3.877 Å), it cannot be adsorbed by Mn(INA)2.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Mn(INA)2
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mn(INA)2 at 298 K, 1 bar:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Pressure-dependent, requiring partial pressure > 0.8 bar, which is met at 1 bar)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion due to narrow bottleneck)
+
+Inferred effective pore size of Mn(INA)2: Based on the adsorption of CO2 (3.200 Å) and non-adsorption of methane (3.877 Å) due to size exclusion, the effective pore size is approximately in the range **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the upper bound of the inferred effective pore size range (~3.877 Å), it cannot be adsorbed by Mn(INA)2.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Mn(INA)2
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mn(INA)2 at 298 K, 1 bar:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Pressure-dependent, requiring partial pressure > 0.8 bar, which is met at 1 bar)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion due to narrow bottleneck)
+
+Inferred effective pore size of Mn(INA)2: Based on the adsorption of CO2 (3.200 Å) and non-adsorption of methane (3.877 Å) due to size exclusion, the effective pore size is approximately in the range **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the upper bound of the inferred effective pore size range (~3.877 Å), it cannot be adsorbed by Mn(INA)2.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Mn(INA)2
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mn(INA)2 at 298 K, 1 bar:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Pressure-dependent, requiring partial pressure > 0.8 bar, which is met at 1 bar)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion due to narrow bottleneck)
+
+Inferred effective pore size of Mn(INA)2: Based on the adsorption of CO2 (3.200 Å) and non-adsorption of methane (3.877 Å) due to size exclusion, the effective pore size is approximately in the range **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the upper bound of the inferred effective pore size range (~3.877 Å), it cannot be adsorbed by Mn(INA)2.
+
+Therefore, the result is: **Cannot Adsorb**

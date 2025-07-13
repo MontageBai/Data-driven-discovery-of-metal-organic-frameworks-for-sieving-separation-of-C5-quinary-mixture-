@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "NU-2200",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "ths (3-c network)",
+        "Metal Nodes": [
+            "Zn"
+        ],
+        "Ligands": [
+            "bicyclo[2.2.2]octane-1,4-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "4.3 Å (linear), 5.0 Å (monobranched), >5.0 Å (dibranched)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase batch experiments",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation into linear, monobranched, and dibranched isomers observed."
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "5.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase batch experiments",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake of 0.87 mmol g^-1 in the absence of linear hexane."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "5.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase batch experiments",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake of 0.62 mmol g^-1 in the absence of linear hexane."
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": ">5.0 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase batch experiments",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake observed."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": ">5.0 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, liquid phase batch experiments",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-Ångstrom scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Batch liquid uptake experiments, GC-MS analysis",
+            "Performance Metrics": "Linear hexane: 1.01 mmol g^-1, 2MP: 0.87 mmol g^-1, 3MP: 0.62 mmol g^-1, 23DMB: negligible, 22DMB: negligible"
+        },
+        "Other Information": {
+            "Additional Info": "NU-2200 demonstrates thermal stability up to 400°C and maintains porosity under all activation conditions."
+        }
+    }
+]

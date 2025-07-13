@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "Ru3@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phenylacetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Catalyzes terminal alkynes but not internal alkynes due to molecular sieving effect."
+                }
+            },
+            {
+                "Molecule Name": "diphenylacetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible activity due to steric hindrance preventing access to active sites."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "2.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exhibits high activity and ethylene selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Absolute regioselectivity of catalyzing terminal alkynes but not internal alkynes.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic hydrogenation experiments, XANES, EXAFS, DFT calculations",
+            "Performance Metrics": "TOF: 360 h-1 for phenylacetylene hydrogenation; Activity: 603.6 molC2H2 molnoble metal-1 h-1 for acetylene hydrogenation."
+        },
+        "Other Information": {
+            "Additional Info": "Ru3 clusters are atomically dispersed within ZIF-8 framework, providing enhanced catalytic activity and selectivity."
+        }
+    },
+    {
+        "Materials Name": "Ru1@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phenylacetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Catalyzes terminal alkynes but not internal alkynes due to molecular sieving effect."
+                }
+            },
+            {
+                "Molecule Name": "diphenylacetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible activity due to steric hindrance preventing access to active sites."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "2.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower activity and ethylene selectivity compared to Ru3@ZIF-8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Absolute regioselectivity of catalyzing terminal alkynes but not internal alkynes.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic hydrogenation experiments, XANES, EXAFS, DFT calculations",
+            "Performance Metrics": "TOF: 36 h-1 for phenylacetylene hydrogenation; Activity: 12.5 molC2H2 molnoble metal-1 h-1 for acetylene hydrogenation."
+        },
+        "Other Information": {
+            "Additional Info": "Ru single atoms are atomically dispersed within ZIF-8 framework, showing lower catalytic activity and selectivity compared to Ru3@ZIF-8."
+        }
+    }
+]

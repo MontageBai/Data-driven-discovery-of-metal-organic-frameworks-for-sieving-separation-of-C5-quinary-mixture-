@@ -1,0 +1,94 @@
+MOF Name: PIZA-1
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for PIZA-1:
+- Benzene: 7.134×6.762×3.200 Å → Intermediate = 6.762 Å | Adsorbed
+- Toluene: 8.117×6.501×3.750 Å → Intermediate = 6.501 Å | Adsorbed
+
+Based on the adsorbed molecules, the largest intermediate dimension among adsorbed molecules is 6.762 Å (for benzene).
+Inferred effective pore size of PIZA-1 is determined to be greater than or equal to 6.762 Å. There are no data points for non-adsorbed molecules due to size exclusion, so only a lower bound for the pore size can be established.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is smaller than the intermediate dimension of benzene (6.762 Å), which is successfully adsorbed, it is predicted that isoprene can also be adsorbed by PIZA-1 based on size exclusion principles. The experimental data lists "Size exclusion" as the adsorption mechanism for benzene and toluene, suggesting the pore is sufficiently open.
+
+MOF Name: PIZA-1
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for PIZA-1:
+- Benzene: 7.134×6.762×3.200 Å → Intermediate = 6.762 Å | Adsorbed
+- Toluene: 8.117×6.501×3.750 Å → Intermediate = 6.501 Å | Adsorbed
+
+Based on the adsorbed molecules, the largest intermediate dimension among adsorbed molecules is 6.762 Å (for benzene).
+Inferred effective pore size of PIZA-1 is determined to be greater than or equal to 6.762 Å. There are no data points for non-adsorbed molecules due to size exclusion, so only a lower bound for the pore size can be established.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 Å → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than the intermediate dimension of benzene (6.762 Å), which is successfully adsorbed, it is predicted that cis-2-pentene can also be adsorbed by PIZA-1 based on size exclusion principles. The experimental data lists "Size exclusion" as the adsorption mechanism for benzene and toluene, suggesting the pore is sufficiently open.
+
+MOF Name: PIZA-1
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for PIZA-1:
+- Benzene: 7.134×6.762×3.200 Å → Intermediate = 6.762 Å | Adsorbed
+- Toluene: 8.117×6.501×3.750 Å → Intermediate = 6.501 Å | Adsorbed
+
+Based on the adsorbed molecules, the largest intermediate dimension among adsorbed molecules is 6.762 Å (for benzene).
+Inferred effective pore size of PIZA-1 is determined to be greater than or equal to 6.762 Å. There are no data points for non-adsorbed molecules due to size exclusion, so only a lower bound for the pore size can be established.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the intermediate dimension of benzene (6.762 Å), which is successfully adsorbed, it is predicted that 1-pentene can also be adsorbed by PIZA-1 based on size exclusion principles. The experimental data lists "Size exclusion" as the adsorption mechanism for benzene and toluene, suggesting the pore is sufficiently open.
+
+MOF Name: PIZA-1
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for PIZA-1:
+- Benzene: 7.134×6.762×3.200 Å → Intermediate = 6.762 Å | Adsorbed
+- Toluene: 8.117×6.501×3.750 Å → Intermediate = 6.501 Å | Adsorbed
+
+Based on the adsorbed molecules, the largest intermediate dimension among adsorbed molecules is 6.762 Å (for benzene).
+Inferred effective pore size of PIZA-1 is determined to be greater than or equal to 6.762 Å. There are no data points for non-adsorbed molecules due to size exclusion, so only a lower bound for the pore size can be established.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 Å → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the intermediate dimension of benzene (6.762 Å), which is successfully adsorbed, it is predicted that trans-2-pentene can also be adsorbed by PIZA-1 based on size exclusion principles. The experimental data lists "Size exclusion" as the adsorption mechanism for benzene and toluene, suggesting the pore is sufficiently open.
+
+MOF Name: PIZA-1
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for PIZA-1:
+- Benzene: 7.134×6.762×3.200 Å → Intermediate = 6.762 Å | Adsorbed
+- Toluene: 8.117×6.501×3.750 Å → Intermediate = 6.501 Å | Adsorbed
+
+Based on the adsorbed molecules, the largest intermediate dimension among adsorbed molecules is 6.762 Å (for benzene).
+Inferred effective pore size of PIZA-1 is determined to be greater than or equal to 6.762 Å. There are no data points for non-adsorbed molecules due to size exclusion, so only a lower bound for the pore size can be established.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the intermediate dimension of benzene (6.762 Å), which is successfully adsorbed, it is predicted that n-pentane can also be adsorbed by PIZA-1 based on size exclusion principles. The experimental data lists "Size exclusion" as the adsorption mechanism for benzene and toluene, suggesting the pore is sufficiently open.

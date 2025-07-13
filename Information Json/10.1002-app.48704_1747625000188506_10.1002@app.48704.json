@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "HDC nanoparticles",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D rectangular grid structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "cadmium ions (Cd2+)"
+        ],
+        "Ligands": [
+            "dicyanamide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport and diffusion",
+                "Other Information": {
+                    "Test Conditions": "10 bar, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher affinity of HDC nanoparticles towards CO2 due to dipole-induced dipole and donor-acceptor interactions."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion",
+                "Other Information": {
+                    "Test Conditions": "10 bar, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower solubility compared to CO2."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion",
+                "Other Information": {
+                    "Test Conditions": "10 bar, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower solubility compared to CO2; higher condensability than nitrogen."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "0.346 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion",
+                "Other Information": {
+                    "Test Conditions": "10 bar, 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate increase in permeability with nanoparticle loading."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with facilitated transport for CO2",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests using constant volume/variable pressure technique",
+            "Performance Metrics": "CO2 permeability: ~140 barrer, CO2/N2 selectivity: ~30 for 2.5 wt% HDC MMM at 10 bar, 30 °C"
+        },
+        "Other Information": {
+            "Additional Info": "HDC nanoparticles enhance CO2/N2 and CO2/CH4 selectivities by improving solubility selectivity and diffusivity coefficients."
+        }
+    }
+]

@@ -1,0 +1,211 @@
+[
+    {
+        "Materials Name": "BAKGAX (Co3(SO4)(OH)(btt))",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.12 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co3+"
+        ],
+        "Ligands": [
+            "5,5′,5’’-(1,3,5-phenylene)tris(1H-tetrazole)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "300 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Transport bottleneck offset by 3.41 Å from topological bottleneck."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Other",
+                "Other Information": {
+                    "Test Conditions": "300 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Transport bottleneck for methane differs from CO2."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Other",
+                "Other Information": {
+                    "Test Conditions": "300 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Transport bottleneck for hydrogen differs from CO2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Coulombic effect alters transport bottleneck location",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Monte Carlo and molecular dynamics simulations",
+            "Performance Metrics": "Free energy barrier: ~11 kBT for CO2 in rigid framework"
+        },
+        "Other Information": {
+            "Additional Info": "Strong Coulombic interaction shifts adsorption sites."
+        }
+    },
+    {
+        "Materials Name": "WALBOC02 (Zn2(Atz)2(ox))",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "3-amino-1,2,4-triazole",
+            "oxalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "300 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Transport bottleneck near topological bottleneck."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Coulombic effect less pronounced compared to BAKGAX",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Monte Carlo and molecular dynamics simulations",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Less impact of Coulombic effect on free energy profile."
+        }
+    },
+    {
+        "Materials Name": "TAGSEB (Cu4(bpp)4V6O17)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3-bis(4-pyridyl)propane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "300 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Homogeneous free energy profile enhances diffusivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Open metal sites with steric hindrance",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Monte Carlo and molecular dynamics simulations",
+            "Performance Metrics": "CO2 self-diffusivity: 5.4 × 10^-9 m²/s"
+        },
+        "Other Information": {
+            "Additional Info": "Long metal-oxygen distance reduces electronegativity."
+        }
+    },
+    {
+        "Materials Name": "MAZTIR (BaZn(C3H2O4)2)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "malonate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "300 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Heterogeneous free energy profile lowers diffusivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Local adsorption sites cause uneven potential distribution",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Monte Carlo and molecular dynamics simulations",
+            "Performance Metrics": "CO2 self-diffusivity: 4.6 × 10^-12 m²/s"
+        },
+        "Other Information": {
+            "Additional Info": "Short metal-oxygen distance enhances CO2 adsorption."
+        }
+    },
+    {
+        "Materials Name": "FIHXUR (Cd(p-phda)(btmx))",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "1,3-phenylenediacetic acid",
+            "1,4-bis(1,2,4-triazol-1-ylmethyl)-2,3,5,6-tetramethylbenzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "300 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Homogeneous adsorption due to sterically hindered open metal sites."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Steric hindrance limits local adsorption site formation",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Monte Carlo and molecular dynamics simulations",
+            "Performance Metrics": "CO2 permeability ranked 1st among studied MOFs"
+        },
+        "Other Information": {
+            "Additional Info": "High CO2 Henry's constant and diffusivity achieved simultaneously."
+        }
+    }
+]

@@ -1,0 +1,98 @@
+**MOF Name: ZU-609**
+
+**Detailed Reasoning for ZU-609's Adsorption Characteristics:**
+
+From the experimental data, we analyze the adsorption behavior of ZU-609:
+
+**Adsorbed Molecules (Yes):**
+*   **trans-2-butene:** 7.219×5.151×3.961 → Intermediate: **5.151 Å**
+*   **propylene:** 6.257×5.051×3.961 → Intermediate: **5.051 Å**
+    *   The largest intermediate dimension among adsorbed molecules is 5.151 Å (trans-2-butene).
+
+**Non-Adsorbed Molecules (No - due to Size exclusion):**
+*   **cis-2-butene:** 6.702×5.310×3.960 → Intermediate: **5.310 Å** (Reason: Size-exclusion at the shrunken mouth of the channel)
+*   **isobutene:** 6.527×5.566×3.960 → Intermediate: **5.566 Å** (Reason: Size-exclusion at the shrunken mouth of the channel)
+*   **isobutane:** 6.404×6.393×4.866 → Intermediate: **6.393 Å** (Reason: Size-exclusion at the shrunken mouth of the channel)
+    *   The smallest intermediate dimension among molecules explicitly stated as "Size exclusion" non-adsorbed is 5.310 Å (cis-2-butene).
+
+**Non-Adsorbed Molecules (No - due to Kinetic/Shape Sieving):**
+*   **propane:** 6.552×4.354×3.970 → Intermediate: **4.354 Å** (Reason: Size/shape sieving based on cross-section size of the contraction falling between propylene and propane sizes.)
+    *   Note: Propane's intermediate dimension (4.354 Å) is smaller than that of propylene (5.051 Å) which *does* adsorb. This indicates a specific kinetic or shape-dependent sieving effect for propane, rather than a simple size exclusion based on its intermediate dimension relative to the general pore opening. This suggests a tighter restriction for certain molecular geometries, especially linear alkanes.
+
+**Inferred Effective Pore Size of ZU-609:**
+Based on the size exclusion data (excluding the kinetic sieving case of propane for general pore size determination), the effective pore size of ZU-609 lies in the range where it can adsorb molecules with intermediate dimensions up to 5.151 Å and excludes molecules with intermediate dimensions 5.310 Å or larger.
+Thus, the inferred effective pore size range for general size exclusion is approximately **[5.151 Å, 5.310 Å)**.
+
+---
+
+**Evaluation of Target Guest Molecules:**
+
+**MOF Name: ZU-609**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   The MOF’s known adsorbed molecules include trans-2-butene (intermediate 5.151 Å) and propylene (intermediate 5.051 Å).
+*   The MOF’s known non-adsorbed molecules due to size exclusion include cis-2-butene (intermediate 5.310 Å), isobutene (intermediate 5.566 Å), and isobutane (intermediate 6.393 Å).
+*   This suggests an effective pore size for size exclusion is between 5.151 Å and 5.310 Å.
+*   Isoprene Dimensions: 7.746×6.093×3.963 → Intermediate = **6.093 Å**.
+*   Conclusion: Since isoprene's intermediate dimension (6.093 Å) is larger than the smallest intermediate dimension of molecules excluded by size (5.310 Å for cis-2-butene), it cannot be adsorbed by ZU-609 due to size exclusion.
+
+---
+
+**MOF Name: ZU-609**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   The MOF’s known adsorbed molecules include trans-2-butene (intermediate 5.151 Å) and propylene (intermediate 5.051 Å).
+*   The MOF’s known non-adsorbed molecules due to size exclusion include cis-2-butene (intermediate 5.310 Å), isobutene (intermediate 5.566 Å), and isobutane (intermediate 6.393 Å).
+*   This suggests an effective pore size for size exclusion is between 5.151 Å and 5.310 Å.
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 → Intermediate = **5.572 Å**.
+*   Conclusion: Since cis-2-pentene's intermediate dimension (5.572 Å) is larger than the smallest intermediate dimension of molecules excluded by size (5.310 Å for cis-2-butene), it cannot be adsorbed by ZU-609 due to size exclusion.
+
+---
+
+**MOF Name: ZU-609**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   The MOF’s known adsorbed molecules include trans-2-butene (intermediate 5.151 Å) and propylene (intermediate 5.051 Å).
+*   The MOF’s known non-adsorbed molecules due to size exclusion include cis-2-butene (intermediate 5.310 Å), isobutene (intermediate 5.566 Å), and isobutane (intermediate 6.393 Å).
+*   This suggests an effective pore size for size exclusion is between 5.151 Å and 5.310 Å.
+*   1-pentene Dimensions: 8.847×4.995×4.897 → Intermediate = **4.995 Å**.
+*   Conclusion: Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the intermediate dimensions of molecules known to adsorb (e.g., propylene at 5.051 Å and trans-2-butene at 5.151 Å), it is expected to pass through the pores. No kinetic sieving behavior similar to propane has been reported for linear alkenes of this size, and it is smaller than other adsorbed alkenes. Therefore, 1-pentene can be adsorbed by ZU-609.
+
+---
+
+**MOF Name: ZU-609**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   The MOF’s known adsorbed molecules include trans-2-butene (intermediate 5.151 Å) and propylene (intermediate 5.051 Å).
+*   The MOF’s known non-adsorbed molecules due to size exclusion include cis-2-butene (intermediate 5.310 Å), isobutene (intermediate 5.566 Å), and isobutane (intermediate 6.393 Å).
+*   This suggests an effective pore size for size exclusion is between 5.151 Å and 5.310 Å.
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 → Intermediate = **4.733 Å**.
+*   Conclusion: Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the intermediate dimensions of molecules known to adsorb (e.g., propylene at 5.051 Å and trans-2-butene at 5.151 Å), it is expected to pass through the pores. No kinetic sieving behavior similar to propane has been reported for linear alkenes of this size. Therefore, trans-2-pentene can be adsorbed by ZU-609.
+
+---
+
+**MOF Name: ZU-609**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   The MOF’s known adsorbed molecules include trans-2-butene (intermediate 5.151 Å) and propylene (intermediate 5.051 Å).
+*   The MOF’s known non-adsorbed molecules due to size exclusion include cis-2-butene (intermediate 5.310 Å), isobutene (intermediate 5.566 Å), and isobutane (intermediate 6.393 Å).
+*   This suggests an effective pore size for general size exclusion is between 5.151 Å and 5.310 Å.
+*   n-pentane Dimensions: 9.118×4.364×3.969 → Intermediate = **4.364 Å**.
+*   If based solely on the general size exclusion inferred (4.364 Å < 5.151 Å), n-pentane *might* be expected to adsorb.
+*   However, experimental data shows that **propane** (intermediate 4.354 Å), a structurally very similar linear alkane and only marginally smaller than n-pentane, is **not adsorbed** due to "Size/shape sieving based on cross-section size of the contraction falling between propylene and propane sizes." This explicitly indicates a kinetic and/or shape-dependent exclusion mechanism at play for linear alkanes in this size range.
+*   Since n-pentane (4.364 Å) is a linear alkane and slightly larger than propane (4.354 Å), it is highly probable that it will also be subjected to the same kinetic/shape sieving effects and therefore cannot be adsorbed by ZU-609.

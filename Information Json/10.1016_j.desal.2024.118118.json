@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "PEI-UiO-66-NH2/GO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "strontium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and charge repulsion",
+                "Other Information": {
+                    "Test Conditions": "5 bar, varying concentrations of Sr2+",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved a rejection ratio exceeding 90% across different Cs+/Sr2+ mass ratios."
+                }
+            },
+            {
+                "Molecule Name": "cesium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and charge repulsion",
+                "Other Information": {
+                    "Test Conditions": "5 bar, varying Cs+/Sr2+ mass ratios (5/1, 10/1, 20/1)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved a rejection ratio around 40% across tested Cs+/Sr2+ ratios."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combination of size exclusion and charge repulsion",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Crossflow filtration setup with effective membrane area of 7.07 cm²",
+            "Performance Metrics": "Sr2+ rejection ratio > 90%, Cs+ rejection ratio ~40%, Separation factor ~12 for Cs+/Sr2+ mixtures"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane demonstrated robust performance under varying conditions including pH, pressure, and presence of interfering ions."
+        }
+    }
+]

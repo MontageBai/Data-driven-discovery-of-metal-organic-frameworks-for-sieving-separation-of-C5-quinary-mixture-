@@ -1,0 +1,182 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (XRD-derived), 4.0 to 4.2 Å (effective aperture size)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "2.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Corrected diffusivity drops significantly as molecular size increases."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Corrected diffusivity drops significantly as molecular size increases."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Corrected diffusivity drops significantly as molecular size increases."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Corrected diffusivity drops significantly as molecular size increases."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Corrected diffusivity drops significantly as molecular size increases."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Corrected diffusivity drops significantly as molecular size increases."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Corrected diffusivity drops significantly as molecular size increases."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Corrected diffusivity drops significantly as molecular size increases."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusivity decreases by 10 orders of magnitude over a molecular diameter difference of 1.0 Å."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusivity decreases by 10 orders of magnitude over a molecular diameter difference of 1.0 Å."
+                }
+            },
+            {
+                "Molecule Name": "1-butene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusivity decreases by 10 orders of magnitude over a molecular diameter difference of 1.0 Å."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusivity decreases by 10 orders of magnitude over a molecular diameter difference of 1.0 Å."
+                }
+            },
+            {
+                "Molecule Name": "isobutylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusivity decreases by 10 orders of magnitude over a molecular diameter difference of 1.0 Å."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "35 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusivity decreases by 10 orders of magnitude over a molecular diameter difference of 1.0 Å."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Kinetic uptake measurements, Mixed matrix membrane permeation",
+            "Performance Metrics": "CO2/N2 selectivity: Not Reported, Permeance: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Aperture flexibility allows larger molecules to diffuse into micropores albeit slowly. Effective aperture size is 4.0 to 4.2 Å."
+        }
+    }
+]

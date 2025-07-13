@@ -1,0 +1,95 @@
+[
+    {
+        "Materials Name": "CPL-11",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "10 Å x 6 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "pyrazine-2,3-dicarboxylate",
+            "3,6-bis(4-pyridyl)-1,2,4,5-tetrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "100 K to 140 K, 80 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption increases with temperature due to reduced lattice strain."
+                }
+            },
+            {
+                "Molecule Name": "argon",
+                "Molecular Size": "3.40 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "100 K to 140 K, 80 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption even at higher temperatures."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "195 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Readily adsorbed at 195 K."
+                }
+            },
+            {
+                "Molecule Name": "xenon",
+                "Molecular Size": "3.96 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "195 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Readily adsorbed at 195 K."
+                }
+            },
+            {
+                "Molecule Name": "carbon tetrachloride",
+                "Molecular Size": "5.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Readily adsorbed at 298 K."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hardly adsorbed despite its small size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Controlled by temperature-responsive structural uniformity affecting channel accessibility.",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "In situ synchrotron X-ray powder diffraction (XRPD), adsorption isotherm measurements",
+            "Performance Metrics": "High selectivity for oxygen over argon; unusual temperature-dependent adsorption behavior."
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits softness and structural non-uniformity that can be controlled by temperature, leading to selective adsorption phenomena."
+        }
+    }
+]

@@ -1,0 +1,137 @@
+[
+    {
+        "Materials Name": "[Zn2(1,4-ndc)2(ted)]n",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.57 nm",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,4-naphthalenedicarboxylate",
+            "triethylenediamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "polyethylene glycol",
+                "Molecular Size": "0.37 nm (chain thickness)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "90 °C (363 K), molten state",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "PEGs with small terminal groups like hydroxy and methoxy can pass, while larger terminal groups like pyrene and trityl cannot."
+                }
+            },
+            {
+                "Molecule Name": "cyclic polyethylene glycol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "80 °C, DMF as eluent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cyclic PEG enters in a double-stranded manner, impeding insertion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, LC-based polymer separation",
+            "Performance Metrics": "Retention time dependent on molecular weight and terminal group; cyclic vs linear PEGs separated in one-step flow process."
+        },
+        "Other Information": {
+            "Additional Info": "Used for terminal-functionalized PEG separation and cyclic-linear PEG separation."
+        }
+    },
+    {
+        "Materials Name": "[Co2(2,6-ndc)2(bpy)]n",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2,6-naphthalenedicarboxylate",
+            "4,4'-bipyridyl"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "polyethylene glycol monomethyl ether",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Terminal polarity recognition",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selective deformation from closed to open pore phase based on terminal polarity."
+                }
+            },
+            {
+                "Molecule Name": "polyethylene glycol dibutyl ether",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Terminal polarity recognition",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Longer alkyl end groups exhibit slower phase transformation kinetics."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Terminal polarity recognition",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Successful preparative separation of PEG-H and PEG-Me with high selectivity."
+        },
+        "Other Information": {
+            "Additional Info": "Flexible MOF used for terminal-selective polymer recognition."
+        }
+    },
+    {
+        "Materials Name": "IRMOF-74-IX",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "green fluorescent protein",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Buffer solution, ambient temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "GFP inserted into MOF while preserving its active folded state."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Solution-phase adsorption",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Used for biopolymer insertion studies."
+        }
+    }
+]

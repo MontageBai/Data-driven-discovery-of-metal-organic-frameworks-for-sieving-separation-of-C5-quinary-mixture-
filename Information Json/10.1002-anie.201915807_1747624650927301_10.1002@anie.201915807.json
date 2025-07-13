@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "ZIF-62 glass membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.16 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazole",
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ideal selectivity for H2/CH4: 59"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ideal selectivity for H2/CH4: 59"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving with preferential adsorption",
+                "Other Information": {
+                    "Test Conditions": "25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/N2 selectivity: 34.5, CO2/CH4 selectivity: 36.6"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/N2 selectivity: 34.5"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Wicke-Kallenbach method",
+            "Performance Metrics": "H2/CH4 separation factor: 50.7, CO2/N2 separation factor: 34.5, CO2/CH4 separation factor: 36.6"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF glass membrane surpassed the Robeson’s upper bound for gas separation performance."
+        }
+    }
+]

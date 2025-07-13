@@ -1,0 +1,74 @@
+[
+    {
+        "Materials Name": "UiO-66-NH2@ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Double-layered MOF membrane"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+",
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Direct red 80",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1.0 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection ratio: ~100%"
+                }
+            },
+            {
+                "Molecule Name": "Acid orange 7",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1.0 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection ratio: ~100%"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1.0 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection ratio: 99.6%"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1.0 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection ratio: 97.0%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular-sieving pores of ZIF-8 and large pores of UiO-66-NH2",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Permeation device using N2 as the driving force",
+            "Performance Metrics": "Water flux: 36.7 L m−2 h−1 bar−1; Rejection ratios: DR (~100%), AO (~100%), MO (99.6%), MnB (97.0%)"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane exhibits good stability over 30 hours of testing."
+        }
+    }
+]

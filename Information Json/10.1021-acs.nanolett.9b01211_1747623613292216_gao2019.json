@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "Poly(sodium vinyl sulfonated-co-acrylic acid)∼MIL-53(Al)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.85 nm (fully open channels)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.76 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion based on hydrated diameter",
+                "Other Information": {
+                    "Test Conditions": "298 K, concentration gradient",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydration strength decreases with increasing size of alkali metal ions."
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.72 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion based on hydrated diameter",
+                "Other Information": {
+                    "Test Conditions": "298 K, concentration gradient",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydration strength decreases with increasing size of alkali metal ions."
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "0.66 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion based on hydrated diameter",
+                "Other Information": {
+                    "Test Conditions": "298 K, concentration gradient",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High flux observed due to smaller hydration shell."
+                }
+            },
+            {
+                "Molecule Name": "cesium",
+                "Molecular Size": "0.66 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion based on hydrated diameter",
+                "Other Information": {
+                    "Test Conditions": "298 K, concentration gradient",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest flux among tested ions due to minimal hydration."
+                }
+            },
+            {
+                "Molecule Name": "tetra-n-butylammonium",
+                "Molecular Size": "0.99 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion based on size",
+                "Other Information": {
+                    "Test Conditions": "298 K, concentration gradient",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to large size relative to pore dimensions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale based on hydrated ion diameter",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Ion transport experiments under concentration gradient, molecular dynamics simulations",
+            "Performance Metrics": "Cs+ flux: 1.2 mmol m−2 h−1, (n-Bu)4N+ flux: 0.26 mmol m−2 h−1"
+        },
+        "Other Information": {
+            "Additional Info": "The combination of MIL-53 framework and poly(VS-co-AA) provides synergistic selectivity based on exclusion forces and Coulombic interactions."
+        }
+    }
+]

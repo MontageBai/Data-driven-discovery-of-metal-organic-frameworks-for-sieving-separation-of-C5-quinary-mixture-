@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "ZIF-301/6FDA-DAM MMM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "5(6)-chlorobenzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential sorption and molecular sieving effect",
+                "Other Information": {
+                    "Test Conditions": "0.4 MPa, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced diffusion selectivity through ZIF-301 window aperture."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.4 MPa, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower sorption selectivity compared to carbon dioxide."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Aperture molecular sieving effect of ZIF-301 filler",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pure gas permeation experiment using constant-volume permeation technique",
+            "Performance Metrics": "CO2 permeability: 891 barrer, CO2/CH4 selectivity: 29.3"
+        },
+        "Other Information": {
+            "Additional Info": "The solvent exchange approach with methanol was effective in removing high-boiling-point NMP solvent."
+        }
+    }
+]

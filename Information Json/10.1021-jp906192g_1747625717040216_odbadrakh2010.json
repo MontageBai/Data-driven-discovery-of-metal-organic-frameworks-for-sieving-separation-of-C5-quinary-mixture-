@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "IRMOF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "14.94 Å (cube dimension), 21.13 Å (big cage diameter), 15.62 Å (small cage diameter)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn4O tetrahedron"
+        ],
+        "Ligands": [
+            "2,6-naphthalenedicarboxylate (NDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cyclotrimethylene trinitramine",
+                "Molecular Size": "6.03 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "steric hindrance and long-range interactions",
+                "Other Information": {
+                    "Test Conditions": "300 K, MD simulations for 7 ps",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "RDX showed physisorption at T = 0 K but did not exhibit stable trapping configurations at T = 300 K."
+                }
+            },
+            {
+                "Molecule Name": "triacetone triperoxide",
+                "Molecular Size": "7.43 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "300 K, MD simulations for 7 ps",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "TATP exhibited three stable trapping configurations both inside and on the exterior surface of IRMOF-8 at T = 300 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion due to steric hindrance and molecular sieving effects caused by size and shape differences",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Ab initio density functional theory (DFT) calculations and molecular dynamics (MD) simulations",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "IRMOF-8 has higher hydrogen uptake than IRMOF-1 due to its NDC linkers, which provide more adsorption sites. Changes in electronic structure induced by guest molecules could be exploited for detection technologies."
+        }
+    }
+]

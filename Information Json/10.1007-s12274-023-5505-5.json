@@ -1,0 +1,113 @@
+[
+    {
+        "Materials Name": "HKUST-1@TiO2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selective adsorption of ethanol due to hydrogen bonding interactions with -OH groups on the surface of TiO2 nanoparticles."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Reflectance spectroscopy",
+            "Performance Metrics": "Ethanol detection limit: 6.67 ppm"
+        },
+        "Other Information": {
+            "Additional Info": "Encapsulation of TiO2 nanoparticles in certain layers of MOFs improved chemical sensing sensitivity."
+        }
+    },
+    {
+        "Materials Name": "HKUST-1@ZrO2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detection limit for ethanol is 7.69 ppm; Specific sensing enhanced by hydrogen bonding interactions between -OH groups on ZrO2 surface and ethanol molecules."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Reflectance spectroscopy",
+            "Performance Metrics": "Ethanol detection limit: 7.69 ppm"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrated tunable structural colors and improved reflectivity up to 96%."
+        }
+    },
+    {
+        "Materials Name": "HKUST-1@SnO2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detection limit for ethanol is 16.67 ppm; Weaker response compared to TiO2 and ZrO2 composites."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Reflectance spectroscopy",
+            "Performance Metrics": "Ethanol detection limit: 16.67 ppm"
+        },
+        "Other Information": {
+            "Additional Info": "General design of isomorphous MOF-based PCs verified by X-ray photoelectron spectroscopy depth profiling."
+        }
+    }
+]

@@ -1,0 +1,109 @@
+[
+    {
+        "Materials Name": "graphene membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "2.24 nm (Knudsen diffusion), 0.38 nm (molecular sieving)",
+            "Structure Type": "2D laminar structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "0.26 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Helium permeance: 2.02 x 10^-8 mol s^-1 m^-2 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance significantly lower due to strong adsorption."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 permeance higher than CO2 despite larger kinetic diameter."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Tortuous interspace between graphene flakes provides molecular sieving properties.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test",
+            "Performance Metrics": "He/CO2 selectivity: 65, He/N2 selectivity: 22"
+        },
+        "Other Information": {
+            "Additional Info": "Theoretical modeling confirms two types of pores: 2-4 nm for Knudsen diffusion and 0.3-0.4 nm for molecular sieving."
+        }
+    },
+    {
+        "Materials Name": "asymmetric graphene membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Asymmetric laminar structure with zeolite composite layer"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "0.26 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Helium permeance improved compared to pure graphene membranes."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong adsorption on zeolite reduces CO2 permeance."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combination of tortuous graphene channels and zeolite's microporous structure provides molecular sieving.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test",
+            "Performance Metrics": "He/CO2 selectivity: up to 78"
+        },
+        "Other Information": {
+            "Additional Info": "Zeolite 13X incorporated into the bottom layer enhances gas transport without scarifying selectivity."
+        }
+    }
+]

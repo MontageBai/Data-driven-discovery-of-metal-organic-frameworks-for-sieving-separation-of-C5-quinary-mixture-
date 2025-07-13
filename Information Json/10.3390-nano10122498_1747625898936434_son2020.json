@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "CdS QD@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methyl viologen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, blue LED irradiation (415 nm, 1 W)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Photoreduction of MV2+ to MV•+ was observed."
+                }
+            },
+            {
+                "Molecule Name": "diquat",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, blue LED irradiation (415 nm, 1 W)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "DQ2+ could not access encapsulated CdS QDs due to steric hindrance."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on molecular dimensions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Photoreduction experiments with UV–vis spectroscopy",
+            "Performance Metrics": "MV2+ photoreduction efficiency increased with CdS QD loading; DQ2+ showed no photoreduction."
+        },
+        "Other Information": {
+            "Additional Info": "Encapsulation achieved using 2-mercaptoimidazole as a capping agent, preserving the ZIF-8 structure."
+        }
+    }
+]

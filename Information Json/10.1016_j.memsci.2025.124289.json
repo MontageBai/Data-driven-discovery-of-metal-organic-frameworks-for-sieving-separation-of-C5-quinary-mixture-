@@ -1,0 +1,116 @@
+[
+    {
+        "MOF Name": "NiFe-BTC/G-4",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.13 nm",
+            "Structure Type": "Two-dimensional interlayer nanochannels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni",
+            "Fe"
+        ],
+        "Ligands": [
+            "trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Tetracycline (TC)",
+                "Molecular Size": "MW: 444 Da",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Synergy of size exclusion and Donnan effect",
+                "Other Information": {
+                    "Test Conditions": "Different pH values, 0.001-0.1 mM concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "97.6% rejection. Rejection enhanced at elevated pH values due to more negative charges on TC and membrane. High rejection observed over wide concentration range."
+                }
+            },
+            {
+                "Molecule Name": "Norfloxacin (NOR)",
+                "Molecular Size": "MW: 319 Da",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Donnan effect, combined with size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "90.3% rejection. Negatively charged molecule, rejected despite MW being lower than membrane MWCO."
+                }
+            },
+            {
+                "Molecule Name": "Ciprofloxacin (CFX)",
+                "Molecular Size": "MW: 331 Da",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Combination of size exclusion and other effects (less Donnan due to neutral charge)",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "80.2% rejection. Neutrally charged molecule."
+                }
+            },
+            {
+                "Molecule Name": "Roxithromycin (ROX)",
+                "Molecular Size": "MW: 837 Da",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion outperformed electrostatic attraction; hydrophobic interaction",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "97.6% rejection. Positively charged molecule with high MW (837 Da) and high hydrophobicity (LogKow = 2.75). Rejection aided by low hydrophobic attraction with hydrophilic membrane."
+                }
+            },
+            {
+                "Molecule Name": "Trimethoprim (TMP)",
+                "Molecular Size": "MW: 290 Da",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Less effective rejection due to positive charge, some hydrophobic interaction",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "59.9% rejection. Positively charged molecule with low MW (290 Da) and low hydrophobicity (LogKow = 0.73)."
+                }
+            },
+            {
+                "Molecule Name": "Pb2+",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion (due to complex formation with TC)",
+                "Other Information": {
+                    "Test Conditions": "Combined with 0.01 mM antibiotics, 0.3 mM concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "96.8% rejection in combined contaminants. Forms larger complexes with TC."
+                }
+            },
+            {
+                "Molecule Name": "Cu2+",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion (due to complex formation with TC)",
+                "Other Information": {
+                    "Test Conditions": "Combined with 0.01 mM antibiotics, 0.3 mM concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "91.7% rejection in combined contaminants. Forms larger complexes with TC."
+                }
+            },
+            {
+                "Molecule Name": "Ni2+",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion (due to complex formation with TC)",
+                "Other Information": {
+                    "Test Conditions": "Combined with 0.01 mM antibiotics, 0.3 mM concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "89.0% rejection in combined contaminants. Forms larger complexes with TC."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on pore aperture (size exclusion), Donnan effect (electrostatic repulsion), and hydrophobic effect (hydrophobic interaction)",
+        "Experimental Validation": {
+            "Method": "Cross-flow filtration, MWCO determination, Zeta potential measurements, Pressure-dependent tests",
+            "Performance Metrics": "Water permeability: 76.2 L h-1 m-2 bar-1; MWCO: 343 Da; Antibiotics rejection: 60.0%–97.6%; TC removal: 99.6% (with heavy metals); Pb2+ removal: 96.8%; Cu2+ removal: 91.7%; Ni2+ removal: 89.0%; TOC removal: 71.1%; UV254 removal: 61.9%; COD removal: 77.0%; Flux recovery: 100% after 3 cycles (BSA) and 10 cycles (wastewater)."
+        },
+        "Other Information": {
+            "Additional Info": "Incorporated into porous PVDF matrix. Exhibits good flexibility and tolerance to bending/buckling. Enhanced hydrophilicity (WCA: 51.3°). Increased negative charge density (Zeta potential: -36.6 mV at pH 7). Possesses exceptional electrocatalytic self-cleaning performance due to generation of •OH and •O2− free radicals. Demonstrates high acid and alkali resistance (negligible metal leaching). Breaks permeability-rejection trade-off of conventional NF membranes."
+        }
+    }
+]

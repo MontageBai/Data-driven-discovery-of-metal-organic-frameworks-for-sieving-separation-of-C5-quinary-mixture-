@@ -1,0 +1,76 @@
+[
+    {
+        "Materials Name": "MOF-5@SiO2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "7.7 Å, 9.5 Å (at 30 cycles)",
+            "Structure Type": "Microporous"
+        },
+        "Topology": "cubic",
+        "Metal Nodes": [
+            "Zn4O clusters"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "basic fuchsin",
+                "Molecular Size": "12.40 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, batch adsorption experiments",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Basic fuchsin cannot enter the pores due to size-exclusion effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption kinetics and isotherm experiments",
+            "Performance Metrics": "Maximum adsorption capacity decreased with increasing shell thickness; qL at 40 cycles: 15.83 μmol g⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "The adsorption capacity of MOF-5@SiO2 decreased as the synthetic cycles increased due to the size-exclusion effect."
+        }
+    },
+    {
+        "Materials Name": "IRMOF-10@SiO2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "15.6 Å, 18.4 Å (at 30 cycles)",
+            "Structure Type": "Microporous"
+        },
+        "Topology": "cubic",
+        "Metal Nodes": [
+            "Zn4O clusters"
+        ],
+        "Ligands": [
+            "biphenyldicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "basic fuchsin",
+                "Molecular Size": "12.40 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π-π interaction and electrostatic interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, batch adsorption experiments",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Basic fuchsin could enter the pores, leading to enhanced adsorption capacity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size accommodation and π-π interaction",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption kinetics and isotherm experiments",
+            "Performance Metrics": "Maximum adsorption capacity increased with increasing shell thickness; qL at 40 cycles: 588.24 μmol g⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "The adsorption capacity of IRMOF-10@SiO2 increased as the synthetic cycles increased due to the larger pore size accommodating basic fuchsin."
+        }
+    }
+]

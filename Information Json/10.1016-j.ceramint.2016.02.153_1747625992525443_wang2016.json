@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "ZIF-8 membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (pore aperture), 1.16 nm (cavity)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25°C, 0.25 MPa feed pressure, 0.1 MPa permeate pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance increased initially and stabilized at 8.35×10^-7 mol/m²·Pa·s due to high storage properties of ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25°C, 0.25 MPa feed pressure, 0.1 MPa permeate pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 permeance remained stable at 2.97×10^-7 mol/m²·Pa·s."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion with cooperative adsorption effects",
+                "Other Information": {
+                    "Test Conditions": "25°C, 0.25 MPa feed pressure, 0.1 MPa permeate pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance decreased initially and stabilized at 1.15×10^-7 mol/m²·Pa·s due to strong CO2 adsorption and cooperative interactions with adsorbed CO2 molecules."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale with selective adsorption effects",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas permeation experiments using a home-made device, binary gas separation tests using Gas chromatograph SP-6890",
+            "Performance Metrics": "H2/CO2 separation factor: 11.67"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 membrane was synthesized on silicon nitride hollow fibers via a one-step hydrothermal method. The membrane exhibited strong CO2 adsorption and low CO2 permeance, making it suitable for CO2 separation from gas mixtures."
+        }
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "Materials Name": "Cloisite@UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Microporous framework with mesoporous channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6(μ3-O)4(μ3−OH)4"
+        ],
+        "Ligands": [
+            "1,4-benzene-dicarboxylate",
+            "Na-MMT clay"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 ± 2 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced CO2 adsorption capacity due to microporosity and diffusion pathways."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 ± 2 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted due to tortuous diffusion paths created by the composite."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 ± 2 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted due to tortuous diffusion paths created by the composite."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Tortuous diffusion paths favoring smaller gas molecules.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "CO2 permeance: 89.02 GPU, CO2/N2 selectivity: 76.09, CO2/CH4 selectivity: 50.86"
+        },
+        "Other Information": {
+            "Additional Info": "Cloisite@UiO-66 demonstrates high CO2 adsorption affinity and creates selective diffusion pathways for enhanced CO2 separation."
+        }
+    },
+    {
+        "Materials Name": "GO-UiO-66-NH2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Microporous framework with mesoporous features"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6(μ3-O)4(μ3−OH)4"
+        ],
+        "Ligands": [
+            "2-amino-1,4-benzene-dicarboxylate",
+            "graphene oxide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dipole-quadrupole interaction and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 ± 2 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong affinity due to amino groups enhancing CO2 adsorption."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 ± 2 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted due to tortuous diffusion paths and lower affinity."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 ± 2 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted due to tortuous diffusion paths and lower affinity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective diffusion pathways favoring smaller gas molecules with strong dipole-quadrupole interactions.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "CO2 permeance: 82.22 GPU, CO2/N2 selectivity: 77.57, CO2/CH4 selectivity: 46.71"
+        },
+        "Other Information": {
+            "Additional Info": "GO-UiO-66-NH2 demonstrates superior CO2/N2 and CO2/CH4 separation performance due to synergistic effects of GO and UiO-66-NH2."
+        }
+    }
+]

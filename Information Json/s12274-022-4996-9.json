@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZNU-5",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 Å (PLD), 6.0 Å (LCD)",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "zsd",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-di(1H-imidazol-1-yl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate opening based molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "5 kPa",
+                    "Additional Info": "Uptake of 128.6 cm³/g at 1.0 bar and 298 K"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded from adsorption"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded from adsorption"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded from adsorption"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate opening based molecular sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H2/CO2 selectivity: 12, C2H2/C2H4 selectivity: 255, C2H2/CH4 selectivity: 850"
+        },
+        "Other Information": {
+            "Additional Info": "High working capacity, low adsorption heat, and good recyclability make ZNU-5 promising for C2H2 purification."
+        }
+    }
+]

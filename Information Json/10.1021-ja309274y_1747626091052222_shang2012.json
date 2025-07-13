@@ -1,0 +1,179 @@
+[
+    {
+        "Materials Name": "r2KCHA",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 × 3.8 Å (8MR aperture)",
+            "Structure Type": "3D structure with double six-ring prisms and eight-membered rings"
+        },
+        "Topology": "CHA",
+        "Metal Nodes": [
+            "K+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Guest-induced cation deviation (molecular trapdoor mechanism)",
+                "Other Information": {
+                    "Test Conditions": "Below 200 K, Not Applicable",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No critical admission temperature observed down to 200 K."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Thermally induced cation migration",
+                "Other Information": {
+                    "Test Conditions": "Above 266 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Critical admission temperature TC(N2) = 266 K."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Thermally induced cation migration",
+                "Other Information": {
+                    "Test Conditions": "Above 279 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Critical admission temperature TC(CH4) = 279 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Guest-induced temporary and reversible cation deviation",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms, synchrotron PXRD, DFT calculations",
+            "Performance Metrics": "CO2/N2 selectivity: 80 at 100 kPa; CO2/CH4 selectivity: 98 at 100 kPa (at 233 K)"
+        },
+        "Other Information": {
+            "Additional Info": "Record high selectivity for CO2/CH4 separation compared to other physisorbents under similar conditions."
+        }
+    },
+    {
+        "Materials Name": "r2CsCHA",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 × 3.8 Å (8MR aperture)",
+            "Structure Type": "3D structure with double six-ring prisms and eight-membered rings"
+        },
+        "Topology": "CHA",
+        "Metal Nodes": [
+            "Cs+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Guest-induced cation deviation (molecular trapdoor mechanism)",
+                "Other Information": {
+                    "Test Conditions": "Below 200 K, Not Applicable",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No critical admission temperature observed down to 200 K."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Thermally induced cation migration",
+                "Other Information": {
+                    "Test Conditions": "Above 333 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Critical admission temperature TC(N2) = 333 K."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Thermally induced cation migration",
+                "Other Information": {
+                    "Test Conditions": "Above 343 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Critical admission temperature TC(CH4) = 343 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Guest-induced temporary and reversible cation deviation",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms, synchrotron PXRD, DFT calculations",
+            "Performance Metrics": "CO2/CH4 selectivity: 32 at 100 kPa (at 253 K); CO2/N2 selectivity: 325 at 20 kPa, 80 at 100 kPa, and 26 at 1000 kPa (at 273 K)"
+        },
+        "Other Information": {
+            "Additional Info": "Record high selectivity for CO2/CH4 separation compared to other physisorbents under similar conditions."
+        }
+    },
+    {
+        "Materials Name": "r1KCHA",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 × 3.8 Å (8MR aperture)",
+            "Structure Type": "3D structure with double six-ring prisms and eight-membered rings"
+        },
+        "Topology": "CHA",
+        "Metal Nodes": [
+            "K+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Thermally induced cation migration",
+                "Other Information": {
+                    "Test Conditions": "Approximately 273 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Critical admission temperature TC(CO2) around 273 K."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Thermally induced cation migration",
+                "Other Information": {
+                    "Test Conditions": "Above 273 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher critical admission temperature than r2KCHA."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Thermally induced cation migration",
+                "Other Information": {
+                    "Test Conditions": "Above 273 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher critical admission temperature than r2KCHA."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Guest-induced temporary and reversible cation deviation",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms, synchrotron PXRD, DFT calculations",
+            "Performance Metrics": "CO2/CH4 selectivity: 93 at 100 kPa; CO2/N2 selectivity: 325 at 20 kPa, 80 at 100 kPa, and 26 at 1000 kPa (at 273 K). Record high selectivity of 21 at 1000 kPa and 273 K."
+        },
+        "Other Information": {
+            "Additional Info": "Ideal for industrial methane gas separation including biogas, coal seam gas, and natural gas."
+        }
+    }
+]

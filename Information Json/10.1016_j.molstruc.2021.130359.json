@@ -1,0 +1,83 @@
+[
+    {
+        "MOF Name": "2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.56 nm",
+            "Structure Type": "Cluster-based framework with pseudo-octahedral cages, two-fold interpenetrated, highly porous, ultramicroporous"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Co",
+            "Co6(OH)4"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetribenzoic acid (H3BTB)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "C2H2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving; High affinity due to strong interaction with framework and open metal sites (polarizability and quadrupole moment effect).",
+                "Other Information": {
+                    "Test Conditions": "273 K, 298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest adsorption capacity among tested gases at specified conditions. Low temperature helpful for selectivity."
+                }
+            },
+            {
+                "Molecule Name": "CH4",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion; Weaker interaction with framework compared to C2H2/CO2.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower adsorption capacity than C2H2 and CO2."
+                }
+            },
+            {
+                "Molecule Name": "CO2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving; High affinity due to strong interaction with framework and open metal sites (polarizability and quadrupole moment effect).",
+                "Other Information": {
+                    "Test Conditions": "273 K, 298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption capacity; Reusability demonstrated with ~2.5% capacity loss over 6 cycles. Low temperature helpful for selectivity."
+                }
+            },
+            {
+                "Molecule Name": "CO",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion; Weak interaction with framework, linear adsorption isotherms indicate no easy adsorption sites.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest adsorption capacity among C2H2, CO2, CH4, CO, N2, except N2."
+                }
+            },
+            {
+                "Molecule Name": "N2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion; Weak interaction with framework, linear adsorption isotherms indicate no easy adsorption sites.",
+                "Other Information": {
+                    "Test Conditions": "273 K, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest adsorption capacity among tested gases."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving combined with preferential adsorption (kinetics and host-guest interaction) due to open metal sites.",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms (Quantachrome Autosorb-Q instrument), Ar gas-adsorption, IAST selectivity calculations, PXRD (for stability after activation)",
+            "Performance Metrics": "IAST selectivity for C2H2/CH4 (1:1) at 23.6 and CO2/CH4 (1:1) at 11.3 at 298 K (100 kPa). Adsorption capacity of C2H2: 3.03 mmol cm-3 and CO2: 2.77 mmol cm-3 at 100 kPa (273 K). CO2/CO selectivity: 33.9 to 32.6. CO2 adsorption capacity higher than MOF-5 and ZIF-8. CO2 adsorption capacity declined by ~2.5% after six cycles."
+        },
+        "Other Information": {
+            "Additional Info": "1H-Benzotriazole acted as a template for its formation but did not participate in the framework. Exhibits permanent porosity with BET surface area: 468.2 m2 g-1 and Langmuir surface area: 495.7 m2 g-1. Framework robust during activation."
+        }
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "Materials Name": "Ce–Fe MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ce4+",
+            "Ce3+",
+            "Fe2+"
+        ],
+        "Ligands": [
+            "cyano (–CN)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sulfate ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Electrochemical system, applied electric field",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Accumulates at the MOF surface due to size sieving effect."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Electrochemical system, applied electric field",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Most water molecules are impeded at the MOF layer; a small fraction passes through."
+                }
+            },
+            {
+                "Molecule Name": "zinc ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport via polar ligands and zincophilic metal center",
+                "Other Information": {
+                    "Test Conditions": "Electrochemical system, applied electric field",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Zn2+ shows significantly higher diffusion coefficients compared to SO4^2- and H2O."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ion-sieving channels selectively block larger ions and molecules while facilitating Zn2+ transport.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Molecular dynamics simulations, electrochemical impedance spectroscopy (EIS), cyclic voltammetry (CV), in situ optical microscopy, scanning electron microscopy (SEM)",
+            "Performance Metrics": "Zn2+ diffusion coefficient significantly higher than SO4^2- and H2O; cycling life of 4300 hours at 1 mA cm^-2; average coulombic efficiency of 99.8% over 1400 cycles at 2 mA cm^-2."
+        },
+        "Other Information": {
+            "Additional Info": "The Ce–Fe MOF interfacial layer reduces desolvation energy barrier, suppresses hydrogen evolution reaction (HER), and inhibits dendrite formation."
+        }
+    }
+]

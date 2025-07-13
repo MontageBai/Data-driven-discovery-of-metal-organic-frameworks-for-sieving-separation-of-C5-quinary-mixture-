@@ -1,0 +1,160 @@
+[
+    {
+        "Materials Name": "NUS-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "5.9 Å (dominating pore size), 0.7 nm (interlayer spacing)",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "4,4′,4′′,-benzene-1,3,5-triyl-tris(benzoic acid)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Single-gas and double-component permeation tests",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible selectivity for H2/C3H8 (13.2)"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Single-gas and double-component permeation tests",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible selectivity for CO2/CH4 (1.32)"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Single-gas and double-component permeation tests",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible selectivity for CO2/CH4 (1.32)"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.25 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Single-gas and double-component permeation tests",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible selectivity for C3H6/C3H8 (1.14)"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Single-gas and double-component permeation tests",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Modest selectivity for H2/C3H8 (13.2)"
+                }
+            },
+            {
+                "Molecule Name": "acid fuchsin",
+                "Molecular Size": "1.2 × 1.1 × 0.3 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous separation at room temperature under 5.0 bar transmembrane pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >97.5% for the 20 nm thick membrane"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous separation at room temperature under 5.0 bar transmembrane pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate of 88.0% for the 110 nm thick membrane"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "2.2 × 1.8 × 0.4 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous separation at room temperature under 5.0 bar transmembrane pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Near-complete rejection observed"
+                }
+            },
+            {
+                "Molecule Name": "sodium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "Desalination performance test",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate of 72% at a water permeance of 1.4 L m−2 h−1 bar−1"
+                }
+            },
+            {
+                "Molecule Name": "calcium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "Desalination performance test",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher rejection rate due to larger hydrated ion diameter"
+                }
+            },
+            {
+                "Molecule Name": "magnesium ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "Desalination performance test",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >98%"
+                }
+            },
+            {
+                "Molecule Name": "aluminum ion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "Desalination performance test",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >98%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, MD simulation",
+            "Performance Metrics": "Water permeance: up to 3.2 L m−2 h−1 bar−1; Dye rejection: up to 99.3%; Ion rejection: up to 98%"
+        },
+        "Other Information": {
+            "Additional Info": "The NUS-8 membranes exhibited superior separation performance compared to conventional polymeric membranes, thin-film composite membranes, and mixed matrix membranes."
+        }
+    }
+]

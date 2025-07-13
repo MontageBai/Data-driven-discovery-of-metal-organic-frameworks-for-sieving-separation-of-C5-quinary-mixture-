@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "g-ZIF(3) membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "6.8 Å (g-ZIF nanoparticles), 3.5 Å (intergranular aperture)",
+            "Structure Type": "Dual-aperture structure with g-ZIF nanoparticles and nanoscale apertures at boundaries"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "3.0 MPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance of 4834 GPU achieved."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "3.0 MPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hindered by the intergranular aperture of 0.35 nm."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "3.0 MPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hindered by the intergranular aperture of 0.35 nm."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dual-aperture sieving mechanism with g-ZIF framework apertures and intergranular boundaries.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption characterization, CO2/N2/CH4 separation experiments, and molecular simulations.",
+            "Performance Metrics": "CO2 permeance: 4834 GPU, CO2/CH4 selectivity: 90 at 3.0 MPa."
+        },
+        "Other Information": {
+            "Additional Info": "Thermal treatment at 100 °C improves cross-linking and enhances structural stability."
+        }
+    }
+]

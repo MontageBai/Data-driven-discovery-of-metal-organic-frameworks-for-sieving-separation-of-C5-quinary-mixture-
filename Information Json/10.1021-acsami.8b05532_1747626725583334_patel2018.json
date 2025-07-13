@@ -1,0 +1,76 @@
+[
+    {
+        "Materials Name": "poly(TBL-DB18C6)-t",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Proton hopping through hydrogen-bonded networks with crown ether cavities",
+                "Other Information": {
+                    "Test Conditions": "90% RH, room temperature, 5% H2 gas",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water molecules form hydrogen-bonded networks facilitating proton conduction via Grotthuss mechanism."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Two-terminal and transmission line geometry-based devices",
+            "Performance Metrics": "Proton conductivity: 1.4 x 10^-4 mS cm^-1"
+        },
+        "Other Information": {
+            "Additional Info": "Polymer retains 23 wt% water at 25% RH; proton conduction arises from adsorbed water forming hydrogen-bonded networks."
+        }
+    },
+    {
+        "Materials Name": "poly(TBL-DB18C6)-c",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Proton hopping through hydrogen-bonded networks with crown ether cavities",
+                "Other Information": {
+                    "Test Conditions": "90% RH, room temperature, 5% H2 gas",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water molecules form hydrogen-bonded networks facilitating proton conduction via Grotthuss mechanism."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Two-terminal and transmission line geometry-based devices",
+            "Performance Metrics": "Proton conductivity: 1.1 x 10^-4 mS cm^-1"
+        },
+        "Other Information": {
+            "Additional Info": "Polymer retains 23 wt% water at 25% RH; proton conduction arises from adsorbed water forming hydrogen-bonded networks."
+        }
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "SDMOF-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.43 × 4.53 Å² (after subtracting van der Waals radius)",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "bicyclo[2.2.2]octane-1,4-dicarboxylic acid",
+            "4,4'-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong multiple interactions with framework via C–H⋯C–H and C–H⋯O bonds."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Weak binding interaction due to larger molecular size compared to pore dimensions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Complete size–shape sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Single-component adsorption isotherms",
+            "Performance Metrics": "C2H2/C2H4 selectivity: 26, C2H2 uptake: 38 cm³ g⁻¹, C2H4 uptake: 8.5 cm³ g⁻¹ at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "SDMOF-1 exhibits high C2H2/C2H4 separation performance and produces >99.99% purity C2H4 in breakthrough experiments."
+        }
+    }
+]

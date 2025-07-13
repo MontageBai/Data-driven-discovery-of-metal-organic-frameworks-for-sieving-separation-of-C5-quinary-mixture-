@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "SIM-1",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "8 Å (pore size), <3.4 Å (pore aperture)",
+            "Structure Type": "3D zeolitic imidazolate framework"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4,5-imidazolecarboxaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.65 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "room temperature, atmospheric pressure, downstream pressure of ~5 Torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethanol was not detected in the permeate over multiple cycles."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "4.46 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "room temperature, atmospheric pressure, downstream pressure of ~5 Torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethanol was not detected in the permeate over multiple cycles."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pervaporation experiment",
+            "Performance Metrics": "Flux: 205 ± 11 g/m² h for submicron SIM-1 membranes, Flux: 460 ± 14 g/m² h for nano SIM-1 membranes"
+        },
+        "Other Information": {
+            "Additional Info": "PSM with EDA vapor was required to form a free-standing membrane and prevent crystal aggregation. The SIM-1 wafer without PSM fell apart after one separation cycle."
+        }
+    }
+]

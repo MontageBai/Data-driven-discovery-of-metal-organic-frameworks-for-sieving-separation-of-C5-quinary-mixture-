@@ -1,0 +1,52 @@
+[
+    {
+        "Materials Name": "Fe3O4@AMCA-MIL53(Al)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.85 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3O4",
+            "Al3+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "citric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "thorium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction and coordinate bonding",
+                "Other Information": {
+                    "Test Conditions": "pH 4.7, 298-318 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity increases with temperature."
+                }
+            },
+            {
+                "Molecule Name": "uranium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction and coordinate bonding",
+                "Other Information": {
+                    "Test Conditions": "pH 5.5, 298-318 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity increases with temperature."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments, Langmuir and Freundlich isotherm models, pseudo-second-order kinetic model",
+            "Performance Metrics": "Thorium adsorption capacity: 285.7 mg/g, Uranium adsorption capacity: 227.3 mg/g (Langmuir model)"
+        },
+        "Other Information": {
+            "Additional Info": "The material showed endothermic and spontaneous adsorption behavior. It was regenerable using 0.01 M HCl."
+        }
+    }
+]

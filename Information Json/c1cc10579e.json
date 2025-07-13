@@ -1,0 +1,143 @@
+[
+    {
+        "MOF Name": "MIL-53",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.7 nm",
+            "Structure Type": "One-dimensional diamond-shaped channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al clusters"
+        ],
+        "Ligands": [
+            "terephthalate ligands"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Peptides",
+                "Molecular Size": "<8000 Da (molecular weight)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selective adsorption, molecular sieving effect",
+                "Other Information": {
+                    "Test Conditions": "Complex biological samples (human plasma, urine), MALDI-TOF-MS analysis",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Favourable enrichment of larger molecular weight peptides (approx. 8000 Da)."
+                }
+            },
+            {
+                "Molecule Name": "Proteins",
+                "Molecular Size": "10-90 kDa (molecular weight)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion, molecular sieving effect",
+                "Other Information": {
+                    "Test Conditions": "Complex biological samples (human plasma, urine), MALDI-TOF-MS analysis",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effective exclusion of proteins in the 10-90 kDa range."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect for selective inclusion of peptides and exclusion of proteins based on pore apertures.",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF-MS analysis, X-ray diffraction, N2 adsorption experiment",
+            "Performance Metrics": "Enhancement factor (EF) of 19 for S/N ratio for peptides; clean baseline in the molecular weight range 10–90 kDa for proteins. High efficiency and size-selective adsorption."
+        },
+        "Other Information": {
+            "Additional Info": "Used as an adsorbent for enrichment of peptides and exclusion of proteins from complex biological samples. Shows good reproducibility and stability."
+        }
+    },
+    {
+        "MOF Name": "MIL-100",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.56 and 0.86 nm",
+            "Structure Type": "Three-dimensional zeolitic architectures"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr octahedra"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Peptides",
+                "Molecular Size": "<4200 Da (molecular weight)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selective adsorption, molecular sieving effect",
+                "Other Information": {
+                    "Test Conditions": "Complex biological samples (human plasma, urine), MALDI-TOF-MS analysis",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Efficient enrichment of lower molecular weight peptides (approx. 4200 Da)."
+                }
+            },
+            {
+                "Molecule Name": "Proteins",
+                "Molecular Size": "10-90 kDa (molecular weight)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion, molecular sieving effect",
+                "Other Information": {
+                    "Test Conditions": "Complex biological samples (human plasma, urine), MALDI-TOF-MS analysis",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effective exclusion of proteins in the 10-90 kDa range."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect for selective inclusion of peptides and exclusion of proteins based on pore apertures.",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF-MS analysis, X-ray diffraction, N2 adsorption experiment",
+            "Performance Metrics": "Enhancement factor (EF) of 64 for S/N ratio for peptides; clean baseline in the molecular weight range 10–90 kDa for proteins. High efficiency and size-selective adsorption."
+        },
+        "Other Information": {
+            "Additional Info": "Used as an adsorbent for enrichment of peptides and exclusion of proteins from complex biological samples. Shows good reproducibility and stability. Has similar composition and topology to MIL-101."
+        }
+    },
+    {
+        "MOF Name": "MIL-101",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.2 and 1.6 nm",
+            "Structure Type": "Three-dimensional zeolitic architectures"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr octahedra"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Peptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selective adsorption, molecular sieving effect",
+                "Other Information": {
+                    "Test Conditions": "Complex biological samples (human plasma, urine), MALDI-TOF-MS analysis",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Efficient enrichment of peptides with a wide range of molecular weights."
+                }
+            },
+            {
+                "Molecule Name": "Proteins",
+                "Molecular Size": ">10 kDa (molecular weight)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Molecular sieving effect, complemented by a water-washing step for flushing out surface-adsorbed proteins.",
+                "Other Information": {
+                    "Test Conditions": "Complex biological samples (human plasma, urine), MALDI-TOF-MS analysis",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Successful exclusion of all proteins larger than 10 kDa, including human serum albumin (HSA; 67 kDa, 5 x 7 x 7 nm)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect for selective inclusion of peptides and exclusion of proteins based on pore apertures, with additional aid from water-washing step to remove surface-adsorbed proteins.",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF-MS analysis, X-ray diffraction, N2 adsorption experiment",
+            "Performance Metrics": "Enhancement factor (EF) of 98 for S/N ratio for peptides; all protein peaks disappeared (clean background) in the 10–90 kDa range. High efficiency and size-selective adsorption."
+        },
+        "Other Information": {
+            "Additional Info": "Used as an adsorbent for enrichment of peptides and exclusion of proteins from complex biological samples. Shows good reproducibility and stability. Has similar composition and topology to MIL-100."
+        }
+    }
+]

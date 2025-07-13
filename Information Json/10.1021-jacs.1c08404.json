@@ -1,0 +1,121 @@
+[
+    {
+        "Materials Name": "MIL-160",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "5-6 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "yfm",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "2,5-furandicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance of 506 GPU and CO2/CH4 selectivity of 71 in binary equimolar mixtures."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance significantly lower than CO2."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.4 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sharp cutoff in permeance observed compared to smaller gases."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Single-gas permeance tests and binary mixture experiments",
+            "Performance Metrics": "CO2/CH4 selectivity: 71, CO2 permeance: 506 GPU"
+        },
+        "Other Information": {
+            "Additional Info": "Hydrophobic nature improves resistance to water vapor and hydrocarbons."
+        }
+    },
+    {
+        "Materials Name": "MIL-160/CAU-10-F",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2.25 Å (CAU-10-F component), 4.35 Å (MIL-160 component)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "yfm",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "2,5-furandicarboxylate",
+            "fluorinated isophthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced CO2 permeance of 716 GPU and CO2/CH4 selectivity of 78 due to fluorine functionalization."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower permeance compared to CO2."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.4 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sharp cutoff in permeance observed compared to smaller gases."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Single-gas permeance tests and binary mixture experiments",
+            "Performance Metrics": "CO2/CH4 selectivity: 78, CO2 permeance: 716 GPU"
+        },
+        "Other Information": {
+            "Additional Info": "Fluorine functionalization enhances CO2 affinity and separation performance; improved hydrophobicity."
+        }
+    }
+]

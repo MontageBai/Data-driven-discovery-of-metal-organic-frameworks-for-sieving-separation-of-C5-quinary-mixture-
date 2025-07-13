@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "UiO-66-NH2@SA",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.48 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "salicylaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "25°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 1.16 × 10^-7 mol/m²sPa"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Adsorption selectivity",
+                "Other Information": {
+                    "Test Conditions": "25°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance decreases after post-synthetic modification due to reduced pore volume and diminished surface area."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Mixture separation factor H2/CH4: 19.3 at 25°C"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke-Kallenbach technique",
+            "Performance Metrics": "H2/CO2 selectivity: 7.3, H2/CH4 selectivity: 19.6 at 25°C and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "The UiO-66-NH2@SA membrane shows high stability with no performance degradation after 3 months in air."
+        }
+    }
+]

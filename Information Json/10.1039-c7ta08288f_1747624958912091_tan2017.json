@@ -1,0 +1,95 @@
+[
+    {
+        "Materials Name": "FJI-Y3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.7 Å (aperture), 6-7 Å (micropore distribution)",
+            "Structure Type": "3D interpenetrating framework with zeolitic GIS topology"
+        },
+        "Topology": "GIS",
+        "Metal Nodes": [
+            "In3+",
+            "Cu+"
+        ],
+        "Ligands": [
+            "2,2-bipyridine-5,5-dicarboxylic acid (H2bpydc)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-C4H10 shows high uptake of 78.4 cm³/g."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "i-C4H10 shows low uptake compared to n-C4H10."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical π-complexation with Cu+",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.06 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H2 uptake is 147.8 cm³/cm³, with strong interaction due to Cu+ OMSs."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake is 32.8 cm³/g, much lower than C2H2."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1.06 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2 uptake is 250.1 cm³/g."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1.06 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 uptake is 232.5 cm³/g."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale for n-C4H10/i-C4H10 separation; chemical π-complexation for C2H2/CH4 separation.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sorption experiments (N2, H2, D2, C2H2, CH4, n-C4H10, i-C4H10); IAST calculations for selectivity estimation.",
+            "Performance Metrics": "n-C4H10/i-C4H10 selectivity > 84; C2H2/CH4 selectivity > 41.5; BET surface area: 952 m²/g; Langmuir surface area: 1000 m²/g."
+        },
+        "Other Information": {
+            "Additional Info": "High thermal stability up to 280 °C; Cu+ density: 1.14 Cu+/nm³; permanent porosity confirmed by N2 sorption."
+        }
+    }
+]

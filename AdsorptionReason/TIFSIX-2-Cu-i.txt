@@ -1,0 +1,107 @@
+MOF Name: TIFSIX-2-Cu-i
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for TIFSIX-2-Cu-i:
+-   isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å | Adsorbed
+-   1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å | Adsorbed
+-   acetylene: 5.538×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+-   carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed (Explicitly shown as adsorbed in one entry, despite a contradictory "No" entry lacking a size exclusion reason, indicating CO2 can pass).
+
+Inferred effective pore size of TIFSIX-2-Cu-i: Based on the largest intermediate dimension of the adsorbed molecules (isoprene, 6.093 Å), the MOF's effective pore size is inferred to be **at least 6.093 Å**. No non-adsorbed molecules are reported due to "Size exclusion" in the provided data, so an upper bound for the pore size based on size exclusion cannot be determined from this dataset.
+
+Target guest molecule: isoprene
+-   Full dimensions: 7.746×6.093×3.963 Å
+-   Intermediate dimension: 6.093 Å
+
+Conclusion: The experimental data explicitly states that isoprene is adsorbed by TIFSIX-2-Cu-i. Its intermediate dimension (6.093 Å) is consistent with the inferred lower bound of the MOF's pore size. The reason for adsorption includes "Electrostatic recognition combined with pore size restriction," indicating that while size is a factor, specific interactions also play a role in its successful adsorption.
+
+---
+
+MOF Name: TIFSIX-2-Cu-i
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for TIFSIX-2-Cu-i:
+-   isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å | Adsorbed
+-   1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å | Adsorbed
+-   acetylene: 5.538×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+-   carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+
+Inferred effective pore size of TIFSIX-2-Cu-i: Based on the largest intermediate dimension of the adsorbed molecules (isoprene, 6.093 Å), the MOF's effective pore size is inferred to be **at least 6.093 Å**.
+
+Target guest molecule: cis-2-pentene
+-   Full dimensions: 8.067×5.572×5.136 Å
+-   Intermediate dimension: 5.572 Å
+
+Conclusion: Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than the intermediate dimension of isoprene (6.093 Å), which is experimentally confirmed to be adsorbed, cis-2-pentene is geometrically capable of being adsorbed by TIFSIX-2-Cu-i. While specific interactions may influence the exact adsorption behavior, based purely on size exclusion and the inferred pore size, it should be able to pass.
+
+---
+
+MOF Name: TIFSIX-2-Cu-i
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for TIFSIX-2-Cu-i:
+-   isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å | Adsorbed
+-   1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å | Adsorbed
+-   acetylene: 5.538×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+-   carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+
+Inferred effective pore size of TIFSIX-2-Cu-i: Based on the largest intermediate dimension of the adsorbed molecules (isoprene, 6.093 Å), the MOF's effective pore size is inferred to be **at least 6.093 Å**.
+
+Target guest molecule: 1-pentene
+-   Full dimensions: 8.847×4.995×4.897 Å
+-   Intermediate dimension: 4.995 Å
+
+Conclusion: The experimental data explicitly states that 1-pentene is adsorbed by TIFSIX-2-Cu-i. Its intermediate dimension (4.995 Å) is consistent with the inferred lower bound of the MOF's pore size. The reason for adsorption includes "Electrostatic recognition combined with pore size restriction," indicating that while size is a factor, specific interactions also play a role in its successful adsorption.
+
+---
+
+MOF Name: TIFSIX-2-Cu-i
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for TIFSIX-2-Cu-i:
+-   isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å | Adsorbed
+-   1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å | Adsorbed
+-   acetylene: 5.538×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+-   carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+
+Inferred effective pore size of TIFSIX-2-Cu-i: Based on the largest intermediate dimension of the adsorbed molecules (isoprene, 6.093 Å), the MOF's effective pore size is inferred to be **at least 6.093 Å**.
+
+Target guest molecule: trans-2-pentene
+-   Full dimensions: 8.796×4.733×4.564 Å
+-   Intermediate dimension: 4.733 Å
+
+Conclusion: Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the intermediate dimension of isoprene (6.093 Å), which is experimentally confirmed to be adsorbed, trans-2-pentene is geometrically capable of being adsorbed by TIFSIX-2-Cu-i.
+
+---
+
+MOF Name: TIFSIX-2-Cu-i
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for TIFSIX-2-Cu-i:
+-   isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å | Adsorbed
+-   1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å | Adsorbed
+-   acetylene: 5.538×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+-   carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+
+Inferred effective pore size of TIFSIX-2-Cu-i: Based on the largest intermediate dimension of the adsorbed molecules (isoprene, 6.093 Å), the MOF's effective pore size is inferred to be **at least 6.093 Å**.
+
+Target guest molecule: n-pentane
+-   Full dimensions: 9.118×4.364×3.969 Å
+-   Intermediate dimension: 4.364 Å
+
+Conclusion: Since n-pentane's intermediate dimension (4.364 Å) is smaller than the intermediate dimension of isoprene (6.093 Å), which is experimentally confirmed to be adsorbed, n-pentane is geometrically capable of being adsorbed by TIFSIX-2-Cu-i.

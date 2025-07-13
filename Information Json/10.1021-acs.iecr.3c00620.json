@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "Fe1(NPs)/13X",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "2.0, 2.1, 2.4, 2.5, 2.6 Å",
+            "Structure Type": "Microporous with some mesoporosity"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced adsorption due to π-ion interactions and molecular sieving effect."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.443 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded from smaller pores due to larger kinetic diameter."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Competitive adsorption",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower affinity compared to ethylene and ethane."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Competitive adsorption",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Weakly adsorbed species with minimal interaction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H4/C2H6 selectivity: ~4.07"
+        },
+        "Other Information": {
+            "Additional Info": "Fe1 doping enhanced C2H4 selectivity via pore constriction and improved surface electronic interactions."
+        }
+    }
+]

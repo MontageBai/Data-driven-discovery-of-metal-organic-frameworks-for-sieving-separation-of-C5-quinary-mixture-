@@ -1,0 +1,549 @@
+[
+    {
+        "Materials Name": "UiO-66 embedded poly(ethylene-co-vinyl acetate) (EVA) MMMs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perfluorooctanoic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The UiO-66-EVA MMMs demonstrated a 28% retention of PFOA."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Adsorptive removal facilitated by coordination bonding interaction between Zr in the MOF and the carboxylic acid groups of PFOA",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Adsorption analysis",
+            "Performance Metrics": "28% retention of PFOA using UiO-66-EVA MMMs"
+        },
+        "Other Information": {
+            "Additional Info": "Evaporation-induced phase separation led to the formation of a dense layer within the EVA MMMs."
+        }
+    },
+    {
+        "Materials Name": "PSf-GO MMMs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Spongy hollow fiber structures with finger-like projections"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perfluorohexane sulfonic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Hydrophobic interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "GO-PSf membranes exhibited superior rejection of long-chain PFAS compounds, achieving a 99% removal rate for PFHxS."
+                }
+            },
+            {
+                "Molecule Name": "perfluoroheptanoic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Hydrophobic interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved a 79% removal rate for PFHpA, surpassing shorter chain PFAS due to stronger affinity for the membrane surface."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Adsorptive removal driven by hydrophobic interactions",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Adsorption analysis",
+            "Performance Metrics": "Superior rejection of long-chain PFAS compounds (C8-C13), with higher removal efficiencies for PFSAs compared to PFCAs."
+        },
+        "Other Information": {
+            "Additional Info": "Increasing GO concentration altered solvent-non-solvent exchange rates during phase separation."
+        }
+    },
+    {
+        "Materials Name": "PDADMAC-PSS/β-CD MMMs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perfluorooctane sulfonic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic adsorption, surface charge-induced repulsion, hydrophobic interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved a removal efficiency of ~99.9% for PFOS with an adsorption capacity of 5368 µg g−1."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Adsorptive removal facilitated by β-cyclodextrin incorporation",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Adsorption analysis",
+            "Performance Metrics": "99% removal efficiency for PFOS with stable adsorption-desorption performance over three cycles"
+        },
+        "Other Information": {
+            "Additional Info": "Membranes maintained consistent performance across four regeneration cycles using ethanol solution."
+        }
+    },
+    {
+        "Materials Name": "rGO NLMs",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perfluorooctanoic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Demonstrated a 90% rejection rate for 1 ppm of PFOA."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Electrostatic repulsion and size exclusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Rejection analysis",
+            "Performance Metrics": "90% rejection rate for 1 ppm of PFOA"
+        },
+        "Other Information": {
+            "Additional Info": "Wire wound rod technique ensured consistent rGO layer deposition."
+        }
+    },
+    {
+        "Materials Name": "GO-PEI NLMs",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "7.5 Å",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perfluorooctanoic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Steric exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved a 93.7% rejection rate for 50 mg/L of PFOA with a water permeability of 15.9 L m−2 h−1 bar−1."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Steric exclusion enhanced by reduced interlayer spacing and PEI functionalization",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Rejection analysis",
+            "Performance Metrics": "93.7% rejection rate for PFOA at 50 mg/L concentration"
+        },
+        "Other Information": {
+            "Additional Info": "GO-PEI modification reduced interlayer spacing from 8.1 to 7.5 Å."
+        }
+    },
+    {
+        "Materials Name": "PDDA-GO NLMs",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Narrow channels formed by polyelectrolytes",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perfluorooctanoic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Basic conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved a 98% rejection rate for PFOA under basic conditions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Electrostatic repulsion combined with narrow interlayer spacing",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Rejection analysis",
+            "Performance Metrics": "98% rejection rate for PFOA"
+        },
+        "Other Information": {
+            "Additional Info": "PDDA significantly affected the interlayer spacing of GO, restricting it within a narrow range."
+        }
+    },
+    {
+        "Materials Name": "MXene-CCNF NLMs",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "17.0 Å",
+            "Structure Type": "Loosely stacked structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti3C2Tx"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perfluorooctanesulfonic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved >95% removal of PFOS."
+                }
+            },
+            {
+                "Molecule Name": "perfluorooctanoic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved >95% removal of PFOA."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving through stable, regularly stacked lamellar structure",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Rejection analysis",
+            "Performance Metrics": ">95% removal of both PFOS and PFOA"
+        },
+        "Other Information": {
+            "Additional Info": "Incorporation of CCNF enhanced nanochannel height while suppressing swelling."
+        }
+    },
+    {
+        "Materials Name": "Poly(D,L-lactide)-MWCNT NENMs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Nanofibers with diameter of 100 nm"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perfluorooctane sulfonate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Hydrophobic interactions",
+                "Other Information": {
+                    "Test Conditions": "Organic solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Demonstrated a high PFOS sorption capacity of 16.29 ± 0.26 µmol/g."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Hydrophobic interactions between PFOS molecules and hydrophobic chains of Poly(D,L-lactide)-MWCNT",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Sorption analysis",
+            "Performance Metrics": "PFOS sorption capacity of 16.29 ± 0.26 µmol/g"
+        },
+        "Other Information": {
+            "Additional Info": "Efficient adsorption achieved from methanol solvent."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-F4-PAN NENMs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Nanofibers with average diameter of 30–150 nm"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perfluorobutane sulfonate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Molecular diffusion, electrostatic interactions, hydrophobic interactions, F-F stacking",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved efficient extraction of PFBS with recovery rates ranging from 70.84% to 113.57%."
+                }
+            },
+            {
+                "Molecule Name": "perfluorooctane sulfonate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Molecular diffusion, electrostatic interactions, hydrophobic interactions, F-F stacking",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved efficient extraction of PFOS with recovery rates ranging from 70.84% to 113.57%."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Multiple mechanisms including molecular diffusion, electrostatic interactions, and hydrophobic interactions",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Extraction analysis",
+            "Performance Metrics": "Recovery rates of 70.84% to 113.57% for various PFAS types"
+        },
+        "Other Information": {
+            "Additional Info": "Functionalized MOFs incorporated into PAN nanofibers for solid-phase extraction."
+        }
+    },
+    {
+        "Materials Name": "ZIF-L incorporated polyethyleneimine-based polyamide TFN membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Ridge-valley structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perfluorooctanoic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved 98.47% removal of PFOA."
+                }
+            },
+            {
+                "Molecule Name": "perfluorooctanesulfonic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved 98.47% removal of PFOS."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and electrostatic repulsion enhanced by ZIF-L incorporation",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Rejection analysis",
+            "Performance Metrics": "High overall rejection rate of 95.85% for various PFAS"
+        },
+        "Other Information": {
+            "Additional Info": "Optimal performance achieved with 5 wt% ZIF-L loading."
+        }
+    },
+    {
+        "Materials Name": "MXene-TiO2 interlayered poly(piperazine-amide) NF membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti3C2Tx"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perfluorooctanesulfonic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved 99.7% rejection of PFOS."
+                }
+            },
+            {
+                "Molecule Name": "perfluorooctanoic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved 94.84% rejection of PFOA."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced size exclusion and electrostatic repulsion due to MXene-TiO2 interlayer",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Rejection analysis",
+            "Performance Metrics": "99.7% rejection of PFOS and 94.84% rejection of PFOA"
+        },
+        "Other Information": {
+            "Additional Info": "Temperature had minimal impact on removal efficiency due to thermal stability of MXene membranes."
+        }
+    },
+    {
+        "Materials Name": "Activated carbon-incorporated TFN membranes",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perfluorooctanesulfonic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Hydrophobic-hydrophobic interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved 94% removal of PFOS through hydrophobic-hydrophobic interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Hydrophobic adsorption facilitated by strong affinity between C-F bonds in PFOS and benzene rings of activated carbon",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Rejection analysis",
+            "Performance Metrics": "94% PFOS removal"
+        },
+        "Other Information": {
+            "Additional Info": "Activated carbon did not form esters with TMC but exhibited hydrogen bonding interactions with PIP."
+        }
+    },
+    {
+        "Materials Name": "Aluminum fumarate (AlFu) MOF doped PVA layer on PTFE membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Dual-layered structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "Fumaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perfluorohexane sulfonic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic interactions and micelle formation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved maximum rejection of 96.8% for PFHpS."
+                }
+            },
+            {
+                "Molecule Name": "perfluorooctanesulfonic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic interactions and micelle formation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieved total PFAS rejection rate of 70.5%."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Electrostatic interactions and formation of micelles that inhibit PFAS diffusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Rejection analysis",
+            "Performance Metrics": "Maximum rejection of 96.8% for PFHpS and total PFAS rejection of 70.5%"
+        },
+        "Other Information": {
+            "Additional Info": "Dual-layer membrane became rougher with increased MOF content."
+        }
+    }
+]

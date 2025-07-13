@@ -1,0 +1,82 @@
+**MOF Name: ZU-36-Co**
+
+**Detailed Reasoning for ZU-36-Co's Effective Pore Size:**
+
+From the experimental data for ZU-36-Co:
+*   **Adsorbed molecules (intermediate dimensions):**
+    *   butane: 7.709×4.532×3.969 → Intermediate = **4.532 Å** | Adsorbed
+    *   1-butene: 7.585×4.583×4.535 → Intermediate = **4.583 Å** | Adsorbed
+    *   *The largest intermediate dimension of adsorbed molecules is 4.583 Å.*
+
+*   **Non-adsorbed molecules (due to size exclusion, intermediate dimensions):**
+    *   isobutene: 6.527×5.566×3.960 → Intermediate = **5.566 Å** | Not Adsorbed (Size exclusion)
+    *   isobutane: 6.404×6.393×4.866 → Intermediate = **6.393 Å** | Not Adsorbed (Size exclusion)
+    *   *The smallest intermediate dimension of non-adsorbed molecules is 5.566 Å.*
+
+Based on this, the inferred effective pore size of ZU-36-Co is greater than or equal to 4.583 Å and strictly less than 5.566 Å.
+Thus, the effective pore size ∈ **[4.583 Å, 5.566 Å)**.
+
+---
+
+**MOF Name: ZU-36-Co**
+**Guest Molecule: isoprene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **The MOF’s inferred effective pore size:** ZU-36-Co can adsorb molecules with an intermediate dimension up to 4.583 Å but cannot adsorb molecules with an intermediate dimension of 5.566 Å or larger. The inferred pore size range is **[4.583 Å, 5.566 Å)**.
+*   **Isoprene Dimensions:**
+    *   isoprene: 7.746×6.093×3.963 → Intermediate = **6.093 Å**
+*   **Conclusion:** Since isoprene's intermediate dimension (6.093 Å) is larger than the upper bound of ZU-36-Co's inferred effective pore size (5.566 Å), it cannot be adsorbed by ZU-36-Co due to size exclusion.
+
+---
+
+**MOF Name: ZU-36-Co**
+**Guest Molecule: cis-2-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **The MOF’s inferred effective pore size:** ZU-36-Co can adsorb molecules with an intermediate dimension up to 4.583 Å but cannot adsorb molecules with an intermediate dimension of 5.566 Å or larger. The inferred pore size range is **[4.583 Å, 5.566 Å)**.
+*   **cis-2-pentene Dimensions:**
+    *   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = **5.572 Å**
+*   **Conclusion:** Since cis-2-pentene's intermediate dimension (5.572 Å) is larger than the upper bound of ZU-36-Co's inferred effective pore size (5.566 Å), it cannot be adsorbed by ZU-36-Co due to size exclusion.
+
+---
+
+**MOF Name: ZU-36-Co**
+**Guest Molecule: 1-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+*   **The MOF’s inferred effective pore size:** ZU-36-Co can adsorb molecules with an intermediate dimension up to 4.583 Å but cannot adsorb molecules with an intermediate dimension of 5.566 Å or larger. The inferred pore size range is **[4.583 Å, 5.566 Å)**.
+*   **1-pentene Dimensions:**
+    *   1-pentene: 8.847×4.995×4.897 → Intermediate = **4.995 Å**
+*   **Conclusion:** Since 1-pentene's intermediate dimension (4.995 Å) falls within the inferred effective pore size range of ZU-36-Co (4.583 Å ≤ 4.995 Å < 5.566 Å), it can be adsorbed.
+
+---
+
+**MOF Name: ZU-36-Co**
+**Guest Molecule: trans-2-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+*   **The MOF’s inferred effective pore size:** ZU-36-Co can adsorb molecules with an intermediate dimension up to 4.583 Å but cannot adsorb molecules with an intermediate dimension of 5.566 Å or larger. The inferred pore size range is **[4.583 Å, 5.566 Å)**.
+*   **trans-2-pentene Dimensions:**
+    *   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = **4.733 Å**
+*   **Conclusion:** Since trans-2-pentene's intermediate dimension (4.733 Å) falls within the inferred effective pore size range of ZU-36-Co (4.583 Å ≤ 4.733 Å < 5.566 Å), it can be adsorbed.
+
+---
+
+**MOF Name: ZU-36-Co**
+**Guest Molecule: n-pentane**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+*   **The MOF’s inferred effective pore size:** ZU-36-Co can adsorb molecules with an intermediate dimension up to 4.583 Å but cannot adsorb molecules with an intermediate dimension of 5.566 Å or larger. The inferred pore size range is **[4.583 Å, 5.566 Å)**.
+*   **n-pentane Dimensions:**
+    *   n-pentane: 9.118×4.364×3.969 → Intermediate = **4.364 Å**
+*   **Conclusion:** Since n-pentane's intermediate dimension (4.364 Å) is smaller than the smallest intermediate dimension of molecules known to be adsorbed (1-butene at 4.583 Å), it can certainly pass through the pores of ZU-36-Co. Therefore, it can be adsorbed.

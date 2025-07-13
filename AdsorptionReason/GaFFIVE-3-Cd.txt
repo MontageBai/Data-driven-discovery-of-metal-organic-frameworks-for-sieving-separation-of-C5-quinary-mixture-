@@ -1,0 +1,66 @@
+MOF Name: GaFFIVE-3-Cd
+
+**Inferred MOF Pore Size:**
+From the experimental data for GaFFIVE-3-Cd:
+*   **ethane**: 4.731×4.175×4.170 → Intermediate = **4.175 Å** | Adsorbed
+*   **ethylene**: 4.679×4.047×3.200 → Intermediate = **4.047 Å** | Adsorbed
+
+Based on the adsorbed molecules, the largest intermediate dimension of a molecule known to be adsorbed by GaFFIVE-3-Cd is **4.175 Å** (for ethane). This indicates that the effective pore size of GaFFIVE-3-Cd is at least 4.175 Å.
+
+There is no experimental data provided for molecules that were *not* adsorbed due to size exclusion for GaFFIVE-3-Cd. Therefore, an upper bound for the effective pore size cannot be strictly determined from the provided data.
+
+In the absence of data explicitly showing size exclusion for larger molecules, we can only confirm adsorption for molecules with intermediate dimensions less than or equal to the largest known adsorbed molecule (4.175 Å). For molecules with intermediate dimensions exceeding this value, adsorption cannot be confirmed based *solely* on the provided experimental evidence. Given the requirement for a binary "Can Adsorb / Cannot Adsorb" prediction, a lack of confirming evidence for larger molecules will lead to a "Cannot Adsorb" prediction, as positive confirmation is absent.
+
+---
+
+**Evaluation for Target Guest Molecules:**
+
+**MOF Name: GaFFIVE-3-Cd**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   Isoprene Dimensions: 7.746×6.093×3.963 → Intermediate = **6.093 Å**
+*   The largest intermediate dimension of a molecule known to be adsorbed by GaFFIVE-3-Cd is 4.175 Å (ethane).
+*   Since isoprene's intermediate dimension (6.093 Å) is greater than 4.175 Å, its adsorption cannot be confirmed by the provided experimental data.
+
+**MOF Name: GaFFIVE-3-Cd**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 → Intermediate = **5.572 Å**
+*   The largest intermediate dimension of a molecule known to be adsorbed by GaFFIVE-3-Cd is 4.175 Å (ethane).
+*   Since cis-2-pentene's intermediate dimension (5.572 Å) is greater than 4.175 Å, its adsorption cannot be confirmed by the provided experimental data.
+
+**MOF Name: GaFFIVE-3-Cd**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   1-pentene Dimensions: 8.847×4.995×4.897 → Intermediate = **4.995 Å**
+*   The largest intermediate dimension of a molecule known to be adsorbed by GaFFIVE-3-Cd is 4.175 Å (ethane).
+*   Since 1-pentene's intermediate dimension (4.995 Å) is greater than 4.175 Å, its adsorption cannot be confirmed by the provided experimental data.
+
+**MOF Name: GaFFIVE-3-Cd**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 → Intermediate = **4.733 Å**
+*   The largest intermediate dimension of a molecule known to be adsorbed by GaFFIVE-3-Cd is 4.175 Å (ethane).
+*   Since trans-2-pentene's intermediate dimension (4.733 Å) is greater than 4.175 Å, its adsorption cannot be confirmed by the provided experimental data.
+
+**MOF Name: GaFFIVE-3-Cd**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   n-pentane Dimensions: 9.118×4.364×3.969 → Intermediate = **4.364 Å**
+*   The largest intermediate dimension of a molecule known to be adsorbed by GaFFIVE-3-Cd is 4.175 Å (ethane).
+*   Since n-pentane's intermediate dimension (4.364 Å) is greater than 4.175 Å, its adsorption cannot be confirmed by the provided experimental data.

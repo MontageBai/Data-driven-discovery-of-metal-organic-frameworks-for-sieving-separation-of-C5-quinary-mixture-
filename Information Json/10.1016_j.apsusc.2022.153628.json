@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MOF-808 membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "1.0 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ions",
+                "Molecular Size": "0.7–0.8 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The MOF-808 membrane allows rapid passage of lithium ions while blocking polysulfides."
+                }
+            },
+            {
+                "Molecule Name": "polysulfides",
+                "Molecular Size": "1.1–1.2 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The MOF-808 membrane effectively blocks polysulfides due to its appropriate pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "Limited capacity decay of 0.03% per cycle over 500 cycles at 1 C; rate performance of 707.3 mAh g−1 at 5 C"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF-808 membrane was grown on a carbon nanotube (CNT) film, enhancing its conductivity and structural stability."
+        }
+    }
+]

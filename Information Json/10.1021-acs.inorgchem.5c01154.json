@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MIL-101 (Cr)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Supertetrahedral cages with open metal sites"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 240 cm³/g at 77 K and 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 270 cm³/g at 77 K and 1 bar"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving due to open metal sites and supertetrahedral structures",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Dynamic breakthrough experiments",
+            "Performance Metrics": "D2/H2 selectivity: 3.5 at low pressures, decreasing to 1.6 at 100 kPa; separation factor: 1.4 in dynamic breakthrough experiments"
+        },
+        "Other Information": {
+            "Additional Info": "Large pore size and high porosity facilitate rapid molecular exchange, enhancing kinetic separation efficiency. Stable under humid conditions and resistant to various solvents."
+        }
+    }
+]

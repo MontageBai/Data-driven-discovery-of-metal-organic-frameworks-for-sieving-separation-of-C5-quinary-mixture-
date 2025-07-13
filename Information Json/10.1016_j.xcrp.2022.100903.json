@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "Ni(4-DPDS)2CrO4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.5 Å (intralayer), 4.2 × 4.2 Å² (interlayer)",
+            "Structure Type": "2D layered structure with intralayer and interlayer channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "4,4′-dipyridyldisulfide",
+            "CrO4 2−"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 × 4.1 × 3.9 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methane molecules move freely through the interlayer channels."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "3.8 × 4.1 × 4.8 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane molecules move freely through the interlayer channels but exhibit slower diffusion compared to methane."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.0 × 4.5 × 6.6 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane is restricted by its large molecular size in the interlayer channels, leading to significantly slower diffusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with kinetic effects",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-crystal X-ray diffraction, breakthrough experiments, CBMC simulations, DFT-D calculations, MD simulations",
+            "Performance Metrics": "C2H6/C3H8 equilibrium-kinetic combined selectivity: 1.4, C2H6/C3H8 dynamic separation factor: 1.2"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits high affinity for propane but slower diffusion, enabling selective capture of ethane from a mixture of methane, ethane, and propane."
+        }
+    }
+]

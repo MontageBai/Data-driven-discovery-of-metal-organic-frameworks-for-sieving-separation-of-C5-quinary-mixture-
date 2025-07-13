@@ -1,0 +1,135 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "300 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore size of ZIF-8 (3.4 Å) allows hydrogen gas to diffuse through and reach the surface of ZnO."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "5.27 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "300 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Toluene cannot pass through the ZIF-8 layer due to its larger molecular size compared to the pore size."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "5.92 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "300 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Benzene is excluded from passing through the ZIF-8 layer because its molecular size exceeds the pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Response of ZIF-8-coated sensor was slightly lower than pristine ZnO due to prevention of all H2 gas molecules reaching the ZnO NWs."
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 coating on ZnO nanowires enhances selectivity for H2 gas detection by preventing larger molecules like C7H8 and C6H6 from reaching the sensing surface."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-NH2-X",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Defect-engineered sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Controlled structural defects in UiO-66-NH2-X influence photocatalytic activity with a volcano-type trend in H2 generation rate."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Defect-induced selective permeability",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "Pt@UiO-66-NH2-100 showed highest activity in H2 generation."
+        },
+        "Other Information": {
+            "Additional Info": "Defect-engineered MOFs exhibit switch-on effect for photocatalysis, enhancing H2 production efficiency."
+        }
+    },
+    {
+        "Materials Name": "VNU-11",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Hf6O4(OH)4"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption within functionalized pores",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sulfate-functionalized VNU-11 acts as an effective heterogeneous catalyst for CO2-related reactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Functional group-mediated adsorption",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Enhanced catalytic activity observed with sulfate groups facilitating heterocyclization."
+        },
+        "Other Information": {
+            "Additional Info": "Sulfate-functionalization enhances reactivity towards specific gases like CO2 via tailored interactions."
+        }
+    }
+]

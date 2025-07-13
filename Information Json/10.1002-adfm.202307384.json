@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "UiO-66-NH2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "7.95 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr"
+        ],
+        "Ligands": [
+            "amino terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "zinc",
+                "Molecular Size": "1.48 Å (neat Zn2+ ions), 8.6 Å (hydrated Zn(H2O)6 2+ ions)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Desolvation sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrated Zn(H2O)6 2+ ions are blocked by the channels, while neat Zn2+ ions can pass through."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Density functional theory (DFT) calculations, electrochemical impedance spectroscopy (EIS), and galvanostatic charging/discharging (GCD) cycling",
+            "Performance Metrics": "Zn2+ ion transfer number: increased from 0.36 to 0.73; desolvation activation energy: decreased from 34.5 to 29.9 kJ mol−1"
+        },
+        "Other Information": {
+            "Additional Info": "The amino-functionalized channels within UiO-66-NH2 promote Zn2+ ion transport, guide uniform Zn2+ ion flux, accelerate Zn deposition kinetics, and inhibit H2O-related parasitic reactions."
+        }
+    }
+]

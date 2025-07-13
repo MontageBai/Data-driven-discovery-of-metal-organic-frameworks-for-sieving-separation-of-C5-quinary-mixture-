@@ -1,0 +1,95 @@
+[
+    {
+        "Materials Name": "[Zn2(mtrz)2(azdc)]·DMA·CH3OH·H2O (2)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "18.2 Å x 6.9 Å (channel size along b axis)",
+            "Structure Type": "3D self-penetrated frameworks with Zn–triazolate layers pillared by dicarboxylate ligands"
+        },
+        "Topology": "rob",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "3-methyl-1,2,4-triazole",
+            "azobenzene-4,4'-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K and 298 K, 0–1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake capacity for CO2 over N2 due to large quadrupole moment of CO2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 0–1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Limited adsorption of N2 compared to CO2."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, 30 min to 360 min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rapid and efficient removal of cationic methylene blue."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, same process as methylene blue",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Inefficient adsorption due to large size of rhodamine B."
+                }
+            },
+            {
+                "Molecule Name": "acid red 2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Inefficient adsorption of neutral acid red 2."
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Inefficient adsorption of anionic methyl orange."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-exclusion effect based on pore size and shape",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sorption experiments (N2 and CO2), UV–vis spectroscopy for dye adsorption",
+            "Performance Metrics": "CO2/N2 selectivity: 17 at 273 K, high uptake of methylene blue (99% in 360 min)"
+        },
+        "Other Information": {
+            "Additional Info": "Framework retains crystallinity during dye uptake process."
+        }
+    }
+]

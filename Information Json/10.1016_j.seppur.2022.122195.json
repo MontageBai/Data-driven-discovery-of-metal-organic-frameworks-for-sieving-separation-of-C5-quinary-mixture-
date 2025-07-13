@@ -1,0 +1,53 @@
+[
+    {
+        "Materials Name": "ZIF-8@NENP-NH2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (core), 1.6 nm (shell)",
+            "Structure Type": "Core-shell"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "melamine",
+            "cyanuric chloride",
+            "ethylenediamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport in shell, molecular sieving in core",
+                "Other Information": {
+                    "Test Conditions": "25°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shell facilitates CO2 transport due to amine environment; core provides molecular sieving effect."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded by core's pore size (0.34 nm)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Core provides molecular sieving effect for CO2 over N2; shell facilitates CO2 transport.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation measurements",
+            "Performance Metrics": "CO2 permeance: 301 GPU, CO2/N2 selectivity: 91 (7 wt% loading)"
+        },
+        "Other Information": {
+            "Additional Info": "Composite material combines ZIF-8 core with NENP-NH2 shell for synergistic CO2 separation performance."
+        }
+    }
+]

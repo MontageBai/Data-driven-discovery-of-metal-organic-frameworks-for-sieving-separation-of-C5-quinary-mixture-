@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "CMS membranes derived from Trip(Me2)-TB",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.93 Å (at 900 °C), 4.24 Å (at 800 °C), 4.37 Å (at 600 °C)",
+            "Structure Type": "Submicropores (<4 Å)"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.75 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 20 bar feed pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylene permeability decreases with increasing feed pressure due to competitive sorption effects."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "3.85 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 20 bar feed pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane permeability shows a concurrent decrease with increased feed pressure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H4/C2H6 selectivity: ~100 at 10 bar feed pressure"
+        },
+        "Other Information": {
+            "Additional Info": "The CMS membranes derived from Trip(Me2)-TB exhibited plasticization resistance and maintained structural integrity during long-term testing."
+        }
+    },
+    {
+        "Materials Name": "CMS membranes derived from EA(Me2)-TB",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.75 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 20 bar feed pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower ethylene permeability compared to CMS membranes derived from Trip(Me2)-TB."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "3.85 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 20 bar feed pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not explicitly detailed but inferred to exhibit lower permeability than ethylene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H4/C2H6 selectivity: 77 at 900 °C pyrolysis temperature"
+        },
+        "Other Information": {
+            "Additional Info": "CMS membranes derived from EA(Me2)-TB showed lower performance compared to those derived from Trip(Me2)-TB."
+        }
+    }
+]

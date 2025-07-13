@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "UPC-612",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.4 nm, 2.0 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "ftw",
+        "Metal Nodes": [
+            "Zr6 cluster"
+        ],
+        "Ligands": [
+            "tetracarboxyphenyl porphyrin with cyclopentadiene cobalt"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption of other molecules",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylene is the first to elute through the bed from the gas mixture."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Stronger host-guest interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane is preferentially adsorbed over ethylene."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Stronger host-guest interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Acetylene is preferentially adsorbed over ethylene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective increase of interaction between MOF and light hydrocarbon gases.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H4 productivity: 0.47 mmol g^-1 from C2H2/C2H6/C2H4 (1/1/1), C2H4 purity > 99.99%"
+        },
+        "Other Information": {
+            "Additional Info": "UPC-612 shows enhanced affinity for acetylene and ethane over ethylene, enabling one-step purification of ethylene from ternary mixtures."
+        }
+    },
+    {
+        "Materials Name": "UPC-613",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.7 nm, 1.2 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "ftw",
+        "Metal Nodes": [
+            "Zr6 cluster"
+        ],
+        "Ligands": [
+            "smaller tetracarboxyphenyl porphyrin with cyclopentadiene cobalt"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption of other molecules",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylene is the first to elute through the bed from the gas mixture."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Stronger host-guest interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane is preferentially adsorbed over ethylene."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Stronger host-guest interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Acetylene is preferentially adsorbed over ethylene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective increase of interaction between MOF and light hydrocarbon gases.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H4 productivity: 0.47 mmol g^-1 from C2H2/C2H6/C2H4 (1/1/1), C2H4 purity > 99.99%"
+        },
+        "Other Information": {
+            "Additional Info": "UPC-613 confirms the success of the new modification strategy in improving separation performance despite reduced cage size."
+        }
+    }
+]

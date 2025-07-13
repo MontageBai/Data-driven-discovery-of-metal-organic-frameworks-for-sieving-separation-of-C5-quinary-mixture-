@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "SIFSIX-Cu-TPA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.7 Å (window aperture), large cavities",
+            "Structure Type": "cage-like"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "TPA (terephthalic acid)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.3 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of 94.2 cm³ g⁻¹ at 100 kPa and 298 K"
+                }
+            },
+            {
+                "Molecule Name": "iso-butane",
+                "Molecular Size": "5.0 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded in a wide temperature range"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Small windows selectively allow n-butane while excluding iso-butane; large cavities accommodate high n-butane uptake",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "n-C4H10/iso-C4H10 selectivity: >247, iso-C4H10 productivity: 3.2 mol kg⁻¹ (>99.95% purity), n-C4H10 productivity: 3.0 mol kg⁻¹ (>99% purity)"
+        },
+        "Other Information": {
+            "Additional Info": "Stable under various conditions including water, boiling water, pH=3 or 10, and high humidity; scalable synthesis possible"
+        }
+    }
+]

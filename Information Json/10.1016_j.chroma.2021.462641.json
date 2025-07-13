@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "n-MOF-74(Ni)@γ-Al2O3",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D honeycomb network structure with a channel diameter of about 11 Å"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, carrier gas flow rate varied",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation resolution increased with loading cycles of MOF-74 on γ-Al2O3"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, carrier gas flow rate varied",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation resolution increased with loading cycles of MOF-74 on γ-Al2O3"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving effect due to unsaturated Ni2+ metal open sites",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas chromatography separation experiments",
+            "Performance Metrics": "Resolution up to 2.21, separation time 10.29 min for 3-MOF-74(Ni)@γ-Al2O3"
+        },
+        "Other Information": {
+            "Additional Info": "MOF-74(Ni) loading amount controlled by changing cycle times (n), 8.13% in 3-MOF-74(Ni)@γ-Al2O3"
+        }
+    },
+    {
+        "Materials Name": "S1/S2/S3/MOF-74(Ni)@γ-Al2O3",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, carrier gas flow rate 30 mL/min, injection volume 100 µL",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Composite C showed highest resolution of 2.87 with separation time of 7.15 min"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, carrier gas flow rate 30 mL/min, injection volume 100 µL",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Composite C showed highest resolution of 2.87 with separation time of 7.15 min"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combination of chemical affinity quantum sieving and spatial shielding effect",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas chromatography separation experiments",
+            "Performance Metrics": "Best resolution 2.87, separation time 7.15 min for C-S1/S2/S3/3-MOF-74(Ni)@γ-Al2O3"
+        },
+        "Other Information": {
+            "Additional Info": "Na2Cr2O7, Na2CrO4, and NaCl coexisted in final form, prepared with different amounts of CrO3"
+        }
+    },
+    {
+        "Materials Name": "S2/S3/3-MOF-74(Ni)@γ-Al2O3",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, carrier gas flow rate 20 mL/min, injection volume 100 µL",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Optimal mass ratio NaCl/Na2CrO4 = 0.7:1 showed resolution 2.56, separation time 5.91 min"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, carrier gas flow rate 20 mL/min, injection volume 100 µL",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Optimal mass ratio NaCl/Na2CrO4 = 0.7:1 showed resolution 2.56, separation time 5.91 min"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combination of chemical affinity quantum sieving and optimized component ratio",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas chromatography separation experiments",
+            "Performance Metrics": "Resolution 2.56, separation time 5.91 min for optimal NaCl/Na2CrO4 ratio"
+        },
+        "Other Information": {
+            "Additional Info": "Synthesized with different mass ratios of NaCl and Na2CrO4, optimal ratio determined as 0.7:1"
+        }
+    }
+]

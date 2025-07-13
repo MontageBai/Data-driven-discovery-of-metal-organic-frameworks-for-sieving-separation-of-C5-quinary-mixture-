@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "PDA@ZIF-8 capsules",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 Å (apertures), 1.16 nm (large cavities)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "0.60 x 1.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH = 7.4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The molecule was retained in the capsule lumen and did not leach out."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Controlled permeation experiment",
+            "Performance Metrics": "Complete retention of methylene blue within the capsule"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 nanolayer exhibited a BET surface area of 1552 m²/g, close to that of single-crystal ZIF-8."
+        }
+    }
+]

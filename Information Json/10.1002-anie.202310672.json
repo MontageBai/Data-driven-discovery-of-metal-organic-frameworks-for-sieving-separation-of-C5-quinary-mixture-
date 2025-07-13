@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "HIAM-203",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å",
+            "Structure Type": "3D framework with 1D rhombic channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "chloranilate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "120 °C, 1.2 Kpa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 151 mg/g at 120 °C"
+                }
+            },
+            {
+                "Molecule Name": "o-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "120 °C, 1.2 Kpa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fully excluded at 120 °C"
+                }
+            },
+            {
+                "Molecule Name": "m-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "120 °C, 1.2 Kpa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fully excluded at 120 °C"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-component adsorption isotherms, Multicomponent column breakthrough measurements, Vapor-phase/liquid-phase adsorption experiments, Ab initio calculations",
+            "Performance Metrics": "pX/oX selectivity: 378.8, pX/mX selectivity: 860.5 at 120 °C and 1.2 Kpa"
+        },
+        "Other Information": {
+            "Additional Info": "Temperature-dependent adsorption behavior; structural flexibility plays a role in separation"
+        }
+    }
+]

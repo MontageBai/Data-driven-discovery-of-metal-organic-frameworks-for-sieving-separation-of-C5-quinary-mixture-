@@ -1,0 +1,417 @@
+[
+    {
+        "Materials Name": "Qc-5-Cu-sql",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,40-dioxidobiphenyl-3,30-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.15 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Achieves sieving of CO2 from CH4 or N2"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.15 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.15 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "CO2 uptake: 0.80 mmol g-1 at 0.15 bar, 2.16 mmol g-1 at 1 bar; CO2/N2 selectivity: 4.0 × 10^5"
+        },
+        "Other Information": {
+            "Additional Info": "Desolvation of Qc-5-Cu-sql-a to Qc-5-Cu-sql-b leads to decreased pore size of 3.3 Å"
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-3-Zn",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.84 Å",
+            "Structure Type": "1D square channels"
+        },
+        "Topology": "primitive-cubic net",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "SiF6 2-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High affinity for CO2"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "CO2 uptake: 2.38 mmol g-1 at 0.15 bar, 2.51 mmol g-1 at 1 bar; CO2/N2 selectivity: 1818"
+        },
+        "Other Information": {
+            "Additional Info": "Narrow pores provide enhanced affinity to CO2 molecules"
+        }
+    },
+    {
+        "Materials Name": "In(aip)2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.46 Å",
+            "Structure Type": "2D stacked layers"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "In3+"
+        ],
+        "Ligands": [
+            "Aminoisophthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.15 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exclusive access for CO2 molecules"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.15 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.15 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "CO2/N2 selectivity: 2635; CO2/CH4 selectivity: 1808"
+        },
+        "Other Information": {
+            "Additional Info": "Small surface area and pore volume limit CO2 uptake capacity"
+        }
+    },
+    {
+        "Materials Name": "bnn-1-Ca-H2O",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "Trimesate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ultrahigh CO2 separation selectivity"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs a certain amount of N2 due to structural flexibility"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs a certain amount of CH4 due to structural flexibility"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "CO2/N2 selectivity: >10^6; CO2/CH4 selectivity: >10^4"
+        },
+        "Other Information": {
+            "Additional Info": "Dehydration engineering controls pore size"
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-14-Cu-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "primitive-cubic net",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,40-azopyridine",
+            "SiF6 2-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, 273 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High CO2 uptake capacity"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, 273 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked due to size"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "CO2 uptake: 4.93 mmol g-1 at 1 bar; CO2/CH4 uptake ratio: 116.1"
+        },
+        "Other Information": {
+            "Additional Info": "Contracted pore window size of 3.4 Å"
+        }
+    },
+    {
+        "Materials Name": "Fe-MOR(0.25)",
+        "Material Category": "zeolites",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3–3.4 Å",
+            "Structure Type": "Microchannels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Steep adsorption at low pressure"
+                }
+            },
+            {
+                "Molecule Name": "argon",
+                "Molecular Size": "3.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-component isotherms, breakthrough experiments",
+            "Performance Metrics": "CO2/N2 selectivity: >10^41; CO2/CH4 selectivity: >10^41"
+        },
+        "Other Information": {
+            "Additional Info": "Fe ion doping narrows microchannels for size-exclusive molecular sieving"
+        }
+    },
+    {
+        "Materials Name": "ZU-301",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å",
+            "Structure Type": "Rigid one-dimensional channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "Oxalate anions",
+            "3-methyl-1H-1,2,4-triazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.15 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Multiple synergistic interactions with framework"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.15 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Barrier for N2 and CH4 molecules"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.15 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Barrier for N2 and CH4 molecules"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "CO2 uptake: 2.13 mmol g-1 at 0.15 bar; CO2/H2O uptake ratio: 0.41"
+        },
+        "Other Information": {
+            "Additional Info": "Stable performance in humid conditions"
+        }
+    }
+]

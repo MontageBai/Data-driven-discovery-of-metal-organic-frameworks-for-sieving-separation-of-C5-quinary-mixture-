@@ -1,0 +1,144 @@
+[
+    {
+        "Materials Name": "[Co(5-MIA)(bpy)]·H2O",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.49 Å",
+            "Structure Type": "2D framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "5-methoxyl-isophthalic acid",
+            "4,4′-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake is 43.41 cm³ g⁻¹ due to the cooperative effect of narrow channel and functional groups of methoxy."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H2 uptake is 36.12 cm³ g⁻¹."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.758 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake is 8.87 cm³ g⁻¹."
+                }
+            },
+            {
+                "Molecule Name": "carbon monoxide",
+                "Molecular Size": "3.690 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO uptake is 5.22 cm³ g⁻¹."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64–3.80 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 uptake is 2.84 cm³ g⁻¹."
+                }
+            }
+        ],
+        "Sieving Mechanism": "The narrow pore size (3.49 Å) and functionalized methoxy groups exhibit a cooperative effect for CO2-preferential adsorption.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/C2H2 selectivity: 2.6; CO2/CH4 selectivity: 39.3; C2H2/CH4 selectivity: 13.3; CO2/CO selectivity: 282; CO2/N2 selectivity: 1433"
+        },
+        "Other Information": {
+            "Additional Info": "Activated sample (1a) shows enhanced CO2 uptake over other gases due to methoxy-functionalized narrow pores."
+        }
+    },
+    {
+        "Materials Name": "[Co(5-EIA)(bpy)]·H2O",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.38 Å",
+            "Structure Type": "2D framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "5-ethyoxyl-isophthalic acid",
+            "4,4′-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake is 22.39 cm³ g⁻¹."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower uptake compared to 1a due to larger pore size."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.758 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Conditional (see Additional Info)",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger pore size allows CH4 to pass more easily than in 1a."
+                }
+            }
+        ],
+        "Sieving Mechanism": "The larger pore size (4.38 Å) reduces preferential adsorption for CO2 compared to 1a.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Decreased CO2 uptake compared to 1a despite similar structure, attributed to ethoxy substitution."
+        }
+    }
+]

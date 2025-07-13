@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "ZUL C6",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.21–4.35 Å (c-axis), 4.94×5.76 Å² (ab-plane)",
+            "Structure Type": "3D framework with intersecting 2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "bicyclo[2.2.1]heptane-1,4-dicarboxylate",
+            "triethylenediamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "4.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption uptake reaches 145.3 mg/g at 10 kPa."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "5.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption uptake reaches 146.2 mg/g at 10 kPa."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "6.2 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1 bar",
+                    "Threshold Pressure": "16 kPa",
+                    "Additional Info": "Almost no adsorption below 10 kPa due to size exclusion; gate-opening observed at higher pressures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with gate-opening for larger molecules",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Single-crystal X-ray diffraction, DFT simulations",
+            "Performance Metrics": "nHEX/3MP breakthrough uptakes: 92.8/73.9 mg/g; 22DMB producing time: 309.2 min/g"
+        },
+        "Other Information": {
+            "Additional Info": "High gate-opening energy barrier due to structural transformation; constrained flexibility enables selective sieving of 22DMB."
+        }
+    }
+]

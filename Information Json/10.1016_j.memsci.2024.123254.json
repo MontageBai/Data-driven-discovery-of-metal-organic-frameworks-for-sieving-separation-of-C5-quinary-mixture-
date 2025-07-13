@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "low-crystallinity ZIF-8/dcIm-14 membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.41 Å (PLD), 10.52 Å (LCD)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "SOD",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "4,5-dichloroimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The calculated pore size of 3.41 Å falls within the range that allows CO2 to pass while excluding larger molecules."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The membrane shows a clear cut-off between CO2 and CH4, indicating that methane cannot pass through due to its larger size compared to the pore size."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The membrane exhibits a clear cut-off between CO2 and N2, suggesting that nitrogen is excluded based on size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test using Wicke-Kallenbach method",
+            "Performance Metrics": "CO2/CH4 selectivity: 32.4, CO2 permeance: 1.73 × 10^-8 mol m^-2 s^-1 Pa^-1; CO2/N2 selectivity: 28.8"
+        },
+        "Other Information": {
+            "Additional Info": "The low-crystallinity state reduces grain boundary defects, enhancing pressure resistance up to 3 bar and showing stable temperature-swing operation between room temperature and 125°C over 120 h."
+        }
+    }
+]

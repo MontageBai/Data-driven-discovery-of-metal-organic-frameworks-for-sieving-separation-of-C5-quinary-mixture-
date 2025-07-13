@@ -1,0 +1,127 @@
+[
+    {
+        "Materials Name": "Cu-TCPP",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "1.21 nm (BET), 1.34 nm (interlayer spacing)",
+            "Structure Type": "2D nanosheets with regular vertical nanopores and interlayer channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "tetrakis(4-carboxyphenyl) porphyrin"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "1.25×0.51 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, hydrated membrane",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate ~99.7%"
+                }
+            },
+            {
+                "Molecule Name": "Congo red",
+                "Molecular Size": "2.56×0.73 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, hydrated membrane",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate ~99.8%"
+                }
+            },
+            {
+                "Molecule Name": "chrome black T",
+                "Molecular Size": "1.55×0.88 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, hydrated membrane",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate ~93.3%"
+                }
+            },
+            {
+                "Molecule Name": "crystal violet",
+                "Molecular Size": "1.30×1.30 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, hydrated membrane",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate ~90.1%"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "1.20×1.13 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, hydrated membrane",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate ~7.9%"
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, hydrated membrane",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate ~0.2%"
+                }
+            },
+            {
+                "Molecule Name": "magnesium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, hydrated membrane",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate ~0.8%"
+                }
+            },
+            {
+                "Molecule Name": "sodium sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, hydrated membrane",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate ~2.1%"
+                }
+            },
+            {
+                "Molecule Name": "magnesium sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, hydrated membrane",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate ~1.8%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Water permeance: 840.1 L⋅m−2⋅h−1⋅bar−1, CR rejection: 99.9%, NaCl rejection: 0.4%"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane exhibited excellent stability under harsh conditions such as acid, base, and long-term filtration."
+        }
+    }
+]

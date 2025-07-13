@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "GO@Fe3O4@MOF-303",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5.8 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "1H-pyrazole-3,5-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "horseradish peroxidase digests",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Mass ratio of HRP digests/BSA protein/HRP protein = 1 : 1000 : 1000, w/w/w",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material showed excellent size-exclusion ability for proteins with high molecular weights while capturing N-linked glycopeptides."
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Mass ratio of HRP digests/BSA protein/HRP protein = 1 : 1000 : 1000, w/w/w",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "BSA was excluded due to its large size compared to the pore size of the material."
+                }
+            },
+            {
+                "Molecule Name": "horseradish peroxidase",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Mass ratio of HRP digests/BSA protein/HRP protein = 1 : 1000 : 1000, w/w/w",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Intact HRP protein was excluded due to size, while HRP digests were captured."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis",
+            "Performance Metrics": "Detection limit: 0.1 fmol mL⁻¹, Binding capacity: 200 mg g⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrated an ultralow detection limit, perfect size-exclusion effect, and high binding capacity for N-linked glycopeptides."
+        }
+    }
+]

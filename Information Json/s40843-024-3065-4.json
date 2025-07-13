@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "ICOF-101-Na",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "2.9 Å to 4.0 Å (temperature-dependent)",
+            "Structure Type": "2D layered structure with ion-dipole interaction"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "hydroquinone",
+            "tetraphenoxyborate linkages"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Thermoregulatory molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "25°C to 95°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen can pass at elevated temperatures while methane is blocked."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Thermoregulatory molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "25°C to 95°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methane is blocked at higher temperatures due to pore shrinkage."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Thermoregulatory molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "25°C to 95°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Oxygen separation from nitrogen was achieved with high selectivity (~20)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Thermoregulatory molecular sieving with sub-angstrom resolution (<0.2 Å)",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Gas adsorption experiments, theoretical simulations",
+            "Performance Metrics": "O2/N2 selectivity: ~20, N2/CH4 selectivity: ~45"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits reversible dynamic gating behavior over 100 thermal cycles."
+        }
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "SIFSIX-3-Zn",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.86 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Zn(II)"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "hexafluorosilicate (SiF6^2-)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "20 K, pressures from 1 kPa to 25 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Desorption spectra show significant areas under D2 curves compared to H2."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "5.66 Å (effective diameter at 20 K)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 K, pressures from 1 kPa to 25 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The aperture size of 3.86 Å is smaller than the effective diameter of H2 at 20 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum sieving effect due to zero-point energy differences and pore size constraints.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Advanced cryogenic thermal desorption spectroscopy (ACTDS)",
+            "Performance Metrics": "Selectivity for D2/H2 mixture: >35.0 at 1-25 kPa, with a record value of 53.8 at 25 kPa."
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits high selectivity due to the cooperative effects of structure, interaction, and quantum sieving. The abundant fluorine atoms in SiF6^2- enhance the interaction with deuterium."
+        }
+    }
+]

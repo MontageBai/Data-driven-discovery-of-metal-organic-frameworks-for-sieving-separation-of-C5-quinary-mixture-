@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "AO-PIM-1@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "11 Å (ZIF-8), 10.7 Å (AO-PIM-1)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance of 1671 GPU and H2/CO2 separation factor of 11.97"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower permeance compared to H2 due to adsorption blocking micropores"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Formation of AO-PIM-1/ZIF-8 interface layer altering gas transport path",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke-Kallenbach technique",
+            "Performance Metrics": "H2 permeability: 5688 Barrer, H2/CO2 selectivity: 11.97"
+        },
+        "Other Information": {
+            "Additional Info": "Composite membrane exceeded the 2008 Robeson upper bound for H2/CO2 separation"
+        }
+    }
+]

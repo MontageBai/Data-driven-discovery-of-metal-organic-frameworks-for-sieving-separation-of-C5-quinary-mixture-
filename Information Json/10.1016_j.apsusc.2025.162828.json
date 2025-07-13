@@ -1,0 +1,74 @@
+[
+    {
+        "Materials Name": "TiPc-NiTAA",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "9.63 Å",
+            "Structure Type": "2D porous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti4+",
+            "Ni2+"
+        ],
+        "Ligands": [
+            "phthalocyanine-like ligand",
+            "nickel tetraazaporphyrin"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium polysulfide (Li2S8)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, implicit solvation model",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Binding energy is 1.59 eV in vacuum and 2.66 eV in electrolyte"
+                }
+            },
+            {
+                "Molecule Name": "lithium polysulfide (Li2S6)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, implicit solvation model",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Binding energy is 3.09 eV in vacuum and 2.54 eV in electrolyte"
+                }
+            },
+            {
+                "Molecule Name": "lithium polysulfide (Li2S4)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, implicit solvation model",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Binding energy is 3.05 eV in vacuum and 2.09 eV in electrolyte"
+                }
+            },
+            {
+                "Molecule Name": "electrolyte molecules",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, mixture of DOL and DME with LiTFSI",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Electrolyte molecules permeate through the TiPc-NiTAA layers"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "First-principles calculations and molecular dynamics simulations",
+            "Performance Metrics": "Binding energies: 1.59–4.19 eV; Gibbs free energy barrier for rate-determining step: 1.47 eV"
+        },
+        "Other Information": {
+            "Additional Info": "TiPc-NiTAA demonstrates strong adsorption and catalytic activity for sulfur reduction reaction intermediates."
+        }
+    }
+]

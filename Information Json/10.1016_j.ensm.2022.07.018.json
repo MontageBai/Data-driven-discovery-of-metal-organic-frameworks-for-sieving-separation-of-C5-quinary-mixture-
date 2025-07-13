@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "Ni-TABQ",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "tetraminobenzoquinone (TABQ)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium polysulfides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chemical adsorption and catalytic conversion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ni-TABQ exhibits dual catalytic sites (Ni-N4 and quinone) which enable effective trapping and multistep catalysis of lithium polysulfides."
+                }
+            },
+            {
+                "Molecule Name": "S8",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chemical adsorption",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ni-TABQ shows strong interaction with S8 via its Ni-N4 center, as confirmed by DFT calculations and XPS analysis."
+                }
+            },
+            {
+                "Molecule Name": "Li2S6",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chemical adsorption",
+                "Other Information": {
+                    "Test Conditions": "UV-vis adsorption test",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ni-TABQ demonstrates the highest adsorption capacity for Li2S6 among the studied materials, attributed to its dual adsorption sites (quinone and Ni-N4)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemisorption and size exclusion based on chemical interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "DFT calculations, UV-vis spectroscopy, CV measurements, in-situ Raman spectroscopy",
+            "Performance Metrics": "Low capacity decay rate of 0.198‰ over 1000 cycles at 1 C; high initial area specific capacity of 6.12 mAh cm−2 under sulfur loading of 6.8 mg cm−2"
+        },
+        "Other Information": {
+            "Additional Info": "Ni-TABQ interlayer is ultrathin (1.8 μm) and ultralight (0.075 mg cm−2), enabling efficient ion sieving, LiPSs adsorption, and multistep catalytic conversion."
+        }
+    },
+    {
+        "Materials Name": "Ni-BTA",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "1,2,4,5-benzenetetramine (BTA)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium polysulfides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chemical adsorption and catalytic conversion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ni-BTA primarily interacts with lithium polysulfides via its Ni-N4 center but lacks the additional quinone site present in Ni-TABQ, resulting in lower catalytic efficiency."
+                }
+            },
+            {
+                "Molecule Name": "S8",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chemical adsorption",
+                "Other Information": {
+                    "Test Conditions": "DFT calculations",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ni-BTA shows stronger binding energy for S8 compared to TABQ, attributed to the Ni-N4 center's interaction with S8."
+                }
+            },
+            {
+                "Molecule Name": "Li2S6",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chemical adsorption",
+                "Other Information": {
+                    "Test Conditions": "UV-vis adsorption test",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ni-BTA exhibits lower adsorption capacity for Li2S6 compared to Ni-TABQ due to the absence of quinone functional groups."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemisorption and size exclusion based on chemical interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "DFT calculations, UV-vis spectroscopy, CV measurements",
+            "Performance Metrics": "Lower performance metrics compared to Ni-TABQ; faster capacity decay during cycling tests."
+        },
+        "Other Information": {
+            "Additional Info": "Ni-BTA serves as a comparative material to highlight the advantages of dual catalytic sites in Ni-TABQ."
+        }
+    }
+]

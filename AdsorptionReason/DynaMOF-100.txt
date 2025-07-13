@@ -1,0 +1,92 @@
+MOF Name: DynaMOF-100
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Styrene: 9.542×6.849×3.200 → Intermediate = 6.849 Å | Adsorbed
+
+Based on the provided data, DynaMOF-100 is shown to adsorb styrene, which has an intermediate dimension of 6.849 Å. This indicates that the effective pore size of DynaMOF-100 is at least 6.849 Å. There is no data available to suggest a smaller upper bound for the pore size due to size exclusion.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is smaller than the intermediate dimension of styrene (6.849 Å), which is known to be adsorbed by DynaMOF-100, it is predicted that isoprene can also be adsorbed by DynaMOF-100, assuming no other specific interactions or kinetic sieving effects prevent its passage that are not covered by the existing data.
+
+---
+
+MOF Name: DynaMOF-100
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Styrene: 9.542×6.849×3.200 → Intermediate = 6.849 Å | Adsorbed
+
+Based on the provided data, DynaMOF-100 is shown to adsorb styrene, which has an intermediate dimension of 6.849 Å. This indicates that the effective pore size of DynaMOF-100 is at least 6.849 Å. There is no data available to suggest a smaller upper bound for the pore size due to size exclusion.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than the intermediate dimension of styrene (6.849 Å), which is known to be adsorbed by DynaMOF-100, it is predicted that cis-2-pentene can also be adsorbed by DynaMOF-100, assuming no other specific interactions or kinetic sieving effects prevent its passage that are not covered by the existing data.
+
+---
+
+MOF Name: DynaMOF-100
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Styrene: 9.542×6.849×3.200 → Intermediate = 6.849 Å | Adsorbed
+
+Based on the provided data, DynaMOF-100 is shown to adsorb styrene, which has an intermediate dimension of 6.849 Å. This indicates that the effective pore size of DynaMOF-100 is at least 6.849 Å. There is no data available to suggest a smaller upper bound for the pore size due to size exclusion.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the intermediate dimension of styrene (6.849 Å), which is known to be adsorbed by DynaMOF-100, it is predicted that 1-pentene can also be adsorbed by DynaMOF-100, assuming no other specific interactions or kinetic sieving effects prevent its passage that are not covered by the existing data.
+
+---
+
+MOF Name: DynaMOF-100
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Styrene: 9.542×6.849×3.200 → Intermediate = 6.849 Å | Adsorbed
+
+Based on the provided data, DynaMOF-100 is shown to adsorb styrene, which has an intermediate dimension of 6.849 Å. This indicates that the effective pore size of DynaMOF-100 is at least 6.849 Å. There is no data available to suggest a smaller upper bound for the pore size due to size exclusion.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the intermediate dimension of styrene (6.849 Å), which is known to be adsorbed by DynaMOF-100, it is predicted that trans-2-pentene can also be adsorbed by DynaMOF-100, assuming no other specific interactions or kinetic sieving effects prevent its passage that are not covered by the existing data.
+
+---
+
+MOF Name: DynaMOF-100
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Styrene: 9.542×6.849×3.200 → Intermediate = 6.849 Å | Adsorbed
+
+Based on the provided data, DynaMOF-100 is shown to adsorb styrene, which has an intermediate dimension of 6.849 Å. This indicates that the effective pore size of DynaMOF-100 is at least 6.849 Å. There is no data available to suggest a smaller upper bound for the pore size due to size exclusion.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the intermediate dimension of styrene (6.849 Å), which is known to be adsorbed by DynaMOF-100, it is predicted that n-pentane can also be adsorbed by DynaMOF-100, assuming no other specific interactions or kinetic sieving effects prevent its passage that are not covered by the existing data.

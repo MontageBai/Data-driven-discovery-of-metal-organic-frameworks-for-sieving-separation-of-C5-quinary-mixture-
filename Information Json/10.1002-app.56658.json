@@ -1,0 +1,85 @@
+[
+    {
+        "Materials Name": "ZIF-8@TFB-BD(Me)2/PVDF MMM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.79 nm (ZIF-8), 3.80 nm (TFB-BD(Me)2)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "1,3,5-triformylbenzene",
+            "3,3''-dimethyl-(1,1''-biphenyl)-4,4''-diamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate of 91.66% achieved with a MOF/COF ratio of 3:7."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion due to negatively charged membrane surface",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rates >85% for all tested MOF/COF ratios."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion due to negatively charged membrane surface",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stable rejection performance over 3 hours of continuous use."
+                }
+            },
+            {
+                "Molecule Name": "new coccine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion and electrostatic interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection improved with ZIF-8 addition but remained at a relatively low level."
+                }
+            },
+            {
+                "Molecule Name": "fast green",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion and electrostatic interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection improved with ZIF-8 addition but remained at a relatively low level."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Dead-end filtration system experiments",
+            "Performance Metrics": "Water permeance: 641.9 L·m−2h−1bar−1, CR rejection: 91.66%"
+        },
+        "Other Information": {
+            "Additional Info": "Optimal MOF/COF ratio is 3:7 for best performance in dye separation."
+        }
+    }
+]

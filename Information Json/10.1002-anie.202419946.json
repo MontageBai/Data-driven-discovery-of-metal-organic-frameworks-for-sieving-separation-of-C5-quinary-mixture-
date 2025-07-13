@@ -1,0 +1,142 @@
+[
+    {
+        "Materials Name": "ZIF-8@TB-COF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2.7 nm (TB-COF), 1.7 nm (ZIF-8 unit cell)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "100 °C, 200 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: 1.3×10^-7 mol·m^-2·s^-1·Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "100 °C, 200 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CO2 selectivity: 21.9"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "100 °C, 200 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CH4 selectivity: 63.1"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "100 °C, 200 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/C3H8 selectivity: 134.4"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "H2/CO2 selectivity: 21.9, H2/CH4 selectivity: 63.1, H2/C3H8 selectivity: 134.4"
+        },
+        "Other Information": {
+            "Additional Info": "Vacuum-assisted growth strategy used to incorporate ZIF-8 into TB-COF pores."
+        }
+    },
+    {
+        "Materials Name": "ZIF-67@TB-COF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2.7 nm (TB-COF), Not Reported (ZIF-67 unit cell)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "100 °C, 200 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: >1.5×10^-7 mol·m^-2·s^-1·Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "100 °C, 200 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CO2 selectivity: 35.7"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "100 °C, 200 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CH4 selectivity: 75.1"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "100 °C, 200 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/C3H8 selectivity: 139.4"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "H2/CO2 selectivity: 35.7, H2/CH4 selectivity: 75.1, H2/C3H8 selectivity: 139.4"
+        },
+        "Other Information": {
+            "Additional Info": "Prepared using the same vacuum-assisted growth protocol as ZIF-8@TB-COF."
+        }
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "UN UiO-66",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 Å (defect-free window), 7.0 Å (linker-missing window)",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4 clusters"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid (BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "3.31 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective dehydration-hydration process",
+                "Other Information": {
+                    "Test Conditions": "298 K, concentration-driven diffusion",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passes through linker-missing defective UiO-66 with reduced resistance."
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "3.82 Å (hydrated diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Selective dehydration-hydration process",
+                "Other Information": {
+                    "Test Conditions": "298 K, concentration-driven diffusion",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Experiences higher resistance in both defect-free and defective UiO-66 compared to potassium."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to larger hydrated diameter",
+                "Other Information": {
+                    "Test Conditions": "298 K, concentration-driven diffusion",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher charge and larger hydration diameter lead to strict dehydration/rehydration processes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dehydration-hydration mechanism at angstrom-scale windows",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Concentration-driven diffusion experiments",
+            "Performance Metrics": "K+/Li+ selectivity: 7.5, K+/Mg2+ selectivity: 51"
+        },
+        "Other Information": {
+            "Additional Info": "The UN UiO-66 membrane was prepared via confined interior growth within mesoporous colloidal networks, resulting in a 150 nm thick, pinhole-free membrane with linker-missing defects."
+        }
+    }
+]

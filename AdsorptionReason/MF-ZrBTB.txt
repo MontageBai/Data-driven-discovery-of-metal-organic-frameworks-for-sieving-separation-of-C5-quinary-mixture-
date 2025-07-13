@@ -1,0 +1,102 @@
+MOF Name: MF-ZrBTB
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MF-ZrBTB:
+*   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The stated reason for adsorption is "Size exclusion at sub-nanometer scale".
+*   Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed. The stated reason for adsorption is "Size exclusion at sub-nanometer scale".
+
+Inferred effective pore size of MF-ZrBTB:
+The largest intermediate dimension for an adsorbed molecule is Methane (3.877 Å). The experimental data does not provide any molecules that were *not* adsorbed due to size exclusion. However, the reason for adsorption for both CO2 and Methane is explicitly stated as "Size exclusion at sub-nanometer scale". This strongly implies that the MOF's pores are in the sub-nanometer range and operate by a size-selective mechanism, meaning molecules are "sieved" based on their dimensions. Therefore, it can be inferred that the effective pore size is large enough to accommodate molecules up to approximately 3.877 Å, and due to the "size exclusion" nature of adsorption, molecules significantly larger than this are likely to be excluded.
+
+Isoprene Dimensions:
+*   Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than the largest intermediate dimension of the molecules known to be adsorbed by MF-ZrBTB (Methane: 3.877 Å). Given that the MOF's adsorption mechanism is reported as "Size exclusion at sub-nanometer scale" for the molecules it *does* adsorb, it indicates a tight, selective pore. Therefore, a molecule substantially larger like isoprene cannot be adsorbed due to size exclusion.
+
+---
+
+MOF Name: MF-ZrBTB
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MF-ZrBTB:
+*   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The stated reason for adsorption is "Size exclusion at sub-nanometer scale".
+*   Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed. The stated reason for adsorption is "Size exclusion at sub-nanometer scale".
+
+Inferred effective pore size of MF-ZrBTB:
+The largest intermediate dimension for an adsorbed molecule is Methane (3.877 Å). The experimental data does not provide any molecules that were *not* adsorbed due to size exclusion. However, the reason for adsorption for both CO2 and Methane is explicitly stated as "Size exclusion at sub-nanometer scale". This strongly implies that the MOF's pores are in the sub-nanometer range and operate by a size-selective mechanism, meaning molecules are "sieved" based on their dimensions. Therefore, it can be inferred that the effective pore size is large enough to accommodate molecules up to approximately 3.877 Å, and due to the "size exclusion" nature of adsorption, molecules significantly larger than this are likely to be excluded.
+
+cis-2-pentene Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the largest intermediate dimension of the molecules known to be adsorbed by MF-ZrBTB (Methane: 3.877 Å). Given that the MOF's adsorption mechanism is reported as "Size exclusion at sub-nanometer scale" for the molecules it *does* adsorb, it indicates a tight, selective pore. Therefore, a molecule substantially larger like cis-2-pentene cannot be adsorbed due to size exclusion.
+
+---
+
+MOF Name: MF-ZrBTB
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MF-ZrBTB:
+*   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The stated reason for adsorption is "Size exclusion at sub-nanometer scale".
+*   Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed. The stated reason for adsorption is "Size exclusion at sub-nanometer scale".
+
+Inferred effective pore size of MF-ZrBTB:
+The largest intermediate dimension for an adsorbed molecule is Methane (3.877 Å). The experimental data does not provide any molecules that were *not* adsorbed due to size exclusion. However, the reason for adsorption for both CO2 and Methane is explicitly stated as "Size exclusion at sub-nanometer scale". This strongly implies that the MOF's pores are in the sub-nanometer range and operate by a size-selective mechanism, meaning molecules are "sieved" based on their dimensions. Therefore, it can be inferred that the effective pore size is large enough to accommodate molecules up to approximately 3.877 Å, and due to the "size exclusion" nature of adsorption, molecules significantly larger than this are likely to be excluded.
+
+1-pentene Dimensions:
+*   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is significantly larger than the largest intermediate dimension of the molecules known to be adsorbed by MF-ZrBTB (Methane: 3.877 Å). Given that the MOF's adsorption mechanism is reported as "Size exclusion at sub-nanometer scale" for the molecules it *does* adsorb, it indicates a tight, selective pore. Therefore, a molecule substantially larger like 1-pentene cannot be adsorbed due to size exclusion.
+
+---
+
+MOF Name: MF-ZrBTB
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MF-ZrBTB:
+*   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The stated reason for adsorption is "Size exclusion at sub-nanometer scale".
+*   Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed. The stated reason for adsorption is "Size exclusion at sub-nanometer scale".
+
+Inferred effective pore size of MF-ZrBTB:
+The largest intermediate dimension for an adsorbed molecule is Methane (3.877 Å). The experimental data does not provide any molecules that were *not* adsorbed due to size exclusion. However, the reason for adsorption for both CO2 and Methane is explicitly stated as "Size exclusion at sub-nanometer scale". This strongly implies that the MOF's pores are in the sub-nanometer range and operate by a size-selective mechanism, meaning molecules are "sieved" based on their dimensions. Therefore, it can be inferred that the effective pore size is large enough to accommodate molecules up to approximately 3.877 Å, and due to the "size exclusion" nature of adsorption, molecules significantly larger than this are likely to be excluded.
+
+trans-2-pentene Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the largest intermediate dimension of the molecules known to be adsorbed by MF-ZrBTB (Methane: 3.877 Å). Given that the MOF's adsorption mechanism is reported as "Size exclusion at sub-nanometer scale" for the molecules it *does* adsorb, it indicates a tight, selective pore. Therefore, a molecule substantially larger like trans-2-pentene cannot be adsorbed due to size exclusion.
+
+---
+
+MOF Name: MF-ZrBTB
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MF-ZrBTB:
+*   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The stated reason for adsorption is "Size exclusion at sub-nanometer scale".
+*   Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed. The stated reason for adsorption is "Size exclusion at sub-nanometer scale".
+
+Inferred effective pore size of MF-ZrBTB:
+The largest intermediate dimension for an adsorbed molecule is Methane (3.877 Å). The experimental data does not provide any molecules that were *not* adsorbed due to size exclusion. However, the reason for adsorption for both CO2 and Methane is explicitly stated as "Size exclusion at sub-nanometer scale". This strongly implies that the MOF's pores are in the sub-nanometer range and operate by a size-selective mechanism, meaning molecules are "sieved" based on their dimensions. Therefore, it can be inferred that the effective pore size is large enough to accommodate molecules up to approximately 3.877 Å, and due to the "size exclusion" nature of adsorption, molecules significantly larger than this are likely to be excluded.
+
+n-pentane Dimensions:
+*   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is notably larger than the largest intermediate dimension of the molecules known to be adsorbed by MF-ZrBTB (Methane: 3.877 Å). Given that the MOF's adsorption mechanism is reported as "Size exclusion at sub-nanometer scale" for the molecules it *does* adsorb, it indicates a tight, selective pore where even small differences in molecular size are critical. Therefore, n-pentane, being larger, cannot be adsorbed due to size exclusion.

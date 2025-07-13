@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "mixed-metal ZIF-7 membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.3 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "ANA",
+        "Metal Nodes": [
+            "Zn2+",
+            "Co2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: 1.89 × 10−7 mol·m−2·s−1·Pa−1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CO2 ideal separation factor: 42.8"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/N2 ideal separation factor: 47.5"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CH4 ideal separation factor: 53.1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas permeation and binary gas mixture separation experiments",
+            "Performance Metrics": "H2/CO2 ideal separation factor: 42.8; H2 permeance: 1.89 × 10−7 mol·m−2·s−1·Pa−1"
+        },
+        "Other Information": {
+            "Additional Info": "The mixed-metal ZIF-7 membrane exhibits excellent thermal stability up to 570 °C and operational stability over 100 hours."
+        }
+    }
+]

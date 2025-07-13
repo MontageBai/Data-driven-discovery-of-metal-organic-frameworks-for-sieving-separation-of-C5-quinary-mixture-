@@ -1,0 +1,173 @@
+[
+    {
+        "Materials Name": "6F-CMSM",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "pyrrole",
+            "pyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "273 K, 308 K, 373 K, Pressure range 0-50 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material shows high selectivity towards CO2 over CH4 and N2."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.758 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "273 K, 308 K, 373 K, Pressure range 0-50 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Competitive adsorption with CO2 studied for 10:90 mole fraction."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "273 K, 308 K, 373 K, Pressure range 0-50 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Competitive adsorption with CO2 studied for 20:80 mole fraction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "Gas loading capacities (q) obtained through simulations for pure and binary mixtures."
+        },
+        "Other Information": {
+            "Additional Info": "The 6F-CMSM was derived from pyrolysis of 6FDA/BPDA-DAM polymer precursors."
+        }
+    },
+    {
+        "Materials Name": "CALF-20",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.8 Å (PLD), 4.3 Å (LCD)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "313 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Predicted CO2 uptake compared against experimental data available in literature."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Machine learning prediction validated with experimental data",
+            "Performance Metrics": "Good agreement between predicted and experimental CO2 isotherms at low pressure regimes."
+        },
+        "Other Information": {
+            "Additional Info": "CALF-20 framework shows a drastic increase in CO2 adsorption in the low-pressure regime."
+        }
+    },
+    {
+        "Materials Name": "MOF-A: OPT_act_sym_6_mc_3_sym_3_on_2_1B_4Br_1B_4Br",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.56 Å (PLD), 13.0 Å (LCD)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.758 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "300 K, Pressure range 0-100 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Good agreement between ML-predicted CH4 loadings and dataset values."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Machine learning prediction",
+            "Performance Metrics": "Small standard deviations about the mean for CH4 loadings."
+        },
+        "Other Information": {
+            "Additional Info": "Randomly chosen MOF from the test dataset of Anderson et al., not part of training, testing, or validation set."
+        }
+    },
+    {
+        "Materials Name": "MOF-B: OPT_act_sym_7_mc_4_1B_2CF3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.07 Å (PLD), 8.9 Å (LCD)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.758 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "300 K, Pressure range 0-100 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Good agreement between ML-predicted CH4 loadings and dataset values."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Machine learning prediction",
+            "Performance Metrics": "Small standard deviations about the mean for CH4 loadings."
+        },
+        "Other Information": {
+            "Additional Info": "Randomly chosen MOF from the test dataset of Anderson et al., not part of training, testing, or validation set."
+        }
+    }
+]

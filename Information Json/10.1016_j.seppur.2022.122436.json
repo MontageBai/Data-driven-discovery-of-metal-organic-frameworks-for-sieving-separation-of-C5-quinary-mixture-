@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "MCC-meso-1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 Å (micropore), 5.0 nm (mesopore)",
+            "Structure Type": "Interlinked microporous and mesoporous carbon"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving in micropores, facilitated diffusion in mesopores",
+                "Other Information": {
+                    "Test Conditions": "298 K, 50 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fast adsorption process observed with diffusion time constant of 4.13*10^-2 s^-1."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Two-step diffusion behavior (fast step in mesopores, slow step in micropores)",
+                "Other Information": {
+                    "Test Conditions": "298 K, 50 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion time constants for fast step: 8.39*10^-2 s^-1; slow step: 3.31*10^-5 s^-1."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with facilitated transport through mesopores",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, gas adsorption isotherms, and kinetic measurements",
+            "Performance Metrics": "C3H6 uptake: 2.90 mmol g^-1 at 100 kPa; C3H8 uptake: 2.16 mmol g^-1 at 100 kPa"
+        },
+        "Other Information": {
+            "Additional Info": "MCC-meso-1 exhibits high mechanical strength and excellent stability under harsh conditions."
+        }
+    },
+    {
+        "Materials Name": "MCC-micro",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.8 Å and 5.4 Å (micropore)",
+            "Structure Type": "Microporous carbon spheres"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving in micropores",
+                "Other Information": {
+                    "Test Conditions": "298 K, 50 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "One-step fast adsorption process with diffusion time constant of 1.26*10^-2 s^-1."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion in narrow micropores",
+                "Other Information": {
+                    "Test Conditions": "298 K, 50 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Suppressed diffusion observed due to lack of mesopores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms and kinetic measurements",
+            "Performance Metrics": "C3H6 uptake: Not explicitly reported; C3H8 uptake suppressed"
+        },
+        "Other Information": {
+            "Additional Info": "Lower mechanical strength compared to MCC-meso-1."
+        }
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "Materials Name": "ZIF-8@Agmim",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.40 nm (PLD), Not Reported (LCD)",
+            "Structure Type": "Core-shell structure"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+",
+            "Ag+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.40 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving facilitated by π-complexation with Ag+",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced transport through Ag+ π-complexation."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted due to larger size compared to pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with facilitated transport via π-complexation.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments and adsorption isotherms",
+            "Performance Metrics": "C3H6 permeability: 4143 Barrer, C3H6/C3H8 selectivity: 9"
+        },
+        "Other Information": {
+            "Additional Info": "Core-shell structure maintains molecular sieving properties of ZIF-8 while enhancing selectivity via Ag+ π-complexation."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.40 nm (PLD), Not Reported (LCD)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.40 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller kinetic diameter allows faster diffusion."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted due to larger size compared to pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale based on kinetic diameter differences.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments and adsorption isotherms",
+            "Performance Metrics": "C3H6 permeability: 3045 Barrer, C3H6/C3H8 selectivity: 6"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 exhibits intrinsic molecular sieving properties for propylene/propane separation."
+        }
+    },
+    {
+        "Materials Name": "Agmim",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Nonporous shell"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ag+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.40 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport via π-complexation with Ag+",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced transport due to interaction with Ag+ active sites."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted due to lack of porosity and larger size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not applicable; nonporous structure provides selective interaction via π-complexation.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "C3H6 permeability: 1949 Barrer, C3H6/C3H8 selectivity: 8"
+        },
+        "Other Information": {
+            "Additional Info": "Agmim acts as a shell material in core-shell structures to enhance propylene transport."
+        }
+    }
+]

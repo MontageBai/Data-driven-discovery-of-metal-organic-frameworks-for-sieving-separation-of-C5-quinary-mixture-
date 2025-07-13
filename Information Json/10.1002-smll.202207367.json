@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Mn-dhbq",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.58 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mn2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxy-1,4-benzoquinone"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "393 K, 6.67 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption capacity of 1.53 mmol g−1"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "5.0 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Varies (303 K to 393 K)",
+                    "Threshold Pressure": "Increases with temperature",
+                    "Additional Info": "Adsorption decreases with increasing temperature"
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "5.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Above 303 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Complete separation of linear, mono-, and di-branched hexane isomers"
+        },
+        "Other Information": {
+            "Additional Info": "High stability, scalable synthesis, and potential for industrial use"
+        }
+    }
+]

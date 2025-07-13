@@ -1,0 +1,69 @@
+MOF Name: SNNU-185
+
+Detailed Reasoning for SNNU-185's Inferred Pore Size:
+From the experimental data for SNNU-185 under 298 K, 1 bar:
+*   **Methane:** 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Yes)
+*   **Ethane:** 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Yes)
+*   **Propane:** 6.552×4.354×3.970 → Intermediate = 4.354 Å | Conditional (implies restricted or no full adsorption under these conditions)
+
+Based on these observations, the MOF SNNU-185 can clearly adsorb molecules with an intermediate dimension up to at least 4.175 Å (ethane). However, for propane (intermediate dimension 4.354 Å), adsorption is "Conditional", suggesting that the pore opening is either exactly at this limit or slightly smaller, making free passage difficult or impossible under these standard conditions due to size exclusion or very tight kinetic sieving. Therefore, we infer that the effective pore size of SNNU-185 is greater than 4.175 Å but less than 4.354 Å.
+
+---
+
+MOF Name: SNNU-185
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   Isoprene Dimensions: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+*   The inferred effective pore size of SNNU-185 is less than 4.354 Å.
+*   Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the inferred upper limit of SNNU-185's effective pore size (~4.354 Å), it cannot be adsorbed.
+
+---
+
+MOF Name: SNNU-185
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+*   The inferred effective pore size of SNNU-185 is less than 4.354 Å.
+*   Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the inferred upper limit of SNNU-185's effective pore size (~4.354 Å), it cannot be adsorbed.
+
+---
+
+MOF Name: SNNU-185
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   1-pentene Dimensions: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+*   The inferred effective pore size of SNNU-185 is less than 4.354 Å.
+*   Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the inferred upper limit of SNNU-185's effective pore size (~4.354 Å), it cannot be adsorbed.
+
+---
+
+MOF Name: SNNU-185
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+*   The inferred effective pore size of SNNU-185 is less than 4.354 Å.
+*   Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the inferred upper limit of SNNU-185's effective pore size (~4.354 Å), it cannot be adsorbed.
+
+---
+
+MOF Name: SNNU-185
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   n-pentane Dimensions: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+*   The inferred effective pore size of SNNU-185 is less than 4.354 Å (as propane with an intermediate dimension of 4.354 Å showed only "Conditional" adsorption).
+*   Since n-pentane's intermediate dimension (4.364 Å) is marginally larger than the intermediate dimension of propane (4.354 Å), which is already "Conditional" (i.e., highly restricted or not adsorbed under standard conditions), n-pentane cannot be adsorbed by SNNU-185 due to size exclusion.

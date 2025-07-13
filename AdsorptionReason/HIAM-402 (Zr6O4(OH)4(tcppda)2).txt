@@ -1,0 +1,113 @@
+MOF Name: HIAM-402 (Zr6O4(OH)4(tcppda)2)
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for HIAM-402:
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+
+Inferred effective pore size of HIAM-402:
+Since both propane (intermediate 4.354 Å) and propylene (intermediate 5.051 Å) are adsorbed, the effective pore size of HIAM-402 must be at least 5.051 Å (the largest intermediate dimension of the adsorbed molecules).
+There is no experimental data indicating non-adsorption due to size exclusion for HIAM-402, so an upper bound for the pore size cannot be strictly inferred from the provided data. The reported mechanism for the adsorbed molecules is "Thermodynamic driving separation," suggesting that size exclusion is not the primary limiting factor for these molecules.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is larger than the largest intermediate dimension of the experimentally adsorbed molecules (propylene, 5.051 Å). However, without any data indicating size exclusion for HIAM-402, it is not possible to establish an upper limit for its pore size. Given that the available data suggests the MOF is open enough to allow molecules of ~5 Å to pass, and that the "Sieving Mechanism" was "Not Reported" for the adsorbed molecules, it is reasonable to predict that HIAM-402 can also adsorb isoprene, as its size is not drastically larger (a difference of ~1 Å in intermediate dimension) and no size exclusion behavior is reported.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: HIAM-402 (Zr6O4(OH)4(tcppda)2)
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for HIAM-402:
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+
+Inferred effective pore size of HIAM-402:
+The effective pore size of HIAM-402 must be at least 5.051 Å (the largest intermediate dimension of the adsorbed molecules). An upper bound cannot be strictly inferred from the provided data, as no size exclusion is reported. The mechanism for adsorption is "Thermodynamic driving separation," not size sieving.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is larger than the largest intermediate dimension of the experimentally adsorbed molecules (propylene, 5.051 Å). However, in the absence of any size exclusion data that would define an upper limit for HIAM-402's pore size, and given that the MOF adsorbs molecules of ~5 Å with no reported sieving mechanism, it is reasonable to predict that HIAM-402 can also adsorb cis-2-pentene, as its size is not drastically larger.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: HIAM-402 (Zr6O4(OH)4(tcppda)2)
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for HIAM-402:
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+
+Inferred effective pore size of HIAM-402:
+The effective pore size of HIAM-402 must be at least 5.051 Å (the largest intermediate dimension of the adsorbed molecules). There is no experimental data indicating non-adsorption due to size exclusion.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is less than the intermediate dimension of propylene (5.051 Å), which is known to be adsorbed by HIAM-402. Therefore, based on the principle that smaller molecules should be able to pass if larger ones can, HIAM-402 can adsorb 1-pentene.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: HIAM-402 (Zr6O4(OH)4(tcppda)2)
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for HIAM-402:
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+
+Inferred effective pore size of HIAM-402:
+The effective pore size of HIAM-402 must be at least 5.051 Å (the largest intermediate dimension of the adsorbed molecules). There is no experimental data indicating non-adsorption due to size exclusion.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is less than the intermediate dimension of propylene (5.051 Å), which is known to be adsorbed by HIAM-402. Therefore, based on the principle that smaller molecules should be able to pass if larger ones can, HIAM-402 can adsorb trans-2-pentene.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: HIAM-402 (Zr6O4(OH)4(tcppda)2)
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for HIAM-402:
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+
+Inferred effective pore size of HIAM-402:
+The effective pore size of HIAM-402 must be at least 5.051 Å (the largest intermediate dimension of the adsorbed molecules). There is no experimental data indicating non-adsorption due to size exclusion.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is less than the intermediate dimension of propylene (5.051 Å), which is known to be adsorbed by HIAM-402. It is also very similar in size to propane (4.354 Å), which is adsorbed. Therefore, HIAM-402 can adsorb n-pentane.
+
+Therefore, the result is: **Can Adsorb**

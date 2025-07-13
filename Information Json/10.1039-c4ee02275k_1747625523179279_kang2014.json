@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "JUC-150",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2.5 × 4.5 Å",
+            "Structure Type": "1D corrugated channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "L-aspartic acid",
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 molecules can enter the channels due to thermal vibration of methylene groups."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked by the ultra-micropores of JUC-150."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked by the ultra-micropores of JUC-150."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked by the ultra-micropores of JUC-150."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas permeance test and binary gas mixture separation",
+            "Performance Metrics": "H2/CO2 selectivity: 38.7, H2/N2 selectivity: 17.1, H2/CH4 selectivity: 26.3"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane shows high thermal stability and retains separation performance at 200°C."
+        }
+    }
+]

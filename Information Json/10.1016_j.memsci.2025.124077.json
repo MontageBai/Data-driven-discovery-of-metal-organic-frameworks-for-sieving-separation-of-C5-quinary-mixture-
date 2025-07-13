@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Co-gallate membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.38 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "gallic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.28 × 4.18 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption of ethylene over ethane was observed."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "3.81 × 4.08 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane is excluded due to its larger size compared to the pore size of Co-gallate."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-gas and mixed-gas permeation tests using a homemade Wicke-Kallenbach apparatus",
+            "Performance Metrics": "C2H4 permeance: 193 GPU, C2H4/C2H6 selectivity: 10.3 (single gas); C2H4 permeance: 175 GPU, C2H4/C2H6 selectivity: 9.5 (mixed gas)"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane thickness is approximately 400 nm. The magnetic field-assisted synthesis promotes nucleation density and controlled growth of MOF grains on the substrate surface."
+        }
+    }
+]

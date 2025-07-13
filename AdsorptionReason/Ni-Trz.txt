@@ -1,0 +1,97 @@
+MOF Name: Ni-Trz
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Ni-Trz:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Based on the provided data, Ni-Trz is capable of adsorbing molecules with an intermediate dimension of 3.200 Å. Therefore, the inferred effective pore size of Ni-Trz is known to be **at least 3.200 Å**. However, the experimental data does not include any molecules that were *not* adsorbed due to size exclusion. This means there is no upper bound for the pore size that can be inferred from the provided data.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of the largest molecule confirmed to be adsorbed (3.200 Å), and given the absence of experimental data demonstrating adsorption for molecules of this size or larger, or data explicitly defining an upper pore size limit by size exclusion, we cannot confirm its adsorption based strictly on the provided information. Therefore, the prediction is that it **Cannot Adsorb** under these conditions, as its adsorption capability for molecules of this size has not been demonstrated.
+
+---
+
+MOF Name: Ni-Trz
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Ni-Trz:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Based on the provided data, Ni-Trz is capable of adsorbing molecules with an intermediate dimension of 3.200 Å. Therefore, the inferred effective pore size of Ni-Trz is known to be **at least 3.200 Å**. However, the experimental data does not include any molecules that were *not* adsorbed due to size exclusion. This means there is no upper bound for the pore size that can be inferred from the provided data.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of the largest molecule confirmed to be adsorbed (3.200 Å), and given the absence of experimental data demonstrating adsorption for molecules of this size or larger, or data explicitly defining an upper pore size limit by size exclusion, we cannot confirm its adsorption based strictly on the provided information. Therefore, the prediction is that it **Cannot Adsorb** under these conditions, as its adsorption capability for molecules of this size has not been demonstrated.
+
+---
+
+MOF Name: Ni-Trz
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Ni-Trz:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Based on the provided data, Ni-Trz is capable of adsorbing molecules with an intermediate dimension of 3.200 Å. Therefore, the inferred effective pore size of Ni-Trz is known to be **at least 3.200 Å**. However, the experimental data does not include any molecules that were *not* adsorbed due to size exclusion. This means there is no upper bound for the pore size that can be inferred from the provided data.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of the largest molecule confirmed to be adsorbed (3.200 Å), and given the absence of experimental data demonstrating adsorption for molecules of this size or larger, or data explicitly defining an upper pore size limit by size exclusion, we cannot confirm its adsorption based strictly on the provided information. Therefore, the prediction is that it **Cannot Adsorb** under these conditions, as its adsorption capability for molecules of this size has not been demonstrated.
+
+---
+
+MOF Name: Ni-Trz
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Ni-Trz:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Based on the provided data, Ni-Trz is capable of adsorbing molecules with an intermediate dimension of 3.200 Å. Therefore, the inferred effective pore size of Ni-Trz is known to be **at least 3.200 Å**. However, the experimental data does not include any molecules that were *not* adsorbed due to size exclusion. This means there is no upper bound for the pore size that can be inferred from the provided data.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of the largest molecule confirmed to be adsorbed (3.200 Å), and given the absence of experimental data demonstrating adsorption for molecules of this size or larger, or data explicitly defining an upper pore size limit by size exclusion, we cannot confirm its adsorption based strictly on the provided information. Therefore, the prediction is that it **Cannot Adsorb** under these conditions, as its adsorption capability for molecules of this size has not been demonstrated.
+
+---
+
+MOF Name: Ni-Trz
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Ni-Trz:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Based on the provided data, Ni-Trz is capable of adsorbing molecules with an intermediate dimension of 3.200 Å. Therefore, the inferred effective pore size of Ni-Trz is known to be **at least 3.200 Å**. However, the experimental data does not include any molecules that were *not* adsorbed due to size exclusion. This means there is no upper bound for the pore size that can be inferred from the provided data.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the intermediate dimension of the largest molecule confirmed to be adsorbed (3.200 Å), and given the absence of experimental data demonstrating adsorption for molecules of this size or larger, or data explicitly defining an upper pore size limit by size exclusion, we cannot confirm its adsorption based strictly on the provided information. Therefore, the prediction is that it **Cannot Adsorb** under these conditions, as its adsorption capability for molecules of this size has not been demonstrated.

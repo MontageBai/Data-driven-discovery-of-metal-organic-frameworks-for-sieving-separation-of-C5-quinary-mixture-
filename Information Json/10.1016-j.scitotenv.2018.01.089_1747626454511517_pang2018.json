@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "Fe3O4@MIL-100 (Fe)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "4.81 nm",
+            "Structure Type": "mesoporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "1,3,5-Benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "trimethyl phosphate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Volume exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 mM phosphate buffer, pH 7.0 ± 0.2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "logKDOC = 3.84"
+                }
+            },
+            {
+                "Molecule Name": "triethyl phosphate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Volume exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 mM phosphate buffer, pH 7.0 ± 0.2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "logKDOC = 4.48"
+                }
+            },
+            {
+                "Molecule Name": "tris-(2-butoxyethyl) phosphate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Volume exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 mM phosphate buffer, pH 7.0 ± 0.2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "logKDOC = 5.28"
+                }
+            },
+            {
+                "Molecule Name": "2-ethylhexyl diphenyl phosphate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Volume exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 mM phosphate buffer, pH 7.0 ± 0.2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "logKDOC = 5.24"
+                }
+            },
+            {
+                "Molecule Name": "tricresyl phosphate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Volume exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 mM phosphate buffer, pH 7.0 ± 0.2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "logKDOC = 5.10"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "UPLC-MS/MS analysis",
+            "Performance Metrics": "Equilibration time (t90%) ranges from 4 to 24 minutes"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows selective extraction of freely dissolved organophosphate esters due to the volume exclusion effect."
+        }
+    }
+]

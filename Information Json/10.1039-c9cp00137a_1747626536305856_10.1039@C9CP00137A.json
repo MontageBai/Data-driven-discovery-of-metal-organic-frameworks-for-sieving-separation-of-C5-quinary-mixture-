@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "H-pore-16",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D monolayer with nanopores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "3-Chloropropene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Conformation-induced sieving",
+                "Other Information": {
+                    "Test Conditions": "350 K, pressure difference between chambers",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower energy penalty to twist to the cis-conformation preferred by the pore."
+                }
+            },
+            {
+                "Molecule Name": "1-Chloropropane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Conformation-induced sieving",
+                "Other Information": {
+                    "Test Conditions": "350 K, pressure difference between chambers",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher energy penalty to twist to the cis-conformation preferred by the pore."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with conformational preferences.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Non-equilibrium molecular dynamics (NEMD) simulations",
+            "Performance Metrics": "Ultrahigh selectivity for 3-Chloropropene over 1-Chloropropane; no 1-Chloropropane molecules passed through the membrane in 100 ns simulation."
+        },
+        "Other Information": {
+            "Additional Info": "The pore geometry prefers the cis-conformation of 3-Chloropropene, facilitating its passage while excluding 1-Chloropropane due to higher energy barriers."
+        }
+    },
+    {
+        "Materials Name": "H-pore-18",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D monolayer with nanopores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "3-Chloropropene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Conformation-induced sieving",
+                "Other Information": {
+                    "Test Conditions": "350 K, pressure difference between chambers",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower energy penalty to twist to the cis-conformation preferred by the pore."
+                }
+            },
+            {
+                "Molecule Name": "1-Chloropropane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Conformation-induced sieving",
+                "Other Information": {
+                    "Test Conditions": "350 K, pressure difference between chambers",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher energy penalty to twist to the cis-conformation preferred by the pore."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with conformational preferences.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Non-equilibrium molecular dynamics (NEMD) simulations",
+            "Performance Metrics": "Ultrahigh selectivity for 3-Chloropropene over 1-Chloropropane; no 1-Chloropropane molecules passed through the membrane in 100 ns simulation."
+        },
+        "Other Information": {
+            "Additional Info": "The pore geometry prefers the cis-conformation of 3-Chloropropene, facilitating its passage while excluding 1-Chloropropane due to higher energy barriers."
+        }
+    },
+    {
+        "Materials Name": "H-pore-21",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D monolayer with nanopores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "3-Chloropropene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Conformation-induced sieving",
+                "Other Information": {
+                    "Test Conditions": "350 K, pressure difference between chambers",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower energy penalty to twist to the cis-conformation preferred by the pore."
+                }
+            },
+            {
+                "Molecule Name": "1-Chloropropane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Conformation-induced sieving",
+                "Other Information": {
+                    "Test Conditions": "350 K, pressure difference between chambers",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher energy penalty to twist to the cis-conformation preferred by the pore."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with conformational preferences.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Non-equilibrium molecular dynamics (NEMD) simulations",
+            "Performance Metrics": "Ultrahigh selectivity for 3-Chloropropene over 1-Chloropropane; no 1-Chloropropane molecules passed through the membrane in 100 ns simulation."
+        },
+        "Other Information": {
+            "Additional Info": "The pore geometry prefers the cis-conformation of 3-Chloropropene, facilitating its passage while excluding 1-Chloropropane due to higher energy barriers."
+        }
+    }
+]

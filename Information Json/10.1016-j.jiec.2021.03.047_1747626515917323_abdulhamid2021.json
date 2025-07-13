@@ -1,0 +1,264 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (XRD-derived), 4.0–4.2 Å (effective aperture)",
+            "Structure Type": "SOD topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-8 membranes show high propylene permeance and selectivity over propane."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-8 membranes effectively block propane while allowing propylene to pass through."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, atmospheric pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-8 membranes exhibit unprecedentedly high hydrogen permeance but low H2/CO2 selectivity."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, atmospheric pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-8 membranes show moderate CO2/N2 and CO2/CH4 molecular sieving effects due to framework flexibility."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas permeation measurements, binary gas mixture tests",
+            "Performance Metrics": "C3H6/C3H8 separation factor: up to 304; C3H6 permeance: up to 3000 GPU"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 is one of the most widely investigated ZIFs for gas separations, especially for C3H6/C3H8 separation."
+        }
+    },
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0 Å",
+            "Structure Type": "SOD topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature to 150°C, 1–2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-7 membranes display higher H2/CO2 selectivity compared to ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature to 150°C, 1–2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity increases with temperature due to less affected hydrogen transport."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Mixed gas permeation tests",
+            "Performance Metrics": "H2/CO2 selectivity: up to 19 at 150°C"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-7 has narrower apertures than ZIF-8, making it more suitable for H2 separation from larger molecules like CO2, N2, and CH4."
+        }
+    },
+    {
+        "Materials Name": "ZIF-90",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 Å (XRD-derived), ~5.0 Å (effective aperture)",
+            "Structure Type": "SOD topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazole-2-carboxaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "0.47 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-90 membranes show effective n-butane permeance and separation from i-butane."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "0.53 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-90 membranes demonstrate sharp decline in permeability for isobutane compared to n-butane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Binary gas mixture tests",
+            "Performance Metrics": "n-C4H10/i-C4H10 separation factor: 12"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-90 is particularly suited for n-butane/isobutane separations due to its wider effective aperture of 5.0 Å."
+        }
+    },
+    {
+        "Materials Name": "ZIF-95",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.7 Å",
+            "Structure Type": "POZ topology"
+        },
+        "Topology": "poz",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "50–225°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-95 membranes exhibit high hydrogen permeance and selectivity over CO2."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "50–225°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong quadrupolar interaction between CO2 and ZIF-95 limits CO2 diffusion mobility."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single and mixed gas permeation tests",
+            "Performance Metrics": "H2/CO2 selectivity: up to 39 at 225°C"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-95 membranes prepared via secondary growth method show improved H2/CO2 separation performances."
+        }
+    },
+    {
+        "Materials Name": "ZIF-67",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 Å",
+            "Structure Type": "SOD topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-67 membranes show superior C3H6/C3H8 separation performance compared to ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Narrower aperture fluctuation due to stiffer Co-N bonding improves molecular sieving capability."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Binary gas mixture tests",
+            "Performance Metrics": "C3H6/C3H8 separation factor: up to 203"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-67 membranes are challenging to synthesize due to faster nucleation and growth kinetics compared to ZIF-8."
+        }
+    }
+]

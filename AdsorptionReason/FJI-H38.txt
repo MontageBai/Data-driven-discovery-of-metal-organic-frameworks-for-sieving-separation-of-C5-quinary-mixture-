@@ -1,0 +1,112 @@
+MOF Name: FJI-H38
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for FJI-H38:
+-   Butane: 7.709×4.532×3.969 → Intermediate = 4.532 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+-   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+-   Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of FJI-H38:
+Based on the experimental data, the MOF can adsorb molecules with an intermediate dimension up to at least 4.532 Å (butane). It excludes molecules with an intermediate dimension of 6.393 Å or larger (isobutane) due to size exclusion.
+Therefore, the effective pore size is inferred to be less than 6.393 Å. Molecules with intermediate dimensions equal to or less than 4.532 Å are adsorbed. For molecules between 4.532 Å and 6.393 Å, it is expected they can be adsorbed as long as their intermediate dimension is less than 6.393 Å.
+
+Target Guest Molecule Dimensions:
+-   isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is less than the intermediate dimension of isobutane (6.393 Å), which was explicitly stated as not adsorbed due to size exclusion. Since FJI-H38's pores are evidently large enough for molecules up to 4.532 Å and exclude molecules at 6.393 Å, a molecule with an intermediate dimension of 6.093 Å is expected to pass through.
+
+---
+
+MOF Name: FJI-H38
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for FJI-H38:
+-   Butane: 7.709×4.532×3.969 → Intermediate = 4.532 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+-   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+-   Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of FJI-H38:
+Based on the experimental data, the MOF can adsorb molecules with an intermediate dimension up to at least 4.532 Å (butane). It excludes molecules with an intermediate dimension of 6.393 Å or larger (isobutane) due to size exclusion.
+Therefore, the effective pore size is inferred to be less than 6.393 Å. Molecules with intermediate dimensions equal to or less than 4.532 Å are adsorbed. For molecules between 4.532 Å and 6.393 Å, it is expected they can be adsorbed as long as their intermediate dimension is less than 6.393 Å.
+
+Target Guest Molecule Dimensions:
+-   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is less than the intermediate dimension of isobutane (6.393 Å), which was explicitly stated as not adsorbed due to size exclusion. Since FJI-H38's pores are evidently large enough for molecules up to 4.532 Å and exclude molecules at 6.393 Å, a molecule with an intermediate dimension of 5.572 Å is expected to pass through.
+
+---
+
+MOF Name: FJI-H38
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for FJI-H38:
+-   Butane: 7.709×4.532×3.969 → Intermediate = 4.532 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+-   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+-   Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of FJI-H38:
+Based on the experimental data, the MOF can adsorb molecules with an intermediate dimension up to at least 4.532 Å (butane). It excludes molecules with an intermediate dimension of 6.393 Å or larger (isobutane) due to size exclusion.
+Therefore, the effective pore size is inferred to be less than 6.393 Å. Molecules with intermediate dimensions equal to or less than 4.532 Å are adsorbed. For molecules between 4.532 Å and 6.393 Å, it is expected they can be adsorbed as long as their intermediate dimension is less than 6.393 Å.
+
+Target Guest Molecule Dimensions:
+-   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is less than the intermediate dimension of isobutane (6.393 Å), which was explicitly stated as not adsorbed due to size exclusion. Since FJI-H38's pores are evidently large enough for molecules up to 4.532 Å and exclude molecules at 6.393 Å, a molecule with an intermediate dimension of 4.995 Å is expected to pass through.
+
+---
+
+MOF Name: FJI-H38
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for FJI-H38:
+-   Butane: 7.709×4.532×3.969 → Intermediate = 4.532 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+-   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+-   Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of FJI-H38:
+Based on the experimental data, the MOF can adsorb molecules with an intermediate dimension up to at least 4.532 Å (butane). It excludes molecules with an intermediate dimension of 6.393 Å or larger (isobutane) due to size exclusion.
+Therefore, the effective pore size is inferred to be less than 6.393 Å. Molecules with intermediate dimensions equal to or less than 4.532 Å are adsorbed. For molecules between 4.532 Å and 6.393 Å, it is expected they can be adsorbed as long as their intermediate dimension is less than 6.393 Å.
+
+Target Guest Molecule Dimensions:
+-   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is less than the intermediate dimension of isobutane (6.393 Å), which was explicitly stated as not adsorbed due to size exclusion. Since FJI-H38's pores are evidently large enough for molecules up to 4.532 Å and exclude molecules at 6.393 Å, a molecule with an intermediate dimension of 4.733 Å is expected to pass through.
+
+---
+
+MOF Name: FJI-H38
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for FJI-H38:
+-   Butane: 7.709×4.532×3.969 → Intermediate = 4.532 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+-   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+-   Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of FJI-H38:
+Based on the experimental data, the MOF can adsorb molecules with an intermediate dimension up to at least 4.532 Å (butane). It excludes molecules with an intermediate dimension of 6.393 Å or larger (isobutane) due to size exclusion.
+Therefore, the effective pore size is inferred to be less than 6.393 Å. Molecules with intermediate dimensions equal to or less than 4.532 Å are adsorbed. For molecules between 4.532 Å and 6.393 Å, it is expected they can be adsorbed as long as their intermediate dimension is less than 6.393 Å.
+
+Target Guest Molecule Dimensions:
+-   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is less than the intermediate dimension of butane (4.532 Å), which was successfully adsorbed by FJI-H38. According to the rule that molecules with intermediate dimensions less than or equal to the largest adsorbed molecule's intermediate dimension can adsorb, n-pentane should be adsorbable. It is also well below the size exclusion limit of isobutane (6.393 Å).

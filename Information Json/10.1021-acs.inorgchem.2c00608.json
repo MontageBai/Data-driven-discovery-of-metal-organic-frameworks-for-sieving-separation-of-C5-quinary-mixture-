@@ -1,0 +1,125 @@
+[
+    {
+        "Materials Name": "Zn3(NH2BDC)3DABCO",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.47 Å (aperture), 4.90 Å (width) in DMSO; 3.29 Å (aperture), 4.80 Å (width) in MeOH",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "bcu",
+        "Metal Nodes": [
+            "Zn2+",
+            "ZnO6 octahedron"
+        ],
+        "Ligands": [
+            "2-amino-terephthalate",
+            "1,4-diazabicyclo[2.2.2]octane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore aperture is larger than CO2 but smaller than N2 and CH4, allowing only CO2 to enter."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore aperture is too small for N2 to enter."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore aperture is too small for CH4 to enter."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption experiments",
+            "Performance Metrics": "CO2/N2 selectivity: 4800:1, CO2/CH4 selectivity: 5 × 10^28:1"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF demonstrates infinite separation selectivity for CO2 over N2 and CH4 due to precise pore size control."
+        }
+    },
+    {
+        "Materials Name": "Zn2Cd(NH2BDC)3DABCO",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.08 Å (aperture), 5.03 Å (width) in DMSO; 3.09 Å (aperture), 5.05 Å (width) in MeOH",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "bcu",
+        "Metal Nodes": [
+            "Zn2+",
+            "Cd2+",
+            "ZnO6 octahedron"
+        ],
+        "Ligands": [
+            "2-amino-terephthalate",
+            "1,4-diazabicyclo[2.2.2]octane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore aperture allows CO2 to enter."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The slightly larger pore aperture compared to Zn3 allows N2 to enter."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The slightly larger pore aperture compared to Zn3 allows CH4 to enter."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption experiments",
+            "Performance Metrics": "CO2/N2 selectivity: 27.5:1, CO2/CH4 selectivity: 10.5:1"
+        },
+        "Other Information": {
+            "Additional Info": "The slight increase in pore aperture compared to Zn3 results in a significant decrease in separation selectivity."
+        }
+    }
+]

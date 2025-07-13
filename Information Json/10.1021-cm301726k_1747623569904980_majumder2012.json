@@ -1,0 +1,97 @@
+[
+    {
+        "Materials Name": "M-PTC MOFs",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.60 nm (measured, desolvated), 0.84 nm (calculated, solvated)",
+            "Structure Type": "3D interconnected channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mg2+",
+            "Ni2+",
+            "Co2+",
+            "Mn2+"
+        ],
+        "Ligands": [
+            "perylene-3,4,9,10-tetracarboxylate (PTC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "0.49 nm (hydrodynamic radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, 10^-6 M dye concentration, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Absorption rate unchanged in the presence of larger dyes."
+                }
+            },
+            {
+                "Molecule Name": "methyl viologen",
+                "Molecular Size": "0.43 nm (hydrodynamic radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, 10^-6 M dye concentration, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reaches saturation faster than methylene blue."
+                }
+            },
+            {
+                "Molecule Name": "Rhodamine B",
+                "Molecular Size": "0.65 nm (hydrodynamic radius)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, 10^-6 M dye concentration, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size compared to pore aperture."
+                }
+            },
+            {
+                "Molecule Name": "Erioglaucine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger dye excluded based on measured pore size."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong adsorption interaction",
+                "Other Information": {
+                    "Test Conditions": "Gas phase, 273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "IAST CO2/N2 selectivity of 300 observed."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong adsorption interaction",
+                "Other Information": {
+                    "Test Conditions": "Gas phase, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Binding enthalpy of 10.75 kJ/mol observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on hydrodynamic radii and uniform pore size distribution.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments with aqueous dye solutions, gas adsorption isotherms, synchrotron XRD, Molecular Dynamics simulations",
+            "Performance Metrics": "CO2/N2 selectivity: 300, BET surface area (predicted): 2008 m²/g for Mg-PTC, 1756 m²/g for Ni-PTC; BET surface area (measured): 223 m²/g for Ni-PTC, Binding enthalpies: CO2 - 52.5 kJ/mol, H2 - 10.75 kJ/mol"
+        },
+        "Other Information": {
+            "Additional Info": "Structural flexibility observed upon desolvation leading to reduced experimental BET surface areas. Material synthesized in water at room temperature, scalable to multigram quantities."
+        }
+    }
+]

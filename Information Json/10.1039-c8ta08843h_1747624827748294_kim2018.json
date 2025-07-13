@@ -1,0 +1,40 @@
+[
+    {
+        "Materials Name": "UiO-66-S/Naņon hybrid",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "11 Å, 8 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "2-sulfonyl terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "long-chain polysulfides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, concentration gradient",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Polysulfides are repelled due to electrostatic repulsion from sulfonic groups and size exclusion by the pore structure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving at sub-nanometer scale combined with electrostatic repulsion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Permeation test, GCD profiles, CV measurements",
+            "Performance Metrics": "Retention of transparency over 48 hours in permeation test; discharge capacity: 1127.4 mA h g⁻¹ at 0.1C; capacity retention: 75.5% over 200 cycles"
+        },
+        "Other Information": {
+            "Additional Info": "The UiO-66-S/Naņon hybrid-coated separator suppresses polysulfide shuttling and enhances redox kinetics of sulfur conversion."
+        }
+    }
+]

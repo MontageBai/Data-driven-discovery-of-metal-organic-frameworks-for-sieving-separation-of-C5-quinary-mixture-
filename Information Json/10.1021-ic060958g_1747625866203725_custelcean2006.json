@@ -1,0 +1,186 @@
+[
+    {
+        "Materials Name": "ZnCl2(BPU)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D chains"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "N,N'-bis(m-pyridyl)urea"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination to metal node and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Chloride is preferred in the initial metastable phase due to its higher charge density."
+                }
+            },
+            {
+                "Molecule Name": "bromide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination to metal node and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Bromide replaces chloride over time due to more efficient packing in the stable phase."
+                }
+            },
+            {
+                "Molecule Name": "iodide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination to metal node and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Iodide is less preferred but still included in the solid solution."
+                }
+            },
+            {
+                "Molecule Name": "nitrate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion due to size and coordinating ability",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrate does not form MOFs under these conditions."
+                }
+            },
+            {
+                "Molecule Name": "sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion due to size",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sulfate is excluded due to its larger size compared to halides."
+                }
+            },
+            {
+                "Molecule Name": "perchlorate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion due to coordinating ability",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Perchlorate forms soluble complexes instead of MOFs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and coordinating ability",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Single-crystal X-ray diffraction, FTIR, elemental analysis",
+            "Performance Metrics": "Cl-/Br-/I- molar ratios: 9.1:4.1:1 (initial), 3.3:2.4:1 (after 5 days), 1.5:1.6:1 (after 2 weeks)"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows anti-Hofmeister selectivity, preferring smaller, more densely charged anions."
+        }
+    },
+    {
+        "Materials Name": "ZnBr2(BPU)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D chains"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "N,N'-bis(m-pyridyl)urea"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination to metal node and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Chloride is included in the solid solution but less preferred than bromide."
+                }
+            },
+            {
+                "Molecule Name": "bromide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination to metal node and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Bromide is the major component in the stable phase."
+                }
+            },
+            {
+                "Molecule Name": "iodide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination to metal node and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Iodide is included in the solid solution but less preferred than bromide."
+                }
+            },
+            {
+                "Molecule Name": "nitrate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion due to size and coordinating ability",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrate does not form MOFs under these conditions."
+                }
+            },
+            {
+                "Molecule Name": "sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion due to size",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sulfate is excluded due to its larger size compared to halides."
+                }
+            },
+            {
+                "Molecule Name": "perchlorate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion due to coordinating ability",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Perchlorate forms soluble complexes instead of MOFs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and coordinating ability",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Single-crystal X-ray diffraction, FTIR, elemental analysis",
+            "Performance Metrics": "Cl-/Br-/I- molar ratios: 3.3:2.4:1 (after 5 days), 1.5:1.6:1 (after 2 weeks)"
+        },
+        "Other Information": {
+            "Additional Info": "This phase is more stable than ZnCl2(BPU) and shows lower discrimination among halides."
+        }
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "Ga-MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Gallium"
+        ],
+        "Ligands": [
+            "4,4′,4″,4″′-(1-4-phenylene-bis(pyridine-4,2,6-triyl)) (H4PPTA)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "amikacin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption via π-π stacking and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "310 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Interaction energy: -100.67 kJ/mol; Adsorbs on surface active sites."
+                }
+            },
+            {
+                "Molecule Name": "kanamycin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption via π-π stacking and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "310 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Interaction energy: -173.16 kJ/mol; Highest affinity among the studied molecules."
+                }
+            },
+            {
+                "Molecule Name": "tobramycin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption via π-π stacking and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "310 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Interaction energy: -92.27 kJ/mol; Lowest affinity among the studied molecules."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Adsorption driven by π-π stacking and hydrogen bonding interactions",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Molecular dynamics simulation and metadynamics",
+            "Performance Metrics": "Free energy minima of -254.29 kJ/mol for kanamycin adsorption"
+        },
+        "Other Information": {
+            "Additional Info": "Functionalization with imide groups enhances adsorption efficiency for amikacin and tobramycin but slightly reduces it for kanamycin."
+        }
+    },
+    {
+        "Materials Name": "F-MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Gallium"
+        ],
+        "Ligands": [
+            "4,4′,4″,4″′-(1-4-phenylene-bis(pyridine-4,2,6-triyl)) (H4PPTA) with imide functionalization"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "amikacin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption via π-π stacking and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "310 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Interaction energy: -135.78 kJ/mol; Enhanced adsorption compared to pristine MOF."
+                }
+            },
+            {
+                "Molecule Name": "kanamycin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption via π-π stacking and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "310 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Interaction energy: -136.35 kJ/mol; Slightly reduced affinity compared to pristine MOF."
+                }
+            },
+            {
+                "Molecule Name": "tobramycin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption via π-π stacking and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "310 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Interaction energy: -127.08 kJ/mol; Enhanced adsorption compared to pristine MOF."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Adsorption driven by π-π stacking and hydrogen bonding interactions",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Molecular dynamics simulation and metadynamics",
+            "Performance Metrics": "Free energy minima of -187.62 kJ/mol for kanamycin adsorption"
+        },
+        "Other Information": {
+            "Additional Info": "Imide functionalization enhances overall adsorption capacity except for kanamycin."
+        }
+    }
+]

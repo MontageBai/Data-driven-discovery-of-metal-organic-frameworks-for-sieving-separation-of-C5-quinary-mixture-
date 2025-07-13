@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "copper",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "pH 7.8, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Used for Cu(II) quantification in untreated urine samples."
+                }
+            },
+            {
+                "Molecule Name": "cobalt",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "PBS buffer (pH 7.4)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detection achieved using p-tpy as a receptor."
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "PBS buffer (pH 7.4)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detected with Arsenazo III as the receptor."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving properties of ZIF-8 shell prevent large biomolecules and particulates from interacting with inner silver nanoparticles while allowing rapid diffusion of small cations.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Surface-enhanced Raman spectroscopy (SERS)",
+            "Performance Metrics": "Cu(II) detection limit: ~20 nM in PBS; Co(II) linear response range: ~3–300 μg/L with LOD ~6 μg/L."
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 shell imparts molecular sieving abilities enabling direct use in complex media such as biological fluids."
+        }
+    }
+]

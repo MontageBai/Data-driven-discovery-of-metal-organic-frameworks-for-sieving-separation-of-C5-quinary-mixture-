@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "ZIF-8 membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25–100 °C, 1–5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrogen permeance: 3.56 × 10−8 mol m−2 s−1 Pa−1"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25–100 °C, 1–5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 permeance remains essentially unchanged with temperature variation."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25–100 °C, 1–5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 permeance is significantly lower compared to H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests (Wicke-Kallenbach method)",
+            "Performance Metrics": "H2/CH4 selectivity: 23.1, H2/N2 selectivity: 13.6"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 membrane was prepared via an organic solvent-free and metal source-free green flow method on the inner surface of PESf hollow fibers. The membrane exhibited superior mechanical, thermal, long-term, and pressure stability, along with excellent reproducibility and scalability."
+        }
+    }
+]

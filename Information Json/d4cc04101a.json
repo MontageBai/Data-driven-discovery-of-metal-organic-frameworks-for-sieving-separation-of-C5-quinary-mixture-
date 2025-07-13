@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Eu-C2O4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4 Å (1D channels)",
+            "Structure Type": "3D framework with 1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Eu3+"
+        ],
+        "Ligands": [
+            "oxalate",
+            "carbonate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ion",
+                "Molecular Size": "0.76 Å (ionic radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chelation at specific sites",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, pH-dependent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+ ions are coordinated by two chelating sites in the structure."
+                }
+            },
+            {
+                "Molecule Name": "sodium ion",
+                "Molecular Size": "1.02 Å (ionic radius)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to larger ionic radius",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, pH-dependent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong size sieving effect prevents Na+ from being adsorbed effectively."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on ionic radii and tailored chelating sites",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms, PXRD, XPS, DFT calculations",
+            "Performance Metrics": "Li+/Na+ selectivity: 9.1, Adsorption capacity: 4.6 mg g^-1"
+        },
+        "Other Information": {
+            "Additional Info": "Eu-C2O4 exhibits high stability in aqueous solutions and retains crystallinity after adsorption/desorption cycles."
+        }
+    }
+]

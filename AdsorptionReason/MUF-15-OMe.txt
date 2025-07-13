@@ -1,0 +1,107 @@
+MOF Name: MUF-15-OMe
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MUF-15-OMe:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate opening at ~110 Torr at 263 K)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Pressure-dependent, Gate opening at ~620 Torr at 273 K)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate opening at ~85 Torr at 195 K)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Gate opening at ~100 Torr at 263 K)
+
+The experimental data indicate that MUF-15-OMe is a flexible MOF that adsorbs guest molecules via a "gate opening" mechanism, where the framework flexes to create additional pore space. It has demonstrated the ability to adsorb molecules with intermediate dimensions up to 4.175 Å (ethane) under pressures well below 1 bar, implying it can adsorb them under standard conditions (298 K, 1 bar).
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than the largest molecule (ethane, 4.175 Å) experimentally shown to be adsorbed by MUF-15-OMe through its gate-opening mechanism. While the framework is flexible, there is no experimental data to suggest it can flex to accommodate molecules of this substantially larger size. Therefore, it is predicted that isoprene cannot be adsorbed by MUF-15-OMe under standard conditions.
+
+---
+
+MOF Name: MUF-15-OMe
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MUF-15-OMe:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate opening at ~110 Torr at 263 K)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Pressure-dependent, Gate opening at ~620 Torr at 273 K)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate opening at ~85 Torr at 195 K)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Gate opening at ~100 Torr at 263 K)
+
+The experimental data indicate that MUF-15-OMe is a flexible MOF that adsorbs guest molecules via a "gate opening" mechanism, where the framework flexes to create additional pore space. It has demonstrated the ability to adsorb molecules with intermediate dimensions up to 4.175 Å (ethane) under pressures well below 1 bar, implying it can adsorb them under standard conditions (298 K, 1 bar).
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the largest molecule (ethane, 4.175 Å) experimentally shown to be adsorbed by MUF-15-OMe through its gate-opening mechanism. While the framework is flexible, there is no experimental data to suggest it can flex to accommodate molecules of this substantially larger size. Therefore, it is predicted that cis-2-pentene cannot be adsorbed by MUF-15-OMe under standard conditions.
+
+---
+
+MOF Name: MUF-15-OMe
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MUF-15-OMe:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate opening at ~110 Torr at 263 K)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Pressure-dependent, Gate opening at ~620 Torr at 273 K)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate opening at ~85 Torr at 195 K)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Gate opening at ~100 Torr at 263 K)
+
+The experimental data indicate that MUF-15-OMe is a flexible MOF that adsorbs guest molecules via a "gate opening" mechanism, where the framework flexes to create additional pore space. It has demonstrated the ability to adsorb molecules with intermediate dimensions up to 4.175 Å (ethane) under pressures well below 1 bar, implying it can adsorb them under standard conditions (298 K, 1 bar).
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is larger than the largest molecule (ethane, 4.175 Å) experimentally shown to be adsorbed by MUF-15-OMe through its gate-opening mechanism. While the framework is flexible, there is no experimental data to suggest it can flex to accommodate molecules of this significantly larger size. Therefore, it is predicted that 1-pentene cannot be adsorbed by MUF-15-OMe under standard conditions.
+
+---
+
+MOF Name: MUF-15-OMe
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MUF-15-OMe:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate opening at ~110 Torr at 263 K)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Pressure-dependent, Gate opening at ~620 Torr at 273 K)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate opening at ~85 Torr at 195 K)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Gate opening at ~100 Torr at 263 K)
+
+The experimental data indicate that MUF-15-OMe is a flexible MOF that adsorbs guest molecules via a "gate opening" mechanism, where the framework flexes to create additional pore space. It has demonstrated the ability to adsorb molecules with intermediate dimensions up to 4.175 Å (ethane) under pressures well below 1 bar, implying it can adsorb them under standard conditions (298 K, 1 bar).
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is larger than the largest molecule (ethane, 4.175 Å) experimentally shown to be adsorbed by MUF-15-OMe through its gate-opening mechanism. While the framework is flexible, there is no experimental data to suggest it can flex to accommodate molecules of this significantly larger size. Therefore, it is predicted that trans-2-pentene cannot be adsorbed by MUF-15-OMe under standard conditions.
+
+---
+
+MOF Name: MUF-15-OMe
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MUF-15-OMe:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Gate opening at ~110 Torr at 263 K)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Pressure-dependent, Gate opening at ~620 Torr at 273 K)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Adsorbed (Gate opening at ~85 Torr at 195 K)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Gate opening at ~100 Torr at 263 K)
+
+The experimental data indicate that MUF-15-OMe is a flexible MOF that adsorbs guest molecules via a "gate opening" mechanism, where the framework flexes to create additional pore space. It has demonstrated the ability to adsorb molecules with intermediate dimensions up to 4.175 Å (ethane) under pressures well below 1 bar, implying it can adsorb them under standard conditions (298 K, 1 bar).
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is larger than the largest molecule (ethane, 4.175 Å) experimentally shown to be adsorbed by MUF-15-OMe through its gate-opening mechanism. While the framework is flexible, there is no experimental data to suggest it can flex to accommodate molecules of this larger size. Therefore, it is predicted that n-pentane cannot be adsorbed by MUF-15-OMe under standard conditions.

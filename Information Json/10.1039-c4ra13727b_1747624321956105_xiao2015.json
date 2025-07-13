@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MIL-88B(Fe)/Matrimid MMMs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3 Å (free aperture)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "1,4-terephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Direct diffusion through pores of MIL-88B(Fe)",
+                "Other Information": {
+                    "Test Conditions": "298 K, DP = 3.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeability increased with MIL-88B(Fe) loading."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": " Hindered transport due to molecular sieving effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, DP = 3.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 permeability decreased significantly after incorporation of MIL-88B(Fe)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect due to pore size between kinetic diameter of H2 and CH4",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke–Kallenbach technique (single gas permeation and mixture gas separation experiments)",
+            "Performance Metrics": "H2 permeability increased by 16%, H2–CH4 mixture separation factor increased by 66% at 10% MIL-88B(Fe) loading."
+        },
+        "Other Information": {
+            "Additional Info": "Operation temperature has a positive effect on separation performance; higher temperature enhances H2 permeability and selectivity."
+        }
+    }
+]

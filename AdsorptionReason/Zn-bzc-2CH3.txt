@@ -1,0 +1,92 @@
+MOF Name: Zn-bzc-2CH3
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-bzc-2CH3:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn-bzc-2CH3 is less than **6.393 Å**, as isobutane is explicitly excluded by size. Since there is no data for adsorbed molecules, we can only establish an upper bound.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is smaller than the smallest molecule known to be excluded (isobutane, 6.393 Å) due to size exclusion, it is predicted that isoprene can be adsorbed by Zn-bzc-2CH3.
+
+---
+
+MOF Name: Zn-bzc-2CH3
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-bzc-2CH3:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn-bzc-2CH3 is less than **6.393 Å**, as isobutane is explicitly excluded by size.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than the smallest molecule known to be excluded (isobutane, 6.393 Å) due to size exclusion, it is predicted that cis-2-pentene can be adsorbed by Zn-bzc-2CH3.
+
+---
+
+MOF Name: Zn-bzc-2CH3
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-bzc-2CH3:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn-bzc-2CH3 is less than **6.393 Å**, as isobutane is explicitly excluded by size.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the smallest molecule known to be excluded (isobutane, 6.393 Å) due to size exclusion, it is predicted that 1-pentene can be adsorbed by Zn-bzc-2CH3.
+
+---
+
+MOF Name: Zn-bzc-2CH3
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-bzc-2CH3:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn-bzc-2CH3 is less than **6.393 Å**, as isobutane is explicitly excluded by size.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the smallest molecule known to be excluded (isobutane, 6.393 Å) due to size exclusion, it is predicted that trans-2-pentene can be adsorbed by Zn-bzc-2CH3.
+
+---
+
+MOF Name: Zn-bzc-2CH3
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-bzc-2CH3:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn-bzc-2CH3 is less than **6.393 Å**, as isobutane is explicitly excluded by size.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the smallest molecule known to be excluded (isobutane, 6.393 Å) due to size exclusion, it is predicted that n-pentane can be adsorbed by Zn-bzc-2CH3.

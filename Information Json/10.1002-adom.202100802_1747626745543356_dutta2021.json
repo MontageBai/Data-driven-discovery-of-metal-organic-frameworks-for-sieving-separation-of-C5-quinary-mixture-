@@ -1,0 +1,76 @@
+[
+    {
+        "Materials Name": "ML1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "copper",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Coordination with oxygen donors",
+                "Other Information": {
+                    "Test Conditions": "pH = 7, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence quenching confirmed stronger coordination of oxygen donor functionalities (-C(=O)OCH2- and -C(=O)N<) with Cu(II)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "X-ray photoelectron spectroscopy (XPS), FTIR analysis, computational studies",
+            "Performance Metrics": "Cu(II) adsorption capacity: 81.62 mg g^-1"
+        },
+        "Other Information": {
+            "Additional Info": "ML1 shows selective sensing and removal of Cu(II) ions via oxygen donor coordination."
+        }
+    },
+    {
+        "Materials Name": "ML2",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "iron",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Coordination with oxygen donors",
+                "Other Information": {
+                    "Test Conditions": "pH = 7, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence quenching confirmed stronger coordinate bonding of Fe(III) with oxygen donors (-C(=O)-OH and -C(=O)-O-)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "X-ray photoelectron spectroscopy (XPS), FTIR analysis, computational studies",
+            "Performance Metrics": "Fe(III) adsorption capacity: 155.71 mg g^-1"
+        },
+        "Other Information": {
+            "Additional Info": "ML2 exhibits selective sensing and removal of Fe(III) ions via oxygen donor coordination."
+        }
+    }
+]

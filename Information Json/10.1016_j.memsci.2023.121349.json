@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "CZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "vanadium ions",
+                "Molecular Size": "0.8 nm (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "1.5 M VO2+ in 3 M H2SO4, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CZIF-8 effectively blocked vanadium ions while allowing proton transport."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Vanadium ion permeability reduced from 8.14 × 10^-7 to 4.23 × 10^-7 cm² min⁻¹ after introducing 3 wt% CZIF-8."
+        },
+        "Other Information": {
+            "Additional Info": "Carbonized ZIF-8 retained its porous structure and exhibited excellent chemical stability under harsh acidic conditions."
+        }
+    }
+]

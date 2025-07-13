@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "Fe3O4@PDA/MIL-101(Cr)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "11.40 nm",
+            "Structure Type": "mesoporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "aflatoxin B1",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π-π stacking, hydrogen bonding, and hydrophobic effect",
+                "Other Information": {
+                    "Test Conditions": "pH 5, adsorption time 30 min, desorption solvent 2% formic acid-acetonitrile, desorption time 2 min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Recovery rate 78.53–85.17%"
+                }
+            },
+            {
+                "Molecule Name": "aflatoxin G1",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π-π stacking, hydrogen bonding, and hydrophobic effect",
+                "Other Information": {
+                    "Test Conditions": "pH 5, adsorption time 30 min, desorption solvent 2% formic acid-acetonitrile, desorption time 2 min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Recovery rate 80.32–85.95%"
+                }
+            },
+            {
+                "Molecule Name": "sterigmatocystin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "hydrophobic effect or hydrogen bonding in acidic conditions, electrostatic interaction in alkaline conditions",
+                "Other Information": {
+                    "Test Conditions": "pH 5, adsorption time 30 min, desorption solvent 2% formic acid-acetonitrile, desorption time 2 min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Recovery rate 107.15–116.28%"
+                }
+            },
+            {
+                "Molecule Name": "zearalenone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "electrostatic interaction",
+                "Other Information": {
+                    "Test Conditions": "pH 5, adsorption time 30 min, desorption solvent 2% formic acid-acetonitrile, desorption time 2 min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Recovery rate 80.37–90.83%"
+                }
+            },
+            {
+                "Molecule Name": "ochratoxin A",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "synergistic effect of electrostatic interaction and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "pH 5, adsorption time 30 min, desorption solvent 2% formic acid-acetonitrile, desorption time 2 min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Recovery rate 81.49–88.58%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at mesoporous scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "UHPLC-MS/MS analysis after magnetic solid-phase extraction",
+            "Performance Metrics": "LOQs: 0.02–0.30 μg/kg; Recovery: 78.53–116.28%; RSD: 5.58–10.77%"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibited high surface area (287.75 m²/g), large pore volume (0.61 cm³/g), and good reusability."
+        }
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "Materials Name": "IM-UIO-66-AS",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.6 Å (aperture of triangular window), 3–7 Å (range from cavity size distribution)",
+            "Structure Type": "Interconnected tetrahedral and octahedral cavities"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "2-Aminoterephthalic acid",
+            "Monosodium 2-sulfoterephthalate",
+            "Imidazole-2-carboxaldegyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "vanadium ions",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore size of IM-UIO-66-AS (3–7 Å) effectively blocks vanadium ions via size sieving and Donnan exclusion effects."
+                }
+            },
+            {
+                "Molecule Name": "protons",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving through internal proton channels",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Protons are transported efficiently through internal hydrogen-bonding networks and interfacial 'acid-base' pairs in the material."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Electrochemical impedance spectroscopy (EIS), vanadium-ion permeability tests",
+            "Performance Metrics": "Proton conductivity: 12.2 mS cm−1, vanadium-ion permeability: 7.0 × 10−7 cm2 min−1"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits enhanced ion selectivity and proton conductivity due to reconstructed proton channels via modified Zr-MOFs."
+        }
+    }
+]

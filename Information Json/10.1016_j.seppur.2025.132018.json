@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "CALF-20",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.7 Å × 5.2 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,2,4-triazole",
+            "oxalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.6 Å × 4.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of 50.2 cm³ g⁻¹ at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "iso-butane",
+                "Molecular Size": "6.0 Å × 4.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity significantly lower at 2.4 cm³ g⁻¹ under identical conditions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature-dependent pore flexibility enabling selective molecular sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "iso-C4H10 purity: 99.5% at 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "CALF-20 exhibits high adsorption capacity for n-butane even at elevated temperatures and can recover low-carbon alkanes from oilfield associated gas."
+        }
+    }
+]

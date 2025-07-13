@@ -1,0 +1,112 @@
+MOF Name: CAU-10-OMe
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CAU-10-OMe under ambient conditions (approx. 298 K, 1 bar):
+*   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Yes)
+*   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No)
+
+Inferred Pore Characteristics:
+Based on the provided experimental data, CAU-10-OMe exhibits a complex and non-monotonic size/shape selectivity under ambient conditions due to its "Temperature-responsive molecular gate" mechanism. While propylene (intermediate dimension 5.051 Å) is adsorbed, propane (intermediate dimension 4.354 Å) is *not* adsorbed, despite propane having a smaller intermediate dimension than propylene. This directly contradicts a simple size exclusion model based solely on the intermediate dimension (where a smaller molecule should pass if a larger one does). This implies that the MOF's gate has a very specific pore geometry and/or involves significant kinetic sieving effects that selectively accommodate propylene's shape and interactions while excluding propane's. Therefore, a simple intermediate dimension range for pore size cannot be strictly inferred. Instead, the MOF exhibits specific shape/kinetic selectivity.
+
+Isoprene Dimensions:
+*   Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than that of propylene (5.051 Å), which is the largest molecule known to be adsorbed by CAU-10-OMe at ambient conditions. Given the MOF's demonstrated strict shape/kinetic selectivity, which even rejects a smaller molecule like propane, it is highly improbable that a molecule with a larger intermediate dimension and overall size than propylene would be able to pass through the specific and finely tuned pore geometry of the temperature-responsive gate.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: CAU-10-OMe
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CAU-10-OMe under ambient conditions (approx. 298 K, 1 bar):
+*   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Yes)
+*   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No)
+
+Inferred Pore Characteristics:
+As explained for isoprene, CAU-10-OMe exhibits a complex and non-monotonic size/shape selectivity, where a simple intermediate dimension cutoff does not apply. The MOF selectively adsorbs propylene (intermediate 5.051 Å) but rejects propane (intermediate 4.354 Å), indicating a specific pore geometry and/or kinetic sieving mechanism governed by its "Temperature-responsive molecular gate."
+
+cis-2-pentene Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is larger than that of propylene (5.051 Å), the largest molecule observed to be adsorbed. Considering the MOF's stringent shape selectivity, which excludes even smaller molecules like propane, it is highly unlikely that a molecule larger than the confirmed adsorbed species would be able to pass through the specific pore geometry of the temperature-responsive gate.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: CAU-10-OMe
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CAU-10-OMe under ambient conditions (approx. 298 K, 1 bar):
+*   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Yes)
+*   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No)
+
+Inferred Pore Characteristics:
+As discussed, CAU-10-OMe operates via a "Temperature-responsive molecular gate" that exhibits specific shape/kinetic selectivity. It allows propylene (intermediate 5.051 Å) but blocks propane (intermediate 4.354 Å), indicating that beyond a simple intermediate dimension, the overall molecular shape and interactions play a crucial role in adsorption.
+
+1-pentene Dimensions:
+*   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is very close to, and slightly smaller than, that of adsorbed propylene (5.051 Å). Both 1-pentene and propylene are linear alkenes, suggesting similar chemical properties and potential interactions with the MOF pore. Given that propylene is successfully adsorbed and 1-pentene possesses a highly comparable intermediate dimension and similar molecular type, it is highly probable that 1-pentene can also pass through the MOF's gate, fitting within the selective pore geometry. The MOF's demonstrated selectivity against propane (4.354 Å, an alkane) further supports the idea that alkenes around this size range are favored.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: CAU-10-OMe
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CAU-10-OMe under ambient conditions (approx. 298 K, 1 bar):
+*   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Yes)
+*   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No)
+
+Inferred Pore Characteristics:
+As previously established, CAU-10-OMe exhibits specific shape/kinetic selectivity via its "Temperature-responsive molecular gate," adsorbing propylene (intermediate 5.051 Å) but rejecting propane (intermediate 4.354 Å). This complex behavior means that simple intermediate dimension comparison is insufficient; overall molecular shape, flexibility, and interactions are critical.
+
+trans-2-pentene Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) falls within the problematic range between adsorbed propylene (5.051 Å) and non-adsorbed propane (4.354 Å). While it is an alkene like propylene, its intermediate dimension is closer to that of rejected propane. The MOF's stringent shape/kinetic selectivity, which rejects propane despite its smaller intermediate dimension, suggests a very precise fit is required. Trans-2-pentene has a rigid trans-double bond and is overall larger than propylene. Given the MOF's demonstrated ability to reject a smaller molecule (propane), it implies a highly selective pore that might not accommodate trans-2-pentene due to its specific shape or kinetic hindrance, even though its intermediate dimension is numerically "between" the adsorbed and non-adsorbed examples.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: CAU-10-OMe
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CAU-10-OMe under ambient conditions (approx. 298 K, 1 bar):
+*   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Yes)
+*   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No)
+
+Inferred Pore Characteristics:
+As reiterated, CAU-10-OMe's "Temperature-responsive molecular gate" demonstrates a highly specific shape/kinetic selectivity, adsorbing propylene (intermediate 5.051 Å) but rejecting propane (intermediate 4.354 Å). This behavior dictates that predictions must consider not only intermediate dimension but also molecular type and overall shape compatibility with the MOF's selective pore.
+
+n-pentane Dimensions:
+*   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane is an alkane with an intermediate dimension (4.364 Å) that is extremely close to that of propane (4.354 Å), which is explicitly stated as *not* adsorbed by the MOF under ambient conditions. Furthermore, n-pentane is a significantly larger molecule overall than propane. Given the strong selectivity exhibited by CAU-10-OMe against propane, it is highly certain that n-pentane, sharing a very similar critical intermediate dimension and being a larger alkane, would also be rejected due to its unfavorable shape and size for the MOF's selective pore.
+
+Therefore, the result is: **Cannot Adsorb**

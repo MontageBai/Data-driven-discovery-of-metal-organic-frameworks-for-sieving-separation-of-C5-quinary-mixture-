@@ -1,0 +1,194 @@
+[
+    {
+        "Materials Name": "Zr-fum-MOF@CS",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "4.5 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "fumaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "50 °C, feed concentration: 10 wt % methanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The separation factor is 331.1 with a total flux of 284.6 g·m⁻²·h⁻¹."
+                }
+            },
+            {
+                "Molecule Name": "dimethyl carbonate",
+                "Molecular Size": "4.7-6.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "50 °C, feed concentration: 10 wt % methanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The separation factor is 331.1 with a total flux of 284.6 g·m⁻²·h⁻¹."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pervaporation experiment",
+            "Performance Metrics": "Total flux: 284.6 g·m⁻²·h⁻¹, Separation factor: 331.1"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane thickness is approximately 130 nm, and the MOF loading is 7.6 wt %. The Zr-fum-MOF provides molecular-sieving channels due to its intrinsic lattice aperture of ~4.5 Å."
+        }
+    },
+    {
+        "Materials Name": "Zr-SA-MOF@CS",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "squaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Gate flexibility and molecular rotation",
+                "Other Information": {
+                    "Test Conditions": "50 °C, feed concentration: 10 wt % methanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Despite the pore size being smaller than the kinetic diameter of methanol, the membrane allows methanol transport due to gate flexibility and molecular rotation."
+                }
+            },
+            {
+                "Molecule Name": "dimethyl carbonate",
+                "Molecular Size": "4.7-6.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "50 °C, feed concentration: 10 wt % methanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The separation factor is higher than that of Zr-fum-MOF@CS due to smaller pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion with gate flexibility",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pervaporation experiment",
+            "Performance Metrics": "Total flux: 254-350 g·m⁻²·h⁻¹, Separation factor: 135-450"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane exhibits excellent methanol/dimethyl carbonate separation performance despite the pore size being smaller than methanol's kinetic diameter."
+        }
+    },
+    {
+        "Materials Name": "Zr-PZDC-MOF@CS",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5.6 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "3,5-pyrazoledicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "50 °C, feed concentration: 10 wt % methanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The separation factor is lower than that of Zr-fum-MOF@CS due to larger pore size."
+                }
+            },
+            {
+                "Molecule Name": "dimethyl carbonate",
+                "Molecular Size": "4.7-6.3 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "50 °C, feed concentration: 10 wt % methanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The membrane allows some dimethyl carbonate transport due to larger pore size compared to Zr-fum-MOF@CS."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pervaporation experiment",
+            "Performance Metrics": "Total flux: 254-350 g·m⁻²·h⁻¹, Separation factor: 135-450"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane has a larger pore size (~5.6 Å) compared to Zr-fum-MOF@CS, resulting in lower separation factors but higher flux."
+        }
+    },
+    {
+        "Materials Name": "Zr-fum-MOF@PVA",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "4.5 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "fumaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "50 °C, feed concentration: 10 wt % methanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The membrane shows improved methanol permeability compared to pristine PVA."
+                }
+            },
+            {
+                "Molecule Name": "dimethyl carbonate",
+                "Molecular Size": "4.7-6.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "50 °C, feed concentration: 10 wt % methanol",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The separation factor is significantly higher than that of pristine PVA."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pervaporation experiment",
+            "Performance Metrics": "Flux enhancement: 45%, Separation factor enhancement: nearly 4 times"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane was fabricated using poly(vinyl alcohol) as the polymer matrix, demonstrating universality of the in situ ligand conversion strategy."
+        }
+    }
+]

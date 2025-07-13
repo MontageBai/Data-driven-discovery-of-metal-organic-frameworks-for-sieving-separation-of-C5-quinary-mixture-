@@ -1,0 +1,96 @@
+[
+    {
+        "Materials Name": "Heptazine-Based Porous Framework",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [],
+        "Ligands": [
+            "2,5,8-tris(3,5-diethylpyrazolyl)-heptazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selective CO2 sorption was demonstrated."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "The material also shows organocatalytic performance."
+        }
+    },
+    {
+        "Materials Name": "Microporous Heptazine Functionalized (3,24)-Connected rht-Metal-Organic Framework",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "rht topology",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "tris(3,5-dicarboxylphenylamino)heptazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Flue gas conditions (~0.15 bar CO2)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effective for CO2 capture at flue gas concentrations."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows excellent selectivity for ethane over methane."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less favorable uptake compared to ethane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas Sorption Analysis",
+            "Performance Metrics": "High selectivity for C2 hydrocarbons over CH4."
+        },
+        "Other Information": {
+            "Additional Info": "The MOF demonstrates high CO2 and C2 hydrocarbons uptake."
+        }
+    }
+]

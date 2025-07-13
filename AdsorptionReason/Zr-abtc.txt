@@ -1,0 +1,102 @@
+**MOF Name: Zr-abtc**
+
+**Guest Molecule: isoprene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zr-abtc:
+- 3-methylpentane: 9.052×6.008×4.985 Å → Intermediate = 6.008 Å | Adsorbed (Thermodynamic separation, implying pore passage)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Adsorbed (Thermodynamic separation, implying pore passage)
+
+Based on the adsorption of 2,2-dimethylbutane (intermediate dimension 6.545 Å), the inferred effective pore size of Zr-abtc is at least 6.545 Å. There is no experimental data indicating size exclusion for any molecule, suggesting the pores are sufficiently large for molecules of these sizes to pass.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is less than the intermediate dimension of 2,2-dimethylbutane (6.545 Å), which is known to be adsorbed by Zr-abtc, it is predicted that isoprene can also be adsorbed. The experimental data explicitly states "Thermodynamic separation based on adsorption strength" for the known adsorbed molecules, indicating that size is not a limiting factor for these sizes.
+
+---
+
+**MOF Name: Zr-abtc**
+
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zr-abtc:
+- 3-methylpentane: 9.052×6.008×4.985 Å → Intermediate = 6.008 Å | Adsorbed (Thermodynamic separation, implying pore passage)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Adsorbed (Thermodynamic separation, implying pore passage)
+
+Based on the adsorption of 2,2-dimethylbutane (intermediate dimension 6.545 Å), the inferred effective pore size of Zr-abtc is at least 6.545 Å. There is no experimental data indicating size exclusion for any molecule, suggesting the pores are sufficiently large for molecules of these sizes to pass.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 Å → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is less than the intermediate dimension of 2,2-dimethylbutane (6.545 Å), which is known to be adsorbed by Zr-abtc, it is predicted that cis-2-pentene can also be adsorbed. The experimental data explicitly states "Thermodynamic separation based on adsorption strength" for the known adsorbed molecules, indicating that size is not a limiting factor for these sizes.
+
+---
+
+**MOF Name: Zr-abtc**
+
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zr-abtc:
+- 3-methylpentane: 9.052×6.008×4.985 Å → Intermediate = 6.008 Å | Adsorbed (Thermodynamic separation, implying pore passage)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Adsorbed (Thermodynamic separation, implying pore passage)
+
+Based on the adsorption of 2,2-dimethylbutane (intermediate dimension 6.545 Å), the inferred effective pore size of Zr-abtc is at least 6.545 Å. There is no experimental data indicating size exclusion for any molecule, suggesting the pores are sufficiently large for molecules of these sizes to pass.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is less than the intermediate dimension of 2,2-dimethylbutane (6.545 Å), which is known to be adsorbed by Zr-abtc, it is predicted that 1-pentene can also be adsorbed. The experimental data explicitly states "Thermodynamic separation based on adsorption strength" for the known adsorbed molecules, indicating that size is not a limiting factor for these sizes.
+
+---
+
+**MOF Name: Zr-abtc**
+
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zr-abtc:
+- 3-methylpentane: 9.052×6.008×4.985 Å → Intermediate = 6.008 Å | Adsorbed (Thermodynamic separation, implying pore passage)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Adsorbed (Thermodynamic separation, implying pore passage)
+
+Based on the adsorption of 2,2-dimethylbutane (intermediate dimension 6.545 Å), the inferred effective pore size of Zr-abtc is at least 6.545 Å. There is no experimental data indicating size exclusion for any molecule, suggesting the pores are sufficiently large for molecules of these sizes to pass.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 Å → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is less than the intermediate dimension of 2,2-dimethylbutane (6.545 Å), which is known to be adsorbed by Zr-abtc, it is predicted that trans-2-pentene can also be adsorbed. The experimental data explicitly states "Thermodynamic separation based on adsorption strength" for the known adsorbed molecules, indicating that size is not a limiting factor for these sizes.
+
+---
+
+**MOF Name: Zr-abtc**
+
+**Guest Molecule: n-pentane**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zr-abtc:
+- 3-methylpentane: 9.052×6.008×4.985 Å → Intermediate = 6.008 Å | Adsorbed (Thermodynamic separation, implying pore passage)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Adsorbed (Thermodynamic separation, implying pore passage)
+
+Based on the adsorption of 2,2-dimethylbutane (intermediate dimension 6.545 Å), the inferred effective pore size of Zr-abtc is at least 6.545 Å. There is no experimental data indicating size exclusion for any molecule, suggesting the pores are sufficiently large for molecules of these sizes to pass.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is less than the intermediate dimension of 2,2-dimethylbutane (6.545 Å), which is known to be adsorbed by Zr-abtc, it is predicted that n-pentane can also be adsorbed. The experimental data explicitly states "Thermodynamic separation based on adsorption strength" for the known adsorbed molecules, indicating that size is not a limiting factor for these sizes.

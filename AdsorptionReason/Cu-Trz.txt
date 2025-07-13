@@ -1,0 +1,72 @@
+MOF Name: Cu-Trz
+
+**Understanding Cu-Trz's Effective Pore Size:**
+
+From the provided experimental data for Cu-Trz:
+*   **Carbon dioxide (CO2)**: Dimensions: 5.198×3.200×3.200 Å → **Intermediate Dimension = 3.200 Å**. Adsorbed (Type: Kinetic sieving).
+*   **Acetylene (C2H2)**: Dimensions: 5.538×3.200×3.200 Å → **Intermediate Dimension = 3.200 Å**. Not Adsorbed (Reason: Size exclusion, "Three-dimensional restricted molecular-sieving based on length difference.").
+
+**Inference for Cu-Trz's Pore Size:**
+
+The experimental data for Cu-Trz presents a nuanced situation when strictly applying the rule that "the main concern is the intermediate size of the molecule" for size exclusion.
+*   Carbon Dioxide (intermediate 3.200 Å) is adsorbed, indicating that the MOF's pores are at least large enough to accommodate molecules with an intermediate dimension of 3.200 Å.
+*   However, Acetylene, which also has an intermediate dimension of 3.200 Å, is *not* adsorbed due to "Size exclusion" related to "length difference". This suggests that for Cu-Trz, while the intermediate dimension is a primary concern, other molecular dimensions (such as the largest dimension: 5.538 Å for acetylene vs. 5.198 Å for CO2) or specific molecular shapes also play a critical role in determining complete exclusion, especially when intermediate dimensions are identical and the fit is tight.
+
+Strictly following the prompt's instruction to prioritize the intermediate dimension for "passing through", and given that CO2 (intermediate 3.200 Å) *is* adsorbed, we infer that the effective pore size of Cu-Trz allows molecules with intermediate dimensions *up to at least 3.200 Å*. Any molecule with an intermediate dimension significantly greater than 3.200 Å is therefore predicted to be excluded due to size constraints based on its intermediate dimension.
+
+---
+
+**Evaluation of Target Guest Molecules:**
+
+**Guest Molecule: isoprene**
+
+*   **Predicted Result: Cannot Adsorb**
+
+*   **Detailed Reasoning:**
+    *   Isoprene Dimensions: 7.746×6.093×3.963 Å.
+    *   **Intermediate Dimension = 6.093 Å.**
+    *   Conclusion: Since isoprene's intermediate dimension (6.093 Å) is significantly larger than 3.200 Å (the maximum intermediate dimension of an experimentally adsorbed molecule by Cu-Trz), it is predicted to be excluded by the Cu-Trz MOF based on size exclusion.
+
+---
+
+**Guest Molecule: cis-2-pentene**
+
+*   **Predicted Result: Cannot Adsorb**
+
+*   **Detailed Reasoning:**
+    *   cis-2-pentene Dimensions: 8.067×5.572×5.136 Å.
+    *   **Intermediate Dimension = 5.572 Å.**
+    *   Conclusion: Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than 3.200 Å (the maximum intermediate dimension of an experimentally adsorbed molecule by Cu-Trz), it is predicted to be excluded by the Cu-Trz MOF based on size exclusion.
+
+---
+
+**Guest Molecule: 1-pentene**
+
+*   **Predicted Result: Cannot Adsorb**
+
+*   **Detailed Reasoning:**
+    *   1-pentene Dimensions: 8.847×4.995×4.897 Å.
+    *   **Intermediate Dimension = 4.995 Å.**
+    *   Conclusion: Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than 3.200 Å (the maximum intermediate dimension of an experimentally adsorbed molecule by Cu-Trz), it is predicted to be excluded by the Cu-Trz MOF based on size exclusion.
+
+---
+
+**Guest Molecule: trans-2-pentene**
+
+*   **Predicted Result: Cannot Adsorb**
+
+*   **Detailed Reasoning:**
+    *   trans-2-pentene Dimensions: 8.796×4.733×4.564 Å.
+    *   **Intermediate Dimension = 4.733 Å.**
+    *   Conclusion: Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than 3.200 Å (the maximum intermediate dimension of an experimentally adsorbed molecule by Cu-Trz), it is predicted to be excluded by the Cu-Trz MOF based on size exclusion.
+
+---
+
+**Guest Molecule: n-pentane**
+
+*   **Predicted Result: Cannot Adsorb**
+
+*   **Detailed Reasoning:**
+    *   n-pentane Dimensions: 9.118×4.364×3.969 Å.
+    *   **Intermediate Dimension = 4.364 Å.**
+    *   Conclusion: Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than 3.200 Å (the maximum intermediate dimension of an experimentally adsorbed molecule by Cu-Trz), it is predicted to be excluded by the Cu-Trz MOF based on size exclusion.

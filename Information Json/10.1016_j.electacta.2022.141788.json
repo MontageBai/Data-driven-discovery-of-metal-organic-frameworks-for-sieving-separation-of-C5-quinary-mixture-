@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Ni-CAT",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.7 nm",
+            "Structure Type": "1D pore channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2,3,6,7,10,11-hexahydroxytripehenylene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium polysulfides",
+                "Molecular Size": "0.9-1.1 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The dense root part of the Ni-CAT nanorods array plays a significant role in blocking lithium polysulfides."
+                }
+            },
+            {
+                "Molecule Name": "lithium ions",
+                "Molecular Size": "0.6-0.7 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The Ni-CAT material facilitates fast Li+ diffusion due to its porous structure and good conductivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Difference in diffusion rates between lithium polysulfides and lithium ions within the MOF channels.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, adsorption tests, permeation tests, electrochemical measurements",
+            "Performance Metrics": "Li2S6 adsorption capacity significantly higher than CNT; PP separator allows LPS penetration within 3h while Ni-CAT/CNTF blocks it effectively."
+        },
+        "Other Information": {
+            "Additional Info": "Ni-CAT exhibits strong adsorption towards lithium polysulfides (Li2S2 Ead = -2.43 eV; Li2S6 Ead = -1.41 eV) and promotes catalytic conversion of sulfur species."
+        }
+    }
+]

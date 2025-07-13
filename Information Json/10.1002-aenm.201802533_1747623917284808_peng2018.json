@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "CuBTC/Celgard",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.9 nm (aperture size)",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Copper (II)"
+        ],
+        "Ligands": [
+            "benzene-1,3,5-tricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ferrocene",
+                "Molecular Size": "≈0.7 nm (diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "2–4 V, 4 mA cm⁻²",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effective dimension enlarged due to solvation effect."
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "≈0.15 nm (diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "2–4 V, 4 mA cm⁻²",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Far smaller than the aperture size of CuBTC (≈0.9 nm)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Diffusion test, UV–vis absorbance, solution conductance",
+            "Performance Metrics": "LiClO4/ferrocene selectivity increased by almost four times after MOF modification."
+        },
+        "Other Information": {
+            "Additional Info": "Gradient distribution of MOFs inside the membrane achieved through in situ seeding and secondary growth."
+        }
+    }
+]

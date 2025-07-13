@@ -1,0 +1,271 @@
+[
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.9 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "linear alkanes",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore window size of ZIF-7 was too small for linear alkanes to pass through."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas chromatography (GC)",
+            "Performance Metrics": "No separation ability for linear alkanes"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-7 has smaller pore windows compared to ZIF-8, making it unsuitable for separating linear alkanes."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "linear alkanes",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Linear alkanes could pass through the pores due to their smaller kinetic diameter compared to branched alkanes."
+                }
+            },
+            {
+                "Molecule Name": "branched alkanes",
+                "Molecular Size": "Critical diameter > 5.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Branched alkanes were excluded due to their larger critical diameters."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas chromatography (GC)",
+            "Performance Metrics": "High resolution separation of linear alkanes from branched alkanes"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8-coated capillary column showed excellent performance in separating linear alkanes based on van der Waals forces."
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-3-Zn",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å",
+            "Structure Type": "Microporous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "linear alkanes",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Linear alkanes were separated from branched isomers based on shape selectivity."
+                }
+            },
+            {
+                "Molecule Name": "branched alkanes",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Branched alkanes with different lengths of linear alkyl chains were isolated at constant temperature."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas chromatography (GC)",
+            "Performance Metrics": "Successful separation of octane, nonane, and decane isomers"
+        },
+        "Other Information": {
+            "Additional Info": "SIFSIX-3-Zn exhibited superior separation ability compared to SIFSIX-1-Cu and SIFSIX-1-Zn due to its smaller pore size."
+        }
+    },
+    {
+        "Materials Name": "MFM-300(M) (M = Al, Fe, V, In)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.5–7.4 Å",
+            "Structure Type": "Helical zigzag 1D channel"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+",
+            "Fe3+",
+            "V3+",
+            "In3+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "xylene isomers",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Different pore sizes led to selective adsorption of xylene isomers based on their molecular sizes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Chromatographic and breakthrough experiments",
+            "Performance Metrics": "Complete isolation of m-xylene from xylene isomer mixtures using MFM-300(In)"
+        },
+        "Other Information": {
+            "Additional Info": "Pore size refinement at the sub-angstrom scale contributed to the molecular discrimination mechanism."
+        }
+    },
+    {
+        "Materials Name": "UiO-66 and UiO-67",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "UiO-66: 8 Å (tetrahedral cages), 11 Å (octahedral cages); UiO-67: 12 Å (tetrahedral cages), 16 Å (octahedral cages)",
+            "Structure Type": "Cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate (BDC) for UiO-66; 4,4'-biphenyldicarboxylic acid (BPDC) for UiO-67"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "UiO-66 preferred smaller m/z phosphopeptides, while UiO-67 excluded tetraphosphorylated peptides due to size."
+                }
+            },
+            {
+                "Molecule Name": "large-size proteins",
+                "Molecular Size": ">10 kDa",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Narrow pore windows resulted in apparent exclusion of high-weight proteins."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Enrichment experiments",
+            "Performance Metrics": "Selective enrichment of phosphopeptides with different molecular sizes"
+        },
+        "Other Information": {
+            "Additional Info": "Different organic ligand lengths led to varying pore sizes and selective enrichment capabilities."
+        }
+    },
+    {
+        "Materials Name": "MIL-53, MIL-100, and MIL-101",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "MIL-53: 17 Å; MIL-100: 5.6 Å and 8.6 Å; MIL-101: 12 Å and 16 Å",
+            "Structure Type": "Channels and cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "terephthalic acid for MIL-53; trimesic acid for MIL-100; terephthalic acid for MIL-101"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "peptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Different pore windows enriched peptides with varying molecular weights."
+                }
+            },
+            {
+                "Molecule Name": "proteins",
+                "Molecular Size": ">10 kDa",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Narrow pore windows excluded high-weight proteins effectively."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Mass spectrometry (MS)",
+            "Performance Metrics": "Efficient enrichment of peptides and simultaneous exclusion of proteins"
+        },
+        "Other Information": {
+            "Additional Info": "MIL-53 had the largest pore window, enriching peptides with higher molecular weights, while MIL-100 and MIL-101 targeted smaller peptides."
+        }
+    }
+]

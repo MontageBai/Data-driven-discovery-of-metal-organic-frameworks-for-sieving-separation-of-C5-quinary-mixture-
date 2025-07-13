@@ -1,0 +1,40 @@
+[
+    {
+        "Materials Name": "Zn(Bim)OAc",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2.4 Å (aperture size)",
+            "Structure Type": "2D layers stacked along the a axis"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole",
+            "acetate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore size of ~2.4 Å suggests potential molecular sieving behavior, though specific experimental results for carbon dioxide are not reported in the text."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "X-ray diffraction (XRD), HAADF-STEM imaging",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "CTAB surfactant was removed via heat treatment at 325 °C under air flow for 15 h to ensure unblocked pores for gas separation applications."
+        }
+    }
+]

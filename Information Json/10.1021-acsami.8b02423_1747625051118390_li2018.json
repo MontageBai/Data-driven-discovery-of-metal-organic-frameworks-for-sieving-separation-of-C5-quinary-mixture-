@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "porous metal-free carbon (PMFC)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "1.4 nm",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "N-linked glycans",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material selectively enriched N-linked glycans while excluding large proteins like BSA."
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin (BSA)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large proteins were excluded due to the size-exclusion effect of the material."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis",
+            "Performance Metrics": "26 N-linked glycans identified from ovalbumin digest; detection limit down to 1 ng/µL with 21 glycans identified."
+        },
+        "Other Information": {
+            "Additional Info": "Derived from zinc MOFs via carbonization and oxidation. Exhibited strong interaction with glycans and high anti-fouling ability."
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "SIM-1@Pt/Al2O3",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "7.5 Å (pore diameter), 5 Å (window size)",
+            "Structure Type": "sodalite structure"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4-methyl-5-imidazolecarboxaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "5.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30°C to 150°C, gas phase, H2 carrier gas, 20 mL/min flow rate",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Toluene hydrogenation was totally suppressed due to molecular sieving effect."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "30°C to 150°C, gas phase, H2 carrier gas, 20 mL/min flow rate",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylene conversion reached a plateau at 94% due to diffusion limitations."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-dependent restricted access of substrates to catalytically active platinum sites",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Toluene conversion: 0%, Ethylene conversion: up to 94%"
+        },
+        "Other Information": {
+            "Additional Info": "The SIM-1 layer forms a 10 µm thick homogeneous crystalline film on Pt/Al2O3 beads."
+        }
+    }
+]

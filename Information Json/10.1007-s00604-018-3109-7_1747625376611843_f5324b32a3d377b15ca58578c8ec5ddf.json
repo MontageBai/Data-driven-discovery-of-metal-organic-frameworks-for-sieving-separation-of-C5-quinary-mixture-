@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "SiO2@PDA@Zr-MOF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.1~2.3 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Acidic condition, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Electrostatic interaction between Zr-O clusters and phosphate groups under acidic conditions."
+                }
+            },
+            {
+                "Molecule Name": "proteins",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Acidic condition, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exclusion due to ordered pore structure of Zr-MOF (UiO-66-NH2)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS, nano-LC-ESI-MS/MS",
+            "Performance Metrics": "LOD: 4 fmol β-casein digest; Selectivity: 1:1000 (molar ratio of β-casein and BSA digest); Identified phosphopeptides: 240 from 25 μL human saliva"
+        },
+        "Other Information": {
+            "Additional Info": "The material combines a size exclusion effect with abundant Zr-O clusters, enabling highly selective enrichment of phosphopeptides while excluding proteins."
+        }
+    }
+]

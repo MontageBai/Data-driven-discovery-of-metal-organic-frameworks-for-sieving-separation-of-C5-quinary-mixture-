@@ -1,0 +1,149 @@
+[
+    {
+        "Materials Name": "HKUST-1",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.85 nm (BET), 8~9 Å (theoretical)",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "500 ppm concentration, 20°C, pH of the solution itself, 1 V applied voltage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion flux: 1.97 mol h^-1 m^-2"
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "500 ppm concentration, 20°C, pH of the solution itself, 1 V applied voltage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion current at 1 V: 16 μA"
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "500 ppm concentration, 20°C, pH of the solution itself, 1 V applied voltage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion current at 1 V: 14.3 μA"
+                }
+            },
+            {
+                "Molecule Name": "barium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "500 ppm concentration, 20°C, pH of the solution itself, 1 V applied voltage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion current at 1 V: 1.21 μA, Ion flux: 0.15 mol h^-1 m^-2"
+                }
+            },
+            {
+                "Molecule Name": "nickel",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "500 ppm concentration, 20°C, pH of the solution itself, 1 V applied voltage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "copper",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "500 ppm concentration, 20°C, pH of the solution itself, 1 V applied voltage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "cadmium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "500 ppm concentration, 20°C, pH of the solution itself, 1 V applied voltage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "lead",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "500 ppm concentration, 20°C, pH of the solution itself, 1 V applied voltage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion current at 1 V: 2.5 μA"
+                }
+            },
+            {
+                "Molecule Name": "aluminum",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "500 ppm concentration, 20°C, pH of the solution itself, 1 V applied voltage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion current at 1 V: 17.2 nA, Ion flux: 0.04 mol h^-1 m^-2"
+                }
+            },
+            {
+                "Molecule Name": "chromium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "500 ppm concentration, 20°C, pH of the solution itself, 1 V applied voltage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion current at 1 V: Not Reported, Selectivity vs Li+: 3168 ± 218"
+                }
+            },
+            {
+                "Molecule Name": "zirconium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "500 ppm concentration, 20°C, pH of the solution itself, 1 V applied voltage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ion current at 1 V: 15.4 nA, Ion flux: 0.02 mol h^-1 m^-2, Selectivity vs Li+: 3930 ± 373"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I-V) measurement and ion flux measurement",
+            "Performance Metrics": "Li+/Ba2+ selectivity: ~27.9 ± 3.9, Li+/Zr4+ selectivity: 3930 ± 373"
+        },
+        "Other Information": {
+            "Additional Info": "The MOFC membrane exhibited stable performance across varying conditions including applied voltage, ion concentration, pH, temperature, and testing area."
+        }
+    }
+]

@@ -1,0 +1,369 @@
+[
+    {
+        "Materials Name": "MIL-53(Al)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.6 Å (dynamic diameter)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (60:40, v/v), 0.30 mL min−1, 40°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 1.07"
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (60:40, v/v), 0.30 mL min−1, 40°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 1.57"
+                }
+            },
+            {
+                "Molecule Name": "ethylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (60:40, v/v), 0.30 mL min−1, 40°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 2.08"
+                }
+            },
+            {
+                "Molecule Name": "n-propylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (60:40, v/v), 0.30 mL min−1, 40°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 3.61"
+                }
+            },
+            {
+                "Molecule Name": "n-butylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (60:40, v/v), 0.30 mL min−1, 40°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 6.48"
+                }
+            },
+            {
+                "Molecule Name": "n-pentylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (60:40, v/v), 0.30 mL min−1, 40°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 9.82"
+                }
+            },
+            {
+                "Molecule Name": "1-phenylhexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (60:40, v/v), 0.30 mL min−1, 40°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 13.93"
+                }
+            },
+            {
+                "Molecule Name": "pyrene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O gradient elution, 0.35 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size exceeding pore diameter"
+                }
+            },
+            {
+                "Molecule Name": "indene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O gradient elution, 0.35 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 2.99"
+                }
+            },
+            {
+                "Molecule Name": "naphthalene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O gradient elution, 0.35 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 3.95"
+                }
+            },
+            {
+                "Molecule Name": "acenaphthylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O gradient elution, 0.35 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 6.72"
+                }
+            },
+            {
+                "Molecule Name": "fluorene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O gradient elution, 0.35 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 7.86"
+                }
+            },
+            {
+                "Molecule Name": "phenanthrene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O gradient elution, 0.35 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 10.46"
+                }
+            },
+            {
+                "Molecule Name": "anthracene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O gradient elution, 0.35 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 11.45"
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (80:20, v/v), 0.20 mL min−1, 40°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 2.92"
+                }
+            },
+            {
+                "Molecule Name": "acetophenone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (80:20, v/v), 0.20 mL min−1, 40°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 4.41"
+                }
+            },
+            {
+                "Molecule Name": "butyrophenone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (80:20, v/v), 0.20 mL min−1, 40°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 6.47"
+                }
+            },
+            {
+                "Molecule Name": "phenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (85:15, v/v), 0.25 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 1.12"
+                }
+            },
+            {
+                "Molecule Name": "resorcinol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (85:15, v/v), 0.25 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 1.72"
+                }
+            },
+            {
+                "Molecule Name": "phloroglucinol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (85:15, v/v), 0.25 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 2.81"
+                }
+            },
+            {
+                "Molecule Name": "4-aminophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (60:40, v/v), 0.30 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 0.62"
+                }
+            },
+            {
+                "Molecule Name": "p-cresol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (60:40, v/v), 0.30 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 1.10"
+                }
+            },
+            {
+                "Molecule Name": "4-nitrophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (60:40, v/v), 0.30 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 1.59"
+                }
+            },
+            {
+                "Molecule Name": "4-chlorophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (60:40, v/v), 0.30 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 2.19"
+                }
+            },
+            {
+                "Molecule Name": "2-naphthol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (60:40, v/v), 0.30 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 2.89"
+                }
+            },
+            {
+                "Molecule Name": "o-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode with preferential retention",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (65:35, v/v), 0.35 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 2.39"
+                }
+            },
+            {
+                "Molecule Name": "m-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (65:35, v/v), 0.35 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 1.40"
+                }
+            },
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (65:35, v/v), 0.35 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 0.83"
+                }
+            },
+            {
+                "Molecule Name": "theobromine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (70:30, v/v), 0.25 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 1.57"
+                }
+            },
+            {
+                "Molecule Name": "theophylline",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (70:30, v/v), 0.25 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 2.16"
+                }
+            },
+            {
+                "Molecule Name": "caffeine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reversed-phase mode",
+                "Other Information": {
+                    "Test Conditions": "ACN/H2O (70:30, v/v), 0.25 mL min−1, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention factor: 4.06"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Column efficiency ranges from 5600 to 63200 plates m−1"
+        },
+        "Other Information": {
+            "Additional Info": "MIL-53(Al) showed excellent separation performance for alkylbenzenes, PAHs, and isomeric mixtures."
+        }
+    }
+]

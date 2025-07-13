@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Ni-Asp",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.4 × 4.2 Å2 (cross-section)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "L-aspartic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K, pressures up to 6.67 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong affinity due to quadruple O···H induction interactions with an average distance of 2.55 Å."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "6.2 × 5.2 Å2",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to pore size limitation."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "6.7 × 5.9 Å2",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K to 423 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to pore size limitation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Clear separation of n-hexane from branched isomers even at 423 K; strong adsorption capacity for n-hexane (e.g., 2.06 mmol/cm³ at 303 K, 6.67 kPa)"
+        },
+        "Other Information": {
+            "Additional Info": "Ultrastable MOF with intraframework hydrogen bonds enhancing stability; recyclable and retains performance after multiple cycles."
+        }
+    }
+]

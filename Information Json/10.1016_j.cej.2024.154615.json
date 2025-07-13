@@ -1,0 +1,99 @@
+[
+    {
+        "Materials Name": "o-CB-ZIF-8/PIM-1",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (window), 11.6 Å (cavity)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sodalite",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "o-carborane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "O2 permeability: 796.5 Barrer at 35 wt% filler loading."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption inhibition",
+                "Other Information": {
+                    "Test Conditions": "298 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 diffusion is hindered by preferential adsorption of o-CB on the outer surface."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic effect of size exclusion and adsorption inhibition",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "O2/N2 selectivity: 8.9 at 35 wt% filler loading, surpassing 2015 upper bound limit."
+        },
+        "Other Information": {
+            "Additional Info": "The membrane shows excellent long-term stability over 7 days with no performance degradation."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8/PIM-1",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (window), 11.6 Å (cavity)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sodalite",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "O2 permeability: 674.7 Barrer at 20 wt% filler loading."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 diffusion is restricted due to smaller pore window size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on pore size",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "O2/N2 selectivity: 3.8 at 20 wt% filler loading."
+        },
+        "Other Information": {
+            "Additional Info": "Performance drops at higher filler loadings due to non-selective voids from filler agglomeration."
+        }
+    }
+]

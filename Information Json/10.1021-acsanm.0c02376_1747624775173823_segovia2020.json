@@ -1,0 +1,88 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (PLD), 11.6 Å (LCD)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 can pass through ZIF-8 due to its smaller size compared to the pore aperture."
+                }
+            },
+            {
+                "Molecule Name": "hexacyanoferrate(II)",
+                "Molecular Size": "0.6 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous environment, Fe(CN)6 3−/4− redox probe",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hexacyanoferrate(II) cannot access ZIF-8 micropores due to its larger size (6 × 6 × 6 Å³)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Postsynthetic modification with cysteamine creates additional mesoporosity while preserving the intrinsic microporosity of ZIF-8."
+        }
+    },
+    {
+        "Materials Name": "n-ZIF-8 + Cys",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (PLD), 11.6 Å (LCD), Additional mesopores formed by cysteamine etching",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "cysteamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexacyanoferrate(II)",
+                "Molecular Size": "0.6 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous environment, Fe(CN)6 3−/4− redox probe",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion path becomes increasingly tortuous as cysteamine exposure time increases, modulating transport properties."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Tunable diffusion path via chemical etching",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Cyclic voltammetry (CV), N2 adsorption experiments",
+            "Performance Metrics": "Apparent diffusion coefficients decrease pseudoexponentially with increasing cysteamine exposure time."
+        },
+        "Other Information": {
+            "Additional Info": "Cysteamine modification introduces -SH moieties and creates additional mesoporosity, affecting film transport properties."
+        }
+    }
+]

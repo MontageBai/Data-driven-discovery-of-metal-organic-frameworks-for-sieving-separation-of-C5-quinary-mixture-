@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "200°C, in air",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The ZIF-8 membrane allows hydrogen molecules to pass through while blocking larger molecules like benzene, toluene, ethanol, and acetone."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "200°C, in air",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The ZIF-8 membrane blocks benzene from reaching the sensing surface."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "200°C, in air",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The ZIF-8 membrane blocks toluene from reaching the sensing surface."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "200°C, in air",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The ZIF-8 membrane blocks ethanol from reaching the sensing surface."
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "200°C, in air",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The ZIF-8 membrane blocks acetone from reaching the sensing surface."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2 response: 6.7 (at 50 ppm), No response to interfering gases (C6H6, C7H8, C2H5OH, CH3COCH3)"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 acts as a permselective barrier enhancing sensor selectivity for H2 gas detection."
+        }
+    }
+]

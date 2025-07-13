@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "MIP-202",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.65 nm (BET), 0.637 nm (DFT)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6(μ3-O)4(μ3-OH)4(COO−)12"
+        ],
+        "Ligands": [
+            "L-aspartic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "proton",
+                "Molecular Size": "0.24 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 °C, hydrated conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Proton conduction facilitated by sulfonic acid groups and amino groups in the MOF structure."
+                }
+            },
+            {
+                "Molecule Name": "vanadium ions",
+                "Molecular Size": ">0.8 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "1.5M VO2+ in 3M H2SO4 electrolyte, 20 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Vanadium ion permeability significantly reduced due to size sieving effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "Ion selectivity increased by 76.5% compared to pristine SPEEK membrane"
+        },
+        "Other Information": {
+            "Additional Info": "MIP-202 exhibits high proton conductivity of 0.011 S cm−1 at 363 K and under 95% relative humidity. The material shows strong chemical and hydrolytic stability."
+        }
+    },
+    {
+        "Materials Name": "S/MIP-202-0.5",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.65 nm (MOF component)",
+            "Structure Type": "Mixed matrix with SPEEK polymer"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6(μ3-O)4(μ3-OH)4(COO−)12"
+        ],
+        "Ligands": [
+            "L-aspartic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "proton",
+                "Molecular Size": "0.24 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Grotthuss mechanism facilitated by hydrogen bonding networks",
+                "Other Information": {
+                    "Test Conditions": "20 °C, hydrated conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Proton conductivity enhanced by 14% compared to pristine SPEEK membrane."
+                }
+            },
+            {
+                "Molecule Name": "vanadium ions",
+                "Molecular Size": ">0.8 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "1.5M VO2+ in 3M H2SO4 electrolyte, 20 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Vanadium ion permeability reduced by 35.4% compared to pristine SPEEK membrane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with hydrogen bonding network enhancement",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, VRFB single-cell performance test",
+            "Performance Metrics": "Ion selectivity increased by 76.5%, CE: 99.03%, VE: 81.99%, EE: 81.20% at 120 mA cm−2"
+        },
+        "Other Information": {
+            "Additional Info": "The S/MIP-202-0.5 membrane exhibits superior performance in vanadium redox flow batteries, maintaining 92.20% capacity after 200 cycles."
+        }
+    }
+]

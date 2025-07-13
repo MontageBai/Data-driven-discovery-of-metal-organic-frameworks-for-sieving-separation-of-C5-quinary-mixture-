@@ -1,0 +1,103 @@
+MOF Name: Co2(DHTP)
+
+Experimental Adsorption Data for Co2(DHTP):
+*   Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes)
+
+Inferred Effective Pore Size of Co2(DHTP):
+Based on the provided experimental data, Co2(DHTP) is known to adsorb acetylene, which has an intermediate dimension of 3.200 Å. This indicates that the MOF's effective pore size is at least 3.200 Å. However, there is no data provided for any molecule that was *not* adsorbed due to size exclusion. Therefore, an upper bound for the MOF's effective pore size cannot be strictly inferred from the given experimental data.
+
+Given the single data point for adsorption of a relatively small molecule (acetylene), and the absence of data for larger molecules being adsorbed or excluded, the prediction for larger molecules relies on the principle that if a molecule's intermediate dimension exceeds that of the largest known adsorbed molecule, and no larger molecule has been shown to adsorb, it is unlikely to fit due to the typical size-selectivity of MOFs.
+
+---
+
+### Evaluation for Target Guest Molecules:
+
+**MOF Name: Co2(DHTP)**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Co2(DHTP) adsorbs Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å.
+The stated mechanism for acetylene adsorption is "Enhanced binding via open metal sites" which implies chemical interaction, but it still means the molecule must fit the pore.
+
+Inferred effective pore size of Co2(DHTP) is therefore inferred to be at least 3.200 Å. No upper limit for pore size can be established from the provided data as no molecule was shown to be excluded by size.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of acetylene (3.200 Å), which is the only molecule confirmed to adsorb by Co2(DHTP) in the provided data. Without any experimental evidence to suggest that Co2(DHTP) can accommodate molecules of this larger size, and given the general size-selective nature of MOFs, it cannot be confirmed that isoprene can adsorb based solely on the provided size exclusion criteria. Therefore, the result is: **Cannot Adsorb**.
+
+---
+
+**MOF Name: Co2(DHTP)**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Co2(DHTP) adsorbs Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å.
+Inferred effective pore size of Co2(DHTP) is therefore inferred to be at least 3.200 Å. No upper limit for pore size can be established from the provided data as no molecule was shown to be excluded by size.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of acetylene (3.200 Å). Similar to isoprene, without experimental evidence indicating the MOF can accommodate molecules of this size, it cannot be confirmed that cis-2-pentene can adsorb based solely on the provided size exclusion criteria. Therefore, the result is: **Cannot Adsorb**.
+
+---
+
+**MOF Name: Co2(DHTP)**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Co2(DHTP) adsorbs Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å.
+Inferred effective pore size of Co2(DHTP) is therefore inferred to be at least 3.200 Å. No upper limit for pore size can be established from the provided data as no molecule was shown to be excluded by size.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of acetylene (3.200 Å). Without experimental evidence indicating the MOF can accommodate molecules of this size, it cannot be confirmed that 1-pentene can adsorb based solely on the provided size exclusion criteria. Therefore, the result is: **Cannot Adsorb**.
+
+---
+
+**MOF Name: Co2(DHTP)**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Co2(DHTP) adsorbs Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å.
+Inferred effective pore size of Co2(DHTP) is therefore inferred to be at least 3.200 Å. No upper limit for pore size can be established from the provided data as no molecule was shown to be excluded by size.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of acetylene (3.200 Å). Without experimental evidence indicating the MOF can accommodate molecules of this size, it cannot be confirmed that trans-2-pentene can adsorb based solely on the provided size exclusion criteria. Therefore, the result is: **Cannot Adsorb**.
+
+---
+
+**MOF Name: Co2(DHTP)**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Co2(DHTP) adsorbs Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å.
+Inferred effective pore size of Co2(DHTP) is therefore inferred to be at least 3.200 Å. No upper limit for pore size can be established from the provided data as no molecule was shown to be excluded by size.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is significantly larger than the intermediate dimension of acetylene (3.200 Å). Without experimental evidence indicating the MOF can accommodate molecules of this size, it cannot be confirmed that n-pentane can adsorb based solely on the provided size exclusion criteria. Therefore, the result is: **Cannot Adsorb**.

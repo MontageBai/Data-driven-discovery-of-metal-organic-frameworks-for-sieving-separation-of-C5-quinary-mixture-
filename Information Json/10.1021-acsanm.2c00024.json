@@ -1,0 +1,197 @@
+[
+    {
+        "Materials Name": "IRMOF-1",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "7.93 Å (PLD), 15.07 Å (LCD)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn4(CO2)6"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen-type diffusion",
+                "Other Information": {
+                    "Test Conditions": "300 K, pressure difference > 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability decreases with functionalization."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Combination of Knudsen-type diffusion and adsorption-diffusion",
+                "Other Information": {
+                    "Test Conditions": "300 K, pressure difference > 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability varies depending on functional group type and position."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "DFZ-NEMD simulations",
+            "Performance Metrics": "H2 permeability: 2.16 × 10^5 barrer, CH4 permeability: 1.03 × 10^5 barrer, H2/CH4 selectivity: 2.10"
+        },
+        "Other Information": {
+            "Additional Info": "Functionalized with acetamide, urea, and methyl groups to study the effect on gas separation performance."
+        }
+    },
+    {
+        "Materials Name": "IRMOF-1 functionalized with acetamide",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Varies depending on functionalization (see PSD analysis)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn4(CO2)6"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "acetamide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen-type diffusion",
+                "Other Information": {
+                    "Test Conditions": "300 K, pressure difference > 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability decreases compared to bare IRMOF-1."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Combination of Knudsen-type diffusion and adsorption-diffusion",
+                "Other Information": {
+                    "Test Conditions": "300 K, pressure difference > 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability decreases with increasing functional group density."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "DFZ-NEMD simulations",
+            "Performance Metrics": "H2 permeability decreases with functionalization; CH4 permeability decreases with increasing functional group density."
+        },
+        "Other Information": {
+            "Additional Info": "Acetamide functional groups alter the pore size and separation mechanism."
+        }
+    },
+    {
+        "Materials Name": "IRMOF-1 functionalized with urea",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Varies depending on functionalization (see PSD analysis)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn4(CO2)6"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "urea"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen-type diffusion",
+                "Other Information": {
+                    "Test Conditions": "300 K, pressure difference > 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability decreases with functionalization."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Combination of Knudsen-type diffusion and adsorption-diffusion",
+                "Other Information": {
+                    "Test Conditions": "300 K, pressure difference > 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability increases for partially functionalized MOFs but decreases for fully functionalized MOFs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "DFZ-NEMD simulations",
+            "Performance Metrics": "H2 permeability decreases with functionalization; CH4 permeability varies with functional group density."
+        },
+        "Other Information": {
+            "Additional Info": "Urea functional groups alter the pore size and separation mechanism."
+        }
+    },
+    {
+        "Materials Name": "IRMOF-1 functionalized with methyl",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Varies depending on functionalization (see PSD analysis)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn4(CO2)6"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "methyl"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen-type diffusion",
+                "Other Information": {
+                    "Test Conditions": "300 K, pressure difference > 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability decreases with functionalization."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen-type diffusion",
+                "Other Information": {
+                    "Test Conditions": "300 K, pressure difference > 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability decreases with increasing functional group density."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "DFZ-NEMD simulations",
+            "Performance Metrics": "H2 permeability decreases with functionalization; CH4 permeability decreases with increasing functional group density."
+        },
+        "Other Information": {
+            "Additional Info": "Methyl functional groups alter the pore size and separation mechanism."
+        }
+    }
+]

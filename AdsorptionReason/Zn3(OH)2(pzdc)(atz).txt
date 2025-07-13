@@ -1,0 +1,69 @@
+MOF Name: Zn3(OH)2(pzdc)(atz)
+
+**Analysis of MOF Pore Size based on Experimental Data:**
+
+*   **Propylene:** 6.257×5.051×3.961 → Intermediate = **5.051 Å** | Adsorbed (Yes) | Adsorption Type: Size exclusion
+*   **Propane:** 6.552×4.354×3.970 → Intermediate = **4.354 Å** | Not Adsorbed (No) | Adsorption Type: Size exclusion
+
+**Inferred Effective Pore Size of Zn3(OH)2(pzdc)(atz):**
+
+Based on the instruction that "the main concern is the intermediate size of the molecule" and the rule for inferring pore size as "Effective pore size ∈ [max_intermediate_adsorbed, min_intermediate_nonadsorbed)", the provided experimental data for Zn3(OH)2(pzdc)(atz) presents a logical contradiction.
+
+*   Propylene (intermediate dimension 5.051 Å) is adsorbed, which would imply an effective pore size of ≥ 5.051 Å.
+*   Propane (intermediate dimension 4.354 Å) is *not* adsorbed due to "Size exclusion", which would imply an effective pore size of < 4.354 Å.
+
+This creates an impossible range `[5.051 Å, 4.354 Å)`.
+
+To resolve this inconsistency and make a prediction while adhering to the primary instruction to use the intermediate dimension for size exclusion, we prioritize the *exclusion* data point as defining the strict geometric limit. If propane (intermediate 4.354 Å) is definitively excluded due to size, the effective pore size must be strictly less than 4.354 Å. The adsorption of propylene, with a larger intermediate dimension (5.051 Å), suggests that either the "intermediate dimension" rule is an oversimplification for this specific MOF, or other factors (e.g., precise molecular shape, reorientation, MOF flexibility, or specific guest-host interactions) are at play that allow larger molecules to pass under certain conditions, despite the "Size exclusion" label being applied to both. However, to make a conservative prediction based on the stated "size exclusion" for a non-adsorbed molecule and the reliance on intermediate dimension, we infer the effective pore size to be **< 4.354 Å**.
+
+---
+
+**Predictions for Target Guest Molecules:**
+
+**1. Guest Molecule: isoprene**
+
+*   **Predicted Result:** Cannot Adsorb
+
+*   **Detailed Reasoning:**
+    *   Target Guest Molecule Dimensions: Isoprene: 7.746×6.093×3.963 → Intermediate = **6.093 Å**
+    *   Conclusion: Since isoprene's intermediate dimension (6.093 Å) is significantly greater than the inferred effective pore size limit (4.354 Å) of Zn3(OH)2(pzdc)(atz), it cannot be adsorbed by a size exclusion mechanism.
+
+---
+
+**2. Guest Molecule: cis-2-pentene**
+
+*   **Predicted Result:** Cannot Adsorb
+
+*   **Detailed Reasoning:**
+    *   Target Guest Molecule Dimensions: cis-2-pentene: 8.067×5.572×5.136 → Intermediate = **5.572 Å**
+    *   Conclusion: Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly greater than the inferred effective pore size limit (4.354 Å) of Zn3(OH)2(pzdc)(atz), it cannot be adsorbed by a size exclusion mechanism.
+
+---
+
+**3. Guest Molecule: 1-pentene**
+
+*   **Predicted Result:** Cannot Adsorb
+
+*   **Detailed Reasoning:**
+    *   Target Guest Molecule Dimensions: 1-pentene: 8.847×4.995×4.897 → Intermediate = **4.995 Å**
+    *   Conclusion: Since 1-pentene's intermediate dimension (4.995 Å) is significantly greater than the inferred effective pore size limit (4.354 Å) of Zn3(OH)2(pzdc)(atz), it cannot be adsorbed by a size exclusion mechanism.
+
+---
+
+**4. Guest Molecule: trans-2-pentene**
+
+*   **Predicted Result:** Cannot Adsorb
+
+*   **Detailed Reasoning:**
+    *   Target Guest Molecule Dimensions: trans-2-pentene: 8.796×4.733×4.564 → Intermediate = **4.733 Å**
+    *   Conclusion: Since trans-2-pentene's intermediate dimension (4.733 Å) is greater than the inferred effective pore size limit (4.354 Å) of Zn3(OH)2(pzdc)(atz), it cannot be adsorbed by a size exclusion mechanism.
+
+---
+
+**5. Guest Molecule: n-pentane**
+
+*   **Predicted Result:** Cannot Adsorb
+
+*   **Detailed Reasoning:**
+    *   Target Guest Molecule Dimensions: n-pentane: 9.118×4.364×3.969 → Intermediate = **4.364 Å**
+    *   Conclusion: Since n-pentane's intermediate dimension (4.364 Å) is greater than the inferred effective pore size limit (4.354 Å) of Zn3(OH)2(pzdc)(atz), it cannot be adsorbed by a size exclusion mechanism.

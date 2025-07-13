@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "{[Eu2(abtc)1.5(H2O)3(DMA)]·H2O·DMA}n",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "{413·62}2{414·67}2{420·614·811}{414·6}2",
+        "Metal Nodes": [
+            "Eu3+"
+        ],
+        "Ligands": [
+            "abtc4−",
+            "N,N-dimethylacetamide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methylene blue was efficiently absorbed, with the blue solution fading to light blue."
+                }
+            },
+            {
+                "Molecule Name": "crystal violet",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The purple solution of crystal violet faded to light purple."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The adsorptive capacity for rhodamine B was very weak, and its concentration in water decreased slightly."
+                }
+            },
+            {
+                "Molecule Name": "methyl blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methyl blue cannot be effectively absorbed because its size is much larger than the largest aperture of the cages."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-dependent adsorption based on molecular dimensions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments",
+            "Performance Metrics": "Effective and selective adsorption of methylene blue and crystal violet; poor adsorption of rhodamine B and methyl blue"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF exhibited selective adsorption of dye molecules, making it a promising material for pollutant removal."
+        }
+    }
+]

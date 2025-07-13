@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-11/PSF MMMs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0 Å (aperture windows)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "RHO",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion coefficient increases by 48.8% with 24 wt% ZIF-11 loading."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion coefficient decreases by 42.7% with 24 wt% ZIF-11 loading."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Restricted aperture windows of ZIF-11 permit CO2 to pass through but exclude CH4.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Adsorption/diffusion analysis",
+            "Performance Metrics": "CO2 permeability: 22.82 Barrers, CO2/CH4 separation factor: 43"
+        },
+        "Other Information": {
+            "Additional Info": "Optimal performance achieved at 24 wt% ZIF-11 loading. Long-term stability demonstrated over 400 hours."
+        }
+    }
+]

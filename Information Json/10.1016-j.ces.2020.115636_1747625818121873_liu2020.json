@@ -1,0 +1,150 @@
+[
+    {
+        "Materials Name": "Ag-Ca-4A",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.10 Å (average from CO2 adsorption), 4.20 Å (simulated highest probability)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sodalite-type",
+        "Metal Nodes": [
+            "Na+",
+            "Ca2+",
+            "Ag+"
+        ],
+        "Ligands": [
+            "Aluminosilicate framework"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ag+ induces stretching of the C=C bond and reduction of H-C-H bond angle, allowing ethylene to pass through pores smaller than 4 Å."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.443 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane is excluded due to its larger kinetic diameter compared to the pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale with Ag+-induced molecular stretching",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "C2H4 uptake: 3.7 mmol/g, C2H4/C2H6 selectivity: 17,568"
+        },
+        "Other Information": {
+            "Additional Info": "Sequential Ca2+/Ag+ ion-exchange regulates pore size in ±0.2 Å increments, ranging between 3.8 and 4.2 Å."
+        }
+    },
+    {
+        "Materials Name": "Ag-4A",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.90 Å (average from CO2 adsorption), 3.80 Å (simulated highest probability)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sodalite-type",
+        "Metal Nodes": [
+            "Na+",
+            "Ag+"
+        ],
+        "Ligands": [
+            "Aluminosilicate framework"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ag+ induces stretching of the C=C bond, allowing ethylene to pass through pores smaller than 4 Å."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.443 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane is excluded due to its larger kinetic diameter compared to the pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale with Ag+-induced molecular stretching",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms, GCMC simulation",
+            "Performance Metrics": "C2H4 uptake: 2.92 mmol/g"
+        },
+        "Other Information": {
+            "Additional Info": "Single Ag+ ion-exchanged zeolite achieves high C2H4 adsorption capacity but lower than Ag-Ca-4A."
+        }
+    },
+    {
+        "Materials Name": "0.005Ca4A",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.15 Å (average from CO2 adsorption), 4.22 Å (simulated highest probability)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sodalite-type",
+        "Metal Nodes": [
+            "Na+",
+            "Ca2+"
+        ],
+        "Ligands": [
+            "Aluminosilicate framework"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ca2+ enlarges the pore size, allowing ethylene diffusion."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.443 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane is excluded due to its larger kinetic diameter compared to the pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms",
+            "Performance Metrics": "C2H4 uptake: ~1.5 mmol/g (low diffusivity)"
+        },
+        "Other Information": {
+            "Additional Info": "Single Ca2+ ion-exchange increases pore size but results in slower diffusion rates."
+        }
+    }
+]

@@ -1,0 +1,92 @@
+**MOF Name: KAUST-7 (NbOFFIVE-1-Ni)**
+
+**Detailed Reasoning for KAUST-7 (NbOFFIVE-1-Ni):**
+From the provided experimental data for KAUST-7 (NbOFFIVE-1-Ni):
+*   **Propylene (C3H6):**
+    *   Full Dimensions: 6.257×5.051×3.961 Å
+    *   Intermediate Dimension: 5.051 Å
+    *   Adsorption Status: Yes
+    *   Reason/Mechanism: "Size-compatible pore aperture", "molecular sieving for propylene"
+*   **Propane (C3H8):**
+    *   Full Dimensions: 6.552×4.354×3.970 Å
+    *   Intermediate Dimension: 4.354 Å
+    *   Adsorption Status: No
+    *   Reason/Mechanism: "Size exclusion mechanism for propane; molecular sieving for propylene", "Size exclusion due to unfavorable pore size"
+
+**Inferred MOF Behavior:**
+KAUST-7 (NbOFFIVE-1-Ni) is capable of adsorbing propylene, which has an intermediate dimension of 5.051 Å. However, it explicitly *does not* adsorb propane, despite propane having a *smaller* intermediate dimension (4.354 Å) than propylene. This indicates a strong kinetic sieving effect where the MOF's pores are highly shape-selective, excluding propane due to its specific geometry or interaction with the pore walls, rather than a simple size cutoff based solely on the intermediate dimension. Therefore, the MOF's effective pore size *allows* molecules with intermediate dimensions up to 5.051 Å (like propylene), but its kinetic sieving behavior means that molecules with smaller intermediate dimensions (like propane) may still be excluded if their shape or chemical nature is unfavorable for passage. Molecules with intermediate dimensions significantly larger than 5.051 Å are predicted to be excluded by size.
+
+---
+
+**MOF Name: KAUST-7 (NbOFFIVE-1-Ni)**
+**Guest Molecule: isoprene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **MOF's Adsorption Data:** Adsorbs propylene (Intermediate = 5.051 Å). Excludes propane (Intermediate = 4.354 Å) due to kinetic sieving/shape incompatibility.
+*   **Inferred Pore Size:** The largest intermediate dimension known to be adsorbed is 5.051 Å (propylene).
+*   **Target Molecule Dimensions:**
+    *   isoprene: 7.746×6.093×3.963 Å
+    *   Intermediate Dimension: 6.093 Å
+*   **Conclusion:** Isoprene's intermediate dimension (6.093 Å) is significantly larger than the largest intermediate dimension of a molecule known to be adsorbed by KAUST-7 (5.051 Å for propylene). Therefore, it is predicted to be excluded by size.
+
+---
+
+**MOF Name: KAUST-7 (NbOFFIVE-1-Ni)**
+**Guest Molecule: cis-2-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **MOF's Adsorption Data:** Adsorbs propylene (Intermediate = 5.051 Å). Excludes propane (Intermediate = 4.354 Å) due to kinetic sieving/shape incompatibility.
+*   **Inferred Pore Size:** The largest intermediate dimension known to be adsorbed is 5.051 Å (propylene).
+*   **Target Molecule Dimensions:**
+    *   cis-2-pentene: 8.067×5.572×5.136 Å
+    *   Intermediate Dimension: 5.572 Å
+*   **Conclusion:** cis-2-pentene's intermediate dimension (5.572 Å) is larger than the largest intermediate dimension of a molecule known to be adsorbed by KAUST-7 (5.051 Å for propylene). Therefore, it is predicted to be excluded by size.
+
+---
+
+**MOF Name: KAUST-7 (NbOFFIVE-1-Ni)**
+**Guest Molecule: 1-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+*   **MOF's Adsorption Data:** Adsorbs propylene (Intermediate = 5.051 Å). Excludes propane (Intermediate = 4.354 Å) due to kinetic sieving/shape incompatibility.
+*   **Inferred Pore Size:** The MOF can accommodate molecules with intermediate dimensions up to 5.051 Å (propylene). While it exhibits kinetic sieving against propane, it is a molecular sieve for propylene.
+*   **Target Molecule Dimensions:**
+    *   1-pentene: 8.847×4.995×4.897 Å
+    *   Intermediate Dimension: 4.995 Å
+*   **Conclusion:** 1-pentene's intermediate dimension (4.995 Å) is smaller than that of adsorbed propylene (5.051 Å) and it is also an alkene. Given that KAUST-7 specifically sieves for propylene (an alkene), it is plausible that 1-pentene, a structurally similar alkene with a compatible intermediate dimension, can also pass through the pores.
+
+---
+
+**MOF Name: KAUST-7 (NbOFFIVE-1-Ni)**
+**Guest Molecule: trans-2-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+*   **MOF's Adsorption Data:** Adsorbs propylene (Intermediate = 5.051 Å). Excludes propane (Intermediate = 4.354 Å) due to kinetic sieving/shape incompatibility.
+*   **Inferred Pore Size:** The MOF can accommodate molecules with intermediate dimensions up to 5.051 Å (propylene). While it exhibits kinetic sieving against propane, it is a molecular sieve for propylene.
+*   **Target Molecule Dimensions:**
+    *   trans-2-pentene: 8.796×4.733×4.564 Å
+    *   Intermediate Dimension: 4.733 Å
+*   **Conclusion:** trans-2-pentene's intermediate dimension (4.733 Å) is smaller than that of adsorbed propylene (5.051 Å) and it is also an alkene. Given that KAUST-7 specifically sieves for propylene (an alkene), it is plausible that trans-2-pentene, a structurally similar alkene with a compatible intermediate dimension, can also pass through the pores.
+
+---
+
+**MOF Name: KAUST-7 (NbOFFIVE-1-Ni)**
+**Guest Molecule: n-pentane**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **MOF's Adsorption Data:** Adsorbs propylene (Intermediate = 5.051 Å). Explicitly excludes propane (Intermediate = 4.354 Å) due to "Size exclusion due to unfavorable pore size" and "molecular sieving".
+*   **Inferred Pore Size:** The MOF exhibits strong kinetic sieving, excluding propane (an alkane) even though its intermediate dimension is smaller than that of adsorbed propylene.
+*   **Target Molecule Dimensions:**
+    *   n-pentane: 9.118×4.364×3.969 Å
+    *   Intermediate Dimension: 4.364 Å
+*   **Conclusion:** N-pentane is an alkane, structurally similar to propane. Its intermediate dimension (4.364 Å) is very close to and slightly larger than propane's (4.354 Å). Given that propane was excluded by the MOF via kinetic sieving due to unfavorable pore size/shape, it is highly probable that n-pentane will also be excluded by the same selective mechanism.

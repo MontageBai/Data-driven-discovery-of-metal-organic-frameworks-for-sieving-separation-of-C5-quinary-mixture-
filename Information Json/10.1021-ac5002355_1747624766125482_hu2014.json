@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "AuNPs/MIL-101",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "21.44 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "4,4'-bipyridine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong SERS signals detected."
+                }
+            },
+            {
+                "Molecule Name": "poly(4-vinylpyridine)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Almost no Raman response observed due to inability to diffuse into nanopores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "SERS measurement",
+            "Performance Metrics": "Enhanced Raman signals for 4,4'-bipyridine compared to poly(4-vinylpyridine)"
+        },
+        "Other Information": {
+            "Additional Info": "The AuNPs/MIL-101 nanocomposites demonstrated a molecular sieving effect based on the size of guest molecules."
+        }
+    }
+]

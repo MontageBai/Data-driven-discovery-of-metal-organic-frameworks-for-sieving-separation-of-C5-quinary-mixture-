@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MIL-47 nanosheets membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.85 nm",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "V4+"
+        ],
+        "Ligands": [
+            "1,4-dicarboxybenzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium polysulfides",
+                "Molecular Size": "0.9–1.1 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The MIL-47 nanosheets membrane blocks lithium polysulfides via a selective sieving effect."
+                }
+            },
+            {
+                "Molecule Name": "solvated Li ions",
+                "Molecular Size": "0.6–0.7 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Solvated Li ions pass through the MIL-47 nanosheets membrane due to their smaller size compared to the pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: Not Reported, Permeance: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "The MIL-47 nanosheets membrane was grown on carbon nanotube film using a vapor deposition method followed by hydrothermal synthesis. The membrane exhibits excellent conductivity and catalytic activity for lithium-sulfur batteries."
+        }
+    }
+]

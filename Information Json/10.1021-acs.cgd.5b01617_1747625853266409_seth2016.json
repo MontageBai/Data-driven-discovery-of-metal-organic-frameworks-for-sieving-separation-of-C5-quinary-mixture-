@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "Tb-L",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D"
+        },
+        "Topology": "'rod' type",
+        "Metal Nodes": [
+            "Tb3+"
+        ],
+        "Ligands": [
+            "10,10'-bis(4-carboxyphenyl)-9,9'-bianthryl"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake capacity: 67.1 cc g-1"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/N2 selectivity: 15.2"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption experiment",
+            "Performance Metrics": "CO2/N2 selectivity: 15.2"
+        },
+        "Other Information": {
+            "Additional Info": "Highly robust and chemically stable MOF with solvent-accessible void volume of 34.2%"
+        }
+    },
+    {
+        "Materials Name": "Eu-L",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D"
+        },
+        "Topology": "'rod' type",
+        "Metal Nodes": [
+            "Eu3+"
+        ],
+        "Ligands": [
+            "10,10'-bis(4-carboxyphenyl)-9,9'-bianthryl"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake capacity: 61.3 cc g-1"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/N2 selectivity: 14"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption experiment",
+            "Performance Metrics": "CO2/N2 selectivity: 14"
+        },
+        "Other Information": {
+            "Additional Info": "Isostructural to Tb-L, highly robust and chemically stable MOF with solvent-accessible void volume of around 34%"
+        }
+    },
+    {
+        "Materials Name": "Sm-L",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D"
+        },
+        "Topology": "'rod' type",
+        "Metal Nodes": [
+            "Sm3+"
+        ],
+        "Ligands": [
+            "10,10'-bis(4-carboxyphenyl)-9,9'-bianthryl"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake capacity: 69.6 cc g-1"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/N2 selectivity: 12.3"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption experiment",
+            "Performance Metrics": "CO2/N2 selectivity: 12.3"
+        },
+        "Other Information": {
+            "Additional Info": "Isostructural to Tb-L, highly robust and chemically stable MOF with solvent-accessible void volume of around 34%"
+        }
+    }
+]

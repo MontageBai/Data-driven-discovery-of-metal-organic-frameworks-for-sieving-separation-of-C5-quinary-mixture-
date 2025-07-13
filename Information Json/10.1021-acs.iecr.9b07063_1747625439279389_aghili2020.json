@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "UiO-66-NH2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.6 nm (aperture size), 0.8 nm (tetrahedral cages), 1.1 nm (octahedral cages)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "1 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency up to 92% for two-layer continuous UiO-66-NH2 on 2 wt % UiO-66-NH2-based MMM."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.28 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water flux of 68 L/m² h for two-layer continuous UiO-66-NH2 on 2 wt % UiO-66-NH2-based MMM."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with electrostatic repulsion",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Cross-flow filtration experiment",
+            "Performance Metrics": "Water flux: 68 L/m² h, Rh.B rejection: 92%"
+        },
+        "Other Information": {
+            "Additional Info": "Continuous layer of UiO-66-NH2 was grown on polyacrylonitrile-based mixed matrix membrane (MMM) via in situ solvothermal growth route. The two-layer continuous UiO-66-NH2 showed superior stability and performance in dye removal."
+        }
+    }
+]

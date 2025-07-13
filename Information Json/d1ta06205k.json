@@ -1,0 +1,113 @@
+[
+    {
+        "Materials Name": "UiO-66-NH2",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.3 nm - 1.0 nm (estimated from linker length)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Fm3m space group",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Permeation through the internal MOF pores",
+                "Other Information": {
+                    "Test Conditions": "20 °C, 30 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Good match with predictive model based on solution flow through internal MOF pores"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "OSN experiments and transport modeling",
+            "Performance Metrics": "Acetone permeance: 0.72 L m⁻² h⁻¹ bar⁻¹; MWCO: 160 g mol⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "PNIPAM-grafted to improve interfacial adhesion"
+        }
+    },
+    {
+        "Materials Name": "UiO-67-NH2",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.5 nm - 1.5 nm (estimated from linker length)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Fm3m space group",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-amino-[1,1'-biphenyl]-4,4'-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Permeation through the internal MOF pores",
+                "Other Information": {
+                    "Test Conditions": "20 °C, 30 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Good match with predictive model based on solution flow through internal MOF pores"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "OSN experiments and transport modeling",
+            "Performance Metrics": "Acetone permeance: Not explicitly reported; MWCO: ~200 g mol⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "PNIPAM-grafted to improve interfacial adhesion"
+        }
+    },
+    {
+        "Materials Name": "UiO-68-NH2",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.7 nm - 2.0 nm (estimated from linker length)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Fm3m space group",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2'-amino-[1,1':4',1''-terphenyl]-4,4''-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Permeation through the internal MOF pores",
+                "Other Information": {
+                    "Test Conditions": "20 °C, 30 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Good match with predictive model based on solution flow through internal MOF pores"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "OSN experiments and transport modeling",
+            "Performance Metrics": "Acetone permeance: ~2.07 L m⁻² h⁻¹ bar⁻¹; MWCO: 290 g mol⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "PNIPAM-grafted to improve interfacial adhesion"
+        }
+    }
+]

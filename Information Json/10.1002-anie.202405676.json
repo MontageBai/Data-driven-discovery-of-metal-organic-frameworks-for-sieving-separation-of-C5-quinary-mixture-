@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "MOF-801",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å (tetrahedral cage), 6.7 Å (octahedral cage)",
+            "Structure Type": "Interconnected tetrahedral and octahedral cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4(CO2)12"
+        ],
+        "Ligands": [
+            "fumaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, 25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: ~1200 GPU, H2/CO2 selectivity: ~70"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, 25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher transition energy barrier compared to H2"
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "5 bar applied pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water permeance: ~7.8 L·m⁻²·h⁻¹·bar⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "magnesium ion",
+                "Molecular Size": "8.56 Å (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion with partial dehydration",
+                "Other Information": {
+                    "Test Conditions": "5 bar applied pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "MgCl2 rejection: >95%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Precise molecular sieving based on size exclusion and differential transition energy barriers",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments, water desalination tests, DFT simulations",
+            "Performance Metrics": "H2/CO2 selectivity: ~70, Water permeance: ~7.8 L·m⁻²·h⁻¹·bar⁻¹, MgCl2 rejection: ~95%"
+        },
+        "Other Information": {
+            "Additional Info": "Defect-free high-connectivity MOF membrane fabricated using confined-coordination induced intergrowth strategy."
+        }
+    }
+]

@@ -1,0 +1,81 @@
+MOF Name: Cu-MoO4-TPA
+
+### Evaluation for isoprene
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From the experimental data for Cu-MoO4-TPA:
+*   **Adsorbed:**
+    *   `hexane`: 10.359×4.607×3.969 → Intermediate = 4.607 Å (Adsorbed: Yes)
+*   **Not Adsorbed (due to size exclusion/molecular sieving):**
+    *   `2,3-dimethylbutane`: 7.778×6.170×5.399 → Intermediate = 6.170 Å (Adsorbed: No)
+    *   `2,2-dimethylbutane`: 7.829×5.502×6.545 → Intermediate = 6.545 Å (Adsorbed: No)
+
+Based on this data, the MOF Cu-MoO4-TPA can adsorb molecules with an intermediate dimension up to 4.607 Å (as hexane was adsorbed). It excludes molecules with intermediate dimensions of 6.170 Å (2,3-dimethylbutane) and 6.545 Å (2,2-dimethylbutane). Therefore, the inferred effective pore size of Cu-MoO4-TPA is greater than or equal to 4.607 Å and strictly less than 6.170 Å. The effective pore size range is approximately **[4.607 Å, 6.170 Å)**.
+
+Isoprene Dimensions:
+*   `isoprene`: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is within the inferred effective pore size range ([4.607 Å, 6.170 Å)) and specifically smaller than the smallest intermediate dimension of the experimentally excluded molecules (2,3-dimethylbutane at 6.170 Å), it is predicted that isoprene can be adsorbed by Cu-MoO4-TPA. The experimental data clearly indicates a sharp size exclusion effect for molecules larger than 6.093 Å, supporting this prediction.
+
+---
+
+### Evaluation for cis-2-pentene
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From the experimental data for Cu-MoO4-TPA, the inferred effective pore size range is approximately **[4.607 Å, 6.170 Å)**.
+
+cis-2-pentene Dimensions:
+*   `cis-2-pentene`: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is within the inferred effective pore size range ([4.607 Å, 6.170 Å)), it is predicted that cis-2-pentene can be adsorbed by Cu-MoO4-TPA. The experimental data for 2,3-dimethylbutane (6.170 Å, excluded) and 2,2-dimethylbutane (6.545 Å, excluded) indicates that molecules with intermediate dimensions larger than 6.170 Å are sieved out, while 5.572 Å is comfortably smaller than this threshold.
+
+---
+
+### Evaluation for 1-pentene
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From the experimental data for Cu-MoO4-TPA, the inferred effective pore size range is approximately **[4.607 Å, 6.170 Å)**.
+
+1-pentene Dimensions:
+*   `1-pentene`: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is within the inferred effective pore size range ([4.607 Å, 6.170 Å)), it is predicted that 1-pentene can be adsorbed by Cu-MoO4-TPA. This size is well below the established exclusion threshold observed for 2,3-dimethylbutane (6.170 Å).
+
+---
+
+### Evaluation for trans-2-pentene
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From the experimental data for Cu-MoO4-TPA, the inferred effective pore size range is approximately **[4.607 Å, 6.170 Å)**.
+
+trans-2-pentene Dimensions:
+*   `trans-2-pentene`: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is within the inferred effective pore size range ([4.607 Å, 6.170 Å)), it is predicted that trans-2-pentene can be adsorbed by Cu-MoO4-TPA. This molecule's size is very close to that of hexane (4.607 Å), which was experimentally adsorbed, and well below the exclusion threshold.
+
+---
+
+### Evaluation for n-pentane
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From the experimental data for Cu-MoO4-TPA, the inferred effective pore size range is approximately **[4.607 Å, 6.170 Å)**.
+
+n-pentane Dimensions:
+*   `n-pentane`: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the intermediate dimension of hexane (4.607 Å), which was experimentally adsorbed by Cu-MoO4-TPA, it is predicted that n-pentane can also be adsorbed. The "size exclusion" mechanism implies that if a larger molecule can pass, a smaller one should also be able to pass, given similar chemistry for adsorption.

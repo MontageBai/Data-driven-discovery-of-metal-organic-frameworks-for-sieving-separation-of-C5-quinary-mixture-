@@ -1,0 +1,340 @@
+[
+    {
+        "Materials Name": "MIL-140A",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.2 Å",
+            "Structure Type": "1D triangular channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "5.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Repulsed due to negative surface charge and small pore size."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to small pore size despite favorable charge interaction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments",
+            "Performance Metrics": "Preferential adsorption of smaller molecules based on pore size."
+        },
+        "Other Information": {
+            "Additional Info": "Smallest pore size in the MIL-140 series; exhibits charge-based repulsion for negatively charged molecules."
+        }
+    },
+    {
+        "Materials Name": "MIL-140C–2CO2H",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Varies depending on linker substitution",
+            "Structure Type": "1D triangular channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2,2'-dicarboxylbiphenyl-4,4'-dicarboxylic acid",
+            "Biphenyl-4,4'-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Charge-based adsorption and size compatibility",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferred adsorption due to positive charge and suitable size."
+                }
+            },
+            {
+                "Molecule Name": "difenzoquat",
+                "Molecular Size": "6.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Non-covalent interactions (NCIs)",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher affinity due to π-π interactions and charge transfer with functionalized pore walls."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Hierarchical recognition involving charge, size, and non-covalent interactions",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments and DFT calculations",
+            "Performance Metrics": "High separation factor for paraquat/difenzoquat (extremely high selectivity)."
+        },
+        "Other Information": {
+            "Additional Info": "Functionalized with -CO2H groups to enhance electron density and selective adsorption."
+        }
+    },
+    {
+        "Materials Name": "MIL-140C–2NO2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Varies depending on linker substitution",
+            "Structure Type": "1D triangular channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2,2'-dinitrobiphenyl-4,4'-dicarboxylic acid",
+            "Biphenyl-4,4'-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Charge-based adsorption and size compatibility",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferred adsorption due to positive charge and suitable size."
+                }
+            },
+            {
+                "Molecule Name": "paraquat",
+                "Molecular Size": "5.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Non-covalent interactions (NCIs)",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower affinity compared to difenzoquat due to weaker π-π interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Hierarchical recognition involving charge, size, and non-covalent interactions",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments and DFT calculations",
+            "Performance Metrics": "High separation factor for paraquat/difenzoquat (extremely high selectivity)."
+        },
+        "Other Information": {
+            "Additional Info": "Functionalized with -NO2 groups to modulate electron density and selective adsorption."
+        }
+    },
+    {
+        "Materials Name": "MIL-140E",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Varies depending on linker length",
+            "Structure Type": "1D triangular channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "4,4'-stilbenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Nile blue",
+                "Molecular Size": "6.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and non-covalent interactions",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed preferentially over larger molecules like rhodamine 6G."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine 6G",
+                "Molecular Size": "10.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size compared to Nile blue."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and optimization of non-covalent interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments and DFT calculations",
+            "Performance Metrics": "Selective adsorption of Nile blue over rhodamine 6G."
+        },
+        "Other Information": {
+            "Additional Info": "Larger pore size compared to MIL-140A/C; allows selective adsorption of medium-sized molecules."
+        }
+    },
+    {
+        "Materials Name": "MIL-140F",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.2 Å",
+            "Structure Type": "1D triangular channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "4,4'-ethyne-1,2-diyldibenzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "clopyralid",
+                "Molecular Size": "7.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Non-covalent interactions (NCIs) and size compatibility",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed due to hydrogen bonding with -CO2H groups in the framework."
+                }
+            },
+            {
+                "Molecule Name": "paraquat",
+                "Molecular Size": "5.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility and charge-based adsorption",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed due to favorable size and charge interaction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combination of size exclusion and non-covalent interactions",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments and DFT calculations",
+            "Performance Metrics": "Moderate selectivity due to larger pore size."
+        },
+        "Other Information": {
+            "Additional Info": "Largest pore size in the MIL-140 series; less selective but accommodates larger molecules."
+        }
+    },
+    {
+        "Materials Name": "MIL-101(Cr)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Over 2.5 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "5.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Charge-based adsorption",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed exclusively due to positive surface charge."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Charge repulsion",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Repelled due to unfavorable charge interaction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Charge-specific recognition at external surface",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments",
+            "Performance Metrics": "Exclusive adsorption of methyl orange over methylene blue."
+        },
+        "Other Information": {
+            "Additional Info": "Positively charged surface; mesoporous structure unsuitable for size-based sieving."
+        }
+    },
+    {
+        "Materials Name": "MIL-101(Cr)–SO3H",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Over 2.5 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "Sulfonated benzenedicarboxylic acid derivatives"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Charge-based adsorption",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed exclusively due to strong ion-ion interactions with sulfonate groups."
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "5.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Charge repulsion",
+                "Other Information": {
+                    "Test Conditions": "Neutral pH, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Repelled due to unfavorable charge interaction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Charge-specific recognition at external surface",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments",
+            "Performance Metrics": "Exclusive adsorption of methylene blue over methyl orange."
+        },
+        "Other Information": {
+            "Additional Info": "Negatively charged surface due to sulfonate groups; mesoporous structure unsuitable for size-based sieving."
+        }
+    }
+]

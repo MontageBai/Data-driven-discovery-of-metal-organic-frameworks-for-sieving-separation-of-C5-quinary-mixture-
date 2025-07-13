@@ -1,0 +1,50 @@
+[
+    {
+        "MOF Name": "mCTpBD",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.3 nm",
+            "Structure Type": "Nanoporous core-shell composite with inherent micropore structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3O4"
+        ],
+        "Ligands": [
+            "carboxyl-modiﬁed 1,3,5-triformylphloroglucinol (CTp)",
+            "benzidine (BD)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Glycopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size admission and hydrophilic interaction chromatography (HILIC)",
+                "Other Information": {
+                    "Test Conditions": "Loading buffer (ACN/H2O/TFA = 95/4.9/0.1, v/v/v), 37 °C for 30 min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enriched from standard samples (tryptic digest of HRP) and endogenous glycopeptides in human saliva. Exhibit high sensitivity of 0.5 fmol μL−1."
+                }
+            },
+            {
+                "Molecule Name": "Proteins (e.g., BSA protein)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size-exclusion, prevented from entering pore channels due to larger size.",
+                "Other Information": {
+                    "Test Conditions": "Mixture with HRP tryptic digest at mass ratios of 1:100, 1:500, and 1:1000 (w/w)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effectively excluded even at high protein mass ratios (up to 1:1000 w/w)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on pore aperture combined with hydrophilic interaction, excluding larger molecules (proteins) while admitting smaller molecules (glycopeptides).",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS, nano-LC−MS/MS, Thermogravimetry analysis (TGA), Nitrogen adsorption/desorption measurement",
+            "Performance Metrics": "High sensitivity (0.5 fmol μL−1 for glycopeptides), strong size-exclusion effect (up to 1:1000 w/w HRP digest/BSA protein), loading capacity: 30 mg g−1, glycopeptide recoveries: 84.9-90.4%, identified numerous endogenous glycopeptides (27-49) from human saliva samples."
+        },
+        "Other Information": {
+            "Additional Info": "Magnetic covalent organic framework (COF) with inherent hydrophilicity, core-shell structure (COF shell on amino group-functionalized magnetite particles). Average thickness of COF layer: 31 nm. Saturation magnetization: 50.49 emu g−1. Good reusability and stability (preserved for 10 weeks)."
+        }
+    }
+]

@@ -1,0 +1,265 @@
+[
+    {
+        "Materials Name": "UiO-66-TBP",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "Terephthalic acid",
+            "Tributyl phosphate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "uranium",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Complexation",
+                "Other Information": {
+                    "Test Conditions": "pH 5, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Optimized pH is 5 for maximum adsorption capacity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments",
+            "Performance Metrics": "Capacity: 203.5 mg/g at pH 5"
+        },
+        "Other Information": {
+            "Additional Info": "Maximum adsorption reached after 8 hours."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-AO",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "Amidoxime-functionalized ligand"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "uranium",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Complexation",
+                "Other Information": {
+                    "Test Conditions": "pH 8.25, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "EXAFS study confirmed coordination between amidoxime ligands and uranyl ions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments",
+            "Performance Metrics": "Capacity: 2.68 mg/g at pH 8.25 in seawater"
+        },
+        "Other Information": {
+            "Additional Info": "High regeneration capability; can be reused up to three cycles."
+        }
+    },
+    {
+        "Materials Name": "Fe3O4@SiO2@UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+",
+            "Fe3+"
+        ],
+        "Ligands": [
+            "Terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "uranium",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption",
+                "Other Information": {
+                    "Test Conditions": "pH 6, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption data fitted well with Langmuir isotherm and pseudo-second-order kinetic models."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments",
+            "Performance Metrics": "Capacity: 616.5 mg/g at pH 6"
+        },
+        "Other Information": {
+            "Additional Info": "Good durability and recyclability; retains 80% efficiency after five cycles."
+        }
+    },
+    {
+        "Materials Name": "nZVI/UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+",
+            "Fe0"
+        ],
+        "Ligands": [
+            "Terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "uranium",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reduction",
+                "Other Information": {
+                    "Test Conditions": "pH 6, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Optimized pH is 6 for maximum adsorption capacity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments",
+            "Performance Metrics": "Capacity: 404.86 mg/g at pH 6"
+        },
+        "Other Information": {
+            "Additional Info": "Strong regeneration capacity; only 16.6% decrease in adsorption rate after five cycles."
+        }
+    },
+    {
+        "Materials Name": "PCN-222/GO-COOH",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "Carboxylated porphyrin",
+            "Graphene oxide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "uranium",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Complexation",
+                "Other Information": {
+                    "Test Conditions": "pH 4, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Synergistic effect of GO-COOH and PCN-222 enhances adsorption."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments",
+            "Performance Metrics": "Capacity: 426 mg/g at pH 4"
+        },
+        "Other Information": {
+            "Additional Info": "Equilibrium reached within 1 hour; retains 80% efficiency after five cycles."
+        }
+    },
+    {
+        "Materials Name": "MIL-101(Cr)-TEPA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "Tetraethylenepentamine-functionalized ligand"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "uranium",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Complexation",
+                "Other Information": {
+                    "Test Conditions": "pH 4.5, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher pH values enhance adsorption capacity due to deprotonation of active sites."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments",
+            "Performance Metrics": "Capacity: 350 mg/g at pH 4.5"
+        },
+        "Other Information": {
+            "Additional Info": "Desorption efficiency is about 70% in acidic medium."
+        }
+    },
+    {
+        "Materials Name": "ZIF-67",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-Methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "uranium",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination",
+                "Other Information": {
+                    "Test Conditions": "pH 2, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity even in the presence of competitive ions like K+, Na+, Mg2+, Fe3+, Sr2+, Ca2+."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments",
+            "Performance Metrics": "Capacity: 1638.8 mg/g at pH 2"
+        },
+        "Other Information": {
+            "Additional Info": "Retains over 90% removal efficiency after five cycles."
+        }
+    }
+]

@@ -1,0 +1,104 @@
+MOF Name: UTSA-400
+
+**Inferring MOF behavior from experimental data:**
+From the provided experimental data for UTSA-400:
+*   **Propylene (C3H6):** 6.257×5.051×3.961 Å → Intermediate dimension = 5.051 Å | Adsorbed. The reason given is "Gate-opening effect facilitates selective separation" and "Strong host–guest interactions", along with "Size exclusion at sub-nanometer scale".
+*   **Propane (C3H8):** 6.552×4.354×3.970 Å → Intermediate dimension = 4.354 Å | Not Adsorbed. The reason given is "Gate-opening effect excludes C3H8" and "Size exclusion at sub-nanometer scale".
+
+Crucially, propane has a *smaller* intermediate dimension (4.354 Å) than propylene (5.051 Å), yet propane is excluded while propylene is adsorbed. This clearly indicates that UTSA-400 does not behave as a simple size exclusion sieve based solely on the intermediate molecular dimension. Instead, it exhibits a sophisticated kinetic sieving mechanism, likely a "gate-opening effect" that is highly selective based on the chemical nature (e.g., degree of unsaturation) or specific host-guest interactions, favoring alkenes (like propylene) over alkanes (like propane), even when the alkene is nominally larger. However, the mention of "Size exclusion at sub-nanometer scale" also implies there is an upper physical size limit for molecules, regardless of their chemical nature.
+
+Therefore, for prediction, we must consider:
+1.  **Molecular type:** Alkanes are likely to be excluded, similar to propane. Alkenes/dienes are likely to be adsorbed if they are of a comparable or smaller size to propylene.
+2.  **Intermediate dimension:** For alkenes, this should be compared to propylene (5.051 Å). For alkanes, compared to propane (4.354 Å).
+
+---
+
+**Evaluation of Target Guest Molecules:**
+
+**MOF Name: UTSA-400**
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Propylene (C3H6): 6.257×5.051×3.961 Å → Intermediate = 5.051 Å | Adsorbed. (Alkene, due to gate-opening)
+- Propane (C3H8): 6.552×4.354×3.970 Å → Intermediate = 4.354 Å | Not Adsorbed. (Alkane, excluded by gate-opening)
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene is an unsaturated molecule (diene), chemically similar to propylene. However, its intermediate dimension (6.093 Å) is significantly larger than that of the adsorbed propylene (5.051 Å). While UTSA-400 exhibits a gate-opening effect that facilitates adsorption of specific alkenes, the stated "size exclusion at sub-nanometer scale" mechanism suggests a physical limitation. Given the substantial increase in the intermediate dimension, isoprene's bulkiness likely exceeds the pore's flexible opening capacity, leading to its exclusion.
+
+---
+
+**MOF Name: UTSA-400**
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Propylene (C3H6): 6.257×5.051×3.961 Å → Intermediate = 5.051 Å | Adsorbed. (Alkene, due to gate-opening)
+- Propane (C3H8): 6.552×4.354×3.970 Å → Intermediate = 4.354 Å | Not Adsorbed. (Alkane, excluded by gate-opening)
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 Å → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene is an unsaturated molecule (alkene), similar to propylene. However, its intermediate dimension (5.572 Å) is larger than that of the adsorbed propylene (5.051 Å). While the gate-opening effect favors unsaturated molecules, the "size exclusion at sub-nanometer scale" implies a general size limit. The increase in intermediate dimension (~0.5 Å) compared to propylene suggests that cis-2-pentene is likely too large for effective adsorption by UTSA-400, especially considering the MOF's sensitivity to subtle size/shape differences.
+
+---
+
+**MOF Name: UTSA-400**
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Propylene (C3H6): 6.257×5.051×3.961 Å → Intermediate = 5.051 Å | Adsorbed. (Alkene, due to gate-opening)
+- Propane (C3H8): 6.552×4.354×3.970 Å → Intermediate = 4.354 Å | Not Adsorbed. (Alkane, excluded by gate-opening)
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene is an unsaturated molecule (alkene), chemically similar to propylene. Its intermediate dimension (4.995 Å) is slightly smaller than that of the adsorbed propylene (5.051 Å). Given that UTSA-400 exhibits a gate-opening effect that facilitates the adsorption of propylene, and 1-pentene is an alkene with a comparable or smaller intermediate dimension, it is highly probable that 1-pentene can be adsorbed.
+
+---
+
+**MOF Name: UTSA-400**
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Propylene (C3H6): 6.257×5.051×3.961 Å → Intermediate = 5.051 Å | Adsorbed. (Alkene, due to gate-opening)
+- Propane (C3H8): 6.552×4.354×3.970 Å → Intermediate = 4.354 Å | Not Adsorbed. (Alkane, excluded by gate-opening)
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 Å → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene is an unsaturated molecule (alkene), chemically similar to propylene. Its intermediate dimension (4.733 Å) is smaller than that of the adsorbed propylene (5.051 Å). Considering UTSA-400's observed kinetic sieving behavior, which favors alkenes via a gate-opening mechanism, and trans-2-pentene's smaller intermediate dimension compared to adsorbed propylene, it is highly probable that trans-2-pentene can be adsorbed.
+
+---
+
+**MOF Name: UTSA-400**
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Propylene (C3H6): 6.257×5.051×3.961 Å → Intermediate = 5.051 Å | Adsorbed. (Alkene, due to gate-opening)
+- Propane (C3H8): 6.552×4.354×3.970 Å → Intermediate = 4.354 Å | Not Adsorbed. (Alkane, excluded by gate-opening)
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane is a saturated alkane, similar to propane. Its intermediate dimension (4.364 Å) is very close to that of propane (4.354 Å), which was experimentally shown to be excluded by the gate-opening effect ("Gate-opening effect excludes C3H8"). Given that UTSA-400 selectively excludes alkanes and n-pentane is a larger alkane than propane, it is highly probable that n-pentane cannot be adsorbed.

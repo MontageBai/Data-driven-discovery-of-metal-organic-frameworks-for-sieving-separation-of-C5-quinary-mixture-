@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Carbonized Mil-101(Cr)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.03 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "N-linked glycans",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Carbonized Mil-101(Cr) exhibits strong interaction with N-linked glycans due to the presence of carbon and size-exclusion effect against proteins."
+                }
+            },
+            {
+                "Molecule Name": "chicken ovalbumin",
+                "Molecular Size": "4 × 5 × 7 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The nanopores exclude chicken ovalbumin protein (44 kDa)."
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "5 × 7 × 7 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The nanopores exclude bovine serum albumin protein (66 kDa)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis",
+            "Performance Metrics": "Detected 23 N-linked glycans from OVA digestion; detection limit as low as 2 ng μL-1 OVA digestion"
+        },
+        "Other Information": {
+            "Additional Info": "Carbonized Mil-101(Cr) showed high efficiency in enriching N-linked glycans from complex bio-samples such as human serum."
+        }
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Ag+@NH2-MIL-125(Ti)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.60 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti4+",
+            "Ag+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "thiophene",
+                "Molecular Size": "0.53 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport via π-complexation with Ag+ and molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "60 °C, thiophene/n-octane mixture",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The immobilized Ag+ enhances thiophene selectivity and reduces pore size to permit rapid thiophene transport while impeding n-octane."
+                }
+            },
+            {
+                "Molecule Name": "n-octane",
+                "Molecular Size": "0.63 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to reduced pore size after Ag+ immobilization",
+                "Other Information": {
+                    "Test Conditions": "60 °C, thiophene/n-octane mixture",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The effective pore size of 0.60 nm impedes the larger n-octane molecules from passing through the membrane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale facilitated by Ag+ immobilization",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Pervaporation experiment",
+            "Performance Metrics": "Permeation flux: 22.11 kg/(m²·h), Enrichment factor: 5.92"
+        },
+        "Other Information": {
+            "Additional Info": "The hybrid membrane exhibits superior separation performance due to the integration of facilitated transport and sieving mechanisms. The material also demonstrates enhanced thermostability and anti-swelling properties."
+        }
+    }
+]

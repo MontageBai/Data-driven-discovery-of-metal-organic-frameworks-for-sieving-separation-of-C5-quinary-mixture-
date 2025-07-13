@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "PdO/ZnO@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (aperture size of ZIF-8)",
+            "Structure Type": "Core-shell structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 100 sccm total flow rate",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The hydrogen molecule is small enough to pass through the ZIF-8 shell layer and reach the active PdO centers."
+                }
+            },
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "60 °C, 100 sccm total flow rate",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The methanol molecule is too large to pass through the ZIF-8 shell layer and reach the active PdO centers."
+                }
+            },
+            {
+                "Molecule Name": "isopropanol",
+                "Molecular Size": "0.47 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "60 °C, 100 sccm total flow rate",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The isopropanol molecule is too large to pass through the ZIF-8 shell layer and reach the active PdO centers."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect of the microporous ZIF-8 shell layer with a pore size of 0.34 nm",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "t90 response time reduced from 44 min (PdO/ZnO) to 2.9 min (PdO/ZnO@ZIF-8)"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 encapsulation enhances selectivity to hydrogen against larger interferents and accelerates hydrogen sorption kinetics."
+        }
+    }
+]

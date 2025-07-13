@@ -1,0 +1,346 @@
+[
+    {
+        "Materials Name": "HKUST-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong electrostatic interactions with open Cu2+ sites",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High CO2/N2 selectivity of 101 and CO2/CH4 selectivity of 7.4"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to smaller pore size compared to nitrogen",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake of nitrogen due to weaker interactions"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to smaller pore size compared to methane",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower uptake of methane compared to CO2"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Strong electrostatic interactions with open metal sites",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments and IAST calculations",
+            "Performance Metrics": "CO2/N2 selectivity: 101, CO2/CH4 selectivity: 7.4"
+        },
+        "Other Information": {
+            "Additional Info": "Presence of open Cu2+ sites enhances CO2 adsorption"
+        }
+    },
+    {
+        "Materials Name": "Mg-MOF-74",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D hexagonal channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mg2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong interactions with open Mg2+ sites",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High CO2/N2 selectivity of 182.1 and CO2/CH4 selectivity of 105.1"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and weaker interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake of nitrogen"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and weaker interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake of methane"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Open metal sites enhance selective CO2 adsorption",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "IAST calculations and breakthrough experiments",
+            "Performance Metrics": "CO2/N2 selectivity: 182.1, CO2/CH4 selectivity: 105.1"
+        },
+        "Other Information": {
+            "Additional Info": "High density of open Mg2+ sites"
+        }
+    },
+    {
+        "Materials Name": "ZIF-78",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.1 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Smaller pore size enhances CO2 adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest CO2/N2 selectivity of 50.1 and CO2/CH4 selectivity of 10.6 among tested ZIFs"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and weaker interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower uptake of nitrogen"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and weaker interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower uptake of methane"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Smaller pore size leads to higher selectivity for CO2",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "IAST calculations",
+            "Performance Metrics": "CO2/N2 selectivity: 50.1, CO2/CH4 selectivity: 10.6"
+        },
+        "Other Information": {
+            "Additional Info": "Polar functionalities in ZIF-78 further improve adsorption selectivity"
+        }
+    },
+    {
+        "Materials Name": "UTSA-16",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 x 5.4 Å",
+            "Structure Type": "Narrow pore window"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "5-nitroisophthalate",
+            "4,4'-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Optimal pore cages and strong binding sites for CO2",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High CO2/N2 selectivity of 314.7 and CO2/CH4 selectivity of 29.8"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and weaker interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake of nitrogen"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and weaker interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake of methane"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Optimal pore cages and strong binding sites for CO2",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "IAST calculations and simulated breakthrough experiments",
+            "Performance Metrics": "CO2/N2 selectivity: 314.7, CO2/CH4 selectivity: 29.8"
+        },
+        "Other Information": {
+            "Additional Info": "Presence of coordinated water is necessary for high CO2 capture"
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-3-Zn",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.84 Å",
+            "Structure Type": "Extremely narrow pore dimensions"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "SiF6"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Smallest pore size enhances CO2 adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest CO2/N2 selectivity of 1818 and CO2/CH4 selectivity of 231"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and weaker interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low uptake of nitrogen"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and weaker interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low uptake of methane"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Smallest pore size leads to highest selectivity for CO2",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "IAST calculations and breakthrough experiments",
+            "Performance Metrics": "CO2/N2 selectivity: 1818, CO2/CH4 selectivity: 231"
+        },
+        "Other Information": {
+            "Additional Info": "Smallest pore size among SIFSIX series enhances CO2 affinity"
+        }
+    },
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0 Å",
+            "Structure Type": "Six-membered ring pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic diameter smaller than pore size",
+                "Other Information": {
+                    "Test Conditions": "200 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High H2/CO2 ideal selectivity of 6.7"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic diameter larger than pore size",
+                "Other Information": {
+                    "Test Conditions": "200 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 cannot pass through the membrane"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic sieving based on molecular size",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Permeance measurements",
+            "Performance Metrics": "H2/CO2 separation factor: 6.5"
+        },
+        "Other Information": {
+            "Additional Info": "Clear cutoff between H2 and CO2"
+        }
+    }
+]

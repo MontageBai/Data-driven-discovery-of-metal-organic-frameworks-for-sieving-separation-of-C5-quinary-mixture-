@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Ca-tcpb",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.5 × 5.2 Å² and 5.5 × 4.8 Å²",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "tcpb"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexafluoropropylene",
+                "Molecular Size": "7.3 × 6.2 × 5.1 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Temperature-dependent gate-opening adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferred adsorption sites observed with multiple host-guest hydrogen bonding interactions."
+                }
+            },
+            {
+                "Molecule Name": "octafluoropropane",
+                "Molecular Size": "7.6 × 5.3 × 5.1 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to pore size mismatch",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No structural transformation or significant adsorption observed under C3F8 atmosphere."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature-modulated gating mechanism enabling molecular sieving of C3F6/C3F8 mixtures",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, IAST calculation, PXRD analysis",
+            "Performance Metrics": "C3F6/C3F8 selectivity: >10⁴ at 298 K, C3F6 uptake: 2.0 mmol g⁻¹ at 298 K and 100 kPa"
+        },
+        "Other Information": {
+            "Additional Info": "Dynamic breakthrough experiments confirm complete separation of C3F6/C3F8 mixtures under ambient conditions."
+        }
+    }
+]

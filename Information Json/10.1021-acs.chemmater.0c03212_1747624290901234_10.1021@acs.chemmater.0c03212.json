@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "α-magnesium formate (α-MgFm)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mg2+"
+        ],
+        "Ligands": [
+            "formate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, methanol vapor concentration varied stepwise in the range 0−0.8 P/P0",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity slightly lower for thin films compared to bulk powder."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "QCM porosimetry and volumetric physisorption",
+            "Performance Metrics": "Pore volume: 0.11 cm³/g (bulk powder), 0.09 cm³/g (thin film)"
+        },
+        "Other Information": {
+            "Additional Info": "Thin films exhibit superior thermal and moisture stability compared to bulk powders."
+        }
+    }
+]

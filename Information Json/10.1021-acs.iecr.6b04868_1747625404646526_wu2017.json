@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Zeolitic Imidazolate Framework-8 (ZIF-8)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.4-0.42 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sodalite",
+        "Metal Nodes": [
+            "Zn ions"
+        ],
+        "Ligands": [
+            "imidazole-based groups"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "krypton",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving, competitive adsorption, and differences in diffusivities",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, feed pressure of 138 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher diffusivity compared to xenon."
+                }
+            },
+            {
+                "Molecule Name": "xenon",
+                "Molecular Size": "0.41 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Molecular sieving, competitive adsorption, and differences in diffusivities",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, feed pressure of 138 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower diffusivity compared to krypton; preferential adsorption due to higher polarizability."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, adsorption isotherms, and IAST calculations",
+            "Performance Metrics": "Kr permeance: up to 1.5 × 10^−8 mol/m² s Pa, Kr/Xe selectivity: up to 16.1"
+        },
+        "Other Information": {
+            "Additional Info": "Membranes synthesized via solvothermal synthesis on porous tubular α-Al₂O₃ supports. Membrane thickness ranged from ~20 μm to ~30 μm."
+        }
+    }
+]

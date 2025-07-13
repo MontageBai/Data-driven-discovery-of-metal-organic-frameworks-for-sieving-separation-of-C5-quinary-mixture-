@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Ni-MOF-74/CNT",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.2 nm (main pore aperture)",
+            "Structure Type": "3D framework with vertically aligned nanopillar array"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium polysulfides",
+                "Molecular Size": "0.9–1.1 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, liquid electrolyte environment",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The dense root of the MOF nanopillar array selectively blocks lithium polysulfides while allowing Li+ ion transport."
+                }
+            },
+            {
+                "Molecule Name": "solvated Li ion (Li+(DME)3)",
+                "Molecular Size": "0.6–0.7 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving facilitated by lithiophilic sites",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, liquid electrolyte environment",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material exhibits high affinity towards Li ions due to Ni and O lithium-philic sites, promoting homogeneous Li deposition."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective blocking of lithium polysulfides through adsorption and molecular sieving, combined with facilitated transport of Li+ ions.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, visual permeation test, DFT simulation",
+            "Performance Metrics": "Li2S6 solution turned nearly colorless after 3 h with Ni-MOF-74; Energy barrier for Li+(DME)3 diffusion: 0.19 eV; Energy barrier for Li2S6(DME)4 diffusion: 0.37 eV."
+        },
+        "Other Information": {
+            "Additional Info": "The Ni-MOF-74 nanopillar array is constructed on a CNT film substrate using a secondary growth method, creating a bifunctional material that serves as both an interlayer for suppressing polysulfide shuttling and as a self-supporting anode host for inhibiting Li dendrite growth."
+        }
+    }
+]

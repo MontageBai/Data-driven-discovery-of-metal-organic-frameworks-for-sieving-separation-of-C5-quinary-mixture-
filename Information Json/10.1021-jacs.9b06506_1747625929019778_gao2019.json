@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Zeolite RHO",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "I4̅3m space group",
+        "Metal Nodes": [
+            "Silicon"
+        ],
+        "Ligands": [
+            "Oxygen"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "Varied temperatures, up to 7296 degrees of freedom considered",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Quantum effects like zero-point energy dominate; tunneling contributes to normal kinetic isotope effect but is outweighed by ZPE."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "Varied temperatures, up to 7296 degrees of freedom considered",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Deuterium exhibits smaller zero-point energy, leading to inverse kinetic isotope effect at low temperatures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum sieving based on zero-point energy and tunneling",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Canonical variational theory with small-curvature tunneling (CVT/SCT)",
+            "Performance Metrics": "KIE (kinetic isotope effect) peaks at 13 at 65 K for H2/D2 separation"
+        },
+        "Other Information": {
+            "Additional Info": "Quantum effects are significant at low temperatures; classical simulations overestimate diffusion rates."
+        }
+    }
+]

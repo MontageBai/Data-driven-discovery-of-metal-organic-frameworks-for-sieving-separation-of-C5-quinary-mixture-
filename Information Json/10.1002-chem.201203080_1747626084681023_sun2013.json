@@ -1,0 +1,187 @@
+[
+    {
+        "Materials Name": "[(CH3)2NH2]2[ZnNa2(m2-H2O)2(H2O)2(TATAT)]·2DMF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "17 x 23 Å",
+            "Structure Type": "1D mesoporous channels"
+        },
+        "Topology": "pts-x",
+        "Metal Nodes": [
+            "Zn2+",
+            "Na+"
+        ],
+        "Ligands": [
+            "5,5’,5’’-(1,3,5-triazine-2,4,6-triyl)tris(azanediyl)triisophthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ionic selectivity",
+                "Other Information": {
+                    "Test Conditions": "DMF solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cationic dye, selectively adsorbed based on ionic interaction with the anionic framework."
+                }
+            },
+            {
+                "Molecule Name": "basic red 2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ionic selectivity",
+                "Other Information": {
+                    "Test Conditions": "DMF solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cationic dye, selectively adsorbed based on ionic interaction with the anionic framework."
+                }
+            },
+            {
+                "Molecule Name": "crystal violet",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ionic selectivity",
+                "Other Information": {
+                    "Test Conditions": "DMF solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cationic dye, selectively adsorbed based on ionic interaction with the anionic framework."
+                }
+            },
+            {
+                "Molecule Name": "reactive brilliant red X-3B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Ionic exclusion",
+                "Other Information": {
+                    "Test Conditions": "DMF solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Anionic dye, not adsorbed due to repulsion from the anionic framework."
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Ionic exclusion",
+                "Other Information": {
+                    "Test Conditions": "DMF solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Anionic dye, not adsorbed due to repulsion from the anionic framework."
+                }
+            },
+            {
+                "Molecule Name": "solvent yellow 2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Ionic exclusion",
+                "Other Information": {
+                    "Test Conditions": "DMF solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Neutral dye, not adsorbed as it lacks charge interaction with the framework."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ionic selectivity for cationic dyes over anionic and neutral species.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "UV/Vis spectroscopy of dye solutions before and after interaction with the material",
+            "Performance Metrics": "Adsorption capacity: Methylene Blue 9 = 0.75 mg/g, Basic Red 2 = 0.5 mg/g, Crystal Violet = 0.7 mg/g."
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits solvatochromic behavior upon incorporation of acetone and ethanol, attributed to host-guest interactions such as hydrogen bonding."
+        }
+    },
+    {
+        "Materials Name": "[(CH3)2NH2]2[Zn(TATAT)2/3]·3DMF·H2O",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "14.3 x 11.5 Å (window size), 2.1 nm (largest inscribed ellipsoid)",
+            "Structure Type": "Chiral mesoporous cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "5,5’,5’’-(1,3,5-triazine-2,4,6-triyl)tris(azanediyl)triisophthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ionic selectivity",
+                "Other Information": {
+                    "Test Conditions": "DMF solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cationic dye, selectively adsorbed based on ionic interaction with the anionic framework."
+                }
+            },
+            {
+                "Molecule Name": "basic red 2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ionic selectivity",
+                "Other Information": {
+                    "Test Conditions": "DMF solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cationic dye, selectively adsorbed based on ionic interaction with the anionic framework."
+                }
+            },
+            {
+                "Molecule Name": "crystal violet",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ionic selectivity",
+                "Other Information": {
+                    "Test Conditions": "DMF solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cationic dye, selectively adsorbed based on ionic interaction with the anionic framework."
+                }
+            },
+            {
+                "Molecule Name": "reactive brilliant red X-3B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Ionic exclusion",
+                "Other Information": {
+                    "Test Conditions": "DMF solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Anionic dye, not adsorbed due to repulsion from the anionic framework."
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Ionic exclusion",
+                "Other Information": {
+                    "Test Conditions": "DMF solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Anionic dye, not adsorbed due to repulsion from the anionic framework."
+                }
+            },
+            {
+                "Molecule Name": "solvent yellow 2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Ionic exclusion",
+                "Other Information": {
+                    "Test Conditions": "DMF solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Neutral dye, not adsorbed as it lacks charge interaction with the framework."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ionic selectivity for cationic dyes over anionic and neutral species.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "UV/Vis spectroscopy of dye solutions before and after interaction with the material",
+            "Performance Metrics": "Adsorption capacity: Methylene Blue 9 = 0.75 mg/g, Basic Red 2 = 0.5 mg/g, Crystal Violet = 0.7 mg/g."
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits solvatochromic behavior upon incorporation of acetone and ethanol, attributed to host-guest interactions such as hydrogen bonding. It also shows solvent-dependent luminescence enhancement in toluene and benzene and quenching effects in acetone and ethanol."
+        }
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "ZIF-8/MGO membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "10-25 nm (mesopores)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: 1.17×10^-6 mol m^-2 s^-1 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/C3H8 selectivity: 2409"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6/C3H8 selectivity: 35"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "H2 permeance: 1.17×10^-6 mol m^-2 s^-1 Pa^-1; H2/C3H8 selectivity: 2409"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane is formed via an 'assembly-and-intergrowth' method where ZIF-8/MGO nanosheets are assembled into a scaffold matrix followed by intergrowth of ZIF-8 crystals."
+        }
+    }
+]

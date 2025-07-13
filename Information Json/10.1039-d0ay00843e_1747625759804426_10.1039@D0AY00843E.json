@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.6 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "silver ion",
+                "Molecular Size": "2.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Preconcentration at -1.36 V for 275 s, pH 8.5",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore window size of ZIF-8 is compatible with the effective diameter of hydrated silver ions, allowing efficient preconcentration."
+                }
+            },
+            {
+                "Molecule Name": "mercury(II) ion",
+                "Molecular Size": "5.0 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Preconcentration at -1.36 V for 275 s, pH 8.5",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The larger effective diameter of hydrated mercury(II) ions prevents diffusion into ZIF-8 channels, ensuring high selectivity against mercury."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on pore window size (2.6 Å)",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Differential Pulse Anodic Stripping Voltammetry (DPASV)",
+            "Performance Metrics": "Linear dynamic range: 1.0×10^-10 to 5.0×10^-7 M, Limit of Detection: 1.0×10^-11 M"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 modified carbon paste electrode (CPE) was used for silver ion quantitation with excellent selectivity against mercury(II)."
+        }
+    }
+]

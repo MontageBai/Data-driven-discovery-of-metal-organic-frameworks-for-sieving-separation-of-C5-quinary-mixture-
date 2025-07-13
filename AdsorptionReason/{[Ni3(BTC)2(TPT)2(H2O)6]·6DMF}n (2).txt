@@ -1,0 +1,107 @@
+MOF Name: {[Ni3(BTC)2(TPT)2(H2O)6]·6DMF}n (2)
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for {[Ni3(BTC)2(TPT)2(H2O)6]·6DMF}n (2):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Reason: Weak interaction, not size exclusion)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Conditional, Reason: Guest-induced structural transformation)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed (Conditional, Reason: Guest-induced structural transformation)
+
+The experimental data indicates that this MOF exhibits "Guest-induced structural transformation" for ethane and propane, meaning it is flexible and can adapt its structure to accommodate these molecules. This implies the MOF can accommodate molecules with intermediate dimensions up to at least 4.354 Å (propane). Critically, there is no experimental data point indicating non-adsorption *due to size exclusion* for any molecule, which makes inferring a strict upper limit for size exclusion challenging.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+While the MOF is flexible, its capacity for structural transformation has practical limits. Isoprene's intermediate dimension (6.093 Å) is significantly larger than the largest molecule confirmed to be adsorbed (propane, 4.354 Å, a difference of ~1.7 Å). Without further experimental evidence supporting such extensive structural transformation, it is highly improbable that isoprene can be adsorbed.
+
+---
+
+MOF Name: {[Ni3(BTC)2(TPT)2(H2O)6]·6DMF}n (2)
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for {[Ni3(BTC)2(TPT)2(H2O)6]·6DMF}n (2):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Reason: Weak interaction, not size exclusion)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Conditional, Reason: Guest-induced structural transformation)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed (Conditional, Reason: Guest-induced structural transformation)
+
+The MOF is flexible and undergoes "Guest-induced structural transformation" to accommodate molecules up to at least 4.354 Å (propane). There is no data explicitly showing non-adsorption due to size exclusion.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Although the MOF is flexible, cis-2-pentene's intermediate dimension (5.572 Å) is substantially larger than the largest molecule confirmed to be adsorbed (propane, 4.354 Å, a difference of ~1.2 Å). This size difference likely exceeds the practical limits of the MOF's structural transformation capacity for adsorption.
+
+---
+
+MOF Name: {[Ni3(BTC)2(TPT)2(H2O)6]·6DMF}n (2)
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for {[Ni3(BTC)2(TPT)2(H2O)6]·6DMF}n (2):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Reason: Weak interaction, not size exclusion)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Conditional, Reason: Guest-induced structural transformation)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed (Conditional, Reason: Guest-induced structural transformation)
+
+The MOF is flexible and undergoes "Guest-induced structural transformation" to accommodate molecules up to at least 4.354 Å (propane). There is no data explicitly showing non-adsorption due to size exclusion.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+While the MOF demonstrates flexibility, 1-pentene's intermediate dimension (4.995 Å) is noticeably larger than the largest molecule confirmed to be adsorbed (propane, 4.354 Å, a difference of ~0.64 Å). This difference suggests that 1-pentene likely exceeds the practical limits of the MOF's structural transformation capacity for adsorption without further experimental evidence.
+
+---
+
+MOF Name: {[Ni3(BTC)2(TPT)2(H2O)6]·6DMF}n (2)
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for {[Ni3(BTC)2(TPT)2(H2O)6]·6DMF}n (2):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Reason: Weak interaction, not size exclusion)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Conditional, Reason: Guest-induced structural transformation)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed (Conditional, Reason: Guest-induced structural transformation)
+
+The MOF exhibits "Guest-induced structural transformation" for ethane and propane, indicating significant flexibility to accommodate molecules. It has been shown to adsorb molecules with intermediate dimensions up to at least 4.354 Å (propane). The absence of "size exclusion" non-adsorption data means a rigid upper limit cannot be strictly defined.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Given the MOF's demonstrated flexibility and ability to undergo guest-induced structural transformations, trans-2-pentene's intermediate dimension (4.733 Å) is only slightly larger than propane (4.354 Å, a difference of ~0.38 Å). It is reasonable to infer that the MOF's flexibility could extend to accommodate this molecule through a similar structural transformation.
+
+---
+
+MOF Name: {[Ni3(BTC)2(TPT)2(H2O)6]·6DMF}n (2)
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for {[Ni3(BTC)2(TPT)2(H2O)6]·6DMF}n (2):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Reason: Weak interaction, not size exclusion)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Conditional, Reason: Guest-induced structural transformation)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed (Conditional, Reason: Guest-induced structural transformation)
+
+The MOF is known to undergo "Guest-induced structural transformation" for ethane and propane, demonstrating its flexibility and ability to accommodate molecules. It has been shown to adsorb molecules with intermediate dimensions up to at least 4.354 Å (propane). There is no data indicating non-adsorption *due to size exclusion*.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+N-pentane's intermediate dimension (4.364 Å) is extremely close to propane's intermediate dimension (4.354 Å), with a negligible difference of only 0.01 Å. Given the MOF's demonstrated flexibility and ability to adapt its structure to adsorb propane, it is highly probable that it can also accommodate n-pentane through a similar guest-induced structural transformation.

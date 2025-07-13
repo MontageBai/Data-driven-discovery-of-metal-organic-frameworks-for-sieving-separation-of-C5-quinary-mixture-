@@ -1,0 +1,100 @@
+[
+    {
+        "Materials Name": "ZU-610",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å, 4.7 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "copper(II)"
+        ],
+        "Ligands": [
+            "isonicotinic acid",
+            "1,2-ethanedisulfonic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3×3.3×5.7 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamically controlled adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption over CO2."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.2×3.3×5.4 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamically controlled adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less preferential adsorption compared to acetylene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Thermodynamically controlled separation process based on affinity differences.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Single-component adsorption isotherms",
+            "Performance Metrics": "C2H2 dynamic capacity: 1.83 mmol/g, CO2 dynamic capacity: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Post-synthetic heat treatment transforms it into ZU-610a."
+        }
+    },
+    {
+        "Materials Name": "ZU-610a",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.2 Å, 4.1 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "copper(II)"
+        ],
+        "Ligands": [
+            "isonicotinic acid",
+            "1,2-ethanedisulfonic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3×3.3×5.7 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to size."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.2×3.3×5.4 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Freely enters the channel."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetically controlled separation process based on molecular size difference.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Single-component adsorption isotherms",
+            "Performance Metrics": "CO2 dynamic capacity: 1.25 mmol/g, CO2/C2H2 selectivity: 207 (IAST)"
+        },
+        "Other Information": {
+            "Additional Info": "Derived from ZU-610 via post-synthetic heat treatment; exhibits ultralow regenerative energy consumption for CO2."
+        }
+    }
+]

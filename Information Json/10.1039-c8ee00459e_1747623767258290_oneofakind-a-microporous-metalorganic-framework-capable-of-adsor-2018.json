@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Ca(H2tcpb)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.5-6 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "1,2,4,5-tetrakis(4-carboxyphenyl)-benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Temperature-dependent molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "30 °C to 120 °C, up to ~120 torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity decreases at higher temperatures."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Temperature-dependent molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "30 °C to 90 °C, up to ~120 torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption at 120 °C and above."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.62 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C to 150 °C, up to ~120 torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Essentially no adsorption except at 30 °C."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature- and adsorbate-dependent size sieving",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Complete separation of ternary mixture into pure components"
+        },
+        "Other Information": {
+            "Additional Info": "Framework flexibility and adsorbate-dependent structural changes play a vital role in the observed sieving behavior."
+        }
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "MOF Name": "magMZIF-8@PDA-FcRn",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "120-240 nm",
+            "Structure Type": "Macroporous ordered structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+",
+            "Fe3O4"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "polydopamine",
+            "FcRn"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Immunoglobulin G (IgG)",
+                "Molecular Size": "8.4-13.7 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective entry into macropores and specific capture by immobilized FcRn ligands.",
+                "Other Information": {
+                    "Test Conditions": "Binding at pH 6.0, elution at pH 7.4, 37 °C.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "FcRn-binding affinity enables selective extraction of IgG."
+                }
+            },
+            {
+                "Molecule Name": "Large-sized impurities (vesicles, cellular debris, organelles)",
+                "Molecular Size": "~300-500 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion effect, as molecules are larger than pore apertures.",
+                "Other Information": {
+                    "Test Conditions": "During MSPE treatment (binding at pH 6.0).",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effectively excluded particles larger than approximately 300 nm."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving for impurities (size exclusion) combined with specific affinity binding for target biomacromolecules (IgG) within macropores.",
+        "Experimental Validation": {
+            "Method": "Nanoparticle tracking analysis (NTA), SEC column pressure monitoring, Enzyme-linked immunosorbent assay (ELISA), Scanning electron microscopy (SEM), Transmission electron microscopy (TEM), Fourier transform infrared (FT-IR) spectroscopy, X-ray diffraction (XRD).",
+            "Performance Metrics": "36.6% reduction in particle count (300-600 nm size range) in the eluate compared to nonporous material; significantly slower increase in SEC column pressure; successful FcRn immobilization with preserved IgG binding affinity; good reusability and inter-batch reproducibility (12.7%-13.9% RSD)."
+        },
+        "Other Information": {
+            "Additional Info": "Custom-designed material derived from MZIF-8. Features an exterior polydopamine (PDA) layer for enhanced acid stability, biocompatibility, and ligand conjugation. Possesses magnetic properties for rapid separation. Represents the first application of macroporous materials for size-exclusion extraction of biomacromolecules in complex biological matrices (HCCF samples)."
+        }
+    }
+]

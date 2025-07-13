@@ -1,0 +1,102 @@
+MOF Name: [BMI]2[Ca3(H2TCPP)2(μ2-OH2)2(H2O)2]
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [BMI]2[Ca3(H2TCPP)2(μ2-OH2)2(H2O)2]:
+- Oxygen (O2): 4.076×2.860×2.860 → Intermediate = **2.860 Å** | Adsorbed
+The stated reason for oxygen adsorption is "Size exclusion at sub-nanometer scale," and the Adsorption Type is "Facilitated diffusion through mesoporous channels."
+
+Inferred effective pore size of the MOF:
+The MOF is reported to adsorb oxygen (intermediate dimension of 2.860 Å), with the adsorption described as occurring due to "Size exclusion at sub-nanometer scale". This suggests that while oxygen can pass, the effective pore apertures are in the sub-nanometer range and are sufficiently size-selective such that larger molecules within this scale might be excluded. Although "mesoporous channels" are mentioned, this could refer to a larger overall channel structure while the critical pore 'windows' or bottlenecks are still sub-nanometer and govern selective passage. Therefore, we infer that the critical effective pore size is in the vicinity of 2.860 Å, making it a tight fit for oxygen and potentially excluding molecules significantly larger than oxygen due to size exclusion.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = **6.093 Å**
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å) which is known to be adsorbed under "Size exclusion at sub-nanometer scale" conditions. Given that the MOF's critical pore apertures are likely in the immediate vicinity of oxygen's size (around 2.860 Å) for size exclusion to be a primary mechanism, isoprene is too large to be adsorbed due to size exclusion.
+
+---
+
+MOF Name: [BMI]2[Ca3(H2TCPP)2(μ2-OH2)2(H2O)2]
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [BMI]2[Ca3(H2TCPP)2(μ2-OH2)2(H2O)2]:
+- Oxygen (O2): 4.076×2.860×2.860 → Intermediate = **2.860 Å** | Adsorbed
+The stated reason for oxygen adsorption is "Size exclusion at sub-nanometer scale," and the Adsorption Type is "Facilitated diffusion through mesoporous channels."
+
+Inferred effective pore size of the MOF:
+The MOF is reported to adsorb oxygen (intermediate dimension of 2.860 Å), with the adsorption described as occurring due to "Size exclusion at sub-nanometer scale". This suggests that while oxygen can pass, the effective pore apertures are in the sub-nanometer range and are sufficiently size-selective such that larger molecules within this scale might be excluded. Although "mesoporous channels" are mentioned, this could refer to a larger overall channel structure while the critical pore 'windows' or bottlenecks are still sub-nanometer and govern selective passage. Therefore, we infer that the critical effective pore size is in the vicinity of 2.860 Å, making it a tight fit for oxygen and potentially excluding molecules significantly larger than oxygen due to size exclusion.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = **5.572 Å**
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å) which is known to be adsorbed under "Size exclusion at sub-nanometer scale" conditions. Given that the MOF's critical pore apertures are likely in the immediate vicinity of oxygen's size (around 2.860 Å) for size exclusion to be a primary mechanism, cis-2-pentene is too large to be adsorbed due to size exclusion.
+
+---
+
+MOF Name: [BMI]2[Ca3(H2TCPP)2(μ2-OH2)2(H2O)2]
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [BMI]2[Ca3(H2TCPP)2(μ2-OH2)2(H2O)2]:
+- Oxygen (O2): 4.076×2.860×2.860 → Intermediate = **2.860 Å** | Adsorbed
+The stated reason for oxygen adsorption is "Size exclusion at sub-nanometer scale," and the Adsorption Type is "Facilitated diffusion through mesoporous channels."
+
+Inferred effective pore size of the MOF:
+The MOF is reported to adsorb oxygen (intermediate dimension of 2.860 Å), with the adsorption described as occurring due to "Size exclusion at sub-nanometer scale". This suggests that while oxygen can pass, the effective pore apertures are in the sub-nanometer range and are sufficiently size-selective such that larger molecules within this scale might be excluded. Although "mesoporous channels" are mentioned, this could refer to a larger overall channel structure while the critical pore 'windows' or bottlenecks are still sub-nanometer and govern selective passage. Therefore, we infer that the critical effective pore size is in the vicinity of 2.860 Å, making it a tight fit for oxygen and potentially excluding molecules significantly larger than oxygen due to size exclusion.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = **4.995 Å**
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å) which is known to be adsorbed under "Size exclusion at sub-nanometer scale" conditions. Given that the MOF's critical pore apertures are likely in the immediate vicinity of oxygen's size (around 2.860 Å) for size exclusion to be a primary mechanism, 1-pentene is too large to be adsorbed due to size exclusion.
+
+---
+
+MOF Name: [BMI]2[Ca3(H2TCPP)2(μ2-OH2)2(H2O)2]
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [BMI]2[Ca3(H2TCPP)2(μ2-OH2)2(H2O)2]:
+- Oxygen (O2): 4.076×2.860×2.860 → Intermediate = **2.860 Å** | Adsorbed
+The stated reason for oxygen adsorption is "Size exclusion at sub-nanometer scale," and the Adsorption Type is "Facilitated diffusion through mesoporous channels."
+
+Inferred effective pore size of the MOF:
+The MOF is reported to adsorb oxygen (intermediate dimension of 2.860 Å), with the adsorption described as occurring due to "Size exclusion at sub-nanometer scale". This suggests that while oxygen can pass, the effective pore apertures are in the sub-nanometer range and are sufficiently size-selective such that larger molecules within this scale might be excluded. Although "mesoporous channels" are mentioned, this could refer to a larger overall channel structure while the critical pore 'windows' or bottlenecks are still sub-nanometer and govern selective passage. Therefore, we infer that the critical effective pore size is in the vicinity of 2.860 Å, making it a tight fit for oxygen and potentially excluding molecules significantly larger than oxygen due to size exclusion.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = **4.733 Å**
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å) which is known to be adsorbed under "Size exclusion at sub-nanometer scale" conditions. Given that the MOF's critical pore apertures are likely in the immediate vicinity of oxygen's size (around 2.860 Å) for size exclusion to be a primary mechanism, trans-2-pentene is too large to be adsorbed due to size exclusion.
+
+---
+
+MOF Name: [BMI]2[Ca3(H2TCPP)2(μ2-OH2)2(H2O)2]
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [BMI]2[Ca3(H2TCPP)2(μ2-OH2)2(H2O)2]:
+- Oxygen (O2): 4.076×2.860×2.860 → Intermediate = **2.860 Å** | Adsorbed
+The stated reason for oxygen adsorption is "Size exclusion at sub-nanometer scale," and the Adsorption Type is "Facilitated diffusion through mesoporous channels."
+
+Inferred effective pore size of the MOF:
+The MOF is reported to adsorb oxygen (intermediate dimension of 2.860 Å), with the adsorption described as occurring due to "Size exclusion at sub-nanometer scale". This suggests that while oxygen can pass, the effective pore apertures are in the sub-nanometer range and are sufficiently size-selective such that larger molecules within this scale might be excluded. Although "mesoporous channels" are mentioned, this could refer to a larger overall channel structure while the critical pore 'windows' or bottlenecks are still sub-nanometer and govern selective passage. Therefore, we infer that the critical effective pore size is in the vicinity of 2.860 Å, making it a tight fit for oxygen and potentially excluding molecules significantly larger than oxygen due to size exclusion.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = **4.364 Å**
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is significantly larger than oxygen's intermediate dimension (2.860 Å) which is known to be adsorbed under "Size exclusion at sub-nanometer scale" conditions. Given that the MOF's critical pore apertures are likely in the immediate vicinity of oxygen's size (around 2.860 Å) for size exclusion to be a primary mechanism, n-pentane is too large to be adsorbed due to size exclusion.

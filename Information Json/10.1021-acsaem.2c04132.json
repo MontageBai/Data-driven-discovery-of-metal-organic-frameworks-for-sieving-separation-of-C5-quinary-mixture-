@@ -1,0 +1,101 @@
+[
+    {
+        "Materials Name": "Zn3",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 Å (PLD), 4.8 Å wide donut-shaped pore aperture",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "bcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "4-diazabicyclo[2.2.2]octane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "19-21 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced permeability observed in Pebax-based MMMs"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "19-21 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slower diffusion compared to carbon dioxide"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test using custom-built instrumentation",
+            "Performance Metrics": "CO2/N2 selectivity: up to 4.21 in Pebax-based MMMs"
+        },
+        "Other Information": {
+            "Additional Info": "Zn3 acts as a molecular sieve for CO2 over N2 separation."
+        }
+    },
+    {
+        "Materials Name": "Zn2Cd",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Slightly larger than 3.3 Å (exact value not reported)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "bcu",
+        "Metal Nodes": [
+            "Zn2+",
+            "Cd2+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "4-diazabicyclo[2.2.2]octane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Faster diffusion due to smaller kinetic diameter",
+                "Other Information": {
+                    "Test Conditions": "19-21 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced permeability observed in both Pebax- and PVDF-based MMMs"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Slower diffusion due to larger kinetic diameter",
+                "Other Information": {
+                    "Test Conditions": "19-21 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen gas can enter the pores but with slower kinetics than CO2"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic sieving based on faster diffusion of thinner gases",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation test using custom-built instrumentation",
+            "Performance Metrics": "CO2/N2 selectivity: up to 7.33 in Pebax-based MMMs"
+        },
+        "Other Information": {
+            "Additional Info": "Zn2Cd allows both CO2 and N2 to enter the pores but shows enhanced CO2 permeability due to faster diffusion kinetics."
+        }
+    }
+]

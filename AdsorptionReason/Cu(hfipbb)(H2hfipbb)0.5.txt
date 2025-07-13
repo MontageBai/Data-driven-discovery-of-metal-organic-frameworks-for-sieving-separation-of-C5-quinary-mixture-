@@ -1,0 +1,101 @@
+**MOF Name: Cu(hfipbb)(H2hfipbb)0.5**
+
+**Inferred Effective Pore Size of Cu(hfipbb)(H2hfipbb)0.5:**
+
+From the experimental data:
+*   **Propane:** 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed (Yes), Reason: Size exclusion at sub-nanometer scale, Adsorption Type: Size exclusion
+*   **Carbon dioxide:** 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes), Reason: Differentiation of gas adsorption rates based on diffusion barriers., Adsorption Type: Kinetic sieving
+*   **Methane:** 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (No), Reason: Differentiation of gas adsorption rates based on diffusion barriers., Adsorption Type: Size exclusion
+
+Strict application of the rule "Effective pore size ∈ [max_intermediate_adsorbed, min_intermediate_nonadsorbed)" for molecules where "size exclusion" is noted as the mechanism of non-adsorption leads to a contradiction based on intermediate dimensions:
+*   Maximum intermediate dimension of adsorbed molecules (considering "Size exclusion" as mechanism) = 4.354 Å (Propane).
+*   Minimum intermediate dimension of non-adsorbed molecules (due to "Size exclusion") = 3.877 Å (Methane).
+
+This implies an impossible range of [4.354 Å, 3.877 Å). This inconsistency strongly suggests that the MOF Cu(hfipbb)(H2hfipbb)0.5 does not behave as a simple geometric sieve solely based on the intermediate molecular dimension. Instead, the data points towards a complex **kinetic sieving** mechanism where molecular shape, flexibility, and specific interactions (diffusion barriers) play a dominant role. Specifically, methane (intermediate dimension 3.877 Å) is kinetically hindered from entering, while propane (intermediate dimension 4.354 Å) is adsorbed, indicating an inverse kinetic selectivity.
+
+Given this complex behavior, direct extrapolation for molecules significantly different in size or shape can be challenging. However, for prediction, we operate under the assumption that while smaller molecules might be kinetically excluded, eventually, larger molecules will also be excluded due to conventional steric hindrance, beyond a certain size. The largest adsorbed molecule confirmed by the experimental data is propane (4.354 Å).
+
+---
+
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed
+*   Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (due to kinetic/size exclusion)
+
+Isoprene Dimensions:
+*   Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+The MOF is known to adsorb propane (intermediate dimension: 4.354 Å). Isoprene has an intermediate dimension of 6.093 Å, which is approximately 1.74 Å larger than propane. This represents a very significant increase in size. While the MOF exhibits complex kinetic sieving (excluding smaller methane while adsorbing larger propane), it is highly probable that for molecules substantially larger than the largest adsorbed guest (propane), conventional steric hindrance will prevent adsorption. Therefore, isoprene is predicted not to adsorb.
+
+---
+
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed
+*   Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (due to kinetic/size exclusion)
+
+cis-2-pentene Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+The MOF is known to adsorb propane (intermediate dimension: 4.354 Å). Cis-2-pentene has an intermediate dimension of 5.572 Å, which is approximately 1.22 Å larger than propane. This is a substantial size difference. Given the MOF's demonstrated size-selective behavior (excluding methane, 3.877 Å, while adsorbing propane, 4.354 Å), it is highly probable that cis-2-pentene's larger intermediate dimension will prevent its adsorption due to steric hindrance.
+
+---
+
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed
+*   Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (due to kinetic/size exclusion)
+
+1-pentene Dimensions:
+*   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+The MOF is known to adsorb propane (intermediate dimension: 4.354 Å). 1-pentene has an intermediate dimension of 4.995 Å, which is approximately 0.64 Å larger than propane. As explained in the general inference, while the MOF exhibits complex kinetic sieving, molecules with intermediate dimensions significantly larger than the largest experimentally adsorbed molecule (propane) are expected to be excluded due to steric hindrance. Therefore, 1-pentene is predicted not to adsorb.
+
+---
+
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed
+*   Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (due to kinetic/size exclusion)
+
+trans-2-pentene Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+The MOF is known to adsorb propane (intermediate dimension: 4.354 Å). Trans-2-pentene has an intermediate dimension of 4.733 Å, which is approximately 0.38 Å larger than that of propane. Given the tight sieving control evidenced by methane's exclusion (intermediate dimension: 3.877 Å) despite being smaller than propane, and the fact that propane represents the largest adsorbed molecule in the provided data, it is likely that molecules with intermediate dimensions noticeably larger than propane's will face size exclusion or kinetic hindrance. Thus, trans-2-pentene is predicted to be too large to adsorb effectively.
+
+---
+
+**Guest Molecule: n-pentane**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed
+*   Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (due to kinetic/size exclusion)
+
+n-pentane Dimensions:
+*   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+The MOF is known to adsorb propane (intermediate dimension: 4.354 Å). N-pentane has an intermediate dimension of 4.364 Å, which is extremely close to propane's (only 0.01 Å larger). Given the similarity in intermediate size and chemical nature (both are n-alkanes), it is highly probable that n-pentane can also pass through the MOF's pores. While the MOF exhibits complex sieving behavior (methane, 3.877 Å, is excluded kinetically), the pore demonstrably accommodates molecules of propane's size, making n-pentane a likely candidate for adsorption.

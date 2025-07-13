@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "EGCG@PPP-IPN",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "1.698 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, varying transmembrane pressures from 12.5 to 150 psi",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Dye rejection performance was ∼98%."
+                }
+            },
+            {
+                "Molecule Name": "Congo Red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, varying transmembrane pressures from 12.5 to 150 psi",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Dye rejection performance was ∼98%."
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Charge-based sieving",
+                "Other Information": {
+                    "Test Conditions": "2000 ppm NaCl solution, DI water as feed, FO setup",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Salt rejection rate was 99% for monovalent ions."
+                }
+            },
+            {
+                "Molecule Name": "sodium sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Charge-based sieving",
+                "Other Information": {
+                    "Test Conditions": "2000 ppm Na2SO4 solution, DI water as feed, FO setup",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Salt rejection rate was 99.5% for divalent ions."
+                }
+            },
+            {
+                "Molecule Name": "magnesium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Charge-based sieving",
+                "Other Information": {
+                    "Test Conditions": "2000 ppm MgCl2 solution, DI water as feed, FO setup",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Salt rejection rate was 99.5% for divalent ions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "The smaller pore size (Pore diameter: 1.698 nm) of the EGCG-modified IPN membrane hinders dye molecule transport to the permeate based on the size-sieving mechanism.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Water flux ranges for EGCG@PPP-IPN from 128.2 to 585.5 LMH at 12.5 to 150 psi pressure; Dye rejection performance was ∼98%; Salt rejection rate was 99.5% for divalent ions and 99% for monovalent."
+        },
+        "Other Information": {
+            "Additional Info": "The highly negative charged (Zeta potential: −28.56 mV) EGCG-modified membrane surface would bind the positively charged dye and salt molecule by electrostatic attraction, resulting in the dye-treated permeate."
+        }
+    }
+]

@@ -1,0 +1,179 @@
+[
+    {
+        "Materials Name": "CuBDC-NO2",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.372 nm (stacking aperture)",
+            "Structure Type": "1D vertical channels constructed by in-plane pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu"
+        ],
+        "Ligands": [
+            "nitroterephthalic acid (BDC-NO2)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: 4.44 × 10−7 mol m−2 s−1 Pa−1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Gas adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption heat is relatively high, leading to increased gas diffusion resistance and lower CO2 permeance."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stacking aperture (0.372 nm) is smaller than the kinetic diameter of methane (0.38 nm)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2/CO2 selectivity: 266, H2/CH4 selectivity: 536"
+        },
+        "Other Information": {
+            "Additional Info": "CuBDC-NO2 nanosheet membranes exhibit AB0.17 stacking with reduced effective aperture suitable for efficient H2 sieving."
+        }
+    },
+    {
+        "Materials Name": "CuBDC-(Br)2",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.379 nm (stacking aperture)",
+            "Structure Type": "1D vertical channels constructed by in-plane pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu"
+        ],
+        "Ligands": [
+            "2,5-dibromoterephthalic acid (BDC-(Br)2)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance decreases with increasing linker polarity."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Gas adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Increased CO2 adsorption heat leads to higher gas diffusion resistance and lower CO2 permeance."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stacking aperture (0.379 nm) is smaller than the kinetic diameter of methane (0.38 nm)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Maximum H2/CH4 selectivity: 357, H2 permeance: 4.65 × 10−7 mol m−2 s−1 Pa−1"
+        },
+        "Other Information": {
+            "Additional Info": "CuBDC-(Br)2 nanosheet membranes adopt AA stacking without sliding due to the small polarity of linkers."
+        }
+    },
+    {
+        "Materials Name": "CuBDC-(OH)2",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.641 nm (stacking aperture)",
+            "Structure Type": "1D vertical channels constructed by in-plane pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalic acid (BDC-(OH)2)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest H2 permeance among tested MOF nanosheets."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gas adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption heat is influenced by linker polarity."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stacking aperture (0.641 nm) is larger than the kinetic diameter of methane (0.38 nm)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Highest H2 permeance: 5.63 × 10−7 mol m−2 s−1 Pa−1"
+        },
+        "Other Information": {
+            "Additional Info": "CuBDC-(OH)2 nanosheet membranes adopt AA stacking without sliding due to the small polarity of linkers."
+        }
+    }
+]

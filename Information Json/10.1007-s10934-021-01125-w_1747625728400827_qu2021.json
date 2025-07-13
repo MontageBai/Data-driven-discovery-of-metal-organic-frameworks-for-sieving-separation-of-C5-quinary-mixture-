@@ -1,0 +1,280 @@
+[
+    {
+        "Materials Name": "UiO-66/GO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.8 nm; 1.1 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr"
+        ],
+        "Ligands": [
+            "Terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced CO2 adsorption capacity compared to pure UiO-66."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Static adsorption apparatus",
+            "Performance Metrics": "CO2 adsorption capacity: 3.37 mmol/g"
+        },
+        "Other Information": {
+            "Additional Info": "Composite material shows increased specific surface area and micropore volume."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8/GO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm; 1.1 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity for hydrogen is 0.03 mmol/g."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "195 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity for CO2 is 16.5 mmol/g."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherm measurements",
+            "Performance Metrics": "SBET: 1476.4 m²/g"
+        },
+        "Other Information": {
+            "Additional Info": "Composite exhibits tunable morphology with increasing GO content transforming hexagonal ZIF-8 nanocrystals into nanospheres."
+        }
+    },
+    {
+        "Materials Name": "MIL-101/GO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe",
+            "Cr"
+        ],
+        "Ligands": [
+            "Terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity for CO2 is 22.4 mmol/g."
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "288 K, 161.8 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity for acetone is 20.1 mmol/g."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments",
+            "Performance Metrics": "SBET: 2950 m²/g"
+        },
+        "Other Information": {
+            "Additional Info": "Composite shows enhanced adsorption capacity due to higher surface area and pore volume."
+        }
+    },
+    {
+        "Materials Name": "HKUST-1/GO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu"
+        ],
+        "Ligands": [
+            "Trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "305 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity for CO2 is 2.5 mmol/g."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity for toluene is 9.1 mmol/g."
+                }
+            },
+            {
+                "Molecule Name": "ammonia",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reactive adsorption",
+                "Other Information": {
+                    "Test Conditions": "301 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity for ammonia is 13.2 mmol/g."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments",
+            "Performance Metrics": "SBET: 1015.25 m²/g"
+        },
+        "Other Information": {
+            "Additional Info": "GO enhances the dispersion force of MOF leading to improved adsorption capacities."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8(50–90wt%)/GO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm; 1.1 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "malachite green",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Composite exhibits excellent adsorption capacity for malachite green."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments",
+            "Performance Metrics": "SBET: 1476.4 m²/g"
+        },
+        "Other Information": {
+            "Additional Info": "The increase in GO concentration transforms the morphology from hexagonal to spherical."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8/GO",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm; 1.1 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity for hydrogen storage."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ideal separation selectivity of 405 for H2/C3H8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "Single gas permeances measured at different transmembrane pressure drops."
+        },
+        "Other Information": {
+            "Additional Info": "Defect-free ultrathin membrane with thickness of 100 nm."
+        }
+    }
+]

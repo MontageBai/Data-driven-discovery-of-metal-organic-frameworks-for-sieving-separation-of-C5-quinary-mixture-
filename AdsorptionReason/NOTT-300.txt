@@ -1,0 +1,98 @@
+MOF Name: NOTT-300
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Ethylene: 4.679×4.047×3.200 Å → Sorted: 3.200, **4.047**, 4.679 Å. Intermediate = 4.047 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 Å → Sorted: 4.170, **4.175**, 4.731 Å. Intermediate = 4.175 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NOTT-300 allows molecules with an intermediate dimension greater than or equal to 4.047 Å and less than 4.175 Å (due to size exclusion by ethane).
+Therefore, the inferred effective pore size of NOTT-300 is in the range [4.047 Å, 4.175 Å).
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 Å → Sorted: 3.963, **6.093**, 7.746 Å. Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the upper bound of NOTT-300's inferred effective pore size (4.175 Å), it cannot be adsorbed by NOTT-300 due to size exclusion.
+
+---
+
+MOF Name: NOTT-300
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Ethylene: 4.679×4.047×3.200 Å → Sorted: 3.200, **4.047**, 4.679 Å. Intermediate = 4.047 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 Å → Sorted: 4.170, **4.175**, 4.731 Å. Intermediate = 4.175 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NOTT-300 is in the range [4.047 Å, 4.175 Å).
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 Å → Sorted: 5.136, **5.572**, 8.067 Å. Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the upper bound of NOTT-300's inferred effective pore size (4.175 Å), it cannot be adsorbed by NOTT-300 due to size exclusion.
+
+---
+
+MOF Name: NOTT-300
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Ethylene: 4.679×4.047×3.200 Å → Sorted: 3.200, **4.047**, 4.679 Å. Intermediate = 4.047 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 Å → Sorted: 4.170, **4.175**, 4.731 Å. Intermediate = 4.175 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NOTT-300 is in the range [4.047 Å, 4.175 Å).
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 Å → Sorted: 4.897, **4.995**, 8.847 Å. Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the upper bound of NOTT-300's inferred effective pore size (4.175 Å), it cannot be adsorbed by NOTT-300 due to size exclusion.
+
+---
+
+MOF Name: NOTT-300
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Ethylene: 4.679×4.047×3.200 Å → Sorted: 3.200, **4.047**, 4.679 Å. Intermediate = 4.047 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 Å → Sorted: 4.170, **4.175**, 4.731 Å. Intermediate = 4.175 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NOTT-300 is in the range [4.047 Å, 4.175 Å).
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 Å → Sorted: 4.564, **4.733**, 8.796 Å. Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the upper bound of NOTT-300's inferred effective pore size (4.175 Å), it cannot be adsorbed by NOTT-300 due to size exclusion.
+
+---
+
+MOF Name: NOTT-300
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Ethylene: 4.679×4.047×3.200 Å → Sorted: 3.200, **4.047**, 4.679 Å. Intermediate = 4.047 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 Å → Sorted: 4.170, **4.175**, 4.731 Å. Intermediate = 4.175 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NOTT-300 is in the range [4.047 Å, 4.175 Å).
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 Å → Sorted: 3.969, **4.364**, 9.118 Å. Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is larger than the upper bound of NOTT-300's inferred effective pore size (4.175 Å), it cannot be adsorbed by NOTT-300 due to size exclusion.

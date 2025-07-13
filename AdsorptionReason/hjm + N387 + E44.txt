@@ -1,0 +1,92 @@
+MOF Name: hjm + N387 + E44
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of hjm + N387 + E44: The adsorption of carbon dioxide (intermediate dimension 3.200 Å) with the stated mechanism "Size exclusion at sub-nanometer scale" implies that the MOF's pores are precisely sized to allow small molecules around this dimension, and are likely restrictive for molecules significantly larger. While a precise upper limit for exclusion isn't given by a "No" data point, the mechanism suggests tight molecular discrimination at the sub-nanometer level.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than carbon dioxide's intermediate dimension (3.200 Å), and the MOF exhibits a "Size exclusion at sub-nanometer scale" mechanism, it is highly probable that isoprene would be excluded due to the limited pore size of hjm + N387 + E44.
+
+---
+
+MOF Name: hjm + N387 + E44
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of hjm + N387 + E44: The adsorption of carbon dioxide (intermediate dimension 3.200 Å) with the stated mechanism "Size exclusion at sub-nanometer scale" implies that the MOF's pores are precisely sized to allow small molecules around this dimension, and are likely restrictive for molecules significantly larger. While a precise upper limit for exclusion isn't given by a "No" data point, the mechanism suggests tight molecular discrimination at the sub-nanometer level.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than carbon dioxide's intermediate dimension (3.200 Å), and the MOF exhibits a "Size exclusion at sub-nanometer scale" mechanism, it is highly probable that cis-2-pentene would be excluded due to the limited pore size of hjm + N387 + E44.
+
+---
+
+MOF Name: hjm + N387 + E44
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of hjm + N387 + E44: The adsorption of carbon dioxide (intermediate dimension 3.200 Å) with the stated mechanism "Size exclusion at sub-nanometer scale" implies that the MOF's pores are precisely sized to allow small molecules around this dimension, and are likely restrictive for molecules significantly larger. While a precise upper limit for exclusion isn't given by a "No" data point, the mechanism suggests tight molecular discrimination at the sub-nanometer level.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than carbon dioxide's intermediate dimension (3.200 Å), and the MOF exhibits a "Size exclusion at sub-nanometer scale" mechanism, it is highly probable that 1-pentene would be excluded due to the limited pore size of hjm + N387 + E44.
+
+---
+
+MOF Name: hjm + N387 + E44
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of hjm + N387 + E44: The adsorption of carbon dioxide (intermediate dimension 3.200 Å) with the stated mechanism "Size exclusion at sub-nanometer scale" implies that the MOF's pores are precisely sized to allow small molecules around this dimension, and are likely restrictive for molecules significantly larger. While a precise upper limit for exclusion isn't given by a "No" data point, the mechanism suggests tight molecular discrimination at the sub-nanometer level.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than carbon dioxide's intermediate dimension (3.200 Å), and the MOF exhibits a "Size exclusion at sub-nanometer scale" mechanism, it is highly probable that trans-2-pentene would be excluded due to the limited pore size of hjm + N387 + E44.
+
+---
+
+MOF Name: hjm + N387 + E44
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale)
+
+Inferred effective pore size of hjm + N387 + E44: The adsorption of carbon dioxide (intermediate dimension 3.200 Å) with the stated mechanism "Size exclusion at sub-nanometer scale" implies that the MOF's pores are precisely sized to allow small molecules around this dimension, and are likely restrictive for molecules significantly larger. While a precise upper limit for exclusion isn't given by a "No" data point, the mechanism suggests tight molecular discrimination at the sub-nanometer level.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than carbon dioxide's intermediate dimension (3.200 Å), and the MOF exhibits a "Size exclusion at sub-nanometer scale" mechanism, it is highly probable that n-pentane would be excluded due to the limited pore size of hjm + N387 + E44.

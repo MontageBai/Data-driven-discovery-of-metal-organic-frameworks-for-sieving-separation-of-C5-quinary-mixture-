@@ -1,0 +1,100 @@
+[
+    {
+        "Materials Name": "Cd(L)(bpy)· 4H2O · 2.5DMF (2)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.1 × 1.9 nm²",
+            "Structure Type": "3D open framework with pillared-layer structure"
+        },
+        "Topology": "6-connected R-Po net with Schläfli symbol (4¹²6³)",
+        "Metal Nodes": [
+            "Cd(II)"
+        ],
+        "Ligands": [
+            "4,4′-bipyridine (bpy)",
+            "2-amino-1,4-benzenedicarboxylic acid (L)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Rhodamine 6G",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller than the pore size of MOF 2."
+                }
+            },
+            {
+                "Molecule Name": "Brilliant Blue R-250",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger than the pore size of MOF 2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Liquid chromatography separation",
+            "Performance Metrics": "Successful separation of Rhodamine 6G and Brilliant Blue R-250 dyes"
+        },
+        "Other Information": {
+            "Additional Info": "Reversibly transformable to mesoporous MOF 3; potential luminescent probe after desolvation."
+        }
+    },
+    {
+        "Materials Name": "Cd(L)(bpy)· 4.5H2O · 3DMF (3)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.8 × 2.3 nm² (hexagonal channel), triangular channels also present",
+            "Structure Type": "3D open framework with pillared-layer structure"
+        },
+        "Topology": "6-connected kag net with Schläfli symbol (3² · 4⁸ · 6⁵)",
+        "Metal Nodes": [
+            "Cd(II)"
+        ],
+        "Ligands": [
+            "4,4′-bipyridine (bpy)",
+            "2-amino-1,4-benzenedicarboxylic acid (L)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Rhodamine 6G",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller than the pore size of MOF 3."
+                }
+            },
+            {
+                "Molecule Name": "Brilliant Blue R-250",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger than the pore size of MOF 3."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer to nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Liquid chromatography separation",
+            "Performance Metrics": "Successful separation of Rhodamine 6G and Brilliant Blue R-250 dyes"
+        },
+        "Other Information": {
+            "Additional Info": "Reversibly transformable to microporous MOF 2; first report of a mesoporous MOF as an LC stationary phase for large dye separation."
+        }
+    }
+]

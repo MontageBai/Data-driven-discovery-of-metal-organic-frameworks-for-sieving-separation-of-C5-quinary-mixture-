@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Fe3O4@mSiO2-PFIL-Ti4+",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.13 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti4+"
+        ],
+        "Ligands": [
+            "phosphonate functionalized ionic liquid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material shows excellent specificity, sensitivity, and size-exclusion ability for phosphopeptides."
+                }
+            },
+            {
+                "Molecule Name": "nonphosphorylated proteins (BSA)",
+                "Molecular Size": "about 8 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nonphosphorylated proteins are excluded due to their larger size compared to the pore size of the material."
+                }
+            },
+            {
+                "Molecule Name": "phosphorylated proteins (b-casein)",
+                "Molecular Size": "about 12 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Phosphorylated proteins are excluded due to their larger size compared to the pore size of the material."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS spectra",
+            "Performance Metrics": "Detection of phosphopeptides with high sensitivity and selectivity; low detection limit of 0.08 fmol"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits strong hydrophilicity, fast magnetic response, and excellent recyclability without significant loss of enrichment ability."
+        }
+    }
+]

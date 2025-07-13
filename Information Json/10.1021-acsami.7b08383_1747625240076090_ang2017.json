@@ -1,0 +1,212 @@
+[
+    {
+        "Materials Name": "Zn-TCP(Fe)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "1.20 nm (dominant pore size), 0.97 nm (interlayer spacing)",
+            "Structure Type": "2D nanosheets with periodic porous framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "TCP(Fe) complex"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methyl red",
+                "Molecular Size": "0.8 x 1.1 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.01 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate > 90%"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "1.4 x 0.9 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic attraction",
+                "Other Information": {
+                    "Test Conditions": "0.01 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate < 50% due to positive charge slipping through negatively charged membrane"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "1.0 x 1.2 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.01 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate > 90%"
+                }
+            },
+            {
+                "Molecule Name": "brilliant blue G",
+                "Molecular Size": "1.6 x 1.9 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.01 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate > 90%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Physical size sieving and electrostatic repulsion",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Vacuum filtration setup for low-pressure (<1 bar) and dead-end filtration device for high-pressure (≥1 bar)",
+            "Performance Metrics": "Water permeance: 2120 L m−2 h−1 bar−1, Rejection rates: methyl red > 98%, methyl orange > 90%, brilliant blue G > 90%"
+        },
+        "Other Information": {
+            "Additional Info": "Polycation-regulated assembly enhances performance further."
+        }
+    },
+    {
+        "Materials Name": "PEI/Zn-TCP(Fe)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.20 nm (dominant pore size), 0.93 nm (interlayer spacing)",
+            "Structure Type": "2D nanosheets with periodic porous framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "TCP(Fe) complex"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methyl red",
+                "Molecular Size": "0.8 x 1.1 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.01 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate > 90%"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "1.4 x 0.9 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "0.01 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate significantly improved compared to pristine Zn-TCP(Fe)"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "1.0 x 1.2 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.01 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate > 90%"
+                }
+            },
+            {
+                "Molecule Name": "brilliant blue G",
+                "Molecular Size": "1.6 x 1.9 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.01 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate > 90%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Physical size sieving and enhanced electrostatic repulsion via polycation regulation",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Vacuum filtration setup for low-pressure (<1 bar) and dead-end filtration device for high-pressure (≥1 bar)",
+            "Performance Metrics": "Water permeance: 4243 L m−2 h−1 bar−1, Rejection rates: methyl red > 90%, methyl orange > 90%, brilliant blue G > 90%"
+        },
+        "Other Information": {
+            "Additional Info": "Polycation cross-linking reduces thickness and improves rejection rates."
+        }
+    },
+    {
+        "Materials Name": "PDDA/Zn-TCP(Fe)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.20 nm (dominant pore size), 0.93 nm (interlayer spacing)",
+            "Structure Type": "2D nanosheets with periodic porous framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "TCP(Fe) complex"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methyl red",
+                "Molecular Size": "0.8 x 1.1 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.01 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate > 90%"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "1.4 x 0.9 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "0.01 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate significantly improved compared to pristine Zn-TCP(Fe)"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "1.0 x 1.2 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.01 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate > 90%"
+                }
+            },
+            {
+                "Molecule Name": "brilliant blue G",
+                "Molecular Size": "1.6 x 1.9 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.01 bar, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate > 90%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Physical size sieving and enhanced electrostatic repulsion via polycation regulation",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Vacuum filtration setup for low-pressure (<1 bar) and dead-end filtration device for high-pressure (≥1 bar)",
+            "Performance Metrics": "Water permeance: Comparable to PEI/Zn-TCP(Fe), Rejection rates: methyl red > 90%, methyl orange > 90%, brilliant blue G > 90%"
+        },
+        "Other Information": {
+            "Additional Info": "Polycation cross-linking reduces thickness and improves rejection rates."
+        }
+    }
+]

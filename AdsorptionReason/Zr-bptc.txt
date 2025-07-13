@@ -1,0 +1,81 @@
+MOF Name: Zr-bptc
+
+Detailed Reasoning for Zr-bptc:
+
+To infer the effective pore size and selective adsorption behavior of Zr-bptc, we analyze the provided experimental data and the intermediate dimensions of the guest molecules:
+
+**Known Adsorption Data for Zr-bptc:**
+
+*   **hexane**: 10.359×4.607×3.969 → Intermediate = **4.607 Å** | **Adsorbed** (Reason: Selective molecular exclusion of branched alkanes, Molecular sieving)
+*   **3-methylpentane**: 9.052×6.008×4.985 → Intermediate = **6.008 Å** | **Not Adsorbed** (Reason: Size-exclusion based separation where linear alkanes are adsorbed while branched isomers are excluded., Molecular sieving)
+*   **2,3-dimethylbutane**: 7.778×6.170×5.399 → Intermediate = **6.170 Å** | **Not Adsorbed** (Reason: Size-exclusion based separation where linear alkanes are adsorbed while branched isomers are excluded., Size exclusion)
+*   **2,2-dimethylbutane**: 7.829×5.502×6.545 → Intermediate = **6.545 Å** | **Not Adsorbed** (Reason: Selective molecular exclusion of branched alkanes, Molecular sieving)
+
+**Inferred Effective Pore Size and Selectivity of Zr-bptc:**
+
+1.  **Linear Molecules:** The largest intermediate dimension of an *adsorbed linear* molecule is **hexane (4.607 Å)**. The experimental data explicitly states "linear alkanes are adsorbed." This suggests the MOF can accommodate linear molecules of at least this size, and potentially larger, provided they maintain a linear conformation.
+2.  **Branched Molecules:** The smallest intermediate dimension of a *non-adsorbed branched* molecule is **3-methylpentane (6.008 Å)**. The experimental data consistently indicates "size-exclusion based separation where linear alkanes are adsorbed while branched isomers are excluded" and "Selective molecular exclusion of branched alkanes." This implies a strong shape-selectivity or kinetic sieving effect where branched molecules are preferentially excluded, even if their intermediate dimension might suggest a marginal fit.
+
+Therefore, the inferred effective pore size of Zr-bptc is such that it allows linear molecules with an intermediate dimension of at least 4.607 Å. Crucially, it shows a strong preference for linear molecules and effectively excludes branched isomers, with exclusion observed for branched molecules with intermediate dimensions starting from 6.008 Å and above. This is a kinetic sieving mechanism driven by shape.
+
+---
+
+**Evaluation of Target Guest Molecules:**
+
+**MOF Name: Zr-bptc**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   Isoprene Dimensions: 7.746×6.093×3.963 → Intermediate = **6.093 Å**
+*   Isoprene is a branched diene.
+*   Comparison: The intermediate dimension of isoprene (6.093 Å) is larger than the smallest intermediate dimension of a non-adsorbed branched molecule (3-methylpentane, 6.008 Å). Given the explicit exclusion of branched isomers by Zr-bptc, isoprene cannot be adsorbed.
+
+---
+
+**MOF Name: Zr-bptc**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 → Intermediate = **5.572 Å**
+*   cis-2-pentene is a branched alkene (due to the cis configuration and methyl groups, it is not considered linear).
+*   Comparison: While its intermediate dimension (5.572 Å) is smaller than the smallest explicitly non-adsorbed branched alkane (3-methylpentane, 6.008 Å), it is still larger than the largest adsorbed linear alkane (hexane, 4.607 Å). More importantly, Zr-bptc exhibits strong "selective molecular exclusion of branched alkanes/isomers." This kinetic sieving effect based on molecular shape will prevent the adsorption of cis-2-pentene despite its numerical intermediate size being slightly below the 3-methylpentane threshold.
+
+---
+
+**MOF Name: Zr-bptc**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   1-pentene Dimensions: 8.847×4.995×4.897 → Intermediate = **4.995 Å**
+*   1-pentene is a linear alkene.
+*   Comparison: Its intermediate dimension (4.995 Å) is larger than the adsorbed linear hexane (4.607 Å). However, the MOF explicitly states that "linear alkanes are adsorbed" and the exclusion is primarily for "branched isomers." Since 1-pentene is linear and its intermediate dimension is still significantly smaller than the smallest excluded branched molecule (3-methylpentane, 6.008 Å), it is expected to be adsorbed.
+
+---
+
+**MOF Name: Zr-bptc**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 → Intermediate = **4.733 Å**
+*   trans-2-pentene is a branched alkene.
+*   Comparison: Its intermediate dimension (4.733 Å) is very close to the adsorbed linear hexane (4.607 Å). However, similar to cis-2-pentene, trans-2-pentene is a branched molecule. Zr-bptc's strong "selective molecular exclusion of branched alkanes/isomers" will likely prevent its adsorption due to kinetic sieving based on molecular shape.
+
+---
+
+**MOF Name: Zr-bptc**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   n-pentane Dimensions: 9.118×4.364×3.969 → Intermediate = **4.364 Å**
+*   n-pentane is a linear alkane.
+*   Comparison: Its intermediate dimension (4.364 Å) is smaller than the adsorbed linear hexane (4.607 Å). As Zr-bptc is known to adsorb linear alkanes, n-pentane will be readily adsorbed.

@@ -1,0 +1,591 @@
+[
+    {
+        "Materials Name": "COF-300",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.78 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "furfural",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "80°C, 1 wt% furfural aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The COF-300/PDMS MMM showed a 42.7% higher furfural selectivity and a 14.1% higher permeability than pure PDMS membranes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Permeability increased by 14.1%, Selectivity increased by 42.7%"
+        },
+        "Other Information": {
+            "Additional Info": "COF-300 was blended with PDMS to form mixed matrix membranes (MMMs). The hydrophilicity of the MMMs was reduced, restricting water permeation while enhancing furfural permeability."
+        }
+    },
+    {
+        "Materials Name": "TpPa-2",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport through nanochannels",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "TpPa-2(MW)/PSf membrane showed a 67% higher pure water permeability compared to PSf membrane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Facilitated transport through nanochannels",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Permeability measurement",
+            "Performance Metrics": "Pure water permeability: 3775 L m−2 h−1"
+        },
+        "Other Information": {
+            "Additional Info": "TpPa-2 was incorporated into PSf via microwave-assisted synthesis to improve water purification performance."
+        }
+    },
+    {
+        "Materials Name": "COF-LZU1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "dye molecules",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "COF-LZU1-based membrane exhibited high flux and rejection for dye separation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Nanofiltration experiment",
+            "Performance Metrics": "High flux, high rejection rate for dyes"
+        },
+        "Other Information": {
+            "Additional Info": "COF-LZU1 was grown on alumina tubes via in-situ growth method to form defect-free membranes."
+        }
+    },
+    {
+        "Materials Name": "TpEB−PAN",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "10-20 nm",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport through nanochannels",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Incorporation of TpEB increased pore density from 63 pores μm−2 to 146 pores μm−2, enhancing water flux."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Facilitated transport through nanochannels",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Water flux measurement",
+            "Performance Metrics": "Pore density increased by 132%"
+        },
+        "Other Information": {
+            "Additional Info": "TpEB was grown in-situ on PAN membranes."
+        }
+    },
+    {
+        "Materials Name": "COF-MOF composite (COF-300/Zn2(bdc)2(dabco))",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "<20 Å",
+            "Structure Type": "Mixed-dimensional cage-like structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "bdc",
+            "dabco"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport through ultramicropores",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "COF-MOF composite exhibited high H2/CO2 selectivity."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The composite membrane surpassed the Robeson upper bound for H2/CO2 separation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ultramicropore-in-nanopore channels facilitating preferential H2 transport",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test",
+            "Performance Metrics": "H2/CO2 selectivity significantly improved"
+        },
+        "Other Information": {
+            "Additional Info": "COF-300 and Zn2(bdc)2(dabco) were combined to create a composite membrane for gas separation."
+        }
+    },
+    {
+        "Materials Name": "SNW-1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport through intrinsic nanochannels",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SNW-1 enhanced CO2 diffusivity when incorporated into PIM-1."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/CH4 selectivity improved by 27%."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Intrinsic microporous channels enabling selective CO2 diffusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test",
+            "Performance Metrics": "CO2/CH4 selectivity increased by 27%"
+        },
+        "Other Information": {
+            "Additional Info": "SNW-1 was synthesized using Schiff base chemistry and incorporated into PIM-1."
+        }
+    },
+    {
+        "Materials Name": "TpAZO",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "protons",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Grotthuss-type proton conduction",
+                "Other Information": {
+                    "Test Conditions": "340 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Proton conductivity of PA@TpAZO was 6.7 × 10−5 S cm−1 at 340 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Grotthuss-type proton hopping facilitated by hydrogen bonding",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Proton conductivity measurement",
+            "Performance Metrics": "Proton conductivity: 6.7 × 10−5 S cm−1 at 340 K"
+        },
+        "Other Information": {
+            "Additional Info": "TpAZO was functionalized with phosphoric acid to enhance proton conductivity."
+        }
+    },
+    {
+        "Materials Name": "TpPa-Py",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "protons",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Grotthuss-type proton conduction",
+                "Other Information": {
+                    "Test Conditions": "393 K, anhydrous conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Proton conductivity of TpPa-Py was 3.0 × 10−4 S cm−1."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Grotthuss-type proton hopping facilitated by hydrogen bonding",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Proton conductivity measurement",
+            "Performance Metrics": "Proton conductivity: 3.0 × 10−4 S cm−1 at 393 K"
+        },
+        "Other Information": {
+            "Additional Info": "Pyridine-based COFs were developed to enhance proton conductivity."
+        }
+    },
+    {
+        "Materials Name": "NUS-10",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "protons",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Grotthuss-type proton conduction",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 97% RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Proton conductivity of NUS-10(R) was 3.96 × 10−2 S cm−1."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Grotthuss-type proton hopping facilitated by sulfonic acid groups",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Proton conductivity measurement",
+            "Performance Metrics": "Proton conductivity: 3.96 × 10−2 S cm−1 at room temperature"
+        },
+        "Other Information": {
+            "Additional Info": "NUS-10 contained dense sulfonic acid groups to facilitate proton conduction."
+        }
+    },
+    {
+        "Materials Name": "TpPa-SO3H",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "API compounds",
+                "Molecular Size": "200-300 g mol−1",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "TpPa-SO3H demonstrated exceptional rejection capabilities for small API compounds."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Nanofiltration test",
+            "Performance Metrics": "High rejection for API compounds"
+        },
+        "Other Information": {
+            "Additional Info": "TpPa-SO3H was synthesized via diffusion and solvent co-mediation and coated onto yttria-stabilized zirconia hollow fiber substrates."
+        }
+    },
+    {
+        "Materials Name": "TpTGCl@CNFs-5/PAN",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.45 nm",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The membrane showed a high separation factor of 3876 for n-butanol/water separation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Prevention of larger molecule passage via molecular sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Nanofiltration test",
+            "Performance Metrics": "Separation factor: 3876, Flux: 8.53 L m−2 h−1"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane prevented n-butanol molecules from passing through while allowing water transport."
+        }
+    },
+    {
+        "Materials Name": "COF-DhaTab/PAN",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oil",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Superoleophobicity under water",
+                "Other Information": {
+                    "Test Conditions": "Gravity-driven filtration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The membrane showed superoleophobicity under water with a contact angle > 150°."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Surface wettability control for oil rejection",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Oil-water emulsion separation test",
+            "Performance Metrics": "Rejection rate: 99.9%, Oil/water flux: 4229.29 L m−2 h−1"
+        },
+        "Other Information": {
+            "Additional Info": "Bioinspired spindle-knotted structure enhanced antifouling properties."
+        }
+    },
+    {
+        "Materials Name": "COF-TpDd-AO2",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "uranium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chelation interaction with amidoxime groups",
+                "Other Information": {
+                    "Test Conditions": "pH range 5.0–9.0",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "COF-TpDd-AO2 achieved over 99.2% uranium removal efficiency."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chelation-based sieving",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption test",
+            "Performance Metrics": "Uranium removal efficiency: >99.2%"
+        },
+        "Other Information": {
+            "Additional Info": "COF-TpDd-AO2 incorporated two amidoxime groups for enhanced uranium binding affinity."
+        }
+    },
+    {
+        "Materials Name": "ACOF-1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport through ultramicropores",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ACOF-1 showed high H2/CO2 selectivity."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ACOF-1 exhibited superior gas separation performance."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ultramicropore-in-nanopore channels facilitating preferential H2 transport",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test",
+            "Performance Metrics": "H2/CO2 selectivity significantly improved"
+        },
+        "Other Information": {
+            "Additional Info": "ACOF-1 was fabricated via solvothermal method as part of a bilayer membrane."
+        }
+    },
+    {
+        "Materials Name": "TpPa-1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.69–0.705 nm",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "salt ions",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Salt rejection rate exceeded 98%."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Narrow pore size distribution enabling selective ion rejection",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Nanofiltration test",
+            "Performance Metrics": "Salt rejection: >98%"
+        },
+        "Other Information": {
+            "Additional Info": "TpPa-1 was fabricated via layer-by-layer stacking on a porous substrate."
+        }
+    }
+]

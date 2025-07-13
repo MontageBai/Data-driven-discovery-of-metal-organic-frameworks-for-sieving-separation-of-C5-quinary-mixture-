@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "Ni2+-Ti3C2Tx/Al2O3",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "12.68 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrogen permeance of 8.35 × 10^-8 mol·m^-2·s^-1·Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor for H2/CO2 is 615"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor for H2/N2 is 154.48"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.384 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor for H2/CH4 is 147.27"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2/CO2 selectivity: 615, H2 permeance: 8.35 × 10^-8 mol·m^-2·s^-1·Pa^-1"
+        },
+        "Other Information": {
+            "Additional Info": "The Ni2+ intercalated MXene membrane maintained constant selectivity and permeation properties over a 200-hour stability test."
+        }
+    }
+]

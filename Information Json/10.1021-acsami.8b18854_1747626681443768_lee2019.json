@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "CHA_100",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.37 x 0.42 nm²",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, wet conditions (49.5 kPa CO2/49.5 kPa N2/3 kPa H2O vapor)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/N2 SF: ~13.4 at 30 °C under wet conditions"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, wet conditions (49.5 kPa CO2/49.5 kPa N2/3 kPa H2O vapor)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/N2 SF: ~13.4 at 30 °C under wet conditions"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, wet conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/CH4 SF: ~37.2 at 30 °C under wet conditions"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "CO2/N2 selectivity: ~13.4, CO2/CH4 selectivity: ~37.2 at 30 °C under wet conditions"
+        },
+        "Other Information": {
+            "Additional Info": "The CHA_100 membrane showed improved CO2/N2 and CO2/CH4 separation performance under wet conditions compared to dry conditions."
+        }
+    },
+    {
+        "Materials Name": "CHA_∞",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.37 x 0.42 nm²",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, wet conditions (49.5 kPa CO2/49.5 kPa N2/3 kPa H2O vapor)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/N2 SF: ~9.7 at 30 °C under wet conditions"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, wet conditions (49.5 kPa CO2/49.5 kPa N2/3 kPa H2O vapor)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/N2 SF: ~9.7 at 30 °C under wet conditions"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, wet conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/CH4 SF: ~16.5 at 30 °C under wet conditions"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "CO2/N2 selectivity: ~9.7, CO2/CH4 selectivity: ~16.5 at 30 °C under wet conditions"
+        },
+        "Other Information": {
+            "Additional Info": "The CHA_∞ membrane exhibited a steady CO2/N2 SF at ca. 30−75 °C, indicating robustness with respect to temperature fluctuations."
+        }
+    }
+]

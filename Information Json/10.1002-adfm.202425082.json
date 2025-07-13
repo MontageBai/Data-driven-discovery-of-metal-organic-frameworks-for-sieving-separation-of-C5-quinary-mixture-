@@ -1,0 +1,105 @@
+[
+    {
+        "Materials Name": "defective MOF-525",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "12.5 Å (average diameter of inner pore)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6 cluster"
+        ],
+        "Ligands": [
+            "tetra-carboxyphenyl porphyrin (H4TCPP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sarin",
+                "Molecular Size": "8.26 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and chemical activity-based sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Electrostatic potential (ESP) around P atom: within 16.5–28.6 kcal mol−1 range"
+                }
+            },
+            {
+                "Molecule Name": "soman",
+                "Molecular Size": "9.51 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and chemical activity-based sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Electrostatic potential (ESP) around P atom: within 16.5–28.6 kcal mol−1 range"
+                }
+            },
+            {
+                "Molecule Name": "VX",
+                "Molecular Size": "11.75 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large molecular dimension prevents diffusion through pores"
+                }
+            },
+            {
+                "Molecule Name": "tabun",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chemical activity-based sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low electrophilicity prevents coordination with Zr cluster"
+                }
+            },
+            {
+                "Molecule Name": "diisopropyl fluorophosphate (DFP)",
+                "Molecular Size": "10.42 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and chemical activity-based sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Simulant for nerve agents; exhibits red fluorescence turn-on response"
+                }
+            },
+            {
+                "Molecule Name": "tributyl phosphate (TBP)",
+                "Molecular Size": "14.51 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large molecular dimension hinders diffusion through pores"
+                }
+            },
+            {
+                "Molecule Name": "triethyl phosphate (TEP)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chemical activity-based sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low ESP value prevents coordination with Zr cluster"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic sieving effect of chemical activity and molecular dimension",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Fluorescence sensing, XPS, FT-IR, theoretical calculations",
+            "Performance Metrics": "Highly sensitive (0.96 nm), rapid response (<1 s), LOD for sarin vapor: 3.8 ppb"
+        },
+        "Other Information": {
+            "Additional Info": "Defect-engineered MOF-525 with 60% deficiency level shows optimal performance for detecting phosphoryl fluoride nerve agents."
+        }
+    }
+]

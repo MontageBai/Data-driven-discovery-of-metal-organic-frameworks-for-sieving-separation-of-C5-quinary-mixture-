@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "YSCCNs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.5-3.0 nm (shell pore channel), 100-200 nm (interstitial holes)",
+            "Structure Type": "yolk-shell structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+",
+            "Co3+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "bisphenol A",
+                "Molecular Size": "1.07 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 8.23, 0.15 g L-1 PMS",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Degradation rate constant k = 0.32 min-1 in the presence of HA."
+                }
+            },
+            {
+                "Molecule Name": "humic acid",
+                "Molecular Size": "1.093 µm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 8.23, 0.15 g L-1 PMS",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Humic acid is excluded due to its larger size compared to the pore size of YSCCNs."
+                }
+            },
+            {
+                "Molecule Name": "4-chlorophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 8.23, 0.15 g L-1 PMS",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows a slight decrease in degradation rate (~19%) in the presence of HA."
+                }
+            },
+            {
+                "Molecule Name": "tetracycline hydrochloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 8.23, 0.15 g L-1 PMS",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exhibits an impressive decline in degradation rate (~46%) in the presence of HA; 24% cannot be removed completely."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Shell layer intercepts macromolecules and allows small molecules to traverse.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "BPA degradation rate: 0.32 min-1 in HA system; superior performance over HCCNs and SCCNs."
+        },
+        "Other Information": {
+            "Additional Info": "YSCCNs maintain impressive degradation capability in both non-HA and HA systems due to their yolk-shell structure."
+        }
+    }
+]

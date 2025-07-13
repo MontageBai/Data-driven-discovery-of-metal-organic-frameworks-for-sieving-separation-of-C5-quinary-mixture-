@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "UiO-66-Br",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.80 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-bromoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability increases by 247% with 40.0 wt% loading."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity for CO2/CH4 improves by about 130% with 30.0 wt% loading."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity for CO2/N2 enhances by about 47% with 30.0 wt% loading."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability increases by 222% with 40.0 wt% loading."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2 permeability: 764.4 Barrer; CO2/CH4 selectivity: 44.8; CO2/N2 selectivity: 22.8 (at 30.0 wt% loading)"
+        },
+        "Other Information": {
+            "Additional Info": "The MMMs surpass the 2008 Robeson upper bounds for CO2/CH4 and CO2/N2 separation."
+        }
+    }
+]

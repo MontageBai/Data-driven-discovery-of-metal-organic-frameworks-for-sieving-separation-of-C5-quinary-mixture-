@@ -1,0 +1,63 @@
+[
+    {
+        "Materials Name": "ZIF-67-in-TAPB-BPDA-PAN",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.78 nm (major pore size distribution), 3.9 nm (initial COF pore size)",
+            "Structure Type": "Ultramicropore-in-nanopore structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-Methylimidazole",
+            "1,3,5-Tris(4-aminophenyl)benzene",
+            "4,4′-Biphenyldicarbaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Equimolar He/N2 and He/CH4 mixtures, 50 mL min-1 total inlet flow rate, 1 bar pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Helium permeance reached 1500 GPU with selectivities of 3.89 for He/N2 and 5.38 for He/CH4."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Equimolar He/N2 mixture, 50 mL min-1 total inlet flow rate, 1 bar pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen permeance was 392 GPU with a selectivity of 3.89 for He/N2."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Equimolar He/CH4 mixture, 50 mL min-1 total inlet flow rate, 1 bar pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methane permeance was 291 GPU with a selectivity of 5.38 for He/CH4."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale within ultramicropores of ZIF-67 embedded in the nanopores of TAPB-BPDA",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke-Kallenbach method using gas chromatography",
+            "Performance Metrics": "He/N2 selectivity: 3.89, He/CH4 selectivity: 5.38, Helium permeance: 1500 GPU"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane demonstrated stability over 100 hours of continuous gas separation testing."
+        }
+    }
+]

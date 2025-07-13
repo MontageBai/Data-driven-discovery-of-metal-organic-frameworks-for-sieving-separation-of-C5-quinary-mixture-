@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "NTU-65",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.6 × 3.4 Å, 5.2 × 6.3 Å",
+            "Structure Type": "3D framework with pcu topology"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-di(1H-imidazol-1-yl)benzene",
+            "SiF6^2-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening adsorption",
+                "Other Information": {
+                    "Test Conditions": "Varies by temperature (e.g., 263 K)",
+                    "Threshold Pressure": "1.2 kPa at 263 K, increases with temperature",
+                    "Additional Info": "Strong binding affinity due to hydrogen bonds and van der Waals interactions."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening adsorption",
+                "Other Information": {
+                    "Test Conditions": "Varies by temperature (e.g., 263 K)",
+                    "Threshold Pressure": "Higher than acetylene, increases with temperature",
+                    "Additional Info": "Adsorbed significantly at lower temperatures."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Varies by temperature (e.g., 263 K)",
+                    "Threshold Pressure": "Highest among the three gases, increases with temperature",
+                    "Additional Info": "Negligible adsorption under optimized conditions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature-regulated gate-opening pressure for selective adsorption",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, in-situ PXRD/sorption measurements",
+            "Performance Metrics": "Polymer-grade C2H4 (>99.95%) recovered from ternary mixture; CO2/C2H4 selectivity demonstrated."
+        },
+        "Other Information": {
+            "Additional Info": "NTU-65 exhibits excellent water/chemical stability and reversible pore opening/closing behavior."
+        }
+    }
+]

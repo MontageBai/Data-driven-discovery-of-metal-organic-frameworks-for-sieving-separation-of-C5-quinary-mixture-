@@ -1,0 +1,210 @@
+[
+    {
+        "Materials Name": "[Cu2(cam)2(dabco)]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.1 Å x 5.2 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "(þ)-camphoric acid",
+            "1,4-diazabicyclo[2.2.2]octane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.758 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No measurable retention on the coated columns at the temperatures used."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.443 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No effects on peak shape or peak order observed."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.678 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No effects on peak shape or peak order observed."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.278 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows peak broadening due to hindered diffusion and transition between mobile and stationary phases."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.687 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No effects on peak shape or peak order observed."
+                }
+            },
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "6.0-6.182 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded from entering the pores due to larger kinetic diameter than pore openings."
+                }
+            },
+            {
+                "Molecule Name": "3,3-dimethylpentane",
+                "Molecular Size": "6.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded from entering the pores due to larger kinetic diameter than pore openings."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas chromatography",
+            "Performance Metrics": "Resolution factors and selectivities determined from temperature-dependent retention times; diffusion constants calculated for selected analytes."
+        },
+        "Other Information": {
+            "Additional Info": "Peak broadening observed for molecules with kinetic diameters of 5-6 Å due to hindered diffusion and transitions between mobile and stationary phases."
+        }
+    },
+    {
+        "Materials Name": "[Cu2(cam)2(bipy)]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.7 Å x 7.4 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "(þ)-camphoric acid",
+            "4,4'-bipyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.758 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No measurable retention on the coated columns at the temperatures used."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.443 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No effects on peak shape or peak order observed."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.678 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No effects on peak shape or peak order observed."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.278 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No peak broadening observed."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.687 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No effects on peak shape or peak order observed."
+                }
+            },
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "6.0-6.182 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Accessible due to larger pore size compared to [Cu2(cam)2(dabco)]."
+                }
+            },
+            {
+                "Molecule Name": "3,3-dimethylpentane",
+                "Molecular Size": "6.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Accessible due to larger pore size compared to [Cu2(cam)2(dabco)]."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas chromatography",
+            "Performance Metrics": "Resolution factors and selectivities determined from temperature-dependent retention times; diffusion constants calculated for selected analytes."
+        },
+        "Other Information": {
+            "Additional Info": "No unusual peak broadening observed for molecules with kinetic diameters of 5-6 Å."
+        }
+    }
+]

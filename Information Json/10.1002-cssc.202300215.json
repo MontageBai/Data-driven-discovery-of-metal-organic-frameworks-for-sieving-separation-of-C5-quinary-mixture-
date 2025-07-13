@@ -1,0 +1,157 @@
+[
+    {
+        "Materials Name": "C-HC-7",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "6.8 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "para-xylene",
+                "Molecular Size": "6.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 8 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor for para-xylene/meta-xylene: 1.9, para-xylene/ortho-xylene: 4.9."
+                }
+            },
+            {
+                "Molecule Name": "meta-xylene",
+                "Molecular Size": "7.0 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 8 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size."
+                }
+            },
+            {
+                "Molecule Name": "ortho-xylene",
+                "Molecular Size": "7.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 8 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Para-xylene retained for 29.5 minutes under ambient conditions."
+        },
+        "Other Information": {
+            "Additional Info": "Prepared via hydrothermal pre-condensation and pyrolysis; pH 7.0."
+        }
+    },
+    {
+        "Materials Name": "C-HC-3",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "5.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "5.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor for n-hexane/3-methylpentane: 5.1."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "5.9 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "n-Hexane retained for 28.1 minutes under ambient conditions."
+        },
+        "Other Information": {
+            "Additional Info": "Prepared via hydrothermal pre-condensation and pyrolysis; pH 3.0."
+        }
+    },
+    {
+        "Materials Name": "C-HC-1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.8 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor for propylene/propane: 22.0."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.9 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Propylene retained for 24.1 minutes under ambient conditions."
+        },
+        "Other Information": {
+            "Additional Info": "Prepared via hydrothermal pre-condensation and pyrolysis; pH 1.0."
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "AuNSs@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (window), 11.6 Å (cavity)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "malondialdehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Schiff base reaction with 4-ATP on Au nanostars",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, aqueous phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detected via SERS with a limit of detection of 9.38 × 10^-9 M"
+                }
+            },
+            {
+                "Molecule Name": "fluorescein aldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion, enters pores and reacts with 4-ATP",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, aqueous phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluorescence confirmed retention within ZIF-8 pores"
+                }
+            },
+            {
+                "Molecule Name": "Alexa 647-labeled BSA",
+                "Molecular Size": "8.6 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion, too large to enter ZIF-8 pores",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, aqueous phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Washed away by PBS"
+                }
+            },
+            {
+                "Molecule Name": "4-hydroxynonenal",
+                "Molecular Size": "13.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion, too large to enter ZIF-8 pores",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, aqueous phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Failed to react with 4-ATP due to size restriction"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect based on pore size of ZIF-8",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "SERS detection, fluorescence imaging, and molecular modeling",
+            "Performance Metrics": "Limit of detection for malondialdehyde: 9.38 × 10^-9 M"
+        },
+        "Other Information": {
+            "Additional Info": "The material integrates Au nanostars for SERS signal enhancement and ZIF-8 for molecular sieving."
+        }
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "15C5-MOFSNC",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å (initial), ~5 Å (after 15C5 modification)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,2,4,5-benzenetetracarboxylic acid",
+            "4′-aminobenzo-15-crown-5 ether"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.23 nm (hydrated diameter: 0.712 nm)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential binding with crown ether and dehydration-facilitated transport",
+                "Other Information": {
+                    "Test Conditions": "1.0 V applied voltage, 24 hours, multicomponent solution containing 1.0 M NaCl, 1.0 M KCl, and 1.0 M LiCl",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation rate: 2.87 × 10⁻³ mol m⁻² hour⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "0.276 nm (hydrated diameter: 0.662 nm)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Weak binding with crown ether and facilitated transport in single-component conditions",
+                "Other Information": {
+                    "Test Conditions": "1.0 V applied voltage, 24 hours, multicomponent solution containing 1.0 M NaCl, 1.0 M KCl, and 1.0 M LiCl",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation rate: 7.98 × 10⁻⁶ mol m⁻² hour⁻¹; presence of sodium suppresses potassium transport"
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.182 nm (hydrated diameter: 0.756 nm)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to reduced pore size (~5 Å) compared to hydrated lithium ion size",
+                "Other Information": {
+                    "Test Conditions": "1.0 V applied voltage, 24 hours, multicomponent solution containing 1.0 M NaCl, 1.0 M KCl, and 1.0 M LiCl",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation rate: 1.62 × 10⁻⁶ mol m⁻² hour⁻¹"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergetic effects of size exclusion, charge selectivity, local hydrophobicity, and preferential binding with functional groups",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, I-V characteristic measurement, MD simulation, DFT calculations, mPNP theory",
+            "Performance Metrics": "Na+/K+ selectivity: 360.1, Na+/Li+ selectivity: 1770.0"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits an ion-responsive sieving mechanism where the presence of sodium ions suppresses potassium ion transport."
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "[Cd(IP)Cl]n (1)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.6 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "1H-imidazo[4,5-f][1,10]phenanthroline"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong quadrupole-quadrupole interaction with polar ligand."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pore size smaller than methane's kinetic diameter."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pore size smaller than ethylene's kinetic diameter."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Other",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selective adsorption of CO2 over nitrogen due to strong interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Narrow 1D channels sieve molecules based on size.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/N2 selectivity: 64.1-42.2, CO2/CH4 selectivity: 17.1-15.3, CO2/C2H4 selectivity: 16.6-14.8"
+        },
+        "Other Information": {
+            "Additional Info": "Column breakthrough experiments confirmed selective CO2 adsorption from mixtures."
+        }
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "Materials Name": "ZnO@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Core-sheath nanorods"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "formaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "100 ppm, 300°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The MOF layer enhances selectivity by sieving out interfering molecules like humidity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving via ZIF-8 coating",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "High sensitivity and response time to formaldehyde even under humid conditions"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 shell provides anti-humidity properties while maintaining high sensitivity to formaldehyde."
+        }
+    },
+    {
+        "Materials Name": "ZnO@ZIF-CoZn",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5 nm (shell thickness)",
+            "Structure Type": "Core-sheath nanowire arrays"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+",
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "260°C, dry air",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The hydrophobic channels of ZIF-CoZn enhance selectivity by excluding humidity interference."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Hydrophobic molecular sieving through ZIF-CoZn",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Sensor response testing",
+            "Performance Metrics": "High selectivity and fast response/recovery to acetone in the presence of humidity"
+        },
+        "Other Information": {
+            "Additional Info": "The bimetallic MOF sheath provides thermal stability (from ZIF-8) and catalytic activity (from ZIF-67)."
+        }
+    },
+    {
+        "Materials Name": "Au@ZnO@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Janus nanoparticles"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "formaldehyde",
+                "Molecular Size": "0.35 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The ZIF-8 layer prevents interference from gases such as water vapor and toluene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective gas adsorption and oxidation via ZIF-8",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Sensor response testing",
+            "Performance Metrics": "High sensitivity and selectivity to formaldehyde with interference rejection for H2O and toluene"
+        },
+        "Other Information": {
+            "Additional Info": "Au nanorods assist in generating charge carriers on ZnO under visible light irradiation."
+        }
+    }
+]

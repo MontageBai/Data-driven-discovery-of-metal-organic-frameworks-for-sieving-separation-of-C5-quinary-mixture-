@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "CuNCs@MOF-5",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,4-Benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "tetracycline",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, no pretreatment for milk samples",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detection achieved via fluorescence change from red to green due to interaction with Zn(II)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Fluorescence spectroscopy, visual detection under UV light",
+            "Performance Metrics": "LOD: 0.012 μM (fluorescence), LOD: 0.027 μM (visual detection)"
+        },
+        "Other Information": {
+            "Additional Info": "Composite material of CuNCs embedded in MOF-5 exhibits enhanced stability and fluorescence properties."
+        }
+    }
+]

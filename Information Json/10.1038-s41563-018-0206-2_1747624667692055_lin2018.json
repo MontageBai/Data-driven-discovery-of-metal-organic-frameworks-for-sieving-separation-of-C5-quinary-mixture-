@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "UTSA-280",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.2×4.5 Å² and 3.8×3.8 Å²",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca"
+        ],
+        "Ligands": [
+            "squaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.39 nm (minimum cross-sectional area of 13.7 Å²)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H4 uptake reaches 88.1 cm³ cm⁻³ at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.41 nm (minimum cross-sectional area of 15.5 Å²)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible amount of C2H6 adsorption (0.098 mmol g⁻¹)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Ethylene productivity: 1.86 mol kg⁻¹ under ambient conditions; Infinite selectivity for C2H4/C2H6 separation."
+        },
+        "Other Information": {
+            "Additional Info": "UTSA-280 is water-stable and can be synthesized at a large scale using environmentally friendly methods."
+        }
+    }
+]

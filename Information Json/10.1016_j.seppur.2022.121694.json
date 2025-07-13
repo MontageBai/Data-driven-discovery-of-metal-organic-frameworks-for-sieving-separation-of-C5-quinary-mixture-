@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "NSC@Fe3O4",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "18 nm (after Fe3O4 loading)",
+            "Structure Type": "2D stacked layer structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+",
+            "Fe2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "tetracycline",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, [TTCH] = 20 mg/L, [NSC@Fe3O4] = 0.3 g/L, [PMS] = 0.5 g/L",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The 2D stacked structure allows only small molecules like tetracycline to contact active sites while excluding larger molecules such as humic acid."
+                }
+            },
+            {
+                "Molecule Name": "humic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, [TTCH] = 20 mg/L, [NSC@Fe3O4] = 0.3 g/L, [PMS] = 0.5 g/L",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Humic acid is excluded due to its larger size compared to the pore size of the material."
+                }
+            }
+        ],
+        "Sieving Mechanism": "The 2D stacked structure creates confined spaces that allow selective access for smaller molecules while excluding larger ones.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic degradation experiments",
+            "Performance Metrics": "TTCH removal efficiency: 82% within 50 min; HA showed negligible impact on TTCH degradation"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibited excellent anti-interference ability against anions and macromolecular organic matter."
+        }
+    }
+]

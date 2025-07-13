@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.5 - 0.6 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "Benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ions",
+                "Molecular Size": "0.076 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore size of UiO-66 is much larger than lithium ions, allowing them to pass through freely."
+                }
+            },
+            {
+                "Molecule Name": "long chain polysulfides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore size of UiO-66 is much smaller than long-chain polysulfides, effectively blocking their migration."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: Not Reported, Permeance: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "UiO-66 was synthesized via a solvothermal method and incorporated into a composite separator for Li-S batteries. The material exhibited excellent polysulfide blocking ability while maintaining high lithium-ion conductivity."
+        }
+    }
+]

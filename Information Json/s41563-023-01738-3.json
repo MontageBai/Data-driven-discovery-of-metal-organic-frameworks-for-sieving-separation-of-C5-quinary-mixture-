@@ -1,0 +1,198 @@
+[
+    {
+        "Materials Name": "ZIF-62",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole",
+            "imidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fast uptake observed in crystalline ZIF-62."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane uptake is slower compared to CO2 due to its larger size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Infrared microimaging (IRM)",
+            "Performance Metrics": "CO2 diffusivity: 5.12 × 10^-10 m²/s, Ethane diffusivity: 3.82 × 10^-12 m²/s"
+        },
+        "Other Information": {
+            "Additional Info": "Crystalline ZIF-62 shows high porosity and fast gas diffusion rates."
+        }
+    },
+    {
+        "Materials Name": "agZIF-62nP",
+        "Material Category": "MOF glass",
+        "Pore/Structural Features": {
+            "Pore Size": "3.2 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "Amorphous, porous channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole",
+            "imidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake remains relatively fast but slower than crystalline ZIF-62."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane uptake is slower compared to CO2 and demonstrates selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Infrared microimaging (IRM)",
+            "Performance Metrics": "CO2 diffusivity: 3.53 × 10^-12 m²/s, Ethane diffusivity: Not calculable (extremely slow uptake)"
+        },
+        "Other Information": {
+            "Additional Info": "Amorphous ZIF-62nP retains some porosity and exhibits slower gas diffusion compared to crystalline ZIF-62."
+        }
+    },
+    {
+        "Materials Name": "agZIF-62P",
+        "Material Category": "MOF glass",
+        "Pore/Structural Features": {
+            "Pore Size": "2.7 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "Amorphous, compressed porous channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole",
+            "imidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake is slower compared to agZIF-62nP."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane is completely excluded due to smaller pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Infrared microimaging (IRM)",
+            "Performance Metrics": "CO2 diffusivity: 2.81 × 10^-12 m²/s, Ethane diffusivity: Not applicable (total exclusion)"
+        },
+        "Other Information": {
+            "Additional Info": "Compressing the liquid ZIF-62 glass results in smaller pore channels, achieving total exclusion of ethane."
+        }
+    },
+    {
+        "Materials Name": "agZIF-62P→T",
+        "Material Category": "MOF glass",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "Amorphous, further collapsed porous channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole",
+            "imidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion occurs slower compared to agZIF-62P."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pore structure remains completely inaccessible for ethane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Infrared microimaging (IRM)",
+            "Performance Metrics": "CO2 diffusivity: 8.92 × 10^-13 m²/s, Ethane diffusivity: Not applicable (total exclusion)"
+        },
+        "Other Information": {
+            "Additional Info": "Tempering leads to a stronger partial collapse of pores, making an increasing number of channels inaccessible."
+        }
+    }
+]

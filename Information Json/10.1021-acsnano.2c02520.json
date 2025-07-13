@@ -1,0 +1,95 @@
+[
+    {
+        "Materials Name": "DM-ZIF-8-m",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (connection window size), 0.46 nm (fitted pore size)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "5,6-dimethylbenzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.27 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 sun irradiation, 25.0 ± 0.5 °C, ~55-65% humidity",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water evaporation rate: 1.07 kg m^-2 h^-1"
+                }
+            },
+            {
+                "Molecule Name": "aniline",
+                "Molecular Size": "0.58 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 sun irradiation, initial concentration: 50 mg L^-1, 25.0 ± 0.5 °C, ~55-65% humidity",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Aniline rejection rate: 97%"
+                }
+            },
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 sun irradiation, initial concentration: 50 mg L^-1, 25.0 ± 0.5 °C, ~55-65% humidity",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methanol rejection rate: nearly 0%"
+                }
+            },
+            {
+                "Molecule Name": "N,N-dimethylformamide",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 sun irradiation, initial concentration: 50 mg L^-1, 25.0 ± 0.5 °C, ~55-65% humidity",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "DMF rejection rate: above 99%"
+                }
+            },
+            {
+                "Molecule Name": "dimethyl sulfoxide",
+                "Molecular Size": "0.61 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 sun irradiation, initial concentration: 50 mg L^-1, 25.0 ± 0.5 °C, ~55-65% humidity",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "DMSO rejection rate: above 99%"
+                }
+            },
+            {
+                "Molecule Name": "N-methylpyrrolidone",
+                "Molecular Size": "0.69 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 sun irradiation, initial concentration: 50 mg L^-1, 25.0 ± 0.5 °C, ~55-65% humidity",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "NMP rejection rate: above 99%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Aniline rejection rate: up to 99%, Water evaporation rate: 1.07 kg m^-2 h^-1 under 1 sun irradiation"
+        },
+        "Other Information": {
+            "Additional Info": "The DM-ZIF-8 layer was modified via ligand exchange to improve hydrothermal stability."
+        }
+    }
+]

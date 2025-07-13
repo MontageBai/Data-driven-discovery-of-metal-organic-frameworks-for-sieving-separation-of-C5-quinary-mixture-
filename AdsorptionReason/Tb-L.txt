@@ -1,0 +1,75 @@
+MOF Name: Tb-L
+
+**Inferred Effective Pore Size of Tb-L:**
+From the experimental data for Tb-L:
+*   **Carbon Dioxide (CO2):** 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed ("Yes")
+
+The experimental data states that Carbon Dioxide (intermediate dimension 3.200 Å) is adsorbed by Tb-L, and the mechanism is "Size exclusion at sub-nanometer scale". This indicates that the MOF's pores are at least 3.200 Å in effective diameter. However, no data is provided for any molecule being *excluded* due to size. Therefore, a definitive upper bound for the effective pore size cannot be strictly determined from the given information.
+
+**Judgment Criteria with Limited Data:**
+Given that the material exhibits "Size exclusion at sub-nanometer scale" for CO2 adsorption (meaning its pores are precisely size-selective) and no larger molecules are shown to be adsorbed, it is reasonable to infer that molecules with intermediate dimensions significantly larger than 3.200 Å are likely to be excluded. This interpretation allows for a binary "Can Adsorb / Cannot Adsorb" prediction, as required by the task, even with incomplete pore mapping data.
+
+---
+
+MOF Name: Tb-L
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+-   **MOF's known adsorption:** Tb-L adsorbs Carbon Dioxide (5.198×3.200×3.200 Å), which has an intermediate dimension of **3.200 Å**. The mechanism is "Size exclusion at sub-nanometer scale".
+-   **Inferred effective pore size:** Based on the adsorption of CO2 and the stated size exclusion mechanism, the effective pore size of Tb-L is inferred to be approximately around 3.200 Å or slightly larger.
+-   **Target molecule dimensions:** Isoprene (7.746×6.093×3.963 Å) has an intermediate dimension of **6.093 Å**.
+-   **Conclusion:** Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of the only molecule confirmed to be adsorbed (CO2 at 3.200 Å), and the MOF exhibits size-exclusion behavior, it is predicted that isoprene cannot be adsorbed by Tb-L.
+
+---
+
+MOF Name: Tb-L
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+-   **MOF's known adsorption:** Tb-L adsorbs Carbon Dioxide (5.198×3.200×3.200 Å), which has an intermediate dimension of **3.200 Å**. The mechanism is "Size exclusion at sub-nanometer scale".
+-   **Inferred effective pore size:** Based on the adsorption of CO2 and the stated size exclusion mechanism, the effective pore size of Tb-L is inferred to be approximately around 3.200 Å or slightly larger.
+-   **Target molecule dimensions:** cis-2-pentene (8.067×5.572×5.136 Å) has an intermediate dimension of **5.572 Å**.
+-   **Conclusion:** Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of the only molecule confirmed to be adsorbed (CO2 at 3.200 Å), and the MOF exhibits size-exclusion behavior, it is predicted that cis-2-pentene cannot be adsorbed by Tb-L.
+
+---
+
+MOF Name: Tb-L
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+-   **MOF's known adsorption:** Tb-L adsorbs Carbon Dioxide (5.198×3.200×3.200 Å), which has an intermediate dimension of **3.200 Å**. The mechanism is "Size exclusion at sub-nanometer scale".
+-   **Inferred effective pore size:** Based on the adsorption of CO2 and the stated size exclusion mechanism, the effective pore size of Tb-L is inferred to be approximately around 3.200 Å or slightly larger.
+-   **Target molecule dimensions:** 1-pentene (8.847×4.995×4.897 Å) has an intermediate dimension of **4.995 Å**.
+-   **Conclusion:** Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of the only molecule confirmed to be adsorbed (CO2 at 3.200 Å), and the MOF exhibits size-exclusion behavior, it is predicted that 1-pentene cannot be adsorbed by Tb-L.
+
+---
+
+MOF Name: Tb-L
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+-   **MOF's known adsorption:** Tb-L adsorbs Carbon Dioxide (5.198×3.200×3.200 Å), which has an intermediate dimension of **3.200 Å**. The mechanism is "Size exclusion at sub-nanometer scale".
+-   **Inferred effective pore size:** Based on the adsorption of CO2 and the stated size exclusion mechanism, the effective pore size of Tb-L is inferred to be approximately around 3.200 Å or slightly larger.
+-   **Target molecule dimensions:** trans-2-pentene (8.796×4.733×4.564 Å) has an intermediate dimension of **4.733 Å**.
+-   **Conclusion:** Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of the only molecule confirmed to be adsorbed (CO2 at 3.200 Å), and the MOF exhibits size-exclusion behavior, it is predicted that trans-2-pentene cannot be adsorbed by Tb-L.
+
+---
+
+MOF Name: Tb-L
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+-   **MOF's known adsorption:** Tb-L adsorbs Carbon Dioxide (5.198×3.200×3.200 Å), which has an intermediate dimension of **3.200 Å**. The mechanism is "Size exclusion at sub-nanometer scale".
+-   **Inferred effective pore size:** Based on the adsorption of CO2 and the stated size exclusion mechanism, the effective pore size of Tb-L is inferred to be approximately around 3.200 Å or slightly larger.
+-   **Target molecule dimensions:** n-pentane (9.118×4.364×3.969 Å) has an intermediate dimension of **4.364 Å**.
+-   **Conclusion:** Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the intermediate dimension of the only molecule confirmed to be adsorbed (CO2 at 3.200 Å), and the MOF exhibits size-exclusion behavior, it is predicted that n-pentane cannot be adsorbed by Tb-L.

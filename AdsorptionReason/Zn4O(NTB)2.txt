@@ -1,0 +1,101 @@
+**MOF Name: Zn4O(NTB)2**
+
+---
+
+**MOF Name: Zn4O(NTB)2**
+**Guest Molecule: isoprene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for Zn4O(NTB)2:
+*   **Adsorbed:** 3-methylpentane (9.052×6.008×4.985) → Intermediate = 6.008 Å
+*   **Not Adsorbed:** 2,2-dimethylbutane (7.829×5.502×6.545) → Intermediate = 6.545 Å (due to size exclusion by molecular sieving)
+
+Inferred effective pore size of Zn4O(NTB)2 based on intermediate dimensions: it can adsorb molecules with an intermediate dimension up to at least 6.008 Å, but it excludes molecules with an intermediate dimension of 6.545 Å. Thus, the effective pore size for passage is approximately in the range of **[6.008 Å, 6.545 Å)**.
+
+Isoprene Dimensions:
+*   isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) falls within the inferred effective pore size range (being ≥ 6.008 Å and < 6.545 Å), it is predicted to be adsorbed by Zn4O(NTB)2. The adsorption of 3-methylpentane (6.008 Å) suggests that molecules of similar or slightly larger intermediate dimensions (like isoprene) can pass, provided they do not exceed the exclusion threshold set by 2,2-dimethylbutane.
+
+---
+
+**MOF Name: Zn4O(NTB)2**
+**Guest Molecule: cis-2-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for Zn4O(NTB)2:
+*   **Adsorbed:** 3-methylpentane (9.052×6.008×4.985) → Intermediate = 6.008 Å
+*   **Not Adsorbed:** 2,2-dimethylbutane (7.829×5.502×6.545) → Intermediate = 6.545 Å (due to size exclusion by molecular sieving)
+
+Inferred effective pore size of Zn4O(NTB)2 based on intermediate dimensions: it can adsorb molecules with an intermediate dimension up to at least 6.008 Å, but it excludes molecules with an intermediate dimension of 6.545 Å. Thus, the effective pore size for passage is approximately in the range of **[6.008 Å, 6.545 Å)**.
+
+cis-2-pentene Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than the intermediate dimension of the adsorbed molecule (3-methylpentane, 6.008 Å), it is predicted to be adsorbed by Zn4O(NTB)2.
+
+---
+
+**MOF Name: Zn4O(NTB)2**
+**Guest Molecule: 1-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for Zn4O(NTB)2:
+*   **Adsorbed:** 3-methylpentane (9.052×6.008×4.985) → Intermediate = 6.008 Å
+*   **Not Adsorbed:** 2,2-dimethylbutane (7.829×5.502×6.545) → Intermediate = 6.545 Å (due to size exclusion by molecular sieving)
+
+Inferred effective pore size of Zn4O(NTB)2 based on intermediate dimensions: it can adsorb molecules with an intermediate dimension up to at least 6.008 Å, but it excludes molecules with an intermediate dimension of 6.545 Å. Thus, the effective pore size for passage is approximately in the range of **[6.008 Å, 6.545 Å)**.
+
+1-pentene Dimensions:
+*   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the intermediate dimension of the adsorbed molecule (3-methylpentane, 6.008 Å), it is predicted to be adsorbed by Zn4O(NTB)2.
+
+---
+
+**MOF Name: Zn4O(NTB)2**
+**Guest Molecule: trans-2-pentene**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for Zn4O(NTB)2:
+*   **Adsorbed:** 3-methylpentane (9.052×6.008×4.985) → Intermediate = 6.008 Å
+*   **Not Adsorbed:** 2,2-dimethylbutane (7.829×5.502×6.545) → Intermediate = 6.545 Å (due to size exclusion by molecular sieving)
+
+Inferred effective pore size of Zn4O(NTB)2 based on intermediate dimensions: it can adsorb molecules with an intermediate dimension up to at least 6.008 Å, but it excludes molecules with an intermediate dimension of 6.545 Å. Thus, the effective pore size for passage is approximately in the range of **[6.008 Å, 6.545 Å)**.
+
+trans-2-pentene Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the intermediate dimension of the adsorbed molecule (3-methylpentane, 6.008 Å), it is predicted to be adsorbed by Zn4O(NTB)2.
+
+---
+
+**MOF Name: Zn4O(NTB)2**
+**Guest Molecule: n-pentane**
+
+**Predicted Result: Can Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for Zn4O(NTB)2:
+*   **Adsorbed:** 3-methylpentane (9.052×6.008×4.985) → Intermediate = 6.008 Å
+*   **Not Adsorbed:** 2,2-dimethylbutane (7.829×5.502×6.545) → Intermediate = 6.545 Å (due to size exclusion by molecular sieving)
+
+Inferred effective pore size of Zn4O(NTB)2 based on intermediate dimensions: it can adsorb molecules with an intermediate dimension up to at least 6.008 Å, but it excludes molecules with an intermediate dimension of 6.545 Å. Thus, the effective pore size for passage is approximately in the range of **[6.008 Å, 6.545 Å)**.
+
+n-pentane Dimensions:
+*   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the intermediate dimension of the adsorbed molecule (3-methylpentane, 6.008 Å), it is predicted to be adsorbed by Zn4O(NTB)2.

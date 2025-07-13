@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "Cu-Tria",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D supermicroporous channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,2,4-triazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.641 Å (dynamic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical and physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, P/P0 = 0.05−0.1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water forms coordination bonds with Cu2+ open metal sites and subsequent water molecules form multiple hydrogen bonds."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "4.530 Å (dynamic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, P/P0 = 0.05−0.1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethanol cannot enter the pore structure due to size exclusion effect by narrow windows."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å (dynamic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-dependent adsorption",
+                "Other Information": {
+                    "Test Conditions": "196 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Good CO2 uptake of 61.08 cm3 g−1 at 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å (dynamic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible N2 uptake."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.163 Å (dynamic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible C2H4 uptake."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å (dynamic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible C3H6 uptake."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion effect for ethanol and excellent water affinity",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Complete water/ethanol separation achieved; purity of collected ethanol up to 99.99%"
+        },
+        "Other Information": {
+            "Additional Info": "Cu-Tria exhibits excellent water, alkali, and acid stability, as well as outstanding recyclability for water/ethanol separation."
+        }
+    }
+]

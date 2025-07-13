@@ -1,0 +1,118 @@
+Here's the analysis for NbFSIX-2-Cu-i (ZU-52) and the target guest molecules:
+
+First, let's establish the inferred effective pore size of NbFSIX-2-Cu-i (ZU-52) based on the provided experimental data and guest molecule probe sizes:
+
+**Known Guest Molecule Probe Sizes (Intermediate Dimension):**
+*   **1-butene:** 7.585×4.583×4.535 Å → Intermediate = **4.583 Å**
+*   **isobutene:** 6.527×5.566×3.960 Å → Intermediate = **5.566 Å**
+
+**Experimental Adsorption Data for NbFSIX-2-Cu-i (ZU-52):**
+*   1-butene: Adsorbed (Yes)
+*   isobutene: Not Adsorbed (No), due to Size exclusion
+
+**Inferred Effective Pore Size of NbFSIX-2-Cu-i (ZU-52):**
+*   Since 1-butene (intermediate dimension 4.583 Å) is adsorbed, the pore must be at least 4.583 Å.
+*   Since isobutene (intermediate dimension 5.566 Å) is *not* adsorbed due to size exclusion, the pore must be smaller than 5.566 Å.
+*   Therefore, the inferred effective pore size (P) of NbFSIX-2-Cu-i (ZU-52) is in the range: **4.583 Å ≤ P < 5.566 Å**.
+
+Now, let's evaluate each target guest molecule:
+
+---
+
+MOF Name: NbFSIX-2-Cu-i (ZU-52)
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NbFSIX-2-Cu-i (ZU-52):
+-   1-butene: 7.585×4.583×4.535 Å → Intermediate = 4.583 Å | Adsorbed (via Gate-opening)
+-   isobutene: 6.527×5.566×3.960 Å → Intermediate = 5.566 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NbFSIX-2-Cu-i (ZU-52) lies in the range [4.583 Å, 5.566 Å).
+
+Isoprene Dimensions:
+-   isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is larger than the upper bound of the inferred effective pore size (5.566 Å), it cannot be adsorbed by NbFSIX-2-Cu-i (ZU-52) due to size exclusion.
+
+---
+
+MOF Name: NbFSIX-2-Cu-i (ZU-52)
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NbFSIX-2-Cu-i (ZU-52):
+-   1-butene: 7.585×4.583×4.535 Å → Intermediate = 4.583 Å | Adsorbed (via Gate-opening)
+-   isobutene: 6.527×5.566×3.960 Å → Intermediate = 5.566 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NbFSIX-2-Cu-i (ZU-52) lies in the range [4.583 Å, 5.566 Å).
+
+cis-2-pentene Dimensions:
+-   cis-2-pentene: 8.067×5.572×5.136 Å → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is larger than the upper bound of the inferred effective pore size (5.566 Å), it cannot be adsorbed by NbFSIX-2-Cu-i (ZU-52) due to size exclusion.
+
+---
+
+MOF Name: NbFSIX-2-Cu-i (ZU-52)
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for NbFSIX-2-Cu-i (ZU-52):
+-   1-butene: 7.585×4.583×4.535 Å → Intermediate = 4.583 Å | Adsorbed (via Gate-opening)
+-   isobutene: 6.527×5.566×3.960 Å → Intermediate = 5.566 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NbFSIX-2-Cu-i (ZU-52) lies in the range [4.583 Å, 5.566 Å). The observation of "Gate-opening phenomenon" for 1-butene suggests a dynamic pore aperture capable of accommodating molecules up to its intermediate dimension.
+
+1-pentene Dimensions:
+-   1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) falls within the inferred effective pore size range [4.583 Å, 5.566 Å) and is smaller than the largest molecule excluded by size (isobutene), it is geometrically compatible and should be able to pass through the pore aperture.
+
+---
+
+MOF Name: NbFSIX-2-Cu-i (ZU-52)
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for NbFSIX-2-Cu-i (ZU-52):
+-   1-butene: 7.585×4.583×4.535 Å → Intermediate = 4.583 Å | Adsorbed (via Gate-opening)
+-   isobutene: 6.527×5.566×3.960 Å → Intermediate = 5.566 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NbFSIX-2-Cu-i (ZU-52) lies in the range [4.583 Å, 5.566 Å). The observation of "Gate-opening phenomenon" for 1-butene suggests a dynamic pore aperture capable of accommodating molecules up to its intermediate dimension.
+
+trans-2-pentene Dimensions:
+-   trans-2-pentene: 8.796×4.733×4.564 Å → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) falls within the inferred effective pore size range [4.583 Å, 5.566 Å) and is smaller than the largest molecule excluded by size (isobutene), it is geometrically compatible and should be able to pass through the pore aperture.
+
+---
+
+MOF Name: NbFSIX-2-Cu-i (ZU-52)
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for NbFSIX-2-Cu-i (ZU-52):
+-   1-butene: 7.585×4.583×4.535 Å → Intermediate = 4.583 Å | Adsorbed (via Gate-opening)
+-   isobutene: 6.527×5.566×3.960 Å → Intermediate = 5.566 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of NbFSIX-2-Cu-i (ZU-52) lies in the range [4.583 Å, 5.566 Å). The MOF can adsorb 1-butene (intermediate dimension 4.583 Å).
+
+n-pentane Dimensions:
+-   n-pentane: 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the intermediate dimension of 1-butene (4.583 Å), which is known to be adsorbed by the MOF (even with a gate-opening mechanism, implying the pore can at least reach this size), n-pentane should also be able to pass through and be adsorbed.

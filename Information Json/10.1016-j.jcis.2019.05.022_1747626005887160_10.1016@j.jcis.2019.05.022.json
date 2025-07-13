@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MFC@UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.6 nm (pore-mouth opening)",
+            "Structure Type": "microporous crystallite"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20-30 °C, pH 3-12",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity due to size-exclusion effects of UiO-66 micropores."
+                }
+            },
+            {
+                "Molecule Name": "humic acid",
+                "Molecular Size": "bulky molecules",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20-30 °C, pH 3-12",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded from accessing Zr–OH sites inside micropores due to size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments",
+            "Performance Metrics": "Phosphate adsorption capacity: 6.4 mg P/g after five cycles; negligible effect of humic acid even at 50 mg/L."
+        },
+        "Other Information": {
+            "Additional Info": "The material shows high phosphate adsorption selectivity and is easily separable via an external magnetic field. Phosphate adsorption is endothermic and decreases with increasing pH. Regeneration achieved using 0.1 mol/L NaOH solution."
+        }
+    }
+]

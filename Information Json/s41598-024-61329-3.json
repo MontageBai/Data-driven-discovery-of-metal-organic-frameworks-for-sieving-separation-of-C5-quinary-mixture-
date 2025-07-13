@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MOF-5",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cubic porous framework"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zn4O"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Escherichia coli",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Interaction with bacterial cell walls and DNA",
+                "Other Information": {
+                    "Test Conditions": "37 °C, growth inhibition assay",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Growth inhibition rate: 76.17%"
+                }
+            },
+            {
+                "Molecule Name": "Staphylococcus aureus",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Interaction with bacterial cell walls and DNA",
+                "Other Information": {
+                    "Test Conditions": "37 °C, growth inhibition assay",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Growth inhibition rate: 69.14%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Antibacterial assay (growth inhibition test)",
+            "Performance Metrics": "Growth inhibition rates: E. coli = 76.17%, S. aureus = 69.14%"
+        },
+        "Other Information": {
+            "Additional Info": "MOF-5 was incorporated into Ag-TG hydrogel/SF nanobiocomposite to enhance antibacterial activity."
+        }
+    }
+]

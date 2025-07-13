@@ -1,0 +1,239 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (theoretical), 4.0–4.2 Å (effective)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn(II)"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.40 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Performance enhanced by reducing lattice flexibility and mixed-linker strategy."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Performance enhanced by reducing lattice flexibility and mixed-linker strategy."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Performance enhanced by rapid heat treatment and mixed-linker strategy."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Performance enhanced by rapid heat treatment and mixed-linker strategy."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Performance enhanced by rapid heat treatment and mixed-linker strategy."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "C3H6/C3H8 selectivity: up to 305; CO2/N2 selectivity: up to 30.6; CO2/CH4 selectivity: up to 34"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 membranes exhibit tunable separation performance through structural manipulation strategies including lattice flexibility reduction, ligand structure modification, and crystallinity control."
+        }
+    },
+    {
+        "Materials Name": "ZIF-7-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Varies with bIm content, <3.4 Å effective for high bIm content",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn(II)"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Performance enhanced by mixed-linker strategy with benzimidazole incorporation."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Performance enhanced by mixed-linker strategy with benzimidazole incorporation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/CH4 selectivity: up to 25"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-7-8 membranes combine stiffened lattice structure and narrowed aperture size for improved CO2/CH4 separation."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8@PDA",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (theoretical), 4.0–4.2 Å (effective)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn(II)"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Polydopamine coating enhances interfacial adhesion and separation performance."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Polydopamine coating enhances interfacial adhesion and separation performance."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity increased from 45 to 56"
+        },
+        "Other Information": {
+            "Additional Info": "Polydopamine-modified ZIF-8 improves interfacial compatibility and separation performance."
+        }
+    },
+    {
+        "Materials Name": "IL@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (theoretical), reduced by IL incorporation",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn(II)"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ionic liquids confined in ZIF-8 cavities enhance CO2 adsorption selectivity."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ionic liquids confined in ZIF-8 cavities enhance CO2 adsorption selectivity."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, various pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ionic liquids confined in ZIF-8 cavities enhance CO2 adsorption selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale with preferential adsorption",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity increased up to 120; CO2/CH4 selectivity increased up to 38"
+        },
+        "Other Information": {
+            "Additional Info": "Confinement of ionic liquids in ZIF-8 demonstrates synergistic effect for enhanced CO2 separation."
+        }
+    }
+]

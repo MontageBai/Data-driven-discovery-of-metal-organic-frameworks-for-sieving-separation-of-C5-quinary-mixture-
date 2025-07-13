@@ -1,0 +1,521 @@
+[
+    {
+        "Materials Name": "Y-fum-fcu-MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.7 Å (aperture size)",
+            "Structure Type": "fcu-net with octahedral and tetrahedral cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Y3+",
+            "Tb3+"
+        ],
+        "Ligands": [
+            "fumaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.69 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "no observable adsorption of i-C4H10"
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.28 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "completely excluded from the pores"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "i-C4H10 broke through immediately while n-C4H10 was retained"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF undergoes gate-opening at lower pressures for linear C4-hydrocarbons compared to branched counterparts"
+        }
+    },
+    {
+        "Materials Name": "Zr-fum-fcu-MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Varies with defect control (e.g., Zr-fum-100: narrow aperture, Zr-fum-200: wider aperture)",
+            "Structure Type": "fcu-net with tetrahedral and octahedral cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr"
+        ],
+        "Ligands": [
+            "fumarate",
+            "formate modulators"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.69 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "adsorbed effectively"
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.28 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "excluded in Zr-fum-100 but partially adsorbed in Zr-fum-200 and Zr-fum-20"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Defect-controlled molecular sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and breakthrough experiments",
+            "Performance Metrics": "Zr-fum-100 exhibited strong selectivity for n-C4H10 over i-C4H10"
+        },
+        "Other Information": {
+            "Additional Info": "Reducing linker defects narrows window apertures, improving separation performance"
+        }
+    },
+    {
+        "Materials Name": "ZU-36-Co",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.82–5.25 Å (tunable via F atom rotation)",
+            "Structure Type": "1D pore channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "fluorinated organic linkers"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.69 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake capacity (2.20 mmol/g)"
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.28 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Minimal adsorption (0.12 mmol/g)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Tunable pore size exclusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "IAST calculations and breakthrough experiments",
+            "Performance Metrics": "Selectivity for n-C4H10/i-C4H10: 18.3; Breakthrough time > 49 min with > 99.9% purity"
+        },
+        "Other Information": {
+            "Additional Info": "Fluorine atoms act as binding sites and architects of pore windows"
+        }
+    },
+    {
+        "Materials Name": "Zn-bzc-2CH3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Narrow aperture slightly larger than n-C4H10 but smaller than i-C4H10",
+            "Structure Type": "Cage-like structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "pyrazole ligand with two methyl groups"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.69 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Type-I adsorption isotherm observed"
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.28 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No observable adsorption"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on precisely tuned pore windows",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and IAST calculations",
+            "Performance Metrics": "Selectivity for n-C4H10/i-C4H10: 83.45"
+        },
+        "Other Information": {
+            "Additional Info": "Methyl groups introduced to control pore/window sizes"
+        }
+    },
+    {
+        "Materials Name": "IPM-101",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.9 Å (pore window), 1D channel",
+            "Structure Type": "Layer-stacked structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cd"
+        ],
+        "Ligands": [
+            "PAIA ligand"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.69 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption capacity (51.6 cm³ g⁻¹)"
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.28 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption (0.7 cm³ g⁻¹)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Precise molecular sieving using tailored pore windows",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and breakthrough experiments",
+            "Performance Metrics": "Selectivity for n-C4H10/i-C4H10: 73.71"
+        },
+        "Other Information": {
+            "Additional Info": "Multi-point coordination restricts mobility of the framework"
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-Cu-TPA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Narrow aperture, spacious cavity",
+            "Structure Type": "Cage-like structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "SiF6²⁻",
+            "TPA"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.69 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong adsorption via C-H···π and C-H···F interactions"
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.28 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption due to hindered diffusion"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Diffusional restriction combined with specific host-guest interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and breakthrough curves",
+            "Performance Metrics": "Selectivity for n-C4H10/i-C4H10: 247"
+        },
+        "Other Information": {
+            "Additional Info": "Framework flexibility enhances selective interaction"
+        }
+    },
+    {
+        "Materials Name": "SD-65",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Small triangular windows (~3.9 Å)",
+            "Structure Type": "Pseudodiamondoid framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "isophthalate",
+            "dipyridyl ligands"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1,3-butadiene",
+                "Molecular Size": "4.31 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption capacity"
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.69 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Minimal adsorption"
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.28 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening and size exclusion mechanisms",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms",
+            "Performance Metrics": "Selectivity for 1,3-C4H6/n-C4H8/i-C4H8: High"
+        },
+        "Other Information": {
+            "Additional Info": "Flexible framework enables selective adsorption"
+        }
+    },
+    {
+        "Materials Name": "NbFSIX-2-Cu-I",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Varies with anion-pillaring",
+            "Structure Type": "Interpenetrated structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "NbOF5²⁻",
+            "organic linkers"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1,3-butadiene",
+                "Molecular Size": "4.31 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "size exclusion and gate-opening",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption capacity"
+                }
+            },
+            {
+                "Molecule Name": "n-butene",
+                "Molecular Size": "4.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate adsorption capacity"
+                }
+            },
+            {
+                "Molecule Name": "isobutylene",
+                "Molecular Size": "4.84 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Minimal adsorption"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective molecular sieving and gate-opening",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and breakthrough experiments",
+            "Performance Metrics": "Selectivity for 1,3-C4H6/n-C4H8/i-C4H8: High"
+        },
+        "Other Information": {
+            "Additional Info": "Anion-pillared design enhances selectivity"
+        }
+    },
+    {
+        "Materials Name": "KAUST-7",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.14 Å (aperture size)",
+            "Structure Type": "2D square grid layers"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "NbOF5²⁻",
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1,3-butadiene",
+                "Molecular Size": "4.31 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significant adsorption capacity"
+                }
+            },
+            {
+                "Molecule Name": "n-butene",
+                "Molecular Size": "4.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate adsorption"
+                }
+            },
+            {
+                "Molecule Name": "isobutylene",
+                "Molecular Size": "4.84 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effectively excluded due to small pore aperture"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Aperture-size dependent molecular sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and breakthrough experiments",
+            "Performance Metrics": "Selectivity for 1,3-C4H6/i-C4H8: 10.4"
+        },
+        "Other Information": {
+            "Additional Info": "Framework flexibility enhances separation efficiency"
+        }
+    },
+    {
+        "Materials Name": "MET-Fe",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.6 Å",
+            "Structure Type": "Quasi-discrete, branched 3D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe"
+        ],
+        "Ligands": [
+            "Triazole-based ligands"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "trans-2-butene",
+                "Molecular Size": "4.31 Å × 3.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "size exclusion and thermodynamic preference",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption capacity than cis-2-butene"
+                }
+            },
+            {
+                "Molecule Name": "cis-2-butene",
+                "Molecular Size": "4.94 Å × 3.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Minimal adsorption due to dipole alignment hindrance"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Thermodynamic and kinetic synergy",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and breakthrough experiments",
+            "Performance Metrics": "Dynamic selectivity for trans-2-C4H8/cis-2-C4H8: 2.39"
+        },
+        "Other Information": {
+            "Additional Info": "Electrostatic repulsion at pore entrance favors trans-isomer"
+        }
+    }
+]

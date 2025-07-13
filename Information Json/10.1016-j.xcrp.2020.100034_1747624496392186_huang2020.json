@@ -1,0 +1,117 @@
+[
+    {
+        "Materials Name": "UiO-66-SPA",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid",
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 53.9 L m–2 h–1 bar–1"
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.28 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 58.1 L m–2 h–1 bar–1"
+                }
+            },
+            {
+                "Molecule Name": "pentane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 244.0 L m–2 h–1 bar–1"
+                }
+            },
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "0.49 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 172.9 L m–2 h–1 bar–1"
+                }
+            },
+            {
+                "Molecule Name": "Rose Bengal",
+                "Molecular Size": "1.02 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection: 99.1%"
+                }
+            },
+            {
+                "Molecule Name": "Brilliant blue R",
+                "Molecular Size": "0.83 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection: 99.9%"
+                }
+            },
+            {
+                "Molecule Name": "Congo red",
+                "Molecular Size": "0.70 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection: 99.9%"
+                }
+            },
+            {
+                "Molecule Name": "Crystal Violet",
+                "Molecular Size": "0.41 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection: 94.4%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Ethanol permeance: 53.9 L m–2 h–1 bar–1, Water permeance: 58.1 L m–2 h–1 bar–1, Pentane permeance: 244.0 L m–2 h–1 bar–1, Hexane permeance: 172.9 L m–2 h–1 bar–1, Molecular weight cutoff below 400 Da"
+        },
+        "Other Information": {
+            "Additional Info": "Incorporation of UiO-66-SPA creates additional interfacial nano-pores and enhances solvent affinity while partially reducing swelling."
+        }
+    }
+]

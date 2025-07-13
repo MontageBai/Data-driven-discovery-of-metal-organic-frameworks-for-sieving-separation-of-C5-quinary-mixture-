@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "Mn(INA)2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0 Å (bottleneck), 6.8 Å (cavity)",
+            "Structure Type": "1D channels with large cavities and narrow bottlenecks"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mn2+"
+        ],
+        "Ligands": [
+            "isonicotinate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sulfur dioxide",
+                "Molecular Size": "4.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect via rotation of pyridine ring",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong host-guest interactions including Sδ+···Oδ− electrostatic interactions and Hδ+···Oδ− dipole-dipole interactions."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Pressure-dependent",
+                "Mechanism": "Gate-opening effect requiring partial pressure > 0.8 bar",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "0.8 bar",
+                    "Additional Info": "Weaker interactions compared to sulfur dioxide."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to narrow bottleneck",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size compared to bottleneck."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to narrow bottleneck",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size compared to bottleneck."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with gate-opening effect",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Single-crystal X-ray diffraction, DFT-D calculations",
+            "Performance Metrics": "SO2/CO2 IAST selectivity: 62.3 (10:90 mixture at 298 K and 1 bar), SO2 uptake: 3.4 mmol/g at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "Material exhibits flexible behavior and high stability under humid conditions and up to 673 K."
+        }
+    }
+]

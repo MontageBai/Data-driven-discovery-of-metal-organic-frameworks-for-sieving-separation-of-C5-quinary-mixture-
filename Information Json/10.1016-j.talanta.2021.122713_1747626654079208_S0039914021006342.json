@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Fe3O4@mSiO2-TSG",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.2 nm",
+            "Structure Type": "ordered mesoporous channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3O4"
+        ],
+        "Ligands": [
+            "N-(3-triethoxysilylpropyl) gluconamide (TSG)",
+            "Tetraethyl orthosilicate (TEOS)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ovalbumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Evaluated using mixtures of HRP tryptic digests and OVA protein at different molar ratios."
+                }
+            },
+            {
+                "Molecule Name": "horseradish peroxidase",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Glycopeptides from HRP were successfully enriched."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-exclusion effect due to ordered mesoporous channels with a pore size of 3.2 nm.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS, nano-LC-MS/MS",
+            "Performance Metrics": "Enriched 19 glycopeptide peaks from HRP tryptic digests with enhanced signal-to-noise ratio; identified 162 glycopeptides from healthy serum and 156 glycopeptides from breast cancer serum."
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits excellent hydrophilicity, magnetic responsiveness, and reusability. It was effective in separating glycopeptides from large proteins like ovalbumin."
+        }
+    }
+]

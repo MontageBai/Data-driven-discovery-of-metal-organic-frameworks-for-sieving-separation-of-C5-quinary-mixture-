@@ -1,0 +1,205 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cis-cyclooctene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, hydrogenation reaction conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Molecular sieving effect demonstrated by encapsulated Pt NPs in ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "n-hexene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, hydrogenation reaction conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Molecular sieving effect demonstrated by encapsulated Pt NPs in ZIF-8"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic activity measurements",
+            "Performance Metrics": "Activity for n-hexene but not for cis-cyclooctene"
+        },
+        "Other Information": {
+            "Additional Info": "Encapsulation method used to incorporate Pt NPs inside ZIF-8"
+        }
+    },
+    {
+        "Materials Name": "UiO-66-NH2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cyclooctadiene",
+                "Molecular Size": "6.7 × 6.2 × 4.2 Å3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Hydrogenation reaction conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Limited pore size of UiO-66-NH2 prevents cyclooctadiene migration"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Hydrogenation reaction conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High catalytic activity observed for ethylene"
+                }
+            },
+            {
+                "Molecule Name": "1-hexene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Hydrogenation reaction conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High catalytic activity observed for 1-hexene"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic activity measurements",
+            "Performance Metrics": "High activity for ethylene and 1-hexene; low activity for cyclooctadiene"
+        },
+        "Other Information": {
+            "Additional Info": "Pt NPs confined in UiO-66-NH2 crystals"
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "4-nitrophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Reduction reaction conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "4-nitrophenol cannot migrate through ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Reduction reaction conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methylene blue excluded by surrounding MOFs around Au NPs"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic activity measurements",
+            "Performance Metrics": "No activity observed for 4-nitrophenol or methylene blue reduction on MagNP@PDA@AuNPs@ZIF-8"
+        },
+        "Other Information": {
+            "Additional Info": "Au NPs encapsulated in ZIF-8"
+        }
+    },
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "4-nitrophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Reduction reaction conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "4-nitrophenol can freely pass through UiO-66 due to larger pore size"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Reduction reaction conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effective exclusion of methylene blue by surrounding MOFs around Au NPs"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic activity measurements",
+            "Performance Metrics": "Apparent activity observed for 4-nitrophenol reduction on MagNP@PDA@AuNPs@UiO-66"
+        },
+        "Other Information": {
+            "Additional Info": "Au NPs encapsulated in UiO-66"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "CMS-PMOF-1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "5.0 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "293 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fast adsorption kinetics with equilibration time of 60 s."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.0 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slow adsorption-desorption kinetics; not retained in column during breakthrough test."
+                }
+            },
+            {
+                "Molecule Name": "n-pentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "293 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fast adsorption kinetics with high equilibrium uptake."
+                }
+            },
+            {
+                "Molecule Name": "isopentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slow adsorption kinetics; less visible hysteresis in adsorption-desorption isotherm."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, gas adsorption isotherms",
+            "Performance Metrics": "n-butane/isobutane separation; n-butane retained for 35 minutes per gram in column."
+        },
+        "Other Information": {
+            "Additional Info": "Derived from CD-MOF-2 via carbonization and thermal treatment; BET surface area of 799 m²/g."
+        }
+    }
+]

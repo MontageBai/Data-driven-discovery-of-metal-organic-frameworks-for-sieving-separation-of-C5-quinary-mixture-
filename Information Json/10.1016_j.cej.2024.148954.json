@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "ZIF-8/CS/PVA/PVDF MMM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2.45 nm to 3.5 nm (ZIF-8), Not Reported (overall MMM)",
+            "Structure Type": "3D cages (ZIF-8), Not Reported (overall MMM)"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "1.4 nm x 0.65 nm x 0.4 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "1 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate of 93.65% for MMM-2"
+                }
+            },
+            {
+                "Molecule Name": "malachite green",
+                "Molecular Size": "1.7 nm x 0.7 nm x 0.4 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "1 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate of 95.9% for MMM-2"
+                }
+            },
+            {
+                "Molecule Name": "crystal violet",
+                "Molecular Size": "1.4 nm x 1.4 nm x 0.6 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "1 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate of 93.9% for MMM-2"
+                }
+            },
+            {
+                "Molecule Name": "copper ion",
+                "Molecular Size": "0.157 nm (ionic radius)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Coordination adsorption and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate of 96.89% for MMM-2"
+                }
+            },
+            {
+                "Molecule Name": "nickel ion",
+                "Molecular Size": "0.149 nm (ionic radius)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Coordination adsorption and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate of 96.63% for MMM-2"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with coordination adsorption",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Water permeability: 342 L m–2 h−1 bar−1; Dye rejection: up to 95.9%; Metal ion rejection: up to 96.89%"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane shows excellent stability and antifouling properties with a flux recovery ratio above 96%."
+        }
+    }
+]

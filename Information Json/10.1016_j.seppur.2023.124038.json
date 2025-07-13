@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "NU-906",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.0 nm (micropores)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "scu",
+        "Metal Nodes": [
+            "Zr6(μ3-O)4(μ3-OH)4]12+"
+        ],
+        "Ligands": [
+            "1,4-dibromo-2,3,5,6-tetrakis(4-carboxyphenyl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "fructose",
+                "Molecular Size": "9.7 × 6.5 × 5.9 Å3",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, batch adsorption",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fructose can access the microporous cavities of NU-906."
+                }
+            },
+            {
+                "Molecule Name": "glucose",
+                "Molecular Size": "8.9 × 7.8 × 6.7 Å3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, batch adsorption",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Glucose molecules can hardly access the microporous cavities in NU-906."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments and breakthrough experiments",
+            "Performance Metrics": "Fructose/glucose selectivity factor: 13.7 (static), 4.0 (dynamic)"
+        },
+        "Other Information": {
+            "Additional Info": "NU-906 exhibited record-breaking adsorption selectivity towards fructose with a static selectivity factor of up to 13.7."
+        }
+    },
+    {
+        "Materials Name": "NU-1008",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.2 nm (micropores), 2.8 nm (mesopores)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "csq",
+        "Metal Nodes": [
+            "Zr6(μ3-O)4(μ3-OH)4]12+"
+        ],
+        "Ligands": [
+            "1,4-dibromo-2,3,5,6-tetrakis(4-carboxyphenyl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "fructose",
+                "Molecular Size": "9.7 × 6.5 × 5.9 Å3",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, batch adsorption",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fructose can access both micropores and mesopores in NU-1008."
+                }
+            },
+            {
+                "Molecule Name": "glucose",
+                "Molecular Size": "8.9 × 7.8 × 6.7 Å3",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, batch adsorption",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Glucose is preferentially accommodated in the mesopores of NU-1008 but has limited access to micropores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Hierarchical pore size exclusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments",
+            "Performance Metrics": "Fructose/glucose selectivity factor: 5.7"
+        },
+        "Other Information": {
+            "Additional Info": "NU-1008 showed a slightly larger adsorption capacity compared to NU-906 but with a smaller selectivity factor due to its hierarchical porosity."
+        }
+    }
+]

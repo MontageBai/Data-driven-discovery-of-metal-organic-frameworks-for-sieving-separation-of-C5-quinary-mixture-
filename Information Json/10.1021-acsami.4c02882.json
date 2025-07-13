@@ -1,0 +1,76 @@
+[
+    {
+        "Materials Name": "Cu-BTC",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "copper"
+        ],
+        "Ligands": [
+            "trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material was synthesized via localized growth on an anion exchange membrane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "SEM analysis, EDS analysis",
+            "Performance Metrics": "Film thickness: 20 μm after 24 h in water"
+        },
+        "Other Information": {
+            "Additional Info": "Localized MOF synthesis method using Donnan exclusion to control precursor transport."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "zinc"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material was synthesized via localized growth on an anion exchange membrane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "SEM analysis, EDS analysis",
+            "Performance Metrics": "Film thickness: 0.5 μm after 24 h in methanol"
+        },
+        "Other Information": {
+            "Additional Info": "Localized MOF synthesis method using Donnan exclusion to control precursor transport."
+        }
+    }
+]

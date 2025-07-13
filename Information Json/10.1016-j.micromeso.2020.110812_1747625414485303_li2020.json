@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Ni2Cl2BBTA@γ-Al2O3",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Nickel(II)"
+        ],
+        "Ligands": [
+            "1H,5H-benzo(1,2-d),(4,5-d') bistriazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, Ne flow rate: 40 mL/min, Injection loop pressure: 5 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 6.029 min"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, Ne flow rate: 40 mL/min, Injection loop pressure: 5 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 9.063 min"
+                }
+            },
+            {
+                "Molecule Name": "HD",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, Ne flow rate: 40 mL/min, Injection loop pressure: 5 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 7.009 min"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving effect due to different zero-point energies of isotopes",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas chromatography with cryogenic column",
+            "Performance Metrics": "Baseline separation (R = 1.57) of H2/HD within 11 min"
+        },
+        "Other Information": {
+            "Additional Info": "The composite material was prepared by hydrothermal synthesis and used as a stationary phase for gas chromatographic separations of ternary hydrogen isotope gas mixtures (H2-HD-D2)"
+        }
+    }
+]

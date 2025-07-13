@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-90",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazole-2-carboxaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "small extracellular vesicles",
+                "Molecular Size": "<200 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Immunoaffinity capture",
+                "Other Information": {
+                    "Test Conditions": "37 °C, flow rate: 1 mL min−1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Captured by anti-CD63 antibodies immobilized on ZIF-90-modified paper."
+                }
+            },
+            {
+                "Molecule Name": "larger impurities",
+                "Molecular Size": ">200 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Flow through polycarbonate membrane with 200 nm pores",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separated by the PC membrane in the filter holder."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combined size exclusion and immunoaffinity capture",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Nanoparticle tracking analysis (NTA), Western blot, TEM, SEM",
+            "Performance Metrics": "Yield: 1.7 × 10^9 particles mL−1, Purity: 1.6 × 10^11 mg−1, Recovery: 77.3%"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-90 modification significantly improved resistance to nonspecific protein adsorption and enhanced the capture efficiency of sEVs."
+        }
+    }
+]

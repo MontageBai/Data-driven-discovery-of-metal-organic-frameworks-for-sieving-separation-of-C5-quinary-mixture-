@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "Graphene oxide (GO)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.8 ± 0.6 nm (water-swollen), 6.1 nm (Na2SO4-treated), 2.8 nm (MgSO4-treated)",
+            "Structure Type": "Layered nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.095 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ion-controlling interlayer spacing",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.49 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Increased permeance with Na+ interaction."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.065 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ion-controlling interlayer spacing",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.49 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reduced permeance due to compact GO structure."
+                }
+            },
+            {
+                "Molecule Name": "sulfate",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Donnan exclusion and steric hindrance",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.49 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher rejection rate due to larger hydrated radius."
+                }
+            },
+            {
+                "Molecule Name": "chloride",
+                "Molecular Size": "0.18 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Donnan exclusion and steric hindrance",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.49 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower rejection rate compared to sulfate."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Permeance: 27.7 kg m−2 h−1 MPa−1 for Na2SO4; Rejection: 79% for Na2SO4"
+        },
+        "Other Information": {
+            "Additional Info": "The GO membrane shows preferential interaction with sodium over magnesium ions, influencing interlayer spacing and rejection efficiency."
+        }
+    }
+]

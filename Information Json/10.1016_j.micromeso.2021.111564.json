@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.127 Å (da), 6.957 Å (db)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "3.277 × 6.628 × 7.337 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Benzene penetrates into ZIF-8 cavities displacing oxygen molecules."
+                }
+            },
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "4.982 × 6.580 × 7.168 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cyclohexane does not penetrate into ZIF-8 cavities even after 48 hours of impregnation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Shape and size-dependent diffusion through flexible elliptical windows.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "EPR spectroscopy, Gas chromatography",
+            "Performance Metrics": "Benzene/cyclohexane selectivity: ~200–270 for 10–90% benzene mixtures."
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 demonstrates high selectivity for benzene over cyclohexane but faces challenges in removing residual benzene from highly diluted mixtures due to diffusive equilibrium."
+        }
+    }
+]

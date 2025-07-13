@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "NKMOF-3-Ln",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "vmv",
+        "Metal Nodes": [
+            "Ln3+"
+        ],
+        "Ligands": [
+            "isonicotinic acid N-oxide",
+            "nitrate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption capacity increases with lanthanide contraction."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible N2 uptake due to molecular sieving effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/N2 selectivity: ~100-200 (IAST), Retention time for CO2: 44-61 min (breakthrough test)"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits a fluorescence response to CO2 due to strong binding affinity."
+        }
+    }
+]

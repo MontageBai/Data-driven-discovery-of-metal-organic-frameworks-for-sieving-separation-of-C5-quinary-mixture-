@@ -1,0 +1,133 @@
+[
+    {
+        "MOF Name": "ZIF-93",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Sunset yellow",
+                "Molecular Size": "450 gmol−1",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Pressure: 8 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on pore aperture",
+        "Experimental Validation": {
+            "Method": "Permeation test",
+            "Performance Metrics": "Removal rate: 90% for Sunset yellow; Pure water permeability: 0.24 ± 0.09 Lm−2 h−1 bar−1"
+        },
+        "Other Information": {
+            "Additional Info": "The aldehyde group in ZIF-93 can form Schiff bases with the amine group in the reactive monomer. Addition of ZIF-93 changes hydrophilicity and crosslinking degree of the membrane."
+        }
+    },
+    {
+        "MOF Name": "ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Na2SO4",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion (for sulfate)",
+                "Other Information": {
+                    "Test Conditions": "Pressure: 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "NaCl",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes due to smaller size and weaker electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Pressure: 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on pore aperture and electrostatic repulsion (Donnan effect)",
+        "Experimental Validation": {
+            "Method": "Permeation test, SEM, ATR-FTIR",
+            "Performance Metrics": "Rejection rate Na2SO4: 66.7%; Rejection rate NaCl: 29.7%; Pure water permeability: 5.1 Lm−2 h−1 bar−1. Stable performance within 100 h of operation."
+        },
+        "Other Information": {
+            "Additional Info": "Crystal structure enhances membrane stability. TA further enhances the reaction between ZIF-8 and substrate."
+        }
+    },
+    {
+        "MOF Name": "MIL-53",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [],
+        "Sieving Mechanism": "Not Reported",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Listed as a MOF under research for Nanofiltration."
+        }
+    },
+    {
+        "MOF Name": "UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [],
+        "Sieving Mechanism": "Not Reported",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Listed as a MOF under research for Nanofiltration."
+        }
+    }
+]

@@ -1,0 +1,340 @@
+[
+    {
+        "Materials Name": "Li-LSX zeolite",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Li+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Induction of metal cation at specific sites and electron transfer",
+                "Other Information": {
+                    "Test Conditions": "298 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "IAST selectivity for N2/O2 is 5.50 at 303 K and 400 kPa."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.467 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and diffusion difference",
+                "Other Information": {
+                    "Test Conditions": "298 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "O2 has a faster diffusion rate within the pore than N2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "N2 adsorption capacity: 1.88 mmol g−1, O2 adsorption capacity: 0.587 mmol g−1."
+        },
+        "Other Information": {
+            "Additional Info": "The material achieves separation via induction from Li+ of SIII’ and SIII sites."
+        }
+    },
+    {
+        "Materials Name": "NaCaA97",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Na+",
+            "Ca2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Inductive molar polarization by Ca2+ of SII’ and SII sites",
+                "Other Information": {
+                    "Test Conditions": "298 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Heat of adsorption for N2 is 27.0 kJ mol−1."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.467 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and diffusion difference",
+                "Other Information": {
+                    "Test Conditions": "298 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Heat of adsorption for O2 is 17.1 kJ mol−1."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "N2/O2 IAST selectivity is 4.26."
+        },
+        "Other Information": {
+            "Additional Info": "The material achieves separation via induction of metal cation at specific sites and electron transfer."
+        }
+    },
+    {
+        "Materials Name": "Fe-MOR zeolite (Si/Al = 0.25)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.33 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 can diffuse within pores while other gases are excluded."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methane is excluded due to its larger molecular size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/N2 selectivity is 51.8 and CO2 uptake is 3.07 mmol g−1."
+        },
+        "Other Information": {
+            "Additional Info": "The Fe-MOR monolith demonstrated excellent recyclability and moisture resistance."
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-3-Cu MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.35 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "SiF62− pillars"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electron transfer between Cu2+ and CO2",
+                "Other Information": {
+                    "Test Conditions": "298 K, 40 Pa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 diffuses within hierarchical pores while N2 is excluded."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 40 Pa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 is excluded based on its larger size compared to pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "CO2/N2 IAST selectivity is 10500 at 100 Pa."
+        },
+        "Other Information": {
+            "Additional Info": "The material showed high sorption energetics of CO2 and completely reversible behavior under moderate conditions."
+        }
+    },
+    {
+        "Materials Name": "NbOFFIVE-1-Ni MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "NbOF52− pillars"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electron transfer between Ni2+ and CO2",
+                "Other Information": {
+                    "Test Conditions": "298 K, 40 Pa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 diffuses within hierarchical pores while N2 is excluded."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 40 Pa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 is excluded due to its larger size compared to pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2 capture capacity is 1.3 mmol g−1 with great recyclability."
+        },
+        "Other Information": {
+            "Additional Info": "The material showed remarkable stability even at 75% RH."
+        }
+    },
+    {
+        "Materials Name": "ZU-901 MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.36 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "2,3-pyrazinedicarboxylic acid",
+            "2-methylpyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "C-H···O hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "273 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H4 diffuses within pores while C2H6 is excluded."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.44 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H6 is excluded based on its larger size compared to pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H4/C2H6 selectivity is 65.7 at 273 K."
+        },
+        "Other Information": {
+            "Additional Info": "The material displayed robustness under both acidic and basic conditions."
+        }
+    },
+    {
+        "Materials Name": "UTSA-280 MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.2 × 4.5 Å2 and 3.8 × 3.8 Å2",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H4 diffuses within pores while C2H6 is excluded."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.44 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H6 is excluded based on its larger size compared to pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H4/C2H6 selectivity exceeds 10000 with C2H4 uptake of 2.5 mmol g−1."
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibited high water-resistance and maintained performance under humid conditions."
+        }
+    }
+]

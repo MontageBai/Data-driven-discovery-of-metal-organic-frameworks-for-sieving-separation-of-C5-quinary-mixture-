@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Trianglimine host macrocycle 1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "12 Å (intrinsic pore)",
+            "Structure Type": "Layered structure with interconnecting channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "styrene",
+                "Molecular Size": "0.54 nm (planar)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, vapor phase; liquid phase equimolar mixture of styrene and ethylbenzene",
+                    "Threshold Pressure": "6 Torr",
+                    "Additional Info": "Styrene uptake reaches saturation after 8 hours, with a capacity of 1.05 mol/mol at 6 Torr."
+                }
+            },
+            {
+                "Molecule Name": "ethylbenzene",
+                "Molecular Size": "0.60 nm (nonplanar)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, vapor phase; liquid phase equimolar mixture of styrene and ethylbenzene",
+                    "Threshold Pressure": "6 Torr",
+                    "Additional Info": "Ethylbenzene requires significant deformation of the macrocyclic cavity for accommodation, with a lower uptake capacity of 0.69 mol/mol at 6 Torr."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective encapsulation of planar styrene over nonplanar ethylbenzene due to cavity deformation requirements",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single crystal X-ray diffraction (SCXRD), powder X-ray diffraction (PXRD), thermogravimetric analysis (TGA), density functional theory (DFT) calculations",
+            "Performance Metrics": "Styrene selectivity: 99% in liquid phase, 88% in vapor phase"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits structural transformation upon guest adsorption, forming ST@1 and EB@1 phases. The system is recyclable and stable in water for over 7 days."
+        }
+    }
+]

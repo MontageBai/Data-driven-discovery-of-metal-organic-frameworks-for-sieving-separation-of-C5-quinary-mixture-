@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "MIL-68(In)-NH2",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "5.5 Å (cubic), 7 Å (trigonal), 20 Å (hexagonal)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Kagome",
+        "Metal Nodes": [
+            "In3+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acid fuchsin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal efficiency: 60%"
+                }
+            },
+            {
+                "Molecule Name": "rose bengal",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal efficiency: 75.4%"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorptive separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake capacity up to 2822 mg/g in 15 wt% MMM"
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "308 K, 1.2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 4.5 × 10^11 GPU"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "308 K, 1.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 2 × 10^11 GPU"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "308 K, 1.2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 3 × 10^11 GPU"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Cross-flow filtration, Dead-end filtration, Wicke-Kallenbach gas permeation",
+            "Performance Metrics": "Water permeance: 125.1 L s⁻¹ m⁻² MPa⁻¹; H₂/CO₂ selectivity: 2.4; CO₂/CH₄ selectivity: 1.4"
+        },
+        "Other Information": {
+            "Additional Info": "High dye removal efficiency and stability over 96 hours of operation"
+        }
+    }
+]

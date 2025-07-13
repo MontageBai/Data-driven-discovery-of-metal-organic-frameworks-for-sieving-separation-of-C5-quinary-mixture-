@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Y-1, 4-NDC-MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.4 nm (tetrahedral cages), 0.8 nm (octahedral cages)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "yttrium"
+        ],
+        "Ligands": [
+            "1, 4-naphthalenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen peroxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7.0",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2O2 can pass through the MOF due to its small molecular size compared to the aperture of the Y-1, 4-NDC-MOF."
+                }
+            },
+            {
+                "Molecule Name": "glucose oxidase",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7.0",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large molecules such as enzymes are effectively obstructed by the Y-1, 4-NDC-MOF."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Amperometric i-t curves, Cyclic voltammetry",
+            "Performance Metrics": "Detection limit: 0.18 μM (AgNPs@Y-1, 4-NDC-MOF/ERGO/GCE); Sensitivity: -80.23 μA mM^-1 cm^-2"
+        },
+        "Other Information": {
+            "Additional Info": "The Y-1, 4-NDC-MOF is an anionic MOF with exceptional thermal stability and resistance to organic solvents, acids, and bases."
+        }
+    }
+]

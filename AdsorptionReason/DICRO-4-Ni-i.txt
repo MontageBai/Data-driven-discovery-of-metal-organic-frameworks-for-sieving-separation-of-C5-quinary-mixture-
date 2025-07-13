@@ -1,0 +1,107 @@
+MOF Name: DICRO-4-Ni-i
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for DICRO-4-Ni-i:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Based on the provided data, DICRO-4-Ni-i is known to adsorb molecules with an intermediate dimension of up to 3.200 Å. No experimental data is provided for molecules that were *not* adsorbed due to size exclusion, meaning an explicit upper bound for the pore size cannot be determined from a non-adsorbed molecule. However, given that only molecules with intermediate dimensions of 3.200 Å are explicitly shown to be adsorbed, it implies that the effective pore size of DICRO-4-Ni-i is likely around this value or slightly larger, but not significantly so as to allow much larger molecules.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of the largest molecules known to be adsorbed (3.200 Å), it is highly probable that isoprene cannot be adsorbed by DICRO-4-Ni-i due to size exclusion. The available experimental data does not support the adsorption of molecules of this size.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: DICRO-4-Ni-i
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for DICRO-4-Ni-i:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Based on the provided data, DICRO-4-Ni-i is known to adsorb molecules with an intermediate dimension of up to 3.200 Å. No experimental data is provided for molecules that were *not* adsorbed due to size exclusion, meaning an explicit upper bound for the pore size cannot be determined from a non-adsorbed molecule. However, given that only molecules with intermediate dimensions of 3.200 Å are explicitly shown to be adsorbed, it implies that the effective pore size of DICRO-4-Ni-i is likely around this value or slightly larger, but not significantly so as to allow much larger molecules.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of the largest molecules known to be adsorbed (3.200 Å), it is highly probable that cis-2-pentene cannot be adsorbed by DICRO-4-Ni-i due to size exclusion. The available experimental data does not support the adsorption of molecules of this size.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: DICRO-4-Ni-i
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for DICRO-4-Ni-i:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Based on the provided data, DICRO-4-Ni-i is known to adsorb molecules with an intermediate dimension of up to 3.200 Å. No experimental data is provided for molecules that were *not* adsorbed due to size exclusion, meaning an explicit upper bound for the pore size cannot be determined from a non-adsorbed molecule. However, given that only molecules with intermediate dimensions of 3.200 Å are explicitly shown to be adsorbed, it implies that the effective pore size of DICRO-4-Ni-i is likely around this value or slightly larger, but not significantly so as to allow much larger molecules.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of the largest molecules known to be adsorbed (3.200 Å), it is highly probable that 1-pentene cannot be adsorbed by DICRO-4-Ni-i due to size exclusion. The available experimental data does not support the adsorption of molecules of this size.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: DICRO-4-Ni-i
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for DICRO-4-Ni-i:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Based on the provided data, DICRO-4-Ni-i is known to adsorb molecules with an intermediate dimension of up to 3.200 Å. No experimental data is provided for molecules that were *not* adsorbed due to size exclusion, meaning an explicit upper bound for the pore size cannot be determined from a non-adsorbed molecule. However, given that only molecules with intermediate dimensions of 3.200 Å are explicitly shown to be adsorbed, it implies that the effective pore size of DICRO-4-Ni-i is likely around this value or slightly larger, but not significantly so as to allow much larger molecules.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of the largest molecules known to be adsorbed (3.200 Å), it is highly probable that trans-2-pentene cannot be adsorbed by DICRO-4-Ni-i due to size exclusion. The available experimental data does not support the adsorption of molecules of this size.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: DICRO-4-Ni-i
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for DICRO-4-Ni-i:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+
+Based on the provided data, DICRO-4-Ni-i is known to adsorb molecules with an intermediate dimension of up to 3.200 Å. No experimental data is provided for molecules that were *not* adsorbed due to size exclusion, meaning an explicit upper bound for the pore size cannot be determined from a non-adsorbed molecule. However, given that only molecules with intermediate dimensions of 3.200 Å are explicitly shown to be adsorbed, it implies that the effective pore size of DICRO-4-Ni-i is likely around this value or slightly larger, but not significantly so as to allow much larger molecules.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the intermediate dimension of the largest molecules known to be adsorbed (3.200 Å), it is highly probable that n-pentane cannot be adsorbed by DICRO-4-Ni-i due to size exclusion. The available experimental data does not support the adsorption of molecules of this size.
+
+Therefore, the result is: **Cannot Adsorb**

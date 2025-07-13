@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "[Cu(EDTA)]2+",
+                "Molecular Size": "8.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The dense and defect-free MOF interphase prevents the diffusion of [Cu(EDTA)]2+ through the intergranular voids."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The angstrom-sized pores of the MOF layer repel free water molecules, mitigating self-corrosion and side reactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Immersion test, Raman spectroscopy",
+            "Performance Metrics": "Prevention of displacement reaction with [Cu(EDTA)]2+, reduced free water content in MOF pores"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF interphase was grown on Zn metal via a vapor-solid reaction, forming a seamless and defect-free layer that effectively suppresses dendrite growth and side reactions."
+        }
+    }
+]

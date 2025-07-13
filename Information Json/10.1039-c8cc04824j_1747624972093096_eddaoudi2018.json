@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "ana-ZMOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 × 6.2 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "ana",
+        "Metal Nodes": [
+            "Y3+"
+        ],
+        "Ligands": [
+            "imidazole-4,5-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed amount: 0.55 mmol⋅g-1"
+                }
+            },
+            {
+                "Molecule Name": "iso-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very little adsorption observed in breakthrough experiments"
+                }
+            },
+            {
+                "Molecule Name": "n-pentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reaches equilibrium faster than iso-pentane"
+                }
+            },
+            {
+                "Molecule Name": "iso-pentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs slower than n-pentane"
+                }
+            },
+            {
+                "Molecule Name": "2,2,4-trimethyl pentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No adsorption detected; full molecular sieving mechanism"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Single-component gas adsorption isotherms",
+            "Performance Metrics": "n-butane/iso-butane selectivity demonstrated, 2,2,4-trimethylpentane fully excluded"
+        },
+        "Other Information": {
+            "Additional Info": "High charge density and tuned pore size enable selective separation of linear, mono-branched, and dibranched paraffins"
+        }
+    }
+]

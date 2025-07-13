@@ -1,0 +1,484 @@
+[
+    {
+        "Materials Name": "UTSA-280",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "14.4 Å² (cross-sectional area)",
+            "Structure Type": "One-dimensional channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca"
+        ],
+        "Ligands": [
+            "squaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.28 × 4.18 × 4.84 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "UTSA-280 exhibits a molecular sieving effect allowing ethylene to pass while blocking ethane."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "3.81 × 4.08 × 4.82 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore size of UTSA-280 is too small to allow ethane passage, achieving molecular sieving."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "High C2H4 productivity at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "UTSA-280 is water-stable and can be prepared at the kilogram scale in an environmentally friendly method."
+        }
+    },
+    {
+        "Materials Name": "M-gallate (M = Ni, Mg, Co)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.47–3.69 Å",
+            "Structure Type": "Three-dimensionally interconnected zigzag channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni",
+            "Mg",
+            "Co"
+        ],
+        "Ligands": [
+            "gallate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.28 × 4.18 × 4.84 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Partial sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The aperture size of M-gallate is suitable for differentiating between ethylene and ethane based on size."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "3.81 × 4.08 × 4.82 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Partial sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane is excluded due to its larger size compared to the pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Partial molecular sieving based on size differentiation",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and IAST calculations",
+            "Performance Metrics": "C2H4/C2H6 selectivity of 52 with C2H4 uptake of 3.37 mmol/g at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "Co-gallate shows particularly high C2H4/C2H6 selectivity."
+        }
+    },
+    {
+        "Materials Name": "Fe2(O2)(dobdc)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe"
+        ],
+        "Ligands": [
+            "2,5-dioxido-1,3-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "3.81 × 4.08 × 4.82 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential binding via peroxo sites",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fe-peroxo sites enable preferential binding of ethane over ethylene."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.28 × 4.18 × 4.84 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Preferential binding via peroxo sites",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylene is less favored due to weaker interactions with Fe-peroxo sites."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Single-component adsorption isotherms and IAST calculations",
+            "Performance Metrics": "C2H6/C2H4 selectivity of 4.4 for equimolar mixture at 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "This MOF achieves clean separation of C2H6/C2H4 mixtures in column breakthrough experiments."
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-2-Cu-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.15 × 5.15 Å²",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu"
+        ],
+        "Ligands": [
+            "SiF6²⁻"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.32 × 3.34 × 5.70 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong host-guest hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.025 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Acetylene forms strong C-D···F hydrogen bonds within the framework."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.28 × 4.18 × 4.84 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore size is optimized to exclude ethylene while allowing acetylene capture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "C2H2/C2H4 selectivity of 39.7–44.8 for 1/99 mixture at 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "SIFSIX-2-Cu-i demonstrates ultrastrong C2H2 capture ability."
+        }
+    },
+    {
+        "Materials Name": "UTSA-200",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu"
+        ],
+        "Ligands": [
+            "4,4'-azopyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.32 × 3.34 × 5.70 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong host-guest hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Acetylene binds strongly via C-D···F hydrogen bonds in UTSA-200."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.28 × 4.18 × 4.84 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 0.7 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The contracted pore size blocks ethylene entry into the framework."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "C2H2/C2H4 selectivity >6000 for 1/99 mixture at 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "UTSA-200 sets new benchmarks for both capacity and selectivity in C2H2/C2H4 separation."
+        }
+    },
+    {
+        "Materials Name": "NbOFFIVE-1-Ni",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0471 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni"
+        ],
+        "Ligands": [
+            "NbOF5²⁻"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene fits through the pores but propane is excluded."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The smaller pore size excludes propane from entering the framework."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on size exclusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "Complete C3H6/C3H8 separation at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "NbOFFIVE-1-Ni achieves infinite C3H6/C3H8 separation factor in column breakthrough tests."
+        }
+    },
+    {
+        "Materials Name": "Y-abtc",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.72 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Y"
+        ],
+        "Ligands": [
+            "3,3',5,5'-azobenzenetetracarboxylates"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene enters the pores while propane is excluded."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore window size is too small for propane to enter."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on size exclusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "Full separation of propylene from propane at ambient conditions"
+        },
+        "Other Information": {
+            "Additional Info": "Y-abtc is stable under multicomponent breakthrough conditions."
+        }
+    },
+    {
+        "Materials Name": "Zn2(bim)4 nanosheets-based membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2.1 Å (effective size may vary due to structural flexibility)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn"
+        ],
+        "Ligands": [
+            "benzimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrogen diffuses faster than CO2 due to its smaller size."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 is excluded due to its larger size relative to the pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests",
+            "Performance Metrics": "H2 permeance: 2700 GPU; H2/CO2 selectivity: 291"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane surpasses Robeson’s upper-bound for H2/CO2 gas pair."
+        }
+    },
+    {
+        "Materials Name": "MAMS-1 nanosheets-based membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrogen shows higher permeance than CO2."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The membrane demonstrates selective H2/CO2 separation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane exhibits reversed thermo-switchable H2 permeation."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8/6FDA-DAM mixed matrix membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene diffuses faster than propane through the membrane."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Diffusion barrier",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane experiences slower diffusion due to its larger size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests",
+            "Performance Metrics": "Enhanced C3H6/C3H8 selectivity"
+        },
+        "Other Information": {
+            "Additional Info": "The hollow fiber geometry further boosts the separation performance."
+        }
+    }
+]

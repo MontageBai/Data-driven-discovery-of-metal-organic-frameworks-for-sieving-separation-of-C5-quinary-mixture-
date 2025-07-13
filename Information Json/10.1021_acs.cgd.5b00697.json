@@ -1,0 +1,548 @@
+[
+    {
+        "MOF Name": "Network 3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Three-dimensional network with channels; monoclinic cell P21/c; formed by Co3+-based metalloligands connected through secondary Zn2+ ions."
+        },
+        "Topology": "Unprecedented topology with point symbol {5.6.7.82.9}-{5.6.7}{5.82}2{5.83.92}{83}",
+        "Metal Nodes": [
+            "Co3+",
+            "Zn2+"
+        ],
+        "Ligands": [
+            "5-(picolinamido)-isophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Benzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 98% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "4-nitrobenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 99% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "4-chlorobenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 97% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "4-methoxybenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 95% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "3-methoxybenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 96% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "Furan-2-carbaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 96% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "Thiophene-2-carbaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 95% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "1-naphthaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion; bulkier molecules are excluded from interior catalytic sites due to dense packing of the MOF.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Comparatively lower yield (e.g., 58% yield) due to exclusion from internal catalytic sites, with catalysis occurring primarily on the surface."
+                }
+            },
+            {
+                "Molecule Name": "2-naphthaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion; bulkier molecules are excluded from interior catalytic sites due to dense packing of the MOF.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Comparatively lower yield (e.g., 65% yield) due to exclusion from internal catalytic sites, with catalysis occurring primarily on the surface."
+                }
+            },
+            {
+                "Molecule Name": "9-anthraldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion; bulkier molecules are excluded from interior catalytic sites due to dense packing of the MOF.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Comparatively lower yield (e.g., 55% yield) due to exclusion from internal catalytic sites, with catalysis occurring primarily on the surface."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion catalysis",
+        "Experimental Validation": {
+            "Method": "Catalytic conversion comparison of different sized substrates using cyanation reactions, quantified by GC/GC-MS; structural integrity confirmed by PXRD and SEM.",
+            "Performance Metrics": "Differential catalytic yield (55-99%) with smaller aldehydes yielding high conversion and bulkier aldehydes showing reduced conversion (e.g., 1-naphthaldehyde yield 55-65%)."
+        },
+        "Other Information": {
+            "Additional Info": "Catalyst reusability demonstrated for 5 cycles with intact structural integrity. Functions as a heterogeneous catalyst. Contains Lewis acidic Zn(II) sites. Characterized by 29% solvent-accessible voids."
+        }
+    },
+    {
+        "MOF Name": "Network 4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Three-dimensional network; monoclinic cell P21/c; formed by Co3+-based metalloligands connected through secondary Cd2+ ions."
+        },
+        "Topology": "{3.102}4{32.102.112}",
+        "Metal Nodes": [
+            "Co3+",
+            "Cd2+"
+        ],
+        "Ligands": [
+            "5-(picolinamido)-isophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Benzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 98% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "4-nitrobenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 99% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "4-chlorobenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 97% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "4-methoxybenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 95% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "3-methoxybenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 96% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "Furan-2-carbaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 96% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "Thiophene-2-carbaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 95% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "1-naphthaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion; bulkier molecules are excluded from interior catalytic sites due to dense packing of the MOF.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Comparatively lower yield (e.g., 60% yield) due to exclusion from internal catalytic sites, with catalysis occurring primarily on the surface."
+                }
+            },
+            {
+                "Molecule Name": "2-naphthaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion; bulkier molecules are excluded from interior catalytic sites due to dense packing of the MOF.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Comparatively lower yield (e.g., 65% yield) due to exclusion from internal catalytic sites, with catalysis occurring primarily on the surface."
+                }
+            },
+            {
+                "Molecule Name": "9-anthraldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion; bulkier molecules are excluded from interior catalytic sites due to dense packing of the MOF.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Comparatively lower yield (e.g., 55% yield) due to exclusion from internal catalytic sites, with catalysis occurring primarily on the surface."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion catalysis",
+        "Experimental Validation": {
+            "Method": "Catalytic conversion comparison of different sized substrates using cyanation reactions, quantified by GC/GC-MS; structural integrity confirmed by PXRD and SEM.",
+            "Performance Metrics": "Differential catalytic yield (55-99%) with smaller aldehydes yielding high conversion and bulkier aldehydes showing reduced conversion (e.g., 1-naphthaldehyde yield 55-65%)."
+        },
+        "Other Information": {
+            "Additional Info": "Catalyst reusability demonstrated for 5 cycles with intact structural integrity. Functions as a heterogeneous catalyst. Contains Lewis acidic Cd(II) sites. Characterized by 11.3% solvent-accessible voids."
+        }
+    },
+    {
+        "MOF Name": "Network 5",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Loosely packed three-dimensional network with larger pores; monoclinic cell C2/c; formed by Co3+-based metalloligands connected through secondary Zn2+ ions."
+        },
+        "Topology": "flu type topology with point symbol {42.6}2{44.62.87.102}",
+        "Metal Nodes": [
+            "Co3+",
+            "Zn2+",
+            "Na+"
+        ],
+        "Ligands": [
+            "4-[(pyridine-2-carbonyl)-amino]benzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Benzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 99% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "4-nitrobenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 99% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "4-chlorobenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 98% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "4-methoxybenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 96% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "3-methoxybenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 97% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "Furan-2-carbaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 97% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "Thiophene-2-carbaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 96% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "1-naphthaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes due to larger pore size, allowing access to internal catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher yield (e.g., 92% yield) compared to networks 3 and 4 due to larger pores, allowing better access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "2-naphthaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes due to larger pore size, allowing access to internal catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher yield (e.g., 95% yield) compared to networks 3 and 4 due to larger pores, allowing better access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "9-anthraldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes due to larger pore size, allowing access to internal catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher yield (e.g., 85% yield) compared to networks 3 and 4 due to larger pores, allowing better access to catalytic sites."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion catalysis",
+        "Experimental Validation": {
+            "Method": "Catalytic conversion comparison of different sized substrates using cyanation reactions, quantified by GC/GC-MS; structural integrity confirmed by PXRD and SEM.",
+            "Performance Metrics": "High catalytic yield for all tested aldehydes (95-99% for smaller aldehydes, 85-92% for bulkier aldehydes), indicating better accessibility."
+        },
+        "Other Information": {
+            "Additional Info": "Catalyst reusability demonstrated for 5 cycles with intact structural integrity. Functions as a heterogeneous catalyst. Contains Lewis acidic Zn(II) sites. Characterized by 19.3% solvent-accessible voids."
+        }
+    },
+    {
+        "MOF Name": "Network 6",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Loosely packed three-dimensional network with larger pores; monoclinic cell C2/c; formed by Co3+-based metalloligands connected through secondary Cd2+ ions."
+        },
+        "Topology": "fes type topology with point symbol 4.82",
+        "Metal Nodes": [
+            "Co3+",
+            "Cd2+",
+            "Na+"
+        ],
+        "Ligands": [
+            "4-[(pyridine-2-carbonyl)-amino]benzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Benzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 99% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "4-nitrobenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 99% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "4-chlorobenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 98% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "4-methoxybenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 96% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "3-methoxybenzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 97% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "Furan-2-carbaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 97% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "Thiophene-2-carbaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size compatibility allowing access to interior catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resulted in good to excellent yields (e.g., 96% yield) for cyanation reaction, indicating uncluttered access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "1-naphthaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes due to larger pore size, allowing access to internal catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher yield (e.g., 90% yield) compared to networks 3 and 4 due to larger pores, allowing better access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "2-naphthaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes due to larger pore size, allowing access to internal catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher yield (e.g., 90% yield) compared to networks 3 and 4 due to larger pores, allowing better access to catalytic sites."
+                }
+            },
+            {
+                "Molecule Name": "9-anthraldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes due to larger pore size, allowing access to internal catalytic sites.",
+                "Other Information": {
+                    "Test Conditions": "2 mol % catalyst; room temperature; no solvent for cyanation reactions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher yield (e.g., 87% yield) compared to networks 3 and 4 due to larger pores, allowing better access to catalytic sites."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion catalysis",
+        "Experimental Validation": {
+            "Method": "Catalytic conversion comparison of different sized substrates using cyanation reactions, quantified by GC/GC-MS; structural integrity confirmed by PXRD and SEM.",
+            "Performance Metrics": "High catalytic yield for all tested aldehydes (95-99% for smaller aldehydes, 85-92% for bulkier aldehydes), indicating better accessibility."
+        },
+        "Other Information": {
+            "Additional Info": "Catalyst reusability demonstrated for 5 cycles with intact structural integrity. Functions as a heterogeneous catalyst. Contains Lewis acidic Cd(II) sites. Characterized by 25.3% solvent-accessible voids."
+        }
+    }
+]

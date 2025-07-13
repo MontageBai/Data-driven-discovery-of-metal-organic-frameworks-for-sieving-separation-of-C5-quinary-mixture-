@@ -1,0 +1,243 @@
+[
+    {
+        "Materials Name": "M'MOF-3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 × 4.8 Å²",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "Cu(SalPyCy)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity for C2H2/C2H4 separation."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reduced pore size excludes ethylene effectively."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H2/C2H4 selectivity: 25.5"
+        },
+        "Other Information": {
+            "Additional Info": "M'MOF-3a shows significant improvement in selectivity compared to M'MOF-2a."
+        }
+    },
+    {
+        "Materials Name": "UTSA-100",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.96 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "296 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption capacity for C2H2."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "296 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pore size smaller than the kinetic diameter of C2H4."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "C2H2/C2H4 selectivity: 10.72"
+        },
+        "Other Information": {
+            "Additional Info": "UTSA-100a demonstrates excellent sieving effect and high adsorption capacity for C2H2/C2H4 separation."
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-14-Cu-i (UTSA-200)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4′-azopyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "IAST selectivity over 6000 for a C2H2/C2H4 mixture."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H4 molecules exhibit space overlapping with pore walls."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Neutron powder diffraction",
+            "Performance Metrics": "C2H2/C2H4 selectivity: >6000"
+        },
+        "Other Information": {
+            "Additional Info": "Strong C-H⋯F H-bonding interactions with C2H2."
+        }
+    },
+    {
+        "Materials Name": "UTSA-280",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.2 × 4.5 Å² and 3.8 × 3.8 Å²",
+            "Structure Type": "1D cylindrical channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "squaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake of C2H4."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake of C2H6."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-crystal X-ray diffraction",
+            "Performance Metrics": "C2H4/C2H6 selectivity: >10,000"
+        },
+        "Other Information": {
+            "Additional Info": "Aperture sizes favor C2H4 over C2H6."
+        }
+    },
+    {
+        "Materials Name": "JNU-2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.7 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "xae",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Host-guest interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption of C2H6 due to multiple C−H⋯O hydrogen bonds."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Host-guest interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower affinity for C2H4 compared to C2H6."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Interaction-induced molecular sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms",
+            "Performance Metrics": "C2H6/C2H4 selectivity: 1.6"
+        },
+        "Other Information": {
+            "Additional Info": "JNU-2 functions as an interaction-induced molecular sieve for C2H6."
+        }
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "Materials Name": "3D-MICs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2.80 nm and 3.90 nm",
+            "Structure Type": "Core–shell structure containing the outer imprinted channels layer and MOF-# core"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "β-cyclodextrin",
+            "methacrylic acid",
+            "ethylene glycol dimethacrylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sulfamethoxazole",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Template effect and size-exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "pH = 5.18, T = 25 ℃, initial [SMX] = 20 mg·L-1, SMX volume = 100 mL, PS = 0.188 g, catalysts dosage = 0.05 g",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material exhibits specific adsorption via hydrogen bonds, hydrophobic-hydrophobic interaction, π-π stacking, and electrostatic interactions."
+                }
+            },
+            {
+                "Molecule Name": "orange G",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Template effect",
+                "Other Information": {
+                    "Test Conditions": "pH = 5.18, T = 25 ℃, initial [OG] = 20 mg·L-1, OG volume = 100 mL, PS = 0.188 g, catalysts dosage = 0.05 g",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption occurs due to similar sulfonyl groups and shapes to sulfamethoxazole."
+                }
+            },
+            {
+                "Molecule Name": "Ciprofloxacin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size-exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "pH = 5.18, T = 25 ℃, initial [CPI] = 20 mg·L-1, CPI volume = 100 mL, PS = 0.188 g, catalysts dosage = 0.05 g",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Unrecognized site and size-exclusion effect prevent adsorption."
+                }
+            },
+            {
+                "Molecule Name": "tetracycline",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size-exclusion effect",
+                "Other Information": {
+                    "Test Conditions": "pH = 5.18, T = 25 ℃, initial [TET] = 20 mg·L-1, TET volume = 100 mL, PS = 0.188 g, catalysts dosage = 0.05 g",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Unrecognized site and size-exclusion effect prevent adsorption."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, EEM fluorescence spectra, LC-MS tests, DFT calculations",
+            "Performance Metrics": "SMX removal efficiency: 97%, TOC removal: 78%"
+        },
+        "Other Information": {
+            "Additional Info": "The material showed robust interference resistance in tap water and polluted river water."
+        }
+    }
+]

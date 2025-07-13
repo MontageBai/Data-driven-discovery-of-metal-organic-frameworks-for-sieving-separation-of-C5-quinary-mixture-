@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "IRMOF-3@GF2.0",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "15.0 Å (initial), dynamically changes during CO2 adsorption with median value of 7.03 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions, feed gas flow rate 100 mL/min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance reached 974 ± 41 GPU"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Selective adsorption and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions, feed gas flow rate 100 mL/min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance significantly reduced due to preferential adsorption causing steric hindrance"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 permeance extremely low (2.21 ± 0.50 GPU)"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 detected in retentate stream as sweep gas diffused back through the membrane"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic separation by combining selective adsorption and size exclusion",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "H2/CO2 selectivity: 1341 ± 134, H2 permeance: 974 ± 41 GPU"
+        },
+        "Other Information": {
+            "Additional Info": "The IRMOF-3 nanosheets were embedded into glass fiber filters via vacuum filtration, forming a dense nanosheet filler layer that eliminated intergranular gaps."
+        }
+    }
+]

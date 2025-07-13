@@ -1,0 +1,84 @@
+[
+    {
+        "Materials Name": "2D-MOFs membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "1.03 nm (interlayer space), 1.01 nm (average pore size)",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+",
+            "Fe3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "tetracycline",
+                "Molecular Size": "0.95 nm x 0.75 nm x 0.45 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH = 7.0, 0.5 MPa, 25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency: 98.5%"
+                }
+            },
+            {
+                "Molecule Name": "norfloxacin",
+                "Molecular Size": "0.80 nm x 0.55 nm x 0.40 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH = 7.0, 0.5 MPa, 25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency: >87%"
+                }
+            },
+            {
+                "Molecule Name": "sulfamethoxazole",
+                "Molecular Size": "0.70 nm x 0.50 nm x 0.35 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH = 7.0, 0.5 MPa, 25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency: >87%"
+                }
+            },
+            {
+                "Molecule Name": "trimethoprim",
+                "Molecular Size": "0.75 nm x 0.55 nm x 0.35 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic attraction",
+                "Other Information": {
+                    "Test Conditions": "pH = 7.0, 0.5 MPa, 25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency: ~60-70%"
+                }
+            },
+            {
+                "Molecule Name": "tylosin",
+                "Molecular Size": "1.50 nm x 1.00 nm x 0.80 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion and electrostatic attraction",
+                "Other Information": {
+                    "Test Conditions": "pH = 7.0, 0.5 MPa, 25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency: 68.9%; MW = 916.1 Da"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergy of fast water transport, molecular sieving, and electrostatic repulsion",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Dead-end filtration experiments",
+            "Performance Metrics": "Water flux: 622.9 L m−2 h−1 bar−1; TC rejection: 98.5%"
+        },
+        "Other Information": {
+            "Additional Info": "Derived from CoFe-LDH via hydrothermal transformation; Exhibited superior anti-fouling properties and stability during long-term filtration."
+        }
+    }
+]

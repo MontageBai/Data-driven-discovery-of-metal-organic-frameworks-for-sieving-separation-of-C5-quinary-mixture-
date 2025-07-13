@@ -1,0 +1,63 @@
+[
+    {
+        "Materials Name": "NH2-UiO-66(1)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.77 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,3,5-Trimesic acid",
+            "Terephthalic acid",
+            "2-Aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "2-phenylethanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Lewis acid-base interactions and sieving effect",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption amount decreased with increasing temperature."
+                }
+            },
+            {
+                "Molecule Name": "1-phenyl-2-propanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Lewis acid-base interactions and sieving effect",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher acidity led to easier binding with -NH2 groups."
+                }
+            },
+            {
+                "Molecule Name": "2-ethylphenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Lewis acid-base interactions and sieving effect",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher acidity led to easier binding with -NH2 groups."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Pure 2-phenylethanol eluted first, followed by 1-phenyl-2-propanol, and then 2-ethylphenol sequentially."
+        },
+        "Other Information": {
+            "Additional Info": "The material showed good recycling performance and practical applicability."
+        }
+    }
+]

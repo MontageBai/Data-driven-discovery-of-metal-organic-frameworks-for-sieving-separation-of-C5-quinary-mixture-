@@ -1,0 +1,430 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (crystallographic), expands to 5.4-5.9 Å experimentally",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening allows adsorption despite larger size than crystallographic pore aperture",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption occurs due to pore expansion from 3.4 Å to between 5.4 and 5.9 Å"
+                }
+            },
+            {
+                "Molecule Name": "ethylene glycol",
+                "Molecular Size": "5.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with pore expansion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed due to pore expansion beyond crystallographic size"
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Hydrophobic exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to framework hydrophobicity despite smaller size than expanded pore"
+                }
+            },
+            {
+                "Molecule Name": "1-methylimidazole",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with pore expansion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed similarly to ethylene glycol"
+                }
+            },
+            {
+                "Molecule Name": "p-dioxane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with pore expansion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed similarly to ethylene glycol and 1-methylimidazole"
+                }
+            },
+            {
+                "Molecule Name": "2-chlorophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion after pore expansion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded as molecular size exceeds expanded pore limit of 5.4 Å"
+                }
+            },
+            {
+                "Molecule Name": "Cyclohexanone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion after pore expansion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded as molecular size exceeds expanded pore limit of 5.4 Å"
+                }
+            },
+            {
+                "Molecule Name": "2-hydroxyacetophenone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion after pore expansion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded as molecular size exceeds expanded pore limit of 5.4 Å"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening allows adsorption of molecules up to 5.4 Å despite 3.4 Å crystallographic pore size",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Density measurements, DFT calculations",
+            "Performance Metrics": "Solvent exclusion verified through density trends and theoretical calculations"
+        },
+        "Other Information": {
+            "Additional Info": "Pore expands up to 59% from crystallographic size, enabling adsorption of larger molecules"
+        }
+    },
+    {
+        "Materials Name": "ZIF-67",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Similar to ZIF-8, expands comparably",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening allows adsorption despite larger size than crystallographic pore aperture",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption occurs due to pore expansion similar to ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "ethylene glycol",
+                "Molecular Size": "5.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with pore expansion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed similarly to ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Hydrophobic exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to framework hydrophobicity"
+                }
+            },
+            {
+                "Molecule Name": "1-methylimidazole",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with pore expansion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed similarly to ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "p-dioxane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with pore expansion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed similarly to ZIF-8"
+                }
+            },
+            {
+                "Molecule Name": "2-chlorophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion after pore expansion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded similarly to ZIF-8"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening allows adsorption of molecules up to similar size limit as ZIF-8",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Density measurements, comparison with ZIF-8",
+            "Performance Metrics": "Solvent exclusion verified through density trends and theoretical calculations"
+        },
+        "Other Information": {
+            "Additional Info": "Pore expansion and solvent exclusion behavior comparable to ZIF-8"
+        }
+    },
+    {
+        "Materials Name": "ZIF-69",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Larger than ZIF-8, specific size not reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "gme",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-nitroimidazole",
+            "5-chlorobenzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption into larger pores",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed due to reduced hydrophobicity from polar ligand functionalities"
+                }
+            },
+            {
+                "Molecule Name": "2-hydroxyacetophenone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with large pore aperture",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed due to expanded pore size"
+                }
+            },
+            {
+                "Molecule Name": "dimethyl isosorbide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with large pore aperture",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed due to expanded pore size"
+                }
+            },
+            {
+                "Molecule Name": "15-crown-5",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with large pore aperture",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed despite being sterically bulky"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Large pore size enables adsorption of bulkier molecules compared to ZIF-8",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Density measurements",
+            "Performance Metrics": "Water adsorption confirmed despite exclusion in other ZIFs"
+        },
+        "Other Information": {
+            "Additional Info": "Polar functionalities reduce hydrophobicity, allowing water adsorption"
+        }
+    },
+    {
+        "Materials Name": "ZIF-71(RHO)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Larger than ZIF-8, specific size not reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "rho",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4,5-dichloroimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Hydrophobic exclusion despite large pore",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded despite framework having large pores"
+                }
+            },
+            {
+                "Molecule Name": "2-hydroxyacetophenone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with large pore aperture",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed due to expanded pore size"
+                }
+            },
+            {
+                "Molecule Name": "dimethyl isosorbide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with large pore aperture",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed due to expanded pore size"
+                }
+            },
+            {
+                "Molecule Name": "15-crown-5",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with large pore aperture",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed despite being sterically bulky"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Large pore size enables adsorption of bulkier molecules compared to ZIF-8",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Density measurements",
+            "Performance Metrics": "Water exclusion confirmed despite large pore size"
+        },
+        "Other Information": {
+            "Additional Info": "Highly hydrophobic nature leads to water exclusion despite large pore aperture"
+        }
+    },
+    {
+        "Materials Name": "ZIF-71(SOD)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Larger than ZIF-8, expands up to 76% from crystallographic size",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4,5-dichloroimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Hydrophobic exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to framework hydrophobicity"
+                }
+            },
+            {
+                "Molecule Name": "2-chlorophenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with pore expansion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed due to expanded pore size"
+                }
+            },
+            {
+                "Molecule Name": "2-hydroxyacetophenone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with pore expansion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed due to expanded pore size"
+                }
+            },
+            {
+                "Molecule Name": "dimethyl isosorbide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with pore expansion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed due to expanded pore size"
+                }
+            },
+            {
+                "Molecule Name": "15-crown-5",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion after pore expansion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded as molecular size exceeds expanded pore limit"
+                }
+            }
+        ],
+        "Sieving Mechanism": "76% pore expansion allows adsorption of larger molecules compared to ZIF-8",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Density measurements",
+            "Performance Metrics": "Solvent exclusion verified through density trends and theoretical calculations"
+        },
+        "Other Information": {
+            "Additional Info": "Bulky chloride functional groups increase pore aperture size compared to ZIF-8"
+        }
+    }
+]

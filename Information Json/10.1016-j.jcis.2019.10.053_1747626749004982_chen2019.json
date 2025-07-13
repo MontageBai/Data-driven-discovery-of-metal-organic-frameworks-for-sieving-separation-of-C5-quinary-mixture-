@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "MOF-5 derived porous carbon membrane (PCM)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "280 nm (mean pore size)",
+            "Structure Type": "Hierarchically porous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "polystyrene microspheres",
+                "Molecular Size": "200 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size-exclusion and electrostatic interaction",
+                "Other Information": {
+                    "Test Conditions": "0.2 bar, varying voltage (-1.5 V to +1.5 V), 10 mM Na2SO4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Electrostatic repulsion at -1.5 V enhances rejection efficiency and reduces membrane fouling."
+                }
+            },
+            {
+                "Molecule Name": "phenol",
+                "Molecular Size": "0.5 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption and electrochemical oxidation",
+                "Other Information": {
+                    "Test Conditions": "0.2 bar, varying voltage (+0.5 V to +2.0 V), 10 mM Na2SO4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal efficiency increases with positive voltage due to electrochemical oxidation at potentials > +0.8 V."
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption and electrochemical oxidation",
+                "Other Information": {
+                    "Test Conditions": "0.2 bar, varying voltage (+0.5 V to +1.5 V), 10 mM Na2SO4",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significant removal (>90%) achieved at +1.0 V due to electrochemical oxidation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion for larger molecules; adsorption and electrochemical oxidation for smaller molecules.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, cyclic voltammetry, linear sweep voltammetry",
+            "Performance Metrics": "PS microsphere removal: ~85% at -1.5 V; Phenol removal: ~90% at +2.0 V; Methyl orange removal: ~100% at +1.0 V"
+        },
+        "Other Information": {
+            "Additional Info": "The PCM exhibits enhanced permeability, selectivity, and antifouling capability under electrochemical assistance."
+        }
+    }
+]

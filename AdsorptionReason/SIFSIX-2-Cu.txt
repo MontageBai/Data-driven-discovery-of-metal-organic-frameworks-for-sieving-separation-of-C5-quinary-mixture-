@@ -1,0 +1,107 @@
+MOF Name: SIFSIX-2-Cu
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-2-Cu:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of SIFSIX-2-Cu:
+The MOF can adsorb molecules with intermediate dimensions up to at least 3.877 Å (from methane).
+No explicit "No" adsorption data points due to size exclusion were provided to define an upper limit for the pore size. However, the adsorption type is stated as "Size exclusion", implying that the MOF's functionality relies on discriminating molecules by size. Given that only molecules with intermediate dimensions up to 3.877 Å are shown to be adsorbed, it is strongly inferred that molecules with significantly larger intermediate dimensions are excluded.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the largest intermediate dimension of molecules known to be adsorbed by SIFSIX-2-Cu (3.877 Å for methane), and given the MOF's implied size-exclusion nature, it is predicted that isoprene cannot be adsorbed.
+
+---
+
+MOF Name: SIFSIX-2-Cu
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-2-Cu:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of SIFSIX-2-Cu:
+The MOF can adsorb molecules with intermediate dimensions up to at least 3.877 Å (from methane).
+No explicit "No" adsorption data points due to size exclusion were provided to define an upper limit for the pore size. However, the adsorption type is stated as "Size exclusion", implying that the MOF's functionality relies on discriminating molecules by size. Given that only molecules with intermediate dimensions up to 3.877 Å are shown to be adsorbed, it is strongly inferred that molecules with significantly larger intermediate dimensions are excluded.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the largest intermediate dimension of molecules known to be adsorbed by SIFSIX-2-Cu (3.877 Å for methane), and given the MOF's implied size-exclusion nature, it is predicted that cis-2-pentene cannot be adsorbed.
+
+---
+
+MOF Name: SIFSIX-2-Cu
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-2-Cu:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of SIFSIX-2-Cu:
+The MOF can adsorb molecules with intermediate dimensions up to at least 3.877 Å (from methane).
+No explicit "No" adsorption data points due to size exclusion were provided to define an upper limit for the pore size. However, the adsorption type is stated as "Size exclusion", implying that the MOF's functionality relies on discriminating molecules by size. Given that only molecules with intermediate dimensions up to 3.877 Å are shown to be adsorbed, it is strongly inferred that molecules with significantly larger intermediate dimensions are excluded.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the largest intermediate dimension of molecules known to be adsorbed by SIFSIX-2-Cu (3.877 Å for methane), and given the MOF's implied size-exclusion nature, it is predicted that 1-pentene cannot be adsorbed.
+
+---
+
+MOF Name: SIFSIX-2-Cu
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-2-Cu:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of SIFSIX-2-Cu:
+The MOF can adsorb molecules with intermediate dimensions up to at least 3.877 Å (from methane).
+No explicit "No" adsorption data points due to size exclusion were provided to define an upper limit for the pore size. However, the adsorption type is stated as "Size exclusion", implying that the MOF's functionality relies on discriminating molecules by size. Given that only molecules with intermediate dimensions up to 3.877 Å are shown to be adsorbed, it is strongly inferred that molecules with significantly larger intermediate dimensions are excluded.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the largest intermediate dimension of molecules known to be adsorbed by SIFSIX-2-Cu (3.877 Å for methane), and given the MOF's implied size-exclusion nature, it is predicted that trans-2-pentene cannot be adsorbed.
+
+---
+
+MOF Name: SIFSIX-2-Cu
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-2-Cu:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+
+Inferred effective pore size of SIFSIX-2-Cu:
+The MOF can adsorb molecules with intermediate dimensions up to at least 3.877 Å (from methane).
+No explicit "No" adsorption data points due to size exclusion were provided to define an upper limit for the pore size. However, the adsorption type is stated as "Size exclusion", implying that the MOF's functionality relies on discriminating molecules by size. Given that only molecules with intermediate dimensions up to 3.877 Å are shown to be adsorbed, it is strongly inferred that molecules with significantly larger intermediate dimensions are excluded.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the largest intermediate dimension of molecules known to be adsorbed by SIFSIX-2-Cu (3.877 Å for methane), and given the MOF's implied size-exclusion nature, it is predicted that n-pentane cannot be adsorbed.

@@ -1,0 +1,65 @@
+MOF Name: IPM-101
+
+**Inferring IPM-101's Effective Pore Size:**
+
+From the experimental data for IPM-101:
+*   **isobutane:** Dimensions = 6.404×6.393×4.866 → Intermediate = 6.393 Å | **Not Adsorbed** (Reason: Size exclusion, Precise molecular sieving using tailored pore windows).
+
+Based on this, the effective pore size of IPM-101 is inferred to be **less than 6.393 Å**. Since there is no data for molecules that *can* be adsorbed, we do not have a lower bound for the pore size. However, the term "precise molecular sieving" suggests that the 6.393 Å is the upper limit of what can be passed through the pores. Therefore, molecules with intermediate dimensions strictly smaller than 6.393 Å are expected to be adsorbed.
+
+---
+
+**Evaluation of Target Guest Molecules:**
+
+**Guest Molecule: isoprene**
+
+*   Predicted Result: Can Adsorb
+
+*   Detailed Reasoning:
+    *   The MOF IPM-101 is experimentally known to exclude isobutane (intermediate dimension = 6.393 Å) due to size exclusion and precise molecular sieving. This indicates that IPM-101's effective pore size is less than 6.393 Å.
+    *   Isoprene has dimensions of 7.746×6.093×3.963, with an **intermediate dimension of 6.093 Å**.
+    *   Since isoprene's intermediate dimension (6.093 Å) is smaller than the intermediate dimension of the excluded molecule, isobutane (6.393 Å), and considering the MOF's precise sieving mechanism, isoprene is predicted to be able to adsorb.
+
+---
+
+**Guest Molecule: cis-2-pentene**
+
+*   Predicted Result: Can Adsorb
+
+*   Detailed Reasoning:
+    *   The MOF IPM-101 is experimentally known to exclude isobutane (intermediate dimension = 6.393 Å) due to size exclusion and precise molecular sieving. This indicates that IPM-101's effective pore size is less than 6.393 Å.
+    *   cis-2-pentene has dimensions of 8.067×5.572×5.136, with an **intermediate dimension of 5.572 Å**.
+    *   Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than the intermediate dimension of the excluded molecule, isobutane (6.393 Å), and considering the MOF's precise sieving mechanism, cis-2-pentene is predicted to be able to adsorb.
+
+---
+
+**Guest Molecule: 1-pentene**
+
+*   Predicted Result: Can Adsorb
+
+*   Detailed Reasoning:
+    *   The MOF IPM-101 is experimentally known to exclude isobutane (intermediate dimension = 6.393 Å) due to size exclusion and precise molecular sieving. This indicates that IPM-101's effective pore size is less than 6.393 Å.
+    *   1-pentene has dimensions of 8.847×4.995×4.897, with an **intermediate dimension of 4.995 Å**.
+    *   Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the intermediate dimension of the excluded molecule, isobutane (6.393 Å), and considering the MOF's precise sieving mechanism, 1-pentene is predicted to be able to adsorb.
+
+---
+
+**Guest Molecule: trans-2-pentene**
+
+*   Predicted Result: Can Adsorb
+
+*   Detailed Reasoning:
+    *   The MOF IPM-101 is experimentally known to exclude isobutane (intermediate dimension = 6.393 Å) due to size exclusion and precise molecular sieving. This indicates that IPM-101's effective pore size is less than 6.393 Å.
+    *   trans-2-pentene has dimensions of 8.796×4.733×4.564, with an **intermediate dimension of 4.733 Å**.
+    *   Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the intermediate dimension of the excluded molecule, isobutane (6.393 Å), and considering the MOF's precise sieving mechanism, trans-2-pentene is predicted to be able to adsorb.
+
+---
+
+**Guest Molecule: n-pentane**
+
+*   Predicted Result: Can Adsorb
+
+*   Detailed Reasoning:
+    *   The MOF IPM-101 is experimentally known to exclude isobutane (intermediate dimension = 6.393 Å) due to size exclusion and precise molecular sieving. This indicates that IPM-101's effective pore size is less than 6.393 Å.
+    *   n-pentane has dimensions of 9.118×4.364×3.969, with an **intermediate dimension of 4.364 Å**.
+    *   Since n-pentane's intermediate dimension (4.364 Å) is smaller than the intermediate dimension of the excluded molecule, isobutane (6.393 Å), and considering the MOF's precise sieving mechanism, n-pentane is predicted to be able to adsorb.

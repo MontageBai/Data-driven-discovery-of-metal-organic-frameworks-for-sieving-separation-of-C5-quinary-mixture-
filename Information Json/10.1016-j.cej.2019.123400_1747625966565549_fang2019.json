@@ -1,0 +1,116 @@
+[
+    {
+        "Materials Name": "UiO-66/PGP TFC membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2.88 nm (mean), 0.5–0.7 nm (microporous triangular windows)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O6(CO2)12 units"
+        ],
+        "Ligands": [
+            "terephthalate (H2BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "2.313 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "0.3 MPa, pH 7.0, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High rejection rate due to size and strong electrostatic repulsion."
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "1.184 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "0.3 MPa, pH 7.0, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High rejection rate due to smaller molecular size and negative charge matching pore size."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "1.226 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and weak electrostatic attraction",
+                "Other Information": {
+                    "Test Conditions": "0.3 MPa, pH 7.0, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked by surface pores due to weak electrostatic attraction with amine groups."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "1.386 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and reduced electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "0.3 MPa, pH 7.0, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower rejection rate compared to congo red due to less electrostatic repulsion."
+                }
+            },
+            {
+                "Molecule Name": "tetracycline hydrochloride",
+                "Molecular Size": "1.098 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and charge interaction",
+                "Other Information": {
+                    "Test Conditions": "0.3 MPa, pH 7.0, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Neutral charge at pH 7 contributes to lower rejection compared to sulfamethoxazole."
+                }
+            },
+            {
+                "Molecule Name": "oxytetracycline",
+                "Molecular Size": "1.105 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and charge interaction",
+                "Other Information": {
+                    "Test Conditions": "0.3 MPa, pH 7.0, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Performance similar to tetracycline hydrochloride due to comparable molecular size and charge."
+                }
+            },
+            {
+                "Molecule Name": "ciprofloxacin",
+                "Molecular Size": "0.996 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion dominates over charge interaction",
+                "Other Information": {
+                    "Test Conditions": "0.3 MPa, pH 7.0, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest rejection among antibiotics due to size exclusion being stronger than charge effects."
+                }
+            },
+            {
+                "Molecule Name": "sulfamethoxazole",
+                "Molecular Size": "0.827 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Partial size exclusion and charge interaction",
+                "Other Information": {
+                    "Test Conditions": "0.3 MPa, pH 7.0, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smallest antibiotic molecule allows easier passage through pores compared to other antibiotics."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with electrostatic interactions",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Nanofiltration experiments",
+            "Performance Metrics": "Water flux: 31.33 ± 0.75 L m−2h−1 bar−1, Rejection rates > 94% for all dyes and antibiotics except sulfamethoxazole (83.05%)"
+        },
+        "Other Information": {
+            "Additional Info": "The UiO-66/PGP TFC membrane demonstrated excellent antifouling properties (FRR > 92%) and stability over 1000 minutes of continuous filtration."
+        }
+    }
+]

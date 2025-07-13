@@ -1,0 +1,116 @@
+[
+    {
+        "Materials Name": "ZIF-L",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.61 Å (six Zn-membered ring aperture), 1.44 Å (four Zn-membered ring aperture)",
+            "Structure Type": "2D layered structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "kinetic diameter: 3.60 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and adsorptive sieving",
+                "Other Information": {
+                    "Test Conditions": "125 °C, 50 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2S permeates easily through the pore center with minimal interaction with the C─N framework."
+                }
+            },
+            {
+                "Molecule Name": "trimethylamine",
+                "Molecular Size": "kinetic diameter: >3.61 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "125 °C, 50 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large-sized molecule blocked by ZIF-L pores."
+                }
+            },
+            {
+                "Molecule Name": "ammonia",
+                "Molecular Size": "kinetic diameter: 2.80 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorptive sieving",
+                "Other Information": {
+                    "Test Conditions": "125 °C, 50 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "NH3 is captured by polar-polar interactions with the C─N framework, impeding its permeation."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "kinetic diameter: >3.61 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "125 °C, 50 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large-sized molecule blocked by ZIF-L pores."
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "kinetic diameter: >3.61 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "125 °C, 50 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large-sized molecule blocked by ZIF-L pores."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "kinetic diameter: >3.61 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "125 °C, 50 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large-sized molecule blocked by ZIF-L pores."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "kinetic diameter: >3.61 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "125 °C, 50 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large-sized molecule blocked by ZIF-L pores."
+                }
+            },
+            {
+                "Molecule Name": "carbon monoxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not specifically discussed in the text."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and adsorptive sieving based on polarity",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, DFT simulations, CI-NEB calculations",
+            "Performance Metrics": "H2S/NH3 selectivity ratio > 11.2, H2S/trimethylamine selectivity ratio > 16.4, theoretical detection limit: 3.61 ppb"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-L layer thickness optimized at 10 min dip-coating time for maximum selectivity and response."
+        }
+    }
+]

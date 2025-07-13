@@ -1,0 +1,77 @@
+[
+    {
+        "Materials Name": "ZBIF-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "P-421m",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazole",
+            "NaB(im)4"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material is a polycrystalline system with two integrated unit cells. The exact guest molecule separation behavior is not explicitly described in the text."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "XRPD, ssNMR, DFT calculations",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "ZBIF-1 coexists with ZIFzni phase as identified by NMR crystallography. The interconnection between ZBIF-1 and ZIFzni was confirmed using 1H-1H DUMBO/MAS NMR spectroscopy."
+        }
+    },
+    {
+        "Materials Name": "ZIFzni",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "I41cd",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material is a secondary crystalline phase in the ZBIF-1 system. The exact guest molecule separation behavior is not explicitly described in the text."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "XRPD, ssNMR, DFT calculations",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "ZIFzni phase identified via XRPD and NMR crystallography. Interconnection with ZBIF-1 was assessed using advanced 2D ssNMR techniques."
+        }
+    }
+]

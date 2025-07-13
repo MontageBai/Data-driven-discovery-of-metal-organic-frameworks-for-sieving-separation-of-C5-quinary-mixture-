@@ -1,0 +1,76 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethyl paraoxon",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 °C, 0.5 mL/min flow rate",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reaction yield exceeds 93% in less than 15 seconds"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "First-order reaction kinetics, apparent activation energy: 8.8 kJ/mol"
+        },
+        "Other Information": {
+            "Additional Info": "Tableted and sieved particles between 125 and 250 µm showed optimal performance"
+        }
+    },
+    {
+        "Materials Name": "UiO-66-NH2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-amino-1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethyl paraoxon",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "20 °C, 0.5 mL/min flow rate",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Presence of -NH2 group significantly enhances catalytic activity"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Higher yield compared to UiO-66 without -NH2 group"
+        },
+        "Other Information": {
+            "Additional Info": "Tableted and sieved particles between 125 and 250 µm showed optimal performance"
+        }
+    }
+]

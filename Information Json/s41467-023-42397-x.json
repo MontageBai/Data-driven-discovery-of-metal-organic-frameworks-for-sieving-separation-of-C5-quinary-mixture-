@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "HKUST-1",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.46 nm (triangular pores)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "linear alkanes",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, vacuum pervaporation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Linear alkanes include normal-pentane, normal-hexane, and normal-heptane."
+                }
+            },
+            {
+                "Molecule Name": "mono-branched isomers",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, vacuum pervaporation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Examples include 2-methylbutane, 2-methylpentane, etc."
+                }
+            },
+            {
+                "Molecule Name": "di-branched isomers",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, vacuum pervaporation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Examples include 2,2-dimethylbutane, 2,3-dimethylbutane, etc."
+                }
+            },
+            {
+                "Molecule Name": "cyclical counterparts",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, vacuum pervaporation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Example includes cyclohexane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "nHex/cHex selectivity: 56.9; nHex/23DMB selectivity: 139"
+        },
+        "Other Information": {
+            "Additional Info": "The {111}-oriented HKUST-1 membrane shows high separation performance for C5-C7 linear alkanes from various isomers under pervaporation conditions."
+        }
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "UiO-66-(NH2)2/PVA MMM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.39 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6O32N12H36C48"
+        ],
+        "Ligands": [
+            "2,5-diaminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 20 wt% MeOH/MeOAc",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption due to hydrogen bonding interactions with -NH2 groups."
+                }
+            },
+            {
+                "Molecule Name": "methyl acetate",
+                "Molecular Size": "0.48 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 20 wt% MeOH/MeOAc",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Transport hindered due to larger molecular size compared to MOF pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "The micropore size of UiO-66-(NH2)2 is between the kinetic diameters of methanol and methyl acetate molecules, allowing preferential adsorption and diffusion of methanol.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pervaporation separation experiments",
+            "Performance Metrics": "Total flux: 1554.6 g/m2h, Separation factor: 70.9"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane exhibited enhanced performance due to synergistic effects of hydrogen bonding, size-sieving, and rapid transport channels provided by UiO-66-(NH2)2 nanofillers."
+        }
+    },
+    {
+        "Materials Name": "UiO-66/PVA MMM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.56 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "ZrCl4"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 20 wt% MeOH/MeOAc",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less selective compared to UiO-66-(NH2)2/PVA MMM."
+                }
+            },
+            {
+                "Molecule Name": "methyl acetate",
+                "Molecular Size": "0.48 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 20 wt% MeOH/MeOAc",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher transport compared to UiO-66-(NH2)2/PVA MMM due to larger pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Larger pore size compared to UiO-66-(NH2)2 allows both methanol and methyl acetate to pass but with reduced selectivity.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pervaporation separation experiments",
+            "Performance Metrics": "Lower performance compared to UiO-66-(NH2)2/PVA MMM"
+        },
+        "Other Information": {
+            "Additional Info": "Incorporated for comparison to understand the effect of pore size on separation performance."
+        }
+    },
+    {
+        "Materials Name": "PPD/PVA membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "p-phenylenediamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption based on hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 20 wt% MeOH/MeOAc",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced affinity for methanol due to -NH2 groups."
+                }
+            },
+            {
+                "Molecule Name": "methyl acetate",
+                "Molecular Size": "0.48 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 20 wt% MeOH/MeOAc",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows improved separation factor compared to pure PVA membrane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Introduction of -NH2 groups enhances affinity for methanol, improving separation performance.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pervaporation separation experiments",
+            "Performance Metrics": "Improved separation factor compared to pure PVA membrane"
+        },
+        "Other Information": {
+            "Additional Info": "Used to study the effect of -NH2 groups on membrane performance."
+        }
+    }
+]

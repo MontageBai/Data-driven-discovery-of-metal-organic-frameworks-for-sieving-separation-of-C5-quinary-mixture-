@@ -1,0 +1,179 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.16 nm (cavity), 0.34 nm (6 MR windows), 0.08 nm (4 MR windows)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to p/p0 ≈ 1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Saturation uptake close to 4.3 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to p/p0 ≈ 1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity around 3.6 mmol/g; slow kinetics due to narrow pore size"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.62 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to p/p0 ≈ 1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded from the inner porosity"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Immersion calorimetry, vapor adsorption isotherms, GCMC simulations",
+            "Performance Metrics": "Enthalpy of immersion: n-hexane = 65 J/g, 2-methylpentane = 25 J/g, 2,2-dimethylbutane = 0 J/g"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 shows normal size and shape selectivity trend similar to activated carbons and zeolites."
+        }
+    },
+    {
+        "Materials Name": "HKUST-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.32 nm and 1.11 nm (large cages), 0.9 nm (windows), 0.6 nm (tetrahedral side pockets)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "Trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption in tetrahedral cavities",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to p/p0 ≈ 1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs last among C6 isomers; total uptake ~5.4 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption in tetrahedral cavities",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to p/p0 ≈ 1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs second among C6 isomers; total uptake ~5.4 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.62 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption in tetrahedral cavities",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to p/p0 ≈ 1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs first among C6 isomers; total uptake ~4.9 mmol/g"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential adsorption in tetrahedral cavities",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Immersion calorimetry, vapor adsorption isotherms, GCMC simulations",
+            "Performance Metrics": "Enthalpy of immersion: n-hexane = 167 J/g, 2-methylpentane = 192 J/g, 2,2-dimethylbutane = 174 J/g"
+        },
+        "Other Information": {
+            "Additional Info": "HKUST-1 exhibits reversed hierarchy due to strong interactions with open metal sites."
+        }
+    },
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.1 nm (octahedral pores), 0.8 nm (tetrahedral pores), 0.7 nm (windows)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "Terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption in large cavities",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to p/p0 ≈ 1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs last among C6 isomers; total uptake ~2.9-3.0 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption in small cavities",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to p/p0 ≈ 1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs second among C6 isomers; total uptake ~2.9-3.0 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.62 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption in small cavities",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to p/p0 ≈ 1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs first among C6 isomers; total uptake ~2.9-3.0 mmol/g"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential adsorption in small cavities",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Immersion calorimetry, vapor adsorption isotherms, GCMC simulations",
+            "Performance Metrics": "Enthalpy of immersion: n-hexane = 64 J/g, 2-methylpentane = 80 J/g, 2,2-dimethylbutane = 119 J/g"
+        },
+        "Other Information": {
+            "Additional Info": "UiO-66 exhibits reversed hierarchy due to confinement effects in tetrahedral cavities."
+        }
+    }
+]

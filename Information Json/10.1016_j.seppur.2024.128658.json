@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MIL-101(Cr)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2.22 nm (average), 2 to 4 nm (majority range)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "polyethylene nanoplastics",
+                "Molecular Size": "200–900 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH 6–10, 3 bar pressure",
+                    "Threshold Pressure": "3 bar",
+                    "Additional Info": "Negligible Cr leaching at pH 2; stable within pH 4–10"
+                }
+            },
+            {
+                "Molecule Name": "polystyrene nanoplastics",
+                "Molecular Size": "200–500 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH 6–10, 3 bar pressure",
+                    "Threshold Pressure": "3 bar",
+                    "Additional Info": "Negligible Cr leaching at pH 2; stable within pH 4–10"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion coupled with electrostatic repulsion between negatively charged membrane surface and nanoplastics",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Crossflow filtration system with synthetic wastewater",
+            "Performance Metrics": "Water permeability: 1204 Lm-2h-1bar−1; Rejection efficiency: >99% for both polyethylene and polystyrene nanoplastics"
+        },
+        "Other Information": {
+            "Additional Info": "Composite membranes fabricated by incorporating MIL-101(Cr) nanoparticles into a PA layer on a PES substrate; optimal concentration of 0.2 w/v%; excellent antifouling properties and reusability over six cycles"
+        }
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "[MPPyr][DCA]/MIL-101(Cr)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "1,4-benzene dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong affinity due to interactions with [DCA]- anion",
+                "Other Information": {
+                    "Test Conditions": "15, 25, and 35 °C, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake showed a lower decrease compared to N2 and CH4 upon IL incorporation."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Negligible adsorption due to poor solubility in [MPPyr][DCA]",
+                "Other Information": {
+                    "Test Conditions": "15, 25, and 35 °C, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 adsorption remained undetectable up to 0.3 bar at 15 °C."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Weaker interaction with [MPPyr][DCA] compared to CO2",
+                "Other Information": {
+                    "Test Conditions": "15, 25, and 35 °C, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 adsorption was significantly poorer compared to pristine MIL-101(Cr)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Volumetric gas adsorption measurements",
+            "Performance Metrics": "CO2/N2 selectivity: Practically infinite below 0.3 bar at 15 °C; CO2/CH4 selectivity: Improved from 4.6 to 11.7 at 0.001 bar and 15 °C."
+        },
+        "Other Information": {
+            "Additional Info": "Composite offers high CO2/N2 and CH4/N2 selectivities attributed to strong affinity of [MPPyr][DCA] toward CO2."
+        }
+    }
+]

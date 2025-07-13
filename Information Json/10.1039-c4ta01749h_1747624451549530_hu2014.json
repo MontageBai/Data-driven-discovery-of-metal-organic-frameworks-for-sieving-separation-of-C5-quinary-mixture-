@@ -1,0 +1,149 @@
+[
+    {
+        "Materials Name": "1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "9.6 Å (along b axis) x 6.5 Å² (a x c), 6.5 Å² (a x b along c axis)",
+            "Structure Type": "3D pillared-layer structure"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,2,4-triazole",
+            "fumaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to smaller pore size of the MOF."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to smaller pore size of the MOF."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "UV/vis spectroscopy",
+            "Performance Metrics": "Complete exclusion of both methylene blue and rhodamine B"
+        },
+        "Other Information": {
+            "Additional Info": "The framework is stable in water, acid, and base, as confirmed by XRPD patterns."
+        }
+    },
+    {
+        "Materials Name": "2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "11.7 Å (along b axis) x 6.5 Å² (a x c), 6.5 Å² (a x b along c axis)",
+            "Structure Type": "3D pillared-layer structure"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,2,4-triazole",
+            "amino-1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Successfully incorporated into the MOF channels."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger size compared to pore dimensions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "UV/vis spectroscopy",
+            "Performance Metrics": "Selective adsorption of methylene blue over rhodamine B"
+        },
+        "Other Information": {
+            "Additional Info": "The framework is stable in water, acid, and base, as confirmed by XRPD patterns."
+        }
+    },
+    {
+        "Materials Name": "5",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "17.1 Å (along b axis) x 6.5 Å² (a x c), 6.5 Å² (a x b along c axis)",
+            "Structure Type": "3D pillared-layer structure"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,2,4-triazole",
+            "4,4'-oxybis(benzoate)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Successfully incorporated into the MOF channels."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Successfully incorporated into the MOF channels."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "UV/vis spectroscopy and column chromatography",
+            "Performance Metrics": "Both methylene blue and rhodamine B adsorbed; separation demonstrated via column chromatography."
+        },
+        "Other Information": {
+            "Additional Info": "The framework is stable in water, acid, and base, as confirmed by XRPD patterns."
+        }
+    }
+]

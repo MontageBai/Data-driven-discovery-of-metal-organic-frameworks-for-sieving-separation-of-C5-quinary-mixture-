@@ -1,0 +1,105 @@
+[
+    {
+        "MOF Name": "SO3HCOF@Ti3C2Tx",
+        "Material Category": "Others",
+        "Pore/Structural Features": {
+            "Pore Size": "2–59.5 nm",
+            "Structure Type": "Porous nanocomposite with accordion-structured multilayer Ti3C2Tx nanosheets decorated with honeycomb-like flocculent SO3HCOF, creating an open porous network with mesoporous and macroporous characteristics."
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "2,5-diaminobenzenesulfonic acid (DBA)",
+            "2,4,6-Triformylphloroglucinol (TP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Norepinephrine (NE)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Multi-modal adsorption (cation exchange, hydrogen bonding, π-π stacking interactions)",
+                "Other Information": {
+                    "Test Conditions": "Sample pH 7.0, extraction at room temperature, diluted rat serum sample",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption efficiency as part of MNTs (87.7%–98.1% collectively)."
+                }
+            },
+            {
+                "Molecule Name": "Epinephrine (EP)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Multi-modal adsorption (cation exchange, hydrogen bonding, π-π stacking interactions)",
+                "Other Information": {
+                    "Test Conditions": "Sample pH 7.0, extraction at room temperature, diluted rat serum sample",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption efficiency as part of MNTs (87.7%–98.1% collectively)."
+                }
+            },
+            {
+                "Molecule Name": "Dopamine (DA)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Multi-modal adsorption (cation exchange, hydrogen bonding, π-π stacking interactions)",
+                "Other Information": {
+                    "Test Conditions": "Sample pH 7.0, extraction at room temperature, diluted rat serum sample",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption efficiency as part of MNTs (87.7%–98.1% collectively)."
+                }
+            },
+            {
+                "Molecule Name": "Serotonin (5-HT)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Multi-modal adsorption (cation exchange, hydrogen bonding, π-π stacking interactions)",
+                "Other Information": {
+                    "Test Conditions": "Sample pH 7.0, extraction at room temperature, diluted rat serum sample",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption efficiency as part of MNTs (87.7%–98.1% collectively)."
+                }
+            },
+            {
+                "Molecule Name": "Albumin (Alb)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "PBS at pH 7.4, various Alb solutions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Good protein exclusion effect. Electrostatic repulsion with negatively charged Alb."
+                }
+            },
+            {
+                "Molecule Name": "Hemoglobin (Hem)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Good protein exclusion effect."
+                }
+            },
+            {
+                "Molecule Name": "β-lactoglobulin (β-Lac)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Good protein exclusion effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion for macromolecules (proteins) and selective adsorption of smaller molecules (monoamine neurotransmitters) through combined size, electrostatic, and specific chemical interactions.",
+        "Experimental Validation": {
+            "Method": "Solid-phase microextraction (SPME) coupled with HPLC-FLD; Protein exclusion evaluated by absorbance changes of protein solutions.",
+            "Performance Metrics": "Excellent protein exclusion capability; High adsorption efficiency for MNTs (87.7%–98.1%); Recoveries of MNTs in rat serum: 90.3%–118.3% with RSDs <10.8%; Matrix effect (ME) 0.83%–17.36%."
+        },
+        "Other Information": {
+            "Additional Info": "Sulfonic-functionalized covalent organic framework@Ti3C2Tx nanocomposite synthesized as a coating for SPME blades. Combines characteristics of hydrophilic Ti3C2Tx and SO3HCOF, providing multiple adsorption sites and good hydrophilicity. Biocompatible, allowing direct immersion into diluted serum samples without protein precipitation. Unique structure and superior porosity facilitate mass transfer."
+        }
+    }
+]

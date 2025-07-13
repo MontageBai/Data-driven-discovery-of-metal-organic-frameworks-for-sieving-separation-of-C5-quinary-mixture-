@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "Ag+@UiO-66-NH2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5.8 Å (average micropore size)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-Aminoterephthalic Acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport and molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ag+ doping enhances CO2 affinity and facilitates transport."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Narrowed pore size distribution blocks nitrogen passage."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with facilitated transport via Ag+ affinity.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Mixed gas permeation experiments",
+            "Performance Metrics": "CO2 permeability: >15,000 Barrer, CO2/N2 selectivity: ~30"
+        },
+        "Other Information": {
+            "Additional Info": "Optimal Ag+ doping amount is 30 wt%, which balances facilitated transport and molecular sieving effects."
+        }
+    },
+    {
+        "Materials Name": "30%Ag+@10%UiO-66-NH2-PIM MMM",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "5.8 Å (ultramicropores)",
+            "Structure Type": "Dense symmetric structure with embedded nanoparticles"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-Aminoterephthalic Acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport through Ag+ sites",
+                "Other Information": {
+                    "Test Conditions": "298 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced CO2 adsorption due to Ag+ functionalization."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion by narrowed PSD",
+                "Other Information": {
+                    "Test Conditions": "298 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked due to reduced pore volume and ultramicropore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Narrowed pore size distribution and enhanced affinity-based facilitated transport.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation testing and mixed gas separation experiments",
+            "Performance Metrics": "CO2 permeability: >15,000 Barrer, CO2/N2 selectivity: ~30"
+        },
+        "Other Information": {
+            "Additional Info": "Achieves performance surpassing the 2019 CO2/N2 upper bound."
+        }
+    }
+]

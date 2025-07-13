@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "MOF-802",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.44 nm (micropore)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "body-centered tetragonal (bct)",
+        "Metal Nodes": [
+            "Zr(IV)"
+        ],
+        "Ligands": [
+            "1H-pyrazole-3,5-dicarboxylic acid (H2PZDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance of ~3785 GPU with selectivity of ~24 for H2/CO2 gas pair."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Facilitated transport effect of water towards CO2",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance lower than H2 due to size sieving effect but enhanced by water vapor presence."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity H2/N2 not explicitly reported but implied higher than Knudsen diffusion selectivity (4.7)."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity H2/CH4 not explicitly reported but implied higher than Knudsen diffusion selectivity (4.7)."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity H2/C3H6 exceeds 45, indicating excellent molecular-sieve capability."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity H2/C3H8 exceeds 45, indicating excellent molecular-sieve capability."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Constant pressure/variable volume technique",
+            "Performance Metrics": "H2 permeance: ~3785 GPU, H2/CO2 selectivity: ~24"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF-802 membrane was fabricated via a crystal seeds induced interfacial growth (SIG) strategy and demonstrated excellent stability in the presence of water vapor."
+        }
+    }
+]

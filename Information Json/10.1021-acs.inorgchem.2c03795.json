@@ -1,0 +1,100 @@
+[
+    {
+        "Materials Name": "CAU-10-H@γ-AlOOH",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "isophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, helium carrier gas flow rate 60 mL/min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption capacity for D2 compared to H2"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, helium carrier gas flow rate 60 mL/min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption capacity for D2 compared to H2"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving effect based on differences in zero-point energy and adsorption enthalpy",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, cryogenic gas chromatography",
+            "Performance Metrics": "Resolution R = 1.66 for o-H2/D2 separation at 77 K"
+        },
+        "Other Information": {
+            "Additional Info": "Used as stationary phase material in gas chromatography for hydrogen isotope separation"
+        }
+    },
+    {
+        "Materials Name": "UTSA-16@CAU-10-H@γ-AlOOH",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+",
+            "Al3+"
+        ],
+        "Ligands": [
+            "citric acid",
+            "isophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, helium carrier gas flow rate 60 mL/min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Faster diffusion of H2 compared to D2"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, helium carrier gas flow rate 60 mL/min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stronger adsorption of D2 compared to H2"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Additive effects of chemical affinity quantum sieving and kinetic sieving",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Cryogenic gas chromatography",
+            "Performance Metrics": "Resolution R = 1.78 for H2/D2 separation at 77 K within 4.56 min"
+        },
+        "Other Information": {
+            "Additional Info": "Composite material used as stationary phase for efficient hydrogen isotope separation"
+        }
+    }
+]

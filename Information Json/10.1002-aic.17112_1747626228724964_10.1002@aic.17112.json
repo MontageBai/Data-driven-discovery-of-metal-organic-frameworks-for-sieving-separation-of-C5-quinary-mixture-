@@ -1,0 +1,182 @@
+[
+    {
+        "Materials Name": "IL-ZIF-IL",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "Shell-interlayer-core structure"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "triethylenetetramine lactate ([TETA]L)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption with amino groups in [TETA]L",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption capacity is 1.53 mmol/g at 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to compact non-porous [TETA]L layer",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake is 0.03 mmol/g at 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to compact non-porous [TETA]L layer",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 uptake is 0.01 mmol/g at 1 bar."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving separation for CO2 capture",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, IAST predictions",
+            "Performance Metrics": "CO2/CH4 selectivity: 260-1990, CO2/N2 selectivity: 1688-5572 at tested pressures"
+        },
+        "Other Information": {
+            "Additional Info": "Outer IL shell enhances selectivity; internal IL core enhances CO2 adsorption."
+        }
+    },
+    {
+        "Materials Name": "ZIF-IL",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "Core-shell structure with IL inside ZIF-8 pores"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "triethylenetetramine lactate ([TETA]L)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Interaction with IL inside pores",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption capacity is higher than pristine ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion into the framework of ZIF-IL",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake is similar to pristine ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion into the framework of ZIF-IL",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 uptake is similar to pristine ZIF-8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced CO2 adsorption without complete molecular sieving",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms, IAST predictions",
+            "Performance Metrics": "Increased CO2 uptake compared to pristine ZIF-8."
+        },
+        "Other Information": {
+            "Additional Info": "IL confined inside ZIF-8 interacts with the framework."
+        }
+    },
+    {
+        "Materials Name": "IL-ZIF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "Core-shell structure with IL as outer shell"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "triethylenetetramine lactate ([TETA]L)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective adsorption on outer IL shell",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption is lower than IL-ZIF-IL."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to outer IL shell",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake is very low."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to outer IL shell",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 uptake is very low."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Outer IL shell selectively adsorbs CO2",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms, IAST predictions",
+            "Performance Metrics": "Higher CO2 selectivity compared to pristine ZIF-8."
+        },
+        "Other Information": {
+            "Additional Info": "Outer IL shell enhances selectivity but lacks strong interaction in internal pores."
+        }
+    }
+]

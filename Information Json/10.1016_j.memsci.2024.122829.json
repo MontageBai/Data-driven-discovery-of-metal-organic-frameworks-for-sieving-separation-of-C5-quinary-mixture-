@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "UiO-66@NTDS",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "8 Å (triangular windows), nanoscale cavities",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid (H2BDC)",
+            "1,5-naphthalenedisulfonic acid tetrahydrate (NTDS)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "0.33 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale, charge interaction with sulfonate groups",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation rate: 0.73 mol m-2 h-1 in binary-ion system"
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.36 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale, charge interaction with sulfonate groups",
+                "Other Information": {
+                    "Test Conditions": "0.1 M NaCl solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation rate: 0.39 mol m-2 h-1 in binary-ion system"
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.38 nm (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale, charge interaction with sulfonate groups",
+                "Other Information": {
+                    "Test Conditions": "0.1 M LiCl solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation rate: 0.26 mol m-2 h-1 in binary-ion system"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.43 nm (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale, hindered by sulfonate groups",
+                "Other Information": {
+                    "Test Conditions": "0.1 M MgCl2 solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation rate: ~0.012 mol m-2 h-1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combined size exclusion and charge interaction",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Concentration gradient-driven diffusion experiments",
+            "Performance Metrics": "K+/Mg2+ selectivity: 73, Na+/Mg2+ selectivity: 57, Li+/Mg2+ selectivity: 46"
+        },
+        "Other Information": {
+            "Additional Info": "The UiO-66@NTDS membranes were fabricated via in-situ growth and confinement of NTDS molecules within UiO-66 cavities. The membranes exhibit high monovalent ion permeation rates and excellent mono-/divalent ion selectivities."
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "LCMOF-3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Disordered structure with mesoporous characterization"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "H2BDC"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "fluoride",
+                "Molecular Size": "0.27 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential binding of fluoride ions to exposed Lewis acid sites",
+                "Other Information": {
+                    "Test Conditions": "1.4 V, flow rate of 20 mL min−1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fluoride removal capacity: 41.04 mgNaF gelectrodes−1"
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Diminished performance in sodium removal due to less effective binding to open metal sites",
+                "Other Information": {
+                    "Test Conditions": "1.4 V, flow rate of 20 mL min−1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Salt adsorption capacity (SAC): 35.45 mgNaCl gelectrodes−1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Anion-sieving effect due to high-level disordered structure exposing more open metal sites (OMSs)",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Electrochemical performance testing, including CV curves, GCD, and EIS",
+            "Performance Metrics": "FAC: 41.04 mgNaF gelectrodes−1, SAC: 35.45 mgNaCl gelectrodes−1"
+        },
+        "Other Information": {
+            "Additional Info": "The disordered structure enhances the diffusion coefficient of fluoride ions and improves removal efficiency."
+        }
+    }
+]

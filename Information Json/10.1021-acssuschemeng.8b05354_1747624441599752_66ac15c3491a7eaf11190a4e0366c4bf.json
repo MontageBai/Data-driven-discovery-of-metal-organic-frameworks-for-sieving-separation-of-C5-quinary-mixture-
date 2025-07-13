@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "P+GO anchored CuMOF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.198 nm (average pore size), 0.69 nm (d-spacing of P+GO sheets)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.358 nm (hydrated radius)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 ppm, 400 ppm, 1000 ppm, and 2000 ppm synthetic water formulation, 0.69 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sodium ions are rejected due to size exclusion in the CuMOF pores."
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "0.42 nm (hydrated radius)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 ppm, 400 ppm, 1000 ppm, and 2000 ppm synthetic water formulation, 0.69 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Calcium ions are rejected due to size exclusion in the CuMOF pores."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.44 nm (hydrated radius)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 ppm, 400 ppm, 1000 ppm, and 2000 ppm synthetic water formulation, 0.69 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Magnesium ions are rejected due to size exclusion in the CuMOF pores."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-based permeation",
+                "Other Information": {
+                    "Test Conditions": "250 ppm, 400 ppm, 1000 ppm, and 2000 ppm synthetic water formulation, 0.69 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water molecules pass through the d-spacing of P+GO sheets (0.69 nm)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic charge and pore-based sieving",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Synthetic water rejection experiments using ICP-MS for feed and permeate concentration analysis",
+            "Performance Metrics": "Salt rejection: 99.9% at 250 ppm, 98.6% at 400 ppm, 97.9% at 1000 ppm, and 96.8% at 2000 ppm"
+        },
+        "Other Information": {
+            "Additional Info": "The P+GO anchored CuMOF interlayer prevents swelling of GO sheets and enhances ion rejection efficiency."
+        }
+    }
+]

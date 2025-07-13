@@ -1,0 +1,122 @@
+MOF Name: FDC-3a
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Switchable molecular recognition by temperature, Conditions: 200-280 K)
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Switchable molecular recognition by temperature, Conditions: 290-370 K. At 298 K, adsorption is confirmed.)
+
+Inferred effective pore size of FDC-3a:
+The provided data shows that FDC-3a can adsorb molecules with an intermediate dimension of 3.200 Å (carbon dioxide and acetylene). The mechanism is described as "Switchable molecular recognition by temperature," implying a dynamic or flexible pore size.
+Crucially, the provided experimental data *does not include any instances of non-adsorption due to size exclusion* for FDC-3a. Therefore, a definitive upper bound for the effective pore size based on size exclusion cannot be strictly inferred from the available data in the sense of a fixed pore.
+However, the *only* molecules experimentally confirmed to be adsorbed have an intermediate dimension of 3.200 Å. Without any experimental evidence of adsorption for molecules with larger intermediate dimensions, it is most consistent with the provided data to infer that FDC-3a's effective maximum pore size that can be opened for adsorption *is not proven to be larger than* what has been observed, especially for significantly larger molecules.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of the molecules confirmed to be adsorbed (3.200 Å), and given the absence of experimental data demonstrating FDC-3a's ability to adsorb molecules of this larger size, it is predicted that isoprene cannot be adsorbed by FDC-3a under the given conditions.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: FDC-3a
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Switchable molecular recognition by temperature, Conditions: 200-280 K)
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Switchable molecular recognition by temperature, Conditions: 290-370 K. At 298 K, adsorption is confirmed.)
+
+Inferred effective pore size of FDC-3a:
+The provided data shows that FDC-3a can adsorb molecules with an intermediate dimension of 3.200 Å (carbon dioxide and acetylene). The mechanism is described as "Switchable molecular recognition by temperature," implying a dynamic or flexible pore size.
+Crucially, the provided experimental data *does not include any instances of non-adsorption due to size exclusion* for FDC-3a. Therefore, a definitive upper bound for the effective pore size based on size exclusion cannot be strictly inferred from the available data in the sense of a fixed pore.
+However, the *only* molecules experimentally confirmed to be adsorbed have an intermediate dimension of 3.200 Å. Without any experimental evidence of adsorption for molecules with larger intermediate dimensions, it is most consistent with the provided data to infer that FDC-3a's effective maximum pore size that can be opened for adsorption *is not proven to be larger than* what has been observed, especially for significantly larger molecules.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of the molecules confirmed to be adsorbed (3.200 Å), and given the absence of experimental data demonstrating FDC-3a's ability to adsorb molecules of this larger size, it is predicted that cis-2-pentene cannot be adsorbed by FDC-3a under the given conditions.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: FDC-3a
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Switchable molecular recognition by temperature, Conditions: 200-280 K)
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Switchable molecular recognition by temperature, Conditions: 290-370 K. At 298 K, adsorption is confirmed.)
+
+Inferred effective pore size of FDC-3a:
+The provided data shows that FDC-3a can adsorb molecules with an intermediate dimension of 3.200 Å (carbon dioxide and acetylene). The mechanism is described as "Switchable molecular recognition by temperature," implying a dynamic or flexible pore size.
+Crucially, the provided experimental data *does not include any instances of non-adsorption due to size exclusion* for FDC-3a. Therefore, a definitive upper bound for the effective pore size based on size exclusion cannot be strictly inferred from the available data in the sense of a fixed pore.
+However, the *only* molecules experimentally confirmed to be adsorbed have an intermediate dimension of 3.200 Å. Without any experimental evidence of adsorption for molecules with larger intermediate dimensions, it is most consistent with the provided data to infer that FDC-3a's effective maximum pore size that can be opened for adsorption *is not proven to be larger than* what has been observed, especially for significantly larger molecules.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of the molecules confirmed to be adsorbed (3.200 Å), and given the absence of experimental data demonstrating FDC-3a's ability to adsorb molecules of this larger size, it is predicted that 1-pentene cannot be adsorbed by FDC-3a under the given conditions.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: FDC-3a
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Switchable molecular recognition by temperature, Conditions: 200-280 K)
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Switchable molecular recognition by temperature, Conditions: 290-370 K. At 298 K, adsorption is confirmed.)
+
+Inferred effective pore size of FDC-3a:
+The provided data shows that FDC-3a can adsorb molecules with an intermediate dimension of 3.200 Å (carbon dioxide and acetylene). The mechanism is described as "Switchable molecular recognition by temperature," implying a dynamic or flexible pore size.
+Crucially, the provided experimental data *does not include any instances of non-adsorption due to size exclusion* for FDC-3a. Therefore, a definitive upper bound for the effective pore size based on size exclusion cannot be strictly inferred from the available data in the sense of a fixed pore.
+However, the *only* molecules experimentally confirmed to be adsorbed have an intermediate dimension of 3.200 Å. Without any experimental evidence of adsorption for molecules with larger intermediate dimensions, it is most consistent with the provided data to infer that FDC-3a's effective maximum pore size that can be opened for adsorption *is not proven to be larger than* what has been observed, especially for significantly larger molecules.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of the molecules confirmed to be adsorbed (3.200 Å), and given the absence of experimental data demonstrating FDC-3a's ability to adsorb molecules of this larger size, it is predicted that trans-2-pentene cannot be adsorbed by FDC-3a under the given conditions.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: FDC-3a
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Switchable molecular recognition by temperature, Conditions: 200-280 K)
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Mechanism: Switchable molecular recognition by temperature, Conditions: 290-370 K. At 298 K, adsorption is confirmed.)
+
+Inferred effective pore size of FDC-3a:
+The provided data shows that FDC-3a can adsorb molecules with an intermediate dimension of 3.200 Å (carbon dioxide and acetylene). The mechanism is described as "Switchable molecular recognition by temperature," implying a dynamic or flexible pore size.
+Crucially, the provided experimental data *does not include any instances of non-adsorption due to size exclusion* for FDC-3a. Therefore, a definitive upper bound for the effective pore size based on size exclusion cannot be strictly inferred from the available data in the sense of a fixed pore.
+However, the *only* molecules experimentally confirmed to be adsorbed have an intermediate dimension of 3.200 Å. Without any experimental evidence of adsorption for molecules with larger intermediate dimensions, it is most consistent with the provided data to infer that FDC-3a's effective maximum pore size that can be opened for adsorption *is not proven to be larger than* what has been observed, especially for significantly larger molecules.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the intermediate dimension of the molecules confirmed to be adsorbed (3.200 Å), and given the absence of experimental data demonstrating FDC-3a's ability to adsorb molecules of this larger size, it is predicted that n-pentane cannot be adsorbed by FDC-3a under the given conditions.
+
+Therefore, the result is: **Cannot Adsorb**

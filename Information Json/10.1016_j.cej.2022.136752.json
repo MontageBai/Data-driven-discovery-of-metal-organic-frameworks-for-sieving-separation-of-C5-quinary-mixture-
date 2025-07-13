@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "iron(II) ion",
+                "Molecular Size": "8.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrated Fe2+ ions cannot pass through the UiO-66 pore due to size-sieving effect."
+                }
+            },
+            {
+                "Molecule Name": "proton",
+                "Molecular Size": "0.24 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Protons with small hydration diameters can be transported through MOFs via hydrogen-bond networks."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "U H +: 16 mm/h, S: 683"
+        },
+        "Other Information": {
+            "Additional Info": "The diffusion of Fe2+ in UiO-66 is restricted and hindered, while proton transfer occurs quickly in dynamic water-based hydrogen-bond networks."
+        }
+    },
+    {
+        "Materials Name": "MOF-808",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "10.1 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "ftw",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "benzene-1,3,5-tricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "iron(II) ion",
+                "Molecular Size": "8.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fe2+ species can enter the cage windows and diffuse through the frameworks due to larger cage sizes."
+                }
+            },
+            {
+                "Molecule Name": "proton",
+                "Molecular Size": "0.24 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Protons are facilitated by abundant -COOH groups forming extensive hydrogen-bond networks."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "U H +: Higher than UiO-66, S: Lower than UiO-66"
+        },
+        "Other Information": {
+            "Additional Info": "MOF-808 has larger cage sizes and abundant -COOH groups promoting proton conduction but reduces selectivity for Fe2+."
+        }
+    }
+]

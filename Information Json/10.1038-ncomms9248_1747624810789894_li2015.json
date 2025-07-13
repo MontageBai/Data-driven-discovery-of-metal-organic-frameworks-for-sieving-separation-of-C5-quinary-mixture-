@@ -1,0 +1,105 @@
+[
+    {
+        "Materials Name": "Pt-Ni frame @ Ni-MOF-74",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "8.6 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "styrene",
+                "Molecular Size": "8.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 1 bar H2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Small enough to diffuse through the pore apertures of MOF shells onto the Pt–Ni frame surface without hindrance."
+                }
+            },
+            {
+                "Molecule Name": "2,4,6-trimethylstyrene",
+                "Molecular Size": "9.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 1 bar H2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion strictly limited by the uniform pores of Ni-MOF-74."
+                }
+            },
+            {
+                "Molecule Name": "trans-stilbene",
+                "Molecular Size": "12.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 1 bar H2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion strictly limited by the uniform pores of Ni-MOF-74."
+                }
+            },
+            {
+                "Molecule Name": "4,40-dimethyl-trans-stilbene",
+                "Molecular Size": "14.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 1 bar H2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion strictly limited by the uniform pores of Ni-MOF-74."
+                }
+            },
+            {
+                "Molecule Name": "nitrobenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 1 bar H2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Small molecule, can quickly diffuse onto the metal surface."
+                }
+            },
+            {
+                "Molecule Name": "benzaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 1 bar H2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Condensation with aniline to form imines."
+                }
+            },
+            {
+                "Molecule Name": "imine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 1 bar H2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uniform micropores suppress the diffusion of imine towards interior Pt–Ni frame after condensation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic hydrogenation experiments, GC-MS analysis",
+            "Performance Metrics": "TOF values based on active sites measured from CO chemisorption experiments; Selectivity to imine up to 96%"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits enhanced H2 enrichment and molecular sieving properties due to the Ni-MOF-74 shell encapsulating the Pt-Ni frame."
+        }
+    }
+]

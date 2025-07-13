@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Activated molecular transport through the ZIF-8 pores",
+                "Other Information": {
+                    "Test Conditions": "120°C, equimolar H2/C3H8 feed mixture",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High H2 permeance with sharp H2/C3H8 separation factors observed."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25°C, equimolar C3H6/C3H8 feed mixture",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H8 permeance decreased by a factor of 10 after PDMS capping to suppress bypassing."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25°C, equimolar C3H6/C3H8 feed mixture",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "After PDMS sealing, the permeate stream contained 92% C3H6 and 8% C3H8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving properties observed with high H2 permeances and sharp H2/C3H8 separation factors.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2/C3H8 selectivity: 370 (at 120°C), C3H6/C3H8 selectivity: 12 (at 25°C)"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-8 membranes were formed on the inner surface of hollow fibers using an interfacial microfluidic membrane processing approach. Lumen-capping with PDMS was used to suppress bypassing."
+        }
+    }
+]

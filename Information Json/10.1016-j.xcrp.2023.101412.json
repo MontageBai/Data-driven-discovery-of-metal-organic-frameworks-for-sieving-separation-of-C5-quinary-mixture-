@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.82 nm, 1.10 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4 clusters"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "7.5 Å (hydrated)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 V bias",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+ permeance: 11.2 mol m⁻² h⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "8.6 Å (hydrated)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 V bias",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Mg2+ permeance: 0.06 mol m⁻² h⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity Li+/Ca2+ is high"
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity Li+/K+ is notable"
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity Li+/Na+ is notable"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on hydrated ion sizes",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Ion transport tests using H-cell setup",
+            "Performance Metrics": "Li+/Mg2+ selectivity: 286; Li+ permeance: 11.2 mol m⁻² h⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "Deposited UiO-66 films are continuous and intergrown with a thickness of about 300 nm on AAO substrate."
+        }
+    }
+]

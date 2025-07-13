@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deep eutectic solvent (ChCl:urea)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Encapsulated in ZIF-8 channels by self-confined growth."
+                }
+            },
+            {
+                "Molecule Name": "deep eutectic solvent (ChCl:Im)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Encapsulated in ZIF-8 channels by self-confined growth."
+                }
+            },
+            {
+                "Molecule Name": "deep eutectic solvent (ChCl:ZnCl2)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Encapsulated in ZIF-8 channels by self-confined growth."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeance tests, electrochemical impedance spectroscopy (EIS), and H2/O2 fuel cell performance tests",
+            "Performance Metrics": "Proton conductivity of ChCl:urea@ZIF-8: 1.21×10−2 S cm−1 at 180 °C; Maximum power density of ChCl:urea@ZIF-8 in HTPEMFC: 32.8 mW cm−2 at 150 °C"
+        },
+        "Other Information": {
+            "Additional Info": "High thermal stability up to 180 °C; DES encapsulation achieved through a self-confined method."
+        }
+    }
+]

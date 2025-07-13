@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "Co-btca",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "benzotriazolide-5-carboxylato"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "dimethylformamide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Non-oxidative nucleophilic addition",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Partially saturates penta-coordinated Co atoms under temperature or pressure stimuli."
+                }
+            },
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Non-oxidative nucleophilic addition",
+                "Other Information": {
+                    "Test Conditions": "Variable temperature or pressure",
+                    "Threshold Pressure": "0.3 GPa for initial coordination; 2.2 GPa for full saturation",
+                    "Additional Info": "Smaller size allows complete saturation of Co centers at higher pressures."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions to high pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Presence inferred but not directly located in diffraction studies; variable content."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective uptake",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Absorbed when methanol is absent; structural characterization incomplete."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and chemical reactivity based on guest molecule dimensions and coordination ability",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Single crystal X-ray diffraction, Powder X-ray diffraction, Thermal analysis",
+            "Performance Metrics": "Reversible coordination of guests observed; structural transitions characterized by changes in symmetry and unit cell volume."
+        },
+        "Other Information": {
+            "Additional Info": "Framework exhibits flexibility and selective chemisorption behavior depending on guest size and external stimuli (temperature or pressure)."
+        }
+    }
+]

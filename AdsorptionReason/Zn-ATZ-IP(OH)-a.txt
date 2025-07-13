@@ -1,0 +1,112 @@
+MOF Name: Zn-ATZ-IP(OH)-a
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-ATZ-IP(OH)-a:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: Hydrogen bonds define rigid pore windows that admit propylene while excluding propane. Sieving Mechanism: Size exclusion at sub-nanometer scale.)
+
+Inferred effective pore size/behavior of Zn-ATZ-IP(OH)-a:
+The experimental data indicates that Zn-ATZ-IP(OH)-a can adsorb propylene (intermediate dimension 5.051 Å). However, it *does not* adsorb propane (intermediate dimension 4.354 Å), despite propane having a smaller intermediate dimension than propylene. This clearly demonstrates a strong kinetic sieving effect where the MOF's pore windows exhibit highly selective shape recognition, admitting propylene while excluding propane due to specific molecular interactions or inability of propane to orient itself to pass. Thus, the pore can accommodate molecules with an intermediate dimension up to at least 5.051 Å, but exclusion is not solely based on intermediate dimension; molecular shape also plays a critical role.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is larger than the intermediate dimension of propylene (5.051 Å), which is the largest molecule known to be adsorbed by Zn-ATZ-IP(OH)-a. Given the MOF's observed size/shape selectivity, it is highly probable that a larger molecule like isoprene would be excluded.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn-ATZ-IP(OH)-a
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-ATZ-IP(OH)-a:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: Hydrogen bonds define rigid pore windows that admit propylene while excluding propane. Sieving Mechanism: Size exclusion at sub-nanometer scale.)
+
+Inferred effective pore size/behavior of Zn-ATZ-IP(OH)-a:
+The experimental data indicates that Zn-ATZ-IP(OH)-a can adsorb propylene (intermediate dimension 5.051 Å). However, it *does not* adsorb propane (intermediate dimension 4.354 Å), despite propane having a smaller intermediate dimension than propylene. This clearly demonstrates a strong kinetic sieving effect where the MOF's pore windows exhibit highly selective shape recognition, admitting propylene while excluding propane due to specific molecular interactions or inability of propane to orient itself to pass. Thus, the pore can accommodate molecules with an intermediate dimension up to at least 5.051 Å, but exclusion is not solely based on intermediate dimension; molecular shape also plays a critical role.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is larger than the intermediate dimension of propylene (5.051 Å), which is the largest molecule known to be adsorbed by Zn-ATZ-IP(OH)-a. Given the MOF's observed size/shape selectivity, it is highly probable that a larger molecule like cis-2-pentene would be excluded.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn-ATZ-IP(OH)-a
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-ATZ-IP(OH)-a:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: Hydrogen bonds define rigid pore windows that admit propylene while excluding propane. Sieving Mechanism: Size exclusion at sub-nanometer scale.)
+
+Inferred effective pore size/behavior of Zn-ATZ-IP(OH)-a:
+The experimental data indicates that Zn-ATZ-IP(OH)-a can adsorb propylene (intermediate dimension 5.051 Å). However, it *does not* adsorb propane (intermediate dimension 4.354 Å), despite propane having a smaller intermediate dimension than propylene. This clearly demonstrates a strong kinetic sieving effect where the MOF's pore windows exhibit highly selective shape recognition, admitting propylene while excluding propane due to specific molecular interactions or inability of propane to orient itself to pass. Thus, the pore can accommodate molecules with an intermediate dimension up to at least 5.051 Å, but exclusion is not solely based on intermediate dimension; molecular shape also plays a critical role.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is slightly smaller than the intermediate dimension of propylene (5.051 Å), which is successfully adsorbed by Zn-ATZ-IP(OH)-a. While the MOF exhibits kinetic sieving against propane, 1-pentene's size is within the range of molecules that have been shown to pass. Following the general rule that molecules with intermediate dimensions less than or equal to the largest adsorbed molecule can pass, 1-pentene is predicted to be adsorbed.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: Zn-ATZ-IP(OH)-a
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-ATZ-IP(OH)-a:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: Hydrogen bonds define rigid pore windows that admit propylene while excluding propane. Sieving Mechanism: Size exclusion at sub-nanometer scale.)
+
+Inferred effective pore size/behavior of Zn-ATZ-IP(OH)-a:
+The experimental data indicates that Zn-ATZ-IP(OH)-a can adsorb propylene (intermediate dimension 5.051 Å). However, it *does not* adsorb propane (intermediate dimension 4.354 Å), despite propane having a smaller intermediate dimension than propylene. This clearly demonstrates a strong kinetic sieving effect where the MOF's pore windows exhibit highly selective shape recognition, admitting propylene while excluding propane due to specific molecular interactions or inability of propane to orient itself to pass. Thus, the pore can accommodate molecules with an intermediate dimension up to at least 5.051 Å, but exclusion is not solely based on intermediate dimension; molecular shape also plays a critical role.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the intermediate dimension of propylene (5.051 Å), which is successfully adsorbed by Zn-ATZ-IP(OH)-a. Although trans-2-pentene's intermediate dimension is larger than that of propane (4.354 Å, which is not adsorbed), the fact that a larger molecule (propylene) passes suggests that trans-2-pentene *could* pass if its specific shape allows it to navigate the pore. Following the general rule that molecules with intermediate dimensions less than or equal to the largest adsorbed molecule can pass, trans-2-pentene is predicted to be adsorbed, while acknowledging the inherent shape selectivity of the MOF.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: Zn-ATZ-IP(OH)-a
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-ATZ-IP(OH)-a:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Reason: Hydrogen bonds define rigid pore windows that admit propylene while excluding propane. Sieving Mechanism: Size exclusion at sub-nanometer scale.)
+
+Inferred effective pore size/behavior of Zn-ATZ-IP(OH)-a:
+The experimental data indicates that Zn-ATZ-IP(OH)-a can adsorb propylene (intermediate dimension 5.051 Å). However, it *does not* adsorb propane (intermediate dimension 4.354 Å), despite propane having a smaller intermediate dimension than propylene. This clearly demonstrates a strong kinetic sieving effect where the MOF's pore windows exhibit highly selective shape recognition, admitting propylene while excluding propane due to specific molecular interactions or inability of propane to orient itself to pass. Thus, the pore can accommodate molecules with an intermediate dimension up to at least 5.051 Å, but exclusion is not solely based on intermediate dimension; molecular shape also plays a critical role.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is very similar to and slightly larger than that of propane (4.354 Å), which is explicitly stated as not adsorbed by Zn-ATZ-IP(OH)-a due to a kinetic sieving mechanism involving specific pore window definition by hydrogen bonds. As n-pentane is also a linear alkane like propane, it is highly probable that it would be subject to the same shape-selective exclusion mechanism observed for propane, especially given its slightly larger size.
+
+Therefore, the result is: **Cannot Adsorb**

@@ -1,0 +1,95 @@
+MOF Name: Cu(BF4)2(4-DPDS)2
+
+**Known Guest Molecule Probe Sizes and Experimental Adsorption Data Analysis for Cu(BF4)2(4-DPDS)2:**
+
+Let's first list the relevant dimensions for the known molecules, focusing on the intermediate size as per instructions:
+
+*   **Ethylene (C2H4)**: 4.679×**4.047**×3.200 Å (Intermediate = 4.047 Å) - **Adsorbed**
+*   **Propylene (C3H6)**: 6.257×**5.051**×3.961 Å (Intermediate = 5.051 Å) - **Adsorbed**
+
+*   **Ethane (C2H6)**: 4.731×**4.175**×4.170 Å (Intermediate = 4.170 Å) - **Not Adsorbed** (Reason: Size exclusion)
+*   **Propane (C3H8)**: 6.552×**4.354**×3.970 Å (Intermediate = 4.354 Å) - **Not Adsorbed** (Reason: Size exclusion)
+
+**Inference of MOF's Adsorption Behavior:**
+
+Upon analyzing the experimental data, a simple, universal "size exclusion" based solely on the intermediate dimension cannot be inferred for Cu(BF4)2(4-DPDS)2 because it presents a contradiction:
+*   Propylene (intermediate 5.051 Å) is adsorbed.
+*   Propane (intermediate 4.354 Å) and Ethane (intermediate 4.170 Å) are *not* adsorbed, even though their intermediate dimensions are *smaller* than that of adsorbed propylene.
+
+This phenomenon strongly indicates that the adsorption is not governed by a simple intermediate dimension cutoff for all molecules. Instead, the MOF exhibits **shape-selective kinetic sieving**. Specifically, the MOF preferentially adsorbs unsaturated hydrocarbons (alkenes like ethylene and propylene) over saturated hydrocarbons (alkanes like ethane and propane) of similar carbon chain length, even if the alkanes have smaller intermediate dimensions. This suggests that the "flatness" or specific orientation enabled by the double bond in alkenes allows them to pass through the MOF's pores, while the more flexible/bulky nature of alkanes prevents their passage, despite their intermediate dimensions.
+
+Therefore, we cannot define a single effective pore size range based solely on the intermediate dimension. Instead, we infer that:
+1.  The MOF can adsorb alkenes with intermediate dimensions up to at least 5.051 Å (from propylene).
+2.  The MOF generally excludes alkanes (like ethane and propane) even if their intermediate dimensions are smaller than those of adsorbed alkenes, due to shape-dependent size exclusion (kinetic sieving).
+
+---
+
+**Predictions for Target Guest Molecules:**
+
+MOF Name: Cu(BF4)2(4-DPDS)2
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+- Known adsorbed molecules: Ethylene (intermediate 4.047 Å), Propylene (intermediate 5.051 Å).
+- Known non-adsorbed molecules (due to size exclusion): Ethane (intermediate 4.170 Å), Propane (intermediate 4.354 Å).
+- The MOF exhibits shape-selective kinetic sieving, favoring alkenes over alkanes.
+- Isoprene (7.746×6.093×3.963 Å) is an alkene. Its intermediate dimension is 6.093 Å.
+- While the MOF demonstrates a preference for alkenes, isoprene's intermediate dimension (6.093 Å) is significantly larger than the largest adsorbed alkene, propylene (5.051 Å). Even with shape selectivity, there is a physical limit to the pore size. Given this substantial increase in intermediate dimension for a larger molecule, it is unlikely to be adsorbed.
+
+---
+
+MOF Name: Cu(BF4)2(4-DPDS)2
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+- Known adsorbed molecules: Ethylene (intermediate 4.047 Å), Propylene (intermediate 5.051 Å).
+- Known non-adsorbed molecules (due to size exclusion): Ethane (intermediate 4.170 Å), Propane (intermediate 4.354 Å).
+- The MOF exhibits shape-selective kinetic sieving, favoring alkenes over alkanes.
+- cis-2-pentene (8.067×5.572×5.136 Å) is an alkene. Its intermediate dimension is 5.572 Å.
+- Similar to isoprene, cis-2-pentene's intermediate dimension (5.572 Å) is larger than the largest adsorbed alkene, propylene (5.051 Å). This suggests it is too large for the MOF's pores.
+
+---
+
+MOF Name: Cu(BF4)2(4-DPDS)2
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+- Known adsorbed molecules: Ethylene (intermediate 4.047 Å), Propylene (intermediate 5.051 Å).
+- Known non-adsorbed molecules (due to size exclusion): Ethane (intermediate 4.170 Å), Propane (intermediate 4.354 Å).
+- The MOF exhibits shape-selective kinetic sieving, favoring alkenes over alkanes.
+- 1-pentene (8.847×4.995×4.897 Å) is an alkene. Its intermediate dimension is 4.995 Å.
+- Critically, 1-pentene's intermediate dimension (4.995 Å) is *smaller* than that of adsorbed propylene (5.051 Å). Given the MOF's demonstrated ability to adsorb alkenes with intermediate dimensions up to 5.051 Å, and its preference for alkenes, 1-pentene is predicted to be adsorbed. While its smallest dimension (4.897 Å) is larger than that of propylene (3.961 Å), the instruction specifies "the main concern is the intermediate size", and the observed kinetic sieving points to the molecular type (alkene vs. alkane) being critical.
+
+---
+
+MOF Name: Cu(BF4)2(4-DPDS)2
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+- Known adsorbed molecules: Ethylene (intermediate 4.047 Å), Propylene (intermediate 5.051 Å).
+- Known non-adsorbed molecules (due to size exclusion): Ethane (intermediate 4.170 Å), Propane (intermediate 4.354 Å).
+- The MOF exhibits shape-selective kinetic sieving, favoring alkenes over alkanes.
+- trans-2-pentene (8.796×4.733×4.564 Å) is an alkene. Its intermediate dimension is 4.733 Å.
+- Similar to 1-pentene, trans-2-pentene's intermediate dimension (4.733 Å) is *smaller* than that of adsorbed propylene (5.051 Å). Considering the MOF's strong preference for alkenes and the intermediate dimension being within the established range for adsorbed alkenes, trans-2-pentene is predicted to be adsorbed.
+
+---
+
+MOF Name: Cu(BF4)2(4-DPDS)2
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+- Known adsorbed molecules: Ethylene (intermediate 4.047 Å), Propylene (intermediate 5.051 Å).
+- Known non-adsorbed molecules (due to size exclusion): Ethane (intermediate 4.170 Å), Propane (intermediate 4.354 Å).
+- The MOF exhibits strong shape-selective kinetic sieving, consistently excluding alkanes like ethane and propane, even when their intermediate dimensions are smaller than those of adsorbed alkenes.
+- n-pentane (9.118×4.364×3.969 Å) is an alkane. Its intermediate dimension is 4.364 Å.
+- This intermediate dimension is very similar to that of propane (4.354 Å), which was not adsorbed. Given the observed clear pattern of alkane exclusion by this MOF due to shape/kinetic sieving effects, n-pentane is highly likely to be excluded as well.

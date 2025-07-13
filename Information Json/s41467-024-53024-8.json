@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "CoFA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.6 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "1D helical channels"
+        },
+        "Topology": "diamond-like framework",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "formate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexafluoropropylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Specific recognition via hydrogen bonding interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3F6 adsorption capacity: ~2.0 mmol g−1 at 100 kPa"
+                }
+            },
+            {
+                "Molecule Name": "perfluoropropane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to pore size (~5.6 Å) smaller than C3F8 kinetic diameter",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible C3F8 adsorption observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with specific molecular recognition",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Mixed-gas breakthrough experiments",
+            "Performance Metrics": "C3F8 purity > 99.999%, yield: 101.2 L kg−1 per cycle"
+        },
+        "Other Information": {
+            "Additional Info": "Scalable synthesis achieved via reflux method; exhibits structural stability and recyclability"
+        }
+    }
+]

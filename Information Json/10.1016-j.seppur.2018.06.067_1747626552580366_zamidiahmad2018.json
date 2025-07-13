@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (aperture), 11.6 Å (pore)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sodalite (SOD)",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced CO2 permeability due to molecular sieving effect."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity reduces at higher loadings due to bypass channels and interfacial voids."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2 permeability: up to 81.2 Barrer, CO2/CH4 selectivity: up to 35"
+        },
+        "Other Information": {
+            "Additional Info": "Incorporation of ZIF-8 nanoparticles improved CO2 solubility and diffusion selectivity while increasing polymer free volume."
+        }
+    }
+]

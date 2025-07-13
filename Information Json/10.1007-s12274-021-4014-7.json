@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "PE@MOF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.1 nm (DBWJT size), 0.6 nm (BQFSU size)",
+            "Structure Type": "NJDSPQPSPVT"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr"
+        ],
+        "Ligands": [
+            "1,4-dicarboxybenzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The MOF layer can block most of the free and part of the solvated solvent molecules in conventional electrolytes with molarity around 1 M."
+                }
+            },
+            {
+                "Molecule Name": "ethylene carbonate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Solvent sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "PE@MOF separator notably suppresses solvents shuttling, enabling the independent optimization of cathode–electrolyte and anode–electrolyte interfaces."
+                }
+            },
+            {
+                "Molecule Name": "diethyl carbonate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Solvent sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The diffusion of liquid electrolytes has been notably suppressed by PE@MOF separator."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: Not Reported, Permeance: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF layer can block most of the free and part of the solvated solvent molecules in conventional electrolytes with molarity around 1 M."
+        }
+    }
+]

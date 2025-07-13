@@ -1,0 +1,132 @@
+[
+    {
+        "Materials Name": "ZIF-67 Membranes",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: 14.8 × 10^-7 mol s^-1 m^-2 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance: 0.89 × 10^-7 mol s^-1 m^-2 Pa^-1; Ideal separation factor H2/CO2: 16.8"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 permeance not explicitly reported; Ideal separation factor H2/N2: 16.5"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 permeance not explicitly reported; Ideal separation factor H2/CH4: 18.0"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-gas permeation experiments",
+            "Performance Metrics": "H2 permeance: 14.8 × 10^-7 mol s^-1 m^-2 Pa^-1; CO2 permeance: 0.89 × 10^-7 mol s^-1 m^-2 Pa^-1; Ideal separation factors: H2/CO2 = 16.8, H2/N2 = 16.5, H2/CH4 = 18.0"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane thickness: 3 μm; Prepared using α-Al2O3-supported cobalt nanosheets layer (Co-NSL) as an inorganic surface modifier."
+        }
+    },
+    {
+        "Materials Name": "Amine-modified ZIF-67 Membranes",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (reduced due to amine modification)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "ethylenediamine (EDA)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: 6.53 × 10^-7 mol s^-1 m^-2 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Adsorptive diffusion and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance: 0.22 × 10^-7 mol s^-1 m^-2 Pa^-1; Enhanced adsorption due to amine groups; Ideal separation factor H2/CO2: 30.0"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 permeance not explicitly reported; Ideal separation factor H2/N2 remains similar to unmodified ZIF-67 membranes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced size exclusion and adsorptive diffusion via post-synthetic amine modification",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-gas permeation experiments",
+            "Performance Metrics": "H2 permeance: 6.53 × 10^-7 mol s^-1 m^-2 Pa^-1; CO2 permeance: 0.22 × 10^-7 mol s^-1 m^-2 Pa^-1; Ideal separation factor H2/CO2: 30.0"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane thickness: 3 μm; Amine modification enhances CO2 adsorption capacity by ~51%; Improved H2/CO2 separation factor from 16.8 to 30.0."
+        }
+    }
+]

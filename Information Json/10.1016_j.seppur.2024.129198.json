@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "MIL-100(Fe)-250",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1 nm - 2 nm (micropore)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+",
+            "Fe2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzene tricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "enrofloxacin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Visible light, presence of H2O2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The porous structure of MIL-100(Fe)-250 provides size-exclusion effect, selectively removing organic pollutants such as enrofloxacin."
+                }
+            },
+            {
+                "Molecule Name": "humic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Presence of humic acid (10 ppm and 30 ppm)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Humic acid molecules are excluded from the porous structure due to their larger size, demonstrating the size-exclusion capability of MIL-100(Fe)-250."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, EPR spectroscopy, DFT calculations",
+            "Performance Metrics": "ENR degradation rate: 100% within 15 min, quasi-steady-state concentration of OH: 4.18 x 10^-12 M"
+        },
+        "Other Information": {
+            "Additional Info": "Dehydrated MIL-100(Fe)-250 exhibits enhanced charge transfer, Fe(III) reduction, and H2O2 activation efficiency, leading to superior removal of organic pollutants."
+        }
+    }
+]

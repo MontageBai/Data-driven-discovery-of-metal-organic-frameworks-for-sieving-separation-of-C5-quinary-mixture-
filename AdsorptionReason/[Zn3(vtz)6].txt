@@ -1,0 +1,102 @@
+MOF Name: [Zn3(vtz)6]
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Zn3(vtz)6]:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Reason: Quadrupole-moment sieving and size exclusion)
+
+Inferred effective pore size of [Zn3(vtz)6]:
+The experimental data shows that [Zn3(vtz)6] can adsorb acetylene (intermediate dimension 3.200 Å) but *not* carbon dioxide (intermediate dimension 3.200 Å), with "size exclusion" cited as a reason for CO2's non-adsorption. This indicates that the MOF's pore aperture is very narrow, approximately at or slightly above 3.200 Å, and exhibits highly selective kinetic sieving where subtle differences (like quadrupole moment or molecular shape, as suggested by the "quadrupole-moment sieving" mechanism) influence adsorption for molecules of similar intermediate dimensions. Critically, the fact that CO2, with an intermediate dimension of 3.200 Å, is excluded due to "size exclusion" implies that molecules with intermediate dimensions significantly larger than 3.200 Å will certainly not be adsorbed.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the inferred effective pore size threshold of approximately 3.200 Å (as demonstrated by carbon dioxide's non-adsorption due to size exclusion), it cannot be adsorbed by [Zn3(vtz)6].
+
+---
+
+MOF Name: [Zn3(vtz)6]
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Zn3(vtz)6]:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Reason: Quadrupole-moment sieving and size exclusion)
+
+Inferred effective pore size of [Zn3(vtz)6]:
+The experimental data shows that [Zn3(vtz)6] can adsorb acetylene (intermediate dimension 3.200 Å) but *not* carbon dioxide (intermediate dimension 3.200 Å), with "size exclusion" cited as a reason for CO2's non-adsorption. This indicates that the MOF's pore aperture is very narrow, approximately at or slightly above 3.200 Å, and exhibits highly selective kinetic sieving where subtle differences (like quadrupole moment or molecular shape, as suggested by the "quadrupole-moment sieving" mechanism) influence adsorption for molecules of similar intermediate dimensions. Critically, the fact that CO2, with an intermediate dimension of 3.200 Å, is excluded due to "size exclusion" implies that molecules with intermediate dimensions significantly larger than 3.200 Å will certainly not be adsorbed.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the inferred effective pore size threshold of approximately 3.200 Å (as demonstrated by carbon dioxide's non-adsorption due to size exclusion), it cannot be adsorbed by [Zn3(vtz)6].
+
+---
+
+MOF Name: [Zn3(vtz)6]
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Zn3(vtz)6]:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Reason: Quadrupole-moment sieving and size exclusion)
+
+Inferred effective pore size of [Zn3(vtz)6]:
+The experimental data shows that [Zn3(vtz)6] can adsorb acetylene (intermediate dimension 3.200 Å) but *not* carbon dioxide (intermediate dimension 3.200 Å), with "size exclusion" cited as a reason for CO2's non-adsorption. This indicates that the MOF's pore aperture is very narrow, approximately at or slightly above 3.200 Å, and exhibits highly selective kinetic sieving where subtle differences (like quadrupole moment or molecular shape, as suggested by the "quadrupole-moment sieving" mechanism) influence adsorption for molecules of similar intermediate dimensions. Critically, the fact that CO2, with an intermediate dimension of 3.200 Å, is excluded due to "size exclusion" implies that molecules with intermediate dimensions significantly larger than 3.200 Å will certainly not be adsorbed.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the inferred effective pore size threshold of approximately 3.200 Å (as demonstrated by carbon dioxide's non-adsorption due to size exclusion), it cannot be adsorbed by [Zn3(vtz)6].
+
+---
+
+MOF Name: [Zn3(vtz)6]
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Zn3(vtz)6]:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Reason: Quadrupole-moment sieving and size exclusion)
+
+Inferred effective pore size of [Zn3(vtz)6]:
+The experimental data shows that [Zn3(vtz)6] can adsorb acetylene (intermediate dimension 3.200 Å) but *not* carbon dioxide (intermediate dimension 3.200 Å), with "size exclusion" cited as a reason for CO2's non-adsorption. This indicates that the MOF's pore aperture is very narrow, approximately at or slightly above 3.200 Å, and exhibits highly selective kinetic sieving where subtle differences (like quadrupole moment or molecular shape, as suggested by the "quadrupole-moment sieving" mechanism) influence adsorption for molecules of similar intermediate dimensions. Critically, the fact that CO2, with an intermediate dimension of 3.200 Å, is excluded due to "size exclusion" implies that molecules with intermediate dimensions significantly larger than 3.200 Å will certainly not be adsorbed.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the inferred effective pore size threshold of approximately 3.200 Å (as demonstrated by carbon dioxide's non-adsorption due to size exclusion), it cannot be adsorbed by [Zn3(vtz)6].
+
+---
+
+MOF Name: [Zn3(vtz)6]
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Zn3(vtz)6]:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Reason: Quadrupole-moment sieving and size exclusion)
+
+Inferred effective pore size of [Zn3(vtz)6]:
+The experimental data shows that [Zn3(vtz)6] can adsorb acetylene (intermediate dimension 3.200 Å) but *not* carbon dioxide (intermediate dimension 3.200 Å), with "size exclusion" cited as a reason for CO2's non-adsorption. This indicates that the MOF's pore aperture is very narrow, approximately at or slightly above 3.200 Å, and exhibits highly selective kinetic sieving where subtle differences (like quadrupole moment or molecular shape, as suggested by the "quadrupole-moment sieving" mechanism) influence adsorption for molecules of similar intermediate dimensions. Critically, the fact that CO2, with an intermediate dimension of 3.200 Å, is excluded due to "size exclusion" implies that molecules with intermediate dimensions significantly larger than 3.200 Å will certainly not be adsorbed.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the inferred effective pore size threshold of approximately 3.200 Å (as demonstrated by carbon dioxide's non-adsorption due to size exclusion), it cannot be adsorbed by [Zn3(vtz)6].

@@ -1,0 +1,613 @@
+[
+    {
+        "Materials Name": "CuBDC MOF nanosheets",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Varied, see source text for details",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeabilities in the range of 2.8–5.8 Barrer; CH4 permeabilities lower than 0.3 Barrer"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/CH4 selectivity superior to pristine polymeric membrane"
+        },
+        "Other Information": {
+            "Additional Info": "Two-dimensional nanostructures enhance gas separation efficiency"
+        }
+    },
+    {
+        "Materials Name": "UiO-66 and UiO-66-NH2 MOFs",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-dicarboxylic acid",
+            "2-amino-1,4-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport via amine functional groups",
+                "Other Information": {
+                    "Test Conditions": "Varied, see source text for details",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced CO2 solubility and transport due to amine functionalization"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Varied, see source text for details",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly lower permeability compared to CO2"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dual transport pathways created by MOF clusters",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation testing",
+            "Performance Metrics": "CO2 permeability enhanced up to 365 Barrer with selectivity maintained or improved"
+        },
+        "Other Information": {
+            "Additional Info": "Adjusting MOF size and shape affects performance; best results obtained with aggregated UiO-66 clusters"
+        }
+    },
+    {
+        "Materials Name": "NH2-MIL-53(Al)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport through amine groups",
+                "Other Information": {
+                    "Test Conditions": "35°C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Optimum loading at 8 wt.% nanoparticles showed highest separation performance"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35°C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity improved from 34.9 to 60.1 at optimal conditions"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Facilitated transport through amine-functionalized MOF",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation testing",
+            "Performance Metrics": "CO2 permeability increased from 7.68 to 11.53 Barrer; CO2/CH4 selectivity improved from 34.9 to 60.1"
+        },
+        "Other Information": {
+            "Additional Info": "Different morphologies (nanoparticles, microneedles, nanorods) were studied"
+        }
+    },
+    {
+        "Materials Name": "Y-fum-fcu-MOF and Eu-naph-fcu-MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Constrained by di-topic linkers",
+            "Structure Type": "Triangular pore-apertures"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Y3+",
+            "Eu3+"
+        ],
+        "Ligands": [
+            "fumarate",
+            "1,4-naphthalenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective adsorption and diffusion",
+                "Other Information": {
+                    "Test Conditions": "Varied, see source text for details",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability increases with filler loading"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Varied, see source text for details",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity higher for Eu-naph-fcu-MOF composite"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving through constrained triangular pore-apertures",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation testing",
+            "Performance Metrics": "CO2 permeability increased significantly while maintaining high selectivity"
+        },
+        "Other Information": {
+            "Additional Info": "Fine-tuned MOFs with rare-earth metals show tunable properties"
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-3-Cu, AlFFIVE-1-Ni, NbOFFIVE-1-Ni",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D nets pillared in third dimension"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+",
+            "Ni2+",
+            "Nb4+"
+        ],
+        "Ligands": [
+            "SiF6",
+            "AlF5",
+            "NbOF5"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport through ultramicroporous channels",
+                "Other Information": {
+                    "Test Conditions": "Varied, see source text for details",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significant enhancement in CO2 permeability"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Varied, see source text for details",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Maintained high selectivity while improving permeability"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ultramicroporous channels provide selective pathways",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation testing",
+            "Performance Metrics": "CO2 permeability about 1000 Barrer with CO2/CH4 selectivity of 26 for modified NbOFFIVE-1-Ni composite"
+        },
+        "Other Information": {
+            "Additional Info": "Fluorinated MOFs tailored for simultaneous H2S and CO2 removal"
+        }
+    },
+    {
+        "Materials Name": "JUC-62 and PCN-250",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Light-responsive facilitated transport",
+                "Other Information": {
+                    "Test Conditions": "UV and visible light exposure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption capacity decreases upon UV exposure, facilitating low-energy regeneration"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Light-responsive facilitated transport",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Gas adsorption testing",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "MOFs exhibit different behavior under UV and visible light exposure"
+        }
+    },
+    {
+        "Materials Name": "ZIF-8@LDH",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+",
+            "Zn2+, Al3+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "CO3"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination of physical and chemical selectivities",
+                "Other Information": {
+                    "Test Conditions": "35°C, varied pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Physical sorption by ZIF-8, chemical facilitated transport by LDH"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35°C, varied pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity due to combined mechanisms"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Coordination of multiple selectivity mechanisms",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation testing",
+            "Performance Metrics": "CO2 permeability of 1307 Barrer with CO2/CH4 selectivity of 31.6"
+        },
+        "Other Information": {
+            "Additional Info": "In situ growth method used for synthesis"
+        }
+    },
+    {
+        "Materials Name": "H-ZIF-8 (Hollow ZIF-8)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport through hollow structures",
+                "Other Information": {
+                    "Test Conditions": "35°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher CO2 concentration maintained near active sites"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Improved selectivity due to dense outer shell"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Hollow structure with dense outer shell",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation testing",
+            "Performance Metrics": "CO2 permeability up to 623.0 Barrer with CO2/CH4 selectivity of 10.9"
+        },
+        "Other Information": {
+            "Additional Info": "Synthesized using seed crystals and sacrificial template method"
+        }
+    },
+    {
+        "Materials Name": "Co ion-exchanged zeolite Y",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "Framework oxygen atoms"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport through cobalt complex",
+                "Other Information": {
+                    "Test Conditions": "Varied, see source text for details",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High dipole moment enhances intermolecular interaction with CO2"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Varied, see source text for details",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excellent interfacial adhesion demonstrated"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Cobalt-based π-complexation",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation testing",
+            "Performance Metrics": "CO2 permeability of 18.96 Barrer with CO2/CH4 selectivity of 111.7"
+        },
+        "Other Information": {
+            "Additional Info": "Synthesized using ship-in-a-bottle approach"
+        }
+    },
+    {
+        "Materials Name": "PEG-PEI-GO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport through amine networks",
+                "Other Information": {
+                    "Test Conditions": "30°C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced CO2 solubility and reactivity selectivity"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30°C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significant improvement in selectivity"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Amine network with specific transport chains",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation testing",
+            "Performance Metrics": "CO2 permeance of 1784 GPU with CO2/CH4 selectivity of 32"
+        },
+        "Other Information": {
+            "Additional Info": "Functional groups create acid-base pairs enhancing CO2 philicity"
+        }
+    },
+    {
+        "Materials Name": "[C3NH2bim][Tf2N]@NH2-MIL-101(Cr)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical reaction with amine groups",
+                "Other Information": {
+                    "Test Conditions": "298K, 3bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Increased number of available amine functional groups"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298K, 3bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/N2 selectivity enhanced by 116% compared to base materials"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical reaction with CO2",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation testing",
+            "Performance Metrics": "CO2 permeability of 2979 Barrer with CO2/N2 selectivity of 37"
+        },
+        "Other Information": {
+            "Additional Info": "Task-specific ionic liquid incorporated into MOF"
+        }
+    },
+    {
+        "Materials Name": "Imidazole functionalized graphene oxide (ImGO)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Specific interaction with imidazole groups",
+                "Other Information": {
+                    "Test Conditions": "25°C, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Proper interaction between CO2 and imidazole groups"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25°C, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High CO2/N2 selectivity achieved"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Specific interaction with functional groups",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation testing",
+            "Performance Metrics": "CO2 permeability of 76.2 Barrer with CO2/N2 selectivity of 105.5"
+        },
+        "Other Information": {
+            "Additional Info": "Functionalization improves polymer compatibility and mechanical properties"
+        }
+    },
+    {
+        "Materials Name": "GO-DA-Zn2+",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "Graphene oxide surface groups"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π-complexation with metal ions",
+                "Other Information": {
+                    "Test Conditions": "30°C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced diffusivity through tortuous channels"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30°C, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Improved CO2/CH4 selectivity due to hindered larger molecule transport"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Tortuous channels and π-complexation",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation testing",
+            "Performance Metrics": "CO2 permeability of 137.9 Barrer with CO2/CH4 selectivity of 28.8"
+        },
+        "Other Information": {
+            "Additional Info": "Surface modification creates more CO2-selective pathways"
+        }
+    }
+]

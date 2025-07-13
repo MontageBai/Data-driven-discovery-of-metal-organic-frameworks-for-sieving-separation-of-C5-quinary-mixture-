@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "TYUT-17",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.7 Å (median), 7.1 Å (robust pore cavity)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "adenine",
+            "3-methylisonicotinic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "0.06 bar",
+                    "Additional Info": "Adsorption capacity: 62.6 cm³/g at 0.1 bar and 298 K"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Gate-opening",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "0.18 bar",
+                    "Additional Info": "Adsorption capacity: 18.7 cm³/g at 0.1 bar and 298 K"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Cross-section matching and multiple supramolecular interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, in situ variable pressure X-ray diffraction, DFT calculations",
+            "Performance Metrics": "C2H6/C2H4 selectivity: 6.41 at 298 K and 0.1 bar; Ultra-high purity C2H4 (>99.995%) productivity: 39.2 L/kg"
+        },
+        "Other Information": {
+            "Additional Info": "Flexible-robust MOF with localized flexible gate for preferential adsorption of ethane"
+        }
+    }
+]

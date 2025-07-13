@@ -1,0 +1,112 @@
+MOF Name: CTGU-44
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CTGU-44:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (due to Thermodynamic-kinetic synergy effect)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Conditional adsorption, with "Size exclusion at sub-nanometer scale" as the reason.
+
+Inferred effective pore size of CTGU-44:
+Based on the adsorption of acetylene (intermediate dimension 3.200 Å), the pore size of CTGU-44 is at least 3.200 Å. However, the "Conditional" adsorption of carbon dioxide, which also has an intermediate dimension of 3.200 Å, attributed to "Size exclusion at sub-nanometer scale", indicates that the pore is extremely narrow and very close to this dimension. It suggests that molecules with an intermediate dimension of 3.200 Å are at the very limit of the pore's accessibility, and minor differences in molecular shape or flexibility (even for the same intermediate dimension) can lead to kinetic sieving or partial exclusion. Thus, any molecule with an intermediate dimension significantly larger than 3.200 Å is highly unlikely to be adsorbed due to size exclusion.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the inferred effective pore size of CTGU-44 (~3.200 Å), it cannot be adsorbed.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: CTGU-44
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CTGU-44:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (due to Thermodynamic-kinetic synergy effect)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Conditional adsorption, with "Size exclusion at sub-nanometer scale" as the reason.
+
+Inferred effective pore size of CTGU-44:
+Based on the adsorption of acetylene (intermediate dimension 3.200 Å), the pore size of CTGU-44 is at least 3.200 Å. However, the "Conditional" adsorption of carbon dioxide, which also has an intermediate dimension of 3.200 Å, attributed to "Size exclusion at sub-nanometer scale", indicates that the pore is extremely narrow and very close to this dimension. It suggests that molecules with an intermediate dimension of 3.200 Å are at the very limit of the pore's accessibility, and minor differences in molecular shape or flexibility (even for the same intermediate dimension) can lead to kinetic sieving or partial exclusion. Thus, any molecule with an intermediate dimension significantly larger than 3.200 Å is highly unlikely to be adsorbed due to size exclusion.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the inferred effective pore size of CTGU-44 (~3.200 Å), it cannot be adsorbed.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: CTGU-44
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CTGU-44:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (due to Thermodynamic-kinetic synergy effect)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Conditional adsorption, with "Size exclusion at sub-nanometer scale" as the reason.
+
+Inferred effective pore size of CTGU-44:
+Based on the adsorption of acetylene (intermediate dimension 3.200 Å), the pore size of CTGU-44 is at least 3.200 Å. However, the "Conditional" adsorption of carbon dioxide, which also has an intermediate dimension of 3.200 Å, attributed to "Size exclusion at sub-nanometer scale", indicates that the pore is extremely narrow and very close to this dimension. It suggests that molecules with an intermediate dimension of 3.200 Å are at the very limit of the pore's accessibility, and minor differences in molecular shape or flexibility (even for the same intermediate dimension) can lead to kinetic sieving or partial exclusion. Thus, any molecule with an intermediate dimension significantly larger than 3.200 Å is highly unlikely to be adsorbed due to size exclusion.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the inferred effective pore size of CTGU-44 (~3.200 Å), it cannot be adsorbed.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: CTGU-44
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CTGU-44:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (due to Thermodynamic-kinetic synergy effect)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Conditional adsorption, with "Size exclusion at sub-nanometer scale" as the reason.
+
+Inferred effective pore size of CTGU-44:
+Based on the adsorption of acetylene (intermediate dimension 3.200 Å), the pore size of CTGU-44 is at least 3.200 Å. However, the "Conditional" adsorption of carbon dioxide, which also has an intermediate dimension of 3.200 Å, attributed to "Size exclusion at sub-nanometer scale", indicates that the pore is extremely narrow and very close to this dimension. It suggests that molecules with an intermediate dimension of 3.200 Å are at the very limit of the pore's accessibility, and minor differences in molecular shape or flexibility (even for the same intermediate dimension) can lead to kinetic sieving or partial exclusion. Thus, any molecule with an intermediate dimension significantly larger than 3.200 Å is highly unlikely to be adsorbed due to size exclusion.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the inferred effective pore size of CTGU-44 (~3.200 Å), it cannot be adsorbed.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: CTGU-44
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for CTGU-44:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (due to Thermodynamic-kinetic synergy effect)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Conditional adsorption, with "Size exclusion at sub-nanometer scale" as the reason.
+
+Inferred effective pore size of CTGU-44:
+Based on the adsorption of acetylene (intermediate dimension 3.200 Å), the pore size of CTGU-44 is at least 3.200 Å. However, the "Conditional" adsorption of carbon dioxide, which also has an intermediate dimension of 3.200 Å, attributed to "Size exclusion at sub-nanometer scale", indicates that the pore is extremely narrow and very close to this dimension. It suggests that molecules with an intermediate dimension of 3.200 Å are at the very limit of the pore's accessibility, and minor differences in molecular shape or flexibility (even for the same intermediate dimension) can lead to kinetic sieving or partial exclusion. Thus, any molecule with an intermediate dimension significantly larger than 3.200 Å is highly unlikely to be adsorbed due to size exclusion.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the inferred effective pore size of CTGU-44 (~3.200 Å), it cannot be adsorbed.
+
+Therefore, the result is: **Cannot Adsorb**

@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "Cu-Trz",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.2 Å × 3.3 Å (aperture size), Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,2,4-triazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.2 Å × 3.3 Å × 5.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 can pass through the twisted pore aperture with an energy barrier of 34.8 kJ mol−1."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å × 3.3 Å × 5.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H2 diffusion is kinetically forbidden with an energy barrier of 117.1 kJ mol−1."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Three-dimensional restricted molecular-sieving based on length difference.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, DFT calculation",
+            "Performance Metrics": "CO2/C2H2 selectivity: theoretically infinite, C2H2 adsorption capacity: 1.1 cm³ g⁻¹ at 100 kPa and 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "Cu-Trz shows excellent chemical stability, recyclability, and low cost. The twisted pore aperture induces a 3D restricting effect for molecular-sieving separation."
+        }
+    },
+    {
+        "Materials Name": "Ni-Trz",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Slightly wider than Cu-Trz, Not Reported (exact dimensions), Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "1,2,4-triazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.2 Å × 3.3 Å × 5.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 is quickly adsorbed in Ni-Trz."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å × 3.3 Å × 5.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H2 is co-adsorbed with CO2 due to the wider aperture size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not applicable due to wider aperture size leading to co-adsorption.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms, Time-dependent adsorption curves",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Ni-Trz does not exhibit molecular-sieving behavior for CO2/C2H2 separation due to its relatively wider aperture size."
+        }
+    }
+]

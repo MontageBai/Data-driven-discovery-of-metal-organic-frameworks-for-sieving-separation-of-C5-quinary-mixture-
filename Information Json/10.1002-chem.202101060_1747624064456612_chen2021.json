@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "F-PYMO-Cu",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "5-fluoro-2-hydroxypyrimidine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake of 35.5 cm³/cm³ at 298 K and 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low uptake of 0.55 cm³/cm³ at 298 K and 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher uptake than acetylene, IAST selectivity for CO2/C2H2: 3.7"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low-pressure single-gas adsorption isotherms confirm exclusion"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H2/C2H4 uptake ratio: 63.6, IAST selectivity (10:90): 11030, IAST selectivity (1:99): 192"
+        },
+        "Other Information": {
+            "Additional Info": "Excellent thermal stability up to 503 K, water stability confirmed by PXRD after soaking in water for two months"
+        }
+    }
+]

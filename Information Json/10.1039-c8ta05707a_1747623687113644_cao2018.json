@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "AHEFAU",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.06 Å × 3.16 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "H2bta"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving (EQS)",
+                "Other Information": {
+                    "Test Conditions": "20 K, 5 kPa to 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Experiences hindrance due to extreme two-dimensional confinement."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving (EQS)",
+                "Other Information": {
+                    "Test Conditions": "20 K, 5 kPa to 20 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Penetrates more effectively into the ultramicropores compared to hydrogen."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Extreme two-dimensional confinement leading to quantum sieving effects.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Cryogenic thermal desorption spectroscopy (ACTDS)",
+            "Performance Metrics": "Separation factor (SF) = 41.4 ± 0.4 at 20 K and 10 kPa"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows an exceptional separation factor for D2/H2 through quantum sieving under ultralow temperatures."
+        }
+    }
+]

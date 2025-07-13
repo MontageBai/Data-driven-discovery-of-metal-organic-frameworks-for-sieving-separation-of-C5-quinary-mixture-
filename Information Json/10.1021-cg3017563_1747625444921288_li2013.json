@@ -1,0 +1,128 @@
+[
+    {
+        "Materials Name": "{[Cu2(4-pmpmd)2(CH3OH)4(opd)2]·2H2O}n",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.48 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "2-fold interpenetrating CdSO4 net",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "N,N′-bis(4-pyridylmethyl)phenyldiimide",
+            "o-phthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen bonding with hydrophilic channels",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stepwise adsorption observed with hysteresis."
+                }
+            },
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Coordination to Cu2+ sites and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Two-step adsorption profile observed."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethanol molecules cannot enter tetragonal cages due to size."
+                }
+            },
+            {
+                "Molecule Name": "n-propanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Shape exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows complete selectivity over 2-propanol."
+                }
+            },
+            {
+                "Molecule Name": "2-propanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Shape exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to shape."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cannot enter channels due to size."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quadrupole interactions",
+                "Other Information": {
+                    "Test Conditions": "195 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highly selective sorption over N2 and H2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower affinity compared to CO2."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower affinity compared to CO2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms, Vapor adsorption experiments",
+            "Performance Metrics": "CO2/N2 selectivity: High, n-propanol/2-propanol selectivity: Complete"
+        },
+        "Other Information": {
+            "Additional Info": "Reversible SC-SC transformations observed with color changes."
+        }
+    }
+]

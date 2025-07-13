@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Hyb-PGO/ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "dispersal red",
+                "Molecular Size": "0.3243 nm (estimated)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "7 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate improved from 6.5% (pristine PGO) to 80% (Hyb-PGO/ZIF-8)"
+                }
+            },
+            {
+                "Molecule Name": "protoporphyrin IX",
+                "Molecular Size": "0.563 nm (estimated)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "7 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "100% rejection achieved for this neutral dye"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "MWCO improved from 570 g/mol (pristine PGO) to 320 g/mol (Hyb-PGO/ZIF-8)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Dead-end filtration system",
+            "Performance Metrics": "Water permeance: 4.0 LMHbar−1; Stable performance under 10 bar pressure"
+        },
+        "Other Information": {
+            "Additional Info": "Targeted growth of ZIF-8 nanocrystals patched non-selective microdefects in PGO membranes"
+        }
+    }
+]

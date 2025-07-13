@@ -1,0 +1,116 @@
+[
+    {
+        "Materials Name": "Ni-MOF membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.77 nm (nanosheet spacing), 0.38 nm (coordination structural spacing)",
+            "Structure Type": "2D nanosheets with layered structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "1,4-dicarboxybenzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar pressure, 50 mg L-1 dye concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >99%"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar pressure, 50 mg L-1 dye concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate 81.7%"
+                }
+            },
+            {
+                "Molecule Name": "lemon yellow",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar pressure, 50 mg L-1 dye concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate 91.1%"
+                }
+            },
+            {
+                "Molecule Name": "alcian blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar pressure, 50 mg L-1 dye concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate 99.8%"
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar pressure, 50 mg L-1 salt concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate 4.02%"
+                }
+            },
+            {
+                "Molecule Name": "sodium sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar pressure, 50 mg L-1 salt concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate 7.71%"
+                }
+            },
+            {
+                "Molecule Name": "magnesium sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar pressure, 50 mg L-1 salt concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate 2.80%"
+                }
+            },
+            {
+                "Molecule Name": "magnesium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "2 bar pressure, 50 mg L-1 salt concentration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate 2.41%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Nano/sub-nanometer level selectivity based on size exclusion",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment using a homemade staggered flow device",
+            "Performance Metrics": "Permeance: 193.2 L m-2 h-1 bar-1, Rejection rate for congo red: 99.7%, MWCO: ~490 Da"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane showed long-term stability over 170 h of continuous operation under cross-flow conditions and maintained separation performance even after harsh ultrasonication or multiple bending."
+        }
+    }
+]

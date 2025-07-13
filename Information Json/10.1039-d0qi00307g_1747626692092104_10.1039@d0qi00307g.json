@@ -1,0 +1,386 @@
+[
+    {
+        "Materials Name": "Graphene oxide membranes",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.64-0.98 nm (interlayer spacing)",
+            "Structure Type": "2D stacking structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Controlled by KCl"
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Controlled by KCl"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Controlled by KCl"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ion sieving effect",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Permeability testing",
+            "Performance Metrics": "High rejection rate over 99%"
+        },
+        "Other Information": {
+            "Additional Info": "Cation-controlled interlayer spacing"
+        }
+    },
+    {
+        "Materials Name": "MXene membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Sub-nanometer channels",
+            "Structure Type": "2D laminar structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance exceeds 3.68 × 10^-7 mol m^-2 s^-1 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity of H2/CO2 is greater than 160"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving channels for gas separation",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeance testing",
+            "Performance Metrics": "H2 permeance > 3.68 × 10^-7 mol m^-2 s^-1 Pa^-1, H2/CO2 selectivity > 160"
+        },
+        "Other Information": {
+            "Additional Info": "Sub-nanometer spacing between adjacent MXene nanosheets"
+        }
+    },
+    {
+        "Materials Name": "Zn2(bim)4 molecular sieve membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "bim"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance as high as 9.04 × 10^-7 mol m^-2 s^-1 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CO2 selectivity up to 291"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Intrinsic micropores in nanosheets",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeance and selectivity testing",
+            "Performance Metrics": "H2 permeance: 9.04 × 10^-7 mol m^-2 s^-1 Pa^-1, H2/CO2 selectivity: 291"
+        },
+        "Other Information": {
+            "Additional Info": "Prepared by ball milling and vacuum filtering"
+        }
+    },
+    {
+        "Materials Name": "Zn2(Bim)3 ultrathin MOF membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D nanoflakes"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "Bim"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance up to 8 × 10^-7 mol m^-2 s^-1 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation coefficient as high as 166"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Intrinsic micropores and tortuous interlayer channels",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeance and selectivity testing",
+            "Performance Metrics": "H2 permeance: 8 × 10^-7 mol m^-2 s^-1 Pa^-1, H2/CO2 selectivity: 166"
+        },
+        "Other Information": {
+            "Additional Info": "Prepared by improved soft physical exfoliation method"
+        }
+    },
+    {
+        "Materials Name": "COF-LZU1 membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Vertically arranged 2D layers"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance of 1.2 × 10^-6 mol m^-2 s^-1 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/C3H8 separation factor as high as 119.5"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Interlayer space in vertical arrangement",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeance and selectivity testing",
+            "Performance Metrics": "H2 permeance: 1.2 × 10^-6 mol m^-2 s^-1 Pa^-1, H2/C3H8 selectivity: 119.5"
+        },
+        "Other Information": {
+            "Additional Info": "Grown parallel to CoAl-layered double hydroxides"
+        }
+    },
+    {
+        "Materials Name": "MFI molecular sieve membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "4 nm thick membrane"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-butane permeance of 3.5 × 10^-7 mol m^-2 s^-1 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ideal selectivity of 5.4 for n-butane/isobutane mixture"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on pore size",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeance and selectivity testing",
+            "Performance Metrics": "n-butane permeance: 3.5 × 10^-7 mol m^-2 s^-1 Pa^-1, n-butane/isobutane selectivity: 5.4"
+        },
+        "Other Information": {
+            "Additional Info": "Vacuum filtration preparation"
+        }
+    },
+    {
+        "Materials Name": "L-Glutamic acid modified GO membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Stacked GO nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "L-Glutamic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "3,4-Dihydroxy-D-phenylalanine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chiral recognition",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Maximum selectivity exceeding 2.0"
+                }
+            },
+            {
+                "Molecule Name": "3,4-Dihydroxy-L-phenylalanine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chiral recognition",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential transport due to higher binding affinity"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chiral interaction between L-Glutamic acid and D-DOPA",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Enantiomeric separation testing",
+            "Performance Metrics": "Selectivity exceeding 2.0"
+        },
+        "Other Information": {
+            "Additional Info": "Functionalized with L-Glutamic acid"
+        }
+    },
+    {
+        "Materials Name": "GCN membrane with chiral nanochannels",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Sub-nanometer scale",
+            "Structure Type": "2D layered material"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Camphor sulfonic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "limonene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Chiral recognition",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enantioselectivity with ee value as high as 89%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chiral nanochannels with controlled interlayer spacing",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Chiral separation testing",
+            "Performance Metrics": "Enantioselectivity (ee value): 89%"
+        },
+        "Other Information": {
+            "Additional Info": "Functionalized with chiral camphor sulfonic acid"
+        }
+    }
+]

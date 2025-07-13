@@ -1,0 +1,102 @@
+MOF Name: Cu2(pzdc)2(pyz)
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Adsorption Type: Preferential adsorption)
+
+Inferred effective pore size of Cu2(pzdc)2(pyz):
+- Based on the adsorption of acetylene (intermediate dimension 3.200 Å), the MOF's pores are inferred to be at least 3.200 Å.
+- No experimental data is provided for molecules that were *not* adsorbed due to size exclusion. Therefore, an upper bound for the MOF's effective pore size cannot be determined solely from the given data.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+The intermediate dimension of isoprene (6.093 Å) is significantly larger than the intermediate dimension of acetylene (3.200 Å), the only molecule for which adsorption is confirmed in the provided data. Without explicit experimental data confirming the adsorption of larger molecules or defining an upper size limit for adsorption (e.g., from molecules that were not adsorbed due to size exclusion), it is not possible to definitively conclude that the MOF's pores are large enough for isoprene based solely on size exclusion principles from the limited provided information. Therefore, in the absence of positive evidence for adsorption of larger molecules, the prediction is that it cannot adsorb.
+
+---
+
+MOF Name: Cu2(pzdc)2(pyz)
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Adsorption Type: Preferential adsorption)
+
+Inferred effective pore size of Cu2(pzdc)2(pyz):
+- Based on the adsorption of acetylene (intermediate dimension 3.200 Å), the MOF's pores are inferred to be at least 3.200 Å.
+- No experimental data is provided for molecules that were *not* adsorbed due to size exclusion. Therefore, an upper bound for the MOF's effective pore size cannot be determined solely from the given data.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+The intermediate dimension of cis-2-pentene (5.572 Å) is larger than the intermediate dimension of acetylene (3.200 Å), the only molecule for which adsorption is confirmed in the provided data. Without explicit experimental data confirming the adsorption of larger molecules or defining an upper size limit for adsorption (e.g., from molecules that were not adsorbed due to size exclusion), it is not possible to definitively conclude that the MOF's pores are large enough for cis-2-pentene based solely on size exclusion principles from the limited provided information. Therefore, in the absence of positive evidence for adsorption of larger molecules, the prediction is that it cannot adsorb.
+
+---
+
+MOF Name: Cu2(pzdc)2(pyz)
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Adsorption Type: Preferential adsorption)
+
+Inferred effective pore size of Cu2(pzdc)2(pyz):
+- Based on the adsorption of acetylene (intermediate dimension 3.200 Å), the MOF's pores are inferred to be at least 3.200 Å.
+- No experimental data is provided for molecules that were *not* adsorbed due to size exclusion. Therefore, an upper bound for the MOF's effective pore size cannot be determined solely from the given data.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+The intermediate dimension of 1-pentene (4.995 Å) is larger than the intermediate dimension of acetylene (3.200 Å), the only molecule for which adsorption is confirmed in the provided data. Without explicit experimental data confirming the adsorption of larger molecules or defining an upper size limit for adsorption (e.g., from molecules that were not adsorbed due to size exclusion), it is not possible to definitively conclude that the MOF's pores are large enough for 1-pentene based solely on size exclusion principles from the limited provided information. Therefore, in the absence of positive evidence for adsorption of larger molecules, the prediction is that it cannot adsorb.
+
+---
+
+MOF Name: Cu2(pzdc)2(pyz)
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Adsorption Type: Preferential adsorption)
+
+Inferred effective pore size of Cu2(pzdc)2(pyz):
+- Based on the adsorption of acetylene (intermediate dimension 3.200 Å), the MOF's pores are inferred to be at least 3.200 Å.
+- No experimental data is provided for molecules that were *not* adsorbed due to size exclusion. Therefore, an upper bound for the MOF's effective pore size cannot be determined solely from the given data.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+The intermediate dimension of trans-2-pentene (4.733 Å) is larger than the intermediate dimension of acetylene (3.200 Å), the only molecule for which adsorption is confirmed in the provided data. Without explicit experimental data confirming the adsorption of larger molecules or defining an upper size limit for adsorption (e.g., from molecules that were not adsorbed due to size exclusion), it is not possible to definitively conclude that the MOF's pores are large enough for trans-2-pentene based solely on size exclusion principles from the limited provided information. Therefore, in the absence of positive evidence for adsorption of larger molecules, the prediction is that it cannot adsorb.
+
+---
+
+MOF Name: Cu2(pzdc)2(pyz)
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Adsorption Type: Preferential adsorption)
+
+Inferred effective pore size of Cu2(pzdc)2(pyz):
+- Based on the adsorption of acetylene (intermediate dimension 3.200 Å), the MOF's pores are inferred to be at least 3.200 Å.
+- No experimental data is provided for molecules that were *not* adsorbed due to size exclusion. Therefore, an upper bound for the MOF's effective pore size cannot be determined solely from the given data.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+The intermediate dimension of n-pentane (4.364 Å) is larger than the intermediate dimension of acetylene (3.200 Å), the only molecule for which adsorption is confirmed in the provided data. Without explicit experimental data confirming the adsorption of larger molecules or defining an upper size limit for adsorption (e.g., from molecules that were not adsorbed due to size exclusion), it is not possible to definitively conclude that the MOF's pores are large enough for n-pentane based solely on size exclusion principles from the limited provided information. Therefore, in the absence of positive evidence for adsorption of larger molecules, the prediction is that it cannot adsorb.

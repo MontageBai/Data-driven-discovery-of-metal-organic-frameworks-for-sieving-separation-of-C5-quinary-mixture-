@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "pillar[3]trianglamine (P-TA)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Nonporous adaptive crystals (NACs)"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "2,5-dihydroxy-1,4-benzenedicarboxaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1-hexene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective adsorption via host-guest complex formation",
+                "Other Information": {
+                    "Test Conditions": "298 K, vapor phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "1-He forms a thermodynamically stable complex with P-TA through C-H/π and C-H/O interactions."
+                }
+            },
+            {
+                "Molecule Name": "trans-3-hexene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Competitive adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, vapor phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "trans-3-He is suppressed by competitive adsorption of 1-He; forms less stable host-guest interactions compared to 1-He."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective molecular-sieving-like separation based on cavity depth and host-guest interaction stability",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Solid-vapor sorption experiments, Single-crystal X-ray diffraction (SCXRD), Powder X-ray diffraction (PXRD), Gas chromatography (GC)",
+            "Performance Metrics": "1-He selectivity over trans-3-He: >84%; Uptake ratio: ~4:1"
+        },
+        "Other Information": {
+            "Additional Info": "P-TA shows recyclability and stability over multiple cycles; can be used for both vapor and liquid-phase separations."
+        }
+    }
+]

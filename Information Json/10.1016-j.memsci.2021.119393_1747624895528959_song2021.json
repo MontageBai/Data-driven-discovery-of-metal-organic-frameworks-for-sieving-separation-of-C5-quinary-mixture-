@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "2D Cu-TCPP membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "5.4 Å (in-plane), 2.7 Å (interlayer gallery)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "tetrakis(4-carboxyphenyl)porphyrin (H2TCPP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "453 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High H2 permeance due to small kinetic diameter."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "453 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance lower than H2 due to larger size."
+                }
+            },
+            {
+                "Molecule Name": "sulfur hexafluoride",
+                "Molecular Size": "5.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "453 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SF6 cannot pass through the 5.4 Å-sized pores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests",
+            "Performance Metrics": "H2/CH4 selectivity: ~60, H2/SF6 selectivity: 236.5"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane shows long-term stability and precise molecular sieving behavior."
+        }
+    }
+]

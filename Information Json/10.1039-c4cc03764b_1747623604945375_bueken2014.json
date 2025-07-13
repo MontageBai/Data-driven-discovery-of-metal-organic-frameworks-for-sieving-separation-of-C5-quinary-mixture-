@@ -1,0 +1,100 @@
+[
+    {
+        "Materials Name": "ZrSQUA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.4 Å (window size, considering Van der Waals radii), 5.6 Å (octahedral cages), 4.7 Å (tetrahedral cages)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "squarate (C4O4^2-)",
+            "acetate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 physisorption revealed a type II isotherm, indicative of non-porous or macroporous behavior."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.82 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 adsorption capacity was 35.6 cm³·g⁻¹ at 1 bar and 77 K, showing type I isotherm indicative of micropore filling."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Defect-induced modulation of pore windows through incorporation of acetate modulator.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "N2 and H2 physisorption isotherms, FTIR, TGA, 1H-NMR",
+            "Performance Metrics": "H2 uptake: 35.6 cm³·g⁻¹ at 77 K and 1 bar, No N2 uptake observed"
+        },
+        "Other Information": {
+            "Additional Info": "Incorporation of acetate modulator creates accessible microporosity in an otherwise theoretically non-porous material."
+        }
+    },
+    {
+        "Materials Name": "ZrSQUF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.4 Å (window size, considering Van der Waals radii), 5.6 Å (octahedral cages), 4.7 Å (tetrahedral cages)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "squarate (C4O4^2-)",
+            "formate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 physisorption showed a type I isotherm with micropore uptake of 40.4 cm³·g⁻¹."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.82 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 adsorption capacity was 50.5 cm³·g⁻¹ at 1 bar and 77 K, showing type I isotherm indicative of micropore filling."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Defect-induced modulation of pore windows through incorporation of formate modulator; potential tilting of cluster-bound formates acting as trapdoors to increase window size.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "N2 and H2 physisorption isotherms, FTIR, TGA, 1H-NMR",
+            "Performance Metrics": "N2 uptake: 40.4 cm³·g⁻¹, H2 uptake: 50.5 cm³·g⁻¹ at 77 K and 1 bar, BET surface area: 179 m²·g⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "Formate modulator incorporation increases porosity by altering the size and shape of triangular windows while suffering less steric hindrance compared to acetate."
+        }
+    }
+]

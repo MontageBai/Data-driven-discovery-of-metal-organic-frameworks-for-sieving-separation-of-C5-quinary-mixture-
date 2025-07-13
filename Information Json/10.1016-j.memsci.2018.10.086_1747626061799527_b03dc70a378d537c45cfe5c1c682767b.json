@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "PVAm/PVA-ZIF-L",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D leafy crystal morphology"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-Methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.5 MPa, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 permeance of 174.9 GPU."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Adsorption-diffusion",
+                "Other Information": {
+                    "Test Conditions": "0.5 MPa, 30°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance is hindered due to strong adsorption and diffusion-desorption blockage by the amorphous MOF-type network."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with selective adsorption effects.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test using a homemade apparatus.",
+            "Performance Metrics": "N2/CO2 selectivity: 51.9, N2 permeance: 174.9 GPU."
+        },
+        "Other Information": {
+            "Additional Info": "The vertically-oriented ZIF-L crystals are embedded within the PVAm/PVA crosslinked matrix, showing good mechanical flexibility and tensile strength. Long-term stability tests confirm consistent gas permselectivity over 48 hours under 5 bar pressure."
+        }
+    }
+]

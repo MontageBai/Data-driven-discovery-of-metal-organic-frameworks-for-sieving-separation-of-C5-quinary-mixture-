@@ -1,0 +1,103 @@
+Here's the analysis for each guest molecule based on the provided data:
+
+**Analysis of Ce6BTB's Pore Characteristics:**
+
+From the experimental data for Ce6BTB:
+*   **Carbon dioxide** (5.198×3.200×3.200 → **Intermediate = 3.200 Å**) is **Adsorbed**. The "Adsorption Type" is described as "Size exclusion at sub-nanometer scale," and the "Reason/Mechanism" states "Enhanced sieving ability."
+
+This data point indicates that Ce6BTB's pores are capable of adsorbing molecules with an intermediate dimension of at least 3.200 Å. Crucially, the description of "Size exclusion at sub-nanometer scale" and "Enhanced sieving ability" for the *adsorbed* CO2 molecule implies that the MOF's pores are very tightly defined and operate at a precise sieving limit. This suggests that molecules significantly larger than CO2 (3.200 Å) would likely be excluded, even though there's no explicit "No" adsorption data point due to size exclusion provided in the input. Therefore, it is inferred that the effective pore size of Ce6BTB is only slightly larger than 3.200 Å, acting as a highly selective sieve at the sub-nanometer scale.
+
+---
+
+**MOF Name: Ce6BTB**
+**Guest Molecule: isoprene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for Ce6BTB:
+*   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The adsorption type is "Size exclusion at sub-nanometer scale," and the reason mentions "Enhanced sieving ability." This suggests that the MOF has very tight pores, and CO2 (3.200 Å) is likely at or near the upper limit of what it can adsorb via a size-exclusion mechanism. No data on non-adsorbed molecules (due to size exclusion) is available.
+
+Inferred effective pore size of Ce6BTB: Based on the adsorption of CO2 (intermediate dimension 3.200 Å) and the description of the MOF's "enhanced sieving ability" and "size exclusion at sub-nanometer scale" for this molecule, it is inferred that the effective pore size is only slightly larger than 3.200 Å, meaning it effectively excludes molecules significantly larger than CO2.
+
+Target guest molecule (isoprene) Dimensions:
+*   isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is adsorbed through a tight sieving mechanism, it is highly probable that isoprene cannot be adsorbed by Ce6BTB due to size exclusion.
+
+---
+
+**MOF Name: Ce6BTB**
+**Guest Molecule: cis-2-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for Ce6BTB:
+*   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The adsorption type is "Size exclusion at sub-nanometer scale," and the reason mentions "Enhanced sieving ability." This suggests that the MOF has very tight pores, and CO2 (3.200 Å) is likely at or near the upper limit of what it can adsorb via a size-exclusion mechanism. No data on non-adsorbed molecules (due to size exclusion) is available.
+
+Inferred effective pore size of Ce6BTB: Based on the adsorption of CO2 (intermediate dimension 3.200 Å) and the description of the MOF's "enhanced sieving ability" and "size exclusion at sub-nanometer scale" for this molecule, it is inferred that the effective pore size is only slightly larger than 3.200 Å, meaning it effectively excludes molecules significantly larger than CO2.
+
+Target guest molecule (cis-2-pentene) Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is adsorbed through a tight sieving mechanism, it is highly probable that cis-2-pentene cannot be adsorbed by Ce6BTB due to size exclusion.
+
+---
+
+**MOF Name: Ce6BTB**
+**Guest Molecule: 1-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for Ce6BTB:
+*   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The adsorption type is "Size exclusion at sub-nanometer scale," and the reason mentions "Enhanced sieving ability." This suggests that the MOF has very tight pores, and CO2 (3.200 Å) is likely at or near the upper limit of what it can adsorb via a size-exclusion mechanism. No data on non-adsorbed molecules (due to size exclusion) is available.
+
+Inferred effective pore size of Ce6BTB: Based on the adsorption of CO2 (intermediate dimension 3.200 Å) and the description of the MOF's "enhanced sieving ability" and "size exclusion at sub-nanometer scale" for this molecule, it is inferred that the effective pore size is only slightly larger than 3.200 Å, meaning it effectively excludes molecules significantly larger than CO2.
+
+Target guest molecule (1-pentene) Dimensions:
+*   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is adsorbed through a tight sieving mechanism, it is highly probable that 1-pentene cannot be adsorbed by Ce6BTB due to size exclusion.
+
+---
+
+**MOF Name: Ce6BTB**
+**Guest Molecule: trans-2-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for Ce6BTB:
+*   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The adsorption type is "Size exclusion at sub-nanometer scale," and the reason mentions "Enhanced sieving ability." This suggests that the MOF has very tight pores, and CO2 (3.200 Å) is likely at or near the upper limit of what it can adsorb via a size-exclusion mechanism. No data on non-adsorbed molecules (due to size exclusion) is available.
+
+Inferred effective pore size of Ce6BTB: Based on the adsorption of CO2 (intermediate dimension 3.200 Å) and the description of the MOF's "enhanced sieving ability" and "size exclusion at sub-nanometer scale" for this molecule, it is inferred that the effective pore size is only slightly larger than 3.200 Å, meaning it effectively excludes molecules significantly larger than CO2.
+
+Target guest molecule (trans-2-pentene) Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is adsorbed through a tight sieving mechanism, it is highly probable that trans-2-pentene cannot be adsorbed by Ce6BTB due to size exclusion.
+
+---
+
+**MOF Name: Ce6BTB**
+**Guest Molecule: n-pentane**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for Ce6BTB:
+*   Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed. The adsorption type is "Size exclusion at sub-nanometer scale," and the reason mentions "Enhanced sieving ability." This suggests that the MOF has very tight pores, and CO2 (3.200 Å) is likely at or near the upper limit of what it can adsorb via a size-exclusion mechanism. No data on non-adsorbed molecules (due to size exclusion) is available.
+
+Inferred effective pore size of Ce6BTB: Based on the adsorption of CO2 (intermediate dimension 3.200 Å) and the description of the MOF's "enhanced sieving ability" and "size exclusion at sub-nanometer scale" for this molecule, it is inferred that the effective pore size is only slightly larger than 3.200 Å, meaning it effectively excludes molecules significantly larger than CO2.
+
+Target guest molecule (n-pentane) Dimensions:
+*   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is adsorbed through a tight sieving mechanism, it is highly probable that n-pentane cannot be adsorbed by Ce6BTB due to size exclusion.

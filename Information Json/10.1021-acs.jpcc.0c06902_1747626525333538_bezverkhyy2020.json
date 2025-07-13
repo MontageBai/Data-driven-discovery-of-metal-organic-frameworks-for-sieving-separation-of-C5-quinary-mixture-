@@ -1,0 +1,99 @@
+[
+    {
+        "Materials Name": "NaA zeolite",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å",
+            "Structure Type": "LTA"
+        },
+        "Topology": "LTA",
+        "Metal Nodes": [
+            "Na+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.99 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "45-77 K, varying pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher selectivity at lower temperatures due to quantum effects."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "1.40 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "45-77 K, varying pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower selectivity compared to deuterium due to quantum effects."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum sieving based on molecular size and zero-point energy differences.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Coadsorption experiments and IAST predictions",
+            "Performance Metrics": "D2/H2 selectivity rises from 2.8 at 77 K to 8.5 at 48 K in NaA zeolite."
+        },
+        "Other Information": {
+            "Additional Info": "Nonideal behavior observed at temperatures below 77 K due to heterogeneity of the adsorbent."
+        }
+    },
+    {
+        "Materials Name": "K1.6Na10.4A zeolite",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Partially blocked 8MR windows (~3 Å effective)",
+            "Structure Type": "LTA"
+        },
+        "Topology": "LTA",
+        "Metal Nodes": [
+            "K+",
+            "Na+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.99 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "45-77 K, varying pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exclusively accessible to some α-cages due to partial pore blocking by K+ cations."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "1.40 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "45-77 K, varying pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Inaccessible to some α-cages due to partial pore blocking by K+ cations."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum sieving with selective access to α-cages for smaller molecules like D2.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Coadsorption experiments and single-gas isotherms",
+            "Performance Metrics": "D2/H2 selectivity rises from 4.5 at 77 K to 23.0 at 48 K in K1.6Na10.4A zeolite."
+        },
+        "Other Information": {
+            "Additional Info": "Nonideal behavior observed even at 77 K due to heterogeneous accessibility of pores."
+        }
+    }
+]

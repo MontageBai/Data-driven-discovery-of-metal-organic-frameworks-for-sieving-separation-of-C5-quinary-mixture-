@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "Zr-BI-fcu-MOF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.48 nm (smallest possible aperture), 0.85 nm (largest possible aperture)",
+            "Structure Type": "fcu topology with tetrahedral and octahedral cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6(μ3-O)4(μ3-OH)4(O2C−)12"
+        ],
+        "Ligands": [
+            "4,4′-(1H-benzo[d]imidazole-4,7-diyl)dibenzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Annealed membrane, cross-flow nanofiltration at 30 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Acetone permeance through MBI was 7.07 ± 0.41 L m−2 h−1 bar−1."
+                }
+            },
+            {
+                "Molecule Name": "polystyrene standards",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Annealed membrane, cross-flow nanofiltration at 30 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "MWCO values of 201 ± 19 g mol−1 observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular transport occurs through ordered porous structure of the MOFs.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Nanofiltration experiments, predictive rejection curves using pore flow model",
+            "Performance Metrics": "Acetone permeance: 7.07 ± 0.41 L m−2 h−1 bar−1, MWCO: 201 ± 19 g mol−1"
+        },
+        "Other Information": {
+            "Additional Info": "Polymer matrix partially covers MOF nanoparticles on the surface, leaving some pores accessible for molecular transport."
+        }
+    },
+    {
+        "Materials Name": "Zr-Me-fcu-MOF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.56 nm (smallest possible aperture), 0.85 nm (largest possible aperture)",
+            "Structure Type": "fcu topology with tetrahedral and octahedral cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6(μ3-O)4(μ3-OH)4(O2C−)12"
+        ],
+        "Ligands": [
+            "2′,5′-dimethyl-[1,1′:4′,1′′-terphenyl]−4,4′′-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Annealed membrane, cross-flow nanofiltration at 30 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Acetone permeance through MMe was 18.3 ± 0.5 L m−2 h−1 bar−1."
+                }
+            },
+            {
+                "Molecule Name": "polystyrene standards",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Annealed membrane, cross-flow nanofiltration at 30 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower rejection values across the range, highest solute rejection ≈75%."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Nonselective interfacial voids enable solute molecules of different sizes to pass through.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Nanofiltration experiments, predictive rejection curves using pore flow model",
+            "Performance Metrics": "Acetone permeance: 18.3 ± 0.5 L m−2 h−1 bar−1, MWCO not well defined due to defects."
+        },
+        "Other Information": {
+            "Additional Info": "Presence of micrometer-size interfacial defects between MOF and polymer confirmed by SEM; lower compatibility between Zr-Me-fcu-MOF and PBI polymer."
+        }
+    }
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "Materials Name": "SIFSIX-2-Cu",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "13.05 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4′-dipyridylacetylene",
+            "hexafluorosilicate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sulfur hexafluoride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic-driven separation",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High thermodynamic selectivity for SF6 over N2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Thermodynamic-driven separation",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower uptake compared to SF6 due to weaker interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Thermodynamic-driven separation based on selective adsorption.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "GCMC and MD simulations",
+            "Performance Metrics": "SF6/N2 selectivity: ~43 (1:1 mixture at 1.5 bar), ~41 (1:9 mixture at 7 bar)"
+        },
+        "Other Information": {
+            "Additional Info": "Shows high SF6 uptake and good kinetic selectivity with a self-diffusivity ratio of ~6 between SF6 and N2."
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-2-Cu-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.15 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4′-dipyridylacetylene",
+            "hexafluorosilicate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sulfur hexafluoride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Complete exclusion of SF6 due to small pore size."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Only N2 can enter the pores, leading to infinite N2/SF6 selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect due to smaller pore size.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC and MD simulations",
+            "Performance Metrics": "Infinite N2/SF6 selectivity due to complete exclusion of SF6."
+        },
+        "Other Information": {
+            "Additional Info": "Interpenetrated framework with significantly reduced self-diffusivity of N2 compared to non-interpenetrated phase."
+        }
+    }
+]

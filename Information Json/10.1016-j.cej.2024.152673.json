@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Ag(I)-exchanged zeolite Y (Ag(I)Y)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ag+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "40 K to 100 K, varying pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2/H2 selectivity of 21.16 at 40 K and 9.12 at 77 K. T2/D2 selectivity of 2.44 at 77 K and 2.81 at 87 K."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "40 K to 100 K, varying pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enrichment from 2.5% D2 to 93.04% at 77 K and 96.59% at 87 K after three cycles."
+                }
+            },
+            {
+                "Molecule Name": "tritium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "77 K and 87 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "T2/D2 selectivity of 2.44 at 77 K and 2.81 at 87 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving (CAQS) effect with difference in adsorption heat of 1.8 kJ/mol between D2 and H2.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Thermal desorption spectroscopy (TDS), gas adsorption isotherms, iDPC-STEM, XPS, ICP-OES, TG/DSC",
+            "Performance Metrics": "D2/H2 selectivity: 21.16 at 40 K, 9.12 at 77 K; T2/D2 selectivity: 2.44 at 77 K, 2.81 at 87 K"
+        },
+        "Other Information": {
+            "Additional Info": "Ag(I)Y exhibits strong interaction with D2 and preferential adsorption of heavier isotopes due to lower zero-point energy (ZPE)."
+        }
+    }
+]

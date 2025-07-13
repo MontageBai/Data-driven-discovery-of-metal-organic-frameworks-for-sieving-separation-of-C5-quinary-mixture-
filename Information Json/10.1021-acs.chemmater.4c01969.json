@@ -1,0 +1,195 @@
+[
+    {
+        "Materials Name": "hjm + N387 + E44",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.5 Å (LCD), 2.7 Å (PLD)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption selectivity allows reduced adsorption step time (~30 s) compared to CALF-20 (~250 s)"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low nitrogen uptake"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: >80, CO2 uptake comparable to CALF-20"
+        },
+        "Other Information": {
+            "Additional Info": "Best small-pore MOF identified in constrained optimization"
+        }
+    },
+    {
+        "Materials Name": "apo + N320 + N14 + E51",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Multiple interactions with oxygen atoms of nodes",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significant CO2 adsorption (>15 mol/kg at 1 bar and 298 K)"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and weak interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low nitrogen uptake"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced binding through multiple node interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: >80, High CO2 uptake"
+        },
+        "Other Information": {
+            "Additional Info": "Top-performing large-pore MOF with fluorinated edges"
+        }
+    },
+    {
+        "Materials Name": "hww + N599 + N320 + E50 + E51",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Multiple interactions with oxygen atoms of nodes",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong adsorption due to multiple node interactions"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and weak interaction",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible nitrogen adsorption"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced binding through multiple node interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "High CO2/N2 selectivity, Significant CO2 uptake"
+        },
+        "Other Information": {
+            "Additional Info": "Example of large-pore MOF with strong adsorption sites"
+        }
+    },
+    {
+        "Materials Name": "CALF-20",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.3 Å (LCD), 3.0 Å (PLD)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zinc ions"
+        ],
+        "Ligands": [
+            "1,2,4-triazolate",
+            "oxalate ions"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and specific interaction with pore geometry",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Comparable CO2 adsorption to hjm + N387 + E44"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low nitrogen uptake"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Experimental data validated by GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: 230, CO2 uptake reported experimentally"
+        },
+        "Other Information": {
+            "Additional Info": "Industrial pilot-scale material with hydrophobic nature"
+        }
+    }
+]

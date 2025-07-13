@@ -1,0 +1,116 @@
+[
+    {
+        "Materials Name": "UPG",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D@2D hybrid structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methyl blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "0.4 MPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >99.8%"
+                }
+            },
+            {
+                "Molecule Name": "Congo red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "0.4 MPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >99.8%"
+                }
+            },
+            {
+                "Molecule Name": "Direct red 23",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "0.4 MPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >99.8%"
+                }
+            },
+            {
+                "Molecule Name": "Reactive Black 5",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "0.4 MPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >99.8%"
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.4 MPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability >90%"
+                }
+            },
+            {
+                "Molecule Name": "magnesium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.4 MPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability >90%"
+                }
+            },
+            {
+                "Molecule Name": "magnesium sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.4 MPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability >90%"
+                }
+            },
+            {
+                "Molecule Name": "sodium sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.4 MPa, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability 51%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and electrostatic repulsion",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Cross flow filtration setup",
+            "Performance Metrics": "Water permeability: 19.8 LMH bar−1, Dye rejection: >99.8%"
+        },
+        "Other Information": {
+            "Additional Info": "The UPG composite maintains the same crystal structure as PVP-UiO-66-NH2 and shows enhanced thermal stability compared to pure MOF."
+        }
+    }
+]

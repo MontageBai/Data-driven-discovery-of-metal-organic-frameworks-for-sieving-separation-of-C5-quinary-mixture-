@@ -1,0 +1,312 @@
+[
+    {
+        "Materials Name": "SIFSIX-1-Cu",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "13.05 Å x 13.05 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "SiF6^2-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong CO2-framework interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows high CO2 uptake and selectivity over CH4 and N2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen excluded due to larger size compared to pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "CO2/N2 selectivity: 1700 at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "One of the SIFSIX materials showing record-high selectivity for CO2 capture."
+        }
+    },
+    {
+        "Materials Name": "UTSA-200",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4,4'-azopyridine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.32 Å x 3.34 Å x 5.70 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong C-H/F hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Record selectivity for acetylene over ethylene and carbon dioxide."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.16 Å x 4.16 Å x 5.14 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded below 0.2 bar."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake under ambient conditions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "C2H2/C2H4 selectivity: 6320 at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "An ideal molecular sieve constructed by fine-tuning the linker length."
+        }
+    },
+    {
+        "Materials Name": "NbOFFIVE-1-Ni",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0471 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "NbOF5^2-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.1 Å x 4.1 Å x 5.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving with pore opening under gas stimuli",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene can open the closed pore framework."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3 Å x 4.3 Å x 5.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Complete molecular exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane cannot be adsorbed into the pore system."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Complete molecular exclusion based on pore aperture size",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "C3H6/C3H8 separation confirmed with high productivity"
+        },
+        "Other Information": {
+            "Additional Info": "Constructed using NbOF5^2- pillars instead of SiF6^2-."
+        }
+    },
+    {
+        "Materials Name": "SBMOF-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.2 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "4,4'-sulfonyldibenzoate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "xenon",
+                "Molecular Size": "4.1 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Van der Waals interactions with aromatic rings",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest Xe Henry coefficient and Xe/Kr selectivity among reported MOFs."
+                }
+            },
+            {
+                "Molecule Name": "krypton",
+                "Molecular Size": "3.64 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Kr cannot efficiently bind within the pores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion combined with van der Waals interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "Xe retained in column for over an hour while other gases broke through within minutes."
+        },
+        "Other Information": {
+            "Additional Info": "Designed for selective Xe capture from nuclear fuel reprocessing off-gas."
+        }
+    },
+    {
+        "Materials Name": "MFM-300(Al)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported (PLD), Not Reported (LCD)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen dioxide",
+                "Molecular Size": "4.1 Å x 4.1 Å x 5.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Supramolecular interactions forming (NO2$N2O4)∞ chains",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Maximum NO2 isotherm uptake of 14.1 mmol/g at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "sulfur dioxide",
+                "Molecular Size": "4.11 Å x 4.11 Å x 5.86 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "SO2 excluded despite having similar kinetic diameter."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective binding via supramolecular interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "NO2 reduced below 1 ppm from 5000 ppm mixtures."
+        },
+        "Other Information": {
+            "Additional Info": "Ultra-robust MOF capable of reversible and selective NO2 adsorption."
+        }
+    },
+    {
+        "Materials Name": "Ca(H2tcpb)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.5 Å - 6 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "1,2,4,5-tetrakis(4-carboxyphenyl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "4.3 Å x 4.3 Å x 5.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Commensurate stacking within channels",
+                "Other Information": {
+                    "Test Conditions": "60°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs n-hexane but excludes branched alkanes."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "5.0 Å x 5.0 Å x 5.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "60°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded at 60°C."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "4.5 Å x 4.5 Å x 5.8 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Temperature-dependent molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "120°C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs at 60°C but excluded at 120°C."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature-dependent molecular sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "Successful separation of ternary mixture into pure components."
+        },
+        "Other Information": {
+            "Additional Info": "First example of a sorbent showing complete size sieving toward mono-branched and di-branched alkanes."
+        }
+    }
+]

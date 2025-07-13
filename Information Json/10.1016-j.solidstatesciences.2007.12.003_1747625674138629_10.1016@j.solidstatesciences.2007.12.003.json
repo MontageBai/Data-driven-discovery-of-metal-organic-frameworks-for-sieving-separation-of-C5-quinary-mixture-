@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "N3[Eu3(Tz*)6(Tz*H)2]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "140 pm (diameter), 45 pm (openings)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "(12,4)-net",
+        "Metal Nodes": [
+            "Eu2+"
+        ],
+        "Ligands": [
+            "1H-1,2,3-triazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Single crystal X-ray diffraction",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "The material contains tunnels and cavities with a diameter of 140 pm and openings of 45 pm. The framework is based on a unique (12,4)-net topology."
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "iMOF-2C",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D framework with hydrophobic channels"
+        },
+        "Topology": "kgd",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "1,1′-(5′-(4-(1H-Imidazol-1-yl)phenyl)-[1,1′:3′,1″-terphenyl]-4,4″-diyl)bis(1H-imidazole)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "chromate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Anion exchange facilitated by hydrophobic interactions",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake capacity: 476.3 mg g−1; Fast kinetics with ~99% removal within 30 minutes."
+                }
+            },
+            {
+                "Molecule Name": "perrhenate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Anion exchange facilitated by hydrophobic interactions",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake capacity: 691 mg g−1; Fast kinetics with ~99% removal within 20 minutes."
+                }
+            },
+            {
+                "Molecule Name": "nitrate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Lower binding energy due to higher hydration energy",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Binding energy: -120.65 kJ mol−1"
+                }
+            },
+            {
+                "Molecule Name": "sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Lower binding energy due to higher hydration energy",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Binding energy: -162.15 kJ mol−1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective anion exchange driven by hydrophobic interactions and charge density",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "UV−vis spectroscopy, PXRD, FTIR, DFT calculations",
+            "Performance Metrics": "Chromate uptake: 476.3 mg g−1; Perrhenate uptake: 691 mg g−1; Selectivity over competing anions ≥90%"
+        },
+        "Other Information": {
+            "Additional Info": "Excellent recyclability (up to 10 cycles); Used in column chromatography for water decontamination."
+        }
+    }
+]

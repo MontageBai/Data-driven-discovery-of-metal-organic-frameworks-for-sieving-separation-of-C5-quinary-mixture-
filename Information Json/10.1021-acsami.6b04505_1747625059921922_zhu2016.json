@@ -1,0 +1,150 @@
+[
+    {
+        "Materials Name": "HKUST-1-alginate composite",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The composite showed low surface area due to interpenetration of alginate chains into MOF pores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Powder X-ray diffraction (PXRD), Scanning Electron Microscopy (SEM)",
+            "Performance Metrics": "HKUST-1 loading: 23.8 ± 1.3 wt.% determined by thermogravimetric analysis (TGA)"
+        },
+        "Other Information": {
+            "Additional Info": "Composite remains stable in water due to retention of cross-linking points."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8-alginate composite",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The composite showed high surface area (563 m²/g)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Powder X-ray diffraction (PXRD), Scanning Electron Microscopy (SEM)",
+            "Performance Metrics": "Surface area: 563 m²/g"
+        },
+        "Other Information": {
+            "Additional Info": "Composite disassembles in water due to loss of cross-linking points."
+        }
+    },
+    {
+        "Materials Name": "MIL-100(Fe)-alginate composite",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption",
+                "Other Information": {
+                    "Test Conditions": "5 days soaking in 1 mM Rhodamine B solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effective absorbent for dye removal from water."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "UV-Vis spectroscopy",
+            "Performance Metrics": "Solution became colorless after 5 days, indicating effective adsorption."
+        },
+        "Other Information": {
+            "Additional Info": "Composite remains stable in water and shows low surface area."
+        }
+    },
+    {
+        "Materials Name": "ZIF-67-alginate composite",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The composite showed high surface area (317 m²/g)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Powder X-ray diffraction (PXRD), Scanning Electron Microscopy (SEM)",
+            "Performance Metrics": "Surface area: 317 m²/g"
+        },
+        "Other Information": {
+            "Additional Info": "Composite disassembles in water due to loss of cross-linking points."
+        }
+    }
+]

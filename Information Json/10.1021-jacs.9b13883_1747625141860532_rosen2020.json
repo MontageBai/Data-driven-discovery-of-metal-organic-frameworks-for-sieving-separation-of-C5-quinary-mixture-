@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "sodalite topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate opening and linker swinging",
+                "Other Information": {
+                    "Test Conditions": "1.8 to 300 K, up to 689 kPa CO2 pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Gate-opening transition occurs at loadings higher than a threshold value between 0.29 and 0.56 mol of CO2 per mol of ZIF-8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate opening and linker swinging at low temperatures",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Low-temperature heat capacity measurements",
+            "Performance Metrics": "Broad anomaly from 70 to 220 K observed for samples with at least 0.56 mol of CO2 per mol of ZIF-8"
+        },
+        "Other Information": {
+            "Additional Info": "First thermodynamic evidence of a gate-opening transition in ZIF-8 induced by sorbed CO2."
+        }
+    }
+]

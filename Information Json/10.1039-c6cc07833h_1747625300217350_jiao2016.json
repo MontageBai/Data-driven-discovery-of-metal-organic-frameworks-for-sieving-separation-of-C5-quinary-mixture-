@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZIF-108/P84-CMSMs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5.5 Å (unimodal distribution)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "SOD",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-nitroimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeability decreases slightly with pressure due to non-ideal gas behavior."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/CH4 selectivity decreased initially and reached a plateau above 6 bar."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "O2/N2 selectivity improved significantly compared to P84-ASCMSMs."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, 3 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2/CH4 separation performance improved under elevated pressures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas permeation and mixed gas separation experiments",
+            "Performance Metrics": "CO2/CH4 selectivity: 150 (initial), O2/N2 selectivity increased by 108%, N2/CH4 selectivity improved by 63%"
+        },
+        "Other Information": {
+            "Additional Info": "Carbon molecular sieve membranes derived from pyrolysis of ZIF-108 doped polyimide matrix; ultramicropore volume (<6 Å) increased by 500%."
+        }
+    }
+]

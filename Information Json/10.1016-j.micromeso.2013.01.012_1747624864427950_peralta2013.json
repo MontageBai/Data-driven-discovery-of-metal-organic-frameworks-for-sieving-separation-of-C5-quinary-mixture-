@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 Å (formal aperture), 6.4 Å (estimated maximum aperture with full tilt)",
+            "Structure Type": "Sodalite cage"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "para-xylene",
+                "Molecular Size": "6.7 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving via transitory deformation of pore aperture",
+                "Other Information": {
+                    "Test Conditions": "398 K, up to 650 Pa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest uptake among xylene isomers due to smallest kinetic diameter."
+                }
+            },
+            {
+                "Molecule Name": "meta-xylene",
+                "Molecular Size": "7.1 Å (kinetic diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving via transitory deformation of pore aperture",
+                "Other Information": {
+                    "Test Conditions": "398 K, up to 650 Pa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed amount is four times lower than para-xylene."
+                }
+            },
+            {
+                "Molecule Name": "ortho-xylene",
+                "Molecular Size": "7.4 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to larger molecular size",
+                "Other Information": {
+                    "Test Conditions": "398 K, up to 650 Pa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Mainly adsorbs on the outer surface of ZIF-8 crystals."
+                }
+            },
+            {
+                "Molecule Name": "ethyl-benzene",
+                "Molecular Size": "6.7 Å (kinetic diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving via transitory deformation of pore aperture",
+                "Other Information": {
+                    "Test Conditions": "398 K, liquid phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Poor separation from para-xylene due to similar kinetic diameters."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Transitory structural deformation of pore aperture followed by return to initial conformation",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments (gas and liquid phase)",
+            "Performance Metrics": "PX/OX selectivity: 3.9 (gas phase), PX/MX selectivity: 1.6 (gas phase); PX/OX selectivity: 1.5 (liquid phase), PX/MX selectivity: 1.15 (liquid phase), PX/EB selectivity: 1.1 (liquid phase)"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 demonstrates extraordinary flexibility allowing diffusion of molecules much larger than its formal pore aperture."
+        }
+    }
+]

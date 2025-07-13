@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "Au/Ag@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.07 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "tacrolimus",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "FK506 exhibited satisfactory linearity within the concentration range of 10−5 - 10−11 mol L−1, with a correlation coefficient (R2) of 0.9944, and the limit of detection (LOD) was as low as 6.4 pg mL−1."
+                }
+            },
+            {
+                "Molecule Name": "trypsin",
+                "Molecular Size": "3.8 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore sizes of Au/Ag@ZIF-8 are 1.07 nm, which has a molecular sieving effect capable of selectively excluding interference from biomolecules like trypsin."
+                }
+            },
+            {
+                "Molecule Name": "human serum albumin",
+                "Molecular Size": "1.49 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore sizes of Au/Ag@ZIF-8 are 1.07 nm, which has a molecular sieving effect capable of selectively excluding interference from biomolecules like HSA."
+                }
+            },
+            {
+                "Molecule Name": "creatinine",
+                "Molecular Size": "0.54 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Despite being able to enter the pores, creatinine does not interfere due to charge repulsion with the positively charged surface of Au/Ag@ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "bilirubin",
+                "Molecular Size": "0.907 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Despite being able to enter the pores, bilirubin does not interfere due to charge repulsion with the positively charged surface of Au/Ag@ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "uric acid",
+                "Molecular Size": "less than 0.7 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Despite being able to enter the pores, uric acid does not interfere due to charge repulsion with the positively charged surface of Au/Ag@ZIF-8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "SERS measurements",
+            "Performance Metrics": "LOD as low as 7.94 × 10−12 mol•L−1 (6.4 pg•mL−1)"
+        },
+        "Other Information": {
+            "Additional Info": "The dense network structure of ZIF-8 tetrahedral crystals enables molecular sieving of biomolecules, such as serum proteins, while simultaneously facilitating the interaction of target molecules with Au/AgNPs within the lattice, thus effectively circumventing the potential interference of biomolecules."
+        }
+    }
+]

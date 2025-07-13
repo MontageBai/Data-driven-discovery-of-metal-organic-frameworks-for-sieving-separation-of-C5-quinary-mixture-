@@ -1,0 +1,78 @@
+[
+    {
+        "Materials Name": "ZIF-8-90 hybrids",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.4 nm, 0.75 nm (for ZIF-8); shifts toward 0.5 nm for ZIF-90",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "I4̅3m cubic unit cells",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "carboxaldehyde-2-imidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect at low nitrogen activity and constriction of micropores at higher nitrogen activity",
+                "Other Information": {
+                    "Test Conditions": "77 K, P/P0 up to 1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Two inflection points observed in physisorption isotherms."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening mechanism allowing rotational displacement of linkers",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Nitrogen physisorption",
+            "Performance Metrics": "Micropore volume reduction with increasing OHC-IM loading; BET and Langmuir surface area measurements provided in Supporting Information."
+        },
+        "Other Information": {
+            "Additional Info": "Thermal stability decreases with higher OHC-IM loadings; Bz-IM not present in this hybrid system."
+        }
+    },
+    {
+        "Materials Name": "ZIF-7-8 hybrids",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Shifts to smaller values, ~0.32 nm appears at 20% Bz-IM",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "R3̅ space group above 35% Bz-IM loading",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Bz-IM groups block rotational displacement of imidazole linkers",
+                "Other Information": {
+                    "Test Conditions": "77 K, P/P0 up to 1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Progressive suppression of gate-opening phenomena observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Reduction of average pore size by inclusion of bulky Bz-IM linkers",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Nitrogen physisorption",
+            "Performance Metrics": "40% micropore volume reduction from pure ZIF-8 at only 20% Bz-IM loading."
+        },
+        "Other Information": {
+            "Additional Info": "Thermal stability increases with higher Bz-IM loadings; OHC-IM not present in this hybrid system."
+        }
+    }
+]

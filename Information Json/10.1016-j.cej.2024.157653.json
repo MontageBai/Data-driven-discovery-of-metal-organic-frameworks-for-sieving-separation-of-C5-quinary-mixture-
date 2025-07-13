@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "UTSA-280",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 × 3.8 Å²",
+            "Structure Type": "3D channels along c-axis"
+        },
+        "Topology": "I-42d space group",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "squaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.86 × 3.11 Å²",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption on open Ca2+ sites and pore filling",
+                "Other Information": {
+                    "Test Conditions": "294 K, water/ethanol mole ratio 72/28",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Saturated water uptake: 1.6 mol/mol"
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "3.98 × 4.31 Å²",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "294 K, water/ethanol mole ratio 72/28",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded from the channels"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Dynamic vapor breakthrough experiment",
+            "Performance Metrics": "Ethanol productivity: 15.7 mmol/g, Water/Ethanol separation factor: 10.5"
+        },
+        "Other Information": {
+            "Additional Info": "Channels exhibit excellent size sieving effect for water and ethanol"
+        }
+    },
+    {
+        "Materials Name": "UTSA-280⋅41PCW",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.7–3.9 Å (after partial loss of coordinated water)",
+            "Structure Type": "3D channels along c-axis"
+        },
+        "Topology": "I-42d space group",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "squaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.86 × 3.11 Å²",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption on open Ca2+ sites and pore filling",
+                "Other Information": {
+                    "Test Conditions": "294 K, water/ethanol mole ratio 72/28",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Saturated water uptake: 2.6 mol/mol"
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "3.98 × 4.31 Å²",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "294 K, water/ethanol mole ratio 72/28",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded from the channels"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced water adsorption via chemisorption and pore filling",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Dynamic vapor breakthrough experiment",
+            "Performance Metrics": "Ethanol productivity: 22.46 mmol/g, Water/Ethanol separation factor: 15.9"
+        },
+        "Other Information": {
+            "Additional Info": "Partial removal of coordinated water enhances water adsorption and separation performance"
+        }
+    },
+    {
+        "Materials Name": "UTSA-280⋅29PCW",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.7–3.9 Å (after partial loss of coordinated water)",
+            "Structure Type": "3D channels along c-axis"
+        },
+        "Topology": "I-42d space group",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "squaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.86 × 3.11 Å²",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption on open Ca2+ sites and pore filling",
+                "Other Information": {
+                    "Test Conditions": "294 K, water/ethanol mole ratio 72/28",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Saturated water uptake: 2.6 mol/mol"
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "3.98 × 4.31 Å²",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "294 K, water/ethanol mole ratio 72/28",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded from the channels"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced water adsorption via chemisorption and pore filling",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Dynamic vapor breakthrough experiment",
+            "Performance Metrics": "Ethanol productivity: 19.1 mmol/g, Water/Ethanol separation factor: 13.2"
+        },
+        "Other Information": {
+            "Additional Info": "Partial removal of coordinated water enhances water adsorption and separation performance"
+        }
+    }
+]

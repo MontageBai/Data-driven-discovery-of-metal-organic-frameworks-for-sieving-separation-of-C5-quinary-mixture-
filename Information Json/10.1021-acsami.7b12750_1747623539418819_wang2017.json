@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "UiO-66(Zr)-(OH)2",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "4.0 Å (theoretical aperture size), 11.79 Å (defective micropore)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "2,5-dihydroxy benzenedicarboxylate (DOBDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "7.16 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "3 bar at room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate improved from 26% to 45% after post-synthetic defect healing (PSDH)."
+                }
+            },
+            {
+                "Molecule Name": "zinc",
+                "Molecular Size": "8.60 Å (hydrated diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "3 bar at room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate is 42.5%. Hydrated Zn2+ ions contribute to delayed water transport due to single-file diffusion."
+                }
+            },
+            {
+                "Molecule Name": "iron",
+                "Molecular Size": "9.14 Å (hydrated diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "3 bar at room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate is 54.7%. Fe3+ ions may be trapped in defects, reducing water flux."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "21 Å × 13.6 Å × 8.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "3 bar at room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate reaches 99.8% after PSDH."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "NaCl rejection: 45%, Methyl blue rejection: 99.8%, Water permeance: 0.285 kg m-2 h-1 bar-1 (after PSDH)"
+        },
+        "Other Information": {
+            "Additional Info": "Defects caused by ligand missing were mitigated via PSDH, improving separation performance."
+        }
+    }
+]

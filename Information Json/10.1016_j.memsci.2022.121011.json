@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "Al2O3/AAO",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "< 0.364 nm, > 0.289 nm (kinetic diameter)",
+            "Structure Type": "Double layered porous structure with ultra-thin overlayer"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 102 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance of ~3.03 × 10−7 mol m−2 s−1 Pa−1"
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "0.346 nm (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 102 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor for H2/O2 is 120.7"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 102 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor for H2/N2 is 161.5"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm (kinetic diameter)",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Adsorption-based sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 102 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 shows adsorption on Al2O3 layer leading to reduced permeance; separation factor for H2/CO2 is 5148.2"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 102 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor for H2/CH4 is 219.5"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ultra-thin pores smaller than N2 kinetic diameter (0.364 nm) but larger than H2 kinetic diameter (0.289 nm)",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment using home-built Wicke-Kallenbach gas permeation cell",
+            "Performance Metrics": "H2 permeance: ~3.03 × 10−7 mol m−2 s−1 Pa−1; H2/CO2 selectivity: 5148.2; H2/O2 selectivity: 120.7; H2/N2 selectivity: 161.5; H2/CH4 selectivity: 219.5"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane exhibits excellent stability over 120 h continuous operation"
+        }
+    }
+]

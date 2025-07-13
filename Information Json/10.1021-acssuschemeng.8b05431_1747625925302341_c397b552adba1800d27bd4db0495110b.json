@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "[Ni3(HCOO)6]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.3 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "formic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ultrahigh C2H2 uptake of 38.2 cm³ cm⁻³ at 0.01 bar and 298 K"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low CO2 uptake of 3.0 cm³ cm⁻³ at 0.01 bar"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "C2H2/CO2 selectivity: 22.0 at 1 bar and 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "Activated material shows ultra-strong C2H2 capture capacity and excellent chemical stability to moisture and H2S"
+        }
+    }
+]

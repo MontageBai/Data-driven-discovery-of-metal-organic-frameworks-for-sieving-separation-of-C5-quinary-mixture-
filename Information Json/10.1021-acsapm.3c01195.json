@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "PCN-222",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "37 Å (along c-axis), 13 Å (micropores)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6 oxo clusters"
+        ],
+        "Ligands": [
+            "meso-Tetra(4-carboxyphenyl)porphyrin (TCPP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Size selective adsorption/separation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "PCN-222 is utilized for size-selective separation of gases, including carbon dioxide."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "PCN-222 exhibits high porosity and tunable aspect ratio, making it suitable for mechanical reinforcement and gas separation applications."
+        }
+    }
+]

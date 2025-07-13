@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "UiO-66-based membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Lamellar"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzene dicarboxylic acid (H2BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "Methanol solvent, 0.9 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency: 99 ± 1%"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "Methanol solvent, 0.9 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency: 99 ± 1%"
+                }
+            },
+            {
+                "Molecule Name": "Evans blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Hexane solvent, 0.9 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency: 96 ± 1%"
+                }
+            },
+            {
+                "Molecule Name": "fuchsin acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Hexane solvent, 0.9 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency: 96 ± 1%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Dead-end filtration apparatus and vacuum filtration assembly",
+            "Performance Metrics": "Methanol flux: 175 ± 10 L m−2 h−1; Rejection efficiency >99% for methylene blue and rhodamine B in methanol"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane showed high stability in hexane solvent up to 10 days."
+        }
+    }
+]

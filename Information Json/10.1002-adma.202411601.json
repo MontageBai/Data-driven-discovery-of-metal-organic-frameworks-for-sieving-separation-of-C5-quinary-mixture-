@@ -1,0 +1,173 @@
+[
+    {
+        "Materials Name": "NH2-MIL-125",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "─NH2 functionalized ligand"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ion solvated with DME (Li(DME)4+)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Synergistic sieving via pore size and polar ─NH2 groups",
+                "Other Information": {
+                    "Test Conditions": "Low-temperature environment, e.g., −10 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "─NH2 groups facilitate desolvation by reducing energy barriers."
+                }
+            },
+            {
+                "Molecule Name": "TFSI− anion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chemical adsorption on NH2-MIL-125",
+                "Other Information": {
+                    "Test Conditions": "Electrolyte system at room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption energy compared to other MOFs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Capture-then-sieving mechanism facilitated by ─NH2 polar groups.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, in situ SFG spectroscopy, TOF-SIMS, XPS",
+            "Performance Metrics": "Li+ transference number: 0.71; Capacity retention: 90.5% over 300 cycles at 0 °C; Cycling stability: >2000 h at 0.5 mA cm−2"
+        },
+        "Other Information": {
+            "Additional Info": "NH2-MIL-125 promotes uniform Li deposition and suppresses dendrite formation under low-temperature conditions."
+        }
+    },
+    {
+        "Materials Name": "MIL-125",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ion solvated with DME (Li(DME)4+)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Passive-acting desolvation affected by electric field",
+                "Other Information": {
+                    "Test Conditions": "Room temperature and low-temperature environments",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less efficient desolvation compared to NH2-MIL-125 due to absence of polar ─NH2 groups."
+                }
+            },
+            {
+                "Molecule Name": "TFSI− anion",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Physical adsorption",
+                "Other Information": {
+                    "Test Conditions": "Electrolyte system at room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower adsorption energy compared to NH2-MIL-125."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Passive-acting desolvation driven by electric field.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, TOF-SIMS, XPS",
+            "Performance Metrics": "Li+ transference number: 0.46; Cycling stability: ~170 cycles at 1 mA cm−2"
+        },
+        "Other Information": {
+            "Additional Info": "MIL-125 shows inferior performance in promoting uniform Li deposition and suppressing dendrites compared to NH2-MIL-125."
+        }
+    },
+    {
+        "Materials Name": "ZIF-67",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Smaller than NH2-MIL-125",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ion solvated with DME (Li(DME)4+)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical pore sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature and low-temperature environments",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Better sieving effect than MIL-125 but less efficient than NH2-MIL-125."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion via smaller pore morphology.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, TOF-SIMS",
+            "Performance Metrics": "Li+ transference number: 0.64; Cycling stability: ~330 cycles at 1 mA cm−2"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-67 exhibits better desolvation kinetics than MIL-125 but lacks the active-acting desolvation mechanism of NH2-MIL-125."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Smaller than NH2-MIL-125",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium ion solvated with DME (Li(DME)4+)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Physical pore sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature and low-temperature environments",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Better sieving effect than MIL-125 but less efficient than NH2-MIL-125."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion via smaller pore morphology.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, TOF-SIMS",
+            "Performance Metrics": "Li+ transference number: 0.55; Cycling stability: ~260 cycles at 1 mA cm−2"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 exhibits better desolvation kinetics than MIL-125 but lacks the active-acting desolvation mechanism of NH2-MIL-125."
+        }
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "IRMOF-9",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "9.9 Å (majority), 11.3 Å (minority)",
+            "Structure Type": "Interpenetrated framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn4O"
+        ],
+        "Ligands": [
+            "4,4’-biphenyldicarboxylic acid (H2BPDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Reichardt’s dye",
+                "Molecular Size": "11 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, Et4NBr solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Dye cannot penetrate IRMOF-9 due to smaller pore aperture of 8.1 Å."
+                }
+            },
+            {
+                "Molecule Name": "ferrocene",
+                "Molecular Size": "4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "DMF solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ferrocene can penetrate IRMOF-9 due to its small molecular size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Dye adsorption, N2 gas sorption analysis, PXRD",
+            "Performance Metrics": "BET surface area: 1168 m²/g, Pore size distribution consistent with interpenetrated structure"
+        },
+        "Other Information": {
+            "Additional Info": "IRMOF-9 exhibits low-pressure hysteresis in gas sorption isotherms, indicative of structural flexibility."
+        }
+    },
+    {
+        "Materials Name": "Deinterpenetrated IRMOF-9 (IRMOF-10)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "14.9 Å (majority), 12.7 Å (minority)",
+            "Structure Type": "Non-interpenetrated framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn4O"
+        ],
+        "Ligands": [
+            "4,4’-biphenyldicarboxylic acid (H2BPDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Reichardt’s dye",
+                "Molecular Size": "11 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, Et4NBr solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Dye successfully penetrates deinterpenetrated IRMOF-9 due to larger pore aperture of 11.7 Å."
+                }
+            },
+            {
+                "Molecule Name": "cadmium selenide quantum dots",
+                "Molecular Size": "2 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "DCM suspension",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Quantum dots cannot penetrate the pores, confirming uniform microporous structure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Dye adsorption, N2 gas sorption analysis, PXRD",
+            "Performance Metrics": "BET surface area: 1778 m²/g (after supercritical CO2 activation), Pore size distribution consistent with non-interpenetrated structure"
+        },
+        "Other Information": {
+            "Additional Info": "Deinterpenetrated IRMOF-9 shows no low-pressure hysteresis in gas sorption isotherms, indicating structural stability."
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "TYUT-23",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.1 × 5.2 Å2",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "dia",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "2-Aminoisonicotinic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quasi-size-sieving effect with preferential adsorption due to Lewis basic sites",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6 uptake: 56.0 cm3 g−1; C3H6 storage density: 0.602 g mL−1"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion and steric hindrance within the pore channel",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H8 uptake significantly reduced to 23.5 cm3 g−1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quasi-size-sieving effect combined with electrostatic repulsion for C3H8",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, single-crystal X-ray diffraction (SCXRD), GCMC simulation",
+            "Performance Metrics": "IAST selectivity: 71; Breakthrough experiment separation factor: 15.3; High-purity C3H6 productivity: 19.4 L kg−1"
+        },
+        "Other Information": {
+            "Additional Info": "TYUT-23 demonstrated excellent reusability over six continuous cycles and maintained performance under humid conditions (75% relative humidity)"
+        }
+    }
+]

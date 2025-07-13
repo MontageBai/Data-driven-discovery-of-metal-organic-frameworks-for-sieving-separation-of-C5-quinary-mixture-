@@ -1,0 +1,103 @@
+MOF Name: TYUT-23
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for TYUT-23:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Yes)
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No), Reason: "Quasi-size-sieving effect combined with electrostatic repulsion for C3H8, Electrostatic repulsion and steric hindrance within the pore channel"
+
+Analysis of MOF’s inferred pore characteristics:
+Based on the adsorption of propylene (intermediate 5.051 Å), the effective pore size of TYUT-23 must be at least 5.051 Å to allow its passage.
+The non-adsorption of propane (intermediate 4.354 Å), despite having a smaller intermediate dimension than propylene, indicates that the adsorption mechanism is not solely governed by a simple size exclusion based on the intermediate dimension. The stated reasons ("electrostatic repulsion," "steric hindrance," "quasi-size-sieving") point to kinetic sieving or specific interaction effects that prevent propane's adsorption. Therefore, we infer that the MOF's pore aperture is at least 5.051 Å, and that smaller molecules can still be excluded due to factors beyond simple intermediate dimension fitting.
+
+Target Guest Molecule Dimensions:
+-   Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is larger than the intermediate dimension of propylene (5.051 Å), which is the largest molecule confirmed to be adsorbed by TYUT-23. Thus, it is highly probable that isoprene is too large to pass through the pore, even considering the non-simple sieving mechanism.
+
+---
+
+MOF Name: TYUT-23
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for TYUT-23:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Yes)
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No), Reason: "Quasi-size-sieving effect combined with electrostatic repulsion for C3H8, Electrostatic repulsion and steric hindrance within the pore channel"
+
+Analysis of MOF’s inferred pore characteristics:
+The MOF's effective pore size is at least 5.051 Å (from propylene adsorption). The non-adsorption of propane (4.354 Å) is attributed to kinetic sieving/specific interactions rather than a simple intermediate size exclusion.
+
+Target Guest Molecule Dimensions:
+-   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is larger than the intermediate dimension of propylene (5.051 Å), the largest molecule confirmed to be adsorbed. Therefore, cis-2-pentene is likely too large for adsorption by TYUT-23.
+
+---
+
+MOF Name: TYUT-23
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for TYUT-23:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Yes)
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No), Reason: "Quasi-size-sieving effect combined with electrostatic repulsion for C3H8, Electrostatic repulsion and steric hindrance within the pore channel"
+
+Analysis of MOF’s inferred pore characteristics:
+The MOF's effective pore size is at least 5.051 Å (from propylene adsorption). The non-adsorption of propane (4.354 Å) is attributed to kinetic sieving/specific interactions rather than a simple intermediate size exclusion.
+
+Target Guest Molecule Dimensions:
+-   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is slightly smaller than propylene's (5.051 Å), which is known to be adsorbed. Although propane (4.354 Å) is not adsorbed due to kinetic sieving and steric hindrance, 1-pentene is structurally different and its intermediate dimension is closer to the adsorbed propylene. Based on the ability to adsorb propylene, 1-pentene is predicted to be adsorbable.
+
+---
+
+MOF Name: TYUT-23
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for TYUT-23:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Yes)
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No), Reason: "Quasi-size-sieving effect combined with electrostatic repulsion for C3H8, Electrostatic repulsion and steric hindrance within the pore channel"
+
+Analysis of MOF’s inferred pore characteristics:
+The MOF's effective pore size is at least 5.051 Å (from propylene adsorption). The non-adsorption of propane (4.354 Å) is attributed to kinetic sieving/specific interactions rather than a simple intermediate size exclusion.
+
+Target Guest Molecule Dimensions:
+-   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is smaller than propylene's (5.051 Å), which is known to be adsorbed. Similar to 1-pentene, despite propane (4.354 Å) not being adsorbed, trans-2-pentene's intermediate dimension suggests it should be able to pass, considering the MOF's capacity for propylene and the kinetic sieving nature for propane.
+
+---
+
+MOF Name: TYUT-23
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for TYUT-23:
+-   Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (Yes)
+-   Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (No), Reason: "Quasi-size-sieving effect combined with electrostatic repulsion for C3H8, Electrostatic repulsion and steric hindrance within the pore channel"
+
+Analysis of MOF’s inferred pore characteristics:
+The MOF's effective pore size is at least 5.051 Å (from propylene adsorption). The non-adsorption of propane (4.354 Å), despite its smaller intermediate dimension compared to propylene, is explicitly attributed to a "quasi-size-sieving effect combined with electrostatic repulsion" and "steric hindrance." This indicates that for certain molecules, particularly alkanes (like propane), there are specific interactions or steric factors that prevent adsorption even if the intermediate dimension is geometrically favorable.
+
+Target Guest Molecule Dimensions:
+-   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is very close to propane's (4.354 Å), and both are n-alkanes. Given that propane is explicitly rejected due to "electrostatic repulsion" and "steric hindrance" (a kinetic sieving effect for this MOF), it is highly probable that n-pentane, being a slightly larger n-alkane with similar chemical characteristics, will also experience similar repulsive forces and steric hindrance within the pore channels, leading to its non-adsorption.

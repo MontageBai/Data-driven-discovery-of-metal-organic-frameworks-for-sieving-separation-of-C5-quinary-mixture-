@@ -1,0 +1,227 @@
+[
+    {
+        "Materials Name": "MAF-41·pX",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.2 Å × 9.8 Å × 10.1 Å (cavities), 3.9 Å × 6.7 Å (apertures)",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "2,6-bis(trifluoromethyl)benzodiimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "styrene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Intermediate-sized molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Aperture size/shape variable by hinged-fence action."
+                }
+            },
+            {
+                "Molecule Name": "ethylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded due to aperture size/shape."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded due to aperture size/shape."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely excluded due to aperture size/shape."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Intermediate-sized molecular sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Chromatographic characterizations, GCMC and PDFT simulations",
+            "Performance Metrics": "Styrene selectivity >3300, 99.9%+ purity from mixture"
+        },
+        "Other Information": {
+            "Additional Info": "Aperiodic pore-opening behavior avoids coadsorption."
+        }
+    },
+    {
+        "Materials Name": "MAF-44",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.9 Å × 7.2 Å × 7.6 Å (cavities), 1.8 Å × 4.4 Å (apertures)",
+            "Structure Type": "Quasi-discrete pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ag+"
+        ],
+        "Ligands": [
+            "2-(3,5-dimethyl-1H-pyrazol-4-yl)-benzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-opening flexibility",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "10 kPa",
+                    "Additional Info": "Induces pore opening at low pressure."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake even at high pressure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving via pore-opening flexibility",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Quantitative breakthrough experiments, SCXRD, in situ PXRD",
+            "Performance Metrics": "High selectivity of 23 for n-butane over isobutane"
+        },
+        "Other Information": {
+            "Additional Info": "Nonideal pore-opening actions observed."
+        }
+    },
+    {
+        "Materials Name": "MAF-23",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D coordination network"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "bis(5-methyl-1,2,4-triazol-3-yl)methane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adaptive flexibility",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Very low, undetectable",
+                    "Additional Info": "Adsorbs CO2 with high enthalpy."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Gating flexibility",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to high gating Ea."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Gating flexibility",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to high gating Ea."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gating flexibility for molecular sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Quantitative breakthrough experiments",
+            "Performance Metrics": "CO2/CH4 and CO2/N2 selectivities of 1500+"
+        },
+        "Other Information": {
+            "Additional Info": "Gating Ea sufficiently high to distinguish CO2 from CH4/N2."
+        }
+    },
+    {
+        "Materials Name": "Co(bdp)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedipyrazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-opening flexibility",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Reported",
+                    "Additional Info": "Shows coadsorption behavior with methane."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore-opening flexibility",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Reported",
+                    "Additional Info": "Coadsorbed with carbon dioxide."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Pore-opening flexibility leading to coadsorption",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Single-component sorption isotherms, Quantitative breakthrough experiments",
+            "Performance Metrics": "Switch from molecular sieving to coadsorption of CO2/CH4"
+        },
+        "Other Information": {
+            "Additional Info": "Opened pores smaller than undesired guests."
+        }
+    }
+]

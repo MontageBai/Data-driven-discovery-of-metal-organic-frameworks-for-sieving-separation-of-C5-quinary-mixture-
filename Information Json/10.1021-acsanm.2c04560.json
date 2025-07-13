@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "MIL-101-ED",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.18 nm (average)",
+            "Structure Type": "Microporous cage"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid",
+            "ethylenediamine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "10 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH = 3, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exclusion rate: 91.9–94.0%"
+                }
+            },
+            {
+                "Molecule Name": "risperidone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic, hydrogen-bond, and π−π interactions",
+                "Other Information": {
+                    "Test Conditions": "pH = 3, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption efficiency: 80.1–101.4%"
+                }
+            },
+            {
+                "Molecule Name": "quetiapine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic, hydrogen-bond, and π−π interactions",
+                "Other Information": {
+                    "Test Conditions": "pH = 3, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption efficiency: 80.1–101.4%"
+                }
+            },
+            {
+                "Molecule Name": "aripiprazole",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic, hydrogen-bond, and π−π interactions",
+                "Other Information": {
+                    "Test Conditions": "pH = 3, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption efficiency: 80.1–101.4%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at the micropore scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, HPLC-DAD analysis",
+            "Performance Metrics": "Protein exclusion rate: 91.9–94.0%, Drug recovery: 83.2–110.8%"
+        },
+        "Other Information": {
+            "Additional Info": "Functionalized with ethylenediamine for enhanced hydrogen bonding and π−π interactions."
+        }
+    }
+]

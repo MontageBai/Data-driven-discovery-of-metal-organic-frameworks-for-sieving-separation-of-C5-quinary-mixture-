@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "MFU-4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.88 Å (small cavity), 11.94 Å (large cavity), 2.52 Å (narrow aperture)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2,5-dichloroterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "50 K, 7 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Gate-opening triggered by local vibration of Cl atoms at temperatures above 50 K."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.31 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "50 K, 7 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher uptake and weaker hysteresis compared to hydrogen."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Thermal desorption spectroscopy (TDS)",
+            "Performance Metrics": "D2/H2 selectivity: 7.5 at 60 K with 15 min exposure"
+        },
+        "Other Information": {
+            "Additional Info": "Dynamic behavior observed due to temperature-triggered gate opening."
+        }
+    },
+    {
+        "Materials Name": "FMOFCu",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "9.4 × 9.2 Å (cavity A), 5.6 × 4.2 Å (cavity B), 8.8 × 4.7 Å (cavity C), 3.6 Å (aperture between cavities A and B), 2.5 Å (narrow aperture)",
+            "Structure Type": "Tri-modal pore system"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "Partially fluorinated ligand"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "25–77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Gate-opening effect observed due to thermal vibrations of flexible windows."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.31 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "25–77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher uptake and weaker hysteresis compared to hydrogen."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Thermal desorption spectroscopy (TDS)",
+            "Performance Metrics": "D2/H2 selectivity: 14 at 25 K with 10 min exposure"
+        },
+        "Other Information": {
+            "Additional Info": "Dynamic behavior attributed to temperature-triggered gate opening."
+        }
+    },
+    {
+        "Materials Name": "MIL-53(Al)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.6 × 13.6 Å (narrow pore), 8.5 × 8.5 Å (large pore), additional very large pore (vlp) phase observed",
+            "Structure Type": "Breathing effect between narrow and large pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "Terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "20–60 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Phase transition between narrow and large pores observed."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.31 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "20–60 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Unique second breathing step observed at low cryogenic temperatures (23–25 K)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Continuous structural transition enhancing kinetic quantum sieving",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Thermal desorption spectroscopy (TDS)",
+            "Performance Metrics": "D2/H2 selectivity: 13.6 at 40 K with 120 min exposure"
+        },
+        "Other Information": {
+            "Additional Info": "Isotope-selective breathing effect maximizes KQS efficiency."
+        }
+    }
+]

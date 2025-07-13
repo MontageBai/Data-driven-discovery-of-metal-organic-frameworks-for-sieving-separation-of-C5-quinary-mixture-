@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "UiO-66-15",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "15 Å (defective pore), 11.5 Å (original pore)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6 cluster"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "benzoate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "safranine T",
+                "Molecular Size": "9.2 × 11.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 24 h contact time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 366 mg/g"
+                }
+            },
+            {
+                "Molecule Name": "crystal violet",
+                "Molecular Size": "12.3 × 13.9 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 24 h contact time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 18 mg/g"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-exclusion effect due to defective pores",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "UV-vis spectroscopy, N2 adsorption-desorption analysis",
+            "Performance Metrics": "Safranine T/Crystal Violet selectivity > 70 at high concentration region (200-700 ppm)"
+        },
+        "Other Information": {
+            "Additional Info": "Defects were introduced by using benzoic acid as a modulator and postsynthetic acid treatment"
+        }
+    }
+]

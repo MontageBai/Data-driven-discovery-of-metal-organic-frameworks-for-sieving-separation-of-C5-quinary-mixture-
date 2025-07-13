@@ -1,0 +1,194 @@
+[
+    {
+        "Materials Name": "CuI@UiO-66-(COOH)2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.1 Å",
+            "Structure Type": "3D fcu-topology frameworks"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6(µ3-OH)8(O2C−)12"
+        ],
+        "Ligands": [
+            "benzene-1,2,4,5-tetracarboxylic acid (1,2,4,5-BTEC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π-complexation with Cu(I) ions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong affinity due to π-complexation."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size-sieving effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reduced uptake due to size-sieving effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "IAST selectivity: 80.8 for 50/50 C2H4/C2H6 mixtures at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits ultrahigh ethylene/ethane separation performance due to combined π-complexation and size-sieving effects."
+        }
+    },
+    {
+        "Materials Name": "CuI@UiO-66-COOH",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D fcu-topology frameworks"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6(µ3-OH)8(O2C−)12"
+        ],
+        "Ligands": [
+            "benzene-1,2,4-tricarboxylic acid (1,2,4-BTC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π-complexation with Cu(I) ions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced uptake due to π-complexation."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size-sieving effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reduced uptake compared to non-metalated UiO-66-COOH."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-component adsorption isotherms",
+            "Performance Metrics": "IAST selectivity: 14.5 for 50/50 C2H4/C2H6 mixtures at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows improved ethylene/ethane separation due to π-complexation and reduced pore size."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-COOH",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.3 Å",
+            "Structure Type": "3D fcu-topology frameworks"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6(µ3-OH)8(O2C−)12"
+        ],
+        "Ligands": [
+            "benzene-1,2,4-tricarboxylic acid (1,2,4-BTC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Non-selective diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No significant selectivity due to large pore size."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Non-selective diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No significant selectivity due to large pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Single-component adsorption isotherms",
+            "Performance Metrics": "IAST selectivity: 0.9 for 50/50 C2H4/C2H6 mixtures at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "Large pore size leads to non-selective adsorption of both gases."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-(COOH)2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.8 Å",
+            "Structure Type": "3D fcu-topology frameworks"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6(µ3-OH)8(O2C−)12"
+        ],
+        "Ligands": [
+            "benzene-1,2,4,5-tetracarboxylic acid (1,2,4,5-BTEC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Non-selective diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No significant selectivity due to relatively large pore size."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Non-selective diffusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No significant selectivity due to relatively large pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Single-component adsorption isotherms",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Relatively large pore size limits selective separation."
+        }
+    }
+]

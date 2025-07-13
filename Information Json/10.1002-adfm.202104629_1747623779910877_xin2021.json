@@ -1,0 +1,147 @@
+[
+    {
+        "Materials Name": "MOF-801",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 Å (triangular window)",
+            "Structure Type": "3D interconnected tetrahedral and octahedral cavities"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "fumaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "vanadium ion",
+                "Molecular Size": "8.14–8.34 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Vanadium ion permeation is effectively inhibited by the small triangular windows."
+                }
+            },
+            {
+                "Molecule Name": "proton",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Grotthuss mechanism via hydrogen-bond networks",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Protons can pass through due to smaller size and facilitated hopping mechanism."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "VRFB performance testing, vanadium ion permeability measurement",
+            "Performance Metrics": "Coulombic efficiency: 98.5–99.2% at 40–120 mA cm−2"
+        },
+        "Other Information": {
+            "Additional Info": "MOF-801 incorporated into SPEEK matrix enhances ion selectivity and proton conductivity."
+        }
+    },
+    {
+        "Materials Name": "MOF-808",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "≈10.1 Å (hexagonal window)",
+            "Structure Type": "3D interconnected tetrahedral and adamantane cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "vanadium ion",
+                "Molecular Size": "8.14–8.34 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-dependent permeation",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hexagonal window allows vanadium ions to enter cavities."
+                }
+            },
+            {
+                "Molecule Name": "proton",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Grotthuss mechanism via hydrogen-bond networks",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Protons exhibit faster transport due to abundant hydrogen-bonding networks."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Conditional sieving based on pore aperture size",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "VRFB performance testing, proton conductivity measurement",
+            "Performance Metrics": "Voltage efficiency: 93.7–84.1% at 40–120 mA cm−2"
+        },
+        "Other Information": {
+            "Additional Info": "MOF-808 incorporated into SPEEK matrix enhances proton conductivity but lacks vanadium resistance."
+        }
+    },
+    {
+        "Materials Name": "MOF-801/MOF-808 binary composite",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Combination of 3.5 Å (triangular window) and ≈10.1 Å (hexagonal window)",
+            "Structure Type": "Hybrid structure combining features of MOF-801 and MOF-808"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "fumaric acid",
+            "trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "vanadium ion",
+                "Molecular Size": "8.14–8.34 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Combined size exclusion and facilitated transport",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Synergistic effect of MOF-801 and MOF-808 balances vanadium resistance and proton conductivity."
+                }
+            },
+            {
+                "Molecule Name": "proton",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Grotthuss mechanism via hydrogen-bond networks",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced proton transport due to abundant hydrogen-bonding networks in MOF-808."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic size exclusion and proton transport enhancement",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "VRFB performance testing, vanadium permeability, and proton conductivity measurements",
+            "Performance Metrics": "Energy efficiency: Optimized performance with balanced CE and VE"
+        },
+        "Other Information": {
+            "Additional Info": "Binary composite membrane achieves improved overall battery performance in VRFB system."
+        }
+    }
+]

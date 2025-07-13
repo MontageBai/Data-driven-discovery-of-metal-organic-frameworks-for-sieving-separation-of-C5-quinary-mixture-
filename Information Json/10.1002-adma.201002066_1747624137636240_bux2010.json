@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (6-membered ring windows), 11.6 Å (β-cages)",
+            "Structure Type": "3D cages connected by 6-membered ring windows"
+        },
+        "Topology": "sodalite",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption-controlled permeation",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 × 10^5 Pa partial pressure difference",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 is favored over CH4 in adsorption and shows higher permeance."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption-controlled permeation",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 × 10^5 Pa partial pressure difference",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 diffusivity increases sharply with loading despite its larger size compared to the pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Flexible pore apertures allowing larger molecules to pass",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "GCMC simulations, IR microscopy, Wicke–Kallenbach technique",
+            "Performance Metrics": "CO2/CH4 selectivity: 3.5 (anti-Knudsen)"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 exhibits anti-Knudsen selectivity for CO2 over CH4 due to adsorption-controlled permeation."
+        }
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+        "Materials Name": "MOFs",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (optimal)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+",
+            "Mg2+",
+            "Fe2+",
+            "Co2+",
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.24 × 0.24 × 0.314 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "<77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Optimal pore size of approximately 3.4 Å enhances quantum sieving effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Selectivity up to 10.5"
+        },
+        "Other Information": {
+            "Additional Info": "MOFs containing open metal sites exhibit high isotope selectivity through Chemical Affinity Quantum Sieving (CAQS)."
+        }
+    },
+    {
+        "Materials Name": "Zeolites",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3–5 Å (adjustable by changing extra-framework cations)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.24 × 0.24 × 0.314 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced selectivity achieved by reducing pore size and optimizing cationic composition."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas Chromatography",
+            "Performance Metrics": "Selectivity up to 25.8"
+        },
+        "Other Information": {
+            "Additional Info": "Zeolites with uniform pore sizes show high selectivity for hydrogen isotopes."
+        }
+    },
+    {
+        "Materials Name": "Cu(I)-MFU-4l",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.24 × 0.24 × 0.314 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical Affinity Quantum Sieving",
+                "Other Information": {
+                    "Test Conditions": "90–100 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption enthalpy leads to D2/H2 selectivity of 11."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical Affinity Quantum Sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Temperature-programmed desorption",
+            "Performance Metrics": "Selectivity of 7.1–11.1"
+        },
+        "Other Information": {
+            "Additional Info": "Contains Cu(I) open metal sites with high adsorption enthalpy."
+        }
+    },
+    {
+        "Materials Name": "Graphene membranes",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "<3 Å",
+            "Structure Type": "2D sheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "protium ions",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum tunneling",
+                "Other Information": {
+                    "Test Conditions": "Electrochemical setup",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Protons pass more easily than deuterons; separation factor ~10."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum tunneling",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Electrochemical pumping",
+            "Performance Metrics": "Separation factor ~10"
+        },
+        "Other Information": {
+            "Additional Info": "Graphene-based electrochemical membranes show promise for hydrogen isotope separation."
+        }
+    }
+]

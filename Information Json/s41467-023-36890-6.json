@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "PDA-C800",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.1–4.3 Å (micropore orifices), 4.68–5.25 Å (microvoids)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Capacity: 1.98 mmol g−1"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C3H6/C3H8 separation factor: 36.7, Dynamic C3H6 uptake: 1.5 mmol g−1"
+        },
+        "Other Information": {
+            "Additional Info": "INS confirms weak physisorption supporting size-sieving effect"
+        }
+    },
+    {
+        "Materials Name": "PDA-C900",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.7–4.0 Å (micropore orifices), 4.68–5.25 Å (microvoids)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Capacity: 2.25 mmol g−1"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C2H4/C2H6 separation factor: 24.7, Dynamic C2H4 uptake: 1.8 mmol g−1"
+        },
+        "Other Information": {
+            "Additional Info": "INS confirms weak physisorption supporting size-sieving effect"
+        }
+    }
+]

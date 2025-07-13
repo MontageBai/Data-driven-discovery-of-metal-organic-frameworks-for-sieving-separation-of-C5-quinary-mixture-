@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "Graphene Oxide",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.42 nm (interlayer height)",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "0.2 MPa, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeability: 840−1200 Barrer"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "0.2 MPa, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeability lower than N2 due to strong adsorption interactions."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "0.2 MPa, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher permeability than CO2 due to weaker interactions with GO."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "0.2 MPa, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability significantly low (<4 Barrer)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Formation of subnanometer 2D channels via external force-driven assembly.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation measurement",
+            "Performance Metrics": "H2/CO2 selectivity: 29−33, H2/C3H8 selectivity: 260"
+        },
+        "Other Information": {
+            "Additional Info": "Highly ordered laminar structure achieved through synergistic 'outer' and 'inner' external forces."
+        }
+    }
+]

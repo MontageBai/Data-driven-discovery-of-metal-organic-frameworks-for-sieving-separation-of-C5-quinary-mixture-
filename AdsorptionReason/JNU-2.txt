@@ -1,0 +1,127 @@
+For each MOF-guest molecule combination, the analysis is conducted based on the provided experimental data and the intermediate molecular dimensions, strictly adhering to the "size exclusion" principle as a primary determinant for non-adsorption.
+
+**Analysis of JNU-2 Experimental Data and Pore Size Inference:**
+
+From the experimental data for JNU-2:
+*   **Ethane:** Dimensions: 4.731×4.175×4.170 → **Intermediate dimension = 4.175 Å** | Adsorbed (Yes), Mechanism: Kinetic sieving.
+*   **Ethylene:** Dimensions: 4.679×4.047×3.200 → **Intermediate dimension = 4.047 Å** | Not Adsorbed (No), Mechanism: Size exclusion.
+
+**Contradiction in Pore Size Inference:**
+Applying the strict rules for inferring effective pore size based on intermediate dimensions:
+1.  If Ethylene (intermediate dimension 4.047 Å) is "Not Adsorbed" due to "Size exclusion", this implies that the effective pore size of JNU-2 must be **less than 4.047 Å**.
+2.  If Ethane (intermediate dimension 4.175 Å) is "Adsorbed", this implies that the effective pore size of JNU-2 must be **greater than or equal to 4.175 Å**.
+
+These two inferences are contradictory: the pore size cannot simultaneously be < 4.047 Å and ≥ 4.175 Å. This suggests that for JNU-2, the adsorption/non-adsorption behavior is not solely governed by a simple geometric "intermediate dimension" rule for "size exclusion", or that there's an inconsistency in the provided experimental data as interpreted by the specified rules. The mention of "Interaction-induced molecular sieving" and "Kinetic sieving" suggests a more complex interplay of host-guest interactions and molecular shape/dynamics beyond just the intermediate dimension.
+
+**Resolution for Prediction:**
+Despite this contradiction, to make a prediction based *strictly* on the provided data and the prompt's emphasis on "size exclusion" as a definitive barrier, we will prioritize the "Size exclusion" of ethylene (intermediate 4.047 Å) as the most stringent upper limit for molecular passage due to geometric reasons. While ethane's adsorption is anomalous under this strict interpretation, any molecule with an intermediate dimension significantly larger than 4.047 Å is highly likely to be excluded.
+
+---
+
+**MOF Name: JNU-2**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for JNU-2:
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Yes), Kinetic sieving
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (No), Size exclusion
+
+As detailed above, the experimental data for JNU-2 presents a contradiction when strictly interpreting "size exclusion" based on intermediate molecular dimensions. Ethylene (intermediate 4.047 Å) is explicitly size-excluded, implying a pore size less than 4.047 Å. However, ethane (intermediate 4.175 Å), which has a larger intermediate dimension, is adsorbed.
+
+Given the explicit "Size exclusion" for ethylene, we proceed by considering 4.047 Å as an effective upper bound for passage based on geometric limitations, acknowledging the complexity and contradiction with ethane.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of ethylene (4.047 Å), which was explicitly not adsorbed due to size exclusion, it is predicted that isoprene cannot be adsorbed by JNU-2. This prediction is made while acknowledging the described contradictory behavior regarding ethane adsorption.
+
+---
+
+**MOF Name: JNU-2**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for JNU-2:
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Yes), Kinetic sieving
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (No), Size exclusion
+
+As detailed above, the experimental data for JNU-2 presents a contradiction when strictly interpreting "size exclusion" based on intermediate molecular dimensions. Ethylene (intermediate 4.047 Å) is explicitly size-excluded, implying a pore size less than 4.047 Å. However, ethane (intermediate 4.175 Å), which has a larger intermediate dimension, is adsorbed.
+
+Given the explicit "Size exclusion" for ethylene, we proceed by considering 4.047 Å as an effective upper bound for passage based on geometric limitations, acknowledging the complexity and contradiction with ethane.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of ethylene (4.047 Å), which was explicitly not adsorbed due to size exclusion, it is predicted that cis-2-pentene cannot be adsorbed by JNU-2. This prediction is made while acknowledging the described contradictory behavior regarding ethane adsorption.
+
+---
+
+**MOF Name: JNU-2**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for JNU-2:
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Yes), Kinetic sieving
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (No), Size exclusion
+
+As detailed above, the experimental data for JNU-2 presents a contradiction when strictly interpreting "size exclusion" based on intermediate molecular dimensions. Ethylene (intermediate 4.047 Å) is explicitly size-excluded, implying a pore size less than 4.047 Å. However, ethane (intermediate 4.175 Å), which has a larger intermediate dimension, is adsorbed.
+
+Given the explicit "Size exclusion" for ethylene, we proceed by considering 4.047 Å as an effective upper bound for passage based on geometric limitations, acknowledging the complexity and contradiction with ethane.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of ethylene (4.047 Å), which was explicitly not adsorbed due to size exclusion, it is predicted that 1-pentene cannot be adsorbed by JNU-2. This prediction is made while acknowledging the described contradictory behavior regarding ethane adsorption.
+
+---
+
+**MOF Name: JNU-2**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for JNU-2:
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Yes), Kinetic sieving
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (No), Size exclusion
+
+As detailed above, the experimental data for JNU-2 presents a contradiction when strictly interpreting "size exclusion" based on intermediate molecular dimensions. Ethylene (intermediate 4.047 Å) is explicitly size-excluded, implying a pore size less than 4.047 Å. However, ethane (intermediate 4.175 Å), which has a larger intermediate dimension, is adsorbed.
+
+Given the explicit "Size exclusion" for ethylene, we proceed by considering 4.047 Å as an effective upper bound for passage based on geometric limitations, acknowledging the complexity and contradiction with ethane.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of ethylene (4.047 Å), which was explicitly not adsorbed due to size exclusion, it is predicted that trans-2-pentene cannot be adsorbed by JNU-2. This prediction is made while acknowledging the described contradictory behavior regarding ethane adsorption.
+
+---
+
+**MOF Name: JNU-2**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for JNU-2:
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Yes), Kinetic sieving
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (No), Size exclusion
+
+As detailed above, the experimental data for JNU-2 presents a contradiction when strictly interpreting "size exclusion" based on intermediate molecular dimensions. Ethylene (intermediate 4.047 Å) is explicitly size-excluded, implying a pore size less than 4.047 Å. However, ethane (intermediate 4.175 Å), which has a larger intermediate dimension, is adsorbed.
+
+Given the explicit "Size exclusion" for ethylene, we proceed by considering 4.047 Å as an effective upper bound for passage based on geometric limitations, acknowledging the complexity and contradiction with ethane.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the intermediate dimension of ethylene (4.047 Å), which was explicitly not adsorbed due to size exclusion, it is predicted that n-pentane cannot be adsorbed by JNU-2. This prediction is made while acknowledging the described contradictory behavior regarding ethane adsorption.

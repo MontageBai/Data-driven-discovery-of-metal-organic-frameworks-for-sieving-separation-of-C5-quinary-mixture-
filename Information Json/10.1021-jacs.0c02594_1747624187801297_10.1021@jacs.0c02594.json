@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "NCU-100",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.6 × 4.3 × 4.2 Å3 (cavity A), 4.7 × 4.5 × 4.2 Å3 (cavity B)",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4′-dipyridylsulfide",
+            "hexafluorosilicate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 × 3.3 × 5.7 Å3",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significant uptake at low pressures (0.73 mmol g−1 at 1.0 kPa)"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.2 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption confirmed by breakthrough experiments"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, gas sorption isotherms, single-crystal X-ray diffraction",
+            "Performance Metrics": "C2H2 uptake: 4.57 mmol g−1 at 298 K and 1 bar; C2H2/C2H4 selectivity: IAST selectivity of 7291 at 1 bar and 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "Robust pore space allows significant gas uptake at low pressures; flexible-robust feature demonstrated."
+        }
+    }
+]

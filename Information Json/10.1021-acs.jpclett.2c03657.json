@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "UiO-67_Be",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Be2+"
+        ],
+        "Ligands": [
+            "biphenyl-based ligand"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 exhibits lower hopping barrier than D2 (2.83 kJ/mol vs 4.89 kJ/mol)."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2 exhibits higher chemical affinity and diffusion selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and chemical affinity differences",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation, MD simulation, CI-NEB calculations",
+            "Performance Metrics": "D2/H2 adsorption selectivity: >50 at 77 K; H2/D2 diffusion selectivity: 1.55"
+        },
+        "Other Information": {
+            "Additional Info": "Be-doped UiO-67 shows enhanced H2/D2 separation performance due to combined effects of CAQS and KQS mechanisms."
+        }
+    }
+]

@@ -1,0 +1,98 @@
+MOF Name: VOFFIVE-1-Ni
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for VOFFIVE-1-Ni:
+-   Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+-   Methane: 3.877×3.849×3.918 Å → Intermediate = 3.877 Å | Not Adsorbed (Reason: Size exclusion due to limited pore aperture)
+-   1-chloropropane: 7.100×5.721×5.044 Å → Intermediate = 5.721 Å | Not Adsorbed (Reason: Dynamic recognizing mechanism combining rigid and flexible framework properties, Excluded due to strong CH···Cl hydrogen bonding and absence of π–π interaction – *This is not a pure size exclusion mechanism for defining the pore aperture.*)
+
+Inferred effective pore size of VOFFIVE-1-Ni, based on pure size exclusion, lies between molecules that are adsorbed and those that are excluded by size. Thus, it can adsorb molecules with an intermediate dimension of at least 3.200 Å (carbon dioxide) but cannot adsorb molecules with an intermediate dimension of 3.877 Å (methane). Therefore, the inferred effective pore size of VOFFIVE-1-Ni is in the range of **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+-   Isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by VOFFIVE-1-Ni due to size exclusion.
+
+---
+
+MOF Name: VOFFIVE-1-Ni
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for VOFFIVE-1-Ni:
+-   Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+-   Methane: 3.877×3.849×3.918 Å → Intermediate = 3.877 Å | Not Adsorbed (Reason: Size exclusion due to limited pore aperture)
+
+The inferred effective pore size of VOFFIVE-1-Ni is in the range of **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+-   cis-2-pentene: 8.067×5.572×5.136 Å → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by VOFFIVE-1-Ni due to size exclusion.
+
+---
+
+MOF Name: VOFFIVE-1-Ni
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for VOFFIVE-1-Ni:
+-   Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+-   Methane: 3.877×3.849×3.918 Å → Intermediate = 3.877 Å | Not Adsorbed (Reason: Size exclusion due to limited pore aperture)
+
+The inferred effective pore size of VOFFIVE-1-Ni is in the range of **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+-   1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by VOFFIVE-1-Ni due to size exclusion.
+
+---
+
+MOF Name: VOFFIVE-1-Ni
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for VOFFIVE-1-Ni:
+-   Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+-   Methane: 3.877×3.849×3.918 Å → Intermediate = 3.877 Å | Not Adsorbed (Reason: Size exclusion due to limited pore aperture)
+
+The inferred effective pore size of VOFFIVE-1-Ni is in the range of **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+-   trans-2-pentene: 8.796×4.733×4.564 Å → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by VOFFIVE-1-Ni due to size exclusion.
+
+---
+
+MOF Name: VOFFIVE-1-Ni
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for VOFFIVE-1-Ni:
+-   Carbon dioxide: 5.198×3.200×3.200 Å → Intermediate = 3.200 Å | Adsorbed
+-   Methane: 3.877×3.849×3.918 Å → Intermediate = 3.877 Å | Not Adsorbed (Reason: Size exclusion due to limited pore aperture)
+
+The inferred effective pore size of VOFFIVE-1-Ni is in the range of **[3.200 Å, 3.877 Å)**.
+
+Target Guest Molecule Dimensions:
+-   n-pentane: 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by VOFFIVE-1-Ni due to size exclusion.

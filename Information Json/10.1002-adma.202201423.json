@@ -1,0 +1,194 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene permeance: 91.7 ± 8.9 GPU"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6/C3H8 separation factor: 85.2 ± 11.9"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Flexible-to-rigid transition of lattice",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke–Kallenbach method",
+            "Performance Metrics": "C3H6 permeance: 91.7 ± 8.9 GPU, C3H6/C3H8 selectivity: 85.2 ± 11.9"
+        },
+        "Other Information": {
+            "Additional Info": "Not Reported"
+        }
+    },
+    {
+        "Materials Name": "EBAM-2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene permeance: 168 GPU"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6/C3H8 separation factor: 203"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Rigidified lattice with smaller effective pore size",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke–Kallenbach method",
+            "Performance Metrics": "C3H6 permeance: 168 GPU, C3H6/C3H8 selectivity: 203"
+        },
+        "Other Information": {
+            "Additional Info": "Incorporated EBCOF nanosheets enhance lattice rigidity and reduce membrane thickness."
+        }
+    },
+    {
+        "Materials Name": "THAMs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene permeance: Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6/C3H8 separation factor exceeds 200"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Shrinkage of unit-cell parameter and lattice rigidification",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "XRD and FTIR characterization",
+            "Performance Metrics": "C3H6/C3H8 selectivity > 200"
+        },
+        "Other Information": {
+            "Additional Info": "QA-functionalized COFs enhance ZIF-8 rigidity via Coulomb force."
+        }
+    },
+    {
+        "Materials Name": "TGAMs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene permeance: Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6/C3H8 separation factor: 120"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Slightly enhanced lattice rigidity",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "XRD and FTIR characterization",
+            "Performance Metrics": "C3H6/C3H8 selectivity: 120"
+        },
+        "Other Information": {
+            "Additional Info": "Non-QA-functionalized COFs show weaker Coulomb interaction with ZIF-8."
+        }
+    }
+]

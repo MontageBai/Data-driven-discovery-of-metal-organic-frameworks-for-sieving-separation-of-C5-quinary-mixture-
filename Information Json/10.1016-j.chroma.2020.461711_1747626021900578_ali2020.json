@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "NH2-MIL-125(Ti)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.90 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "horseradish peroxidase glycopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enrichment was successful at various concentrations down to 1 fmol/μL."
+                }
+            },
+            {
+                "Molecule Name": "ovalbumin",
+                "Molecular Size": "45000 Da",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ovalbumin was excluded in mixtures with HRP tryptic digest at ratios of 1:25:25 and higher."
+                }
+            },
+            {
+                "Molecule Name": "immunoglobulin G",
+                "Molecular Size": "150000 Da",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "IgG was excluded in mixtures with HRP tryptic digest at ratios of 1:25:25 and higher."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis",
+            "Performance Metrics": "Detection limit: 1 fmol/μL; selectivity up to 1:1000 (HRP digest to BSA digest)"
+        },
+        "Other Information": {
+            "Additional Info": "The material showed excellent reusability over five enrichment cycles without structural degradation."
+        }
+    }
+]

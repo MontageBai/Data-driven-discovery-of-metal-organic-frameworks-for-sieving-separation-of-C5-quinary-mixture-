@@ -1,0 +1,49 @@
+[
+    {
+        "MOF Name": "AlNS",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Two-dimensional nanoslice, irregular shapes, monodispersed"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "2,6-dimethylphenol"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Biological External Vesicles (BEVs)",
+                "Molecular Size": "∼50 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Specific chemical binding (Al-O-P coordination bonds) with phospholipid layer for efficient enrichment.",
+                "Other Information": {
+                    "Test Conditions": "Incubation at 4 °C for 30 min for enrichment; pH 6 for dissociation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High affinity for negatively charged BEVs. Controlled capture and release via pH adjustment."
+                }
+            },
+            {
+                "Molecule Name": "Lipoproteins",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Less efficient chemical binding due to lower density of phosphate groups on their surface, leading to reduced capture compared to BEVs.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Present as contaminants, but are selectively enriched less efficiently than BEVs by AlNS."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective enrichment/separation based on specific surface chemical interactions (Al-O-P bonding) with phospholipid layers, differentiating from entities with lower phosphate group density.",
+        "Experimental Validation": {
+            "Method": "TEM, DLS, ζ-potential, FT-IR, XPS, flow cytometry, Western Blot, Bradford protein assay, RiboGreen RNA quantitative detection, SPV method for phospholipid quantification, single-layer agar plate method, SDS-PAGE protein gel, methodological comparison with SEC.",
+            "Performance Metrics": "26-fold higher protein content (up to 3.67 μg) than traditional method (0.139 μg); ~8-fold higher RNA content; significantly elevated phospholipid levels; BEV enrichment up to 40% of total BEVs; absence of phage contamination; preserved bamA and ompA expression levels; significant retention of endotoxin content."
+        },
+        "Other Information": {
+            "Additional Info": "Al-based metal-organic nanoslice (AlNS); Two-dimensional irregular shapes; Hydrodynamic diameter ~300 nm; Positive charge; Good crystallinity; Able to respond to environmental changes for controlled capture/release of BEVs; Designed for enrichment of biological external vesicles, not traditional molecular sieving of small molecules."
+        }
+    }
+]

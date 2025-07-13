@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "CdIF-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.9–4.2 Å",
+            "Structure Type": "SOD (sodalite)"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "4.52 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passes through crystalline CdIF-1 but not through a0.3CdIF-1 (partially amorphized)."
+                }
+            },
+            {
+                "Molecule Name": "butane",
+                "Molecular Size": "4.41 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passes through crystalline CdIF-1 and a0.3CdIF-1, but not through a0.7CdIF-1."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passes through crystalline CdIF-1, a0.3CdIF-1, and a0.7CdIF-1, but not through a1.0CdIF-1."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms and kinetic uptake measurements",
+            "Performance Metrics": "n-C4H10/i-C4H10 diffusivity selectivity: increased from 1.5 to 40.7 with increasing amorphization; n-C4H10/i-C4H10 adsorption selectivity: increased from 1.1 to 4.9 at ~1 atm"
+        },
+        "Other Information": {
+            "Additional Info": "Controlled thermal amorphization of CdIF-1 resulted in tunable effective aperture size and enhanced molecular sieving properties."
+        }
+    }
+]

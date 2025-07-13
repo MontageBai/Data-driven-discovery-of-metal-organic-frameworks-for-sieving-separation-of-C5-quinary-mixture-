@@ -1,0 +1,281 @@
+[
+    {
+        "Materials Name": "IRMOF-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.5 Å (pore openings), 15 Å (cages)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn4O"
+        ],
+        "Ligands": [
+            "benzene-1,4-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "xenon",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Nitrogen BET surface area measurement",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen molecules used for BET measurements accessed surfaces in IRMOF-1 sample 1 despite structural degradation."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "0.585 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dispersive interactions dominate",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Benzene lies on the nonpolar fit line, indicating primarily dispersive interactions."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "0.600 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dispersive interactions dominate",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Toluene lies on the nonpolar fit line, indicating primarily dispersive interactions."
+                }
+            },
+            {
+                "Molecule Name": "ethylbenzene",
+                "Molecular Size": "0.615 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dispersive interactions dominate",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylbenzene lies on the nonpolar fit line, indicating primarily dispersive interactions."
+                }
+            },
+            {
+                "Molecule Name": "n-propylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dispersive interactions dominate",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-Propylbenzene lies on the nonpolar fit line, indicating primarily dispersive interactions."
+                }
+            },
+            {
+                "Molecule Name": "n-butylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dispersive interactions dominate",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-Butylbenzene lies on the nonpolar fit line, indicating primarily dispersive interactions."
+                }
+            },
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "0.595 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dispersive interactions dominate",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "p-Xylene is slightly offset from the nonpolar line, suggesting some specific interactions."
+                }
+            },
+            {
+                "Molecule Name": "1,2,4-trimethylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dispersive interactions dominate",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "1,2,4-Trimethylbenzene lies on the nonpolar fit line, indicating primarily dispersive interactions."
+                }
+            },
+            {
+                "Molecule Name": "diethyl ether",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen bond basicity dominates",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diethyl ether shows significant offset from the nonpolar line due to hydrogen bond basicity."
+                }
+            },
+            {
+                "Molecule Name": "ethyl acetate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen bond basicity dominates",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethyl acetate shows significant offset from the nonpolar line due to hydrogen bond basicity."
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "0.430 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen bond basicity dominates",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Acetone shows significant offset from the nonpolar line due to hydrogen bond basicity."
+                }
+            },
+            {
+                "Molecule Name": "methyl ethyl ketone (MEK)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen bond basicity dominates",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "MEK shows significant offset from the nonpolar line due to hydrogen bond basicity."
+                }
+            },
+            {
+                "Molecule Name": "tetrahydrofuran (THF)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrogen bond basicity dominates",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "THF shows significant offset from the nonpolar line due to hydrogen bond basicity."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "IGC setup dead volume determination",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methane used to determine column's dead volume."
+                }
+            },
+            {
+                "Molecule Name": "n-pentane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dispersive interactions dominate",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-Pentane lies on the nonpolar fit line, indicating primarily dispersive interactions."
+                }
+            },
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "0.49 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dispersive interactions dominate",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-Hexane lies on the nonpolar fit line, indicating primarily dispersive interactions."
+                }
+            },
+            {
+                "Molecule Name": "n-heptane",
+                "Molecular Size": "0.54 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dispersive interactions dominate",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-Heptane lies on the nonpolar fit line, indicating primarily dispersive interactions."
+                }
+            },
+            {
+                "Molecule Name": "n-octane",
+                "Molecular Size": "0.59 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dispersive interactions dominate",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-Octane lies on the nonpolar fit line, indicating primarily dispersive interactions."
+                }
+            },
+            {
+                "Molecule Name": "n-nonane",
+                "Molecular Size": "0.64 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dispersive interactions dominate",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-Nonane lies on the nonpolar fit line, indicating primarily dispersive interactions."
+                }
+            },
+            {
+                "Molecule Name": "n-decane",
+                "Molecular Size": "0.69 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dispersive interactions dominate",
+                "Other Information": {
+                    "Test Conditions": "200 °C, IGC",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "n-Decane lies on the nonpolar fit line, indicating primarily dispersive interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and steric hindrance for larger aromatics",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Inverse Gas Chromatography (IGC)",
+            "Performance Metrics": "Henry’s constants, differential enthalpies, and free energies of adsorption measured for over 30 VOCs."
+        },
+        "Other Information": {
+            "Additional Info": "Adsorption thermodynamics were determined via van’t Hoff plots. Abraham LFER model applied to correlate specific interactions."
+        }
+    }
+]

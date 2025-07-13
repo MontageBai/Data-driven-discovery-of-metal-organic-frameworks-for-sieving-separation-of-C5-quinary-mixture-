@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "TYUST-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.44 Å, 12–17 Å (experimental), 7.1 Å × 7.5 Å (theoretical)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "C2/M space group",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "1,2,4,5-benzenetetracarboxylic acid (H4BTEC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "1.52 Å (dehydrated Li+ ion diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "pH 6.5 ± 0.2, 12 h contact time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 76.1 mg g−1; Equilibrium time: 30 min"
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "2.04 Å (dehydrated Na+ ion diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "pH 6.5 ± 0.2, 12 h contact time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption amount: <2 mg g−1"
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "2.76 Å (dehydrated K+ ion diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "pH 6.5 ± 0.2, 12 h contact time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption amount: <2 mg g−1"
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "8.2 Å (hydrated Ca2+ ion diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "pH 6.5 ± 0.2, 12 h contact time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption amount: <2 mg g−1"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "8.6 Å (hydrated Mg2+ ion diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "pH 6.5 ± 0.2, 12 h contact time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption amount: <2 mg g−1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size difference-induced selective adsorption via tetrahedral pocket array on the channel wall.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, DFT calculations",
+            "Performance Metrics": "Li+ adsorption capacity: 76.1 mg g−1, Selectivity factors: Li+/Na+ = 7.78, Li+/K+ = 17.02, Li+/Ca2+ = 10.05, Li+/Mg2+ = 6.25"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows high chemical stability in strong acids, alkalis, and boiling water."
+        }
+    }
+]

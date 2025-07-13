@@ -1,0 +1,107 @@
+[
+    {
+        "Materials Name": "BAinpore-HM-UiO-66@Fe3O4",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "4 nm (small mesopores), 11 nm (large mesopores)",
+            "Structure Type": "Hierarchical mesoporous structure"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+",
+            "Fe3+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "4-carboxyphenylboronic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "adenosine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Boronate affinity interaction",
+                "Other Information": {
+                    "Test Conditions": "pH 8.0, ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Small cis-diol molecule that can enter small mesopores for adsorption."
+                }
+            },
+            {
+                "Molecule Name": "guanosine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Boronate affinity interaction",
+                "Other Information": {
+                    "Test Conditions": "pH 8.0, ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Small cis-diol molecule that can enter small mesopores for adsorption."
+                }
+            },
+            {
+                "Molecule Name": "AMP",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Boronate affinity interaction and chelation with Zr(IV)",
+                "Other Information": {
+                    "Test Conditions": "pH 8.0, ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nucleotide with a phosphate group that can interact with boronate ligands and Zr(IV)."
+                }
+            },
+            {
+                "Molecule Name": "GMP",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Boronate affinity interaction and chelation with Zr(IV)",
+                "Other Information": {
+                    "Test Conditions": "pH 8.0, ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nucleotide with a phosphate group that can interact with boronate ligands and Zr(IV)."
+                }
+            },
+            {
+                "Molecule Name": "ovalbumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH 8.0, ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large glycoprotein excluded due to size-exclusion effect of small mesopores."
+                }
+            },
+            {
+                "Molecule Name": "gamma-globulin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH 8.0, ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large glycoprotein excluded due to size-exclusion effect of small mesopores."
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH 8.0, ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large non-glycoprotein excluded due to size-exclusion effect of small mesopores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale for proteins, selective adsorption for small cis-diols.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, HPLC-UV analysis",
+            "Performance Metrics": "High selectivity for nucleotides over nucleosides; excellent anti-protein adsorption ability."
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits fast adsorption kinetics (equilibrium within 3 minutes) and high adsorption capacity for nucleotides."
+        }
+    }
+]

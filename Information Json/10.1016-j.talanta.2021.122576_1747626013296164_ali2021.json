@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "MF@PDA@UiO-66-NH2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.1 nm",
+            "Structure Type": "Mesoporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "horseradish peroxidase",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large proteins like horseradish peroxidase are excluded due to size exclusion effect."
+                }
+            },
+            {
+                "Molecule Name": "ovalbumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ovalbumin is excluded due to its large size compared to the pore size of the material."
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "BSA is excluded because of its large size relative to the pore size of the MOF composite."
+                }
+            },
+            {
+                "Molecule Name": "glycopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Hydrophilic interaction and size selection",
+                "Other Information": {
+                    "Test Conditions": "90% ACN/1% TFA loading buffer, 80% ACN/1% H3PO4 washing buffer, 30% ACN/0.1% FA elution buffer",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Glycopeptides are selectively enriched due to their smaller size and hydrophilic interaction with the material."
+                }
+            },
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "IMAC affinity and size selection",
+                "Other Information": {
+                    "Test Conditions": "90% ACN/1% TFA loading buffer, 50% ACN/0.1% TFA washing buffer, 0.4 M ammonia solution elution buffer",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Phosphopeptides are selectively enriched based on IMAC affinity and their ability to pass through the mesoporous structure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at mesoporous scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis",
+            "Performance Metrics": "Enrichment of 26 glycopeptides and 12 phosphopeptides with high SNR and clear background"
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrated excellent size exclusion effects for large proteins while enriching smaller glycopeptides and phosphopeptides."
+        }
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "[Zn2(BDC-Cl)2(Py2TTz)]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.4 Å, 4.9 Å",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-chloro-terephthalate",
+            "2,5-bis(4-pyridyl)thiazolo-[5,4-d]thiazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening adsorption",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity is 74.4 cm³/g at 273 K."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity is 36.2 cm³/g at 273 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C3H6/C3H8 selectivity: 5.2"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows flexibility and a gate-opening process for propylene adsorption."
+        }
+    }
+]

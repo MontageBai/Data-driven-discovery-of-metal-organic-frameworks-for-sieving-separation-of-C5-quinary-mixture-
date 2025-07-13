@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "4AB18C6/MOF-SCN",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5 Å, 6 Å (cavity size of 4AB18C6), ~8 Å (tetrahedral windows of MOF), ~12 Å (octahedral windows of MOF)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,2,4,5-benzenetetracarboxylic acid",
+            "4-aminobenzo-18-crown-6 ether"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "thallium",
+                "Molecular Size": "1.44 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "pH 6.0, 1 mM TlCl solution, -2 V applied voltage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Tl+ exhibits preferential transport due to specific interaction with crown ether and weaker dehydration energy compared to Li+."
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "0.76 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Competitive inhibition by thallium",
+                "Other Information": {
+                    "Test Conditions": "pH 6.0, 1 mM LiCl solution, -2 V applied voltage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+ experiences stronger electrostatic attraction and cation-π interactions, impeding its transport in the presence of Tl+."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 mM MgCl2 solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Mg2+ is excluded due to its larger hydrated diameter compared to the narrowest cavity (~5 Å) of 4AB18C6/MOF."
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 mM CaCl2 solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ca2+ is excluded due to its larger hydrated diameter compared to the narrowest cavity (~5 Å) of 4AB18C6/MOF."
+                }
+            }
+        ],
+        "Sieving Mechanism": "The sieving mechanism involves a combination of size exclusion, charge selectivity, and specific interactions with functional groups. The crown ether selectively binds to Tl+, facilitating its transport while inhibiting Li+.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I-V) characteristic measurements, ion permeation experiments, density functional theory (DFT) calculations, molecular dynamics (MD) simulations",
+            "Performance Metrics": "Tl+/Li+ selectivity: 30, Tl+ permeation rate: 5.72 mmol m-2 h-1"
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrates excellent long-term stability with no significant decrease in ion rectification ratio after four months."
+        }
+    }
+]

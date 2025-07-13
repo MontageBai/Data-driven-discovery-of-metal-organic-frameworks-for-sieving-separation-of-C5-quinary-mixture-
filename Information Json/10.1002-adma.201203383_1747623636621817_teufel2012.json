@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MFU-4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.52 Å (aperture), 3.88 Å (small cavity), 11.94 Å (large cavity)",
+            "Structure Type": "Alternating bimodal cavity structure with small and large cavities"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn"
+        ],
+        "Ligands": [
+            "Chlorine atoms (Cl)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "≈ 2.89 Å (kinetic diameter)",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "50 K to 70 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrogen uptake increases with temperature due to phonon vibrations opening the aperture."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "≈ 2.96 Å (kinetic diameter)",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "50 K to 70 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Deuterium is preferentially adsorbed over hydrogen due to quantum effects."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic barrier controlled by lattice vibrations at ≈ 45 K to 85 K",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Low-temperature pure-gas adsorption isotherms, Thermal Desorption Spectroscopy (TDS)",
+            "Performance Metrics": "D2/H2 uptake ratio: 4.1 at 50 K, maximum selectivity of 7.5 for a 1:1 H2/D2 mixture"
+        },
+        "Other Information": {
+            "Additional Info": "MFU-4 exhibits an exceptionally high D2/H2 separation performance due to its unique bimodal cavity structure and quantum sieving effects."
+        }
+    }
+]

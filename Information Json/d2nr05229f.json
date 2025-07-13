@@ -1,0 +1,116 @@
+[
+    {
+        "Materials Name": "Cu-TCPP-DA",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "1.3 nm",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4,4,4-(porphine-5,10,15,20-tetrayl)tetrakis(benzoic acid)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "basic orange 2",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 mg L^-1 dye solution, gravity-driven filtration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >98%"
+                }
+            },
+            {
+                "Molecule Name": "isatin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 mg L^-1 dye solution, gravity-driven filtration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Molecular weight 147 Da, not effectively rejected"
+                }
+            },
+            {
+                "Molecule Name": "eriochrome black T",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 mg L^-1 dye solution, gravity-driven filtration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >98%"
+                }
+            },
+            {
+                "Molecule Name": "Congo red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 mg L^-1 dye solution, gravity-driven filtration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >98%"
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Mixed salt-dye solutions, gravity-driven filtration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection <10%"
+                }
+            },
+            {
+                "Molecule Name": "sodium sulphate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Mixed salt-dye solutions, gravity-driven filtration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection <10%"
+                }
+            },
+            {
+                "Molecule Name": "magnesium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Mixed salt-dye solutions, gravity-driven filtration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection <10%"
+                }
+            },
+            {
+                "Molecule Name": "magnesium sulphate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Mixed salt-dye solutions, gravity-driven filtration",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection <10%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on intrinsic pore size of 1.3 nm",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Vacuum filtration assembly, UV-Vis spectroscopy for rejection testing",
+            "Performance Metrics": "Water permeance: 2540 L m^-2 h^-1 bar^-1, Rejection >98% for molecules >1.3 nm"
+        },
+        "Other Information": {
+            "Additional Info": "Ultrathin nanosheets (2.5 nm thick) assembled into laminar membrane with smooth surface and few defects"
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "Zr-BTB/PSS",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "5.5 Å (intralayer), 6.6 Å (interlayer spacing)",
+            "Structure Type": "2D nanosheets with ordered angstrom-size pores"
+        },
+        "Topology": "kgd (kagome dual)",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,3,5-(4-carboxylphenyl)-benzene (BTB)",
+            "polystyrenesulfonate (PSS)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "7.64 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Partial dehydration and affinity to sulfonate groups",
+                "Other Information": {
+                    "Test Conditions": "0.1 M concentration gradient, water as solvent, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High permeability due to hopping sites provided by sulfonate groups"
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "7.16 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Partial dehydration and lower affinity to sulfonate groups",
+                "Other Information": {
+                    "Test Conditions": "0.1 M concentration gradient, water as solvent, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower selectivity compared to lithium"
+                }
+            },
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "6.62 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Partial dehydration and even lower affinity to sulfonate groups",
+                "Other Information": {
+                    "Test Conditions": "0.1 M concentration gradient, water as solvent, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest selectivity among monovalent cations"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "8.56 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and very low affinity to sulfonate groups",
+                "Other Information": {
+                    "Test Conditions": "0.1 M concentration gradient, water as solvent, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest permeation rate among tested ions"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Partial dehydration followed by differential affinity between partially dehydrated cations and sulfonate groups",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Concentration-gradient-driven diffusion measurements",
+            "Performance Metrics": "Li+/Na+ selectivity: 11.0, Li+/K+ selectivity: 16.5, Li+/Mg2+ selectivity: 37.8, Li+ permeation rate: 0.83 mol m-2 h-1"
+        },
+        "Other Information": {
+            "Additional Info": "Ultrathin membrane (~50 nm thickness) with high stability in water for over a week. Achieves high permselectivity overcoming the trade-off between permeability and selectivity."
+        }
+    }
+]

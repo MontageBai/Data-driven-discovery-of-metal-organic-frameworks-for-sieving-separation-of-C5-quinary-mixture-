@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "3DIO ZnO@ZIF-8/Pt",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (aperture diameter)",
+            "Structure Type": "3D macroporous structure with ZIF-8 encapsulation"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "310 °C, various concentrations (200 ppb - 16.5 ppm)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong chemical adsorption and electron transfer facilitated by Pt nanoparticles within ZIF-8 cavities."
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "5.85 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to molecular sieving effect of ZIF-8",
+                "Other Information": {
+                    "Test Conditions": "310 °C, 100 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Molecular sieving effect prevents larger molecules from reaching the sensing layer."
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "4.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to molecular sieving effect of ZIF-8",
+                "Other Information": {
+                    "Test Conditions": "310 °C, 100 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Molecular sieving effect prevents larger molecules from reaching the sensing layer."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "4.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to molecular sieving effect of ZIF-8",
+                "Other Information": {
+                    "Test Conditions": "310 °C, 100 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Molecular sieving effect prevents larger molecules from reaching the sensing layer."
+                }
+            },
+            {
+                "Molecule Name": "formaldehyde",
+                "Molecular Size": "4.0 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to molecular sieving effect of ZIF-8",
+                "Other Information": {
+                    "Test Conditions": "310 °C, 100 ppm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Molecular sieving effect prevents larger molecules from reaching the sensing layer."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with selective chemical adsorption on Pt sites",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sensing experiments, DFT calculations",
+            "Performance Metrics": "Response of 118 to 5.5 ppm H2S, LOD: 40 ppb, Selectivity enhancement: 7.8-59 times against interfering gases"
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrates significantly enhanced selectivity and sensitivity for H2S detection compared to other sensors, attributed to the combination of molecular sieving by ZIF-8 and catalytic activation by Pt nanoparticles."
+        }
+    }
+]

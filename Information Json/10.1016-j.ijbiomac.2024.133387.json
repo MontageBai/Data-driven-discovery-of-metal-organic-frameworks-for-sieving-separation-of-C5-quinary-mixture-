@@ -1,0 +1,122 @@
+[
+    {
+        "Materials Name": "MOF@PDA MMM",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "19.2 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+",
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazole-2-carboxaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "reactive blue 19",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 Mbar transmembrane pressure, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: ~100%"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic attraction and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 Mbar transmembrane pressure, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 94.9%"
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 Mbar transmembrane pressure, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 6.3% at 9 g/L concentration"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Dead-end filtration experiment",
+            "Performance Metrics": "Water permeability: 124.4 L⋅m⁻²⋅h⁻¹, Dye rejection: ~100%, Salt rejection: 6.3% (NaCl)"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF@PDA MMM combines rejection, adsorption, and catalysis processes for efficient separation and antifouling properties."
+        }
+    },
+    {
+        "Materials Name": "Lac-MOF@PDA MMM",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "19.2 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+",
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazole-2-carboxaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "reactive blue 19",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 Mbar transmembrane pressure, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: ~100%"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic attraction and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 Mbar transmembrane pressure, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 94.9%"
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "0.1 Mbar transmembrane pressure, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 6.3% at 9 g/L concentration"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Dead-end filtration experiment",
+            "Performance Metrics": "Water permeability: 124.4 L⋅m⁻²⋅h⁻¹, Dye rejection: ~100%, Salt rejection: 6.3% (NaCl)"
+        },
+        "Other Information": {
+            "Additional Info": "The Lac-MOF@PDA MMM combines rejection, adsorption, catalysis, and enzymatic degradation for enhanced separation efficiency and stability."
+        }
+    }
+]

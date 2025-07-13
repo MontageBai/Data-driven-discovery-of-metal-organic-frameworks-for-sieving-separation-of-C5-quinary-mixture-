@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "Im@quasi-C-In-BTC",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "7.07 Å × 10.20 Å (along the b-axis)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "PtS",
+        "Metal Nodes": [
+            "In3+"
+        ],
+        "Ligands": [
+            "1,2,4,5-benzenetetracarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "imidazole",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "338 K, 95% RH",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The imidazole molecules are incorporated into the pores of the MOF to enhance proton conductivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Alternating-current impedance analyses",
+            "Performance Metrics": "Proton conductivity: 7.1 × 10^-2 S cm^-1 at 338 K and 95% RH"
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrates high chemical stability and proton conductivity, with potential applications in proton-exchange membranes."
+        }
+    }
+]

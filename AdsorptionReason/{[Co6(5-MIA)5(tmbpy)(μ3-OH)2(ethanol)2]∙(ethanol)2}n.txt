@@ -1,0 +1,78 @@
+MOF Name: {[Co6(5-MIA)5(tmbpy)(μ3-OH)2(ethanol)2]∙(ethanol)2}n
+
+### MOF Effective Pore Size Inference:
+
+From the experimental data, we extract the intermediate dimensions of the known guest molecules and their adsorption behavior:
+*   **Acetylene**: 5.538×3.200×3.200 → Intermediate = 3.200 Å | **Adsorbed**
+*   **Carbon dioxide**: 5.198×3.200×3.200 → Intermediate = 3.200 Å | **Adsorbed**
+*   **Methane**: 3.877×3.849×3.918 → Intermediate = 3.877 Å | **Not Adsorbed** (Reason: Size exclusion)
+*   **Carbon monoxide**: 4.168×3.200×3.200 → Intermediate = 3.200 Å | **Not Adsorbed** (Reason: Size exclusion)
+
+To infer the MOF’s effective pore size based purely on geometric compatibility and the principle that the intermediate dimension is the main concern for passage:
+*   The largest intermediate dimension of *adsorbed* molecules is 3.200 Å (from acetylene and carbon dioxide). This indicates that the MOF's effective pore size is **≥ 3.200 Å**.
+*   Methane, with an intermediate dimension of 3.877 Å, is *not adsorbed* due to size exclusion. This suggests that the MOF's effective pore size is **< 3.877 Å**.
+*   Carbon monoxide, with an intermediate dimension of 3.200 Å, is also stated as *not adsorbed* due to size exclusion. This specific data point for carbon monoxide (3.200 Å, not adsorbed) is contradictory to the adsorption of acetylene and carbon dioxide (both 3.200 Å, adsorbed) if strictly interpreted by intermediate dimension as the sole determinant for size exclusion. Given the explicit instruction to focus on intermediate dimensions for geometric compatibility and to derive a consistent pore range, we rely on the most consistent data points for inferring the bounds. Therefore, methane (3.877 Å) serves as the reliable upper bound for pure intermediate-dimension-based size exclusion, as it is the smallest molecule definitively excluded by size that is larger than the largest adsorbed molecule.
+
+Based on the consistent experimental data points regarding intermediate dimensions, the inferred effective pore size of `{[Co6(5-MIA)5(tmbpy)(μ3-OH)2(ethanol)2]∙(ethanol)2}n` lies between **3.200 Å and 3.877 Å**, i.e., it allows molecules with an intermediate dimension ≥ 3.200 Å and < 3.877 Å.
+
+---
+
+### Evaluation of Target Guest Molecules:
+
+**MOF Name:** {[Co6(5-MIA)5(tmbpy)(μ3-OH)2(ethanol)2]∙(ethanol)2}n
+**Guest Molecule:** isoprene
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **MOF's Inferred Effective Pore Size:** [3.200 Å, 3.877 Å)
+*   **Isoprene Dimensions:** 7.746×6.093×3.963 → **Intermediate = 6.093 Å**
+*   **Conclusion:** Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the inferred upper bound of the MOF's effective pore size (3.877 Å), it cannot be adsorbed by `{[Co6(5-MIA)5(tmbpy)(μ3-OH)2(ethanol)2]∙(ethanol)2}n`.
+
+---
+
+**MOF Name:** {[Co6(5-MIA)5(tmbpy)(μ3-OH)2(ethanol)2]∙(ethanol)2}n
+**Guest Molecule:** cis-2-pentene
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **MOF's Inferred Effective Pore Size:** [3.200 Å, 3.877 Å)
+*   **cis-2-pentene Dimensions:** 8.067×5.572×5.136 → **Intermediate = 5.572 Å**
+*   **Conclusion:** Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the inferred upper bound of the MOF's effective pore size (3.877 Å), it cannot be adsorbed by `{[Co6(5-MIA)5(tmbpy)(μ3-OH)2(ethanol)2]∙(ethanol)2}n`.
+
+---
+
+**MOF Name:** {[Co6(5-MIA)5(tmbpy)(μ3-OH)2(ethanol)2]∙(ethanol)2}n
+**Guest Molecule:** 1-pentene
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **MOF's Inferred Effective Pore Size:** [3.200 Å, 3.877 Å)
+*   **1-pentene Dimensions:** 8.847×4.995×4.897 → **Intermediate = 4.995 Å**
+*   **Conclusion:** Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the inferred upper bound of the MOF's effective pore size (3.877 Å), it cannot be adsorbed by `{[Co6(5-MIA)5(tmbpy)(μ3-OH)2(ethanol)2]∙(ethanol)2}n`.
+
+---
+
+**MOF Name:** {[Co6(5-MIA)5(tmbpy)(μ3-OH)2(ethanol)2]∙(ethanol)2}n
+**Guest Molecule:** trans-2-pentene
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **MOF's Inferred Effective Pore Size:** [3.200 Å, 3.877 Å)
+*   **trans-2-pentene Dimensions:** 8.796×4.733×4.564 → **Intermediate = 4.733 Å**
+*   **Conclusion:** Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the inferred upper bound of the MOF's effective pore size (3.877 Å), it cannot be adsorbed by `{[Co6(5-MIA)5(tmbpy)(μ3-OH)2(ethanol)2]∙(ethanol)2}n`.
+
+---
+
+**MOF Name:** {[Co6(5-MIA)5(tmbpy)(μ3-OH)2(ethanol)2]∙(ethanol)2}n
+**Guest Molecule:** n-pentane
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+*   **MOF's Inferred Effective Pore Size:** [3.200 Å, 3.877 Å)
+*   **n-pentane Dimensions:** 9.118×4.364×3.969 → **Intermediate = 4.364 Å**
+*   **Conclusion:** Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the inferred upper bound of the MOF's effective pore size (3.877 Å), it cannot be adsorbed by `{[Co6(5-MIA)5(tmbpy)(μ3-OH)2(ethanol)2]∙(ethanol)2}n`.

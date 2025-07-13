@@ -1,0 +1,50 @@
+[
+    {
+        "MOF Name": "UiO-66-PS",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "approximately 0.53 nm",
+            "Structure Type": "Microporous three-dimensional framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr ions"
+        ],
+        "Ligands": [
+            "2-amino terephthalic acid",
+            "poly(sulfobetaine methacrylate)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Hydrated proton",
+                "Molecular Size": "< 0.24 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated proton transport through intrinsic channels, interfacial acid-base pairs, and hydrophilic hydration layers.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Provides more proton transport channels and accelerates proton conduction. Proton conduction via Grotthus and vehicle mechanisms. Activation energy (Ea) is 11.0 kJ mol−1."
+                }
+            },
+            {
+                "Molecule Name": "Hydrated vanadium ion (VO2+)",
+                "Molecular Size": "~0.6 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size sieving and Donnan repulsion effect.",
+                "Other Information": {
+                    "Test Conditions": "1.7 M VO2+/4.7 M H2SO4 electrolytes at 30 ℃",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effectively suppressed crossover leading to ultrahigh ion selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic size screening and Donnan repulsion",
+        "Experimental Validation": {
+            "Method": "N2 adsorption–desorption measurements",
+            "Performance Metrics": "BET surface area: 282.1 m2 g−1, Proton conductivity: 98.3 mS cm−1, VO2+ permeability: 5.1 × 10-7 cm2 min−1, Ion selectivity: 192.7 × 103 S min cm−3, Energy efficiency: 87.1 % at 100 mA cm−2, Self-discharge time: 127 h."
+        },
+        "Other Information": {
+            "Additional Info": "Zwitterionic polymer-functionalized MOF (PSBMA grafted onto UiO-66-NH2). Used as filler in sulfonated poly(ether ether ketone) (SPEEK) composite membranes for vanadium redox flow batteries. Retains crystalline structure after modification. Demonstrates enhanced mechanical and chemical stability under harsh conditions."
+        }
+    }
+]

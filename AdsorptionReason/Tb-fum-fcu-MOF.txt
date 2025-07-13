@@ -1,0 +1,97 @@
+MOF Name: Tb-fum-fcu-MOF
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Tb-fum-fcu-MOF:
+- Isopentane: 7.244×6.549×4.944 Å → Intermediate = 6.549 Å | Not Adsorbed (Total size exclusion)
+- Isobutane: 6.404×6.393×4.866 Å → Intermediate = 6.393 Å | Not Adsorbed (Total size exclusion)
+
+Inferred effective pore size of Tb-fum-fcu-MOF is strictly less than 6.393 Å (the smallest intermediate dimension of the non-adsorbed molecules due to size exclusion). There are no "adsorbed" molecules provided in the experimental data for this MOF.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is less than the smallest intermediate dimension of the non-adsorbed molecules (isobutane, 6.393 Å), it does not fall under the "Cannot Adsorb" rule (i.e., its size is not greater than or equal to the smallest excluded molecule). Based on the provided data focusing on size exclusion, and the fact that isoprene is smaller than the molecules known to be totally excluded, it is predicted that Tb-fum-fcu-MOF can adsorb isoprene.
+
+---
+
+MOF Name: Tb-fum-fcu-MOF
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Tb-fum-fcu-MOF:
+- Isopentane: 7.244×6.549×4.944 Å → Intermediate = 6.549 Å | Not Adsorbed (Total size exclusion)
+- Isobutane: 6.404×6.393×4.866 Å → Intermediate = 6.393 Å | Not Adsorbed (Total size exclusion)
+
+Inferred effective pore size of Tb-fum-fcu-MOF is strictly less than 6.393 Å (the smallest intermediate dimension of the non-adsorbed molecules due to size exclusion). There are no "adsorbed" molecules provided in the experimental data for this MOF.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.08×5.54×5.18 Å → Intermediate = 5.54 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.54 Å) is less than the smallest intermediate dimension of the non-adsorbed molecules (isobutane, 6.393 Å), it does not fall under the "Cannot Adsorb" rule. Based on the provided data focusing on size exclusion, and the fact that cis-2-pentene is smaller than the molecules known to be totally excluded, it is predicted that Tb-fum-fcu-MOF can adsorb cis-2-pentene.
+
+---
+
+MOF Name: Tb-fum-fcu-MOF
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Tb-fum-fcu-MOF:
+- Isopentane: 7.244×6.549×4.944 Å → Intermediate = 6.549 Å | Not Adsorbed (Total size exclusion)
+- Isobutane: 6.404×6.393×4.866 Å → Intermediate = 6.393 Å | Not Adsorbed (Total size exclusion)
+
+Inferred effective pore size of Tb-fum-fcu-MOF is strictly less than 6.393 Å (the smallest intermediate dimension of the non-adsorbed molecules due to size exclusion). There are no "adsorbed" molecules provided in the experimental data for this MOF.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is less than the smallest intermediate dimension of the non-adsorbed molecules (isobutane, 6.393 Å), it does not fall under the "Cannot Adsorb" rule. Based on the provided data focusing on size exclusion, and the fact that 1-pentene is smaller than the molecules known to be totally excluded, it is predicted that Tb-fum-fcu-MOF can adsorb 1-pentene.
+
+---
+
+MOF Name: Tb-fum-fcu-MOF
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Tb-fum-fcu-MOF:
+- Isopentane: 7.244×6.549×4.944 Å → Intermediate = 6.549 Å | Not Adsorbed (Total size exclusion)
+- Isobutane: 6.404×6.393×4.866 Å → Intermediate = 6.393 Å | Not Adsorbed (Total size exclusion)
+
+Inferred effective pore size of Tb-fum-fcu-MOF is strictly less than 6.393 Å (the smallest intermediate dimension of the non-adsorbed molecules due to size exclusion). There are no "adsorbed" molecules provided in the experimental data for this MOF.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.79×4.73×4.62 Å → Intermediate = 4.73 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.73 Å) is less than the smallest intermediate dimension of the non-adsorbed molecules (isobutane, 6.393 Å), it does not fall under the "Cannot Adsorb" rule. Based on the provided data focusing on size exclusion, and the fact that trans-2-pentene is smaller than the molecules known to be totally excluded, it is predicted that Tb-fum-fcu-MOF can adsorb trans-2-pentene.
+
+---
+
+MOF Name: Tb-fum-fcu-MOF
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Tb-fum-fcu-MOF:
+- Isopentane: 7.244×6.549×4.944 Å → Intermediate = 6.549 Å | Not Adsorbed (Total size exclusion)
+- Isobutane: 6.404×6.393×4.866 Å → Intermediate = 6.393 Å | Not Adsorbed (Total size exclusion)
+
+Inferred effective pore size of Tb-fum-fcu-MOF is strictly less than 6.393 Å (the smallest intermediate dimension of the non-adsorbed molecules due to size exclusion). There are no "adsorbed" molecules provided in the experimental data for this MOF.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is less than the smallest intermediate dimension of the non-adsorbed molecules (isobutane, 6.393 Å), it does not fall under the "Cannot Adsorb" rule. Based on the provided data focusing on size exclusion, and the fact that n-pentane is smaller than the molecules known to be totally excluded, it is predicted that Tb-fum-fcu-MOF can adsorb n-pentane.

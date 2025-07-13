@@ -1,0 +1,102 @@
+[
+    {
+        "Materials Name": "ZIF@MIL-200",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "12 Å (ZIF-8 cavities), 29 Å and 34 Å (MIL-101 mesopores)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Mobil Thirty-Nine zeotype topology (MIL-101), Sodalite (ZIF-8)",
+        "Metal Nodes": [
+            "Chromium(III)",
+            "Zinc(II)"
+        ],
+        "Ligands": [
+            "terephthalate (TPA)",
+            "2-methylimidazolate (MeIM)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Enhanced affinity due to polar linkers or metal center terminals",
+                "Other Information": {
+                    "Test Conditions": "273 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Tailored ultra-micropores accessible to CO2 but not N2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ultra-micropores tailored to be inaccessible to N2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas adsorption analysis, MMM gas transport property measurements",
+            "Performance Metrics": "CO2/N2 selectivity: 20.7, CO2 permeability: 14,366 Barrer"
+        },
+        "Other Information": {
+            "Additional Info": "Prepared via chemical vapor deposition of ZIF-8 in MIL-101 cavities."
+        }
+    },
+    {
+        "Materials Name": "ZIF@MIL-2000",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "12 Å (ZIF-8 cavities), 29 Å and 34 Å (MIL-101 mesopores)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Mobil Thirty-Nine zeotype topology (MIL-101), Sodalite (ZIF-8)",
+        "Metal Nodes": [
+            "Chromium(III)",
+            "Zinc(II)"
+        ],
+        "Ligands": [
+            "terephthalate (TPA)",
+            "2-methylimidazolate (MeIM)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Enhanced affinity due to polar linkers or metal center terminals",
+                "Other Information": {
+                    "Test Conditions": "273 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Tailored ultra-micropores accessible to CO2 but not N2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ultra-micropores tailored to be inaccessible to N2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas adsorption analysis, MMM gas transport property measurements",
+            "Performance Metrics": "CO2/N2 selectivity: 20.7, CO2 permeability: 14,366 Barrer"
+        },
+        "Other Information": {
+            "Additional Info": "Prepared via chemical vapor deposition of ZIF-8 in MIL-101 cavities."
+        }
+    }
+]

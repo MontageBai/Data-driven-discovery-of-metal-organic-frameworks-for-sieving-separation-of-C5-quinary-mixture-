@@ -1,0 +1,98 @@
+MOF Name: UTSA-16
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UTSA-16:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Reason: Optimal pore cages and strong binding sites for CO2, or Size exclusion)
+- Methane (CH4): 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Reason: Size exclusion and weaker interactions)
+
+Inferred effective pore size of UTSA-16:
+Based on the experimental data, UTSA-16 can adsorb CO2 (intermediate dimension 3.200 Å) but cannot adsorb methane (intermediate dimension 3.877 Å) due to size exclusion. Therefore, the effective pore size of UTSA-16 is inferred to be between 3.200 Å and 3.877 Å. More specifically, it allows molecules with an intermediate dimension ≤ 3.200 Å and excludes molecules with an intermediate dimension ≥ 3.877 Å. Thus, the effective pore size range is approximately [3.200 Å, 3.877 Å).
+
+Target Guest Molecule Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the upper bound of the inferred effective pore size of UTSA-16 (~3.877 Å), isoprene cannot be adsorbed by UTSA-16 due to size exclusion.
+
+---
+
+MOF Name: UTSA-16
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UTSA-16:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane (CH4): 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of UTSA-16 is approximately [3.200 Å, 3.877 Å).
+
+Target Guest Molecule Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the upper bound of the inferred effective pore size of UTSA-16 (~3.877 Å), cis-2-pentene cannot be adsorbed by UTSA-16 due to size exclusion.
+
+---
+
+MOF Name: UTSA-16
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UTSA-16:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane (CH4): 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of UTSA-16 is approximately [3.200 Å, 3.877 Å).
+
+Target Guest Molecule Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the upper bound of the inferred effective pore size of UTSA-16 (~3.877 Å), 1-pentene cannot be adsorbed by UTSA-16 due to size exclusion.
+
+---
+
+MOF Name: UTSA-16
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UTSA-16:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane (CH4): 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of UTSA-16 is approximately [3.200 Å, 3.877 Å).
+
+Target Guest Molecule Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the upper bound of the inferred effective pore size of UTSA-16 (~3.877 Å), trans-2-pentene cannot be adsorbed by UTSA-16 due to size exclusion.
+
+---
+
+MOF Name: UTSA-16
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for UTSA-16:
+- Carbon dioxide (CO2): 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane (CH4): 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of UTSA-16 is approximately [3.200 Å, 3.877 Å).
+
+Target Guest Molecule Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the upper bound of the inferred effective pore size of UTSA-16 (~3.877 Å), n-pentane cannot be adsorbed by UTSA-16 due to size exclusion.

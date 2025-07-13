@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "JNU-3a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.7 Å (pockets), 4.5 Å × 5.3 Å (1D channel)",
+            "Structure Type": "1D channels with dynamic molecular pockets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening adsorption",
+                "Other Information": {
+                    "Test Conditions": "303 K, varying pressures",
+                    "Threshold Pressure": "Temperature-dependent",
+                    "Additional Info": "Uptake capacity: 58.6 cm³ g⁻¹ (2.6 mmol g⁻¹) at 1 bar and 303 K"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Gate-opening adsorption",
+                "Other Information": {
+                    "Test Conditions": "303 K, varying pressures",
+                    "Threshold Pressure": "Temperature-dependent",
+                    "Additional Info": "Co-adsorption minimized; excluded at optimized conditions"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature- and adsorbate-dependent gate-opening",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Propylene/propane selectivity: 513 (IAST, equimolar mixture at 303 K); Propylene productivity: up to 53.5 L kg⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "Good recyclability in multi-cycling adsorption-desorption processes; dynamic pockets enable fast diffusion kinetics for propylene"
+        }
+    }
+]

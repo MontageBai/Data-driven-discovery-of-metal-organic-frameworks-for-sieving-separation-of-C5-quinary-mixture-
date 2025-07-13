@@ -1,0 +1,338 @@
+[
+    {
+        "Materials Name": "UTSA-74",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.330 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "UTSA-74 has two different Zn2+ sites, one of which (Zn1) is tetrahedral, while the other (Zn2) has an octahedral coordination geometry. Upon activation, the two axial water molecules on the Zn2 site can be removed, yielding UTSA-74a with two accessible gas binding sites per Zn2 ion."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The accessible Zn2+ sites in UTSA-74a are bridged by carbon dioxide molecules rather than ultimately bound in Zn-MOF-74, so UTSA-74a adsorbs much less carbon dioxide (90 cm3/cm3) than Zn-MOF at room temperature and 1 bar, making it a high-quality MOF material for highly selective C2H2/CO2 separation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "UTSA-74 is an isomer of MOF-74, with differences in metal sites compared to MOF-74."
+        }
+    },
+    {
+        "Materials Name": "MXene-ZIF-8 bilayer composite membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The H2/CO2 selectivity in the MXene-ZIF-8 bilayer composite membrane is nearly two times higher, and the H2/C3H8 selectivity is nearly three times higher than pure MXene membrane."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.330 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Different temperatures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeability increases with rising temperature."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Single gas permeation tests",
+            "Performance Metrics": "Long-term stability over 100 h of operation with only a slight reduction in H2/CO2 selectivity"
+        },
+        "Other Information": {
+            "Additional Info": "This membrane demonstrates excellent stability and design concept can be extended to other bilayer membranes."
+        }
+    },
+    {
+        "Materials Name": "g-C3N4-GOx membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.11 Å (pores in g-C3N4)",
+            "Structure Type": "2D layered"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Modified g-C3N4 membrane showed good hydrogen selectivity, enhanced mechanical properties, and stability."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "H2/CO2 selectivity: 39.2"
+        },
+        "Other Information": {
+            "Additional Info": "The preparation is simple and cost-effective, making it a potential candidate for large-scale production."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8@GO membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (microporous nature of ZIF-8)",
+            "Structure Type": "Layered"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 °C, 1 bar pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High hydrogen selectivity achieved through microporous ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.330 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "250 °C, 1 bar pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivities of H2/CO2, H2/N2, and H2/CH4 measured as 14.9, 90.5, and 139.1 respectively."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8@GO film achieves high hydrogen selectivity due to the microporous nature of ZIF-8."
+        }
+    },
+    {
+        "Materials Name": "SAPO-34 membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Zeolitic"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "0.26 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Equimolar helium/methane mixtures at 298 K and 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The SAPO-34 membrane exhibits a high helium permeability of 2.28 × 10−7 mol/(m2 s Pa) and a separation selectivity of 13.8."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.380 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Equimolar helium/methane mixtures at 298 K and 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The SAPO-34 membrane's performance surpasses the modified Robson upper limit."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "Helium permeability: 2.28 × 10−7 mol/(m2 s Pa), He/CH4 selectivity: 13.8"
+        },
+        "Other Information": {
+            "Additional Info": "SAPO-34 possesses unique shape structure, pore framework, favorable acidic properties, and excellent stability across various operating conditions."
+        }
+    },
+    {
+        "Materials Name": "g-C3N4",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.11 Å (regularly distributed triangular nanopores)",
+            "Structure Type": "2D layered"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "0.26 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "g-C3N4 exhibited an energy barrier of 0.354 eV for helium passing through the membrane, significantly lower than CH4 and half of that for H2 (0.747 eV)."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity of helium to hydrogen reaches 107."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "First-principle calculations",
+            "Performance Metrics": "He/H2 selectivity: 107"
+        },
+        "Other Information": {
+            "Additional Info": "g-C3N4 nanosheets possess a unique 2D graphene-like structure suitable for small molecule gases like He and H2."
+        }
+    },
+    {
+        "Materials Name": "graphene oxide (GO) membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.6–1.0 nm (interlayer spacing)",
+            "Structure Type": "Layered"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, single-layer GO films",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ultrathin GO films show remarkable selectivity towards hydrogen."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.330 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, stacked GO films",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stacked GO films exhibit rapid and selective transport channels for CO2 capture."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher selectivity observed for smaller molecules like H2 compared to larger ones like N2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation studies",
+            "Performance Metrics": "H2 selectivity: 3400 for H2/CO2 and 900 for H2/N2"
+        },
+        "Other Information": {
+            "Additional Info": "GO membranes offer advantages such as straightforward synthesis, scalability, and ability to reassemble into large-area films."
+        }
+    }
+]

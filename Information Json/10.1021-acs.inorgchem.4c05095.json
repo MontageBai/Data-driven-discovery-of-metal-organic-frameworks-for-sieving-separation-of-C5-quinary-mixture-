@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Cu-BTT",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.2 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "H3BTT"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 266 cm³/g"
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 288 cm³/g; Preferential adsorption over hydrogen due to lower zero-point energy"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical affinity quantum sieving based on differences in zero-point energy",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "D2/H2 selectivity: 1.58 at 77 K"
+        },
+        "Other Information": {
+            "Additional Info": "High surface area (BET: 1796 m²/g); Open metal sites enhance adsorption enthalpy for D2 (10.5 kJ/mol) and H2 (9.5 kJ/mol)"
+        }
+    }
+]

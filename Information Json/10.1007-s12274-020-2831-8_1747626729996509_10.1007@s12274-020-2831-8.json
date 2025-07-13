@@ -1,0 +1,122 @@
+[
+    {
+        "Materials Name": "ZU-62",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.19 Å (H–H distance)",
+            "Structure Type": "3D interpenetrated structure with contracted aperture size"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4’-dipyridylacetylene",
+            "NbOF5^2−"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "trans-2-pentene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 45 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake capacity: slowly increasing adsorption curve"
+                }
+            },
+            {
+                "Molecule Name": "1-pentene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 45 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Uptake capacity: slowly increasing adsorption curve"
+                }
+            },
+            {
+                "Molecule Name": "isoprene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, low pressure range (0–6 kPa)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exclusion effect due to larger molecular size"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "1-pentene/isoprene selectivity: 300 (calculated using Henry’s constant)"
+        },
+        "Other Information": {
+            "Additional Info": "Excellent separation performance for binary and ternary C5 olefin mixtures; easy regeneration under mild conditions (298 K)"
+        }
+    },
+    {
+        "Materials Name": "TIFSIX-2-Cu-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.0 Å (F···F distance of TiF6^2−)",
+            "Structure Type": "3D interpenetrated structure with suitable electrostatic environment"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4’-dipyridylacetylene",
+            "TiF6^2−"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "trans-2-pentene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic recognition",
+                "Other Information": {
+                    "Test Conditions": "298 K, 45 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake capacity: 3.1 mmol·g−1"
+                }
+            },
+            {
+                "Molecule Name": "1-pentene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic recognition",
+                "Other Information": {
+                    "Test Conditions": "298 K, 45 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower uptake compared to trans-2-pentene"
+                }
+            },
+            {
+                "Molecule Name": "isoprene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic recognition",
+                "Other Information": {
+                    "Test Conditions": "298 K, 45 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest uptake among the three molecules"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Electrostatic recognition combined with pore size restriction",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "trans-2-pentene/1-pentene selectivity: 6.04; trans-2-pentene/isoprene selectivity: 51–115; 1-pentene/isoprene selectivity: 11–26"
+        },
+        "Other Information": {
+            "Additional Info": "Excellent separation performance for binary and ternary C5 olefin mixtures; easy regeneration under mild conditions (298 K)"
+        }
+    }
+]

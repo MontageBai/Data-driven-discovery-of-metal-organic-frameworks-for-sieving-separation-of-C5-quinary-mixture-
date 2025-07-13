@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "PA NF membrane (OSARIP)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.2–8.0 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "magnesium ion",
+                "Molecular Size": "8.6 Å (hydration diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "4 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >99.82%"
+                }
+            },
+            {
+                "Molecule Name": "lithium ion",
+                "Molecular Size": "4.8 Å (Stokes diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dehydration-assisted transport",
+                "Other Information": {
+                    "Test Conditions": "4 bar, 25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negative rejection rate observed (-48.35%)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Li+/Mg2+ selectivity: up to 4147"
+        },
+        "Other Information": {
+            "Additional Info": "Fabricated using OSARIP process with dodecyl phosphate surfactant"
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "JNU-5-Me",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.5 Å (narrowest opening)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "5-(3-methyl-4H-1,2,4-triazol-4-yl)isophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.32 × 3.34 × 5.7 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening effect",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Temperature-dependent",
+                    "Additional Info": "Adsorption capacity: 4.7 mmol g⁻¹ at 298 K and 1 bar; Gate-opening pressure increases with temperature."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.18 × 3.33 × 5.36 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption: 0.25 mmol g⁻¹ at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.28 × 4.18 × 4.84 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption: 0.54 mmol g⁻¹ at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "3.81 × 4.08 × 4.82 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption: 0.32 mmol g⁻¹ at 298 K and 1 bar."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening behavior exclusively toward acetylene",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, GCMC simulation, in-situ FT-IR spectroscopy",
+            "Performance Metrics": "C2H2/CO2 separation factor: 3.5 for binary mixture; Captured C2H2 purity: 94.5% from quaternary mixture."
+        },
+        "Other Information": {
+            "Additional Info": "Chemically stable due to azolate linker occupying axial positions of dicopper paddle wheels; BET surface area: 646 m² g⁻¹; Total pore volume: 0.41 cm³ g⁻¹."
+        }
+    }
+]

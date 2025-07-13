@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Fe3O4@G-ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.73 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "guanidineacetic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "66,000 Da",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material excludes large proteins such as bovine serum albumin during enrichment."
+                }
+            },
+            {
+                "Molecule Name": "β-casein phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Salt bridge interaction and IMAC",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enrichment of mono- and multiphosphopeptides was achieved via guanidyl-phosphate interaction and IMAC."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS, nano-LC-MS/MS",
+            "Performance Metrics": "Detection limit: ~1 fmol for β-casein phosphopeptides; Enriched 4 phosphopeptides from human serum and 30 from human saliva"
+        },
+        "Other Information": {
+            "Additional Info": "Fe3O4@G-ZIF-8 nanospheres combine size-exclusion effects with multiaffinity sites (guanidyl groups and unsaturated metal sites) for selective capture of phosphopeptides."
+        }
+    }
+]

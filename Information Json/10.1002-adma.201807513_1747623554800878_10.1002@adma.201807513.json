@@ -1,0 +1,116 @@
+[
+    {
+        "Materials Name": "Zr-fum-fcu-MOF",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 Å < d < 4.6 Å (aperture size)",
+            "Structure Type": "fcu topology with triangular pore-apertures"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "fumarate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passes through the aperture with little hindrance."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passes through the aperture with little hindrance."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passes through the aperture with little hindrance."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Passes through the aperture with little hindrance."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Conformation-controlled molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 106 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Both 'staggered' and 'eclipsed' conformations can pass through the aperture."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.92 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Conformation-controlled molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 106 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Only 'eclipsed-D' conformation can pass through the aperture."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Conformation-controlled molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Aligns methyl groups with methylene bridge to pass through the aperture."
+                }
+            },
+            {
+                "Molecule Name": "isobutane",
+                "Molecular Size": "5.0 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fully blocked due to lack of allowable conformations."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Conformation-controlled molecular sieving effect",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sorption isotherms, gas permeation tests using a variable pressure constant-volume apparatus, and molecular dynamics simulations.",
+            "Performance Metrics": "C3H6/C3H8 selectivity: up to 1130 (predicted pure Zr-fum-fcu-MOF), C3H6 permeability: ≈40 barrer (predicted pure Zr-fum-fcu-MOF)."
+        },
+        "Other Information": {
+            "Additional Info": "The Zr-fum-fcu-MOF exhibits excellent mechanical strength, long-term stability under industrial conditions, and resistance to plasticization at high pressures when operated at 55 °C."
+        }
+    }
+]

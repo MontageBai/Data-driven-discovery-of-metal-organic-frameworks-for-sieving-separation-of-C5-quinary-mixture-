@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "Cu2(pzdc)2(pyz) [CPL-1]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.1 × 6.2 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu(II)"
+        ],
+        "Ligands": [
+            "2,3-pyrazinedicarboxylate",
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sulfur dioxide",
+                "Molecular Size": "4.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Sδ+···Oδ− electrostatic interactions and Oδ−···Hδ+ hydrogen bonds",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Record-high selectivity for SO2/N2 (368) and SO2/CH4 (74.3)"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Weak interactions via single site formed between noncoordinated oxygen atoms of carboxylate and C atoms of CO2",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower affinity compared to SO2"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Negligible adsorption due to low polarizability and dipole moments",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake capacity"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Negligible adsorption due to low polarizability and dipole moments",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.0 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake capacity"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale with specific binding sites enhancing separation",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, DFT simulations",
+            "Performance Metrics": "SO2/N2 selectivity: 368, SO2/CH4 selectivity: 74.3, CO2/CH4 selectivity: 46.1, CO2/N2 selectivity: 228.1"
+        },
+        "Other Information": {
+            "Additional Info": "Dynamic breakthrough experiments confirm practical separation feasibility; large-scale synthesis achieved with undamaged performance"
+        }
+    }
+]

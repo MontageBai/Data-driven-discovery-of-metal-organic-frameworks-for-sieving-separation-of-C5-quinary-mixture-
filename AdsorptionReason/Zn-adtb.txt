@@ -1,0 +1,116 @@
+MOF Name: Zn-adtb
+
+To determine the adsorption capability, we first infer the effective pore size of Zn-adtb from the provided experimental data:
+
+*   **3-methylpentane**: 9.052×6.008×4.985 Å -> Intermediate = **6.008 Å**.
+    *   Experimental data: "Conditional (see Additional Info)", "Size exclusion at sub-nanometer scale", "Kinetic separation". This implies that 3-methylpentane can be adsorbed, but with significant kinetic limitations and a tight fit, indicating it's at the upper limit of the pore size for adsorption.
+*   **2,3-dimethylbutane**: 7.778×6.170×5.399 Å -> Intermediate = **6.170 Å**.
+    *   Experimental data: "No", "Size exclusion at sub-nanometer scale", "Molecular sieving". This clearly indicates that 2,3-dimethylbutane is too large to enter the pores of Zn-adtb, setting an upper hard limit for the pore size.
+
+**Inferred effective pore size of Zn-adtb:**
+Based on these two data points, the effective pore size of Zn-adtb is inferred to be:
+*   Greater than or equal to **6.008 Å** (since 3-methylpentane can pass conditionally).
+*   Less than **6.170 Å** (since 2,3-dimethylbutane cannot pass).
+Therefore, the effective pore size window is approximately **6.008 Å ≤ Pore Size < 6.170 Å**.
+
+Now, let's evaluate each target guest molecule:
+
+---
+
+MOF Name: Zn-adtb
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   3-methylpentane: 9.052×6.008×4.985 → Intermediate = **6.008 Å** | Adsorbed (Conditional, Kinetic separation)
+*   2,3-dimethylbutane: 7.778×6.170×5.399 → Intermediate = **6.170 Å** | Not Adsorbed (Molecular sieving)
+
+Inferred effective pore size of Zn-adtb is approximately **6.008 Å** (allowing conditional, kinetically-controlled passage) but strictly less than **6.170 Å** (preventing passage by molecular sieving).
+
+Isoprene Dimensions:
+*   isoprene: 7.746×6.093×3.963 → Intermediate = **6.093 Å**
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is larger than that of 3-methylpentane (6.008 Å), which is already only conditionally adsorbed due to kinetic separation and size exclusion at a sub-nanometer scale. Furthermore, it is very close to the hard cut-off limit of 2,3-dimethylbutane (6.170 Å) which is fully excluded by molecular sieving. Given the tight fit and kinetic limitations for the slightly smaller 3-methylpentane, isoprene, being larger, is highly likely to face even more severe kinetic barriers or be completely excluded by size. Therefore, under standard conditions, isoprene is predicted to not be adsorbed.
+
+---
+
+MOF Name: Zn-adtb
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   3-methylpentane: 9.052×6.008×4.985 → Intermediate = **6.008 Å** | Adsorbed (Conditional, Kinetic separation)
+*   2,3-dimethylbutane: 7.778×6.170×5.399 → Intermediate = **6.170 Å** | Not Adsorbed (Molecular sieving)
+
+Inferred effective pore size of Zn-adtb allows molecules with intermediate dimensions up to at least **6.008 Å**.
+
+cis-2-pentene Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = **5.572 Å**
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than that of 3-methylpentane (6.008 Å), which can be conditionally adsorbed, cis-2-pentene is expected to be adsorbed by Zn-adtb.
+
+---
+
+MOF Name: Zn-adtb
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   3-methylpentane: 9.052×6.008×4.985 → Intermediate = **6.008 Å** | Adsorbed (Conditional, Kinetic separation)
+*   2,3-dimethylbutane: 7.778×6.170×5.399 → Intermediate = **6.170 Å** | Not Adsorbed (Molecular sieving)
+
+Inferred effective pore size of Zn-adtb allows molecules with intermediate dimensions up to at least **6.008 Å**.
+
+1-pentene Dimensions:
+*   1-pentene: 8.847×4.995×4.897 → Intermediate = **4.995 Å**
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly smaller than that of 3-methylpentane (6.008 Å), which can be conditionally adsorbed, 1-pentene is expected to be adsorbed by Zn-adtb.
+
+---
+
+MOF Name: Zn-adtb
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   3-methylpentane: 9.052×6.008×4.985 → Intermediate = **6.008 Å** | Adsorbed (Conditional, Kinetic separation)
+*   2,3-dimethylbutane: 7.778×6.170×5.399 → Intermediate = **6.170 Å** | Not Adsorbed (Molecular sieving)
+
+Inferred effective pore size of Zn-adtb allows molecules with intermediate dimensions up to at least **6.008 Å**.
+
+trans-2-pentene Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = **4.733 Å**
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly smaller than that of 3-methylpentane (6.008 Å), which can be conditionally adsorbed, trans-2-pentene is expected to be adsorbed by Zn-adtb.
+
+---
+
+MOF Name: Zn-adtb
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+*   3-methylpentane: 9.052×6.008×4.985 → Intermediate = **6.008 Å** | Adsorbed (Conditional, Kinetic separation)
+*   2,3-dimethylbutane: 7.778×6.170×5.399 → Intermediate = **6.170 Å** | Not Adsorbed (Molecular sieving)
+
+Inferred effective pore size of Zn-adtb allows molecules with intermediate dimensions up to at least **6.008 Å**.
+
+n-pentane Dimensions:
+*   n-pentane: 9.118×4.364×3.969 → Intermediate = **4.364 Å**
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly smaller than that of 3-methylpentane (6.008 Å), which can be conditionally adsorbed, n-pentane is expected to be adsorbed by Zn-adtb.

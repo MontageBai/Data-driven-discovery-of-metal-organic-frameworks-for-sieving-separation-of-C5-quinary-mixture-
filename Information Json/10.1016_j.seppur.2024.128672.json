@@ -1,0 +1,188 @@
+[
+    {
+        "Materials Name": "Al-UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6 cluster",
+            "Al3+"
+        ],
+        "Ligands": [
+            "Terephthalic acid (H2BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "1.54 × 0.48 nm2",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Initial dye concentration of 300 mg/L, adsorbent dosage of 2.5 g/L, temperature of 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal rate exceeded 99%"
+                }
+            },
+            {
+                "Molecule Name": "metanil yellow",
+                "Molecular Size": "1.62 × 0.78 nm2",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Initial dye concentration of 300 mg/L, adsorbent dosage of 2.5 g/L, temperature of 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal rate exceeded 99%"
+                }
+            },
+            {
+                "Molecule Name": "reactive black 5",
+                "Molecular Size": "3.43 × 1.01 nm2",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Initial dye concentration of 300 mg/L, adsorbent dosage of 2.5 g/L, temperature of 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low removal rate observed"
+                }
+            },
+            {
+                "Molecule Name": "malachite green",
+                "Molecular Size": "1.21 × 1.20 nm2",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Initial dye concentration of 300 mg/L, adsorbent dosage of 2.5 g/L, temperature of 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal rate exceeded 99%"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "1.56 × 1.35 nm2",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Initial dye concentration of 300 mg/L, adsorbent dosage of 2.5 g/L, temperature of 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low removal rate observed"
+                }
+            },
+            {
+                "Molecule Name": "janus green B",
+                "Molecular Size": "2.16 × 1.16 nm2",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Initial dye concentration of 300 mg/L, adsorbent dosage of 2.5 g/L, temperature of 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low removal rate observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion effect based on molecular sizes",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "UV–vis absorption spectroscopy",
+            "Performance Metrics": "Removal rates for MO, MY, MG exceeded 99%; Low removal rates for RB5, RhB, JGB"
+        },
+        "Other Information": {
+            "Additional Info": "Defective Al-UiO-66 exhibited enhanced adsorption properties due to increased BET surface area and broader pore size distribution."
+        }
+    },
+    {
+        "Materials Name": "Al-UiO-66-MMM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6 cluster",
+            "Al3+"
+        ],
+        "Ligands": [
+            "Terephthalic acid (H2BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "1.54 × 0.48 nm2",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Initial dye concentration of 300 mg/L, adsorbent dosage of 2.5 g/L, temperature of 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal rate exceeded 99%"
+                }
+            },
+            {
+                "Molecule Name": "metanil yellow",
+                "Molecular Size": "1.62 × 0.78 nm2",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Initial dye concentration of 300 mg/L, adsorbent dosage of 2.5 g/L, temperature of 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal rate exceeded 99%"
+                }
+            },
+            {
+                "Molecule Name": "reactive black 5",
+                "Molecular Size": "3.43 × 1.01 nm2",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Initial dye concentration of 300 mg/L, adsorbent dosage of 2.5 g/L, temperature of 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low removal rate observed"
+                }
+            },
+            {
+                "Molecule Name": "malachite green",
+                "Molecular Size": "1.21 × 1.20 nm2",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Initial dye concentration of 300 mg/L, adsorbent dosage of 2.5 g/L, temperature of 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal rate exceeded 99%"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "1.56 × 1.35 nm2",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Initial dye concentration of 300 mg/L, adsorbent dosage of 2.5 g/L, temperature of 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low removal rate observed"
+                }
+            },
+            {
+                "Molecule Name": "janus green B",
+                "Molecular Size": "2.16 × 1.16 nm2",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Initial dye concentration of 300 mg/L, adsorbent dosage of 2.5 g/L, temperature of 30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low removal rate observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion effect based on molecular sizes",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "UV–vis absorption spectroscopy",
+            "Performance Metrics": "Removal rates for MO, MY, MG exceeded 99%; Low removal rates for RB5, RhB, JGB"
+        },
+        "Other Information": {
+            "Additional Info": "Al-UiO-66-MMM demonstrated excellent stability, outstanding adsorption/separation performance, portability, and reusability."
+        }
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "Zn2(benzimidazole)4 (Zn2(bIm)4)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.21 nm",
+            "Structure Type": "2D layers oriented perpendicular to the c axis"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 2.04 × 10^-7 mol·m^-2·s^-1·Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity for H2/CO2: 53"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity for H2/N2: 67"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity for H2/CH4: 90"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "H2 permeance: 2.04 × 10^-7 mol·m^-2·s^-1·Pa^-1, H2/CO2 selectivity: 53, H2/N2 selectivity: 67, H2/CH4 selectivity: 90"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane thickness was controlled by adjusting the synthesis time, with a 50-nm-thick membrane showing optimal performance."
+        }
+    }
+]

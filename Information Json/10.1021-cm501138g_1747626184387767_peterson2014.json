@@ -1,0 +1,138 @@
+[
+    {
+        "Materials Name": "Cu3(BTC)2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5 Å (Pore C), 10.7 Å (Pore A), 12.7 Å (Pore B)",
+            "Structure Type": "3D channel system"
+        },
+        "Topology": "Pt3O4-type network",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "enthalpic effects, hydrogen bonding interactions",
+                "Other Information": {
+                    "Test Conditions": "30 °C, up to 0.9 of saturation pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Favorably adsorbed in Pore C"
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "enthalpic effects, hydrogen bonding interactions",
+                "Other Information": {
+                    "Test Conditions": "30 °C, up to 0.9 of saturation pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Favorably adsorbed in Pore C"
+                }
+            },
+            {
+                "Molecule Name": "1-propanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "enthalpic effects, hydrogen bonding interactions",
+                "Other Information": {
+                    "Test Conditions": "30 °C, up to 0.9 of saturation pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Favorably adsorbed in Pore C"
+                }
+            },
+            {
+                "Molecule Name": "2-propanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "enthalpic effects, hydrogen bonding interactions",
+                "Other Information": {
+                    "Test Conditions": "30 °C, up to 0.9 of saturation pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Favorably adsorbed in Pore C"
+                }
+            },
+            {
+                "Molecule Name": "acetonitrile",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "enthalpic effects, hydrogen bonding interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Favorably adsorbed in Pore C"
+                }
+            },
+            {
+                "Molecule Name": "tetrahydrofuran",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "enthalpic effects, hydrogen bonding interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Favorably adsorbed in Pore C"
+                }
+            },
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "size-exclusion, entropic effects",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resides in Pore C"
+                }
+            },
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "6.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size-exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, up to 0.9 of saturation pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded from Pore C due to size"
+                }
+            },
+            {
+                "Molecule Name": "toluene",
+                "Molecular Size": "6.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size-exclusion",
+                "Other Information": {
+                    "Test Conditions": "30 °C, up to 0.9 of saturation pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded from Pore C due to size"
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "size-exclusion, entropic effects",
+                "Other Information": {
+                    "Test Conditions": "30 °C, up to 0.9 of saturation pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed favorably into the smallest pore"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single crystal X-ray diffraction (SCXRD), Gravimetric vapor adsorption measurements",
+            "Performance Metrics": "CO2/N2 selectivity: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Strong correlation between guest size and adsorption quantity"
+        }
+    }
+]

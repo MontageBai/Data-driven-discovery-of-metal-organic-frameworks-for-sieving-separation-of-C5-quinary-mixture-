@@ -1,0 +1,107 @@
+MOF Name: MAF-49
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MAF-49:
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Kinetic sieving, Preferential binding)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion, Preferential binding of ethane over ethylene)
+
+The experimental data indicates a complex pore characteristic. Ethylene (intermediate dimension 4.047 Å) is explicitly stated to be *size excluded*. This implies that for general adsorption based on simple molecular dimensions, the MOF's pores are effectively too small for molecules with intermediate dimensions of 4.047 Å or larger. Although ethane (intermediate dimension 4.175 Å) is adsorbed, the mechanism is "Kinetic sieving" due to "Preferential binding," suggesting it's an exception where its specific shape and interaction allows passage despite being slightly larger than ethylene, or that the effective pore dimension is extremely tight and specific. For molecules not exhibiting this specific kinetic sieving advantage, the size exclusion limit of 4.047 Å appears to be the stricter guideline.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of ethylene (4.047 Å), which was size excluded by MAF-49. It is also considerably larger than ethane (4.175 Å) which requires kinetic sieving to adsorb. Therefore, it is highly unlikely that isoprene can be adsorbed by MAF-49.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: MAF-49
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MAF-49:
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Kinetic sieving, Preferential binding)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion, Preferential binding of ethane over ethylene)
+
+The experimental data indicates a complex pore characteristic. Ethylene (intermediate dimension 4.047 Å) is explicitly stated to be *size excluded*. This implies that for general adsorption based on simple molecular dimensions, the MOF's pores are effectively too small for molecules with intermediate dimensions of 4.047 Å or larger. Although ethane (intermediate dimension 4.175 Å) is adsorbed, the mechanism is "Kinetic sieving" due to "Preferential binding," suggesting it's an exception where its specific shape and interaction allows passage despite being slightly larger than ethylene, or that the effective pore dimension is extremely tight and specific. For molecules not exhibiting this specific kinetic sieving advantage, the size exclusion limit of 4.047 Å appears to be the stricter guideline.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of ethylene (4.047 Å), which was size excluded by MAF-49. It is also considerably larger than ethane (4.175 Å) which requires kinetic sieving to adsorb. Therefore, it is highly unlikely that cis-2-pentene can be adsorbed by MAF-49.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: MAF-49
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MAF-49:
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Kinetic sieving, Preferential binding)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion, Preferential binding of ethane over ethylene)
+
+The experimental data indicates a complex pore characteristic. Ethylene (intermediate dimension 4.047 Å) is explicitly stated to be *size excluded*. This implies that for general adsorption based on simple molecular dimensions, the MOF's pores are effectively too small for molecules with intermediate dimensions of 4.047 Å or larger. Although ethane (intermediate dimension 4.175 Å) is adsorbed, the mechanism is "Kinetic sieving" due to "Preferential binding," suggesting it's an exception where its specific shape and interaction allows passage despite being slightly larger than ethylene, or that the effective pore dimension is extremely tight and specific. For molecules not exhibiting this specific kinetic sieving advantage, the size exclusion limit of 4.047 Å appears to be the stricter guideline.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of ethylene (4.047 Å), which was size excluded by MAF-49. It is also considerably larger than ethane (4.175 Å) which requires kinetic sieving to adsorb. Therefore, it is highly unlikely that 1-pentene can be adsorbed by MAF-49.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: MAF-49
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MAF-49:
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Kinetic sieving, Preferential binding)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion, Preferential binding of ethane over ethylene)
+
+The experimental data indicates a complex pore characteristic. Ethylene (intermediate dimension 4.047 Å) is explicitly stated to be *size excluded*. This implies that for general adsorption based on simple molecular dimensions, the MOF's pores are effectively too small for molecules with intermediate dimensions of 4.047 Å or larger. Although ethane (intermediate dimension 4.175 Å) is adsorbed, the mechanism is "Kinetic sieving" due to "Preferential binding," suggesting it's an exception where its specific shape and interaction allows passage despite being slightly larger than ethylene, or that the effective pore dimension is extremely tight and specific. For molecules not exhibiting this specific kinetic sieving advantage, the size exclusion limit of 4.047 Å appears to be the stricter guideline.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of ethylene (4.047 Å), which was size excluded by MAF-49. It is also considerably larger than ethane (4.175 Å) which requires kinetic sieving to adsorb. Therefore, it is highly unlikely that trans-2-pentene can be adsorbed by MAF-49.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: MAF-49
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for MAF-49:
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed (Kinetic sieving, Preferential binding)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion, Preferential binding of ethane over ethylene)
+
+The experimental data indicates a complex pore characteristic. Ethylene (intermediate dimension 4.047 Å) is explicitly stated to be *size excluded*. This implies that for general adsorption based on simple molecular dimensions, the MOF's pores are effectively too small for molecules with intermediate dimensions of 4.047 Å or larger. Although ethane (intermediate dimension 4.175 Å) is adsorbed, the mechanism is "Kinetic sieving" due to "Preferential binding," suggesting it's an exception where its specific shape and interaction allows passage despite being slightly larger than ethylene, or that the effective pore dimension is extremely tight and specific. For molecules not exhibiting this specific kinetic sieving advantage, the size exclusion limit of 4.047 Å appears to be the stricter guideline.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is significantly larger than the intermediate dimension of ethylene (4.047 Å), which was size excluded by MAF-49. While it is similar in size to ethane (4.175 Å) which is adsorbed, n-pentane is a linear alkane and might not exhibit the same specific kinetic sieving behavior as ethane, especially since the smaller ethylene was strictly size-excluded. Given the extremely tight and selective nature of MAF-49's pores based on the ethylene data, n-pentane is highly likely to be size-excluded.
+
+Therefore, the result is: **Cannot Adsorb**

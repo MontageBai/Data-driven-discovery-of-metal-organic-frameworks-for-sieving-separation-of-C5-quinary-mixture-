@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "{[Fe(CA)(H2O)2]H2O}n",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "FeII"
+        ],
+        "Ligands": [
+            "chloranilic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Applicable",
+                "Molecular Size": "Not Applicable",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "20 days, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability test conducted with dialysis membranes of 1 kDa (0.88 nm) and 8 kDa (1.75 nm) pore sizes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "UV–vis spectroscopy",
+            "Performance Metrics": "No crossover detected with 1 kDa membrane; 83 mg/L concentration observed with 8 kDa membrane."
+        },
+        "Other Information": {
+            "Additional Info": "The material was used as a bifunctional electrolyte in aqueous batteries with cellulose membrane separators."
+        }
+    }
+]

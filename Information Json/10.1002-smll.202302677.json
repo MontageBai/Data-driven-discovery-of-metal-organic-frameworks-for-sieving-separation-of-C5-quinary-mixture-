@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "FJI-H38",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.9 Å (before adsorption), 3.4 Å (after adsorption)",
+            "Structure Type": "3D framework with quadrilateral channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co(II)",
+            "Co(III)"
+        ],
+        "Ligands": [
+            "3,5-di(4H-1,2,4-triazol-4-yl) benzoic acid (HDTBA)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 2.92 mmol g-1 at 298 K and 1 atm."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Maximum N2 uptake: 0.26 mmol g−1 at 298 K and 1 atm."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Phase transition inhibition",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Maximum H2O uptake: 9.09 mmol g−1 at 298 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Polar ultramicropores facilitate selective capture of CO2 from N2.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: 6469 at 0.5 mbar, Adsorption enthalpy: 27 kJ mol−1"
+        },
+        "Other Information": {
+            "Additional Info": "FJI-H38 exhibits structural flexibility and intelligent responses to different substrates, similar to enzymes."
+        }
+    }
+]

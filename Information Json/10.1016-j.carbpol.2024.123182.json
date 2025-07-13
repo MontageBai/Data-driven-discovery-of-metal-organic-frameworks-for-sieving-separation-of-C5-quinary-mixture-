@@ -1,0 +1,76 @@
+[
+    {
+        "Materials Name": "MIL-100-Fe",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.55 nm, 0.86 nm (window sizes), 2.5 nm, 2.9 nm (mesoporous cages)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "MTN zeolitic architecture",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "diclofenac",
+                "Molecular Size": "7.31 Å x 8.41 Å x 11.11 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 5-9",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diclofenac selectively passes through hexagonal pores (8.6 Å x 8.6 Å) but is hindered by pentagonal pores (4.8 Å x 5.8 Å). Encapsulation occurs due to size exclusion and chemical anchoring."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with chemical interactions (π-π stacking, hydrogen bonding, coordination)",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments, FTIR, XPS analysis",
+            "Performance Metrics": "Diclofenac adsorption capacity: 376.58 mg/g; Removal efficiency: 94.15%"
+        },
+        "Other Information": {
+            "Additional Info": "MIL-100-Fe was incorporated into TEMPO-oxidized cellulose nanofiber (TCNF) sponges to enhance adsorption performance and stability."
+        }
+    },
+    {
+        "Materials Name": "MIL@TCNF sponge",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Micropores (< 2 nm), Mesopores (2-50 nm), Macropores (> 50 nm)",
+            "Structure Type": "Hierarchical porous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "diclofenac",
+                "Molecular Size": "7.31 Å x 8.41 Å x 11.11 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 5-9",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Encapsulation occurs via 'Piggybank Encapsulation' mechanism within MIL-100-Fe cages. Enhanced stability provided by TCNF labyrinth regime."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with additional stabilization mechanisms (e.g., Labyrinth Regime)",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments, desorption tests, FTIR, XPS analysis",
+            "Performance Metrics": "Diclofenac adsorption capacity: 376.58 mg/g; Removal efficiency: 94.15%; Desorption rate after encapsulation: ~62.66%"
+        },
+        "Other Information": {
+            "Additional Info": "Composite material combines MIL-100-Fe with TEMPO-oxidized cellulose nanofibers (TCNF) to form a sponge-like structure with enhanced mechanical strength, biodegradability, and adsorption performance."
+        }
+    }
+]

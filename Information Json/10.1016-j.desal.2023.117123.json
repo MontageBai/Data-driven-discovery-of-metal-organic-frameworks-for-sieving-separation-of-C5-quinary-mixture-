@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "HKUST-1",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5.7 Å, 9.1 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "benzene-1,3,5-tricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "10.10 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 6 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate increased from 47% in GOM to 96% in GHM."
+                }
+            },
+            {
+                "Molecule Name": "crystal violet",
+                "Molecular Size": "10.18 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 6 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate reached 97% in GHM."
+                }
+            },
+            {
+                "Molecule Name": "trypan blue",
+                "Molecular Size": "12.80 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 6 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate reached 99% in GHM."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "6.74 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion with adsorption",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 6 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate decreased from 75% in GOM to 59% in GHM due to reduced adsorption and enlarged pore size."
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 6 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate remained below 7.2% in GHM."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Water flux: 14.54 L m−2 h−1 bar−1; CV rejection rate: 95.32%"
+        },
+        "Other Information": {
+            "Additional Info": "GHM exhibited self-cleaning and antibacterial properties due to photodegradation and Cu2+ release features of HKUST-1."
+        }
+    }
+]

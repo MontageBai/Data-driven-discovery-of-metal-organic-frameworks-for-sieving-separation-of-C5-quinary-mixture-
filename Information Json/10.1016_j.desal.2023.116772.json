@@ -1,0 +1,274 @@
+[
+    {
+        "Materials Name": "ZIF-8/PSF membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Membrane exhibited high rejection for methylene blue."
+                }
+            },
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Membrane showed high rejection for congo red."
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Membrane maintained high rejection for methyl orange."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Interfacial polymerization with ZIF-8 nanoparticles",
+            "Performance Metrics": "High water permeance and dye rejection rates were observed."
+        },
+        "Other Information": {
+            "Additional Info": "The membrane was prepared by in-situ growth of ZIF-8 on a dopamine-modified PSF substrate. This approach improved hydrophilicity, water flux, stability, and anti-fouling properties."
+        }
+    },
+    {
+        "Materials Name": "DNA@ZIF-8/L-PDA/PSF membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "rose bengal",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "This membrane displayed excellent rejection for rose bengal."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High rejection rate for methylene blue."
+                }
+            },
+            {
+                "Molecule Name": "reactive black 5",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effective rejection of reactive black 5."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective molecular sieving",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "In-situ growth method",
+            "Performance Metrics": "Water permeance: 23 L·m−2·h−1·bar−1; Rejection rates over 99% for multiple dyes."
+        },
+        "Other Information": {
+            "Additional Info": "Addition of DNA into the ZIF-8 framework further enhanced membrane performance."
+        }
+    },
+    {
+        "Materials Name": "TiO2-ZrO2 ceramic NF membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [],
+        "Ligands": [],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "evans blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection for Evans blue was reported to be 99%."
+                }
+            },
+            {
+                "Molecule Name": "acid red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Acid red rejection was found to be 93%."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Nanoscale pore sieving",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Sol-gel templated method using organic chelate ligands (OCLs)",
+            "Performance Metrics": "Water permeance up to ~12 L·m−2·h−1·bar−1."
+        },
+        "Other Information": {
+            "Additional Info": "OCLs decomposed during calcination, creating a more porous structure."
+        }
+    },
+    {
+        "Materials Name": "Covalent Organic Framework (COF)-based NPA-NF membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [],
+        "Ligands": [],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and adsorption",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Near 100% rejection for rhodamine B."
+                }
+            },
+            {
+                "Molecule Name": "methyl blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and adsorption",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High rejection rate for methyl blue."
+                }
+            },
+            {
+                "Molecule Name": "curcumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and adsorption",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Efficient rejection of curcumin."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Homogeneous pore structure for precise molecular separation",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Interfacial polymerization with Lewis-acid catalyzed COFs",
+            "Performance Metrics": "Permeance of 30 L·m−2·h−1·bar−1; High rejections for various dyes."
+        },
+        "Other Information": {
+            "Additional Info": "Improved crystallinity via hydrogen bonding and reduced diffusion of precursors."
+        }
+    },
+    {
+        "Materials Name": "Graphene oxide-based NPA-NF membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Stacked nanogaps"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [],
+        "Ligands": [],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and adsorption",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nearly 100% rejection for methylene blue."
+                }
+            },
+            {
+                "Molecule Name": "brilliant blue R",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and adsorption",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High rejection for brilliant blue R."
+                }
+            },
+            {
+                "Molecule Name": "crystal violet",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and adsorption",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significant rejection for crystal violet."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Nanoscale interlayer spacing for molecular transport",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Vacuum filtration assembly",
+            "Performance Metrics": "Permeance up to 8526 L·m−2·h−1·bar−1 with effective dye rejection."
+        },
+        "Other Information": {
+            "Additional Info": "Functionalized GO nanosheets increased selectivity and stability."
+        }
+    }
+]

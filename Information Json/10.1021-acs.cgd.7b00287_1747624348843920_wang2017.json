@@ -1,0 +1,545 @@
+[
+    {
+        "Materials Name": "STAM-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4 Å (hydrophilic channels), ~4 Å (hydrophobic chambers)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "monoesterified ligands"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.467 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "O2 diffuses significantly faster than N2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 diffuses much slower than O2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Difference in diffusion rates between oxygen and nitrogen.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption kinetics",
+            "Performance Metrics": "O2/N2 selectivity: 4"
+        },
+        "Other Information": {
+            "Additional Info": "STAM-1 exhibits hydrophilic channels that selectively allow the diffusion of O2 over N2, demonstrating kinetic molecular sieving behavior."
+        }
+    },
+    {
+        "Materials Name": "Mg3(NDC)3(DEF)4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D network with 1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mg2+"
+        ],
+        "Ligands": [
+            "2,6-naphthalenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.467 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selective adsorption",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs O2 at 77 K."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Does not adsorb N2 at 77 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving due to pore size reduction after activation.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption tests",
+            "Performance Metrics": "Selectively adsorbs O2 but excludes N2 at 77 K."
+        },
+        "Other Information": {
+            "Additional Info": "Activation removes DEF molecules, leading to selective adsorption of O2 over N2."
+        }
+    },
+    {
+        "Materials Name": "CUK-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "11.148 Å (wall-to-wall distance), 14.334 Å (corner-to-corner distance)",
+            "Structure Type": "Microporous framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2,4-pyridinedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.467 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selective adsorption",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbs O2 over N2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excludes N2 under cryogenic conditions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on pore size and gas molecule dimensions.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption analysis",
+            "Performance Metrics": "Preferentially adsorbs O2 over N2 at 77 K."
+        },
+        "Other Information": {
+            "Additional Info": "Dehydration temperature critically affects gas adsorption performance."
+        }
+    },
+    {
+        "Materials Name": "PCN-13",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 × 3.5 Å",
+            "Structure Type": "3D network identical to MOF-5"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "9,10-anthracenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.467 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selective adsorption",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectively adsorbs O2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excludes N2 due to pore size constraints."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective adsorption based on pore aperture size matching gas molecule dimensions.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sorption tests",
+            "Performance Metrics": "Selectively adsorbs O2 and H2 but excludes N2 and CO."
+        },
+        "Other Information": {
+            "Additional Info": "Constructed using bulky organic ligands to achieve precise pore size for molecular sieving."
+        }
+    },
+    {
+        "Materials Name": "[[Ni(cyclam)]2-mtb]n",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.05 × 2.05 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "methanetetrabenzoate",
+            "cyclam"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.467 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selective adsorption",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbs O2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excludes N2 due to narrow pore windows."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving achieved via restricted window sizes.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption experiments",
+            "Performance Metrics": "Preferentially adsorbs H2 and O2 while excluding N2 and CH4."
+        },
+        "Other Information": {
+            "Additional Info": "Constructed using long ligands to induce interpenetration and reduce pore size."
+        }
+    },
+    {
+        "Materials Name": "PCN-17",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "~3.5 Å",
+            "Structure Type": "Double-interpenetrated (8,3)-nets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Yb3+"
+        ],
+        "Ligands": [
+            "4,4′,4″-S-triazine-2,4,6-triyl tribenzoate",
+            "sulfate anions"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.467 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selective adsorption",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs O2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excludes N2 due to small pore apertures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Restricted pore apertures differentiate gas adsorption based on molecular size.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "Selective adsorption of H2 and O2 over N2 and CO."
+        },
+        "Other Information": {
+            "Additional Info": "Metal cations play a subtle role in determining pore size for molecular sieving."
+        }
+    },
+    {
+        "Materials Name": "[Cu2(bza)4(pyz)]n",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2 Å (channel necks)",
+            "Structure Type": "Two types of 1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "benzoic acid",
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeability higher than larger gases like N2 and CH4."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability significantly lower than CO2."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability significantly lower than CO2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Anisotropic gas permeation due to confined pore channels.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Single-crystal membrane gas permeation tests",
+            "Performance Metrics": "CO2 permeability: 1.5 × 10−12 mol m m−2 s−1 Pa−1; N2 permeability: 1.1 × 10−13 mol m m−2 s−1 Pa−1."
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrates mobility differences of gases through narrow pore channels."
+        }
+    },
+    {
+        "Materials Name": "Cu(hfipbb)(H2hfipbb)0.5",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 × 3.5 Å",
+            "Structure Type": "3D network with small cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4′-(hexafluoroisopropylidene)bis(benzoic acid)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 diffuses faster than CH4."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 diffusion slower than CO2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Differentiation of gas adsorption rates based on diffusion barriers.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption kinetics",
+            "Performance Metrics": "CO2/CH4 selectivity: 25."
+        },
+        "Other Information": {
+            "Additional Info": "Highlights the importance of pore size engineering for kinetic separation."
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-3-Zn",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.84 Å",
+            "Structure Type": "Microporous framework"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake comparable to Mg-MOF-74."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to diffusion barriers."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Contracted pore apertures provide sufficient diffusion barriers.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption studies",
+            "Performance Metrics": "High CO2 uptake and differentiation of adsorption rates for CO2 and N2."
+        },
+        "Other Information": {
+            "Additional Info": "Short building blocks reduce pore size for enhanced gas separation."
+        }
+    },
+    {
+        "Materials Name": "NbOFFIVE-1-Ni",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.047 Å",
+            "Structure Type": "Isolated pore cavities"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "(NbOF5)2−"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.678 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selective exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene can penetrate the pores."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.3−5.118 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane excluded due to small pore apertures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Complete size-selective exclusion of propane from propylene.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-component gas adsorption, calorimetric studies, breakthrough tests",
+            "Performance Metrics": "C3H6/C3H8 separation factor up to 50."
+        },
+        "Other Information": {
+            "Additional Info": "Chemically stable MOF with ultramicroporous structure for molecular sieving."
+        }
+    },
+    {
+        "Materials Name": "MFU-4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.52 Å (small windows)",
+            "Structure Type": "Alternating large and small cavities"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1H,5H-benzo(1,2-d:4,5-d′)bistriazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Smaller effective size than H2",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "60 K, 10 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2 penetrates faster than H2 due to quantum effects."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Larger effective size than D2",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "60 K, 10 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 penetration slower than D2 due to quantum effects."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum confinement effect differentiates diffusion of hydrogen isotopes.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Advanced cryogenic thermal desorption spectroscopy (ACTDS), theoretical studies",
+            "Performance Metrics": "D2/H2 selectivity: up to 7.5 at 60 K and 10 mbar."
+        },
+        "Other Information": {
+            "Additional Info": "First MOF study reporting kinetic quantum sieving phenomena."
+        }
+    }
+]

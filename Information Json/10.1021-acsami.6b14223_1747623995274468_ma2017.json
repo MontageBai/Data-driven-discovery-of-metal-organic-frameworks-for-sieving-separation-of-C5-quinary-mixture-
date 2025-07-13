@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "benzene-1,4-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The UiO-66 nanoparticles are expected to exhibit a high selectivity of water over salts."
+                }
+            },
+            {
+                "Molecule Name": "sodium ion",
+                "Molecular Size": "7.16 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The sub-nanometer pores of UiO-66 nanoparticles block hydrated ions like Na+."
+                }
+            },
+            {
+                "Molecule Name": "chloride ion",
+                "Molecular Size": "6.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The sub-nanometer pores of UiO-66 nanoparticles block hydrated ions like Cl-."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "For TFN-U2 membrane (0.1 wt% UiO-66 loading), the water permeability coefficient increased by approximately 50% compared to unmodified TFC membrane with comparable salt rejection (~95%). Maximum water flux achieved was 36.7 LMH in PRO mode and 20.7 LMH in FO mode using DI water as feed and 1 M NaCl as draw solution."
+        },
+        "Other Information": {
+            "Additional Info": "Incorporation of UiO-66 nanoparticles significantly changed the membrane morphology and chemistry, leading to improved intrinsic separation properties due to molecular sieving and super-hydrophilic nature of UiO-66 particles."
+        }
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "MIL-101(NH2)@Au-Cys",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "Amino-functionalized terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "N-glycans",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Unique size-exclusion effect observed against BSA protein interferent."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-ToF MS",
+            "Performance Metrics": "At least 30 N-glycans enriched with good recovery (>80%) and reproducibility (<10%). Binding capacity: 167 mg g^-1."
+        },
+        "Other Information": {
+            "Additional Info": "High hydrophilicity and unique size-exclusion effect contribute to the selective enrichment of N-glycans from complex biosamples."
+        }
+    }
+]

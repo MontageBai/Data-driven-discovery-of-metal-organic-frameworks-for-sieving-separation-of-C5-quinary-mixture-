@@ -1,0 +1,92 @@
+MOF Name: FDC-0a
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for FDC-0a:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorption is "Temperature-dependent" via "Kinetic sieving" at 180 K.
+
+Inferred effective pore size of FDC-0a at 180 K is approximately 2.860 Å or slightly larger, allowing oxygen to pass with kinetic hindrance. The material is noted to be "Temperature-responsive" with "pore-aperture contraction and expansion". The target conditions for prediction are 298 K, which is different from the experimental 180 K. While the pore size might change with temperature, a pore that exhibits kinetic sieving for oxygen at 180 K suggests a relatively tight fit.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is substantially larger than the inferred effective pore size of FDC-0a at 180 K (~2.860 Å). Despite the temperature-responsive nature of FDC-0a, it is highly improbable that its pore aperture would expand sufficiently from 180 K to 298 K to accommodate a molecule more than twice the intermediate size of oxygen. Therefore, based on size exclusion, isoprene is predicted to be non-adsorbed under standard conditions.
+
+---
+
+MOF Name: FDC-0a
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for FDC-0a:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorption is "Temperature-dependent" via "Kinetic sieving" at 180 K.
+
+Inferred effective pore size of FDC-0a at 180 K is approximately 2.860 Å or slightly larger, allowing oxygen to pass with kinetic hindrance. The material is noted to be "Temperature-responsive" with "pore-aperture contraction and expansion". The target conditions for prediction are 298 K, which is different from the experimental 180 K. While the pore size might change with temperature, a pore that exhibits kinetic sieving for oxygen at 180 K suggests a relatively tight fit.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is substantially larger than the inferred effective pore size of FDC-0a at 180 K (~2.860 Å). Despite the temperature-responsive nature of FDC-0a, it is highly improbable that its pore aperture would expand sufficiently from 180 K to 298 K to accommodate a molecule significantly larger than oxygen. Therefore, based on size exclusion, cis-2-pentene is predicted to be non-adsorbed under standard conditions.
+
+---
+
+MOF Name: FDC-0a
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for FDC-0a:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorption is "Temperature-dependent" via "Kinetic sieving" at 180 K.
+
+Inferred effective pore size of FDC-0a at 180 K is approximately 2.860 Å or slightly larger, allowing oxygen to pass with kinetic hindrance. The material is noted to be "Temperature-responsive" with "pore-aperture contraction and expansion". The target conditions for prediction are 298 K, which is different from the experimental 180 K. While the pore size might change with temperature, a pore that exhibits kinetic sieving for oxygen at 180 K suggests a relatively tight fit.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is substantially larger than the inferred effective pore size of FDC-0a at 180 K (~2.860 Å). Despite the temperature-responsive nature of FDC-0a, it is highly improbable that its pore aperture would expand sufficiently from 180 K to 298 K to accommodate a molecule significantly larger than oxygen. Therefore, based on size exclusion, 1-pentene is predicted to be non-adsorbed under standard conditions.
+
+---
+
+MOF Name: FDC-0a
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for FDC-0a:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorption is "Temperature-dependent" via "Kinetic sieving" at 180 K.
+
+Inferred effective pore size of FDC-0a at 180 K is approximately 2.860 Å or slightly larger, allowing oxygen to pass with kinetic hindrance. The material is noted to be "Temperature-responsive" with "pore-aperture contraction and expansion". The target conditions for prediction are 298 K, which is different from the experimental 180 K. While the pore size might change with temperature, a pore that exhibits kinetic sieving for oxygen at 180 K suggests a relatively tight fit.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is substantially larger than the inferred effective pore size of FDC-0a at 180 K (~2.860 Å). Despite the temperature-responsive nature of FDC-0a, it is highly improbable that its pore aperture would expand sufficiently from 180 K to 298 K to accommodate a molecule significantly larger than oxygen. Therefore, based on size exclusion, trans-2-pentene is predicted to be non-adsorbed under standard conditions.
+
+---
+
+MOF Name: FDC-0a
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for FDC-0a:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorption is "Temperature-dependent" via "Kinetic sieving" at 180 K.
+
+Inferred effective pore size of FDC-0a at 180 K is approximately 2.860 Å or slightly larger, allowing oxygen to pass with kinetic hindrance. The material is noted to be "Temperature-responsive" with "pore-aperture contraction and expansion". The target conditions for prediction are 298 K, which is different from the experimental 180 K. While the pore size might change with temperature, a pore that exhibits kinetic sieving for oxygen at 180 K suggests a relatively tight fit.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is substantially larger than the inferred effective pore size of FDC-0a at 180 K (~2.860 Å). Despite the temperature-responsive nature of FDC-0a, it is highly improbable that its pore aperture would expand sufficiently from 180 K to 298 K to accommodate a molecule significantly larger than oxygen. Therefore, based on size exclusion, n-pentane is predicted to be non-adsorbed under standard conditions.

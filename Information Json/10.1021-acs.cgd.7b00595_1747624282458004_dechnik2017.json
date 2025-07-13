@@ -1,0 +1,244 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (pore aperture)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, mixed gas permeation with CO2/N2 (20/80) feed",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced CO2 selectivity and permeability in Pebax1657/ZIF-7 MMMs."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, mixed gas permeation with CO2/CH4 (50/50) feed",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-8 exhibits molecular sieving effect for CO2 over CH4."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on pore aperture size",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Mixed gas permeation experiments",
+            "Performance Metrics": "CO2 permeability: up to 145 Barrer, CO2/N2 selectivity: up to 97, CO2/CH4 selectivity: up to 30"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 incorporated into Pebax1657 matrix showed enhanced CO2 separation performance."
+        }
+    },
+    {
+        "Materials Name": "UiO-66(Zr)-ABA",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "benzoic acid",
+            "aminobenzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport",
+                "Other Information": {
+                    "Test Conditions": "35 °C, mixed gas permeation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Improved CO2/CH4 selectivity and permeability compared to unmodified UiO-66(Zr)."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, mixed gas permeation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Better performance attributed to post-synthetic modification with aminobenzoic acid."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Post-synthetically modified pore environment enhances CO2 affinity",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Mixed gas permeation experiments",
+            "Performance Metrics": "CO2/CH4 selectivity: 48, CO2 permeability: 540% higher than Matrimid"
+        },
+        "Other Information": {
+            "Additional Info": "Matrimid/UiO-66(Zr)-ABA MMM outperformed other modifications."
+        }
+    },
+    {
+        "Materials Name": "Zn(pyrz)2(SiF6)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å (diagonal dimension of one-dimensional channels)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "hexafluorosilicate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, mixed gas permeation with CO2/CH4 (50/50) feed",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Submicron particles exhibited improved CO2/CH4 separation performance."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, mixed gas permeation with CO2/CH4 (50/50) feed",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Submicron Zn(pyrz)2(SiF6) showed better performance than micrometer-sized particles."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Narrow pore size distribution enables selective CO2 passage",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Mixed gas permeation experiments",
+            "Performance Metrics": "CO2 permeability: 620 Barrer, CO2/CH4 selectivity: 27 (submicron), CO2/CH4 selectivity: 23 (micrometer)"
+        },
+        "Other Information": {
+            "Additional Info": "Submicron particles synthesized sonochemically showed superior performance."
+        }
+    },
+    {
+        "Materials Name": "(OH)2-UiO-66(Hf)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Hf4+"
+        ],
+        "Ligands": [
+            "biphenyl-4,4'-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "5 bar, H2/CO2 gas mixture",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Optimum loading at 10 wt % demonstrated high H2/CO2 selectivity."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "5 bar, H2/CO2 gas mixture",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong CO2 adsorption sites contribute to H2/CO2 separation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective adsorption sites enhance H2 transport",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "H2 permeability: 8 Barrer, H2/CO2 selectivity: 19 at 10 wt % loading"
+        },
+        "Other Information": {
+            "Additional Info": "Exceeds 2008 Robeson upper bound for H2/CO2 separation."
+        }
+    },
+    {
+        "Materials Name": "MIL-101(Cr)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "mtc",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated transport",
+                "Other Information": {
+                    "Test Conditions": "Humidified gas stream, 30 °C, CO2/CH4 (30/70), CO2/N2 (20/80)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Functionalization with PEI improves CO2 uptake and transport."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Humidified gas stream, 30 °C, CO2/CH4 (30/70), CO2/N2 (20/80)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "PEI@MIL-101(Cr) shows enhanced CO2/CH4 selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Hydrophilic groups facilitate CO2 transport",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Mixed gas permeation experiments",
+            "Performance Metrics": "CO2 permeability: 2490 Barrer, CO2/CH4 selectivity: 72, CO2/N2 selectivity: 80 at 40 wt % loading"
+        },
+        "Other Information": {
+            "Additional Info": "Water content correlates strongly with CO2 selectivity."
+        }
+    }
+]

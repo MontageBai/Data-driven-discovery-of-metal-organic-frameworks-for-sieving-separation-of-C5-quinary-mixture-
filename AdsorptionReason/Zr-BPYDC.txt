@@ -1,0 +1,80 @@
+MOF Name: Zr-BPYDC
+
+**Inferred Effective Pore Size of Zr-BPYDC:**
+
+From the experimental data provided for Zr-BPYDC:
+*   **propane:** 6.552×4.354×3.970 → Intermediate = **4.354 Å** | Adsorbed: Yes
+*   **propylene:** 6.257×5.051×3.961 → Intermediate = **5.051 Å** | Adsorbed: No, Reason: "Preferential adsorption of C3H8"
+
+Based on this data:
+1.  Zr-BPYDC successfully adsorbs propane (intermediate dimension = 4.354 Å). This indicates that the MOF's pores are at least large enough to accommodate molecules of this size.
+2.  Zr-BPYDC does *not* adsorb propylene (intermediate dimension = 5.051 Å). Crucially, the reason stated is "Preferential adsorption of C3H8", not "Size exclusion". This implies that while propylene *might* be able to physically enter the pores, its adsorption is kinetically hindered or outcompeted by propane under the experimental conditions. This suggests that the effective "adsorption window" of Zr-BPYDC is quite specific and acts as a kinetic sieving mechanism, effectively limiting practical adsorption of molecules larger than propane, even if not strictly size-excluded.
+
+Therefore, for the purpose of effective adsorption under the given conditions, the inferred functional pore size of Zr-BPYDC allows molecules with an intermediate dimension up to approximately **4.354 Å**, but effectively restricts or significantly hinders molecules at or above **5.051 Å**. This means molecules with intermediate dimensions between 4.354 Å and 5.051 Å may have a reduced likelihood or rate of adsorption compared to propane.
+
+---
+
+**Evaluating Target Guest Molecules:**
+
+**MOF Name: Zr-BPYDC**
+**Guest Molecule: isoprene**
+
+*   Isoprene Dimensions: 7.746×6.093×3.963 → Intermediate = **6.093 Å**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data, Zr-BPYDC adsorbs propane (intermediate = 4.354 Å) but does not adsorb propylene (intermediate = 5.051 Å) due to preferential adsorption/kinetic sieving. This implies that the effective practical adsorption limit for this MOF is below 5.051 Å.
+Isoprene's intermediate dimension (6.093 Å) significantly exceeds this inferred effective adsorption limit (5.051 Å). Therefore, it is highly unlikely to be effectively adsorbed by Zr-BPYDC under similar conditions.
+
+---
+
+**MOF Name: Zr-BPYDC**
+**Guest Molecule: cis-2-pentene**
+
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 → Intermediate = **5.572 Å**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data, Zr-BPYDC adsorbs propane (intermediate = 4.354 Å) but does not adsorb propylene (intermediate = 5.051 Å) due to preferential adsorption/kinetic sieving. This implies that the effective practical adsorption limit for this MOF is below 5.051 Å.
+cis-2-pentene's intermediate dimension (5.572 Å) exceeds this inferred effective adsorption limit (5.051 Å). Therefore, it is highly unlikely to be effectively adsorbed by Zr-BPYDC under similar conditions.
+
+---
+
+**MOF Name: Zr-BPYDC**
+**Guest Molecule: 1-pentene**
+
+*   1-pentene Dimensions: 8.847×4.995×4.897 → Intermediate = **4.995 Å**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data, Zr-BPYDC adsorbs propane (intermediate = 4.354 Å) but does not adsorb propylene (intermediate = 5.051 Å) due to preferential adsorption/kinetic sieving. This implies that the effective practical adsorption limit for this MOF is below 5.051 Å.
+1-pentene's intermediate dimension (4.995 Å) is larger than propane but still *below* the 5.051 Å intermediate dimension of propylene, which was kinetically limited. Given it's within this range, and not explicitly larger than a molecule that was functionally excluded, it is predicted that 1-pentene *can* be adsorbed by Zr-BPYDC.
+
+---
+
+**MOF Name: Zr-BPYDC**
+**Guest Molecule: trans-2-pentene**
+
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 → Intermediate = **4.733 Å**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data, Zr-BPYDC adsorbs propane (intermediate = 4.354 Å) but does not adsorb propylene (intermediate = 5.051 Å) due to preferential adsorption/kinetic sieving. This implies that the effective practical adsorption limit for this MOF is below 5.051 Å.
+trans-2-pentene's intermediate dimension (4.733 Å) is larger than propane but still *below* the 5.051 Å intermediate dimension of propylene, which was kinetically limited. Given it's within this range, and not explicitly larger than a molecule that was functionally excluded, it is predicted that trans-2-pentene *can* be adsorbed by Zr-BPYDC.
+
+---
+
+**MOF Name: Zr-BPYDC**
+**Guest Molecule: n-pentane**
+
+*   n-pentane Dimensions: 9.118×4.364×3.969 → Intermediate = **4.364 Å**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data, Zr-BPYDC adsorbs propane (intermediate = 4.354 Å).
+n-pentane's intermediate dimension (4.364 Å) is very close to and just slightly larger than propane's (4.354 Å), which is known to be adsorbed by Zr-BPYDC. It is well within the inferred effective adsorption range of Zr-BPYDC. Therefore, it is predicted that n-pentane *can* be adsorbed by Zr-BPYDC.

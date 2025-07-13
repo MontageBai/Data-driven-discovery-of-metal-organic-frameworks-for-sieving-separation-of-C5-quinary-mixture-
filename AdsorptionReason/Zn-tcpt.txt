@@ -1,0 +1,112 @@
+MOF Name: Zn-tcpt
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-tcpt:
+- 3-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.008 Å | Adsorbed (Reason: Size-exclusion based separation)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Not Adsorbed (Reason: Size-exclusion based separation)
+
+Inferred effective pore size of Zn-tcpt:
+Based on the experimental data, the MOF can adsorb molecules with an intermediate dimension of 6.008 Å, but it cannot adsorb molecules with an intermediate dimension of 6.545 Å due to size exclusion. Therefore, the inferred effective pore size of Zn-tcpt lies in the range [6.008 Å, 6.545 Å), meaning it is at least 6.008 Å but strictly less than 6.545 Å.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is larger than the largest experimentally proven adsorbed molecule (3-methylpentane, 6.008 Å), although it is smaller than the smallest non-adsorbed molecule (2,2-dimethylbutane, 6.545 Å). Since the adsorption mechanism is described as "Size-exclusion based separation," this implies a relatively sharp cutoff. As isoprene is dimensionally larger than the known adsorbed molecule (6.008 Å), and given the strict nature of size exclusion, it is predicted that isoprene would not be able to pass through the pore, as it exceeds the experimentally confirmed passing threshold.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn-tcpt
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-tcpt:
+- 3-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.008 Å | Adsorbed (Reason: Size-exclusion based separation)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Not Adsorbed (Reason: Size-exclusion based separation)
+
+Inferred effective pore size of Zn-tcpt:
+The MOF can adsorb molecules with an intermediate dimension of 6.008 Å, but not 6.545 Å due to size exclusion. Thus, the effective pore size is in the range [6.008 Å, 6.545 Å).
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 Å → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is less than the intermediate dimension of 3-methylpentane (6.008 Å), which was experimentally shown to be adsorbed by Zn-tcpt, it is expected to be adsorbed.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: Zn-tcpt
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-tcpt:
+- 3-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.008 Å | Adsorbed (Reason: Size-exclusion based separation)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Not Adsorbed (Reason: Size-exclusion based separation)
+
+Inferred effective pore size of Zn-tcpt:
+The MOF can adsorb molecules with an intermediate dimension of 6.008 Å, but not 6.545 Å due to size exclusion. Thus, the effective pore size is in the range [6.008 Å, 6.545 Å).
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is less than the intermediate dimension of 3-methylpentane (6.008 Å), which was experimentally shown to be adsorbed by Zn-tcpt, it is expected to be adsorbed.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: Zn-tcpt
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-tcpt:
+- 3-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.008 Å | Adsorbed (Reason: Size-exclusion based separation)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Not Adsorbed (Reason: Size-exclusion based separation)
+
+Inferred effective pore size of Zn-tcpt:
+The MOF can adsorb molecules with an intermediate dimension of 6.008 Å, but not 6.545 Å due to size exclusion. Thus, the effective pore size is in the range [6.008 Å, 6.545 Å).
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 Å → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is less than the intermediate dimension of 3-methylpentane (6.008 Å), which was experimentally shown to be adsorbed by Zn-tcpt, it is expected to be adsorbed.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: Zn-tcpt
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn-tcpt:
+- 3-methylpentane: 9.023×6.376×4.923 Å → Intermediate = 6.008 Å | Adsorbed (Reason: Size-exclusion based separation)
+- 2,2-dimethylbutane: 7.829×5.502×6.545 Å → Intermediate = 6.545 Å | Not Adsorbed (Reason: Size-exclusion based separation)
+
+Inferred effective pore size of Zn-tcpt:
+The MOF can adsorb molecules with an intermediate dimension of 6.008 Å, but not 6.545 Å due to size exclusion. Thus, the effective pore size is in the range [6.008 Å, 6.545 Å).
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is less than the intermediate dimension of 3-methylpentane (6.008 Å), which was experimentally shown to be adsorbed by Zn-tcpt, it is expected to be adsorbed.
+
+Therefore, the result is: **Can Adsorb**

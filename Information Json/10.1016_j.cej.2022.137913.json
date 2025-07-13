@@ -1,0 +1,243 @@
+[
+    {
+        "Materials Name": "Ca-Ag-LTA",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.92 Å (average, after Ag+ exchange)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "LTA",
+        "Metal Nodes": [
+            "Ag+",
+            "Ca2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High C3H6 uptake of 2.37 mmol/g with packing density of ~77% liquid C3H6."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption (<0.05 mmol/g)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic π-complexation and optimal pore size.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Dynamic C3H6 uptake: 32.55 cm³/g; polymer-grade C3H6 (99.67%) obtained after He purging."
+        },
+        "Other Information": {
+            "Additional Info": "Hydrophobic modification with PDS improved performance under humid conditions."
+        }
+    },
+    {
+        "Materials Name": "0.01Ag-LTA",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.92 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "LTA",
+        "Metal Nodes": [
+            "Ag+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6 adsorption uptake: 1.79 mmol/g."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Complete exclusion of C3H8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Physical structural deformation of C3H6 induced by Ag+ at pore window.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and breakthrough experiments",
+            "Performance Metrics": "Absolute molecular sieving achieved for C3H6/C3H8."
+        },
+        "Other Information": {
+            "Additional Info": "Ag+ induces deformation of C3H6 to enable passage through narrow pores."
+        }
+    },
+    {
+        "Materials Name": "LTA (parent)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.94 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "LTA",
+        "Metal Nodes": [
+            "Na+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No adsorption observed."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No adsorption observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms",
+            "Performance Metrics": "No adsorption of either C3H6 or C3H8."
+        },
+        "Other Information": {
+            "Additional Info": "Parent LTA zeolite does not admit C3H6 or C3H8."
+        }
+    },
+    {
+        "Materials Name": "Ag-5A",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": ">5 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ag+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H6 uptake: 2.48 mmol/g."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H8 uptake: 1.72 mmol/g; less competitive selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Pore size sufficient for both C3H6 and C3H8.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms",
+            "Performance Metrics": "High uptake for both C3H6 and C3H8; low selectivity."
+        },
+        "Other Information": {
+            "Additional Info": "Not suitable for exclusive C3H6/C3H8 separation."
+        }
+    },
+    {
+        "Materials Name": "Ag-3A",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "~3 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ag+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pore size too small for C3H6 admission."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pore size too small for C3H8 admission."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Pore size smaller than kinetic diameters of both C3H6 and C3H8.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms",
+            "Performance Metrics": "No adsorption of either C3H6 or C3H8."
+        },
+        "Other Information": {
+            "Additional Info": "Not suitable for C3H6/C3H8 separation due to small pore size."
+        }
+    }
+]

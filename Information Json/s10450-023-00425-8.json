@@ -1,0 +1,147 @@
+[
+    {
+        "Materials Name": "Li8Na4A",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å (8MR windows)",
+            "Structure Type": "LTA zeolite with 6MR and 8MR windows"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Li+",
+            "Na+"
+        ],
+        "Ligands": [
+            "Framework oxygen atoms"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "39–92 K, pressures up to 900 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong interactions with cations influence selectivity."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "39–92 K, pressures up to 900 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong interactions with cations influence selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with guest-cation interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas adsorption isotherms and coadsorption measurements",
+            "Performance Metrics": "D2/H2 selectivity: ~7.4 at 39 K"
+        },
+        "Other Information": {
+            "Additional Info": "Partially exchanged material; Na+ occupies 8MR windows, Li+ in 6MR sites."
+        }
+    },
+    {
+        "Materials Name": "LiA",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å (8MR windows)",
+            "Structure Type": "LTA zeolite with 6MR, 8MR, and 4MR windows"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Li+"
+        ],
+        "Ligands": [
+            "Framework oxygen atoms"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "39–92 K, pressures up to 900 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Extremely strong adsorption sites (~15 kJ/mol heat of adsorption)."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "39–92 K, pressures up to 900 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Extremely strong adsorption sites (~13.4 kJ/mol heat of adsorption)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with guest-cation interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas adsorption isotherms and coadsorption measurements",
+            "Performance Metrics": "D2/H2 selectivity: ~11 at 39 K"
+        },
+        "Other Information": {
+            "Additional Info": "Fully exchanged material; Li+ occupies 8MR, 6MR, and 4MR sites."
+        }
+    },
+    {
+        "Materials Name": "NaA",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 Å (8MR windows)",
+            "Structure Type": "LTA zeolite with 6MR, 8MR, and 4MR windows"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Na+"
+        ],
+        "Ligands": [
+            "Framework oxygen atoms"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "39–92 K, pressures up to 900 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highly exposed Na+ cations provide strong guest-cation interactions."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "39–92 K, pressures up to 900 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highly exposed Na+ cations provide strong guest-cation interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with guest-cation interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas adsorption isotherms and coadsorption measurements",
+            "Performance Metrics": "D2/H2 selectivity: ~16.5 at 39 K"
+        },
+        "Other Information": {
+            "Additional Info": "Na+ occupies 8MR, 6MR, and 4MR sites; optimal balance of aperture size and interaction strength."
+        }
+    }
+]

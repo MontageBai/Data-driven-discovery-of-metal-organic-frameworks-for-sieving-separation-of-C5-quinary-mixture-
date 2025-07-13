@@ -1,0 +1,164 @@
+[
+    {
+        "Materials Name": "Y-fum-fcu-MOF",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "4.7 Å (aperture size)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Y3+"
+        ],
+        "Ligands": [
+            "fumarate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 55 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The Y-fum-fcu-MOF allows H2S to pass through but hinders CH4 due to the constrained aperture size."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 55 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeability decreases and then increases with feed pressure due to pressure-dependent solubility and diffusivity."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 55 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The aperture size (~4.7 Å) of Y-fum-fcu-MOF prevents CH4 from passing through while allowing smaller molecules like H2S and CO2."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "75 °C, 1.72 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The n-butane can pass through the triangular window (~4.7 Å), while i-butane is hindered."
+                }
+            },
+            {
+                "Molecule Name": "iso-butane",
+                "Molecular Size": "5.0 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "75 °C, 1.72 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The aperture size (~4.7 Å) excludes i-butane, allowing for molecular sieving of n-butane/i-butane mixtures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2S/CH4 selectivity: >40, nC4/iC4 selectivity: >200"
+        },
+        "Other Information": {
+            "Additional Info": "The Y-fum-fcu-MOF exhibits excellent stability under high-pressure and long-term testing conditions."
+        }
+    },
+    {
+        "Materials Name": "Eu-naph-fcu-MOF",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "5.0 Å (maximum opening size)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Eu3+"
+        ],
+        "Ligands": [
+            "1,4-naphthalenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 55 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The flexible aperture size (~5.0 Å) allows H2S to pass through."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 55 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 passes through due to the larger aperture size compared to Y-fum-fcu-MOF."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 55 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The flexible aperture size (~5.0 Å) allows CH4 to pass through, unlike in Y-fum-fcu-MOF."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "4.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "75 °C, 1.72 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Both n-butane and i-butane can freely enter the pore system through the relatively open triangular window."
+                }
+            },
+            {
+                "Molecule Name": "iso-butane",
+                "Molecular Size": "5.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "75 °C, 1.72 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The larger aperture size (~5.0 Å) does not provide a size cut-off for i-butane, unlike Y-fum-fcu-MOF."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Flexible aperture hinders size-based discrimination",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Lower diffusivity than Y-fum-fcu-MOF, no significant nC4/iC4 selectivity"
+        },
+        "Other Information": {
+            "Additional Info": "The bulkier naphthalene linker provides a flexible aperture, which reduces diffusion selectivity compared to Y-fum-fcu-MOF."
+        }
+    }
+]

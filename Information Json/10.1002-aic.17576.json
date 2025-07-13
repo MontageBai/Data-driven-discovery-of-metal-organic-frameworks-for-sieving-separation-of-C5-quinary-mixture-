@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "ZIF-8-EA",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2.9–3.3 Å, 1.2 nm (sodalite cage)",
+            "Structure Type": "Partially amorphous with ultra-microporous phase"
+        },
+        "Topology": "sodal",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4-bromoimidazate",
+            "2-methylimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: 13.4 × 10⁻⁸ mol m⁻² s⁻¹ Pa⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance significantly reduced due to smaller transport channels."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 permeance drastically reduced after partial amorphization."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 permeance significantly reduced compared to original ZIF-8 membrane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Reduction of transport pathways to 2.9–3.3 Å through partial amorphization and linker exchange.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments, N2 adsorption-desorption isotherms, FTIR, XRD, TEM, SEM",
+            "Performance Metrics": "H2/CO2 selectivity: 2459, H2 permeance: 13.4 × 10⁻⁸ mol m⁻² s⁻¹ Pa⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "Partial amorphization induced by vapor linker exchange with 4-bromoimidazole; amorphous phase reduces grain boundary defects and enhances separation performance."
+        }
+    }
+]

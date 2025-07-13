@@ -1,0 +1,78 @@
+**MOF Name: SIFSIX-3-Ni**
+
+**Inferred Effective Pore Size of SIFSIX-3-Ni:**
+
+From the experimental data for SIFSIX-3-Ni:
+
+*   **Adsorbed Molecules:**
+    *   carbon dioxide (CO2): 5.198×3.200×3.200 Å → Intermediate = **3.200 Å** (Adsorbed)
+    *   propane: 6.552×4.354×3.970 Å → Intermediate = **4.354 Å** (Adsorbed, Kinetic sieving)
+    *   propylene: 6.257×5.051×3.961 Å → Intermediate = **5.051 Å** (Adsorbed, Kinetic sieving)
+
+*   **Non-Adsorbed Molecules:**
+    *   acetylene: 5.538×3.200×3.200 Å → Intermediate = **3.200 Å** (Not Adsorbed)
+
+**Analysis of Inference:**
+The non-adsorption of acetylene (intermediate dimension 3.200 Å) while carbon dioxide (also intermediate dimension 3.200 Å) is adsorbed indicates that the non-adsorption of acetylene is not due to its intermediate dimension exceeding the pore size, but likely due to specific molecular shape, orientation, or kinetic hindrance (a kinetic sieving effect). Therefore, acetylene's non-adsorption does not define the lower bound for *size exclusion* based on intermediate dimension.
+
+Based on the largest successfully adsorbed molecule, propylene (intermediate dimension 5.051 Å), the effective pore size of SIFSIX-3-Ni is inferred to be at least **5.051 Å**. No molecule larger than 5.051 Å is reported as non-adsorbed due to size exclusion in the provided data, so an explicit upper bound for the pore size (due to size exclusion) cannot be strictly defined. However, it is generally understood that MOF pores have a maximum accessible dimension. For the purpose of prediction, molecules with intermediate dimensions significantly larger than the largest known adsorbed molecule are considered unlikely to adsorb due to size restrictions.
+
+---
+
+**MOF Name: SIFSIX-3-Ni**
+**Guest Molecule: isoprene**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+*   The MOF’s inferred effective pore size is at least **5.051 Å** (based on the adsorption of propylene).
+*   Isoprene Dimensions: 7.746×6.093×3.963 Å → Intermediate = **6.093 Å**.
+*   Conclusion: Since isoprene's intermediate dimension (6.093 Å) is larger than the largest intermediate dimension of a known adsorbed molecule (propylene, 5.051 Å), it is predicted that isoprene will be too large to pass through the pores of SIFSIX-3-Ni.
+
+---
+
+**MOF Name: SIFSIX-3-Ni**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+*   The MOF’s inferred effective pore size is at least **5.051 Å** (based on the adsorption of propylene).
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 Å → Intermediate = **5.572 Å**.
+*   Conclusion: Since cis-2-pentene's intermediate dimension (5.572 Å) is larger than the largest intermediate dimension of a known adsorbed molecule (propylene, 5.051 Å), it is predicted that cis-2-pentene will be too large to pass through the pores of SIFSIX-3-Ni.
+
+---
+
+**MOF Name: SIFSIX-3-Ni**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: **Can Adsorb**
+
+Detailed Reasoning:
+*   The MOF’s inferred effective pore size is at least **5.051 Å** (based on the adsorption of propylene).
+*   1-pentene Dimensions: 8.847×4.995×4.897 Å → Intermediate = **4.995 Å**.
+*   Conclusion: Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the largest intermediate dimension of a known adsorbed molecule (propylene, 5.051 Å), it is predicted that 1-pentene can be adsorbed by SIFSIX-3-Ni.
+
+---
+
+**MOF Name: SIFSIX-3-Ni**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: **Can Adsorb**
+
+Detailed Reasoning:
+*   The MOF’s inferred effective pore size is at least **5.051 Å** (based on the adsorption of propylene).
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 Å → Intermediate = **4.733 Å**.
+*   Conclusion: Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the largest intermediate dimension of a known adsorbed molecule (propylene, 5.051 Å), it is predicted that trans-2-pentene can be adsorbed by SIFSIX-3-Ni.
+
+---
+
+**MOF Name: SIFSIX-3-Ni**
+**Guest Molecule: n-pentane**
+
+Predicted Result: **Can Adsorb**
+
+Detailed Reasoning:
+*   The MOF’s inferred effective pore size is at least **5.051 Å** (based on the adsorption of propylene).
+*   n-pentane Dimensions: 9.118×4.364×3.969 Å → Intermediate = **4.364 Å**.
+*   Conclusion: Since n-pentane's intermediate dimension (4.364 Å) is smaller than the largest intermediate dimension of a known adsorbed molecule (propylene, 5.051 Å), it is predicted that n-pentane can be adsorbed by SIFSIX-3-Ni.

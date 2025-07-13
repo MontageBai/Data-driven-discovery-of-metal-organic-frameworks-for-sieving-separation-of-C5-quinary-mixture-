@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "UiO-66-NH2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.7 nm (average for UiO-66-NH2-12 and UiO-66-NH2-24), 1.2 nm (average for UN-6)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr cluster"
+        ],
+        "Ligands": [
+            "2-Aminoterephthalic acid (2-NH2-BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.716 nm (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "6 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate increased with incorporation of UiO-66-NH2"
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.856 nm (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "6 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher rejection rates observed due to electrostatic repulsion"
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.276 nm (diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "6 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water permeability enhanced by UiO-66-NH2 incorporation"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Nanofiltration performance testing using cross-flow equipment",
+            "Performance Metrics": "PWP: 11.55 L m−2 h−1 bar−1, Na2SO4 rejection: 92.97%"
+        },
+        "Other Information": {
+            "Additional Info": "In-situ growth method used to prevent particle agglomeration; IP process improved bonding between PA layer and substrate"
+        }
+    }
+]

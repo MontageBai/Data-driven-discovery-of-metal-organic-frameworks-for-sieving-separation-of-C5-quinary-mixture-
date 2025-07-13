@@ -1,0 +1,147 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4~3.5 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption due to stronger van der Waals and CH-π interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane exhibits higher uptake compared to ethylene."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption but weaker interaction compared to ethane",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylene is less strongly adsorbed than ethane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential adsorption of ethane over ethylene due to stronger host-guest interactions.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "1H MAS NMR spectroscopy, breakthrough experiments, computational density distributions",
+            "Performance Metrics": "IAST selectivity for C2H6/C2H4: 1.66 at 1 bar, separation factor: 1.36"
+        },
+        "Other Information": {
+            "Additional Info": "Stronger van der Waals and CH-π interactions favor ethane adsorption."
+        }
+    },
+    {
+        "Materials Name": "ZIF-90",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4~3.5 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazole-2-carboxaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Comparable accessibility as ethylene",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No preferential adsorption observed between ethane and ethylene."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Comparable accessibility as ethane",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No preferential adsorption observed between ethane and ethylene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "No significant preferential adsorption between ethane and ethylene.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "1H MAS NMR spectroscopy, breakthrough experiments, computational density distributions",
+            "Performance Metrics": "IAST selectivity for C2H6/C2H4: 1.38 at 1 bar, separation factor: 1.01"
+        },
+        "Other Information": {
+            "Additional Info": "C−H···O interaction between ethylene and aldehyde group reduces selectivity."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8-90",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4~3.5 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "imidazole-2-carboxaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption due to stronger van der Waals and CH-π interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane exhibits higher uptake compared to ethylene."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption but weaker interaction compared to ethane",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylene is less strongly adsorbed than ethane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential adsorption of ethane over ethylene due to stronger host-guest interactions.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "1H MAS NMR spectroscopy, breakthrough experiments, computational density distributions",
+            "Performance Metrics": "IAST selectivity for C2H6/C2H4: 1.52 at 1 bar, separation factor: 1.06"
+        },
+        "Other Information": {
+            "Additional Info": "Stronger van der Waals and CH-π interactions favor ethane adsorption."
+        }
+    }
+]

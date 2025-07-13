@@ -1,0 +1,182 @@
+[
+    {
+        "MOF Name": "ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Crystalline microporous shell"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [],
+        "Sieving Mechanism": "Not Reported",
+        "Experimental Validation": {
+            "Method": "HPLC separation",
+            "Performance Metrics": "Column efficiency up to 19000 plates/m for separation of aromatic compounds"
+        },
+        "Other Information": {
+            "Additional Info": "Core-shell particle with silica core; nanostructured ZIF-8 on silica microspheres; synthesis involved seeded growth technique and carboxylic acid functionality; crystal morphology influenced by surface roughness, functionality, and solvent type."
+        }
+    },
+    {
+        "MOF Name": "UiO-66 (Zr)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Crystalline pore structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [],
+        "Sieving Mechanism": "Not Reported",
+        "Experimental Validation": {
+            "Method": "LC separation",
+            "Performance Metrics": "Demonstrating unique selectivity of MOF for small aromatic molecule"
+        },
+        "Other Information": {
+            "Additional Info": "Silica-UiO-66 composite prepared by hydrothermal synthesis onto silica particles at 120°C; microspheres could not be isolated from UiO-66 (Zr) nanocrystals."
+        }
+    },
+    {
+        "MOF Name": "HKUST-1",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Crystalline microporous shell"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "xylene isomers",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Shape-selective diffusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation observed, but with relatively poor resolution and low efficiency. The original SOS column itself could not separate the xylene isomers, suggesting the HKUST-1 coating enabled the separation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Shape-selective molecular sieving",
+        "Experimental Validation": {
+            "Method": "HPLC column packing",
+            "Performance Metrics": "Relatively poor resolution and low efficiency for xylene isomer separation"
+        },
+        "Other Information": {
+            "Additional Info": "SOS@HKUST-1 composite microspheres formed on SOS particles; surface functionality was critical for interaction, adherence, and coverage; crystal morphology influenced by surface roughness, functionality, and solvent type."
+        }
+    },
+    {
+        "MOF Name": "MIL-100(Fe)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Crystalline microporous shell"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [],
+        "Sieving Mechanism": "Not Reported",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Magnetic responsive metal-organic framework nanosphere with core-shell structure; Fe3O4 nanoparticles used as scaffold for shell growth; prepared via step-by-step assembly growth strategy using ethanolic solutions of metal source and ligand."
+        }
+    },
+    {
+        "MOF Name": "MIL-68(Al)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [],
+        "Sieving Mechanism": "Not Reported",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Synthesis onto silica at 403 K; particle fusion and random growth of MOF crystals observed."
+        }
+    },
+    {
+        "MOF Name": "UiO-67 (Zr)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [],
+        "Sieving Mechanism": "Not Reported",
+        "Experimental Validation": {
+            "Method": "HPLC column packing",
+            "Performance Metrics": "Selectivity of the MOF molecules was illustrated, but peak shape was poor for separation of polar aromatic molecules"
+        },
+        "Other Information": {
+            "Additional Info": "Coated onto composite magnetic silica particles as a scaffold; step-by-step coating utilized."
+        }
+    },
+    {
+        "MOF Name": "(R)-CuMOF-1",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [],
+        "Sieving Mechanism": "Not Reported",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Chiral MOF prepared on silica; control growth of crystals on the surface was an issue, affecting mass transfer kinetics and resulting in broader peaks."
+        }
+    }
+]

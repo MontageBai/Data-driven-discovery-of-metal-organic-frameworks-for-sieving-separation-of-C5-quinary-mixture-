@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "SGC-900",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.78 Å (centered distribution)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.68 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 2.21 mmol/g"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.11 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 0.58 mmol/g"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Pore shrinkage at sub-angstrom level during graphitization evolution",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Adsorption isotherms, Molecular simulation",
+            "Performance Metrics": "C3H6/C3H8 selectivity: 33.5, C3H6 uptake: 2.21 mmol/g, C3H6/C3H8 uptake ratio: 3.81"
+        },
+        "Other Information": {
+            "Additional Info": "First granular carbon material with remarkable separation selectivity for C3H6/C3H8"
+        }
+    }
+]

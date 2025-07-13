@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2.9 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn"
+        ],
+        "Ligands": [
+            "phenylimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "300 K, driving pressure varied from 20 to 80 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 flux increases with increasing pressure and temperature; H2 molecules exhibit preferential orientation parallel to phenylimidazolate building blocks."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "300 K, driving pressure varied from 20 to 80 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 is blocked by small pore apertures of ZIF-7."
+                }
+            },
+            {
+                "Molecule Name": "carbon monoxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "300 K, driving pressure varied from 20 to 80 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO is blocked by small pore apertures of ZIF-7."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "300 K, driving pressure varied from 20 to 80 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 is blocked by small pore apertures of ZIF-7."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "size exclusion",
+                "Other Information": {
+                    "Test Conditions": "300 K, driving pressure varied from 20 to 80 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2O is blocked by small pore apertures of ZIF-7 but exhibits strong interactions at the membrane interface."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on small apertures (2.9 Å) in ZIF-7 that allow only H2 to pass through.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Molecular dynamics simulation",
+            "Performance Metrics": "H2 permeance: 2.0 to 5.3 × 10^-8 mol m^-2 s^-1 Pa^-1; Activation energy for H2 permeation decreases with increasing driving pressure (4.50–10.09 kJ/mol)."
+        },
+        "Other Information": {
+            "Additional Info": "Simulation suggests ZIF-7 membrane can be used at high temperatures and pressures with good durability due to its thermal and mechanical stability."
+        }
+    }
+]

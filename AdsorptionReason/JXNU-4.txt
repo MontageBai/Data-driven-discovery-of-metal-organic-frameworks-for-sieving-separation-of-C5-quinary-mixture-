@@ -1,0 +1,109 @@
+To determine whether JXNU-4 can adsorb the specified guest molecules, we first analyze the provided experimental data for JXNU-4 and the intermediate dimensions of the probe molecules.
+
+**Analysis of JXNU-4 Experimental Data:**
+
+*   **Propane:** 6.552×4.354×3.970 → **Intermediate = 4.354 Å** | **Adsorbed: Yes**
+*   **Ethane:** 4.731×4.175×4.170 → **Intermediate = 4.175 Å** | **Adsorbed: Yes**
+*   **Methane:** 3.877×3.849×3.918 → **Intermediate = 3.877 Å** | **Adsorbed: No** (Reason: Size exclusion)
+
+**Inference of JXNU-4's Effective Adsorption Window:**
+
+The experimental data for JXNU-4 presents an unusual "size exclusion" behavior that deviates from the typical interpretation of pore size. While larger molecules like ethane (intermediate 4.175 Å) and propane (intermediate 4.354 Å) are successfully adsorbed, the smaller methane molecule (intermediate 3.877 Å) is explicitly *not* adsorbed, with "Size exclusion" cited as the reason. This contradicts the conventional understanding that if a pore excludes a smaller molecule due to size, it would certainly exclude larger ones.
+
+This suggests that JXNU-4 does not operate on a simple pore diameter cutoff, but rather exhibits a highly selective adsorption mechanism, likely a specific form of kinetic sieving or a gating effect. This mechanism allows molecules within a particular intermediate dimension range (here, seemingly between 4.175 Å and 4.354 Å) to pass, while excluding both significantly smaller (like methane) and potentially larger molecules.
+
+Based on the provided data, the largest intermediate dimension of a molecule confirmed to be adsorbed is 4.354 Å (propane). We will use this value as the practical upper limit for what JXNU-4 can adsorb based on the experimental evidence provided. Molecules with intermediate dimensions significantly exceeding this value are predicted to be excluded.
+
+---
+
+**Evaluation of Target Guest Molecules:**
+
+Below are the intermediate dimensions of the target guest molecules:
+
+*   **isoprene:** 7.746×6.093×3.963 → **Intermediate = 6.093 Å**
+*   **cis-2-pentene:** 8.067×5.572×5.136 → **Intermediate = 5.572 Å**
+*   **1-pentene:** 8.847×4.995×4.897 → **Intermediate = 4.995 Å**
+*   **trans-2-pentene:** 8.796×4.733×4.564 → **Intermediate = 4.733 Å**
+*   **n-pentane:** 9.118×4.364×3.969 → **Intermediate = 4.364 Å**
+
+---
+
+**Predictions:**
+
+**MOF Name: JXNU-4**
+**Guest Molecule: isoprene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for JXNU-4:
+- Propane (intermediate 4.354 Å) is adsorbed.
+- Ethane (intermediate 4.175 Å) is adsorbed.
+- Methane (intermediate 3.877 Å) is *not* adsorbed, cited due to "Size exclusion".
+This indicates that JXNU-4 has a highly selective adsorption window, with the largest adsorbed molecule having an intermediate dimension of 4.354 Å.
+Isoprene's dimensions: 7.746×6.093×3.963 → Intermediate = 6.093 Å.
+Conclusion: Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the largest molecule experimentally shown to be adsorbed by JXNU-4 (propane, 4.354 Å), it is highly probable that isoprene will be excluded by the MOF's size-selective mechanism.
+
+---
+
+**MOF Name: JXNU-4**
+**Guest Molecule: cis-2-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for JXNU-4:
+- Propane (intermediate 4.354 Å) is adsorbed.
+- Ethane (intermediate 4.175 Å) is adsorbed.
+- Methane (intermediate 3.877 Å) is *not* adsorbed, cited due to "Size exclusion".
+This indicates that JXNU-4 has a highly selective adsorption window, with the largest adsorbed molecule having an intermediate dimension of 4.354 Å.
+cis-2-pentene's dimensions: 8.067×5.572×5.136 → Intermediate = 5.572 Å.
+Conclusion: Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the largest molecule experimentally shown to be adsorbed by JXNU-4 (propane, 4.354 Å), it is highly probable that cis-2-pentene will be excluded by the MOF's size-selective mechanism.
+
+---
+
+**MOF Name: JXNU-4**
+**Guest Molecule: 1-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for JXNU-4:
+- Propane (intermediate 4.354 Å) is adsorbed.
+- Ethane (intermediate 4.175 Å) is adsorbed.
+- Methane (intermediate 3.877 Å) is *not* adsorbed, cited due to "Size exclusion".
+This indicates that JXNU-4 has a highly selective adsorption window, with the largest adsorbed molecule having an intermediate dimension of 4.354 Å.
+1-pentene's dimensions: 8.847×4.995×4.897 → Intermediate = 4.995 Å.
+Conclusion: Since 1-pentene's intermediate dimension (4.995 Å) is larger than the largest molecule experimentally shown to be adsorbed by JXNU-4 (propane, 4.354 Å), it is highly probable that 1-pentene will be excluded by the MOF's size-selective mechanism.
+
+---
+
+**MOF Name: JXNU-4**
+**Guest Molecule: trans-2-pentene**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for JXNU-4:
+- Propane (intermediate 4.354 Å) is adsorbed.
+- Ethane (intermediate 4.175 Å) is adsorbed.
+- Methane (intermediate 3.877 Å) is *not* adsorbed, cited due to "Size exclusion".
+This indicates that JXNU-4 has a highly selective adsorption window, with the largest adsorbed molecule having an intermediate dimension of 4.354 Å.
+trans-2-pentene's dimensions: 8.796×4.733×4.564 → Intermediate = 4.733 Å.
+Conclusion: Since trans-2-pentene's intermediate dimension (4.733 Å) is larger than the largest molecule experimentally shown to be adsorbed by JXNU-4 (propane, 4.354 Å), it is highly probable that trans-2-pentene will be excluded by the MOF's size-selective mechanism.
+
+---
+
+**MOF Name: JXNU-4**
+**Guest Molecule: n-pentane**
+
+**Predicted Result: Cannot Adsorb**
+
+**Detailed Reasoning:**
+From experimental data for JXNU-4:
+- Propane (intermediate 4.354 Å) is adsorbed.
+- Ethane (intermediate 4.175 Å) is adsorbed.
+- Methane (intermediate 3.877 Å) is *not* adsorbed, cited due to "Size exclusion".
+This indicates that JXNU-4 has a highly selective adsorption window, with the largest adsorbed molecule having an intermediate dimension of 4.354 Å.
+n-pentane's dimensions: 9.118×4.364×3.969 → Intermediate = 4.364 Å.
+Conclusion: The intermediate dimension of n-pentane (4.364 Å) is marginally larger than that of propane (4.354 Å), which is the largest molecule explicitly shown to be adsorbed by JXNU-4. Given the extremely selective nature implied by JXNU-4's experimental data (where even slightly smaller molecules like methane are excluded due to "size exclusion"), it is highly probable that n-pentane, being larger than the confirmed adsorbed species, will also be excluded by this precise sieving mechanism.

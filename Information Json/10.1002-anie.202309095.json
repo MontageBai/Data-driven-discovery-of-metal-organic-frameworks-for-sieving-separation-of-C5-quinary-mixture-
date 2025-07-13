@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "Co-gallate MOF membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.69×4.95 Å2 (original), 7.77 Å (M/L-0), 7.92 Å (M/L-8.3), 8.09 Å (M/L-16.7)",
+            "Structure Type": "three-dimensionally interconnected zigzag channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "gallic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature, 1.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest H2 permeance achieved for M/L-8.3 membrane."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature, 1.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 diffusion impeded by size exclusion in M/L-8.3 membrane."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature, 1.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 diffusion impeded by size exclusion in M/L-8.3 membrane."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature, 1.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 diffusion impeded by size exclusion in M/L-8.3 membrane."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature, 1.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cut-off shifts towards larger gases like C3H6 in M/L-16.7 membrane due to enlarged pore size."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ambient temperature, 1.1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enlarged pore size enhances diffusion of large gas molecules in low-crystalline MOFs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke-Kallenbach method, Single gas permeation tests",
+            "Performance Metrics": "H2/CO2 selectivity: up to 82.5 for M/L-8.3 membrane, H2 permeance: up to 5651.3 GPU for M/L-0 membrane"
+        },
+        "Other Information": {
+            "Additional Info": "Balancing crystallinity and film formation through an in situ modulation strategy using acetic acid as a modulator."
+        }
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "Cu(SiF6)(pyz)3@PEG MMM",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2.5 by 2.2 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance of 3640 GPU and H2-CO2 selectivity of 76.1."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic sieving due to higher energy barrier",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 needs to overcome a higher energy barrier (7.61 kcal/mol) than H2 (6.46 kcal/mol)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2 permeance: 3640 GPU, H2-CO2 selectivity: 76.1"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF loading is 80.4 vol %, with ultrathin thickness (~50-90 nm). The polymer serves as a solid solvent, avoiding intercrystalline defects."
+        }
+    },
+    {
+        "Materials Name": "Cu(SiF6)(pyz)3@PVA MMM",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2.5 by 2.2 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "393 K, 1.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Stable performance with H2 permeance of 1118 GPU and H2-CO2 selectivity of 32.7 under humid conditions."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic sieving due to higher energy barrier",
+                "Other Information": {
+                    "Test Conditions": "393 K, 1 MPa with 3 vol % water vapor",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Presence of water vapor slightly decreases CO2 permeance and selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2 permeance: 1118 GPU, H2-CO2 selectivity: 32.7"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF loading is 59.6 vol %, exhibiting higher thermal stability and suitable for pre-combustion CO2 capture."
+        }
+    },
+    {
+        "Materials Name": "ZIF-L@PEG MMM",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exhibits promising separation performance beyond the H2-CO2 upper bound."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1.5 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation performance surpasses the H2-CO2 upper bound."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Prepared via SSP strategy using Zn(NO3)2 precursor and 2-methylimidazole ligand vapor treatment."
+        }
+    }
+]

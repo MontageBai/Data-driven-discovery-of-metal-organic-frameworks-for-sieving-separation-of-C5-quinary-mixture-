@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "Mg-CUK-1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "8.0 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mg2+"
+        ],
+        "Ligands": [
+            "2,4-pyridinedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "p-divinylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectively adsorbed over other isomers"
+                }
+            },
+            {
+                "Molecule Name": "m-divinylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded in favor of p-DVB"
+                }
+            },
+            {
+                "Molecule Name": "ethylvinylbenzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very low uptake compared to p-DVB"
+                }
+            },
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "5.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "50°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ordered crystalline phase formed"
+                }
+            },
+            {
+                "Molecule Name": "o-xylene",
+                "Molecular Size": "6.6 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "50°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less favorable packing, smeared electron density"
+                }
+            },
+            {
+                "Molecule Name": "m-xylene",
+                "Molecular Size": "6.4 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "50°C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less favorable packing, smeared electron density"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Single-crystal X-ray diffraction, Liquid sorption experiments",
+            "Performance Metrics": "Selectivity factor for p-DVB: 15.0 after 7 days"
+        },
+        "Other Information": {
+            "Additional Info": "Dehydrated Mg-CUK-1 exhibits selective adsorption of para-isomers from complex mixtures."
+        }
+    }
+]

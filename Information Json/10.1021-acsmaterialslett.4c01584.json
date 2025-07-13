@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "CALF-20",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.52 Å, 4.64 Å (window-specific shrinkage)",
+            "Structure Type": "3D porous network with super cage cavities"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "triazolate",
+            "oxalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-butene",
+                "Molecular Size": "4.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 64.27 mL/g at 1 bar; Selectivity for n-C4H8/i-C4H8: 1.67 × 10^7"
+                }
+            },
+            {
+                "Molecule Name": "iso-butene",
+                "Molecular Size": "4.84 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption; Adsorption capacity: 2.55 mL/g at 298 K"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Window-specific shrinkage enabling size exclusion between n-C4H8 and i-C4H8",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, In situ single-crystal X-ray diffraction (SCXRD), GCMC simulation",
+            "Performance Metrics": "n-C4H8/i-C4H8 selectivity: 1.67 × 10^7, Productivity: 105 L/kg for i-C4H8"
+        },
+        "Other Information": {
+            "Additional Info": "High-purity i-C4H8 (≥99.999%) achieved in one-step adsorption; Stable under humid conditions and recyclable"
+        }
+    }
+]

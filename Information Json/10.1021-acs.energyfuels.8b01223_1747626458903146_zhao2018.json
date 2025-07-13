@@ -1,0 +1,64 @@
+[
+    {
+        "Materials Name": "V/Cu-BTC",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.35 nm, 0.50 nm, 0.90 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+",
+            "Cu1+",
+            "V3+",
+            "V4+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "benzothiophene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π-complexation and acid-base interaction",
+                "Other Information": {
+                    "Test Conditions": "25 °C, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher affinity for benzothiophene in aromatic fuel compared to aliphatic or mixed fuels."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "0.60 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Benzene can only enter the 0.90 nm cavity."
+                }
+            },
+            {
+                "Molecule Name": "isooctane",
+                "Molecular Size": "length: 0.69 nm; width: 0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Inertia-based competitive adsorption",
+                "Other Information": {
+                    "Test Conditions": "25 °C, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Isooctane has stronger competitive ability towards benzothiophene due to its larger molecular mass."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Batch adsorption tests",
+            "Performance Metrics": "Maximal BT uptake capacity: 80 mg/g in aromatic fuel (ARF), 62 mg/g in aliphatic fuel (ALF), 69 mg/g in mixed fuel (MIF)."
+        },
+        "Other Information": {
+            "Additional Info": "V/Cu-BTC exhibits high stability, maintaining over 90% sulfur uptake capacity after five regeneration cycles."
+        }
+    }
+]

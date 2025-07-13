@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "CMS@900",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Microporous structures and ultra-microporous channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "150 °C, 11 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeability of ≈36 barrer and H2/CO2 selectivity of ≈53"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "150 °C, 11 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2/CO2 selectivity of ≈53"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2 permeability of ≈36 barrer and H2/CO2 selectivity of ≈53"
+        },
+        "Other Information": {
+            "Additional Info": "Carbonized PBI at 900 °C exhibits unexpected superior H2/CO2 separation properties above the upper bounds at temperatures of 100−200 °C"
+        }
+    }
+]

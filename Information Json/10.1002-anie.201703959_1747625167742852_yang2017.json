@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Zn2(Bim)3 nanosheets",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.29 nm (crystallographic aperture size)",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Elevated temperatures, equimolar H2/CO2 mixtures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: up to 8 × 10^-7 mol m^-2 s^-1 Pa^-1 at elevated temperatures."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Elevated temperatures, equimolar H2/CO2 mixtures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance significantly lower than H2, especially at higher temperatures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on the crystallographic pore size of 0.29 nm.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests using Wicke–Kallenbach cells, single gas permeation experiments, XPS analysis, and SEM characterization.",
+            "Performance Metrics": "H2/CO2 separation factor up to 166, H2 permeance up to 8 × 10^-7 mol m^-2 s^-1 Pa^-1 at elevated temperatures."
+        },
+        "Other Information": {
+            "Additional Info": "Nanosheets were prepared via a modified soft-physical exfoliation method and assembled into sub-10 nm-thick membranes. The separation performance improved with increasing coating temperature due to reduced interlayer space."
+        }
+    }
+]

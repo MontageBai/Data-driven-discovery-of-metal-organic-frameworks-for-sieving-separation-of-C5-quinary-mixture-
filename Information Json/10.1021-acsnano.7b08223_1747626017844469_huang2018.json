@@ -1,0 +1,40 @@
+[
+    {
+        "Materials Name": "Zn2(Benzimidazolate)2(OH)2",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D layers"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole",
+            "hydroxyl groups"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "polysulfides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "Basic solution, battery operating conditions (1.8-2.8 V)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negatively charged polysulfides are repelled by the negatively charged ZBCP layer."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Electrostatic repulsion of negatively charged species",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Battery performance tests, zeta potential measurements, FTIR spectroscopy",
+            "Performance Metrics": "Initial capacity: 1272 mAh g-1, Capacity after 200 cycles: 738 mAh g-1, Polysulfide permeation significantly reduced"
+        },
+        "Other Information": {
+            "Additional Info": "The material was synthesized at air/water interfaces and is amorphous with a thickness of approximately 3.2 nm."
+        }
+    }
+]

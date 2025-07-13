@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-67/G nanosheets",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium polysulfide",
+                "Molecular Size": "> 0.80 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The ZIF-67/G nanosheet membrane reduces the polysulfide flux by 524 times compared to standard battery separators."
+                }
+            },
+            {
+                "Molecule Name": "lithium ion",
+                "Molecular Size": "0.18 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The Li-ion diffusion coefficient in Li-S batteries with the MOF/G nanosheet-based membranes is comparable to that of batteries with a bare PP separator."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Polysulfide permeation tests, Breakthrough experiment",
+            "Performance Metrics": "Capacity retention: 75.3% over 1700 cycles at 2C discharge/charge rate"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-67/G nanosheet membrane has a mass ratio of MOF to graphene of ca 9:1 and a specific surface area of 996 m2 g-1."
+        }
+    }
+]

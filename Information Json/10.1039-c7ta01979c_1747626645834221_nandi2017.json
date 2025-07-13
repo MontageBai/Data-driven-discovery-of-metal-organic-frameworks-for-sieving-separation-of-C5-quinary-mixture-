@@ -1,0 +1,149 @@
+[
+    {
+        "Materials Name": "HPF-3",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "6.5 Å (NLDFT Carbon model)",
+            "Structure Type": "Hierarchical, ultra-microporous to microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "4,4’-Oxo dibenzaldehyde",
+            "phenol-derived monomers"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Moderate interactions with framework functional groups",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High CO2 uptake observed (15 mmol/g at 35 bar)"
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and lack of strong polarizing interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible H2 uptake due to absence of strong polarizing groups"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Polarizing environment provided by phenolic -OH groups, triazine rings, and carbonyl moieties",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/H2 selectivity: 191 (60H2/40CO2), Working capacity: 4.5 mmol/g for 10-1 bar swing"
+        },
+        "Other Information": {
+            "Additional Info": "High hydrophobicity and chemical stability; retains porosity after harsh treatments"
+        }
+    },
+    {
+        "Materials Name": "HPF-4",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "13.4 Å (NLDFT Carbon model)",
+            "Structure Type": "Hierarchical, ultra-microporous to microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "4,4’-Oxo dibenzaldehyde",
+            "phenol-derived monomers"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Moderate interactions with framework functional groups",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Record-high CO2 uptake (14.7 mmol/g at 35 bar) and working capacity (~6.8 mmol/g for 10-1 bar swing)"
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and lack of strong polarizing interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible H2 uptake due to absence of strong polarizing groups"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Polarizing environment provided by phenolic -OH groups, triazine rings, and carbonyl moieties",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/H2 selectivity: 289 (60H2/40CO2), Working capacity: 6.7 mmol/g for 10-1 bar swing"
+        },
+        "Other Information": {
+            "Additional Info": "High hydrophobicity and chemical stability; retains porosity after harsh treatments"
+        }
+    },
+    {
+        "Materials Name": "HPF-5",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "5.3 Å (NLDFT Carbon model)",
+            "Structure Type": "Hierarchical, ultra-microporous to microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "4,4’-Oxo dibenzaldehyde",
+            "phenol-derived monomers"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Moderate interactions with framework functional groups",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High CO2 uptake (12.5 mmol/g at 35 bar)"
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and lack of strong polarizing interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 35 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible H2 uptake due to absence of strong polarizing groups"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Polarizing environment provided by phenolic -OH groups and carbonyl moieties",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/H2 selectivity: 238 (60H2/40CO2), Working capacity: 6.78 mmol/g for 10-1 bar swing"
+        },
+        "Other Information": {
+            "Additional Info": "High hydrophobicity and chemical stability; retains porosity after harsh treatments"
+        }
+    }
+]

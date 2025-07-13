@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "MFU-4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.5 Å (aperture)",
+            "Structure Type": "Small and large pores separated by gates"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn5Cl4"
+        ],
+        "Ligands": [
+            "BBTA"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "50 K, 10 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2 preferentially enters due to smaller effective radius."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "50 K, 10 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferential adsorption due to stronger adsorption enthalpy."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Thermal desorption spectroscopy (TDS)",
+            "Performance Metrics": "D2/H2 selectivity: 6.9"
+        },
+        "Other Information": {
+            "Additional Info": "Gates are too narrow for hydrogen penetration at very low temperatures (<50 K)."
+        }
+    },
+    {
+        "Materials Name": "MFU-4l",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "9.1 Å (aperture)",
+            "Structure Type": "Open pores without significant barriers"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn5Cl4"
+        ],
+        "Ligands": [
+            "BTDD"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "50 K, 10 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs less strongly compared to deuterium."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "50 K, 10 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Favors adsorption due to lower zero-point energy."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Different adsorption enthalpies based on zero-point energy",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Thermal desorption spectroscopy (TDS)",
+            "Performance Metrics": "D2/H2 selectivity: 1.7 (total), >17 (above 50 K)"
+        },
+        "Other Information": {
+            "Additional Info": "Three distinct adsorption sites identified: Cup, Metal, and Linker."
+        }
+    }
+]

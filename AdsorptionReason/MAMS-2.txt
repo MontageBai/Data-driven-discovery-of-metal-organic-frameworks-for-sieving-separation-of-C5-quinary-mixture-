@@ -1,0 +1,97 @@
+MOF Name: MAMS-2
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAMS-2:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (at 231 K)
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (at 231 K, due to Size exclusion)
+
+Inferred effective pore size of MAMS-2 at 231 K: The material can accommodate molecules with an intermediate dimension up to 5.051 Å (propylene) but excludes molecules with an intermediate dimension of 6.393 Å (isobutane) due to size limitation. Therefore, at 231 K, the inferred effective pore size of MAMS-2 is greater than or equal to 5.051 Å and strictly less than 6.393 Å.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is greater than the largest adsorbed molecule (propylene, 5.051 Å) but less than the smallest non-adsorbed molecule due to size exclusion (isobutane, 6.393 Å) at the same temperature (231 K), it falls within the inferred effective pore size range (5.051 Å, 6.393 Å). The experimental data indicates a "Temperature-dependent molecular sieving via tert-butyl gating" mechanism, suggesting that the pore openings adjust. Given that the pore is open to at least 5.051 Å at 231 K, and isoprene is smaller than the exclusion limit at this temperature, it is predicted to be adsorbable.
+
+---
+
+MOF Name: MAMS-2
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAMS-2:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (at 231 K)
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (at 231 K, due to Size exclusion)
+
+Inferred effective pore size of MAMS-2 at 231 K: The material can accommodate molecules with an intermediate dimension up to 5.051 Å (propylene) but excludes molecules with an intermediate dimension of 6.393 Å (isobutane) due to size limitation. Therefore, at 231 K, the inferred effective pore size of MAMS-2 is greater than or equal to 5.051 Å and strictly less than 6.393 Å.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is greater than the largest adsorbed molecule (propylene, 5.051 Å) but less than the smallest non-adsorbed molecule due to size exclusion (isobutane, 6.393 Å) at the same temperature (231 K), it falls within the inferred effective pore size range (5.051 Å, 6.393 Å). Given the "Temperature-dependent molecular sieving via tert-butyl gating" mechanism and the pore being open for propylene at 231 K, cis-2-pentene is predicted to be adsorbable.
+
+---
+
+MOF Name: MAMS-2
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAMS-2:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (at 231 K)
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (at 231 K, due to Size exclusion)
+
+Inferred effective pore size of MAMS-2 at 231 K: The material can accommodate molecules with an intermediate dimension up to 5.051 Å (propylene) but excludes molecules with an intermediate dimension of 6.393 Å (isobutane) due to size limitation. Therefore, at 231 K, the inferred effective pore size of MAMS-2 is greater than or equal to 5.051 Å and strictly less than 6.393 Å.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the largest adsorbed molecule (propylene, 5.051 Å), it falls below the established lower bound of the inferred pore size range at 231K which still allows adsorption. Therefore, 1-pentene is predicted to be adsorbable by MAMS-2, likely at or below 231 K given the temperature-dependent gating.
+
+---
+
+MOF Name: MAMS-2
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAMS-2:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (at 231 K)
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (at 231 K, due to Size exclusion)
+
+Inferred effective pore size of MAMS-2 at 231 K: The material can accommodate molecules with an intermediate dimension up to 5.051 Å (propylene) but excludes molecules with an intermediate dimension of 6.393 Å (isobutane) due to size limitation. Therefore, at 231 K, the inferred effective pore size of MAMS-2 is greater than or equal to 5.051 Å and strictly less than 6.393 Å.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the largest adsorbed molecule (propylene, 5.051 Å), it falls below the established lower bound of the inferred pore size range at 231K which still allows adsorption. Therefore, trans-2-pentene is predicted to be adsorbable by MAMS-2, likely at or below 231 K given the temperature-dependent gating.
+
+---
+
+MOF Name: MAMS-2
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MAMS-2:
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Adsorbed (at 231 K)
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Not Adsorbed (at 231 K, due to Size exclusion)
+
+Inferred effective pore size of MAMS-2 at 231 K: The material can accommodate molecules with an intermediate dimension up to 5.051 Å (propylene) but excludes molecules with an intermediate dimension of 6.393 Å (isobutane) due to size limitation. Therefore, at 231 K, the inferred effective pore size of MAMS-2 is greater than or equal to 5.051 Å and strictly less than 6.393 Å.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the largest adsorbed molecule (propylene, 5.051 Å), it falls below the established lower bound of the inferred pore size range at 231K which still allows adsorption. Therefore, n-pentane is predicted to be adsorbable by MAMS-2, likely at or below 231 K given the temperature-dependent gating.

@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "kgmt-Bu",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.2 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "kagome (kgm)",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "5-tert-butylisophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Linear molecular geometry enables diffusion through the narrowest channel."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nonlinear molecular geometry limits diffusion through the narrowest channel."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation, Molecular dynamics simulation",
+            "Performance Metrics": "CO2/CH4 selectivity: 70.5 at 10 wt% ns-kgmt-Bu loading, CO2 permeability: 6.7 Barrer"
+        },
+        "Other Information": {
+            "Additional Info": "Nanosheet morphology shortens the pathway for molecular diffusion, enhancing CO2/CH4 separation performance."
+        }
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "Materials Name": "JLU-Liu18",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "8.3 Å (diameter of distorted cubic cages)",
+            "Structure Type": "3D porous framework"
+        },
+        "Topology": "xmz",
+        "Metal Nodes": [
+            "In3+"
+        ],
+        "Ligands": [
+            "pyridine-3,5-bis(phenyl-4-carboxylic acid)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "273 K and 298 K under 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake is 129 cm³/g at 273 K and 63 cm³/g at 298 K."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.87 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "273 K and 298 K under 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake is 23 cm³/g at 273 K and 12 cm³/g at 298 K."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "273 K and 298 K under 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H6 uptake is 128 cm³/g at 273 K and 92 cm³/g at 298 K."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "273 K and 298 K under 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C3H8 uptake is 138 cm³/g at 273 K and 116 cm³/g at 298 K."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "O2/N2 selectivity is 1.24 at 0.2 P/P0."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 gas sorption isotherms measured, O2 is more favorably adsorbed over N2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas adsorption measurements using Micromeritics ASAP 2420 and ASAP 2020 instruments",
+            "Performance Metrics": "CO2/CH4 selectivity: 5.4 at 298 K and 1 bar; C2H6/CH4 selectivity: 13.1; C3H8/CH4 selectivity: 108.2 at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "JLU-Liu18 exhibits high thermal stability up to 350 °C and good air and water vapour stability."
+        }
+    },
+    {
+        "Materials Name": "JLU-Liu19",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 Å (ultramicropores)",
+            "Structure Type": "3D framework"
+        },
+        "Topology": "bnn",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "pyridine-3,5-bis(phenyl-4-carboxylic acid)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K and 298 K under 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake is 56 cm³/g at 273 K and 42 cm³/g at 298 K."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K under 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Almost no N2 adsorption observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption measurements using Micromeritics ASAP 2420 and ASAP 2020 instruments",
+            "Performance Metrics": "Considerable uptake of CO2 with no N2 adsorption due to pore size."
+        },
+        "Other Information": {
+            "Additional Info": "JLU-Liu19 exhibits high thermal stability up to 450 °C and good air and water vapour stability."
+        }
+    }
+]

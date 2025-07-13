@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "Pd/11.5ODDMA-MP",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "5.0 nm",
+            "Structure Type": "Ordered mesoporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Pd"
+        ],
+        "Ligands": [
+            "Octadecyldimethyl[3-(trimethoxysilyl)propyl]ammonium chloride"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "N-methylindole",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "60°C, 12 h, water as solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The catalyst shows high conversion and selectivity for N-methyl-2-phenylindole formation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "GC analysis, hot filtration test, ICP-AES analysis",
+            "Performance Metrics": "TOF: 82 h-1, Conversion: 96%, Selectivity: >99%"
+        },
+        "Other Information": {
+            "Additional Info": "The catalyst can be reused at least 8 times without notable activity loss or structural destruction."
+        }
+    }
+]

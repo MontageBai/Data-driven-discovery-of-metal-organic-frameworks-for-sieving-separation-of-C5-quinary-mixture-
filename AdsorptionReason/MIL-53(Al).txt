@@ -1,0 +1,112 @@
+MOF Name: MIL-53(Al)
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-53(Al):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Pressure-dependent, implying kinetic sieving)
+- Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Adsorbed
+- Toluene: 8.117×6.501×3.750 → Intermediate = 6.501 Å | Adsorbed
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Adsorbed (in some conditions); Not Adsorbed (in specific hexane solution due to "Interaction-driven selectivity for ortho isomers," not general size exclusion of the molecule itself)
+
+Inferred effective pore size of MIL-53(Al) is at least **6.762 Å** (based on benzene adsorption). There is no molecule explicitly stated as "No" due to general size exclusion that would define an upper bound for the pore size. The "No" for ethylbenzene is attributed to specific interaction-driven selectivity for isomers, rather than the molecule's inability to generally pass the pore.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is smaller than the intermediate dimension of benzene (6.762 Å) which is adsorbed, it is predicted to be able to pass through the pores of MIL-53(Al).
+
+---
+
+MOF Name: MIL-53(Al)
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-53(Al):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Pressure-dependent, implying kinetic sieving)
+- Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Adsorbed
+- Toluene: 8.117×6.501×3.750 → Intermediate = 6.501 Å | Adsorbed
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Adsorbed (in some conditions); Not Adsorbed (in specific hexane solution due to "Interaction-driven selectivity for ortho isomers," not general size exclusion of the molecule itself)
+
+Inferred effective pore size of MIL-53(Al) is at least **6.762 Å** (based on benzene adsorption). There is no molecule explicitly stated as "No" due to general size exclusion that would define an upper bound for the pore size. The "No" for ethylbenzene is attributed to specific interaction-driven selectivity for isomers, rather than the molecule's inability to generally pass the pore.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than the intermediate dimension of benzene (6.762 Å) which is adsorbed, it is predicted to be able to pass through the pores of MIL-53(Al).
+
+---
+
+MOF Name: MIL-53(Al)
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-53(Al):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Pressure-dependent, implying kinetic sieving)
+- Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Adsorbed
+- Toluene: 8.117×6.501×3.750 → Intermediate = 6.501 Å | Adsorbed
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Adsorbed (in some conditions); Not Adsorbed (in specific hexane solution due to "Interaction-driven selectivity for ortho isomers," not general size exclusion of the molecule itself)
+
+Inferred effective pore size of MIL-53(Al) is at least **6.762 Å** (based on benzene adsorption). There is no molecule explicitly stated as "No" due to general size exclusion that would define an upper bound for the pore size. The "No" for ethylbenzene is attributed to specific interaction-driven selectivity for isomers, rather than the molecule's inability to generally pass the pore.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the intermediate dimension of benzene (6.762 Å) which is adsorbed, it is predicted to be able to pass through the pores of MIL-53(Al).
+
+---
+
+MOF Name: MIL-53(Al)
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-53(Al):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Pressure-dependent, implying kinetic sieving)
+- Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Adsorbed
+- Toluene: 8.117×6.501×3.750 → Intermediate = 6.501 Å | Adsorbed
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Adsorbed (in some conditions); Not Adsorbed (in specific hexane solution due to "Interaction-driven selectivity for ortho isomers," not general size exclusion of the molecule itself)
+
+Inferred effective pore size of MIL-53(Al) is at least **6.762 Å** (based on benzene adsorption). There is no molecule explicitly stated as "No" due to general size exclusion that would define an upper bound for the pore size. The "No" for ethylbenzene is attributed to specific interaction-driven selectivity for isomers, rather than the molecule's inability to generally pass the pore.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the intermediate dimension of benzene (6.762 Å) which is adsorbed, it is predicted to be able to pass through the pores of MIL-53(Al).
+
+---
+
+MOF Name: MIL-53(Al)
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for MIL-53(Al):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Pressure-dependent, implying kinetic sieving)
+- Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å | Adsorbed
+- Toluene: 8.117×6.501×3.750 → Intermediate = 6.501 Å | Adsorbed
+- Ethylbenzene: 9.426×6.501×4.703 → Intermediate = 6.501 Å | Adsorbed (in some conditions); Not Adsorbed (in specific hexane solution due to "Interaction-driven selectivity for ortho isomers," not general size exclusion of the molecule itself)
+
+Inferred effective pore size of MIL-53(Al) is at least **6.762 Å** (based on benzene adsorption). There is no molecule explicitly stated as "No" due to general size exclusion that would define an upper bound for the pore size. The "No" for ethylbenzene is attributed to specific interaction-driven selectivity for isomers, rather than the molecule's inability to generally pass the pore.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the intermediate dimension of benzene (6.762 Å) which is adsorbed, it is predicted to be able to pass through the pores of MIL-53(Al).

@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "PcCo@agZIF-62",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazole",
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "0.346 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "200 °C, controlled atmosphere",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Oxygen detection leads to decreased impedance of PcCo."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen is excluded due to its size, enabling selective oxygen sensing."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "200 °C, CO2 flow at 17–18 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 flow causes significant resistance changes in the composite material."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Hydrophobic exclusion",
+                "Other Information": {
+                    "Test Conditions": "Ambient humidity",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The hydrophobic nature of agZIF-62 prevents water penetration, protecting PcCo from degradation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and hydrophobic exclusion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Impedance spectroscopy",
+            "Performance Metrics": "Conductivity changes: ≈1.3-1.5 × 10^-8 Scm^-1 in Ar and CO2 flows; ≈2.3-3.2 × 10^-9 Scm^-1 in air flow."
+        },
+        "Other Information": {
+            "Additional Info": "The composite material combines the sensitivity of PcCo with the selectivity of agZIF-62, overcoming the sensitivity-selectivity trade-off in gas sensing."
+        }
+    }
+]

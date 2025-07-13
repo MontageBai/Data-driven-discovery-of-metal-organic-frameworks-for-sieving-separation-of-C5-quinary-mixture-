@@ -1,0 +1,109 @@
+[
+    {
+        "Materials Name": "MIL-53(Al)(CFA-PET)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.7 nm (micropores), 22-33 nm (mesopores)",
+            "Structure Type": "1D rhombic channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "1.44 nm × 1.09 nm × 0.64 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "pH 7, 303 K, 2 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Poor removal due to size mismatch with pore size of adsorbent"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "1.19 nm × 0.67 nm × 0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction",
+                "Other Information": {
+                    "Test Conditions": "pH 7, 303 K, 2 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Neutral sodium salt of sulphonate at pH 7 does not interact effectively"
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "1.36 nm × 0.47 nm × 0.24 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction",
+                "Other Information": {
+                    "Test Conditions": "pH 7, 303 K, 2 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest adsorption capacity observed"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption",
+                "Other Information": {
+                    "Test Conditions": "273.15 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of 4.23 mmol·g−1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/N2 selectivity: Not Reported, Permeance: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Flexible framework allowing dynamic pore adjustment"
+        }
+    },
+    {
+        "Materials Name": "ZSM-5(CFA)",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "1.02 nm",
+            "Structure Type": "Microporous channels"
+        },
+        "Topology": "MFI",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption",
+                "Other Information": {
+                    "Test Conditions": "273.15 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of 2.37 mmol·g−1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Rigid microporous channels favoring molecular sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/N2 selectivity: Not Reported, Permeance: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Synthesized from coal fly ash-derived amorphous silica"
+        }
+    }
+]

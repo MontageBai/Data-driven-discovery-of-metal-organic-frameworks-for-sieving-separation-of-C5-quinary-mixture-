@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "MOF-801",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "5–7 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "fumaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "7.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The channels in MOF-801 are smaller than the size of sodium ions, thus rejecting them."
+                }
+            },
+            {
+                "Molecule Name": "cadmium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and adsorption",
+                "Other Information": {
+                    "Test Conditions": "Heavy metal solution (2000 ppm), FO mode",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >94%, influenced by both size exclusion and adsorption properties."
+                }
+            },
+            {
+                "Molecule Name": "nickel",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and adsorption",
+                "Other Information": {
+                    "Test Conditions": "Heavy metal solution (2000 ppm), FO mode",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >94%, influenced by both size exclusion and adsorption properties."
+                }
+            },
+            {
+                "Molecule Name": "lead",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and adsorption",
+                "Other Information": {
+                    "Test Conditions": "Heavy metal solution (2000 ppm), FO mode",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >94%, influenced by both size exclusion and adsorption properties."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with adsorption",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Forward osmosis experiments and QCM-D adsorption studies",
+            "Performance Metrics": "Water flux increase: 30% compared to TFC membrane; Reverse salt flux decrease: 44%; Heavy metal rejection: >94% for Ni2+, Cd2+, Pb2+."
+        },
+        "Other Information": {
+            "Additional Info": "MOF-801 nanocrystals were uniformly dispersed in the PA layer via PDA adhesion, improving water permeability and salt rejection performance."
+        }
+    }
+]

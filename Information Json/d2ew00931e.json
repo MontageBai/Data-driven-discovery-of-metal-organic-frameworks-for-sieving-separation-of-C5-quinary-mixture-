@@ -1,0 +1,105 @@
+[
+    {
+        "Materials Name": "Ce-UiO-66 MOF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.8 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ce4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "alcian blue",
+                "Molecular Size": "2.6 × 2.7 nm²",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "3 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency ~98% for membranes M1 and M2."
+                }
+            },
+            {
+                "Molecule Name": "Eriochrome Black T",
+                "Molecular Size": "1.5 × 0.8 nm²",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "3 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency ~99% for membranes M1 and M2."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "1.4 × 0.6 nm²",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "3 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency ~98% for membranes M1 and M2."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "1.2 × 1.1 nm²",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "3 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower rejection efficiency compared to larger molecules."
+                }
+            },
+            {
+                "Molecule Name": "neutral red",
+                "Molecular Size": "1.2 × 0.2 nm²",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "3 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency ~44%, influenced by orientation at membrane interface."
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "1.1 × 0.4 nm²",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "3 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency ~61%, influenced by molecular size."
+                }
+            },
+            {
+                "Molecule Name": "alizarin",
+                "Molecular Size": "0.6 × 0.9 nm²",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "3 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection efficiency ~67%, spherical orientation aids rejection."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Pure water flux: 39.21 L m⁻² h⁻¹, Rejection efficiency: ∼98% for alcian blue and methylene blue, ∼99% for Eriochrome Black T."
+        },
+        "Other Information": {
+            "Additional Info": "MOF loading up to 15 wt% enhances performance; higher loadings cause agglomeration and reduced efficiency."
+        }
+    }
+]

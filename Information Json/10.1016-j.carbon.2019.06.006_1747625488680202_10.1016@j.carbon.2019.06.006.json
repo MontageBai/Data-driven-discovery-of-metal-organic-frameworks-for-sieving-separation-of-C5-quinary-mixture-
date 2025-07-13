@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "SDBS modified GO membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.8 nm (interlayer spacing)",
+            "Structure Type": "2D laminar structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydrogen permeance: 0.81 × 10⁻⁷ mol m⁻² s⁻¹ Pa⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance: 2.4 × 10⁻¹⁰ mol m⁻² s⁻¹ Pa⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 permeance lower than H2"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 permeance through GO-SDBS: 5.4 × 10⁻⁹ mol m⁻² s⁻¹ Pa⁻¹"
+                }
+            },
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "0.26 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance higher than larger gases like CO2, N2, and CH4"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeance test, XRD, FTIR, CO2 adsorption measurements",
+            "Performance Metrics": "H2/CO2 selectivity: 323 (room temperature), H2/N2 selectivity: 28 (room temperature)"
+        },
+        "Other Information": {
+            "Additional Info": "SDBS increases interlayer spacing to 0.8 nm and enhances CO2 adsorption affinity."
+        }
+    }
+]

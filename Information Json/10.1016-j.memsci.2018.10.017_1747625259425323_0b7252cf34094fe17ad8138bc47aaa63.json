@@ -1,0 +1,84 @@
+[
+    {
+        "Materials Name": "MXene membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (25 °C) to 2.7 Å (500 °C)",
+            "Structure Type": "2D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Titanium (Ti)"
+        ],
+        "Ligands": [
+            "Carbon (C)",
+            "Functional groups (-OH, -O)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "320 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 2.0×10^-7 mol m^-2 s^-1 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "320 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.384 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher permeance than nitrogen due to molecular shape effect"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.430 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.450 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation test, in-situ XRD analysis",
+            "Performance Metrics": "H2/N2 selectivity: 41 at 320 °C, H2 permeance: 2.0×10^-7 mol m^-2 s^-1 Pa^-1"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane exhibits unprecedented thermal stability and retains separation performance for over 200 hours at 320 °C."
+        }
+    }
+]

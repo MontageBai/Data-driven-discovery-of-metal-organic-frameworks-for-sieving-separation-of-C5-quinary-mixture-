@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "UiO-66/GO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "benzene-1,4-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 2.0 M NaCl draw solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The hydrated sodium ions are hindered due to the narrow pore size of UiO-66."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Forward osmosis experiment",
+            "Performance Metrics": "Water flux: 29.16 LMH, Reverse solute flux: 12.86 gMH"
+        },
+        "Other Information": {
+            "Additional Info": "The UiO-66/GO membrane exhibits high water flux and low reverse draw solute flux due to the hydrophilicity and uniform pore size of UiO-66."
+        }
+    }
+]

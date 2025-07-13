@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "Ni-LAP-NH2",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D corrugated channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "L-aspartic acid",
+            "aminopyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption-assisted molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance: 1.54 × 10^-7 mol·m^-2·s^-1·Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Steric hindrance",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 diffusion coefficient: 0 m2/s"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Steric hindrance",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 adsorption capacity consistent with small-pore MOFs"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Steric hindrance",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not explicitly mentioned in the text but inferred from the context of steric hindrance"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Adsorption-assisted molecular sieving and steric hindrance",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas permeation tests and binary gas mixture separation tests",
+            "Performance Metrics": "H2/CO2 selectivity: 48.6, H2/N2 selectivity: 27.8, H2/CH4 selectivity: 40.5"
+        },
+        "Other Information": {
+            "Additional Info": "The amino group induces steric hindrance and enhances CO2 adsorption affinity, leading to high separation performance."
+        }
+    }
+]

@@ -1,0 +1,107 @@
+MOF Name: ZUL-500
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZUL-500:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Conditional (Note: The mechanism cited is "Competitive adsorption", not "Size exclusion", indicating the molecules *can* enter the pores.)
+
+Inferred effective pore size of ZUL-500:
+Based solely on the provided experimental data, ZUL-500 is confirmed to allow molecules with an intermediate dimension of 3.200 Å to enter its pores. There is no experimental data provided that indicates adsorption of molecules with intermediate dimensions larger than 3.200 Å. Crucially, there is also no data indicating non-adsorption of any specific molecule *due to size exclusion*.
+Therefore, the effective pore size can only be inferred to be **≥ 3.200 Å**. A precise upper bound for size exclusion cannot be determined from this limited information.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+While the experimental data does not explicitly define an upper bound for the MOF's pore size via a "size exclusion" event, the only molecules confirmed to be adsorbed have an intermediate dimension of 3.200 Å. Isoprene's intermediate dimension (6.093 Å) is significantly larger than that of the molecules confirmed to be adsorbed (3.200 Å). In the absence of any evidence suggesting ZUL-500 can adsorb larger molecules, it is inferred that its pore apertures are likely too restrictive for molecules of isoprene's size based on the principle of size exclusion. Therefore, it is predicted that isoprene **cannot be adsorbed** by ZUL-500.
+
+---
+
+MOF Name: ZUL-500
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZUL-500:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Conditional (Mechanism: Competitive adsorption)
+
+Inferred effective pore size of ZUL-500:
+Based solely on the provided experimental data, ZUL-500 is confirmed to allow molecules with an intermediate dimension of 3.200 Å to enter its pores. There is no experimental data provided that indicates adsorption of molecules with intermediate dimensions larger than 3.200 Å. Crucially, there is also no data indicating non-adsorption of any specific molecule *due to size exclusion*.
+Therefore, the effective pore size can only be inferred to be **≥ 3.200 Å**. A precise upper bound for size exclusion cannot be determined from this limited information.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+While the experimental data does not explicitly define an upper bound for the MOF's pore size via a "size exclusion" event, the only molecules confirmed to be adsorbed have an intermediate dimension of 3.200 Å. cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than that of the molecules confirmed to be adsorbed (3.200 Å). In the absence of any evidence suggesting ZUL-500 can adsorb larger molecules, it is inferred that its pore apertures are likely too restrictive for molecules of cis-2-pentene's size based on the principle of size exclusion. Therefore, it is predicted that cis-2-pentene **cannot be adsorbed** by ZUL-500.
+
+---
+
+MOF Name: ZUL-500
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZUL-500:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Conditional (Mechanism: Competitive adsorption)
+
+Inferred effective pore size of ZUL-500:
+Based solely on the provided experimental data, ZUL-500 is confirmed to allow molecules with an intermediate dimension of 3.200 Å to enter its pores. There is no experimental data provided that indicates adsorption of molecules with intermediate dimensions larger than 3.200 Å. Crucially, there is also no data indicating non-adsorption of any specific molecule *due to size exclusion*.
+Therefore, the effective pore size can only be inferred to be **≥ 3.200 Å**. A precise upper bound for size exclusion cannot be determined from this limited information.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+While the experimental data does not explicitly define an upper bound for the MOF's pore size via a "size exclusion" event, the only molecules confirmed to be adsorbed have an intermediate dimension of 3.200 Å. 1-pentene's intermediate dimension (4.995 Å) is significantly larger than that of the molecules confirmed to be adsorbed (3.200 Å). In the absence of any evidence suggesting ZUL-500 can adsorb larger molecules, it is inferred that its pore apertures are likely too restrictive for molecules of 1-pentene's size based on the principle of size exclusion. Therefore, it is predicted that 1-pentene **cannot be adsorbed** by ZUL-500.
+
+---
+
+MOF Name: ZUL-500
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZUL-500:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Conditional (Mechanism: Competitive adsorption)
+
+Inferred effective pore size of ZUL-500:
+Based solely on the provided experimental data, ZUL-500 is confirmed to allow molecules with an intermediate dimension of 3.200 Å to enter its pores. There is no experimental data provided that indicates adsorption of molecules with intermediate dimensions larger than 3.200 Å. Crucially, there is also no data indicating non-adsorption of any specific molecule *due to size exclusion*.
+Therefore, the effective pore size can only be inferred to be **≥ 3.200 Å**. A precise upper bound for size exclusion cannot be determined from this limited information.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+While the experimental data does not explicitly define an upper bound for the MOF's pore size via a "size exclusion" event, the only molecules confirmed to be adsorbed have an intermediate dimension of 3.200 Å. trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than that of the molecules confirmed to be adsorbed (3.200 Å). In the absence of any evidence suggesting ZUL-500 can adsorb larger molecules, it is inferred that its pore apertures are likely too restrictive for molecules of trans-2-pentene's size based on the principle of size exclusion. Therefore, it is predicted that trans-2-pentene **cannot be adsorbed** by ZUL-500.
+
+---
+
+MOF Name: ZUL-500
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for ZUL-500:
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Conditional (Mechanism: Competitive adsorption)
+
+Inferred effective pore size of ZUL-500:
+Based solely on the provided experimental data, ZUL-500 is confirmed to allow molecules with an intermediate dimension of 3.200 Å to enter its pores. There is no experimental data provided that indicates adsorption of molecules with intermediate dimensions larger than 3.200 Å. Crucially, there is also no data indicating non-adsorption of any specific molecule *due to size exclusion*.
+Therefore, the effective pore size can only be inferred to be **≥ 3.200 Å**. A precise upper bound for size exclusion cannot be determined from this limited information.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+While the experimental data does not explicitly define an upper bound for the MOF's pore size via a "size exclusion" event, the only molecules confirmed to be adsorbed have an intermediate dimension of 3.200 Å. n-pentane's intermediate dimension (4.364 Å) is significantly larger than that of the molecules confirmed to be adsorbed (3.200 Å). In the absence of any evidence suggesting ZUL-500 can adsorb larger molecules, it is inferred that its pore apertures are likely too restrictive for molecules of n-pentane's size based on the principle of size exclusion. Therefore, it is predicted that n-pentane **cannot be adsorbed** by ZUL-500.

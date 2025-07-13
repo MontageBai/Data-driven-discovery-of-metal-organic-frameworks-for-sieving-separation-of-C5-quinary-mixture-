@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "ZnATZoxH2O",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.6 Å (PLD), 3.5 × 2.8 Å² (LCD)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "3-amino-1,2,4-triazole",
+            "oxalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake of 61.9 cm³ g⁻¹ at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.758 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake of 17.2 cm³ g⁻¹ at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 uptake of 3.1 cm³ g⁻¹ at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "3.46 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "O2 uptake of 6.0 cm³ g⁻¹ at 298 K and 1 bar."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: >10³, CO2/CH4 selectivity: >10⁵, CO2/O2 selectivity: >10⁴"
+        },
+        "Other Information": {
+            "Additional Info": "Dynamic CO2 separation productivity of 2.017 mmol g⁻¹ for CO2/N2 (15/85), 3.4 mmol g⁻¹ for CO2/CH4 (50/50), and 2.26 mmol g⁻¹ for CO2/N2/O2 (15/80/5)."
+        }
+    }
+]

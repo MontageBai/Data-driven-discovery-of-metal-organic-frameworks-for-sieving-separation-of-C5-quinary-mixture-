@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "SOFOUR-DPDS-Ni",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 × 4.5 Å (intralayer), 3.6 × 3.7 Å (interlayer)",
+            "Structure Type": "2D layers assembled into 3D structures"
+        },
+        "Topology": "sql",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "4,4′-dipyridyldisulfide",
+            "sulfate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1,3-butadiene",
+                "Molecular Size": "4.31 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake of 1.68 mmol/g at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "n-butene",
+                "Molecular Size": "4.46 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High uptake of 1.48 mmol/g at 298 K and 1 bar."
+                }
+            },
+            {
+                "Molecule Name": "iso-butene",
+                "Molecular Size": "4.84 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake of 0.17 mmol/g at 298 K and 1 bar."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C4H6/iso-C4H8 selectivity: 2321.8, n-C4H8/iso-C4H8 selectivity: 233.5"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrated direct production of high-purity iso-butene (>99.9%) from binary and ternary gas mixtures."
+        }
+    }
+]

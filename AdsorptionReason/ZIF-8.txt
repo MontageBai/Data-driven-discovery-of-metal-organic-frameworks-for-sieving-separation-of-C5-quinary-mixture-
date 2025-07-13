@@ -1,0 +1,71 @@
+MOF Name: ZIF-8
+
+**Inferred ZIF-8 Experimental Effective Pore Size at 298 K, 1 bar (based on intermediate dimensions):**
+
+To infer the effective pore size, we examine the provided experimental data for ZIF-8, focusing on adsorption (Yes) and non-adsorption (No) attributed to "Size exclusion" at conditions close to 298 K and 1 bar. The "intermediate size" of the molecule is the primary concern for pore passage.
+
+**Relevant Adsorbed Molecules (Yes) and their Intermediate Dimensions:**
+*   **Propylene:** 6.257×5.051×3.961 Å (intermediate = 5.051 Å). Adsorbed (Yes) at 303 K, 1.0 bar (Kinetic sieving) and 35 °C.
+*   **Ethylene:** 4.679×4.047×3.200 Å (intermediate = 4.047 Å). Adsorbed (Yes) at 298 K, 1 bar.
+*   **Ethane:** 4.731×4.175×4.170 Å (intermediate = 4.175 Å). Adsorbed (Yes) at 298 K, 1 bar.
+*   **Isobutane:** 6.404×6.393×4.866 Å (intermediate = 6.393 Å). Adsorbed (Yes) at 35 °C. (Note: 35 °C is slightly higher than 298 K, but still near ambient).
+*   **Benzene:** 7.134×6.762×3.200 Å (intermediate = 6.762 Å). Adsorbed (Yes) at Room temperature, 1 bar. (Note: There is also a contradictory "No" for benzene at Room temperature, vapor phase).
+
+**Relevant Non-Adsorbed Molecules (No) due to Size Exclusion and their Intermediate Dimensions (at or near 298 K, 1 bar):**
+*   **3-methylpentane:** 9.052×6.008×4.985 Å (intermediate = 6.008 Å). Not adsorbed (No) at 298 K, 1 bar due to "Size exclusion". This is a crucial data point as it's an explicit rejection at the target conditions.
+*   **Toluene:** 8.117×6.501×3.750 Å (intermediate = 6.501 Å). Not adsorbed (No) at 25 °C and Room temperature (vapor phase) due to "Size exclusion". (Note: There is also a contradictory "Yes" for toluene, but the "No" entries are more specific regarding conditions).
+*   **2,2-dimethylbutane:** 7.829×5.502×6.545 Å (intermediate = 6.545 Å). Not adsorbed (No) at 298 K due to "Size exclusion".
+*   **Cyclohexane:** 6.949×7.090×4.855 Å (intermediate = 6.949 Å). Not adsorbed (No) at Room temperature, 1 bar due to "Size exclusion".
+
+**Synthesizing the Effective Pore Size:**
+The experimental data for ZIF-8 indicates a flexible framework with a pore size that can vary depending on the guest molecule and precise conditions (gate-opening effect). This leads to some apparent contradictions when applying a single, fixed intermediate dimension cutoff.
+
+However, based on the explicit "No" for **3-methylpentane (intermediate 6.008 Å)** at 298 K, 1 bar due to "Size exclusion," this sets a strong upper limit for molecules that cannot pass under these conditions. If a molecule with an intermediate dimension of 6.008 Å is excluded, then the effective pore size for general molecular shapes under these conditions must be **less than 6.008 Å**.
+
+We acknowledge that larger molecules like isobutane (6.393 Å) and benzene (6.762 Å) are reported as adsorbed under conditions close to 298 K, 1 bar. This suggests that the ZIF-8 pore can exhibit flexibility (gate-opening) for certain molecules, potentially due to their specific shapes (e.g., planar benzene) or at slightly elevated temperatures (e.g., 35°C for isobutane). However, to maintain consistency with the most direct "Size exclusion" rejection at 298 K, 1 bar for a non-aromatic, branched alkane (3-methylpentane), we infer the general effective pore size to be below 6.008 Å.
+
+Therefore, for the purpose of this evaluation, we will use **< 6.008 Å** as the effective pore size threshold for ZIF-8 at 298 K, 1 bar, particularly for non-planar/branched molecules.
+
+---
+
+**Guest Molecules to Evaluate (at 298 K and 1 bar):**
+
+**Guest Molecule: isoprene**
+*   **Predicted Result: Cannot Adsorb**
+*   **Detailed Reasoning:**
+    *   Molecular Dimensions: 7.746×6.093×3.963 Å
+    *   Intermediate Dimension: 6.093 Å
+    *   Inferred ZIF-8 Effective Pore Size: Less than 6.008 Å (based on 3-methylpentane's exclusion at 298 K, 1 bar).
+    *   Conclusion: Since the intermediate dimension of isoprene (6.093 Å) is greater than the inferred effective pore size of ZIF-8 (< 6.008 Å) at 298 K, 1 bar, it is predicted that isoprene will not be adsorbed due to size exclusion.
+
+**Guest Molecule: cis-2-pentene**
+*   **Predicted Result: Can Adsorb**
+*   **Detailed Reasoning:**
+    *   Molecular Dimensions: 8.067×5.572×5.136 Å
+    *   Intermediate Dimension: 5.572 Å
+    *   Inferred ZIF-8 Effective Pore Size: Less than 6.008 Å (but greater than 5.051 Å, based on propylene adsorption).
+    *   Conclusion: Since the intermediate dimension of cis-2-pentene (5.572 Å) is less than the inferred effective pore size of ZIF-8 (< 6.008 Å) and is comparable to or smaller than molecules known to be adsorbed (e.g., propylene at 5.051 Å), it is predicted that cis-2-pentene can be adsorbed.
+
+**Guest Molecule: 1-pentene**
+*   **Predicted Result: Can Adsorb**
+*   **Detailed Reasoning:**
+    *   Molecular Dimensions: 8.847×4.995×4.897 Å
+    *   Intermediate Dimension: 4.995 Å
+    *   Inferred ZIF-8 Effective Pore Size: Less than 6.008 Å (but greater than 5.051 Å, based on propylene adsorption).
+    *   Conclusion: Since the intermediate dimension of 1-pentene (4.995 Å) is less than the inferred effective pore size of ZIF-8 (< 6.008 Å) and is smaller than molecules known to be adsorbed (e.g., propylene at 5.051 Å), it is predicted that 1-pentene can be adsorbed.
+
+**Guest Molecule: trans-2-pentene**
+*   **Predicted Result: Can Adsorb**
+*   **Detailed Reasoning:**
+    *   Molecular Dimensions:  8.796×4.733×4.564 Å
+    *   Intermediate Dimension: 4.733 Å
+    *   Inferred ZIF-8 Effective Pore Size: Less than 6.008 Å (but greater than 5.051 Å, based on propylene adsorption).
+    *   Conclusion: Since the intermediate dimension of trans-2-pentene (4.733 Å) is less than the inferred effective pore size of ZIF-8 (< 6.008 Å) and is smaller than molecules known to be adsorbed (e.g., propylene at 5.051 Å), it is predicted that trans-2-pentene can be adsorbed.
+
+**Guest Molecule: n-pentane**
+*   **Predicted Result: Can Adsorb**
+*   **Detailed Reasoning:**
+    *   Molecular Dimensions: 9.118×4.364×3.969 Å
+    *   Intermediate Dimension: 4.364 Å
+    *   Inferred ZIF-8 Effective Pore Size: Less than 6.008 Å (but greater than 5.051 Å, based on propylene adsorption).
+    *   Conclusion: Since the intermediate dimension of n-pentane (4.364 Å) is less than the inferred effective pore size of ZIF-8 (< 6.008 Å) and is smaller than molecules known to be adsorbed (e.g., propylene at 5.051 Å), it is predicted that n-pentane can be adsorbed.

@@ -1,0 +1,73 @@
+MOF Name: tp-PMBB-2-pcu-1
+
+**Detailed Reasoning for MOF tp-PMBB-2-pcu-1:**
+
+From the experimental data for tp-PMBB-2-pcu-1:
+-   **Carbon dioxide (CO2)**: 5.198×3.200×3.200 Å → Intermediate dimension = **3.200 Å**. Adsorbed (Yes).
+    -   Reason/Mechanism: "Size-selective sieving between CO2 and N2"
+    -   Adsorption Type: "Size exclusion at sub-nanometer scale"
+
+**Inferred Effective Pore Size:**
+The MOF `tp-PMBB-2-pcu-1` is reported to adsorb carbon dioxide, which has an intermediate dimension of 3.200 Å. The experimental data explicitly mentions "Size exclusion at sub-nanometer scale" and "Size-selective sieving between CO2 and N2". This implies that the MOF's pores are precisely tuned to a very small size, enabling the passage of CO2 while potentially excluding slightly smaller or differently shaped molecules like nitrogen (N2, intermediate dimension 3.060 Å, 4.165×3.060×3.060 Å). If the material demonstrates "size-selective sieving" for CO2 over N2 via "size exclusion," it indicates that the pore aperture is very close to the size of CO2 (3.200 Å). Therefore, it is inferred that the effective pore size of tp-PMBB-2-pcu-1 is approximately **3.200 Å**, or only slightly larger, representing a very narrow sub-nanometer aperture. Molecules with intermediate dimensions significantly greater than this value are expected to be excluded due to steric hindrance.
+
+---
+
+**Evaluation for each target guest molecule:**
+
+**MOF Name: tp-PMBB-2-pcu-1**
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+-   MOF's inferred effective pore size: Approximately 3.200 Å.
+-   Isoprene dimensions: 7.746×6.093×3.963 Å → Intermediate dimension = **6.093 Å**.
+-   Conclusion: Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the inferred effective pore size of tp-PMBB-2-pcu-1 (~3.200 Å), it cannot be adsorbed.
+
+---
+
+**MOF Name: tp-PMBB-2-pcu-1**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+-   MOF's inferred effective pore size: Approximately 3.200 Å.
+-   cis-2-pentene dimensions: 8.067×5.572×5.136 Å → Intermediate dimension = **5.572 Å**.
+-   Conclusion: Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the inferred effective pore size of tp-PMBB-2-pcu-1 (~3.200 Å), it cannot be adsorbed.
+
+---
+
+**MOF Name: tp-PMBB-2-pcu-1**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+-   MOF's inferred effective pore size: Approximately 3.200 Å.
+-   1-pentene dimensions: 8.847×4.995×4.897 Å → Intermediate dimension = **4.995 Å**.
+-   Conclusion: Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the inferred effective pore size of tp-PMBB-2-pcu-1 (~3.200 Å), it cannot be adsorbed.
+
+---
+
+**MOF Name: tp-PMBB-2-pcu-1**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+-   MOF's inferred effective pore size: Approximately 3.200 Å.
+-   trans-2-pentene dimensions: 8.796×4.733×4.564 Å → Intermediate dimension = **4.733 Å**.
+-   Conclusion: Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the inferred effective pore size of tp-PMBB-2-pcu-1 (~3.200 Å), it cannot be adsorbed.
+
+---
+
+**MOF Name: tp-PMBB-2-pcu-1**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+-   MOF's inferred effective pore size: Approximately 3.200 Å.
+-   n-pentane dimensions: 9.118×4.364×3.969 Å → Intermediate dimension = **4.364 Å**.
+-   Conclusion: Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the inferred effective pore size of tp-PMBB-2-pcu-1 (~3.200 Å), it cannot be adsorbed.

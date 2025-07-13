@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "UiO-66 thin films",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 Å (apertures), 8 Å (tetrahedral cavities), 11 Å (octahedral cavities)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid (BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Ru(NH3)6^3+",
+                "Molecular Size": "5.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.5 M KCl electrolyte, scan rate: 10 mV/s",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Well-defined redox peaks observed in cyclic voltammetry."
+                }
+            },
+            {
+                "Molecule Name": "Fe(CN)6^3-",
+                "Molecular Size": "7.2 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.5 M KCl electrolyte, scan rate: 10 mV/s",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Weak and deformed CV signal for N2-dried films; unresolvable response for supercritical CO2 dried or PDMS-treated films due to defect elimination."
+                }
+            },
+            {
+                "Molecule Name": "Fe(phen)3^2+",
+                "Molecular Size": "13 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.5 M KCl electrolyte, scan rate: 10 mV/s",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No redox peaks observed in cyclic voltammetry, confirming size exclusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Cyclic voltammetry",
+            "Performance Metrics": "Selective permeability of Ru(NH3)6^3+ over Fe(phen)3^2+ confirmed by redox activity on FTO electrode."
+        },
+        "Other Information": {
+            "Additional Info": "Defects formed during drying were mitigated by supercritical CO2 drying or PDMS treatment, enhancing molecular sieving capability."
+        }
+    }
+]

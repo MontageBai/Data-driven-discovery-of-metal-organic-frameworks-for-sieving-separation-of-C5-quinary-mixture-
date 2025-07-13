@@ -1,0 +1,74 @@
+[
+    {
+        "Materials Name": "[Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.2×4.2 Å (windows), ~12 Å (pore cavities)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "{4.62}2{63}2{68.85.102}",
+        "Metal Nodes": [
+            "Ni1",
+            "Ni2"
+        ],
+        "Ligands": [
+            "4,4’-bipyridine",
+            "2,4,6-trimethylbenzene-1,3,5-triyl tris(methylene) triphosphonic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "0.346 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "273 K, 0-1000 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fickian diffusion model fits the adsorption kinetic profile."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "273 K, 0-1000 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 adsorption is much slower than O2 adsorption."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "30-75°C, varying pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption kinetics follow Fickian diffusion at low surface coverage."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "30°C, varying pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very high CO2/CH4 selectivity (>1000) attributed to exclusion of CH4 from the framework structure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Gravimetric analysis",
+            "Performance Metrics": "CO2/N2 selectivity: Not Reported, CO2/CH4 selectivity: >1000 at 30°C"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows very slow adsorption of larger molecules like methane, leading to effective exclusion from the pore structure."
+        }
+    }
+]

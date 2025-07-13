@@ -1,0 +1,97 @@
+MOF Name: {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn)
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+
+Inferred effective pore size of {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn):
+The MOF is shown to adsorb carbon dioxide with an intermediate dimension of 3.200 Å, and the mechanism is stated as "Kinetic sieving." This implies that the pore size is at least 3.200 Å, and likely not significantly larger, as kinetic sieving typically occurs when there is a fine size distinction allowing selective passage. Without specific "No" adsorption data due to size exclusion for this MOF, an explicit upper bound cannot be determined directly from the provided data. However, the kinetic sieving of CO2 suggests a relatively tight fit.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is adsorbed via kinetic sieving, it is highly improbable that isoprene can be adsorbed due to size exclusion.
+
+---
+
+MOF Name: {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn)
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+
+Inferred effective pore size of {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn):
+The MOF is shown to adsorb carbon dioxide with an intermediate dimension of 3.200 Å, and the mechanism is stated as "Kinetic sieving." This implies that the pore size is at least 3.200 Å, and likely not significantly larger, as kinetic sieving typically occurs when there is a fine size distinction allowing selective passage. Without specific "No" adsorption data due to size exclusion for this MOF, an explicit upper bound cannot be determined directly from the provided data. However, the kinetic sieving of CO2 suggests a relatively tight fit.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is adsorbed via kinetic sieving, it is highly improbable that cis-2-pentene can be adsorbed due to size exclusion.
+
+---
+
+MOF Name: {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn)
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+
+Inferred effective pore size of {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn):
+The MOF is shown to adsorb carbon dioxide with an intermediate dimension of 3.200 Å, and the mechanism is stated as "Kinetic sieving." This implies that the pore size is at least 3.200 Å, and likely not significantly larger, as kinetic sieving typically occurs when there is a fine size distinction allowing selective passage. Without specific "No" adsorption data due to size exclusion for this MOF, an explicit upper bound cannot be determined directly from the provided data. However, the kinetic sieving of CO2 suggests a relatively tight fit.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is adsorbed via kinetic sieving, it is highly improbable that 1-pentene can be adsorbed due to size exclusion.
+
+---
+
+MOF Name: {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn)
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+
+Inferred effective pore size of {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn):
+The MOF is shown to adsorb carbon dioxide with an intermediate dimension of 3.200 Å, and the mechanism is stated as "Kinetic sieving." This implies that the pore size is at least 3.200 Å, and likely not significantly larger, as kinetic sieving typically occurs when there is a fine size distinction allowing selective passage. Without specific "No" adsorption data due to size exclusion for this MOF, an explicit upper bound cannot be determined directly from the provided data. However, the kinetic sieving of CO2 suggests a relatively tight fit.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is adsorbed via kinetic sieving, it is highly improbable that trans-2-pentene can be adsorbed due to size exclusion.
+
+---
+
+MOF Name: {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn)
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn):
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+
+Inferred effective pore size of {[Zn4(L)2(NO3)(H2O)3]+ [S1]}n (LZn):
+The MOF is shown to adsorb carbon dioxide with an intermediate dimension of 3.200 Å, and the mechanism is stated as "Kinetic sieving." This implies that the pore size is at least 3.200 Å, and likely not significantly larger, as kinetic sieving typically occurs when there is a fine size distinction allowing selective passage. Without specific "No" adsorption data due to size exclusion for this MOF, an explicit upper bound cannot be determined directly from the provided data. However, the kinetic sieving of CO2 suggests a relatively tight fit.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the intermediate dimension of carbon dioxide (3.200 Å), which is adsorbed via kinetic sieving, it is highly improbable that n-pentane can be adsorbed due to size exclusion.

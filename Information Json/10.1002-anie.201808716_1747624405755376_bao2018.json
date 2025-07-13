@@ -1,0 +1,52 @@
+[
+    {
+        "Materials Name": "M-gallate (M= Ni, Mg, Co)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.47 × 4.85 Å² (Ni-gallate), 3.56 × 4.84 Å² (Mg-gallate), 3.69 × 4.95 Å² (Co-gallate)",
+            "Structure Type": "3D interconnected zigzag channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+",
+            "Mg2+",
+            "Co2+"
+        ],
+        "Ligands": [
+            "gallic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "3.28 × 4.18 × 4.84 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Co-gallate shows highest ethylene uptake of 3.37 mmol/g."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "3.81 × 4.08 × 4.82 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane molecules are excluded due to larger size compared to pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular cross-section size differentiation",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Adsorption isotherms, Neutron diffraction",
+            "Performance Metrics": "IAST selectivity for C2H4 over C2H6: 52 (Co-gallate), C2H4 uptake: 3.37 mmol/g (Co-gallate)"
+        },
+        "Other Information": {
+            "Additional Info": "M-gallate shows high stability against water vapor and excellent recyclability in separation processes."
+        }
+    }
+]

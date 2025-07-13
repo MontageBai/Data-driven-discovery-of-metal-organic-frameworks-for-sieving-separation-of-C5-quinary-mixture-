@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Zn-ATZ-IP(OH)-a",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.7 Å (pore window)",
+            "Structure Type": "3D net with 1D square channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "3-amino-1,2,4-triazole",
+            "5-hydroxyisophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.16 × 4.65 × 6.5 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, gas mixture C3H6/C3H8 = 1:1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of ~45 cm³ cm⁻³ at 298 K"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "4.2 × 4.8 × 6.8 Å³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, gas mixture C3H6/C3H8 = 1:1",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of ~3 cm³ cm⁻³ at 298 K"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Hydrogen bonds define rigid pore windows that admit propylene while excluding propane",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment and single-crystal X-ray diffraction",
+            "Performance Metrics": "C3H6 breakthrough time ~5 min; C3H6 purity: 97.2%"
+        },
+        "Other Information": {
+            "Additional Info": "Hydrogen bonds hinder the free torsion of ATZ− ligand, defining rigid pore windows"
+        }
+    }
+]

@@ -1,0 +1,524 @@
+[
+    {
+        "Materials Name": "UiO-66(Ti56)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+",
+            "Ti4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical adsorption via open metal sites",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Increased CO2 uptake attributed to smaller pore size and enhanced adsorption enthalpy."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "CO2 adsorption experiments",
+            "Performance Metrics": "CO2 uptake: 4.00 mmol/g at 273 K and 1 bar; Qst: 37.3 kJ/mol"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows improved CO2 affinity due to Ti(IV) incorporation."
+        }
+    },
+    {
+        "Materials Name": "NJU-Bai3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "11.1-15.2 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "5-(4-carboxy-benzoylamino)-isophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical adsorption via open metal sites and ligand interaction",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High CO2 uptake due to optimized pore size and chemical interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "CO2 adsorption experiments",
+            "Performance Metrics": "CO2 uptake: 6.21 mmol/g at 273 K and 1 bar; Qst: 36.5 kJ/mol"
+        },
+        "Other Information": {
+            "Additional Info": "Framework features amide groups enhancing CO2 affinity."
+        }
+    },
+    {
+        "Materials Name": "HNUST-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6 × 8 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "bis(3,5-dicarboxyphenyl)terephthalamide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical adsorption via open metal sites and ligand interaction",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher CO2 uptake compared to NJU-Bai3 due to smaller pore sizes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "CO2 adsorption experiments",
+            "Performance Metrics": "CO2 uptake: 6.98 mmol/g at 273 K and 1 bar; Qst: 31.2 kJ/mol"
+        },
+        "Other Information": {
+            "Additional Info": "Replacement of benzamide with acetylene in the ligand structure improves performance."
+        }
+    },
+    {
+        "Materials Name": "SNU-71",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.5 × 2.5 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4-(2-carboxyethyl)-benzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller pore size leads to higher CO2 uptake compared to SNU-70."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "CO2 adsorption experiments",
+            "Performance Metrics": "CO2 uptake: 1.05 mmol/g at 298 K and 1 bar; Qst: 17.8 kJ/mol"
+        },
+        "Other Information": {
+            "Additional Info": "Interpenetration decreases BET surface area but enhances CO2 affinity."
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-2-Cu-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.15 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4'-dipyridylacetylene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical adsorption via SiF62- pillars",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Doubly interpenetrated structure enhances CO2 adsorption."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "CO2 adsorption experiments",
+            "Performance Metrics": "CO2 uptake: 5.41 mmol/g at 298 K and 1 bar; Qst: 31.9 kJ/mol"
+        },
+        "Other Information": {
+            "Additional Info": "Interpenetration increases CO2 affinity despite reduced BET surface area."
+        }
+    },
+    {
+        "Materials Name": "FJU-90",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.4 × 5.1 Å2",
+            "Structure Type": "cylindrical channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "4-(4H-1,2,4-triazol-4-yl)benzoic acid",
+            "1,2,4-triazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical adsorption via polar groups and pore partitioning",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pore space partitioning enhances CO2 uptake and selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "CO2 adsorption experiments",
+            "Performance Metrics": "CO2 uptake: 4.60 mmol/g at 298 K and 1 bar; Qst: 20.7 kJ/mol"
+        },
+        "Other Information": {
+            "Additional Info": "Tripp ligand divides channel space for better CO2 capture."
+        }
+    },
+    {
+        "Materials Name": "HS-1",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "benzene-1,3,5-tricarboxylate acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical adsorption via open metal sites",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hybrid structure increases CO2 uptake significantly."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "CO2 adsorption experiments",
+            "Performance Metrics": "CO2 uptake: 4.82 mmol/g at 298 K and 1 bar; Qst: 46.0 kJ/mol"
+        },
+        "Other Information": {
+            "Additional Info": "Incorporation into SBA-15 enhances porosity and CO2 adsorption."
+        }
+    },
+    {
+        "Materials Name": "MIL-101(Cr)@MCM-41",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2.1 × 1.5 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "1,4-dicarboxybenzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical adsorption via open metal sites",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Layer-packed arrangement enhances CO2 uptake."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "CO2 adsorption experiments",
+            "Performance Metrics": "CO2 uptake: 2.30 mmol/g at 298 K and 1 bar; Qst: 37.0 kJ/mol"
+        },
+        "Other Information": {
+            "Additional Info": "MCM-41 directs MIL-101(Cr) growth for improved performance."
+        }
+    },
+    {
+        "Materials Name": "DETA-Ac@MIL-101(Cr)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "1,4-dicarboxybenzene",
+            "diethylenetriamine acetate ILs"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical adsorption via amine functionalization",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Amine-functionalized ILs enhance CO2 affinity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "CO2 adsorption experiments",
+            "Performance Metrics": "CO2 uptake: 2.46 mmol/g at 298 K and 1 bar; Qst: 46.0 kJ/mol"
+        },
+        "Other Information": {
+            "Additional Info": "Synergistic effect between active sites and framework improves CO2 capture."
+        }
+    },
+    {
+        "Materials Name": "UTSA-120",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.6 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "3,6-di(4-pyridyl)-1,2,4,5-tetrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical adsorption via tetrazine and SiF62- pillars",
+                "Other Information": {
+                    "Test Conditions": "296 K, 0.15 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Dual functionalities improve CO2/C2H2 separation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/C2H2 selectivity: 100.0 at 296 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "Optimized pore size and dual functionality achieve high selectivity."
+        }
+    },
+    {
+        "Materials Name": "ZJNU-19",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical adsorption via N-oxide groups",
+                "Other Information": {
+                    "Test Conditions": "295 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N-oxide groups provide additional lone pairs for CO2 binding."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "CO2 adsorption experiments",
+            "Performance Metrics": "CO2 uptake: 5.12 mmol/g at 295 K and 1 bar; CO2/CH4 selectivity: 8.5"
+        },
+        "Other Information": {
+            "Additional Info": "Enhanced CO2 selectivity over CH4 due to N-oxide modification."
+        }
+    },
+    {
+        "Materials Name": "CNT@Cu3(BTC)2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "benzene-1,3,5-tricarboxylate acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical adsorption via open metal sites",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Composite structure improves CO2/CH4 selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "CO2 adsorption experiments",
+            "Performance Metrics": "CO2/CH4 selectivity: 5.7 at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "Extra ultramicropores generated in the interface."
+        }
+    },
+    {
+        "Materials Name": "TIFSIX-2-Cu-i",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,2-bis(4-pyridyl)acetylene",
+            "TiF62-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical adsorption via TiF62- pillars",
+                "Other Information": {
+                    "Test Conditions": "298 K, 0.15 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Coulomb potential governs selective CO2 adsorption."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "CO2/C2H2 selectivity: 0.15 at 298 K and 0.15 bar"
+        },
+        "Other Information": {
+            "Additional Info": "Reversed selectivity compared to SIFSIX-3-Ni."
+        }
+    },
+    {
+        "Materials Name": "CD-MOF-2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Rb+"
+        ],
+        "Ligands": [
+            "cyclodextrin"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical adsorption via hydroxyl groups",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher basicity of RbOH enhances CO2 affinity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "CO2 adsorption experiments",
+            "Performance Metrics": "CO2/C2H2 selectivity: 16.6 at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "Isostructural design demonstrates tunable selectivity."
+        }
+    }
+]

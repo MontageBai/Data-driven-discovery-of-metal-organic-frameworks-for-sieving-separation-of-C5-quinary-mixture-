@@ -1,0 +1,242 @@
+[
+    {
+        "Materials Name": "Silica",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "2-4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "2.60 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Activated diffusion",
+                "Other Information": {
+                    "Test Conditions": "25 oC, 1.97 atm (feed) / vacuum (permeate)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Helium permeance is 1.740 · 10-6 mol m-2s-1Pa-1 and He/N2 selectivity is 64.4."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 oC, 1.97 atm (feed) / vacuum (permeate)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen cannot pass through the silica membrane due to its larger size relative to the pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas permeation tests",
+            "Performance Metrics": "He/N2 selectivity: 64.4"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane calcined at higher temperature showed improved He/N2 selectivity as a result of reduced pore size and terminal hydroxyl groups."
+        }
+    },
+    {
+        "Materials Name": "Co-doped silica",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "2.60 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Activated diffusion",
+                "Other Information": {
+                    "Test Conditions": "500 oC, 1.97 atm (feed) / vacuum (permeate)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Helium permeance increased with temperature rise while maintaining high selectivity over nitrogen."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "500 oC, 1.97 atm (feed) / vacuum (permeate)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen was unable to pass through the Co-doped silica membrane due to its larger kinetic diameter."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas permeation tests",
+            "Performance Metrics": "He/N2 selectivity: 1600"
+        },
+        "Other Information": {
+            "Additional Info": "Co-doping enhances hydrothermal stability and provides high selectivity for helium separation."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Three-dimensional tetrahedral frameworks"
+        },
+        "Topology": "Sodalite (SOD)",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate linkers"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "2.60 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "25 oC, 1.97 atm (feed) / vacuum (permeate)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Helium permeance is 1.450 · 10-7 mol m-2s-1Pa-1 and He/N2 selectivity is 102.8."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Framework flexibility",
+                "Other Information": {
+                    "Test Conditions": "25 oC, 1.97 atm (feed) / vacuum (permeate)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Although methane's kinetic diameter is larger than ZIF-8’s pore size, it can still pass through due to framework flexibility."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Monomodal size distributions and diffusion pathways",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas permeation tests",
+            "Performance Metrics": "He/N2 selectivity: 102.8"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 membranes demonstrate excellent thermal and hydrothermal stability up to 200 oC."
+        }
+    },
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.6 Å × 3.6 Å",
+            "Structure Type": "Three-dimensional tetrahedral frameworks"
+        },
+        "Topology": "Sodalite (SOD)",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazolate linkers"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "2.60 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "25 oC, 1 atm pressure drop",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Helium permeance is 4.610 · 10-7 mol m-2s-1Pa-1."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 oC, 1 atm pressure drop",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen does not pass through the ZIF-7 membrane due to its larger size compared to the pore aperture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Monomodal size distributions and diffusion pathways",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas permeation tests",
+            "Performance Metrics": "He/N2 selectivity: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-7 membranes exhibit activated diffusion behavior for helium above 100 oC."
+        }
+    },
+    {
+        "Materials Name": "HKUST-1",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "9 Å × 9 Å",
+            "Structure Type": "Intersecting three-dimensional network"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu3+"
+        ],
+        "Ligands": [
+            "BTC (trimesic acid)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "2.60 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion dominated by molecular size",
+                "Other Information": {
+                    "Test Conditions": "25 oC, 6 MPa pressure difference",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Helium permeance is significantly higher than other gases due to its smaller size."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Surface diffusion",
+                "Other Information": {
+                    "Test Conditions": "25 oC, 6 MPa pressure difference",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Carbon dioxide exhibits surface diffusion due to its strong adsorption on HKUST-1."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Binary gas mixture permeation tests",
+            "Performance Metrics": "He/N2 selectivity: 5"
+        },
+        "Other Information": {
+            "Additional Info": "HKUST-1 membranes show moderate selectivity for helium separation."
+        }
+    }
+]

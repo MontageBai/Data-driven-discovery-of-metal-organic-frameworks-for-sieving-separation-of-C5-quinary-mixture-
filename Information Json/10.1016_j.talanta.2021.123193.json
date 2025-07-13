@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "HP-MOF-Arg@mSiO2",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.5 nm (micropores), 3.7 nm (mesopores)",
+            "Structure Type": "Hierarchical porous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid",
+            "arginine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glycopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at mesoporous channels",
+                "Other Information": {
+                    "Test Conditions": "Acidic aqueous solution, 37 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material's hierarchical pore structure allows small glycopeptides to pass through while excluding larger proteins."
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin (BSA)",
+                "Molecular Size": "66 kDa",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at mesoporous channels",
+                "Other Information": {
+                    "Test Conditions": "Simulated biological samples with IgG and BSA mixtures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large proteins like BSA are excluded by the mesoporous silica shell, enhancing selectivity for glycopeptides."
+                }
+            },
+            {
+                "Molecule Name": "immunoglobulin G (IgG)",
+                "Molecular Size": "150 kDa",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at mesoporous channels",
+                "Other Information": {
+                    "Test Conditions": "Simulated biological samples with IgG and BSA mixtures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High-abundance proteins such as IgG are effectively excluded due to the size-exclusion effect of the mesoporous channels."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale via a hierarchical porous structure composed of microporous UiO-66-NH2 and mesoporous SiO2 shell.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis, Nano-LC-MS/MS analysis",
+            "Performance Metrics": "521 glycopeptides identified from 2 μL human serum; 342 glycopeptides identified from 2 μL mouse testis tissue."
+        },
+        "Other Information": {
+            "Additional Info": "The mesoporous SiO2 layer enhances stability in aqueous solutions and improves enrichment specificity for glycopeptides by excluding large proteins."
+        }
+    }
+]

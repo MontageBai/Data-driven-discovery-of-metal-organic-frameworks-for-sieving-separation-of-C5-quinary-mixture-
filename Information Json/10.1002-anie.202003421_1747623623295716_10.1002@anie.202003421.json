@@ -1,0 +1,144 @@
+[
+    {
+        "Materials Name": "GeFSIX-dps-Cu",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.8 × 2.6 Å2 (pore aperture)",
+            "Structure Type": "Layered structure with 1D channels along the c axis"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4'-dipyridylsulfide",
+            "GeF6 2-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propyne",
+                "Molecular Size": "4.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening adsorption above threshold pressure",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "0.015 bar",
+                    "Additional Info": "Adsorption capacity: 3.73 mmol g-1 at 298 K and 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "propene",
+                "Molecular Size": "4.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption: 0.08 mmol g-1 at 298 K and 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening adsorption above threshold pressure",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "0.075 bar",
+                    "Additional Info": "Adsorption capacity: 2.75 mmol g-1 at 298 K and 0.1 bar"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption: 0.08 mmol g-1 at 298 K and 1 bar"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Sub-nano regulation of pore aperture to reject alkenes while admitting alkynes",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, single-crystal X-ray diffraction, DFT-D modeling",
+            "Performance Metrics": "C3H4/C3H6 uptake ratio: ~15 at 1 bar/1 bar, C2H2/C2H4 selectivity: 134.2 for 10/90 mixture"
+        },
+        "Other Information": {
+            "Additional Info": "Hydrolytically stable; recyclable over 5 cycles in C3H4/C3H6 separation"
+        }
+    },
+    {
+        "Materials Name": "GeFSIX-dps-Zn",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Nearly closed after activation",
+            "Structure Type": "Layered structure with 1D channels along the c axis"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "4,4'-dipyridylsulfide",
+            "GeF6 2-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propyne",
+                "Molecular Size": "4.2 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening adsorption above threshold pressure",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "0.13 bar",
+                    "Additional Info": "Adsorption capacity: 3.48 mmol g-1 at 298 K and 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "propene",
+                "Molecular Size": "4.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption: 0.12 mmol g-1 at 298 K and 1 bar"
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening adsorption above threshold pressure",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "0.39 bar",
+                    "Additional Info": "Adsorption capacity: 0.41 mmol g-1 at 298 K for 10/90 C2H2/C2H4 mixture"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption observed in breakthrough tests"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Slightly contracted pore aperture and interlayer space causing higher threshold pressure for alkynes",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, single-crystal X-ray diffraction, DFT-D modeling",
+            "Performance Metrics": "C3H4/C3H6 uptake ratio significantly lower than GeFSIX-dps-Cu; C2H2/C2H4 selectivity: 46.8 for 10/90 mixture"
+        },
+        "Other Information": {
+            "Additional Info": "Hydrolytically stable but exhibits reduced low-pressure alkyne uptake compared to GeFSIX-dps-Cu"
+        }
+    }
+]

@@ -1,0 +1,90 @@
+MOF Name: Cu3(BTC)2
+
+**Inferred Effective Pore Size of Cu3(BTC)2:**
+
+From the experimental adsorption data:
+*   **Adsorbed (Yes) Molecules and their intermediate dimensions:**
+    *   Hexane: 10.359×4.607×3.969 → Intermediate = 4.607 Å
+    *   Benzene: 7.134×6.762×3.200 → Intermediate = 6.762 Å
+    *   *Largest intermediate dimension of adsorbed molecules = 6.762 Å*
+
+*   **Non-Adsorbed (No, due to size exclusion) Molecules and their intermediate dimensions:**
+    *   Toluene: 8.117×6.501×3.750 → Intermediate = 6.501 Å
+    *   Cyclohexane: 6.949×7.090×4.855 → Intermediate = 6.949 Å
+    *   *Smallest intermediate dimension of non-adsorbed molecules = 6.501 Å*
+
+**Contradiction in Inferred Pore Size Range:**
+According to the judgment criteria, the inferred effective pore size should be "Greater than or equal to the largest intermediate dimension of the adsorbed molecules" and "Less than the smallest intermediate dimension of the non-adsorbed molecules."
+This would imply a range of `[6.762 Å, 6.501 Å)`. This range is contradictory and mathematically impossible, as the lower bound (6.762 Å) is greater than the upper bound (6.501 Å).
+
+**Resolution for Prediction:**
+This contradiction (benzene with intermediate dimension 6.762 Å adsorbs, but toluene with intermediate dimension 6.501 Å does not) indicates that the simple "intermediate dimension" rule may not fully capture the size exclusion mechanism for Cu3(BTC)2, especially for molecules with complex shapes or where kinetic/conformational factors are significant (e.g., toluene's methyl group compared to planar benzene).
+
+However, as per the instructions, predictions must be based solely on the provided data and the "intermediate dimension" as the main concern. Therefore, for the purpose of making predictions, we will consider that the MOF can clearly adsorb molecules with intermediate dimensions up to at least **6.762 Å** (as demonstrated by benzene adsorption). Molecules with intermediate dimensions significantly larger than this (e.g., cyclohexane at 6.949 Å) are clearly excluded. The toluene case is acknowledged as an anomaly within the strict application of the "intermediate dimension" rule.
+
+Given this, we will predict adsorption for molecules whose intermediate dimensions are equal to or less than 6.762 Å.
+
+---
+
+**MOF Name: Cu3(BTC)2**
+**Guest Molecule: isoprene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   The MOF Cu3(BTC)2 is experimentally shown to adsorb benzene (intermediate dimension: 6.762 Å) and hexane (intermediate dimension: 4.607 Å). It excludes cyclohexane (intermediate dimension: 6.949 Å).
+*   While toluene (intermediate dimension: 6.501 Å) is reported as not adsorbed, which creates a contradiction with benzene's adsorption if intermediate dimension is the sole factor, for prediction, we consider the largest intermediate dimension shown to adsorb, which is 6.762 Å (benzene).
+*   Isoprene's dimensions are 7.746×6.093×3.963, and its intermediate dimension is **6.093 Å**.
+*   Since isoprene's intermediate dimension (6.093 Å) is less than the intermediate dimension of adsorbed benzene (6.762 Å), it is predicted to pass through the pores of Cu3(BTC)2.
+
+---
+
+**MOF Name: Cu3(BTC)2**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   The MOF Cu3(BTC)2 is experimentally shown to adsorb benzene (intermediate dimension: 6.762 Å) and hexane (intermediate dimension: 4.607 Å). It excludes cyclohexane (intermediate dimension: 6.949 Å).
+*   While toluene (intermediate dimension: 6.501 Å) is reported as not adsorbed, which creates a contradiction with benzene's adsorption if intermediate dimension is the sole factor, for prediction, we consider the largest intermediate dimension shown to adsorb, which is 6.762 Å (benzene).
+*   cis-2-pentene's dimensions are 8.067×5.572×5.136, and its intermediate dimension is **5.572 Å**.
+*   Since cis-2-pentene's intermediate dimension (5.572 Å) is less than the intermediate dimension of adsorbed benzene (6.762 Å), it is predicted to pass through the pores of Cu3(BTC)2.
+
+---
+
+**MOF Name: Cu3(BTC)2**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   The MOF Cu3(BTC)2 is experimentally shown to adsorb benzene (intermediate dimension: 6.762 Å) and hexane (intermediate dimension: 4.607 Å). It excludes cyclohexane (intermediate dimension: 6.949 Å).
+*   While toluene (intermediate dimension: 6.501 Å) is reported as not adsorbed, which creates a contradiction with benzene's adsorption if intermediate dimension is the sole factor, for prediction, we consider the largest intermediate dimension shown to adsorb, which is 6.762 Å (benzene).
+*   1-pentene's dimensions are 8.847×4.995×4.897, and its intermediate dimension is **4.995 Å**.
+*   Since 1-pentene's intermediate dimension (4.995 Å) is less than the intermediate dimension of adsorbed benzene (6.762 Å), it is predicted to pass through the pores of Cu3(BTC)2.
+
+---
+
+**MOF Name: Cu3(BTC)2**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   The MOF Cu3(BTC)2 is experimentally shown to adsorb benzene (intermediate dimension: 6.762 Å) and hexane (intermediate dimension: 4.607 Å). It excludes cyclohexane (intermediate dimension: 6.949 Å).
+*   While toluene (intermediate dimension: 6.501 Å) is reported as not adsorbed, which creates a contradiction with benzene's adsorption if intermediate dimension is the sole factor, for prediction, we consider the largest intermediate dimension shown to adsorb, which is 6.762 Å (benzene).
+*   trans-2-pentene's dimensions are 8.796×4.733×4.564, and its intermediate dimension is **4.733 Å**.
+*   Since trans-2-pentene's intermediate dimension (4.733 Å) is less than the intermediate dimension of adsorbed benzene (6.762 Å), it is predicted to pass through the pores of Cu3(BTC)2.
+
+---
+
+**MOF Name: Cu3(BTC)2**
+**Guest Molecule: n-pentane**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   The MOF Cu3(BTC)2 is experimentally shown to adsorb benzene (intermediate dimension: 6.762 Å) and hexane (intermediate dimension: 4.607 Å). It excludes cyclohexane (intermediate dimension: 6.949 Å).
+*   While toluene (intermediate dimension: 6.501 Å) is reported as not adsorbed, which creates a contradiction with benzene's adsorption if intermediate dimension is the sole factor, for prediction, we consider the largest intermediate dimension shown to adsorb, which is 6.762 Å (benzene).
+*   n-pentane's dimensions are 9.118×4.364×3.969, and its intermediate dimension is **4.364 Å**.
+*   Since n-pentane's intermediate dimension (4.364 Å) is less than the intermediate dimension of adsorbed benzene (6.762 Å), it is predicted to pass through the pores of Cu3(BTC)2.

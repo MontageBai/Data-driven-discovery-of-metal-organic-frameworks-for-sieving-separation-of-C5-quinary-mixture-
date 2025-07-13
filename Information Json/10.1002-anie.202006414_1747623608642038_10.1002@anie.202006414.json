@@ -1,0 +1,142 @@
+[
+    {
+        "Materials Name": "Ca-trimesate (bnn-1-Ca-H2O)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "bnn",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exhibits ultra-high CO2/N2 and CO2/CH4 selectivity."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Non-porous to N2 at 77 K."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "195 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Non-porous to CH4 at 195 K."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "2.98 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exhibits molecular sieving selectivity over ethylene and ethane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/N2 selectivity: ultra-high, CO2/CH4 selectivity: ultra-high, C2H2/C2H4 selectivity: ultra-high"
+        },
+        "Other Information": {
+            "Additional Info": "The material is non-porous to N2 and CH4 but exhibits stepped C2H2 isotherms indicating flexibility."
+        }
+    },
+    {
+        "Materials Name": "Ca-trimesate (bnn-1-Ca)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.1 Å",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "bnn",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K, 87 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exhibits ultra-high H2/CO2 and H2/N2 selectivity under cryogenic conditions."
+                }
+            },
+            {
+                "Molecule Name": "neon",
+                "Molecular Size": "2.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K, 87 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbs neon up to saturation vapor pressures at the respective temperatures."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "195 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Non-porous to CO2 under these conditions."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Non-porous to N2 at 77 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sorption isotherms",
+            "Performance Metrics": "H2/CO2 selectivity: ~10^4, H2/N2 selectivity: ~10^4"
+        },
+        "Other Information": {
+            "Additional Info": "The dehydrated phase of Ca-trimesate serves as the first H2 selective non-membrane solid sieve under cryogenic conditions."
+        }
+    }
+]

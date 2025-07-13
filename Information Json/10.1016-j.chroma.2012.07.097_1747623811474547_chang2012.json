@@ -1,0 +1,127 @@
+[
+    {
+        "Materials Name": "UIO-66",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "11 Å (octahedral cavities), 8 Å (tetrahedral cavities)",
+            "Structure Type": "3D cubic rigid structure with microporous triangular windows (5–7 Å free diameter)"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "10.1 Å (length)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reverse shape selectivity",
+                "Other Information": {
+                    "Test Conditions": "100 °C for 1 min, then ramp at 10 °C/min to 160 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Linear hexane is less retained than branched isomers."
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reverse shape selectivity",
+                "Other Information": {
+                    "Test Conditions": "100 °C for 1 min, then ramp at 10 °C/min to 160 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Branched isomer; more strongly retained than linear hexane."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reverse shape selectivity",
+                "Other Information": {
+                    "Test Conditions": "100 °C for 1 min, then ramp at 10 °C/min to 160 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Branched isomer; more strongly retained than linear hexane."
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reverse shape selectivity",
+                "Other Information": {
+                    "Test Conditions": "100 °C for 1 min, then ramp at 10 °C/min to 160 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Branched isomer; more strongly retained than linear hexane."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reverse shape selectivity",
+                "Other Information": {
+                    "Test Conditions": "100 °C for 1 min, then ramp at 10 °C/min to 160 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Branched isomer; most strongly retained among hexane isomers."
+                }
+            },
+            {
+                "Molecule Name": "1,3,5-trimethylbenzene",
+                "Molecular Size": "8.6 Å (critical diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "140 °C for 1 min, then ramp at 10 °C/min to 180 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Bulkier molecule excluded from micropores; elutes earlier."
+                }
+            },
+            {
+                "Molecule Name": "n-propylbenzene",
+                "Molecular Size": "6.8 Å (critical diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reverse shape selectivity",
+                "Other Information": {
+                    "Test Conditions": "140 °C for 1 min, then ramp at 10 °C/min to 180 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Elutes before iso-propylbenzene."
+                }
+            },
+            {
+                "Molecule Name": "iso-propylbenzene",
+                "Molecular Size": "6.8 Å (critical diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reverse shape selectivity",
+                "Other Information": {
+                    "Test Conditions": "140 °C for 1 min, then ramp at 10 °C/min to 180 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Branched isomer; elutes after n-propylbenzene."
+                }
+            },
+            {
+                "Molecule Name": "xylene",
+                "Molecular Size": "6.7–7.4 Å (critical diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Reverse shape selectivity",
+                "Other Information": {
+                    "Test Conditions": "140 °C for 1 min, then ramp at 10 °C/min to 180 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "o-xylene exhibits the strongest retention due to higher polarity and Van der Waals interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combination of reverse shape selectivity and molecular sieving effect.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment using gas chromatography",
+            "Performance Metrics": "Excellent selectivity and precision; theoretical plate numbers reported for various analytes."
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrates preferential retention of branched alkane isomers over linear ones, showcasing reverse shape selectivity. Bulkier molecules like 1,3,5-trimethylbenzene are excluded from micropores, illustrating molecular sieving effects."
+        }
+    }
+]

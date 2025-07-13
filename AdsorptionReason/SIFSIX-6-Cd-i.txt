@@ -1,0 +1,97 @@
+MOF Name: SIFSIX-6-Cd-i
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-6-Cd-i:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed
+
+Based on the provided data, the largest molecule adsorbed by SIFSIX-6-Cd-i has an intermediate dimension of 4.175 Å (ethane). No molecules were reported as "Not Adsorbed" due to size exclusion. Therefore, the inferred effective pore size of SIFSIX-6-Cd-i is determined to be at least 4.175 Å. The upper bound of the pore size cannot be inferred from the given data.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is larger than the largest adsorbed molecule (ethane, 4.175 Å) but there is no upper size limit established by non-adsorbed molecules due to size exclusion, it is predicted that SIFSIX-6-Cd-i can adsorb isoprene. The MOF's pore size is at least 4.175 Å, and without data showing a size exclusion cutoff below 6.093 Å, adsorption is anticipated based on the current information.
+
+---
+
+MOF Name: SIFSIX-6-Cd-i
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-6-Cd-i:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed
+
+Based on the provided data, the largest molecule adsorbed by SIFSIX-6-Cd-i has an intermediate dimension of 4.175 Å (ethane). No molecules were reported as "Not Adsorbed" due to size exclusion. Therefore, the inferred effective pore size of SIFSIX-6-Cd-i is determined to be at least 4.175 Å. The upper bound of the pore size cannot be inferred from the given data.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is larger than the largest adsorbed molecule (ethane, 4.175 Å) but there is no upper size limit established by non-adsorbed molecules due to size exclusion, it is predicted that SIFSIX-6-Cd-i can adsorb cis-2-pentene. The MOF's pore size is at least 4.175 Å, and without data showing a size exclusion cutoff below 5.572 Å, adsorption is anticipated based on the current information.
+
+---
+
+MOF Name: SIFSIX-6-Cd-i
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-6-Cd-i:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed
+
+Based on the provided data, the largest molecule adsorbed by SIFSIX-6-Cd-i has an intermediate dimension of 4.175 Å (ethane). No molecules were reported as "Not Adsorbed" due to size exclusion. Therefore, the inferred effective pore size of SIFSIX-6-Cd-i is determined to be at least 4.175 Å. The upper bound of the pore size cannot be inferred from the given data.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is larger than the largest adsorbed molecule (ethane, 4.175 Å) but there is no upper size limit established by non-adsorbed molecules due to size exclusion, it is predicted that SIFSIX-6-Cd-i can adsorb 1-pentene. The MOF's pore size is at least 4.175 Å, and without data showing a size exclusion cutoff below 4.995 Å, adsorption is anticipated based on the current information.
+
+---
+
+MOF Name: SIFSIX-6-Cd-i
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-6-Cd-i:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed
+
+Based on the provided data, the largest molecule adsorbed by SIFSIX-6-Cd-i has an intermediate dimension of 4.175 Å (ethane). No molecules were reported as "Not Adsorbed" due to size exclusion. Therefore, the inferred effective pore size of SIFSIX-6-Cd-i is determined to be at least 4.175 Å. The upper bound of the pore size cannot be inferred from the given data.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is larger than the largest adsorbed molecule (ethane, 4.175 Å) but there is no upper size limit established by non-adsorbed molecules due to size exclusion, it is predicted that SIFSIX-6-Cd-i can adsorb trans-2-pentene. The MOF's pore size is at least 4.175 Å, and without data showing a size exclusion cutoff below 4.733 Å, adsorption is anticipated based on the current information.
+
+---
+
+MOF Name: SIFSIX-6-Cd-i
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for SIFSIX-6-Cd-i:
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Adsorbed
+
+Based on the provided data, the largest molecule adsorbed by SIFSIX-6-Cd-i has an intermediate dimension of 4.175 Å (ethane). No molecules were reported as "Not Adsorbed" due to size exclusion. Therefore, the inferred effective pore size of SIFSIX-6-Cd-i is determined to be at least 4.175 Å. The upper bound of the pore size cannot be inferred from the given data.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is larger than the largest adsorbed molecule (ethane, 4.175 Å) but there is no upper size limit established by non-adsorbed molecules due to size exclusion, it is predicted that SIFSIX-6-Cd-i can adsorb n-pentane. The MOF's pore size is at least 4.175 Å, and without data showing a size exclusion cutoff below 4.364 Å, adsorption is anticipated based on the current information.

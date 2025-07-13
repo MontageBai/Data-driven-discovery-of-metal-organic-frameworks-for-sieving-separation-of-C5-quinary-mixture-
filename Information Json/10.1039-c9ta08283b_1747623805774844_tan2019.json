@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "CAU-10-OMe",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.6 to 5.2 Å (temperature-dependent)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "5-methoxyisophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "87 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen excluded at 87 K due to pore size of ~3.72 Å."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "143 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methane selectively adsorbed over ethylene at 143 K, indicating gate opening of ~3.98 Å."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "4.16 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "213 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethylene selectively adsorbed over propylene at 213 K, indicating gate opening of ~4.16–4.67 Å."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "4.67 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene selectively adsorbed over propane at 273 K, indicating fine-tuning of pore aperture in the 0.3–0.4 Å scale."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "5.10 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "343 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane selectively adsorbed over isobutane at 343 K, confirming continuous tuning of pore aperture."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "4.44 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "203 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane excluded at 203 K when pore size is ~4.37 Å, smaller than ethane's size but larger than ethylene's."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature-responsive molecular sieving via flexible methoxyl groups.",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms, breakthrough experiments, IAST predictions",
+            "Performance Metrics": "C3H6/C3H8 selectivity: up to 174 at 298 K and 100 kPa"
+        },
+        "Other Information": {
+            "Additional Info": "CAU-10-OMe demonstrates excellent regenerability, chemical stability, and potential for practical C3H6/C3H8 separation."
+        }
+    }
+]

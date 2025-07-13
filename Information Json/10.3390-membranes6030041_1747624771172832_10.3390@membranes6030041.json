@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "ZiF-8@CNT",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (PLD), 11.4 Å (LCD)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "xenon",
+                "Molecular Size": "3.96 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeation largely reduced but some molecules still passed due to gate opening effect."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Chemisorption and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeation was hindered compared to theoretical Knudsen diffusion; caused permanent deformation of the MOF structure."
+                }
+            },
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "2.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen diffusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Followed effective Knudsen diffusion with minor structural impact on the MOF."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen diffusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Followed effective Knudsen diffusion with minimal structural changes observed."
+                }
+            },
+            {
+                "Molecule Name": "argon",
+                "Molecular Size": "3.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen diffusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 101 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Followed effective Knudsen diffusion without significant structural deformation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening effect due to imidazole linker rotation",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "In-situ SAXS during gas permeation tests",
+            "Performance Metrics": "Xe/N2 selectivity: 2.08, CO2/N2 selectivity: 1.38"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibited flexibility under transmembrane pressure, leading to elastic or plastic deformations depending on the gas type."
+        }
+    }
+]

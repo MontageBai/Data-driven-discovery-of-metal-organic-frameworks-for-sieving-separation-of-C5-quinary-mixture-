@@ -1,0 +1,142 @@
+[
+    {
+        "Materials Name": "HFeO@MIL-100",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.63 nm, 1.41 nm, 2.80 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "MTN",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "arsenic",
+                "Molecular Size": "less than 1 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material demonstrates deep treatment ability, reducing As(V) concentration from 3900 μg L⁻¹ to 5.9 μg L⁻¹."
+                }
+            },
+            {
+                "Molecule Name": "humic acid",
+                "Molecular Size": "3-10 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Humic acid cannot access the interior adsorption sites due to size exclusion by the MOF pores."
+                }
+            },
+            {
+                "Molecule Name": "silicate",
+                "Molecular Size": "polymeric forms",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Silicate is excluded due to its larger size compared to the MOF pore dimensions."
+                }
+            },
+            {
+                "Molecule Name": "sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction negligible",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sulfate ions do not significantly affect arsenic adsorption capacity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments, XPS, XRD, TEM, N2 adsorption-desorption",
+            "Performance Metrics": "As(V) adsorption capacity: 137.7 mg g⁻¹; Adsorption rate increased over 20 times compared to MIL-100."
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibits high anti-interference ability and stability under a broad pH range (4-10)."
+        }
+    },
+    {
+        "Materials Name": "MIL-100",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.63 nm, 1.41 nm, 2.80 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "MTN",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "arsenic",
+                "Molecular Size": "less than 1 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "MIL-100 shows lower adsorption efficiency compared to HFeO@MIL-100."
+                }
+            },
+            {
+                "Molecule Name": "humic acid",
+                "Molecular Size": "3-10 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Similar retention capacity as HFeO@MIL-100 but with lower overall adsorption efficiency."
+                }
+            },
+            {
+                "Molecule Name": "silicate",
+                "Molecular Size": "polymeric forms",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention similar to HFeO@MIL-100."
+                }
+            },
+            {
+                "Molecule Name": "sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic interaction negligible",
+                "Other Information": {
+                    "Test Conditions": "298 K, pH 7",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible effect on arsenic adsorption capacity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments, XPS, XRD, TEM, N2 adsorption-desorption",
+            "Performance Metrics": "As(V) adsorption capacity: 93.75 mg g⁻¹."
+        },
+        "Other Information": {
+            "Additional Info": "MIL-100 alone does not exhibit deep treatment capability for arsenic removal."
+        }
+    }
+]

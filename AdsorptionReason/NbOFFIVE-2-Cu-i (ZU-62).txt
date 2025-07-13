@@ -1,0 +1,108 @@
+MOF Name: NbOFFIVE-2-Cu-i (ZU-62)
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for NbOFFIVE-2-Cu-i (ZU-62):
+- Krypton: 3.680×3.680×3.680 → Intermediate = 3.680 Å | Not Adsorbed (No), Reason: "Size exclusion" due to "Inverse size-sieving effect". This indicates that molecules of this size or smaller are effectively rejected, likely because they are too small for effective capture or interaction leading to adsorption, rather than being too large to fit.
+- Xenon: 4.320×4.320×4.320 → Intermediate = 4.320 Å | Adsorbed (Yes), Reason: "Gate-opening effect". This demonstrates that the MOF's pores can dynamically expand to accommodate molecules of at least this size, allowing their adsorption.
+
+Inferred effective adsorption behavior for NbOFFIVE-2-Cu-i (ZU-62) based on intermediate dimensions:
+The MOF exhibits an "inverse size-sieving effect," meaning it primarily excludes smaller molecules like Krypton (3.680 Å). Simultaneously, it can adsorb larger molecules like Xenon (4.320 Å) through a "gate-opening effect." This implies that the MOF can accommodate molecules with intermediate dimensions of 4.320 Å or larger, and it tends to reject molecules with intermediate dimensions of 3.680 Å or smaller.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than Xenon's intermediate dimension (4.320 Å), which is known to be adsorbed by the MOF via a gate-opening mechanism. Furthermore, isoprene is much larger than Krypton (3.680 Å), which is excluded due to the inverse size-sieving effect. Given the MOF's ability to undergo gate-opening for a smaller molecule like Xenon, it is highly probable that it can also accommodate and adsorb larger molecules like isoprene.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: NbOFFIVE-2-Cu-i (ZU-62)
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for NbOFFIVE-2-Cu-i (ZU-62):
+- Krypton: 3.680×3.680×3.680 → Intermediate = 3.680 Å | Not Adsorbed (No), Reason: "Size exclusion" due to "Inverse size-sieving effect".
+- Xenon: 4.320×4.320×4.320 → Intermediate = 4.320 Å | Adsorbed (Yes), Reason: "Gate-opening effect".
+
+Inferred effective adsorption behavior: The MOF rejects smaller molecules (<= 3.680 Å) but can adsorb larger molecules (>= 4.320 Å) via gate-opening.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is larger than Xenon's intermediate dimension (4.320 Å), which is adsorbed by the MOF. It is also significantly larger than Krypton (3.680 Å), which is excluded. The observed gate-opening effect for Xenon suggests the MOF's pores can expand to accommodate molecules larger than 4.320 Å. Therefore, cis-2-pentene should be adsorbed.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: NbOFFIVE-2-Cu-i (ZU-62)
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for NbOFFIVE-2-Cu-i (ZU-62):
+- Krypton: 3.680×3.680×3.680 → Intermediate = 3.680 Å | Not Adsorbed (No), Reason: "Size exclusion" due to "Inverse size-sieving effect".
+- Xenon: 4.320×4.320×4.320 → Intermediate = 4.320 Å | Adsorbed (Yes), Reason: "Gate-opening effect".
+
+Inferred effective adsorption behavior: The MOF rejects smaller molecules (<= 3.680 Å) but can adsorb larger molecules (>= 4.320 Å) via gate-opening.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is larger than Xenon's intermediate dimension (4.320 Å), which is adsorbed by the MOF. It is also significantly larger than Krypton (3.680 Å), which is excluded. The observed gate-opening effect for Xenon suggests the MOF's pores can expand to accommodate molecules larger than 4.320 Å. Therefore, 1-pentene should be adsorbed.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: NbOFFIVE-2-Cu-i (ZU-62)
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for NbOFFIVE-2-Cu-i (ZU-62):
+- Krypton: 3.680×3.680×3.680 → Intermediate = 3.680 Å | Not Adsorbed (No), Reason: "Size exclusion" due to "Inverse size-sieving effect".
+- Xenon: 4.320×4.320×4.320 → Intermediate = 4.320 Å | Adsorbed (Yes), Reason: "Gate-opening effect".
+
+Inferred effective adsorption behavior: The MOF rejects smaller molecules (<= 3.680 Å) but can adsorb larger molecules (>= 4.320 Å) via gate-opening.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is larger than Xenon's intermediate dimension (4.320 Å), which is adsorbed by the MOF. It is also significantly larger than Krypton (3.680 Å), which is excluded. The observed gate-opening effect for Xenon suggests the MOF's pores can expand to accommodate molecules larger than 4.320 Å. Therefore, trans-2-pentene should be adsorbed.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: NbOFFIVE-2-Cu-i (ZU-62)
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for NbOFFIVE-2-Cu-i (ZU-62):
+- Krypton: 3.680×3.680×3.680 → Intermediate = 3.680 Å | Not Adsorbed (No), Reason: "Size exclusion" due to "Inverse size-sieving effect".
+- Xenon: 4.320×4.320×4.320 → Intermediate = 4.320 Å | Adsorbed (Yes), Reason: "Gate-opening effect".
+
+Inferred effective adsorption behavior: The MOF rejects smaller molecules (<= 3.680 Å) but can adsorb larger molecules (>= 4.320 Å) via gate-opening.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is very close to and slightly larger than Xenon's intermediate dimension (4.320 Å), which is adsorbed by the MOF via gate-opening. It is also significantly larger than Krypton (3.680 Å), which is excluded. Given the MOF's demonstrated ability to expand its pores for molecules of this size, n-pentane should be adsorbed.
+
+Therefore, the result is: **Can Adsorb**

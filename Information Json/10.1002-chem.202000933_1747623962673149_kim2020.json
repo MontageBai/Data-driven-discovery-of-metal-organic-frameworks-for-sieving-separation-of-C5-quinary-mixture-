@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "UiO-67-TEMPO-CS",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "BPDC",
+            "BPDC-TEMPO"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "benzyl alcohol",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "60 °C, 18 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Full conversion observed"
+                }
+            },
+            {
+                "Molecule Name": "phenyl pyrenyl methanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "60 °C, 18 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Almost no reactivity observed"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Catalytic testing",
+            "Performance Metrics": "Conversion: Benzyl alcohol (91%), Phenyl pyrenyl methanol (N.R.)"
+        },
+        "Other Information": {
+            "Additional Info": "Surface deactivated via postsynthetic ligand exchange to enhance size discrimination"
+        }
+    }
+]

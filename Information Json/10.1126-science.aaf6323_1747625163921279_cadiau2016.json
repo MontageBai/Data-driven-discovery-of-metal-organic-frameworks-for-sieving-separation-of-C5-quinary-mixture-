@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "NbOFFIVE-1-Ni (KAUST-7)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0471(1) Å (minimum), 4.752(1) Å (maximum theoretical)",
+            "Structure Type": "3D channels"
+        },
+        "Topology": "primitive cubic",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "(NbOF5)2–"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Heat of adsorption: 57.4 kJ/mol"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to ~1 bar",
+                    "Threshold Pressure": "~1.5 bar (minor uptake observed)",
+                    "Additional Info": "Complete molecular exclusion confirmed by calorimetric measurements"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, Single-gas and mixed-gas adsorption isotherms, Calorimetric-gravimetric experiments",
+            "Performance Metrics": "C3H6/C3H8 selectivity: Infinite, Propylene capacity: ~0.6 mol/kg per cycle, Propylene recovery: ~2 mol/kg/hour"
+        },
+        "Other Information": {
+            "Additional Info": "Chemically stable against water vapor and H2S; thermally stable; nonporous to N2 at cryogenic temperatures."
+        }
+    }
+]

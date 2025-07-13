@@ -1,0 +1,100 @@
+[
+    {
+        "Materials Name": "ZU-36-Ni",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.75 Å (quasi-maximum pore size)",
+            "Structure Type": "1D contracted pore channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "GeF6 2−"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "trans-2-butene",
+                "Molecular Size": "4.31 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion with optimal host–guest interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exhibits a stepped adsorption isotherm with a remarkable capacity of 2.45 mmol∙g−1."
+                }
+            },
+            {
+                "Molecule Name": "cis-2-butene",
+                "Molecular Size": "4.94 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to contracted pore window",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption observed, leading to high purity separation (> 99.99%)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced molecular exclusion via adaptive pore channels",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "Trans-/cis-C4H8 selectivity: 191, High-purity cis-C4H8 (> 99.99%) achieved"
+        },
+        "Other Information": {
+            "Additional Info": "ZU-36-Ni exhibits guest-adaptive behavior through organic linker rotation to maximize host–guest interactions."
+        }
+    },
+    {
+        "Materials Name": "ZU-36-Fe",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.85 Å (quasi-maximum pore size)",
+            "Structure Type": "1D contracted pore channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Fe2+"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "GeF6 2−"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "trans-2-butene",
+                "Molecular Size": "4.31 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Typical Langmuir-type adsorption isotherm",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of 1.81 mmol∙g−1 at saturation."
+                }
+            },
+            {
+                "Molecule Name": "cis-2-butene",
+                "Molecular Size": "4.94 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to contracted pore window",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low uptake (0.5 mmol∙g−1) observed, contributing to separation but with lower efficiency compared to ZU-36-Ni."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and strong host–guest interactions for trans-C4H8",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments",
+            "Performance Metrics": "Trans-/cis-C4H8 selectivity: 170"
+        },
+        "Other Information": {
+            "Additional Info": "Longer c-axis in ZU-36-Fe leads to different binding configurations and reduced uptake capacity compared to ZU-36-Ni."
+        }
+    }
+]

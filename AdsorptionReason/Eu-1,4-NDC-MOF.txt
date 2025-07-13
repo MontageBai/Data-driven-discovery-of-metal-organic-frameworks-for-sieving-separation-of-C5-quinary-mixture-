@@ -1,0 +1,75 @@
+MOF Name: Eu-1,4-NDC-MOF
+
+**Detailed Reasoning for Eu-1,4-NDC-MOF Adsorption Capabilities:**
+
+From the provided experimental adsorption data for Eu-1,4-NDC-MOF:
+*   **carbon_dioxide**: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Yes). Mechanism: "Size exclusion and adsorption kinetics", "Preferential interaction with the framework".
+*   **methane**: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Adsorbed (Yes). Mechanism: "Size exclusion and adsorption kinetics", "Size exclusion".
+*   **ethane**: 4.731×4.175×4.170 → Intermediate = 4.170 Å | Adsorbed (Yes). Mechanism: "Size exclusion and adsorption kinetics", "Adsorption kinetics".
+*   **propane**: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Adsorbed (Yes). Mechanism: "Size exclusion and adsorption kinetics", "Adsorption kinetics".
+
+**Inferred Effective Pore Size of Eu-1,4-NDC-MOF:**
+1.  **Lower Bound:** The largest intermediate dimension of an adsorbed molecule is for propane (4.354 Å). This indicates that the effective pore size is at least 4.354 Å.
+2.  **Upper Bound (Inferred):** No guest molecules are explicitly listed as "No" due to "Size exclusion". However, the experimental data for *adsorbed* molecules provides crucial insights into the pore's nature:
+    *   Methane (intermediate = 3.877 Å) is noted to be influenced by "Size exclusion" even though it is adsorbed. This implies a relatively tight fit for molecules of this size.
+    *   Ethane (intermediate = 4.170 Å) and Propane (intermediate = 4.354 Å) are adsorbed, with the mechanism primarily involving "Adsorption kinetics," suggesting that their passage might be somewhat restricted or require specific interactions/orientations rather than free diffusion, possibly indicating a near-threshold size for these molecules.
+    Considering that a molecule as small as methane experiences size exclusion effects, the effective pore size is likely only marginally larger than the largest adsorbed molecule (propane, 4.354 Å). It implies that the pore is not much larger than 4.354 Å. Based on this, a reasonable inference is that molecules with intermediate dimensions significantly greater than 4.354 Å would be excluded. Let's conservatively estimate the upper practical limit for adsorption, given the "size exclusion" factor for smaller molecules, to be around ~4.6 Å.
+
+Therefore, the inferred experimental effective pore size of Eu-1,4-NDC-MOF allows molecules with an intermediate dimension up to approximately **~4.6 Å**.
+
+---
+
+**Evaluation of Target Guest Molecules:**
+
+**MOF Name: Eu-1,4-NDC-MOF**
+**Guest Molecule: isoprene**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+*   Isoprene Dimensions: 7.746×6.093×3.963 → **Intermediate = 6.093 Å**
+*   Conclusion: Since isoprene's intermediate dimension (6.093 Å) significantly exceeds the inferred effective pore size of Eu-1,4-NDC-MOF (~4.6 Å), it cannot be adsorbed due to size exclusion.
+
+---
+
+**MOF Name: Eu-1,4-NDC-MOF**
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+*   cis-2-pentene Dimensions: 8.067×5.572×5.136 → **Intermediate = 5.572 Å**
+*   Conclusion: Since cis-2-pentene's intermediate dimension (5.572 Å) significantly exceeds the inferred effective pore size of Eu-1,4-NDC-MOF (~4.6 Å), it cannot be adsorbed due to size exclusion.
+
+---
+
+**MOF Name: Eu-1,4-NDC-MOF**
+**Guest Molecule: 1-pentene**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+*   1-pentene Dimensions: 8.847×4.995×4.897 → **Intermediate = 4.995 Å**
+*   Conclusion: Since 1-pentene's intermediate dimension (4.995 Å) exceeds the inferred effective pore size of Eu-1,4-NDC-MOF (~4.6 Å), it cannot be adsorbed due to size exclusion.
+
+---
+
+**MOF Name: Eu-1,4-NDC-MOF**
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: **Cannot Adsorb**
+
+Detailed Reasoning:
+*   trans-2-pentene Dimensions: 8.796×4.733×4.564 → **Intermediate = 4.733 Å**
+*   Conclusion: Since trans-2-pentene's intermediate dimension (4.733 Å) exceeds the inferred effective pore size of Eu-1,4-NDC-MOF (~4.6 Å), it cannot be adsorbed due to size exclusion.
+
+---
+
+**MOF Name: Eu-1,4-NDC-MOF**
+**Guest Molecule: n-pentane**
+
+Predicted Result: **Can Adsorb**
+
+Detailed Reasoning:
+*   n-pentane Dimensions: 9.118×4.364×3.969 → **Intermediate = 4.364 Å**
+*   Conclusion: Since n-pentane's intermediate dimension (4.364 Å) is very close to and within the inferred effective pore size of Eu-1,4-NDC-MOF (up to ~4.6 Å), and is comparable to the adsorbed propane (4.354 Å), it is predicted to be adsorbed. The small difference (0.01 Å) from propane's intermediate dimension suggests geometric compatibility.

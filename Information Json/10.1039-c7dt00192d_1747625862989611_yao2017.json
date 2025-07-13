@@ -1,0 +1,95 @@
+[
+    {
+        "Materials Name": "JLU-Liu39",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "13.8 Å × 13.8 Å (considering van der Waals radius)",
+            "Structure Type": "3D framework with 1D channels"
+        },
+        "Topology": "fjh",
+        "Metal Nodes": [
+            "Cu2+",
+            "Cu1+"
+        ],
+        "Ligands": [
+            "pyridine-3,5-bis(phenyl-4-carboxylic acid)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and charge-based adsorption",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ethanol solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption rate: 2.1 mg g-1 min-1; Maximum adsorption capacity: 308 mg g-1"
+                }
+            },
+            {
+                "Molecule Name": "methyl violet",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and charge-based adsorption",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ethanol solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption rate: 0.7 mg g-1 min-1; Maximum adsorption capacity: 84 mg g-1"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and charge-based adsorption",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ethanol solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption rate: 0.4 mg g-1 min-1; Maximum adsorption capacity: 16 mg g-1"
+                }
+            },
+            {
+                "Molecule Name": "neutral red",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and weak interaction-based adsorption",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ethanol solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption rate: 1.9 mg g-1 min-1; Maximum adsorption capacity: 132 mg g-1"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Charge repulsion and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ethanol solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to similar negative charge to the framework"
+                }
+            },
+            {
+                "Molecule Name": "orange II",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Charge repulsion and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, ethanol solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to similar negative charge to the framework"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with charge-based selectivity",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "UV-Vis spectroscopy, adsorption experiments",
+            "Performance Metrics": "Selective adsorption of cationic dyes over anionic dyes; Adsorption rates and capacities reported for multiple dyes"
+        },
+        "Other Information": {
+            "Additional Info": "JLU-Liu39 exhibits high thermal stability up to 300 °C and a solvent-accessible volume of approximately 75.8% of the cell volume."
+        }
+    }
+]

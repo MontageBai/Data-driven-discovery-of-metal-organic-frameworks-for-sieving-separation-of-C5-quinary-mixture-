@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Pt@UiO-66",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "1-hexene",
+                "Molecular Size": "2.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, atmospheric H2 pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Complete conversion within 1 hour."
+                }
+            },
+            {
+                "Molecule Name": "tetraphenylethylene",
+                "Molecular Size": "6.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, atmospheric H2 pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "No detectable activity for samples with thicker MOF shells."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Liquid-phase hydrogenation experiments",
+            "Performance Metrics": "Complete conversion of 1-hexene; no activity for tetraphenylethylene with thicker MOF shell."
+        },
+        "Other Information": {
+            "Additional Info": "The outer UiO-66 shell provides molecular-sieving capability, restricting access to encapsulated Pt active sites for larger molecules."
+        }
+    }
+]

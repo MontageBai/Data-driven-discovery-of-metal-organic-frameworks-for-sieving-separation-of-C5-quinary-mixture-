@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MIL-53(Al)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.6 Å (np phase), 6.7 Å (lp phase), 8.6 Å (vlp phase)",
+            "Structure Type": "Flexible porous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "25–77 K, pressure loading of 0.7–18 mmol g⁻¹",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion is faster in larger pores and at higher temperatures."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "25–77 K, pressure loading of 0.7–18 mmol g⁻¹",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Deuterium exhibits faster diffusion than hydrogen, especially at higher temperatures and in the vlp phase."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic quantum sieving-assisted separation due to pore-breathing phenomenon",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Quasi-elastic neutron scattering (QENS)",
+            "Performance Metrics": "Deuterium diffusivity: 7.75 × 10⁻⁸ m² s⁻¹, Hydrogen diffusivity: 2.93 × 10⁻⁸ m² s⁻¹ at 18 mmol g⁻¹ loading"
+        },
+        "Other Information": {
+            "Additional Info": "The flexible framework undergoes breathing transitions (np → lp → vlp) depending on gas loading and temperature, enhancing the diffusivity difference between hydrogen isotopes at higher temperatures."
+        }
+    }
+]

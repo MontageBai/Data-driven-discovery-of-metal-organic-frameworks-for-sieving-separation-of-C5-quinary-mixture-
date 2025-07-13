@@ -1,0 +1,205 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effective separation of propylene/propane binary mixtures was achieved."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane was effectively excluded due to size sieving effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "molecular-sieving at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Propylene permeance: Not reported; Propane rejection: ~100%"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 membranes exhibited high stability and reproducibility for organic mixture separations."
+        }
+    },
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "0.227 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "UiO-66 showed excellent rejection rate for sodium ions."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "0.16 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High rejection rate (~98%) was observed for magnesium ions."
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "0.198 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Calcium rejection was moderate (~86.3%)."
+                }
+            },
+            {
+                "Molecule Name": "aluminum",
+                "Molecular Size": "0.14 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "UiO-66 exhibited a very high rejection rate (~99.3%) for aluminum ions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on hydrated ion diameter",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Nanofiltration experiment",
+            "Performance Metrics": "Water flux: Not reported; Salt rejection: Varies by ion type"
+        },
+        "Other Information": {
+            "Additional Info": "UiO-66 membranes demonstrated tunable pore sizes and water stability suitable for desalination applications."
+        }
+    },
+    {
+        "Materials Name": "PAA/ZIF-8/PVDF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nickel(II)",
+                "Molecular Size": "0.248 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic adsorption and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "High salinity solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The hybrid membrane exhibited an exceptionally high Ni(II) adsorption capacity of 219.09 mg/g even in hypersaline conditions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemical interactions and size exclusion",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Ultrafiltration experiment",
+            "Performance Metrics": "Ni(II) removal efficiency: 219.09 mg/g; Water flux: 460 L/m²·h"
+        },
+        "Other Information": {
+            "Additional Info": "This novel hybrid membrane provided efficient removal of heavy metal ions with high stability and recyclability."
+        }
+    },
+    {
+        "Materials Name": "ZIF-300",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "copper(II)",
+                "Molecular Size": "0.256 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-300 membrane achieved a high rejection rate (~99.2%) for Cu(II)."
+                }
+            },
+            {
+                "Molecule Name": "cadmium(II)",
+                "Molecular Size": "0.23 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Cd(II) was effectively rejected (~99.3%) by the ZIF-300 membrane."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on hydrated ion diameter",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Nanofiltration experiment",
+            "Performance Metrics": "Water permeance: >20 L/m²·h·bar; Rejection: >99% for Cu(II) and Cd(II)"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-300 membranes were fabricated via secondary growth method with excellent water stability."
+        }
+    }
+]

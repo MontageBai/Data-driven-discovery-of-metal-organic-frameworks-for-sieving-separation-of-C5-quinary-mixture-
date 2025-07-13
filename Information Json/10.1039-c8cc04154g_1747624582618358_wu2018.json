@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.4–0.42 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sodalite (SOD)",
+        "Metal Nodes": [
+            "zinc ions"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "xenon",
+                "Molecular Size": "0.41 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving, preferential adsorption, and diffusivity differences",
+                "Other Information": {
+                    "Test Conditions": "293 K, 223 kPa feed pressure, 85 kPa permeate pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Xe shows preferential adsorption over N2 due to higher polarizability."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving, preferential adsorption, and diffusivity differences",
+                "Other Information": {
+                    "Test Conditions": "293 K, 223 kPa feed pressure, 85 kPa permeate pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen diffuses faster than Xe through ZIF-8 membranes."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "0.35 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "molecular sieving, preferential adsorption, and diffusivity differences",
+                "Other Information": {
+                    "Test Conditions": "293 K, 223 kPa feed pressure, 85 kPa permeate pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Oxygen diffuses faster than Xe through ZIF-8 membranes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Air/Xe selectivity: up to 12.4, Air permeance: up to 3.94 x 10^-8 mol/m² s Pa"
+        },
+        "Other Information": {
+            "Additional Info": "The separation is enhanced at lower temperatures (10 °C) due to reduced competitive adsorption effects."
+        }
+    }
+]

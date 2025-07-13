@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "SGPF-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 Å, 5.2 Å",
+            "Structure Type": "3D framework with dual microporosity"
+        },
+        "Topology": "{10^3}2{10^6}3",
+        "Metal Nodes": [
+            "nickel"
+        ],
+        "Ligands": [
+            "1,2-di(4-pyridyl)ethylene",
+            "4,4′,4′’-nitrilotribenzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Electrostatic attraction and hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strong interaction with pore surface via C–O⋅⋅⋅H and C–H⋅⋅⋅H bonds."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Weak electrostatic repulsion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Longer binding distances due to C–O⋅⋅⋅H and C–O⋅⋅⋅C interactions."
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Weak hydrogen bonding",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shorter binding distances compared to CO2 but weaker than acetylene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Electrostatic compatibility and pore size exclusion.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "C2H2/C2H4 selectivity: 15.46, C2H2/CO2 selectivity: 7.33"
+        },
+        "Other Information": {
+            "Additional Info": "SGPF-1 exhibits exceptional stability, low cost, and scalable synthesis for efficient separation of C2H2 from C2H4/CO2 mixtures."
+        }
+    }
+]

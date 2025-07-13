@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "HZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (nominal diameter), 4.2 Å (gate-opening diameter)",
+            "Structure Type": "Hollow nanospheres with microporous shell"
+        },
+        "Topology": "SOD",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.268 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "76 °C, 90 wt% ethanol aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water molecules pass through the micropores of HZIF-8 due to their smaller size compared to ethanol."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "0.45 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "76 °C, 90 wt% ethanol aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethanol molecules are excluded due to their larger size compared to the pore aperture of HZIF-8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pervaporation experiment",
+            "Performance Metrics": "Permeation flux: 2485 g/m² h, Separation factor: 1884"
+        },
+        "Other Information": {
+            "Additional Info": "HZIF-8 enhances diffusion selectivity and permeation flux due to its hollow structure and molecular sieving effect."
+        }
+    }
+]

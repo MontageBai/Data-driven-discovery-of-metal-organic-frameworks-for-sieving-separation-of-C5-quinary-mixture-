@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "ZIF-7-90",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.7–5 Å (tunable)",
+            "Structure Type": "SOD-type topology"
+        },
+        "Topology": "SOD",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole",
+            "carboxaldehyde-2-imidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption shows tunable microporosity depending on the linker composition."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "308 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Transport diffusivity of n-butane is tunable over 6–7 orders of magnitude depending on framework composition."
+                }
+            },
+            {
+                "Molecule Name": "i-butane",
+                "Molecular Size": "0.56 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "308 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Transport diffusivity of i-butane is tunable over 4–5 orders of magnitude depending on framework composition."
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "0.27 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Hydrophobicity tuning",
+                "Other Information": {
+                    "Test Conditions": "308 K, varying relative humidity",
+                    "Threshold Pressure": "Varies with composition",
+                    "Additional Info": "Water uptake behavior is tunable; materials with high ZIF-7 content are hydrophobic, while those with higher OHC-IM content show increased hydrophilicity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Tunable pore size and gate-opening effect via mixed-linker synthesis",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "N2 and CO2 physisorption, water adsorption isotherms, volumetric uptake measurements for n-butane and i-butane diffusion",
+            "Performance Metrics": "N2 surface area: up to 1200 m²/g; CO2 uptake: varies with composition; n-butane/i-butane selectivity tunable over 4 orders of magnitude"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-7-90 materials exhibit multiple crystalline phases (e.g., ZIF-7-II, ZIF-7-90-IV, ZIF-90) with tunable porosity, hydrophobicity, and thermal stability."
+        }
+    }
+]

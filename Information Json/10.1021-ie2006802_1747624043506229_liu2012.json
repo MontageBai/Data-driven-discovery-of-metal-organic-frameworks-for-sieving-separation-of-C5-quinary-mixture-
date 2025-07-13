@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "Cu(F-pymo)2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.9 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "F-pymo"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "40 K, 77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectivity increases with pressure at both temperatures."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "40 K, 77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbed over hydrogen."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on quantum effective pore size",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "Selectivity for D2/H2: Highest among studied MOFs"
+        },
+        "Other Information": {
+            "Additional Info": "Exhibits exceptional selectivity due to quantum sieving effects."
+        }
+    },
+    {
+        "Materials Name": "CPL-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "pyrazolate-based ligand"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "40 K, 77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption reaches saturation at low pressures."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "40 K, 77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbed over hydrogen."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on quantum effective pore size",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "Selectivity for D2/H2: Highest among studied MOFs"
+        },
+        "Other Information": {
+            "Additional Info": "Forms one-dimensional arrays of adsorbed molecules within channels."
+        }
+    },
+    {
+        "Materials Name": "Cu-MMOM",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.7 Å (cages), 3.3 Å (windows)",
+            "Structure Type": "Cage-like connected by windows"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "organic ligands forming cages"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "40 K, 77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher adsorption in windows at 40 K; higher adsorption in cages at 77 K."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "40 K, 77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbed over hydrogen."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on quantum effective pore size",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "Highest selectivity occurs in window areas between cages at 40 K."
+        },
+        "Other Information": {
+            "Additional Info": "Quantum effects enhance selectivity in specific structural regions."
+        }
+    }
+]

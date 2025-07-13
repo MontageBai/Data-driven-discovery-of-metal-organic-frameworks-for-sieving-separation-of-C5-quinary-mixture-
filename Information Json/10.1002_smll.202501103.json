@@ -1,0 +1,209 @@
+[
+    {
+        "MOF Name": "MIL-60",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6.5 Å",
+            "Structure Type": "3D structured FLTCs; Ultramicroporous; Compact crystal structure with channels facilitating multi-directional Li+ transport"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "In atoms"
+        ],
+        "Ligands": [
+            "1,2,4,5-Benzenetetracarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "TFSI−",
+                "Molecular Size": "7.9 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Physical size exclusion by pore aperture; Immobilization by high density of In3+ on the MOF surface, preventing migration.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pore size (6.5 Å) is smaller than TFSI−(7.9 Å), effectively filtering it out."
+                }
+            },
+            {
+                "Molecule Name": "Li+",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated diffusion and barrier-free ion hopping through 3D fast Li+ conduction network formed by high-density lattice oxygen, enabled by Li+ coordination with lattice oxygen.",
+                "Other Information": {
+                    "Test Conditions": "30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exceptional high lattice oxygen density (19.97 nm−3) promotes fast Li+ transport."
+                }
+            },
+            {
+                "Molecule Name": "DME",
+                "Molecular Size": "Length 7.3 Å; width 3.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion by pore aperture; Ineffective in adsorption due to pore size.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pore structure is sized to isolate DME molecules."
+                }
+            },
+            {
+                "Molecule Name": "PC",
+                "Molecular Size": "< 6.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passage through pore aperture, providing an unobstructed transport channel for Li+ solvation.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pore structure allows only PC molecules and Li+ to enter, acting as a single-ion conductor."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on pore aperture for anion exclusion; Size-selective ion transport of Li+ and PC; Fast Li+ conduction via lattice oxygen network.",
+        "Experimental Validation": {
+            "Method": "Electrochemical Impedance Spectroscopy (EIS); DC polarization and AC impedance measurement (for tLi+); X-ray Photoelectron Spectroscopy (XPS); 7Li Solid-State Nuclear Magnetic Resonance (ss-NMR); Fourier-transform Infrared (FT-IR) spectroscopy; Energy Dispersive Spectroscopy (EDS) analysis; Density Functional Theory (DFT) calculations; Scanning Electron Microscopy (SEM); Rate performance tests; Cycling performance tests.",
+            "Performance Metrics": "Li+ conductivity: 1.11 × 10−3 S cm−1 at 30 °C; Li+ transference number (tLi+): 0.54; Ion transfer activation energy (Ea): 0.204 eV; Superior electrochemical performance in LiFePO4||Li cells (95.2% capacity retention after 1800 cycles at 10 C)."
+        },
+        "Other Information": {
+            "Additional Info": "Optimal balance between physical size exclusion and chemical mediation of ion transport; Highest lattice oxygen number bulk density (19.97 nm−3); Used in composite solid polymer electrolytes for fast-charging quasi-solid-state lithium metal batteries."
+        }
+    },
+    {
+        "MOF Name": "InOF-1",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "10 Å",
+            "Structure Type": "1D pore structures and FLTCs"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "In atoms"
+        ],
+        "Ligands": [
+            "3,3′,4,4′-Biphenyltetracarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "TFSI−",
+                "Molecular Size": "7.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Free migration due to large pore size (10 Å > 7.9 Å); Immobilization by metal centers is insufficient to prevent migration.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large pore structure provides a suitable path for TFSI−movement, leading to decreased tLi+ and inhomogeneous SEI formation."
+                }
+            },
+            {
+                "Molecule Name": "Li+",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ion transport through FLTCs, but significantly hindered by competitive adsorption of other species and the presence of migrating anions.",
+                "Other Information": {
+                    "Test Conditions": "30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+ conductivity: 7.94 × 10−4 S cm−1; Li+ transference number (tLi+): 0.32."
+                }
+            },
+            {
+                "Molecule Name": "DME",
+                "Molecular Size": "Length 7.3 Å; width 3.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Free access due to large pore size; Adsorbed DME can hinder Li+ transport.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "PC",
+                "Molecular Size": "< 6.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Free access due to large pore size.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ineffective molecular sieving due to large pore size, allowing free anion migration; Ion transport hindered by competitive adsorption of solvent molecules and free anion movement.",
+        "Experimental Validation": {
+            "Method": "Electrochemical Impedance Spectroscopy (EIS); TGA; X-ray Photoelectron Spectroscopy (XPS); Scanning Electron Microscopy (SEM); Rate performance tests; Cycling performance tests.",
+            "Performance Metrics": "Li+ conductivity: 7.94 × 10−4 S cm−1 at 30 °C; Li+ transference number (tLi+): 0.32; Ion transfer activation energy (Ea): 0.234 eV; Significant reduction in specific capacity after 500 cycles in LiFePO4||Li cells."
+        },
+        "Other Information": {
+            "Additional Info": "Lattice oxygen number bulk density: 13.37 nm−3; Used in composite solid polymer electrolytes for lithium metal batteries."
+        }
+    },
+    {
+        "MOF Name": "MIL-68(In)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "18.2 Å",
+            "Structure Type": "1D pore structures and FLTCs"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "In atoms"
+        ],
+        "Ligands": [
+            "1,4-phthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "TFSI−",
+                "Molecular Size": "7.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Free migration due to very large pore size (18.2 Å >> 7.9 Å); Immobilization by metal centers is insufficient to prevent migration.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Large pore structure provides a suitable path for TFSI−movement, leading to decreased tLi+ and inhomogeneous SEI formation."
+                }
+            },
+            {
+                "Molecule Name": "Li+",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Ion transport through FLTCs, but significantly hindered by competitive adsorption of other species and the presence of migrating anions.",
+                "Other Information": {
+                    "Test Conditions": "30 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Li+ conductivity: 9.43 × 10−4 S cm−1; Li+ transference number (tLi+): 0.36."
+                }
+            },
+            {
+                "Molecule Name": "DME",
+                "Molecular Size": "Length 7.3 Å; width 3.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Free access due to large pore size; Adsorbed DME can hinder Li+ transport.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "PC",
+                "Molecular Size": "< 6.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Free access due to large pore size.",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Ineffective molecular sieving due to very large pore size, allowing significant anion migration; Ion transport hindered by competitive adsorption of solvent molecules and free anion movement.",
+        "Experimental Validation": {
+            "Method": "Electrochemical Impedance Spectroscopy (EIS); TGA; X-ray Photoelectron Spectroscopy (XPS); Scanning Electron Microscopy (SEM); Rate performance tests; Cycling performance tests.",
+            "Performance Metrics": "Li+ conductivity: 9.43 × 10−4 S cm−1 at 30 °C; Li+ transference number (tLi+): 0.36; Ion transfer activation energy (Ea): 0.205 eV; Significant reduction in specific capacity after 500 cycles in LiFePO4||Li cells."
+        },
+        "Other Information": {
+            "Additional Info": "Lattice oxygen number bulk density: 9.97 nm−3; Used in composite solid polymer electrolytes for lithium metal batteries."
+        }
+    }
+]

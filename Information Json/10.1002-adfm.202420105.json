@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "NbOFFIVE-1-Ni",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.37 Å (PLD), 3.56 Å (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High affinity due to electronegative fluorine centers and pyrazine ligands."
+                }
+            },
+            {
+                "Molecule Name": "xenon",
+                "Molecular Size": "0.405 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption due to size exclusion."
+                }
+            },
+            {
+                "Molecule Name": "krypton",
+                "Molecular Size": "0.365 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption due to size exclusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/Xe selectivity: 500, CO2/Kr selectivity: 405"
+        },
+        "Other Information": {
+            "Additional Info": "Radiation-resistant with minimal structural changes after 50 kGy gamma irradiation."
+        }
+    },
+    {
+        "Materials Name": "TIFSIX-3-Co",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.63 Å (PLD), 3.93 Å (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High affinity due to electronegative fluorine centers and pyrazine ligands."
+                }
+            },
+            {
+                "Molecule Name": "xenon",
+                "Molecular Size": "0.405 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Some adsorption occurs due to flexible pore structure."
+                }
+            },
+            {
+                "Molecule Name": "krypton",
+                "Molecular Size": "0.365 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Some adsorption occurs due to flexible pore structure."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/Xe selectivity: 307, CO2/Kr selectivity: 2365"
+        },
+        "Other Information": {
+            "Additional Info": "Significant structural degradation observed after 50 kGy gamma irradiation."
+        }
+    }
+]

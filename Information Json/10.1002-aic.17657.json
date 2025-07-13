@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MOF-801",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.5 Å (theoretical triangular window), 6.2 Å (average pore size from N2 adsorption)",
+            "Structure Type": "3D cages with interconnected tetrahedral and octahedral cavities"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "fumaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydronium",
+                "Molecular Size": "4.12 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Concentration-driven dialysis diffusion test, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hydronium ions show high permeation rate through the membrane."
+                }
+            },
+            {
+                "Molecule Name": "vanadium ion",
+                "Molecular Size": "8.14–8.34 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Concentration-driven dialysis diffusion test, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Vanadium ions are effectively blocked by the membrane due to their larger size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale facilitated by precise pore structure",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Concentration-driven dialysis diffusion test, Electrochemical impedance spectroscopy (EIS), VFB single cell measurements",
+            "Performance Metrics": "H/V selectivity: up to 194, Ion conductivity: about 0.028 S/cm, Coulombic efficiency (CE): 96.1%, Energy efficiency (EE): 83.2% at 20 mA/cm²"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF-801 membrane was further modified with an ultrathin sPEEK polymeric coating to block intergranular defects, enhancing ion selectivity and mechanical strength."
+        }
+    }
+]

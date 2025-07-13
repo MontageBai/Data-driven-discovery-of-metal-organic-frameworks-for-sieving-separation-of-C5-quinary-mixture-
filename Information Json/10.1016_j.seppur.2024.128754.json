@@ -1,0 +1,50 @@
+[
+    {
+        "MOF Name": "ZCM2 (ZnO@FeNi-MOF/BC nanoreactor)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2-7 nm",
+            "Structure Type": "Core-shell structure where ZnO is the core and FeNi-MOF is the shell, with 3D nanosized region, bending irregularities, and interconnected mesopores formed by FeNi-MOF nano-clusters."
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe",
+            "Ni"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Tetracycline",
+                "Molecular Size": "1.41 nm × 0.46 nm × 0.81 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion, passes through tiny pores of FeNi-MOF shell; enhanced adsorption due to nano-confinement effect.",
+                "Other Information": {
+                    "Test Conditions": "In solutions containing natural organic matter (NOM) and inorganic ions; also in tap water, surface water, and secondary effluent from sewage treatment plants.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity maintained high in complex water matrices due to selective passage."
+                }
+            },
+            {
+                "Molecule Name": "Natural Organic Matter",
+                "Molecular Size": "Much larger than TC (molecular weight: few hundred to few hundred thousand Daltons)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion, excluded by the pores of the FeNi-MOF shell due to larger molecular size.",
+                "Other Information": {
+                    "Test Conditions": "In solutions containing tetracycline and inorganic ions.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Presence of NOM did not significantly interfere with tetracycline degradation, indicating its exclusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on size exclusion by the FeNi-MOF shell combined with nano-confinement effects for selective enrichment of smaller pollutants like tetracycline.",
+        "Experimental Validation": {
+            "Method": "Adsorption experiments in solutions containing NOM and inorganic ions; catalytic degradation experiments in real water matrices.",
+            "Performance Metrics": "Adsorption capacity of TC on FeNi-MOF and ZCM2 showed no significant decrease in presence of NOM and inorganic ions (unlike ZnO and ZnO/BC). TC degradation efficiencies > 88% in tap water, surface water, and secondary effluent."
+        },
+        "Other Information": {
+            "Additional Info": "Core-shell nanoreactor structure with ZnO core and FeNi-MOF shell. The FeNi-MOF shell mitigates metal ion leaching. ROS generation in limited space within the shell provides strong driving force for TC oxidation. The composite exhibits slight hydrophobicity (contact angle: 118.895°)."
+        }
+    }
+]

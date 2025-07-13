@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Cu3(BTC)2 (HKUST-1)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "9.7 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "benzene-1,3,5-tricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "lithium polysulfides",
+                "Molecular Size": "9.0–10.8 Å (solvated by DME)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The solvated lithium polysulfides are too large to enter the pores of the MOF."
+                }
+            },
+            {
+                "Molecule Name": "lithium ion",
+                "Molecular Size": "6.7 Å (solvated by DME)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Partially desolvated Li+(DME)2 can pass through the MOF layer with a low penetration barrier of 0.66 eV."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and steric hindrance due to pore size not larger than the size of lithium polysulfides.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Density Functional Theory (DFT) calculations",
+            "Performance Metrics": "Penetration barriers: Li2Sx(DME)2: 1.73–1.99 eV; Li2Sx: 1.52–1.76 eV; Li+(DME)2: 0.66 eV"
+        },
+        "Other Information": {
+            "Additional Info": "The LPS-blocking ability is attributed to steric repulsion between LPSs and pore walls and the formation of chemical bonds (Cu–S, Li–O)."
+        }
+    }
+]

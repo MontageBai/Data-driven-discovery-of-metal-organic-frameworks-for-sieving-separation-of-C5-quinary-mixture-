@@ -1,0 +1,76 @@
+[
+    {
+        "Materials Name": "[BMI]2[Ca3(H2TCPP)2(μ2-OH2)2(H2O)2]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D layers"
+        },
+        "Topology": "(4, 8)-connected topology with Schläfli symbol {4^20·6^8}{4^6}^2",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "meso-tetra(carboxyphenyl) porphyrin (H6TCPP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "0.346 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated diffusion through mesoporous channels",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution under white light irradiation (0.5 W cm^-2, 400–600 nm)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The mesoporous channels in the MOF nanosheets facilitate O2 diffusion for singlet oxygen generation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Chemical trapping with ADMA and fluorescence imaging using carboxy-H2DCFDA",
+            "Performance Metrics": "Singlet oxygen quantum yield: 40%"
+        },
+        "Other Information": {
+            "Additional Info": "Highly dense assembly of porphyrin ligands with 77 wt% loading; exhibits excellent photodynamic therapy efficacy under light irradiation."
+        }
+    },
+    {
+        "Materials Name": "1 NSs (exfoliated nanosheets of [BMI]2[Ca3(H2TCPP)2(μ2-OH2)2(H2O)2])",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "(4, 8)-connected topology with Schläfli symbol {4^20·6^8}{4^6}^2",
+        "Metal Nodes": [
+            "Ca2+"
+        ],
+        "Ligands": [
+            "meso-tetra(carboxyphenyl) porphyrin (H6TCPP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "0.346 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Facilitated diffusion through mesoporous channels",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution under white light irradiation (0.5 W cm^-2, 400–600 nm)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nanosheets maintain crystallinity and exhibit efficient singlet oxygen generation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Chemical trapping with ADMA and fluorescence imaging using carboxy-H2DCFDA",
+            "Performance Metrics": "Singlet oxygen quantum yield: 40%"
+        },
+        "Other Information": {
+            "Additional Info": "Exfoliated nanosheets retain crystallinity and demonstrate high dispersibility and biocompatibility; effective for photodynamic therapy."
+        }
+    }
+]

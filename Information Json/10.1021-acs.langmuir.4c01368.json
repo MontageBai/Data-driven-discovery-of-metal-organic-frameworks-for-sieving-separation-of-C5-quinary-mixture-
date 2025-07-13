@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-67-in-PBD",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.3-0.6 nm (most probable pore size: 0.5 nm)",
+            "Structure Type": "Microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size screening",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 0.28 cm³/g"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size screening",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 2.05 cm³/g; Preferential adsorption in pores leads to crowding effects and enhances size exclusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale with additional contribution from adsorption selectivity.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "H2/CH4 selectivity: 33.48 (for optimal membrane ZIF-67-in-PBD-[6])"
+        },
+        "Other Information": {
+            "Additional Info": "Optimal preparation conditions: Co2+ concentration = 0.02 mol/L, reaction time = 6 h, metal-ligand ratio = 1:4. Membrane thickness: 0.6 μm. No support required. Exhibits ultrathin, self-supporting properties."
+        }
+    }
+]

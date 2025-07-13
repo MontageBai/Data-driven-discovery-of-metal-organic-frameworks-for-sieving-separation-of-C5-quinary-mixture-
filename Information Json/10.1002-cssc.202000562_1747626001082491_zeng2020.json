@@ -1,0 +1,336 @@
+[
+    {
+        "Materials Name": "MFU-4 (Zn,Cl)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "Cl-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "60 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor not explicitly stated."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic quantum sieving based on de Broglie wavelength differences.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Quantum sieving experiments",
+            "Performance Metrics": "Deuterium production amount: 1.24 mmol g-1 at 60 K"
+        },
+        "Other Information": {
+            "Additional Info": "This material shows selectivity for deuterium at cryogenic temperatures."
+        }
+    },
+    {
+        "Materials Name": "Py@COF-1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "30 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor not explicitly stated."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic quantum sieving based on de Broglie wavelength differences.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Quantum sieving experiments",
+            "Performance Metrics": "Deuterium production amount: 0.6 mmol g-1 at 30 K"
+        },
+        "Other Information": {
+            "Additional Info": "This material shows selectivity for deuterium at cryogenic temperatures."
+        }
+    },
+    {
+        "Materials Name": "IFP-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "30 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor not explicitly stated."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic quantum sieving based on de Broglie wavelength differences.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Quantum sieving experiments",
+            "Performance Metrics": "Deuterium production amount: 9.3 mmol g-1 at 30 K"
+        },
+        "Other Information": {
+            "Additional Info": "This material shows selectivity for deuterium at cryogenic temperatures."
+        }
+    },
+    {
+        "Materials Name": "IFP-3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "30 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor not explicitly stated."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic quantum sieving based on de Broglie wavelength differences.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Quantum sieving experiments",
+            "Performance Metrics": "Deuterium production amount: 2.49 mmol g-1 at 30 K"
+        },
+        "Other Information": {
+            "Additional Info": "This material shows selectivity for deuterium at cryogenic temperatures."
+        }
+    },
+    {
+        "Materials Name": "IFP-7",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor not explicitly stated."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic quantum sieving based on de Broglie wavelength differences.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Quantum sieving experiments",
+            "Performance Metrics": "Deuterium production amount: 0.05 mmol g-1 at 77 K"
+        },
+        "Other Information": {
+            "Additional Info": "This material shows selectivity for deuterium at cryogenic temperatures."
+        }
+    },
+    {
+        "Materials Name": "IFP-4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor not explicitly stated."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic quantum sieving based on de Broglie wavelength differences.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Quantum sieving experiments",
+            "Performance Metrics": "Deuterium production amount: 0.01 mmol g-1 at 77 K"
+        },
+        "Other Information": {
+            "Additional Info": "This material shows selectivity for deuterium at cryogenic temperatures."
+        }
+    },
+    {
+        "Materials Name": "Zeolite 5A",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "30 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor not explicitly stated."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic quantum sieving based on de Broglie wavelength differences.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Quantum sieving experiments",
+            "Performance Metrics": "Deuterium production amount: 4 mmol g-1 at 30 K"
+        },
+        "Other Information": {
+            "Additional Info": "This material shows selectivity for deuterium at cryogenic temperatures."
+        }
+    },
+    {
+        "Materials Name": "Cocryst1",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "30 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Separation factor not explicitly stated."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Kinetic quantum sieving based on de Broglie wavelength differences.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Quantum sieving experiments",
+            "Performance Metrics": "Deuterium production amount: 4.72 mmol g-1 at 30 K"
+        },
+        "Other Information": {
+            "Additional Info": "This material shows selectivity for deuterium at cryogenic temperatures."
+        }
+    },
+    {
+        "Materials Name": "MoS2-Cd0.5Zn0.5S",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cd2+",
+            "Zn2+"
+        ],
+        "Ligands": [
+            "S2-"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Photocatalytic splitting of D2O",
+                "Other Information": {
+                    "Test Conditions": "298 K, simulated solar spectrum irradiation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Deuterium is evolved by photocatalysis rather than sieving."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Photocatalysis experiments",
+            "Performance Metrics": "Deuterium production rate: 9.745 mmol g-1h-1 at 298 K"
+        },
+        "Other Information": {
+            "Additional Info": "This material achieves deuterium evolution via photocatalytic D2O splitting rather than quantum sieving."
+        }
+    }
+]

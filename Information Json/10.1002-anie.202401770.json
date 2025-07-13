@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Zn-bzc-CF3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.13×4.84 Å2",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Zn4O6+"
+        ],
+        "Ligands": [
+            "5-(trifluoromethyl)-1H-pyrazole-4-carboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "perfluoropropane",
+                "Molecular Size": "5.23×5.73×7.6 Å3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption capacity for C3F8."
+                }
+            },
+            {
+                "Molecule Name": "hexafluoropropylene",
+                "Molecular Size": "4.84×5.07×7.3 Å3",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption capacity and forms multi-point interactions with the framework."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-exclusive C3F6/C3F8 separation",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C3F6/C3F8 selectivity: High (>99.9% purity of C3F8 obtained)"
+        },
+        "Other Information": {
+            "Additional Info": "The fluorinated pore engineering strategy enhances chemical stability and creates hydrophobic microenvironments. The material shows excellent recyclability and thermal stability up to 723 K."
+        }
+    }
+]

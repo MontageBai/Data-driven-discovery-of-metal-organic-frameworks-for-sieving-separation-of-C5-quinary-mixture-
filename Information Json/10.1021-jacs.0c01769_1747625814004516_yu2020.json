@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "Al-bttotb",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.6 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al(III)"
+        ],
+        "Ligands": [
+            "4,4′,4″-(benzene-1,3,5-triyltris(oxy))tribenzoic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed amount: 151 mg/g"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "5.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed amount: 94 mg/g"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "6.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fully excluded by the MOF"
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "5.8 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "30 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate adsorption with slow kinetics due to diffusion restrictions"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective molecular sieving based on optimal pore dimensions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-component and multicomponent adsorption experiments, breakthrough experiments, single-crystal X-ray diffraction, DFT calculations",
+            "Performance Metrics": "Dynamic adsorption capacities: n-hexane (129 mg/g), 3-methylpentane (28 mg/g)"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows complete separation between mono- and dibranched alkanes under rigid framework conditions."
+        }
+    }
+]

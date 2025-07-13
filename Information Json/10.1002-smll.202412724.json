@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Zn4O(NTB)2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.5 × 5.8 Å² (junction), elongated cavities",
+            "Structure Type": "3D interconnected elongated-shape cavities"
+        },
+        "Topology": "pyr network, interpenetrated",
+        "Metal Nodes": [
+            "Zn4O(COO)6"
+        ],
+        "Ligands": [
+            "4,4′,4″-Nitrilotrisbenzoic acid (H3NTB)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "4.2 × 4.6 Å²",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Shape-matching with elongated cavity",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption capacity of 2.72 mmol g⁻¹ at 16 kPa, diffusion time constant: 7.84 × 10⁻³ s⁻¹."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "5.4 × 5.7 Å²",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Shape-matching with elongated cavity",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High adsorption capacity of 2.59 mmol g⁻¹ at 16 kPa, diffusion time constant: 7.63 × 10⁻⁴ s⁻¹."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "6.1 × 6.2 Å²",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Excluded by molecular sieving due to junction size",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption, diffusion time constant: 8.40 × 10⁻⁶ s⁻¹."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale via narrow junctions (5.5 × 5.8 Å²)",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "22DMB productivity: 0.98 mmol g⁻¹, high purity (99.8%) achieved"
+        },
+        "Other Information": {
+            "Additional Info": "Synergistic effect of molecular sieving and shape matching enhances separation efficiency for dibranched hexane from ternary mixture."
+        }
+    }
+]

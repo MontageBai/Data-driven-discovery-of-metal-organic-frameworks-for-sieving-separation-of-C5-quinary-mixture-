@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "Orifice-modified ZIF-7-NH2-on-ZIF-90 membrane",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.29 nm (ZIF-7-NH2), 0.38 nm (ZIF-90)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazole-2-carboxaldehyde",
+            "2-aminobenzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "0.26 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Helium permeance: ~67 × 10^-10 mol·m^-2·s^-1·Pa^-1 at optimal conditions."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "He/N2 selectivity: 16.19 at optimal conditions."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "He/CH4 selectivity: 11.73 at optimal conditions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke−Kallenbach method, Molecular Dynamics Simulation",
+            "Performance Metrics": "He/N2 selectivity: 16.19, He/CH4 selectivity: 11.73, Helium permeance: ~67 × 10^-10 mol·m^-2·s^-1·Pa^-1"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane demonstrated excellent long-term stability over 100 h of continuous operation at both room temperature and 150 °C."
+        }
+    }
+]

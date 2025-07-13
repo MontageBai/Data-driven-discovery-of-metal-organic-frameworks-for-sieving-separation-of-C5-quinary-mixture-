@@ -1,0 +1,138 @@
+[
+    {
+        "Materials Name": "Cu(CDC)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.4 Å (empty structure), 6.0 Å (loaded structure)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "trans-1,4-cyclohexanedicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "para-xylene",
+                "Molecular Size": "5.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, mesitylene solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbed over meta-xylene and ortho-xylene."
+                }
+            },
+            {
+                "Molecule Name": "meta-xylene",
+                "Molecular Size": "6.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, mesitylene solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Minimal uptake observed due to larger size compared to para-xylene."
+                }
+            },
+            {
+                "Molecule Name": "ortho-xylene",
+                "Molecular Size": "6.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, mesitylene solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hardly enters the narrow channels of Cu(CDC)."
+                }
+            },
+            {
+                "Molecule Name": "ethylbenzene",
+                "Molecular Size": "5.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, mesitylene solvent",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less preferentially adsorbed than para-xylene."
+                }
+            },
+            {
+                "Molecule Name": "hydroquinone",
+                "Molecular Size": "5.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbed over catechol."
+                }
+            },
+            {
+                "Molecule Name": "catechol",
+                "Molecular Size": "6.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed to a lesser extent compared to hydroquinone."
+                }
+            },
+            {
+                "Molecule Name": "n-butanol",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbed over branched butanol isomers."
+                }
+            },
+            {
+                "Molecule Name": "iso-butanol",
+                "Molecular Size": "5.9 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less preferentially adsorbed compared to n-butanol."
+                }
+            },
+            {
+                "Molecule Name": "tert-butanol",
+                "Molecular Size": "6.5 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less preferentially adsorbed compared to n-butanol."
+                }
+            },
+            {
+                "Molecule Name": "sec-butanol",
+                "Molecular Size": "5.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Less preferentially adsorbed compared to n-butanol."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments",
+            "Performance Metrics": "Para-xylene/m-xylene selectivity ~10; Para-xylene/ethylbenzene selectivity up to 5; Hydroquinone/catechol separation achieved; n-butanol/butanol isomers separation factors >10."
+        },
+        "Other Information": {
+            "Additional Info": "Cu(CDC) exhibits pronounced shape selectivity in both organic and aqueous media, with high stability towards water and pH between 2 and 12."
+        }
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "Materials Name": "UiO-68-azo",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "1.41 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2’-p-tolyldiazenyl-1,1’,4,4’-terphenyl-4,4”-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability: 145200 Barrer for UiO-68-azo membrane"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption-diffusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability: 17200 Barrer for UiO-68-azo membrane"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability: 30200 Barrer for UiO-68-azo membrane"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability: 37600 Barrer for UiO-68-azo membrane"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke–Kallenbach system",
+            "Performance Metrics": "H2/CO2 selectivity: 14.7 for UiO-68-azo membrane"
+        },
+        "Other Information": {
+            "Additional Info": "The azobenzene groups in the framework allow reversible adsorption/desorption of β-CD, enhancing permselectivity."
+        }
+    },
+    {
+        "Materials Name": "β-CD@UiO-68-azo",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "1.41 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2’-p-tolyldiazenyl-1,1’,4,4’-terphenyl-4,4”-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability: 111500 Barrer for β-CD@UiO-68-azo membrane"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Adsorption-diffusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability: 1434 Barrer for β-CD@UiO-68-azo membrane"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability: 2241 Barrer for β-CD@UiO-68-azo membrane"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeability: 4750 Barrer for β-CD@UiO-68-azo membrane"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion and adsorption-diffusion synergistic effect",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke–Kallenbach system",
+            "Performance Metrics": "H2/CO2 selectivity: 51.0 for β-CD@UiO-68-azo membrane"
+        },
+        "Other Information": {
+            "Additional Info": "Capping with β-CD enhances H2/CO2 permselectivity through molecular sieving and adsorption-diffusion effects."
+        }
+    }
+]

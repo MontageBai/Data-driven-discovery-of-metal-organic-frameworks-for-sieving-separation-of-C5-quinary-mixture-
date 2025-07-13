@@ -1,0 +1,63 @@
+[
+    {
+        "Materials Name": "ZIF-65@ZIF-67",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 Å (shell), 4.7 Å (core)",
+            "Structure Type": "Core-shell structure with SOD topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Co2+",
+            "Zn2+"
+        ],
+        "Ligands": [
+            "methyl-functionalized imidazolate",
+            "nitro-functionalized imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "para-xylene",
+                "Molecular Size": "6.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Core-facilitated transport after passing through the shell",
+                "Other Information": {
+                    "Test Conditions": "303 K, vapor and liquid phases",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "PX shows rapid diffusion into the core after passing through the shell."
+                }
+            },
+            {
+                "Molecule Name": "meta-xylene",
+                "Molecular Size": "7.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Shell-gated diffusion restriction",
+                "Other Information": {
+                    "Test Conditions": "303 K, vapor and liquid phases",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "MX diffusion is restricted by the narrow pores of the shell."
+                }
+            },
+            {
+                "Molecule Name": "ortho-xylene",
+                "Molecular Size": "7.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Shell-gated diffusion restriction",
+                "Other Information": {
+                    "Test Conditions": "303 K, vapor and liquid phases",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "OX diffusion is significantly hindered by the shell layer."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale facilitated by core-shell structure",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Vapor-phase adsorption, liquid-phase batch adsorption, fixed-bed breakthrough experiments, molecular dynamics simulations",
+            "Performance Metrics": "PX/MX selectivity: 10.1 (Henry's selectivity), PX/OX selectivity: 17.2 (Henry's selectivity); Dynamic selectivities in breakthrough experiments: PX/MX = 3.0, PX/OX = 4.7"
+        },
+        "Other Information": {
+            "Additional Info": "The core-shell strategy amplifies diffusion differences between xylene isomers, achieving superior separation performance compared to individual components."
+        }
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "BNF-100a",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "4.8 Å",
+            "Structure Type": "3D framework with 1D channels"
+        },
+        "Topology": "reo",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "1,2,4,5-tetrakis(4-pyridyl)benzene (TEPB)",
+            "1,4-bis(benzodioxaborole)benzene (BACT)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "4.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 114.8 mg g-1 (1.34 mmol g-1)"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "5.0–5.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1 bar",
+                    "Threshold Pressure": "Gate-opening at ~6.2 kPa",
+                    "Additional Info": "Adsorption capacity: 105.5 mg g-1 (1.23 mmol g-1)"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "6.2 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "303 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 8.44 mg g-1 (0.098 mmol g-1)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and kinetic sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "nHEX/22DMB selectivity: 13.6, 3MP/22DMB selectivity: 12.5"
+        },
+        "Other Information": {
+            "Additional Info": "First reported instance of hexane isomer separation using a single breakthrough column."
+        }
+    }
+]

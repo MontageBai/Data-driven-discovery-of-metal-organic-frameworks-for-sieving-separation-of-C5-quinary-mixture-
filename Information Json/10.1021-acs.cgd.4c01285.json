@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "MUT-11",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.14 Å (PLD), 4.93 Å (LCD)",
+            "Structure Type": "3D network with narrow channels"
+        },
+        "Topology": "{3^6.4^18.5^3.6}",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "2,5-dibromoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong interactions and early pore filling due to small pore size",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High isosteric heat of adsorption due to strong interactions with framework atoms."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Strong interactions and early pore filling due to small pore size",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High isosteric heat of adsorption, slightly lower uptake compared to CO2."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Weak interactions at room temperature",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 100 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Better adsorption at cryogenic temperatures (77 K)."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Moderate interactions, slower pore filling",
+                "Other Information": {
+                    "Test Conditions": "298 K, up to 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Interaction strength lies between CO2/C2H2 and H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: Not explicitly reported; CO2/C2H2 selectivity: Up to 6 at ambient conditions"
+        },
+        "Other Information": {
+            "Additional Info": "MUT-11 exhibits high selectivity for CO2 over other gases in binary mixtures, especially under low-pressure conditions."
+        }
+    }
+]

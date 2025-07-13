@@ -1,0 +1,190 @@
+[
+    {
+        "Materials Name": "Zr-MOF(fumarate)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "4.5 Å (maximum aperture size)",
+            "Structure Type": "12-connected face-centered cubic"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4(-CO2)12"
+        ],
+        "Ligands": [
+            "fumarate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High H2/CO2 selectivity of 69.2 after defect elimination"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked by the lattice window due to its larger size compared to hydrogen"
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.76 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Freely passes through the lattice while rejecting hydrated ions"
+                }
+            },
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "50 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeates selectively over DMC in azeotropic mixtures"
+                }
+            },
+            {
+                "Molecule Name": "dimethyl carbonate",
+                "Molecular Size": "4.7–6.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "50 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked by the lattice window due to its larger size compared to methanol"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests, water desalination tests, organic solvent separation tests",
+            "Performance Metrics": "H2/CO2 selectivity: 69.2; Water/salt selectivity: up to 9,000; Methanol/DMC separation factor: >99.5 wt% purity"
+        },
+        "Other Information": {
+            "Additional Info": "Defect-free lattice achieved with high connectivity (~11.7), enabling precise molecular sieving and excellent stability in water and organic solvents"
+        }
+    },
+    {
+        "Materials Name": "Zr-MOF(BDC)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "5.1 Å (maximum aperture size)",
+            "Structure Type": "12-connected face-centered cubic"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4(-CO2)12"
+        ],
+        "Ligands": [
+            "benzene-1,4-dicarboxylic acid (BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High H2/CO2 selectivity observed"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked by the lattice window due to its larger size compared to hydrogen"
+                }
+            },
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "2.76 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Freely passes through the lattice while rejecting hydrated ions"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests, water desalination tests",
+            "Performance Metrics": "Water/salt selectivity: up to 9,000"
+        },
+        "Other Information": {
+            "Additional Info": "Defect-free lattice achieved with high connectivity (~11.7), enabling precise molecular sieving and excellent stability in water"
+        }
+    },
+    {
+        "Materials Name": "Zr-MOF[BDC-(OH)2]",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "5.2 Å (maximum aperture size)",
+            "Structure Type": "12-connected face-centered cubic"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4(-CO2)12"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalic acid [BDC-(OH)2]"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High H2/CO2 selectivity observed"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked by the lattice window due to its larger size compared to hydrogen"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Defect-free lattice achieved with high connectivity (~11.7)"
+        }
+    }
+]

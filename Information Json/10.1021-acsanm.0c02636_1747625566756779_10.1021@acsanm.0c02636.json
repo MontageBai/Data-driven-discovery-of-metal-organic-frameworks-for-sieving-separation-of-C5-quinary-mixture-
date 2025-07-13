@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "PDA@MOF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.2 nm",
+            "Structure Type": "Core-shell"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "1.26 x 0.77 x 0.65 nm³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Visible LED light, 80 min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Decolorization efficiency ~99% with H₂O₂ as electron acceptor"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "1.56 x 1.35 x 0.42 nm³",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Visible LED light, 80 min",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower decolorization rate compared to methylene blue due to larger size"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "MB degradation: ~99% in 80 min under visible LED light with H₂O₂"
+        },
+        "Other Information": {
+            "Additional Info": "The PDA@MOF nanostructures demonstrated superior performance for MB removal due to effective molecular sieving and high surface area."
+        }
+    }
+]

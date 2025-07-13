@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "VOFFIVE-1-Ni",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.19 Å (dynamic aperture)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Ni2+",
+            "V5+"
+        ],
+        "Ligands": [
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "3-chloropropene",
+                "Molecular Size": "5.13 Å (kinetic diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π–π interaction with pyrazine rings enabling passage through dynamic aperture",
+                "Other Information": {
+                    "Test Conditions": "303 K, vapor phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of approximately 1.45 mmol g−1 at 50 kPa"
+                }
+            },
+            {
+                "Molecule Name": "1-chloropropane",
+                "Molecular Size": "5.25 Å (kinetic diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Excluded due to strong CH···Cl hydrogen bonding and absence of π–π interaction",
+                "Other Information": {
+                    "Test Conditions": "303 K, vapor phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption (0.06 mmol g−1 at 50 kPa)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dynamic recognizing mechanism combining rigid and flexible framework properties",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-component adsorption isotherms, breakthrough experiments, DFT calculations",
+            "Performance Metrics": "Selectivity over 10^6 in vapor phase, selectivity of 10^4 in liquid phase"
+        },
+        "Other Information": {
+            "Additional Info": "The material shows excellent recyclability and stability, maintaining structure after adsorption and breakthrough experiments"
+        }
+    }
+]

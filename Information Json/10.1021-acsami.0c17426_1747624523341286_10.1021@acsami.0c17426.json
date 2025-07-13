@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "ZIF-7-II/OPBI",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3 Å (narrow-pore phase)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeability improved significantly in ZIF-7-II/OPBI compared to pure OPBI."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 4 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeability decreased in ZIF-7-II/OPBI due to narrow pore restriction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-gas permeability measurement and mixed-gas Wicke-Kallenbach method",
+            "Performance Metrics": "H2/CO2 selectivity: 27.1 (ideal), H2 permeability: 170.7 barrer at 180 °C"
+        },
+        "Other Information": {
+            "Additional Info": "The ZIF-7-II phase was stabilized by the rigid OPBI polymer matrix via thermal treatment at 300 °C under Ar atmosphere."
+        }
+    }
+]

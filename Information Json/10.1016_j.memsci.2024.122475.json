@@ -1,0 +1,142 @@
+[
+    {
+        "Materials Name": "MIL-101(Cr)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "2.9 nm and 3.4 nm (cages), 1.6 nm and 1.2 nm (windows)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced H2 permeability from ~6000 to 13,000 Barrer with increased H2/N2 selectivity from 14 to 21 in PIM-EA-TB matrix"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.302 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeability tends towards lower limit of Maxwell model when incorporated into PIM-EA-TB"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.304 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows size-sieving character, hampering N2 permeation especially at high pressure"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.318 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Obstructs passage similar to CO2"
+                }
+            }
+        ],
+        "Sieving Mechanism": "The presence of pore windows of well-defined size helps fine-tune polymer selectivity for gas pairs with large difference in kinetic diameters",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas time-lag measurements, mixed gas permeation tests",
+            "Performance Metrics": "H2 permeability: 13,000 Barrer; H2/N2 selectivity: 21"
+        },
+        "Other Information": {
+            "Additional Info": "Good dispersion in PIM-EA-TB and PIM-TMN-Trip matrices confirmed by SEM and EDX mapping"
+        }
+    },
+    {
+        "Materials Name": "MIL-177(Ti)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.1 nm (large channels), 0.3 nm (narrow channels)",
+            "Structure Type": "1D hexagonal channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti4+"
+        ],
+        "Ligands": [
+            "5,5'-methylenediisophthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Slight increase in H2 permeability in PIM-TMN-Trip matrix"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.302 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reduces CO2 permeability in PIM-EA-TB matrix"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.304 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Increases size-sieving character in PIM-EA-TB"
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "0.296 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reverses order of permeation compared to pristine PIM-TMN-Trip"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Narrow windows (~0.3 nm) obstruct passage of larger molecules like CO2, CH4, and N2",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single gas time-lag measurements, mixed gas permeation tests",
+            "Performance Metrics": "Enhances H2/N2 selectivity to 20 due to slight reduction of N2 permeability"
+        },
+        "Other Information": {
+            "Additional Info": "Homogeneous dispersion in PIM-EA-TB and PIM-TMN-Trip matrices confirmed by SEM and EDX"
+        }
+    }
+]

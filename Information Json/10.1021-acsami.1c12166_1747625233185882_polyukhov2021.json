@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "12 Å (cavity), 3.4 Å (formal aperture), ~7 Å (effective aperture)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "6.62 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K - 363 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Filling ratio achieved before 160 minutes in most cases."
+                }
+            },
+            {
+                "Molecule Name": "m-xylene",
+                "Molecular Size": "7.26 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K - 363 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion rate increases with temperature, especially between 333 K and 363 K."
+                }
+            },
+            {
+                "Molecule Name": "o-xylene",
+                "Molecular Size": "7.27 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K - 363 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion rate increases with temperature, similar to m-xylene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "EPR spectroscopy, SCXRD, GC analysis",
+            "Performance Metrics": "Selectivity for p-xylene/m-xylene: up to 20:1"
+        },
+        "Other Information": {
+            "Additional Info": "Window apertures modulated by temperature; wa and h parameters change linearly with temperature."
+        }
+    },
+    {
+        "Materials Name": "ZIF-67",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "12 Å (cavity), smaller than ZIF-8 (wa and window height reported)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "6.62 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K - 363 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Filling ratio achieved faster compared to ZIF-8."
+                }
+            },
+            {
+                "Molecule Name": "m-xylene",
+                "Molecular Size": "7.26 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K - 363 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion rate increases significantly between 298 K and 333 K."
+                }
+            },
+            {
+                "Molecule Name": "o-xylene",
+                "Molecular Size": "7.27 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K - 363 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion rate increases similarly to m-xylene."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "EPR spectroscopy, SCXRD, GC analysis",
+            "Performance Metrics": "Selectivity for p-xylene/m-xylene: up to 18.1:1"
+        },
+        "Other Information": {
+            "Additional Info": "Higher diffusion rates than ZIF-8 due to favorable window geometry and higher maximal window height (h)."
+        }
+    }
+]

@@ -1,0 +1,67 @@
+Here's the analysis for NUM-7:
+
+**MOF Name: NUM-7**
+
+**1. Inferring NUM-7’s Effective Pore Size:**
+
+From the experimental data:
+*   **Propane:** 6.552×4.354×3.970 Å → Intermediate = 4.354 Å | Adsorbed
+*   **Propylene:** 6.257×5.051×3.961 Å → Intermediate = 5.051 Å | Not Adsorbed (Reason: "Exclusion based on pore environment," which implies a kinetic sieving or specific interaction-based exclusion rather than a strict size exclusion. However, it effectively sets a practical upper limit for adsorption under these conditions.)
+
+Inferred effective pore size of NUM-7:
+Based on the adsorption of propane, the MOF can accommodate molecules with an intermediate dimension of at least 4.354 Å. The non-adsorption of propylene (even if not strictly due to steric size exclusion) implies that molecules with an intermediate dimension of 5.051 Å or larger generally face significant hindrance from the "pore environment." Therefore, we infer a practical effective adsorption window for NUM-7 that accommodates molecules with intermediate dimensions approximately between **4.354 Å and less than 5.051 Å**.
+
+---
+
+**Guest Molecule: isoprene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   **NUM-7 Adsorption Behavior:** Propane (intermediate = 4.354 Å) is adsorbed, while propylene (intermediate = 5.051 Å) is not adsorbed due to "Exclusion based on pore environment." This suggests that molecules with intermediate dimensions of approximately 5.051 Å or larger are effectively excluded.
+*   **Isoprene Dimensions:** 7.746×6.093×3.963 Å → Intermediate = 6.093 Å
+*   **Conclusion:** Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of propylene (5.051 Å), which was already excluded by the MOF due to pore environment effects, isoprene is highly unlikely to be adsorbed by NUM-7.
+
+---
+
+**Guest Molecule: cis-2-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   **NUM-7 Adsorption Behavior:** Propane (intermediate = 4.354 Å) is adsorbed, while propylene (intermediate = 5.051 Å) is not adsorbed due to "Exclusion based on pore environment." This suggests that molecules with intermediate dimensions of approximately 5.051 Å or larger are effectively excluded.
+*   **cis-2-pentene Dimensions:** 8.067×5.572×5.136 Å → Intermediate = 5.572 Å
+*   **Conclusion:** Since cis-2-pentene's intermediate dimension (5.572 Å) is larger than the intermediate dimension of propylene (5.051 Å), which was already excluded by the MOF due to pore environment effects, cis-2-pentene is highly unlikely to be adsorbed by NUM-7.
+
+---
+
+**Guest Molecule: 1-pentene**
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+*   **NUM-7 Adsorption Behavior:** Propane (intermediate = 4.354 Å) is adsorbed, while propylene (intermediate = 5.051 Å) is not adsorbed due to "Exclusion based on pore environment." This defines a very narrow selectivity window.
+*   **1-pentene Dimensions:** 8.847×4.995×4.897 Å → Intermediate = 4.995 Å
+*   **Conclusion:** 1-pentene's intermediate dimension (4.995 Å) is very close to that of propylene (5.051 Å). Given that propylene, a similar alkene, is not adsorbed due to "Exclusion based on pore environment," it is highly probable that 1-pentene, with such a minimally smaller intermediate dimension (0.056 Å difference), would experience similar hindrance and therefore cannot be adsorbed by NUM-7. This highlights a precise kinetic sieving or pore environment effect at this size regime.
+
+---
+
+**Guest Molecule: trans-2-pentene**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   **NUM-7 Adsorption Behavior:** Propane (intermediate = 4.354 Å) is adsorbed, while propylene (intermediate = 5.051 Å) is not adsorbed due to "Exclusion based on pore environment." This defines a very narrow selectivity window.
+*   **trans-2-pentene Dimensions:** 8.796×4.733×4.564 Å → Intermediate = 4.733 Å
+*   **Conclusion:** trans-2-pentene's intermediate dimension (4.733 Å) falls between that of adsorbed propane (4.354 Å) and non-adsorbed propylene (5.051 Å). Notably, trans-2-pentene is sufficiently smaller than propylene (by 0.318 Å). Since the reason for propylene's non-adsorption is not a strict size exclusion but related to the "pore environment," there is a higher probability that trans-2-pentene, being smaller and potentially having a different interaction profile or less hindered passage than propylene, *could* be adsorbed by NUM-7. This indicates a very sensitive and selective pore environment within this size range.
+
+---
+
+**Guest Molecule: n-pentane**
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+*   **NUM-7 Adsorption Behavior:** Propane (intermediate = 4.354 Å) is adsorbed, while propylene (intermediate = 5.051 Å) is not adsorbed due to "Exclusion based on pore environment."
+*   **n-pentane Dimensions:** 9.118×4.364×3.969 Å → Intermediate = 4.364 Å
+*   **Conclusion:** n-pentane's intermediate dimension (4.364 Å) is very close to that of propane (4.354 Å), with only a 0.01 Å difference. Given that propane is readily adsorbed and n-pentane is also a linear alkane, it is highly likely that n-pentane can also be adsorbed by NUM-7, fitting within the effective pore size defined by propane's adsorption.

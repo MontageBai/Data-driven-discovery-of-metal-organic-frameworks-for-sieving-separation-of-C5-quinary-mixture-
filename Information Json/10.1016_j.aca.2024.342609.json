@@ -1,0 +1,50 @@
+[
+    {
+        "MOF Name": "F–COF-150@bis-PC6(20)",
+        "Material Category": "Others",
+        "Pore/Structural Features": {
+            "Pore Size": "2.5-3.1 nm",
+            "Structure Type": "Hollow tubular fibrous structure, hierarchical fibrous morphology characterized by interwoven hollow fibers, forming an interlaced three-dimensional network"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "1,3,5-Tris(4-aminophenyl)benzene (TAPB)",
+            "terephthalaldehyde (PDA)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Macromolecules (e.g., proteins, enzymes)",
+                "Molecular Size": ">14 kDa",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion; physical blocking by grid fence structure interlaced between fibers; non-selective repulsion",
+                "Other Information": {
+                    "Test Conditions": "Optimal EE-SPME extraction conditions (0.5 V, 25 min, 600 rpm, pH 7, 290°C desorption); in human urine and plasma samples",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Effective exclusion demonstrated against specific interferers like Lys M (14 kDa) and HAS (67 kDa), significantly reducing matrix interference in biological samples."
+                }
+            },
+            {
+                "Molecule Name": "OH-PAHs (Hydroxypolycyclic aromatic hydrocarbons)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Pore physical adsorption; adsorption affinity; electro-enhanced migration accelerated by external electric field due to complementary charges",
+                "Other Information": {
+                    "Test Conditions": "Optimal EE-SPME extraction conditions (0.5 V, 25 min, 600 rpm, pH 7, 290°C desorption); in human urine and plasma samples",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Small target molecules effectively pass into the pores for adsorption and enrichment."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Macromolecular size exclusion based on a physical grid fence effect formed by the interwoven fibrous structure, enabling non-selective repulsion of large molecules while allowing small molecules to pass.",
+        "Experimental Validation": {
+            "Method": "GC-MS/MS, EE-SPME, Adsorption kinetics and isotherm models, Cyclic voltammetry (CV), UV–visible difference spectroscopy, Scanning Electron Microscopy (SEM), Fourier Transform Infrared Spectroscopy (FT-IR), X-ray Photoelectron Spectroscopy (XPS)",
+            "Performance Metrics": "Low detection limit (0.008–0.05 ng L−1), wide linear range (0.02–1000 ng L−1), good repeatability (1.0%–7.3 %); good resistance to matrix interference (2.5%–16.7 %); higher adsorption capacity (Qm = 50.94 mg g−1) for OH-PAHs; enhanced extraction performance of 1-NAP by 3.2-7.6 times compared to commercial fibers; Enrichment Factor (EF) for 9-PHE maintained good stability (751–833) in the presence of macromolecules."
+        },
+        "Other Information": {
+            "Additional Info": "Covalent Organic Framework (COF) composite with polyionic liquid (bis-PC6) formed from 3,3′-Divinyl-1,1′(1,6-hexanediyl) diimidazolium dibromide (bis-C6) within the COF pores. Prepared via a flexible filament winding fabrication method; exhibits high electrical conductivity; functions as a stable macromolecular barrier; utilized in electro-enhanced solid-phase microextraction (EE-SPME) for rapid and sensitive analysis in complex biological samples (human urine and plasma)."
+        }
+    }
+]

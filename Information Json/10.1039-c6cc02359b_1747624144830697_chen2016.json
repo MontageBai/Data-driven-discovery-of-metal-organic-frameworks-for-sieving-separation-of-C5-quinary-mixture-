@@ -1,0 +1,74 @@
+[
+    {
+        "Materials Name": "MOF 2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.2 Å (length), 5.1 Å (micropores)",
+            "Structure Type": "1D nanotubular channels"
+        },
+        "Topology": "acs",
+        "Metal Nodes": [
+            "Co3(μ3-OH)",
+            "Co2(INT)3(H2O)2"
+        ],
+        "Ligands": [
+            "4-(1H-tetrazol-5-yl)benzoate",
+            "isonicotinate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.4 × 3.4 × 5.3 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 shows a higher uptake compared to CH4 and N2."
+                }
+            },
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.4 × 3.4 × 5.5 Å³",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "C2H2 shows a higher uptake and binding affinity compared to CO2."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Limited sorption observed."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Limited sorption observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Partitioning of large hexagonal channels into smaller segments with potential for enhanced molecular sieving.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption studies, GCMC simulations",
+            "Performance Metrics": "CO2/CH4 selectivity: 14 (50% CO2 feed), 4 (5% CO2 feed); BET surface area: 1332 m²/g; Langmuir surface area: 1584 m²/g"
+        },
+        "Other Information": {
+            "Additional Info": "Incorporation of size-matching MBBs improves framework rigidity and gas sorption performance."
+        }
+    }
+]

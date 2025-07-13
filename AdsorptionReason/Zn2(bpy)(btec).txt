@@ -1,0 +1,162 @@
+MOF Name: Zn2(bpy)(btec)
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn2(bpy)(btec):
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Not Adsorbed (Size exclusion)
+- Carbon Dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Not Adsorbed (Size exclusion)
+- Propyne: 6.433×3.961×3.818 → Intermediate = 3.961 Å | Not Adsorbed (Size exclusion)
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Not Adsorbed (Size exclusion)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn2(bpy)(btec):
+The experimental data presents a contradiction when strictly interpreting "size exclusion" based solely on the intermediate molecular dimension. Acetylene (intermediate 3.200 Å) is adsorbed, suggesting the pore size is at least 3.200 Å. However, Oxygen (intermediate 2.860 Å) and Carbon Dioxide (intermediate 3.200 Å) are explicitly stated as "Not Adsorbed" due to "Size exclusion". This implies the pore size is simultaneously less than 2.860 Å (for Oxygen) and less than 3.200 Å (for Carbon Dioxide), which contradicts the adsorption of Acetylene. This inconsistency indicates that a simple, single-value "effective pore size" based solely on the intermediate dimension cannot be strictly inferred for this MOF.
+
+Conclusion based on highly restrictive nature:
+Given that molecules with intermediate dimensions of 2.860 Å (Oxygen) and 3.200 Å (Carbon Dioxide) are explicitly excluded by size, while Acetylene (3.200 Å) is adsorbed, it implies a highly specific pore environment where precise molecular shape and orientation are critical for passage, enabling only very specific molecules (like linear acetylene) to pass through a pore that otherwise acts as a tight barrier. Therefore, any molecule with an intermediate dimension greater than or equal to the smallest excluded molecule (2.860 Å for Oxygen, or 3.200 Å for Carbon Dioxide) and not possessing the unique linear characteristics of acetylene, is highly likely to be excluded.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimensions of molecules consistently excluded due to size (2.860 Å for Oxygen, 3.200 Å for Carbon Dioxide), and isoprene does not share the uniquely linear shape of acetylene, it cannot be adsorbed by Zn2(bpy)(btec).
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn2(bpy)(btec)
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn2(bpy)(btec):
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Not Adsorbed (Size exclusion)
+- Carbon Dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Not Adsorbed (Size exclusion)
+- Propyne: 6.433×3.961×3.818 → Intermediate = 3.961 Å | Not Adsorbed (Size exclusion)
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Not Adsorbed (Size exclusion)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn2(bpy)(btec):
+The experimental data presents a contradiction when strictly interpreting "size exclusion" based solely on the intermediate molecular dimension. Acetylene (intermediate 3.200 Å) is adsorbed, suggesting the pore size is at least 3.200 Å. However, Oxygen (intermediate 2.860 Å) and Carbon Dioxide (intermediate 3.200 Å) are explicitly stated as "Not Adsorbed" due to "Size exclusion". This implies the pore size is simultaneously less than 2.860 Å (for Oxygen) and less than 3.200 Å (for Carbon Dioxide), which contradicts the adsorption of Acetylene. This inconsistency indicates that a simple, single-value "effective pore size" based solely on the intermediate dimension cannot be strictly inferred for this MOF.
+
+Conclusion based on highly restrictive nature:
+Given that molecules with intermediate dimensions of 2.860 Å (Oxygen) and 3.200 Å (Carbon Dioxide) are explicitly excluded by size, while Acetylene (3.200 Å) is adsorbed, it implies a highly specific pore environment where precise molecular shape and orientation are critical for passage, enabling only very specific molecules (like linear acetylene) to pass through a pore that otherwise acts as a tight barrier. Therefore, any molecule with an intermediate dimension greater than or equal to the smallest excluded molecule (2.860 Å for Oxygen, or 3.200 Å for Carbon Dioxide) and not possessing the unique linear characteristics of acetylene, is highly likely to be excluded.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimensions of molecules consistently excluded due to size (2.860 Å for Oxygen, 3.200 Å for Carbon Dioxide), and cis-2-pentene does not share the uniquely linear shape of acetylene, it cannot be adsorbed by Zn2(bpy)(btec).
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn2(bpy)(btec)
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn2(bpy)(btec):
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Not Adsorbed (Size exclusion)
+- Carbon Dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Not Adsorbed (Size exclusion)
+- Propyne: 6.433×3.961×3.818 → Intermediate = 3.961 Å | Not Adsorbed (Size exclusion)
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Not Adsorbed (Size exclusion)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn2(bpy)(btec):
+The experimental data presents a contradiction when strictly interpreting "size exclusion" based solely on the intermediate molecular dimension. Acetylene (intermediate 3.200 Å) is adsorbed, suggesting the pore size is at least 3.200 Å. However, Oxygen (intermediate 2.860 Å) and Carbon Dioxide (intermediate 3.200 Å) are explicitly stated as "Not Adsorbed" due to "Size exclusion". This implies the pore size is simultaneously less than 2.860 Å (for Oxygen) and less than 3.200 Å (for Carbon Dioxide), which contradicts the adsorption of Acetylene. This inconsistency indicates that a simple, single-value "effective pore size" based solely on the intermediate dimension cannot be strictly inferred for this MOF.
+
+Conclusion based on highly restrictive nature:
+Given that molecules with intermediate dimensions of 2.860 Å (Oxygen) and 3.200 Å (Carbon Dioxide) are explicitly excluded by size, while Acetylene (3.200 Å) is adsorbed, it implies a highly specific pore environment where precise molecular shape and orientation are critical for passage, enabling only very specific molecules (like linear acetylene) to pass through a pore that otherwise acts as a tight barrier. Therefore, any molecule with an intermediate dimension greater than or equal to the smallest excluded molecule (2.860 Å for Oxygen, or 3.200 Å for Carbon Dioxide) and not possessing the unique linear characteristics of acetylene, is highly likely to be excluded.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimensions of molecules consistently excluded due to size (2.860 Å for Oxygen, 3.200 Å for Carbon Dioxide), and 1-pentene does not share the uniquely linear shape of acetylene, it cannot be adsorbed by Zn2(bpy)(btec).
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn2(bpy)(btec)
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn2(bpy)(btec):
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Not Adsorbed (Size exclusion)
+- Carbon Dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Not Adsorbed (Size exclusion)
+- Propyne: 6.433×3.961×3.818 → Intermediate = 3.961 Å | Not Adsorbed (Size exclusion)
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Not Adsorbed (Size exclusion)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn2(bpy)(btec):
+The experimental data presents a contradiction when strictly interpreting "size exclusion" based solely on the intermediate molecular dimension. Acetylene (intermediate 3.200 Å) is adsorbed, suggesting the pore size is at least 3.200 Å. However, Oxygen (intermediate 2.860 Å) and Carbon Dioxide (intermediate 3.200 Å) are explicitly stated as "Not Adsorbed" due to "Size exclusion". This implies the pore size is simultaneously less than 2.860 Å (for Oxygen) and less than 3.200 Å (for Carbon Dioxide), which contradicts the adsorption of Acetylene. This inconsistency indicates that a simple, single-value "effective pore size" based solely on the intermediate dimension cannot be strictly inferred for this MOF.
+
+Conclusion based on highly restrictive nature:
+Given that molecules with intermediate dimensions of 2.860 Å (Oxygen) and 3.200 Å (Carbon Dioxide) are explicitly excluded by size, while Acetylene (3.200 Å) is adsorbed, it implies a highly specific pore environment where precise molecular shape and orientation are critical for passage, enabling only very specific molecules (like linear acetylene) to pass through a pore that otherwise acts as a tight barrier. Therefore, any molecule with an intermediate dimension greater than or equal to the smallest excluded molecule (2.860 Å for Oxygen, or 3.200 Å for Carbon Dioxide) and not possessing the unique linear characteristics of acetylene, is highly likely to be excluded.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimensions of molecules consistently excluded due to size (2.860 Å for Oxygen, 3.200 Å for Carbon Dioxide), and trans-2-pentene does not share the uniquely linear shape of acetylene, it cannot be adsorbed by Zn2(bpy)(btec).
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Zn2(bpy)(btec)
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Zn2(bpy)(btec):
+- Acetylene: 5.538×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Not Adsorbed (Size exclusion)
+- Carbon Dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Not Adsorbed (Size exclusion)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+- Ethylene: 4.679×4.047×3.200 → Intermediate = 4.047 Å | Not Adsorbed (Size exclusion)
+- Ethane: 4.731×4.175×4.170 → Intermediate = 4.175 Å | Not Adsorbed (Size exclusion)
+- Propyne: 6.433×3.961×3.818 → Intermediate = 3.961 Å | Not Adsorbed (Size exclusion)
+- Propylene: 6.257×5.051×3.961 → Intermediate = 5.051 Å | Not Adsorbed (Size exclusion)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.354 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Zn2(bpy)(btec):
+The experimental data presents a contradiction when strictly interpreting "size exclusion" based solely on the intermediate molecular dimension. Acetylene (intermediate 3.200 Å) is adsorbed, suggesting the pore size is at least 3.200 Å. However, Oxygen (intermediate 2.860 Å) and Carbon Dioxide (intermediate 3.200 Å) are explicitly stated as "Not Adsorbed" due to "Size exclusion". This implies the pore size is simultaneously less than 2.860 Å (for Oxygen) and less than 3.200 Å (for Carbon Dioxide), which contradicts the adsorption of Acetylene. This inconsistency indicates that a simple, single-value "effective pore size" based solely on the intermediate dimension cannot be strictly inferred for this MOF.
+
+Conclusion based on highly restrictive nature:
+Given that molecules with intermediate dimensions of 2.860 Å (Oxygen) and 3.200 Å (Carbon Dioxide) are explicitly excluded by size, while Acetylene (3.200 Å) is adsorbed, it implies a highly specific pore environment where precise molecular shape and orientation are critical for passage, enabling only very specific molecules (like linear acetylene) to pass through a pore that otherwise acts as a tight barrier. Therefore, any molecule with an intermediate dimension greater than or equal to the smallest excluded molecule (2.860 Å for Oxygen, or 3.200 Å for Carbon Dioxide) and not possessing the unique linear characteristics of acetylene, is highly likely to be excluded.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the intermediate dimensions of molecules consistently excluded due to size (2.860 Å for Oxygen, 3.200 Å for Carbon Dioxide), and n-pentane does not share the uniquely linear shape of acetylene, it cannot be adsorbed by Zn2(bpy)(btec).
+
+Therefore, the result is: **Cannot Adsorb**

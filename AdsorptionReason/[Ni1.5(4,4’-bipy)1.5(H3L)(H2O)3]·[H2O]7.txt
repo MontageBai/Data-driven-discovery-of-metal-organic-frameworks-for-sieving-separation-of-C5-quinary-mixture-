@@ -1,0 +1,105 @@
+MOF Name: [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed (Kinetic sieving)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Based on this, the inferred effective pore size of [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7 is:
+- Greater than or equal to the largest intermediate dimension of adsorbed molecules (CO2 = 3.200 Å).
+- Less than the smallest intermediate dimension of non-adsorbed molecules due to size exclusion (Methane = 3.877 Å).
+Therefore, the effective pore size range is approximately **[3.200 Å, 3.877 Å)**.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7 due to size exclusion.
+
+---
+
+MOF Name: [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed (Kinetic sieving)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Based on this, the inferred effective pore size of [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7 is approximately **[3.200 Å, 3.877 Å)**.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7 due to size exclusion.
+
+---
+
+MOF Name: [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed (Kinetic sieving)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Based on this, the inferred effective pore size of [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7 is approximately **[3.200 Å, 3.877 Å)**.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7 due to size exclusion.
+
+---
+
+MOF Name: [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed (Kinetic sieving)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Based on this, the inferred effective pore size of [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7 is approximately **[3.200 Å, 3.877 Å)**.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7 due to size exclusion.
+
+---
+
+MOF Name: [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed (Kinetic sieving)
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed (Kinetic sieving)
+- Methane: 3.877×3.849×3.918 → Intermediate = 3.877 Å | Not Adsorbed (Size exclusion)
+
+Based on this, the inferred effective pore size of [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7 is approximately **[3.200 Å, 3.877 Å)**.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is significantly larger than the upper bound of the inferred effective pore size (3.877 Å), it cannot be adsorbed by [Ni1.5(4,4’-bipy)1.5(H3L)(H2O)3]·[H2O]7 due to size exclusion.

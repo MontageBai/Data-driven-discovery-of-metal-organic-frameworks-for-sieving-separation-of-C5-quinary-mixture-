@@ -1,0 +1,395 @@
+[
+    {
+        "Materials Name": "fumarate-based fcu-MOF (fum-fcu-MOF)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "rare earth metal clusters"
+        ],
+        "Ligands": [
+            "fumarate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The membrane showed a calculated limit of detection (LOD) of 5.4 ppb for H2S."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Response to H2S from ppm level to ppb level, LOD: 5.4 ppb"
+        },
+        "Other Information": {
+            "Additional Info": "The material exhibited excellent stability in the H2S environment due to the rigid attachment of hexanuclear rare-earth metal clusters to shorter ligands during formation."
+        }
+    },
+    {
+        "Materials Name": "NDC-Y-fcu-MOF",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "rare earth metal ions"
+        ],
+        "Ligands": [
+            "1,4-naphthalenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ammonia",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The membrane was sensitive to NH3 at concentrations as low as 1 ppm with a calculated LOD of 100 ppb."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The response to NH3 was about four-fold higher than that of NO2."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The membrane maintained very high selectivity for NH3 in the presence of water vapor, NO2, and CO2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "LOD: 100 ppb for NH3; Response to NH3 was about four times higher than NO2."
+        },
+        "Other Information": {
+            "Additional Info": "Weak response to nonpolar gases is attributed to the lack of adsorption sites on the MOF surface and restricted penetration through triangular windows."
+        }
+    },
+    {
+        "Materials Name": "Zn-BDC-NH2",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn4O"
+        ],
+        "Ligands": [
+            "2-aminoterephthalate acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "50 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Maximum responses to 1, 5, and 10 ppm H2 were 1.87, 2.30, and 2.93, respectively."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Response/recovery times: 44 s and 160 s to 1 ppm H2."
+        },
+        "Other Information": {
+            "Additional Info": "The sensing mechanism involves an electron-withdrawing layer model where adsorbed O2 provides active sites for H2."
+        }
+    },
+    {
+        "Materials Name": "PCN-250 (Fe2M, M: Co, Zn, Mn)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe2Co",
+            "Fe2Zn",
+            "Fe2Mn"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Fe2Mn-based sensor showed a response of 2.7% to 500 ppb NO2, higher than Fe3 (1.3%), Fe2Co (0.7%), and Fe2Zn (0.6%)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "LOD: Not Reported; Enhanced selectivity for NO2 in the presence of H2, CH4, and CO2."
+        },
+        "Other Information": {
+            "Additional Info": "Enhanced performance is attributed to p-type semiconductor behavior where electrons are adsorbed on the surface in the presence of NO2."
+        }
+    },
+    {
+        "Materials Name": "CuHHTP",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitrogen dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "After modification with Pd or Pt nanoparticles, CuHHTP showed enhanced sensing performance with responses of 62.11% for Pd@CuHHTP and 57.38% for Pt@CuHHTP to 5 ppm NO2 compared to 29.95% for unmodified CuHHTP."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "LOD: Not Reported; Optimized response time for Pd@CuHHTP and Pt@CuHHTP compared to CuHHTP."
+        },
+        "Other Information": {
+            "Additional Info": "Enhanced performance after embedding precious metal particles is attributed to the activating effect of Pt NPs on NO2 response."
+        }
+    },
+    {
+        "Materials Name": "NiHHTP and NiHITP",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)",
+            "2,3,6,7,10,11-hexaiminotriphenylene (HITP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "nitric oxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "NiHHTP and NiHITP showed decreased and increased responses with increasing exposure time in NO atmosphere."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Resistance of both MOF devices increased with increasing exposure time in H2S."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "LOD: 0.16 ppm for NiHITP and 1.4 ppm for NiHHTP to NO; 0.52 ppm for NiHITP and 0.23 ppm for NiHHTP to H2S."
+        },
+        "Other Information": {
+            "Additional Info": "These MOFs were integrated into fiber surfaces for wearable applications."
+        }
+    },
+    {
+        "Materials Name": "NiPc-Ni and NiPc-Cu",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+",
+            "Cu2+"
+        ],
+        "Ligands": [
+            "nickel phthalocyanine (NiPc)",
+            "nickel naphthalocyanine (NiNPc)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ammonia",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Average response of 43%-45% to 80 ppm NH3."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Responses of 64% and 98% to 80 ppm H2S for NiPc-Ni and NiPc-Cu, respectively."
+                }
+            },
+            {
+                "Molecule Name": "nitric oxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High response of -657% and -397% to 1 ppm NO for NiPc-Ni and NiPc-Cu, respectively."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "LOD: 0.31-0.33 ppm for NH3, 19-32 ppb for H2S, and 1.0-1.1 ppb for NO."
+        },
+        "Other Information": {
+            "Additional Info": "Effective recognition of NH3 (40 ppm), H2S (40 ppm), and NO (1 ppm) achieved after principal component analysis (PCA)."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8-VF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-vinylterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "≈2.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Surface modified with hydrophobic alkyl chains to enhance hydrophobicity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Modification conferred exceptional stability against moisture and water without altering crystallinity and spatial structure significantly."
+        }
+    },
+    {
+        "Materials Name": "NH2-MIL-125",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexogen (RDX)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detection of RDX vapors at 4.9 ppt with LOD of 0.8 part-per-quadrillion (ppq); Effective under static and dynamic conditions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Response: 82% to saturated RDX vapors."
+        },
+        "Other Information": {
+            "Additional Info": "Core-sheath pillar structure integrates benefits of MOFs with metal oxides."
+        }
+    }
+]

@@ -1,0 +1,112 @@
+MOF Name: Mg3(NDC)3(DEF)4
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mg3(NDC)3(DEF)4:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed (Mechanism: Molecular sieving, Size-selective adsorption)
+No molecules are explicitly reported as "Not Adsorbed" due to size exclusion for this MOF within the provided data.
+
+Inferred effective pore size of Mg3(NDC)3(DEF)4:
+Based on the adsorption of oxygen (intermediate dimension 2.860 Å) and the reported "Molecular sieving due to pore size reduction after activation" and "Size-selective adsorption" mechanisms, the effective pore size is inferred to be approximately 2.860 Å. This mechanism implies that the pores are highly restrictive and are precisely sized to allow molecules up to a certain dimension, selectively excluding larger ones.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is significantly larger than the intermediate dimension of oxygen (2.860 Å), which is the only molecule reported to be adsorbed by Mg3(NDC)3(DEF)4 under a molecular sieving mechanism. Given this substantial size difference and the size-selective nature of the MOF, it is highly probable that the pores of Mg3(NDC)3(DEF)4 are too small to accommodate isoprene.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Mg3(NDC)3(DEF)4
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mg3(NDC)3(DEF)4:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed (Mechanism: Molecular sieving, Size-selective adsorption)
+No molecules are explicitly reported as "Not Adsorbed" due to size exclusion for this MOF within the provided data.
+
+Inferred effective pore size of Mg3(NDC)3(DEF)4:
+Based on the adsorption of oxygen (intermediate dimension 2.860 Å) and the reported "Molecular sieving due to pore size reduction after activation" and "Size-selective adsorption" mechanisms, the effective pore size is inferred to be approximately 2.860 Å. This mechanism implies that the pores are highly restrictive and are precisely sized to allow molecules up to a certain dimension, selectively excluding larger ones.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is significantly larger than the intermediate dimension of oxygen (2.860 Å), which is the only molecule reported to be adsorbed by Mg3(NDC)3(DEF)4 under a molecular sieving mechanism. Given this substantial size difference and the size-selective nature of the MOF, it is highly probable that the pores of Mg3(NDC)3(DEF)4 are too small to accommodate cis-2-pentene.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Mg3(NDC)3(DEF)4
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mg3(NDC)3(DEF)4:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed (Mechanism: Molecular sieving, Size-selective adsorption)
+No molecules are explicitly reported as "Not Adsorbed" due to size exclusion for this MOF within the provided data.
+
+Inferred effective pore size of Mg3(NDC)3(DEF)4:
+Based on the adsorption of oxygen (intermediate dimension 2.860 Å) and the reported "Molecular sieving due to pore size reduction after activation" and "Size-selective adsorption" mechanisms, the effective pore size is inferred to be approximately 2.860 Å. This mechanism implies that the pores are highly restrictive and are precisely sized to allow molecules up to a certain dimension, selectively excluding larger ones.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is significantly larger than the intermediate dimension of oxygen (2.860 Å), which is the only molecule reported to be adsorbed by Mg3(NDC)3(DEF)4 under a molecular sieving mechanism. Given this substantial size difference and the size-selective nature of the MOF, it is highly probable that the pores of Mg3(NDC)3(DEF)4 are too small to accommodate 1-pentene.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Mg3(NDC)3(DEF)4
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mg3(NDC)3(DEF)4:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed (Mechanism: Molecular sieving, Size-selective adsorption)
+No molecules are explicitly reported as "Not Adsorbed" due to size exclusion for this MOF within the provided data.
+
+Inferred effective pore size of Mg3(NDC)3(DEF)4:
+Based on the adsorption of oxygen (intermediate dimension 2.860 Å) and the reported "Molecular sieving due to pore size reduction after activation" and "Size-selective adsorption" mechanisms, the effective pore size is inferred to be approximately 2.860 Å. This mechanism implies that the pores are highly restrictive and are precisely sized to allow molecules up to a certain dimension, selectively excluding larger ones.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is significantly larger than the intermediate dimension of oxygen (2.860 Å), which is the only molecule reported to be adsorbed by Mg3(NDC)3(DEF)4 under a molecular sieving mechanism. Given this substantial size difference and the size-selective nature of the MOF, it is highly probable that the pores of Mg3(NDC)3(DEF)4 are too small to accommodate trans-2-pentene.
+
+Therefore, the result is: **Cannot Adsorb**
+
+---
+
+MOF Name: Mg3(NDC)3(DEF)4
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for Mg3(NDC)3(DEF)4:
+- Oxygen: 4.076×2.860×2.860 → Intermediate = 2.860 Å | Adsorbed (Mechanism: Molecular sieving, Size-selective adsorption)
+No molecules are explicitly reported as "Not Adsorbed" due to size exclusion for this MOF within the provided data.
+
+Inferred effective pore size of Mg3(NDC)3(DEF)4:
+Based on the adsorption of oxygen (intermediate dimension 2.860 Å) and the reported "Molecular sieving due to pore size reduction after activation" and "Size-selective adsorption" mechanisms, the effective pore size is inferred to be approximately 2.860 Å. This mechanism implies that the pores are highly restrictive and are precisely sized to allow molecules up to a certain dimension, selectively excluding larger ones.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is significantly larger than the intermediate dimension of oxygen (2.860 Å), which is the only molecule reported to be adsorbed by Mg3(NDC)3(DEF)4 under a molecular sieving mechanism. Given this substantial size difference and the size-selective nature of the MOF, it is highly probable that the pores of Mg3(NDC)3(DEF)4 are too small to accommodate n-pentane.
+
+Therefore, the result is: **Cannot Adsorb**

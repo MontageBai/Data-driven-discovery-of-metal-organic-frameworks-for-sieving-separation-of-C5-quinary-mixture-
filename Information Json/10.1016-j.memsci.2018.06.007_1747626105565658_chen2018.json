@@ -1,0 +1,100 @@
+[
+    {
+        "Materials Name": "KAUST-7",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.2 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni(II)"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "(NbOF5)2–"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High affinity of CO2 onto KAUST-7 nanocrystals."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Weak interaction between CH4 and KAUST-7."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/N2 selectivity: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "KAUST-7 exhibits excellent sorptive selectivity for CO2 over CH4."
+        }
+    },
+    {
+        "Materials Name": "KAUST-7/6FDA-Durene MMMs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni(II)"
+        ],
+        "Ligands": [
+            "pyrazine",
+            "(NbOF5)2–"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective sorption and diffusion effect",
+                "Other Information": {
+                    "Test Conditions": "308 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Improved CO2 uptake with increasing KAUST-7 loadings."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Selective sorption and diffusion effect",
+                "Other Information": {
+                    "Test Conditions": "308 K, 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 adsorption reduced with increasing KAUST-7 loadings."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas permeation test",
+            "Performance Metrics": "CO2 permeability: 1030 Barrer, CO2/CH4 selectivity: 33"
+        },
+        "Other Information": {
+            "Additional Info": "The separation performance surpasses the 2008 Robeson upper bound for CO2/CH4."
+        }
+    }
+]

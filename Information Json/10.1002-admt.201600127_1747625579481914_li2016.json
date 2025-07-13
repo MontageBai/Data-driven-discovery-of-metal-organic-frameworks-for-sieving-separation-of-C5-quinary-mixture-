@@ -1,0 +1,193 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (aperture), 11.6 Å (cavity)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Gate-opening phenomenon",
+                "Other Information": {
+                    "Test Conditions": "Low relative pressure, 293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller shift compared to ethanol, propanol, and butanol."
+                }
+            },
+            {
+                "Molecule Name": "ethanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and chemical interaction",
+                "Other Information": {
+                    "Test Conditions": "Low relative pressure, 293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Largest shift among alcohols tested except methanol."
+                }
+            },
+            {
+                "Molecule Name": "1-propanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and chemical interaction",
+                "Other Information": {
+                    "Test Conditions": "Low relative pressure, 293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shift smaller than ethanol but larger than butanol."
+                }
+            },
+            {
+                "Molecule Name": "1-butanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and chemical interaction",
+                "Other Information": {
+                    "Test Conditions": "Low relative pressure, 293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shift smaller than propanol but larger than pentanol."
+                }
+            },
+            {
+                "Molecule Name": "1-pentanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and chemical interaction",
+                "Other Information": {
+                    "Test Conditions": "Low relative pressure, 293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller shift due to longer alkyl chain."
+                }
+            },
+            {
+                "Molecule Name": "tert-pentanol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Steric hindrance",
+                "Other Information": {
+                    "Test Conditions": "Low relative pressure, 293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Three times smaller shift than 1-pentanol due to steric demand."
+                }
+            },
+            {
+                "Molecule Name": "acetone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Saturated vapor, 293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detected with optical shift."
+                }
+            },
+            {
+                "Molecule Name": "3-pentanone",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detected with reduced optical shift as molecular size increases."
+                }
+            },
+            {
+                "Molecule Name": "acetonitrile",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Saturated vapor, 293 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Caused significant wavelength shift."
+                }
+            },
+            {
+                "Molecule Name": "valeronitrile",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Detected with reduced optical shift as molecular size increases."
+                }
+            },
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Minimal optical shift due to lack of strong interaction."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π–π interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Distinct shift due to strong π–π interactions with imidazolate linkers."
+                }
+            },
+            {
+                "Molecule Name": "o-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and π–π interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smallest shift among xylene isomers due to largest molecular size."
+                }
+            },
+            {
+                "Molecule Name": "m-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and π–π interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Intermediate shift among xylene isomers."
+                }
+            },
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and π–π interactions",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Largest shift among xylene isomers due to smallest kinetic diameter."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and selective adsorption via chemical interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Optical transduction via reflectance spectra measurement",
+            "Performance Metrics": "Reflectance peak shift: up to 59 nm for acetonitrile; Dynamic range: 1000–20000 ppm for acetone; Response time: <2 s"
+        },
+        "Other Information": {
+            "Additional Info": "HMNSE shows unprecedented large optical response and visible color change with high saturation upon VOC exposure."
+        }
+    }
+]

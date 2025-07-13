@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "Fe3O4@PDA@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.27 nm, 2.16 nm",
+            "Structure Type": "microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "linear alkanes",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-8 coated capillary showed strong ability to sieve linear alkanes from branched alkane isomers."
+                }
+            },
+            {
+                "Molecule Name": "branched alkane isomers",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-8 coated capillary excluded branched alkane isomers during separation."
+                }
+            },
+            {
+                "Molecule Name": "large-sized proteins",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Enrichment process with Fe3O4@PDA@ZIF-8",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material exhibited size-exclusion effect towards large-sized proteins, eliminating their interference during peptide enrichment."
+                }
+            },
+            {
+                "Molecule Name": "low-abundance peptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chelation with Zn2+ ions",
+                "Other Information": {
+                    "Test Conditions": "Enrichment process with Fe3O4@PDA@ZIF-8",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low-coordinated Zn2+ ions on the surface of ZIF-8 chelated with histidine residues in low-abundance peptides, enabling their efficient enrichment."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with specific interactions (e.g., Zn2+-histidine chelation)",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis after enrichment",
+            "Performance Metrics": "BSA tryptic digest sequence coverage increased from 12% to 47%; HSA tryptic digest sequence coverage increased from 17% to 38%; detection limit for BSA tryptic digest: 0.001 μg"
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrated excellent hydrophilicity and magnetic responsiveness, allowing efficient handling in aqueous solutions and quick separation using an external magnetic field."
+        }
+    }
+]

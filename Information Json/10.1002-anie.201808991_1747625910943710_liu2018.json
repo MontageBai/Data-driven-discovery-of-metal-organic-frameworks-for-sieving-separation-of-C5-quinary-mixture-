@@ -1,0 +1,215 @@
+[
+    {
+        "Materials Name": "NbOFFIVE-1-Ni",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D nets pillared in the third dimension"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+",
+            "Nb5+"
+        ],
+        "Ligands": [
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, varying pressures up to 14 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher CO2 sorption capacity compared to CH4."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, varying pressures up to 14 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower CH4 uptake due to smaller aperture size."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene enters but propane is excluded."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane fully excluded based on steady-state sorption measurement."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and strong dual interactions",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 14 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Very high H2S sorption capacity due to stronger dual interactions with framework."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pure gas adsorption, mixed-gas permeation experiments, GCMC simulation",
+            "Performance Metrics": "CO2/CH4 selectivity enhanced; H2S/CO2/CH4 separation superior to state-of-the-art membranes."
+        },
+        "Other Information": {
+            "Additional Info": "Stable under highly corrosive H2S conditions."
+        }
+    },
+    {
+        "Materials Name": "AlFFIVE-1-Ni",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D nets pillared in the third dimension"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+",
+            "Al3+"
+        ],
+        "Ligands": [
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, varying pressures up to 14 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Comparable CO2 sorption capacity to NbOFFIVE-1-Ni."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, varying pressures up to 14 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower CH4 uptake similar to NbOFFIVE-1-Ni."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propylene enters but propane is excluded."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 2 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Propane fully excluded based on steady-state sorption measurement."
+                }
+            },
+            {
+                "Molecule Name": "hydrogen sulfide",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and strong dual interactions",
+                "Other Information": {
+                    "Test Conditions": "35 °C, up to 14 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher H2S sorption capacity than NbOFFIVE-1-Ni due to stronger dual interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pure gas adsorption, mixed-gas permeation experiments, GCMC simulation",
+            "Performance Metrics": "H2S/CO2/CH4 selectivity higher than NbOFFIVE-1-Ni MMMs due to tighter aperture size."
+        },
+        "Other Information": {
+            "Additional Info": "Stable under highly corrosive H2S conditions."
+        }
+    },
+    {
+        "Materials Name": "SIFSIX-3-Cu",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D nets pillared in the third dimension"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+",
+            "Si4+"
+        ],
+        "Ligands": [
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "35 °C, varying pressures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced CO2 transport through the membrane."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion with sorption competition",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 50/50 CO2/CH4 mixtures, 6.9 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sorption competition between CO2 and CH4 decreases perm-selectivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Mixed-gas permeation experiments",
+            "Performance Metrics": "CO2/CH4 selectivity decreased from 24.0 to 20.3, but CO2 permeability increased by 52.5%."
+        },
+        "Other Information": {
+            "Additional Info": "Interfacial voids affect performance; wet incorporation improves dispersion."
+        }
+    }
+]

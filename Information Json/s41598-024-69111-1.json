@@ -1,0 +1,121 @@
+[
+    {
+        "Materials Name": "Ga-MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "16.47 Å, 22.98 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ga3+"
+        ],
+        "Ligands": [
+            "4,4′,4″,4″′-(1-4-phenylene-bis(pyridine-4,2,6-triyl))"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "bisphenol A",
+                "Molecular Size": "9.53 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π–π stacking and hydrogen bond interactions",
+                "Other Information": {
+                    "Test Conditions": "310 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest interaction energy observed in BPA/MOF system."
+                }
+            },
+            {
+                "Molecule Name": "flavonoids",
+                "Molecular Size": "16.57 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π–π stacking and hydrogen bond interactions",
+                "Other Information": {
+                    "Test Conditions": "310 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Six contaminant molecules adsorbed on MOF substrate."
+                }
+            },
+            {
+                "Molecule Name": "goitrin",
+                "Molecular Size": "6.36 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "π–π stacking and hydrogen bond interactions",
+                "Other Information": {
+                    "Test Conditions": "310 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption increases upon functionalization with oxalamide groups."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Molecular dynamics simulations (MD), Metadynamics simulations",
+            "Performance Metrics": "BPA/MOF total interaction energy: -389.96 kJ/mol; BPA/MOF-OX total interaction energy: -338.21 kJ/mol"
+        },
+        "Other Information": {
+            "Additional Info": "Functionalization with oxalamide enhances adsorption capacity for goitrin."
+        }
+    },
+    {
+        "Materials Name": "Ga-MOF-OX",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "16.47 Å, 22.98 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ga3+"
+        ],
+        "Ligands": [
+            "4,4′,4″,4″′-(1-4-phenylene-bis(pyridine-4,2,6-triyl))",
+            "oxalamide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "bisphenol A",
+                "Molecular Size": "9.53 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π–π stacking and hydrogen bond interactions",
+                "Other Information": {
+                    "Test Conditions": "310 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Strongest interaction observed in BPA/MOF-OX system."
+                }
+            },
+            {
+                "Molecule Name": "flavonoids",
+                "Molecular Size": "16.57 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π–π stacking and hydrogen bond interactions",
+                "Other Information": {
+                    "Test Conditions": "310 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower tendency to adsorb compared to pristine MOF."
+                }
+            },
+            {
+                "Molecule Name": "goitrin",
+                "Molecular Size": "6.36 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "π–π stacking and hydrogen bond interactions",
+                "Other Information": {
+                    "Test Conditions": "310 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced adsorption due to functionalization with oxalamide."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Molecular dynamics simulations (MD), Metadynamics simulations",
+            "Performance Metrics": "BPA/MOF-OX total interaction energy: -338.21 kJ/mol"
+        },
+        "Other Information": {
+            "Additional Info": "Functionalized with oxalamide to improve surface properties for adsorption."
+        }
+    }
+]

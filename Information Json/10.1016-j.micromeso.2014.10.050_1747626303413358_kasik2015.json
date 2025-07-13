@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "ZIF-68",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "7.5 Å (pore), 10.3 Å (cage)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "GME",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-nitroimidazole",
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen diffusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, transmembrane pressure drop",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 26 x 10^-8 mol/m² s Pa"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Knudsen diffusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, transmembrane pressure drop",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 9 x 10^-8 mol/m² s Pa"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption in microporous materials",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, transmembrane pressure drop",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher-than-predicted permeance due to preferential loading sites"
+                }
+            },
+            {
+                "Molecule Name": "p-xylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Chemisorption-induced fouling",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, pervaporation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Initial flux: 4.4 x 10^-3 mol/m² s; Flux decreased by 55% after 4 hours due to fouling, then stabilized"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Single gas permeation tests, XRD, SEM, and pervaporation experiments",
+            "Performance Metrics": "Helium/Nitrogen selectivity follows Knudsen diffusion; p-xylene flux decreases by 55% initially due to fouling"
+        },
+        "Other Information": {
+            "Additional Info": "Stable in air and organic solvents; degraded in water at high temperatures."
+        }
+    }
+]

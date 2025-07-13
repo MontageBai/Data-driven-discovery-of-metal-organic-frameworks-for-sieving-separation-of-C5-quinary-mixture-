@@ -1,0 +1,182 @@
+[
+    {
+        "Materials Name": "NUT-11",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "28-29 nm (average diameter), micro-, meso-, and macropores",
+            "Structure Type": "Hierarchical porous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Polyethylenimine (PEI)",
+            "2,4,6-tris(chloromethyl)-mesitylene (TCM)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving effect and acid-base interaction",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake: 199 mg.g−1"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and lack of acid-base interaction",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and lack of acid-base interaction",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect due to hierarchical pore structure",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Static adsorption experiments, IAST selectivity calculations",
+            "Performance Metrics": "CO2/N2 selectivity: 411 at 273 K, CO2/CH4 selectivity: 107 at 273 K"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrates perfect recyclability over 10 cycles with mild regeneration conditions (50 °C, 60 min)"
+        }
+    },
+    {
+        "Materials Name": "NUT-12",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "28-29 nm (average diameter), micro-, meso-, and macropores",
+            "Structure Type": "Hierarchical porous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Polyethylenimine (PEI)",
+            "p-dichloroxylene (DCX)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving effect and acid-base interaction",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake: 183 mg.g−1"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and lack of acid-base interaction",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and lack of acid-base interaction",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect due to hierarchical pore structure",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Static adsorption experiments, IAST selectivity calculations",
+            "Performance Metrics": "CO2/N2 selectivity: 348 at 273 K, CO2/CH4 selectivity: 98 at 273 K"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrates recyclability but with slightly lower performance compared to NUT-11"
+        }
+    },
+    {
+        "Materials Name": "NUT-13",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "28-29 nm (average diameter), micro-, meso-, and macropores",
+            "Structure Type": "Hierarchical porous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Polyethylenimine (PEI)",
+            "4,4'-bis(chloromethyl)-1,1'-biphenyl (BCB)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular sieving effect and acid-base interaction",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake: 166 mg.g−1"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and lack of acid-base interaction",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and lack of acid-base interaction",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving effect due to hierarchical pore structure",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Static adsorption experiments, IAST selectivity calculations",
+            "Performance Metrics": "CO2/N2 selectivity: 305 at 273 K, CO2/CH4 selectivity: 90 at 273 K"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrates recyclability but with slightly lower performance compared to NUT-11"
+        }
+    }
+]

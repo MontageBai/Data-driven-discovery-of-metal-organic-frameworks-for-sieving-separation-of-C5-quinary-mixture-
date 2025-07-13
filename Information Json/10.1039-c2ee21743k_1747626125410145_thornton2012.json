@@ -1,0 +1,249 @@
+[
+    {
+        "Materials Name": "ZIF-11",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.08 - 3.10 Å (window cut-offs)",
+            "Structure Type": "Hour-glass pore architecture with cavities linked by points of constriction"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Predicted H2 permeability of 5830 Barrer and H2/CO2 selectivity of 262"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely confined motion observed in MD simulations"
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely confined motion observed in MD simulations"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely confined motion observed in MD simulations"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 10 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Completely confined motion observed in MD simulations"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Points of constriction provide selectivity while cavities allow small molecules to bypass larger species",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Molecular Dynamics (MD) simulations, Monte Carlo procedures, and Grand Canonical Monte Carlo (GCMC) schemes",
+            "Performance Metrics": "H2/CO2 selectivity: 262, H2 permeability: 5830 Barrer"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-11 is predicted to meet industrial feasibility targets for H2/CO2 and H2/N2 separations"
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Hour-glass pore architecture with cavities linked by points of constriction"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Predicted H2 permeability of 5000 Barrer (rigid framework simulation)"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows size sieving behavior due to tight constrictions"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Shows size sieving behavior due to tight constrictions"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ZIF-8 performs efficient CO2/CH4 separation as confirmed experimentally"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Points of constriction provide selectivity while cavities allow small molecules to bypass larger species",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Molecular Dynamics (MD) simulations and experimental synthesis of pure dense ZIF-8 layers",
+            "Performance Metrics": "Achieves CO2/CH4 separation close to intrinsic predictions"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-8 is an attractive candidate for natural gas purification (CO2/CH4) and air separation for oxy-combustion (O2/N2)"
+        }
+    },
+    {
+        "Materials Name": "ZIF-77",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.6 - 4.7 Å (2-D channels)",
+            "Structure Type": "2-D channels that do not connect in the normal (90°) direction"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exploits diffusivity differences to separate CO2/CH4 mixtures"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Inhibited transport due to pore constriction"
+                }
+            }
+        ],
+        "Sieving Mechanism": "2-D channels inhibit CH4 transport by means of constriction",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Predicted intrinsic properties and experimental validation",
+            "Performance Metrics": "Exceeds polymer upperbound for CO2/CH4 separation"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-77 is one of the most promising candidates for clean gaseous fuel production"
+        }
+    },
+    {
+        "Materials Name": "ZIF-90",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Confirmed experimentally in MMM configurations"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Predicted to have promising CO2/CH4 separation properties"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Predicted intrinsic properties and experimental validation in MMM configurations",
+            "Performance Metrics": "Confirmed experimentally for CO2/CH4 separation"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-90 is an attractive candidate for natural gas purification (CO2/CH4)"
+        }
+    }
+]

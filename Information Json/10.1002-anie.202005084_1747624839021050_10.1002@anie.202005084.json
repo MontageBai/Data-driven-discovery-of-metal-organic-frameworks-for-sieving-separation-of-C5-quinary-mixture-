@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "porphyrin-based metal-organic framework membrane (MOFM)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.60 nm, 1.16 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Aluminium ion"
+        ],
+        "Ligands": [
+            "tetrakis(4-carboxyphenyl)porphyrin (TCPP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 mM KCl",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore sizes are smaller than or slightly larger than hydrated ions like K+."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Ionic conductance measurement",
+            "Performance Metrics": "Conductance enhancement ratio (CER): ~2.32 ± 0.14 across a broad concentration range"
+        },
+        "Other Information": {
+            "Additional Info": "The MOFM demonstrates robust and precise optoelectronic modulation of ion transport due to its molecular-size pores. Decoration with Pt nanoparticles enables uphill ion transport under light illumination."
+        }
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "Zn2(bim)4",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.21 nm (four-membered ring aperture)",
+            "Structure Type": "2D layers"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Activated diffusion observed for H2."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Non-zero CO2 permeance attributed to non-size-selective mass transport through defects or boundaries."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.36 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not explicitly mentioned in text but inferred from size cutoff."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not explicitly mentioned in text but inferred from size cutoff."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.44 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not explicitly mentioned in text but inferred from size cutoff."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "H2 permeance: 760-3760 GPUs, H2/CO2 selectivity: 53-291"
+        },
+        "Other Information": {
+            "Additional Info": "Anomalous proportional relationship between permeance and selectivity observed. Lamellar stacking of nanosheets affects performance."
+        }
+    }
+]

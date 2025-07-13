@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "PB12@CA",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe2+",
+            "Co2+"
+        ],
+        "Ligands": [
+            "cyanide"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "0.64 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, 1 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.7%±0.2%"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, 1 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 30.5%±2.0%"
+                }
+            },
+            {
+                "Molecule Name": "evans blue",
+                "Molecular Size": "0.77 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "1 bar, 1 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate: 99.9%±0.1%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Cross-flow filtration experiment",
+            "Performance Metrics": "CR rejection: 99.7%±0.2%, MO rejection: 30.5%±2.0%, EB rejection: 99.9%±0.1%"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane also demonstrated photocatalytic antifouling properties with a permeability recovery ratio of up to 92% after sunlight irradiation."
+        }
+    }
+]

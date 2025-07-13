@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "MIL-116(Ga)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Druse-like hollow crystals"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ga3+"
+        ],
+        "Ligands": [
+            "1,2,3,4,5,6-benzenehexacarboxylic acid (mellitic acid)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "helium",
+                "Molecular Size": "2.60 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusive permeation",
+                "Other Information": {
+                    "Test Conditions": "60 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Helium shows high permeability through the material."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "60 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methane cannot enter the crystal structure due to non-removable water molecules blocking the pores."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Carbon dioxide cannot be adsorbed by the material as shown in sorption experiments."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.6 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Nitrogen cannot be adsorbed by the material as shown in sorption experiments."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale due to non-removable water molecules blocking the pore channels.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments using a custom-built Wicke Kallenbach setup",
+            "Performance Metrics": "He permeability: 37.4 Barrer, He/CH4 selectivity: 1190 for 20 wt.% MIL-116(Ga)-formate MMM"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF acts as a semipermeable filler in polysulfone matrix, enhancing helium permeability while strongly decreasing methane permeability."
+        }
+    }
+]

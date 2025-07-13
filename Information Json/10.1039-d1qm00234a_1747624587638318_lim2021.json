@@ -1,0 +1,224 @@
+[
+    {
+        "Materials Name": "ZIF-7",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.0 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Cryogenic temperatures, near-zero coverage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Pores are too small to allow hydrogen molecules to pass through."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pure gas sorption isotherms",
+            "Performance Metrics": "D2/H2 selectivity: 11 at 19.5 K"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-7 exhibits the highest selectivity among materials with distinct pore sizes tested at cryogenic temperatures."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "Cryogenic temperatures, near-zero coverage",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest D2/H2 selectivity of 11 at 19.5 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pure gas sorption isotherms",
+            "Performance Metrics": "D2/H2 selectivity: 11 at 19.5 K"
+        },
+        "Other Information": {
+            "Additional Info": "Optimum pore aperture between 3.0 and 3.4 Å suggested for effective quantum sieving."
+        }
+    },
+    {
+        "Materials Name": "MFU-4",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2.52 Å aperture connecting cavities of 3.88 and 11.94 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "Elevated temperature, Texp above 60 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Local flexibility of Cl atoms facilitates high hydrogen uptake and separation."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum confinement effect",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Thermal desorption spectroscopy (TDS)",
+            "Performance Metrics": "D2/H2 selectivity: 7.5 at exposure temperature of 60 K and pressure of 10 mbar"
+        },
+        "Other Information": {
+            "Additional Info": "First instance of flexible behavior utilized for kinetic quantum sieving (KQS)."
+        }
+    },
+    {
+        "Materials Name": "FJI-Y11",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 Å pore limiting diameter",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu-paddlewheel"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Synergistic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Synergistic effects of KQS and CAQS improve selectivity without sacrificing practical temperature."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combined kinetic and chemical affinity quantum sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough analysis",
+            "Performance Metrics": "D2/H2 selectivity: 1.76 at 77 K"
+        },
+        "Other Information": {
+            "Additional Info": "Enhanced selectivity attributed to synergistic quantum sieving effects."
+        }
+    },
+    {
+        "Materials Name": "MIL-53(Al)",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "2.9 Å x 13.6 Å (np), 8.5 Å x 8.5 Å (lp)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "40 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 molecules pass through intermediate pore size suitable for KQS during breathing transition."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Breathing propagation facilitating KQS",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Thermal desorption spectroscopy (TDS)",
+            "Performance Metrics": "D2/H2 selectivity: 13.6 at 40 K"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrates D2-selective breathing transition beneficial for pressure swing processes."
+        }
+    },
+    {
+        "Materials Name": "MOF-74-IM",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "1D channels with diffusion barrier from imidazole coordination",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "Imidazole-decorated ligands"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.9 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Synergistic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Synergistic KQS and CAQS effects optimized by coordinating imidazole to OMSs."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic quantum sieving combining KQS and CAQS",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sorption measurements",
+            "Performance Metrics": "D2/H2 selectivity: 26 at 77 K"
+        },
+        "Other Information": {
+            "Additional Info": "Higher imidazole content increases KQS but reduces CAQS due to fewer available OMSs."
+        }
+    }
+]

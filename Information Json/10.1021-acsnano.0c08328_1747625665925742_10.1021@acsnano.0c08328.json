@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "UiO-66-COOH",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å (triangular window), ~11 Å (octahedral cavity)",
+            "Structure Type": "3D interconnected channels"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "1,2,4-benzenetricarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "potassium",
+                "Molecular Size": "6.62 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and charge selectivity",
+                "Other Information": {
+                    "Test Conditions": "0.1 M KCl, pH 5.7, -1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High K+/Cl- selectivity due to negative surface charge."
+                }
+            },
+            {
+                "Molecule Name": "sodium",
+                "Molecular Size": "7.18 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and charge selectivity",
+                "Other Information": {
+                    "Test Conditions": "0.1 M NaCl, pH 5.7, -1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High Na+/Cl- selectivity due to negative surface charge."
+                }
+            },
+            {
+                "Molecule Name": "lithium",
+                "Molecular Size": "7.64 Å (hydrated diameter)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion and charge selectivity",
+                "Other Information": {
+                    "Test Conditions": "0.1 M LiCl, pH 5.7, -1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High Li+/Cl- selectivity due to negative surface charge."
+                }
+            },
+            {
+                "Molecule Name": "magnesium",
+                "Molecular Size": "8.56 Å (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and charge repulsion",
+                "Other Information": {
+                    "Test Conditions": "0.1 M MgCl2, pH 5.7, -1 V",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Low Mg2+ conduction due to high binding energy with -COOH groups."
+                }
+            },
+            {
+                "Molecule Name": "calcium",
+                "Molecular Size": "8.24 Å (hydrated diameter)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and charge repulsion",
+                "Other Information": {
+                    "Test Conditions": "pH-dependent behavior",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher dehydration required compared to monovalent ions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-exclusion at sub-nanometer scale combined with charge selectivity",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Current-voltage (I-V) measurements, Drift-diffusion experiments, DFT simulations",
+            "Performance Metrics": "K+/Mg2+ selectivity: up to 1554.9, Na+/Mg2+ selectivity: up to 563.0, Li+/Mg2+ selectivity: up to 136.5"
+        },
+        "Other Information": {
+            "Additional Info": "Ultrahigh monovalent/divalent metal ion selectivity achieved through size-exclusion, charge selectivity, and ion binding affinity."
+        }
+    }
+]

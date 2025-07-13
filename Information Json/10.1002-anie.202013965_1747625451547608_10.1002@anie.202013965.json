@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "CPL-1-NH2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 × 4.4 Å (calabash-like 1D channel)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "2,3-pyrazinedicarboxylate",
+            "2-aminopyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "3.3 × 3.3 × 5.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Side-on orientation, strong binding affinity due to cooperative effect of uncoordinated oxygen and -NH2 groups",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "0.02 bar",
+                    "Additional Info": "C2H2 adsorption capacity: 1.84 mmol/g at 298 K and 1 bar; Qst = 50.0 kJ/mol"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.2 × 3.3 × 5.4 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "End-on orientation, weak interaction due to steric hindrance and shielding by -NH2 groups",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption capacity: 0.21 mmol/g at 298 K and 1 bar; Qst = 32.4 kJ/mol"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Adsorption site selective occupation strategy based on differences in molecular orientation",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "IAST selectivity for C2H2/CO2 = 119 at 298 K and 1 bar; Complete separation of C2H2 from C2H2/CO2 mixtures in breakthrough experiments"
+        },
+        "Other Information": {
+            "Additional Info": "CPL-1-NH2 shows a contracted calabash-like pore structure with dimensions of about 3.8 × 4.4 Å along the 1D channel. The amino groups selectively occupy CO2 adsorption sites while enhancing C2H2 binding affinity."
+        }
+    }
+]

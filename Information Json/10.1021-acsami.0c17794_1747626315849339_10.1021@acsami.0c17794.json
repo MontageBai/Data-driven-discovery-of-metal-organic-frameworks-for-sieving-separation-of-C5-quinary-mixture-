@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "H2P-DHPh COF−UiO-66 composite membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1 nm (UiO-66), 2.5 nm (H2P-DHPh COF)",
+            "Structure Type": "2D channels (COF) and 3D cages (MOF)"
+        },
+        "Topology": "fcu (UiO-66), 2D layered (H2P-DHPh COF)",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "terephthalic acid",
+            "porphyrin-based ligand"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Solution-diffusion mechanism",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller kinetic diameter allows faster permeation."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Solution-diffusion mechanism",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Larger kinetic diameter results in slower permeation compared to hydrogen."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas chromatography",
+            "Performance Metrics": "H2/CO2 selectivity: 32.9 (mixture), H2 permeability: 108341 Barrer"
+        },
+        "Other Information": {
+            "Additional Info": "The composite membrane exhibits ultrahigh H2/CO2 selectivity and surpasses the Robeson upper bound."
+        }
+    }
+]

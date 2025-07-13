@@ -1,0 +1,94 @@
+MOF Name: ZU-96
+
+**Inferred Effective Pore Size of ZU-96:**
+From the experimental data, ZU-96 adsorbs butadiene (7.663×5.161×3.200 Å) with an intermediate dimension of **5.161 Å**. The experimental notes mention "Size exclusion and gate-opening effect based on flexible pore size tuning, Size exclusion at sub-nanometer scale". This suggests that while the MOF's pores can flexibly tune or gate-open to accommodate butadiene, it's doing so at a "sub-nanometer scale" with "size exclusion" mentioned as a factor, implying that butadiene is at or near the upper limit of what the pore can accommodate, even with flexibility. Therefore, we infer the effective pore size of ZU-96 to be approximately **5.161 Å**. Molecules with intermediate dimensions significantly larger than this are likely to be excluded.
+
+---
+
+MOF Name: ZU-96
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Butadiene: 7.663×5.161×3.200 Å → Intermediate = 5.161 Å | Adsorbed (ZU-96)
+Inferred effective pore size of ZU-96 is approximately **5.161 Å**.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 Å → Intermediate = **6.093 Å**
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is larger than the inferred effective pore size of ZU-96 (approx. 5.161 Å), it is predicted that isoprene cannot be adsorbed due to size exclusion.
+
+---
+
+MOF Name: ZU-96
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Butadiene: 7.663×5.161×3.200 Å → Intermediate = 5.161 Å | Adsorbed (ZU-96)
+Inferred effective pore size of ZU-96 is approximately **5.161 Å**.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 Å → Intermediate = **5.572 Å**
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is larger than the inferred effective pore size of ZU-96 (approx. 5.161 Å), it is predicted that cis-2-pentene cannot be adsorbed due to size exclusion.
+
+---
+
+MOF Name: ZU-96
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Butadiene: 7.663×5.161×3.200 Å → Intermediate = 5.161 Å | Adsorbed (ZU-96)
+Inferred effective pore size of ZU-96 is approximately **5.161 Å**.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 Å → Intermediate = **4.995 Å**
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the inferred effective pore size of ZU-96 (approx. 5.161 Å), it is predicted that 1-pentene can be adsorbed.
+
+---
+
+MOF Name: ZU-96
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Butadiene: 7.663×5.161×3.200 Å → Intermediate = 5.161 Å | Adsorbed (ZU-96)
+Inferred effective pore size of ZU-96 is approximately **5.161 Å**.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 Å → Intermediate = **4.733 Å**
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the inferred effective pore size of ZU-96 (approx. 5.161 Å), it is predicted that trans-2-pentene can be adsorbed.
+
+---
+
+MOF Name: ZU-96
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Butadiene: 7.663×5.161×3.200 Å → Intermediate = 5.161 Å | Adsorbed (ZU-96)
+Inferred effective pore size of ZU-96 is approximately **5.161 Å**.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 Å → Intermediate = **4.364 Å**
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is smaller than the inferred effective pore size of ZU-96 (approx. 5.161 Å), it is predicted that n-pentane can be adsorbed.

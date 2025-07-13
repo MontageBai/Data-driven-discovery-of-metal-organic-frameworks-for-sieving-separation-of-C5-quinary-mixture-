@@ -1,0 +1,109 @@
+[
+    {
+        "Materials Name": "HMIL-101",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "hollow core-shell structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "proton",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Grotthuss and vehicle mechanisms",
+                "Other Information": {
+                    "Test Conditions": "98% RH, various temperatures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The hollow cavity facilitates nearly resistance-free diffusion."
+                }
+            },
+            {
+                "Molecule Name": "sodium anthraquinone-2-sulfonate",
+                "Molecular Size": "less than 2 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "aqueous environment",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The lattice-perfect shell acts as a physical barrier against electrolyte diffusion."
+                }
+            },
+            {
+                "Molecule Name": "1,2-dihydroxybenzene-3,5-disulfonic acid disodium salt monohydrate",
+                "Molecular Size": "less than 2 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "aqueous environment",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The lattice-perfect shell acts as a physical barrier against electrolyte diffusion."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Synchrotron X-ray absorption fine structure (XAFS) spectroscopy, Finite-element method simulations",
+            "Performance Metrics": "Proton conductivity: 2.9 × 10^-3 S/cm, Ion conductivity-selectivity: 2.6 × 10^7 S cm/min^3"
+        },
+        "Other Information": {
+            "Additional Info": "The hollow cavity reduces proton transfer resistance by 86% compared to the solid MIL-101."
+        }
+    },
+    {
+        "Materials Name": "MIL-101",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "proton",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Grotthuss mechanism",
+                "Other Information": {
+                    "Test Conditions": "98% RH, various temperatures",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower activation energy indicates lower mass transfer resistance."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption",
+                "Other Information": {
+                    "Test Conditions": "High-pressure conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher gas adsorption due to defective adsorption sites."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Synchrotron X-ray absorption fine structure (XAFS) spectroscopy, Gas adsorption tests",
+            "Performance Metrics": "Proton conductivity: 4.0 × 10^-4 S/cm"
+        },
+        "Other Information": {
+            "Additional Info": "Internal lattice coordination is approximately 5.1 due to differences in crystal kinetic growth."
+        }
+    }
+]

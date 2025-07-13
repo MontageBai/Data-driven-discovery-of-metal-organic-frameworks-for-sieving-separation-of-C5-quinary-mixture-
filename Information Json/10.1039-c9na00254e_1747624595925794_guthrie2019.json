@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "HKUST-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "10 Å, 14 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "anthracene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, immersion in ethanol solution for 24 hours",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Anthracene was included within the MOF structure as confirmed by fluorescence microscopy."
+                }
+            },
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, immersion in ethanol solution for 24 hours",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Methylene blue was present inside the crystal, confirmed by fluorescence and brightfield imaging."
+                }
+            },
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, immersion in ethanol solution for 24 hours",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rhodamine B did not enter the MOF at detectable concentrations; signal observed was due to crystallites on the surface or imaging noise."
+                }
+            },
+            {
+                "Molecule Name": "riboflavin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, immersion in ethanol solution for 24 hours",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Riboflavin was excluded from the MOF; no fluorescence signal was detected within HKUST-1 crystals."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on pore aperture dimensions (10 Å and 14 Å)",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Fluorescence microscopy and confocal imaging",
+            "Performance Metrics": "Selective inclusion of anthracene and methylene blue, exclusion of rhodamine B and riboflavin"
+        },
+        "Other Information": {
+            "Additional Info": "High aspect ratio HKUST-1 crystals were synthesized in nanoconfined channels, achieving aspect ratios up to 2500. Selectivity attributed to analyte size and electrostatic characteristics."
+        }
+    }
+]

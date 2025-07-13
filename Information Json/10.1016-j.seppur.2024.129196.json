@@ -1,0 +1,98 @@
+[
+    {
+        "Materials Name": "IPE-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.5 Å",
+            "Structure Type": "ultra-small rectangular apertures"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Sr2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalic acid (DOBDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption capacity due to ultra-small pore size."
+                }
+            },
+            {
+                "Molecule Name": "heavy water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible adsorption capacity at P/P0 < 0.8."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "X-ray diffraction reveals high coordination number of Sr atoms forming ultra-small pores."
+        }
+    },
+    {
+        "Materials Name": "IPE-2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Sr2+"
+        ],
+        "Ligands": [
+            "4,4'-(anthracene-9,10-diyl) bis (2-hydroxybenzoic acid (ABHB))"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 8.38 mmol/g at 298 K and P/P0 = 0.8."
+                }
+            },
+            {
+                "Molecule Name": "heavy water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 6.51 mmol/g at 298 K and P/P0 = 0.8. Preferential adsorption of H2O over D2O observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Diffusion-regulatory functionality in soft porous crystals",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "H2O/D2O selectivity: 1.26 at 298 K and P/P0 = 0.7"
+        },
+        "Other Information": {
+            "Additional Info": "Reversible framework rearrangements occur before and after activation, indicating structural flexibility."
+        }
+    }
+]

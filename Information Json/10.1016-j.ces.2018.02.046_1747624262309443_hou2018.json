@@ -1,0 +1,83 @@
+[
+    {
+        "Materials Name": "ZIF-8/g-C3N4",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (PLD), Not Reported (LCD)",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 6.7×10^-8 mol m^-2 s^-1 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 1.6×10^-9 mol m^-2 s^-1 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion with lattice flexibility",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 1.8×10^-9 mol m^-2 s^-1 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 1.5×10^-9 mol m^-2 s^-1 Pa^-1"
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 0.1 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance: 4.7×10^-10 mol m^-2 s^-1 Pa^-1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke-Kallenbach technique",
+            "Performance Metrics": "H2/CO2 selectivity: 42, H2/CH4 selectivity: 36, H2/C3H6 selectivity: 45, H2/C3H8 selectivity: 142"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane thickness is ~240 nm, and the preparation time is 30 minutes at room temperature."
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "NiDBM-Bpy",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "dibenzoylmethanato",
+            "4,4'-bipyridyl"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective adsorption via structural transition",
+                "Other Information": {
+                    "Test Conditions": "30 °C (303 K), up to 17 bar",
+                    "Threshold Pressure": "9.1 bar for N2O, 12.7 bar for CO2",
+                    "Additional Info": "CO2 stabilizes the open pore structure."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to inability to initiate structural transition",
+                "Other Information": {
+                    "Test Conditions": "30 °C (303 K), up to 17 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 does not stabilize or initiate structural changes at these conditions."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to inability to initiate structural transition",
+                "Other Information": {
+                    "Test Conditions": "30 °C (303 K), up to 17 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 does not stabilize or initiate structural changes at these conditions."
+                }
+            },
+            {
+                "Molecule Name": "nitrous oxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Competitive coadsorption with CO2",
+                "Other Information": {
+                    "Test Conditions": "30 °C (303 K), up to 17 bar",
+                    "Threshold Pressure": "9.1 bar",
+                    "Additional Info": "N2O competes with CO2 but adsorbs less effectively in mixtures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Gate-opening effect and guest-dependent structural dynamics",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "In situ FTIR spectroscopy, gas chromatography, SANS diffraction",
+            "Performance Metrics": "CO2/N2 selectivity confirmed by GC; lattice expansion observed via SANS."
+        },
+        "Other Information": {
+            "Additional Info": "CO2 selectively adsorbs over N2, CH4, and competes with N2O. Structural transition occurs above threshold pressure."
+        }
+    }
+]

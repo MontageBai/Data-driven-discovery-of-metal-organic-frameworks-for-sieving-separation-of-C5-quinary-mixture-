@@ -1,0 +1,120 @@
+[
+    {
+        "Materials Name": "Ce6BTB",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.77 nm (microporous), 3.78 nm (mesoporous)",
+            "Structure Type": "1D diamond shaped channels"
+        },
+        "Topology": "P 21/m",
+        "Metal Nodes": [
+            "Ce(IV)"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetribenzoate acid (H3BTB)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption capacity is 16.2 cm3/g."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 adsorption capacity is 4.0 cm3/g."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced sieving ability by increased crystallinity, dense chain spacing, and hydrogen bonding.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "N2 and CO2 adsorption isotherms at 298 K",
+            "Performance Metrics": "CO2/N2 adsorption selectivity is 4.1."
+        },
+        "Other Information": {
+            "Additional Info": "Ce6BTB nanosheets exhibit high aspect ratios and favorable thermal stability."
+        }
+    },
+    {
+        "Materials Name": "PIM/Ce6BTB-2 MMMs",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ce(IV)"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetribenzoate acid (H3BTB)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusivity-dominated separation",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 0.2 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeability is 5930 Barrer."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusivity-dominated separation",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 0.2 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/N2 selectivity is 23.2."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusivity-dominated separation",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 0.2 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2/CH4 selectivity is 16.7."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusivity-dominated separation",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 0.2 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "O2/N2 selectivity is 3.6."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Increased crystallinity, dense chain spacing, and hydrogen bonding contribute to enhanced sieving ability.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments using constant-volume/variable-pressure method",
+            "Performance Metrics": "CO2 permeability: 5930 Barrer, CO2/N2 selectivity: 23.2, CO2/CH4 selectivity: 16.7, O2/N2 selectivity: 3.6"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane exhibits good anti-pressure properties and long-term operation stability."
+        }
+    }
+]

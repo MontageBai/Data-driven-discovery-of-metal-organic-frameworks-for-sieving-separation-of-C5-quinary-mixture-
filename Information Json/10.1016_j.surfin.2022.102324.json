@@ -1,0 +1,114 @@
+[
+    {
+        "Materials Name": "ZIF-8@ZIF-67",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (for ZIF-67), Not Reported (for ZIF-8@ZIF-67)",
+            "Structure Type": "Sodalite (SOD) topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+",
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption and electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "pH = 10, 4 h contact time, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of 143.26 mg.g-1 under optimal conditions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemisorption dominates the process of adsorption",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments, Langmuir isotherm modeling",
+            "Performance Metrics": "Maximum adsorption capacity: 143.26 mg.g-1 for rhodamine B"
+        },
+        "Other Information": {
+            "Additional Info": "The material showed high recyclability with only an 8% decrease in efficiency after four cycles."
+        }
+    },
+    {
+        "Materials Name": "ZIF-67",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm",
+            "Structure Type": "Sodalite (SOD) topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Co2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption and electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "pH = 10, 4 h contact time, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of 81.63 mg.g-1 under optimal conditions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemisorption dominates the process of adsorption",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments, Langmuir isotherm modeling",
+            "Performance Metrics": "Maximum adsorption capacity: 81.63 mg.g-1 for rhodamine B"
+        },
+        "Other Information": {
+            "Additional Info": "Used as a comparative material to ZIF-8@ZIF-67."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Sodalite (SOD) topology"
+        },
+        "Topology": "sod",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemisorption and electrostatic interactions",
+                "Other Information": {
+                    "Test Conditions": "pH = 10, 4 h contact time, 298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity of 56.40 mg.g-1 under optimal conditions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Chemisorption dominates the process of adsorption",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments, Langmuir isotherm modeling",
+            "Performance Metrics": "Maximum adsorption capacity: 56.40 mg.g-1 for rhodamine B"
+        },
+        "Other Information": {
+            "Additional Info": "Used as a comparative material to ZIF-8@ZIF-67."
+        }
+    }
+]

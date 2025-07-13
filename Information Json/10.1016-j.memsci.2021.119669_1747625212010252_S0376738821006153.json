@@ -1,0 +1,52 @@
+[
+    {
+        "Materials Name": "Self-crosslinked MXene hollow fiber membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "3.1 Å (interlayer space after thermal treatment)",
+            "Structure Type": "2D laminar structure with interlocked nanochannels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Titanium (Ti)"
+        ],
+        "Ligands": [
+            "–O",
+            "–F",
+            "–OH functional groups"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.29 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25°C, varying feed pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 showed rapid adsorption and diffusion in confined nanochannels."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25°C, varying feed pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 was excluded due to larger molecular size compared to H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale, enabled by self-crosslinking reaction reducing interlayer spacing.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests, QCM analysis, XRD, FTIR, Raman spectroscopy",
+            "Performance Metrics": "H2 permeance: 70.6 GPU, H2/CO2 selectivity: 30.3"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane exhibited excellent stability over 120 h of continuous operation."
+        }
+    }
+]

@@ -1,0 +1,113 @@
+MOF Name: UU-200
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for UU-200:
+-   **3-methylpentane**: 9.052×6.008×4.985 → Intermediate = 6.008 Å | Adsorbed (Reason: Size exclusion)
+-   **2,2-dimethylbutane**: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Not Adsorbed (Reason: Size exclusion)
+-   **2-methylpentane**: 9.023×6.376×4.923 → Intermediate = 6.376 Å | Adsorbed (Reason: Size exclusion)
+-   **2,3-dimethylbutane**: 7.778×6.170×5.399 → Intermediate = 6.170 Å | Not Adsorbed (Reason: Size exclusion)
+
+**Inferred effective pore size of UU-200:**
+Based on the provided experimental data and the rule that "the main concern is the intermediate size of the molecule," a contradiction arises.
+*   The largest intermediate dimension of an adsorbed molecule is 6.376 Å (2-methylpentane). This suggests the effective pore size is at least 6.376 Å.
+*   The smallest intermediate dimension of a non-adsorbed molecule (due to size exclusion) is 6.170 Å (2,3-dimethylbutane). This suggests the effective pore size is less than 6.170 Å.
+This implies a contradictory range (Pore size >= 6.376 Å AND Pore size < 6.170 Å). This inconsistency highlights that a simple "intermediate dimension" rule for "size exclusion" is insufficient for this MOF, and subtle molecular shape or branching (akin to kinetic sieving) likely plays a significant role in its selectivity, even though the stated mechanism is "size exclusion." The MOF appears to be highly selective based on subtle shape differences for molecules with very close intermediate dimensions.
+
+**Isoprene Dimensions:**
+-   Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+**Conclusion for isoprene:**
+Despite the general contradiction in the pore size inference, let's apply the given rules as best as possible.
+*   The maximum intermediate dimension of an adsorbed molecule is 6.376 Å (2-methylpentane). Since isoprene's intermediate dimension (6.093 Å) is ≤ 6.376 Å, it falls within the range of molecules observed to be adsorbed.
+*   The minimum intermediate dimension of a non-adsorbed molecule is 6.170 Å (2,3-dimethylbutane). Since isoprene's intermediate dimension (6.093 Å) is NOT ≥ 6.170 Å, it does not meet the criteria for non-adsorption based on this rule.
+
+Given these considerations, particularly that isoprene's intermediate dimension is smaller than the smallest excluded molecule (2,3-dimethylbutane at 6.170 Å) and also smaller than a larger adsorbed molecule (2-methylpentane at 6.376 Å), it is predicted to be adsorbed. The specific branching pattern of isoprene compared to the excluded 2,3-dimethylbutane is important, but based on the provided numerical criteria, it fits the adsorption profile.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: UU-200
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for UU-200:
+-   Adsorbed molecules: 3-methylpentane (Intermediate: 6.008 Å), 2-methylpentane (Intermediate: 6.376 Å)
+-   Not Adsorbed molecules: 2,3-dimethylbutane (Intermediate: 6.170 Å), 2,2-dimethylbutane (Intermediate: 6.545 Å)
+As noted, there's a contradiction in defining a precise pore size based solely on intermediate dimensions and "size exclusion" due to the observed shape selectivity.
+
+**cis-2-pentene Dimensions:**
+-   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+**Conclusion for cis-2-pentene:**
+The intermediate dimension of cis-2-pentene (5.572 Å) is significantly smaller than the intermediate dimensions of *all* experimentally adsorbed molecules (smallest being 3-methylpentane at 6.008 Å). Since molecules larger than cis-2-pentene are adsorbed, cis-2-pentene, being a smaller and less branched molecule, is highly likely to be adsorbed by UU-200.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: UU-200
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for UU-200:
+-   Adsorbed molecules: 3-methylpentane (Intermediate: 6.008 Å), 2-methylpentane (Intermediate: 6.376 Å)
+-   Not Adsorbed molecules: 2,3-dimethylbutane (Intermediate: 6.170 Å), 2,2-dimethylbutane (Intermediate: 6.545 Å)
+As noted, there's a contradiction in defining a precise pore size based solely on intermediate dimensions and "size exclusion" due to the observed shape selectivity.
+
+**1-pentene Dimensions:**
+-   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+**Conclusion for 1-pentene:**
+The intermediate dimension of 1-pentene (4.995 Å) is significantly smaller than the intermediate dimensions of *all* experimentally adsorbed molecules (smallest being 3-methylpentane at 6.008 Å). Since molecules larger than 1-pentene are adsorbed, 1-pentene, being a smaller and less branched molecule, is highly likely to be adsorbed by UU-200.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: UU-200
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for UU-200:
+-   Adsorbed molecules: 3-methylpentane (Intermediate: 6.008 Å), 2-methylpentane (Intermediate: 6.376 Å)
+-   Not Adsorbed molecules: 2,3-dimethylbutane (Intermediate: 6.170 Å), 2,2-dimethylbutane (Intermediate: 6.545 Å)
+As noted, there's a contradiction in defining a precise pore size based solely on intermediate dimensions and "size exclusion" due to the observed shape selectivity.
+
+**trans-2-pentene Dimensions:**
+-   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+**Conclusion for trans-2-pentene:**
+The intermediate dimension of trans-2-pentene (4.733 Å) is significantly smaller than the intermediate dimensions of *all* experimentally adsorbed molecules (smallest being 3-methylpentane at 6.008 Å). Since molecules larger than trans-2-pentene are adsorbed, trans-2-pentene, being a smaller and less branched molecule, is highly likely to be adsorbed by UU-200.
+
+Therefore, the result is: **Can Adsorb**
+
+---
+
+MOF Name: UU-200
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for UU-200:
+-   Adsorbed molecules: 3-methylpentane (Intermediate: 6.008 Å), 2-methylpentane (Intermediate: 6.376 Å)
+-   Not Adsorbed molecules: 2,3-dimethylbutane (Intermediate: 6.170 Å), 2,2-dimethylbutane (Intermediate: 6.545 Å)
+As noted, there's a contradiction in defining a precise pore size based solely on intermediate dimensions and "size exclusion" due to the observed shape selectivity.
+
+**n-pentane Dimensions:**
+-   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+**Conclusion for n-pentane:**
+The intermediate dimension of n-pentane (4.364 Å) is significantly smaller than the intermediate dimensions of *all* experimentally adsorbed molecules (smallest being 3-methylpentane at 6.008 Å). Since molecules larger than n-pentane are adsorbed, n-pentane, being a smaller and linear molecule, is highly likely to be adsorbed by UU-200.
+
+Therefore, the result is: **Can Adsorb**

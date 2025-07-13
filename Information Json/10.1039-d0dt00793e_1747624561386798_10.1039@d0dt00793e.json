@@ -1,0 +1,138 @@
+[
+    {
+        "Materials Name": "1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.4 × 3.8 Å, 2.4 × 5.1 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "terephthalic acid",
+            "3,6-di(pyridin-4-yl)-1,2,4,5-tetrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "IAST selectivity for CO2/N2 (15/85) is 600 at low pressure."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible uptake compared to CO2."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower uptake than CO2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas adsorption isotherms",
+            "Performance Metrics": "CO2/N2 selectivity: 600 at low pressure, CO2/CH4 selectivity: 85 at low pressure"
+        },
+        "Other Information": {
+            "Additional Info": "Highly selective adsorption of CO2 over N2 and CH4 attributed to molecular sieving effect."
+        }
+    },
+    {
+        "Materials Name": "2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "8.0 × 4.4 Å",
+            "Structure Type": "3D interconnected micropores"
+        },
+        "Topology": "pcu",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "terephthalic acid",
+            "3,6-di(pyridin-4-yl)-1,2,4,5-tetrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not specifically discussed in the context of molecular sieving."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Non-interpenetrated pcu network with larger pore sizes, but no specific separation data provided."
+        }
+    },
+    {
+        "Materials Name": "3",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "15 Å",
+            "Structure Type": "kag network"
+        },
+        "Topology": "kag",
+        "Metal Nodes": [
+            "Cd2+"
+        ],
+        "Ligands": [
+            "terephthalic acid",
+            "3,6-di(pyridin-4-yl)-1,2,4,5-tetrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not specifically discussed in the context of molecular sieving."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Not Reported",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Much larger pores, but no specific separation or sieving data provided."
+        }
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "MOF Name": "HZ@TCPP-Fe/Cu",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "8.02-9.28 Å",
+            "Structure Type": "Hollow layered hydroxides nanocage with confined interlayer spacing and channels on thin shell"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "tetrakis(4-carboxyphenyl)-porphyrin"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethyl 2-phenylhydrazine-1-carboxylate (1)",
+                "Molecular Size": "11.5 × 4.2 × 1.8 Å3",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Smooth diffusion into the catalyst",
+                "Other Information": {
+                    "Test Conditions": "1 mol% catalyst, O2-saturated THF, 4 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Product (4) obtained in good yield (>90%). Acts as a reaction vessel for oxidative dehydrogenation."
+                }
+            },
+            {
+                "Molecule Name": "isopropyl 2-phenylhydrazine-1-carboxylate (2)",
+                "Molecular Size": "11.0 × 4.2 × 3.1 Å3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Steric hindrance effect, cannot diffuse smoothly",
+                "Other Information": {
+                    "Test Conditions": "1 mol% catalyst, O2-saturated THF, 4 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Product (5) generated in low yield (24%)."
+                }
+            },
+            {
+                "Molecule Name": "tert-butyl 2-phenylhydrazine-1-carboxylate (3)",
+                "Molecular Size": "11.4 × 4.4 × 4.4 Å3",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Steric hindrance effect, cannot diffuse smoothly",
+                "Other Information": {
+                    "Test Conditions": "1 mol% catalyst, O2-saturated THF, 4 h",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Product (6) generated in low yield (18%)."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving based on steric hindrance and diffusion differences within confined internal voids and channels of the hollow nanocage.",
+        "Experimental Validation": {
+            "Method": "Catalytic reactivity and selectivity measurements coupled with size comparisons of substrates",
+            "Performance Metrics": "High chemoselectivity toward primary carbons; Yields: compound 1 (>90%), compound 2 (24%), compound 3 (18%)."
+        },
+        "Other Information": {
+            "Additional Info": "Hollow nano-shell with approx. 20 nm thickness, derived from ZIF-67 via self-templated thermal transformation and post-assembly of bimetallic catalytic active sites (TCPP-Fe/Cu). Used as a multifunctional molecular selector for oxidative dehydrogenation of aromatic hydrazides. The TCPP-Fe/Cu active sites are encapsulated within the hydroxide thin shell."
+        }
+    }
+]

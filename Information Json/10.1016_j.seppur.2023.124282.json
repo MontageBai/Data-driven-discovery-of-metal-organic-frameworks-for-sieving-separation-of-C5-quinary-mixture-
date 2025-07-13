@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "CdS@UiO-66 (Ce)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1 nm ∼ 1.5 nm",
+            "Structure Type": "microporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ce4+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "diclofenac sodium",
+                "Molecular Size": "0.59 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The pore volume of the modified CdS@UiO-66 (Ce) decreased significantly in the range of 1 nm ∼ 1.5 nm, and the pores mainly distributed at ＜1 nm microporous region and shifted to smaller sizes."
+                }
+            },
+            {
+                "Molecule Name": "humic acid",
+                "Molecular Size": "400 nm ∼ 3000 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Due to the larger particle sizes of HA, around 400 ∼ 3000 nm, larger than the pores of MOFs, this interference can be excluded outside through the size exclusion effect."
+                }
+            },
+            {
+                "Molecule Name": "chloride ion",
+                "Molecular Size": "0.16 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Inorganic ions with smaller sizes around 1.6 ∼ 2.6 Å (ionic radius) can enter the porous structures and compete with the sizes of the limited active sites."
+                }
+            },
+            {
+                "Molecule Name": "sulfate ion",
+                "Molecular Size": "0.26 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Inorganic ions with smaller sizes around 1.6 ∼ 2.6 Å (ionic radius) can enter the porous structures and compete with the sizes of the limited active sites."
+                }
+            },
+            {
+                "Molecule Name": "carbonate ion",
+                "Molecular Size": "0.26 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Inorganic ions with smaller sizes around 1.6 ∼ 2.6 Å (ionic radius) can enter the porous structures and compete with the sizes of the limited active sites."
+                }
+            },
+            {
+                "Molecule Name": "bicarbonate ion",
+                "Molecular Size": "0.26 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Inorganic ions with smaller sizes around 1.6 ∼ 2.6 Å (ionic radius) can enter the porous structures and compete with the sizes of the limited active sites."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Adsorption and photocatalytic degradation experiments",
+            "Performance Metrics": "Overall removal efficiency of 30% CdS@UiO-66 (Ce) composite was 1.31 and 2.18 times higher than that of UiO-66 (Ce) and CdS, respectively"
+        },
+        "Other Information": {
+            "Additional Info": "The material demonstrates excellent resistance towards humic acid (HA) during adsorption and photocatalytic degradation."
+        }
+    }
+]

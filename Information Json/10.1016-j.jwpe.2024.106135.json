@@ -1,0 +1,52 @@
+[
+    {
+        "Materials Name": "CMC/PEI/HKUST-1@ZIF-67",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Co2+",
+            "Cu2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "trimesic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "chromium (VI)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Reduction conversion and adsorption",
+                "Other Information": {
+                    "Test Conditions": "25°C, 150 min for batch adsorption; 48 h for prolonged adsorption",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 60.1 mg/g at 300 mg/L Cr(VI); Reduction rate: 82%"
+                }
+            },
+            {
+                "Molecule Name": "Rhodamine B",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Oxidation degradation and adsorption",
+                "Other Information": {
+                    "Test Conditions": "25°C, 60 min for catalytic degradation",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Removal rate: 100% within 20 min; Degradation capacity: 149.0 mg/g at 300 mg/L Rh B"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Batch adsorption experiments, advanced oxidation process, quenching experiments, EPR analysis",
+            "Performance Metrics": "Cr(VI) removal capacity: 60.1 mg/g; Rh B degradation capacity: 149.0 mg/g"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF-on-MOF structure enhanced catalytic activity and stability via synergistic interactions between Co and Cu species."
+        }
+    }
+]

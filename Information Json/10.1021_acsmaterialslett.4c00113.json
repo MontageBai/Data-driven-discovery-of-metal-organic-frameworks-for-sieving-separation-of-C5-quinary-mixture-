@@ -1,0 +1,60 @@
+[
+    {
+        "MOF Name": "HIAM-318",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.4 Å",
+            "Structure Type": "One-dimensional (1D) channels within a three-dimensional (3D) framework"
+        },
+        "Topology": "bnn",
+        "Metal Nodes": [
+            "Y3+"
+        ],
+        "Ligands": [
+            "BTB3- (1,3,5-tri(4-carboxyphenyl)benzene)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane (nHEX)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion, passes readily due to optimal pore size and low energy barrier",
+                "Other Information": {
+                    "Test Conditions": "30 °C, multicomponent column breakthrough",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed and retained for 51 min in ternary mixture."
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane (3MP)",
+                "Molecular Size": "5.5 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion, passes readily due to optimal pore size and low energy barrier",
+                "Other Information": {
+                    "Test Conditions": "30 °C, multicomponent column breakthrough",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorbed and retained for 38 min in ternary mixture."
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane (22DMB)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion, blocked by high energy barrier at pore entrance",
+                "Other Information": {
+                    "Test Conditions": "30 °C, multicomponent column breakthrough",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Barely accommodated; negligible uptake and eluted immediately without retention."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-exclusion-based molecular sieving via optimal pore aperture",
+        "Experimental Validation": {
+            "Method": "Single-component adsorption isotherms, Multicomponent column breakthrough measurements, DFT calculations, Computational modeling",
+            "Performance Metrics": "Selective adsorption: nHEX (33.3 cm3 g-1), 3MP (30.0 cm3 g-1), 22DMB (<5 cm3 g-1) at 30°C. Breakthrough experiments show complete separation of 22DMB from nHEX and 3MP, with nHEX and 3MP subsequently separated (retention times: nHEX 51 min, 3MP 38 min). Initial eluate RON > 90."
+        },
+        "Other Information": {
+            "Additional Info": "Facilely synthesized at 120 °C. Crystallizes in orthorhombic system with Cmcm space group. Built on {Y(COO)3}n chains. BET surface area: 599 m2 g-1, pore volume: 0.25 cm3 g-1. Stable up to 550 °C, retains crystallinity after vacuum activation at 180 °C and adsorption cycles."
+        }
+    }
+]

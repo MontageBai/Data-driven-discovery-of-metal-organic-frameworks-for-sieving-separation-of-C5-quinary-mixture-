@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "GZIFm40",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Short-range ordered but long-range disordered"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole",
+            "2-chlorobenzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential sorption",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced affinity due to ClBIM functional groups."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Suppressed sorption due to narrowed ultramicropores."
+                }
+            },
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "0.346 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Smaller kinetic diameter and stronger van der Waals interactions with framework."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Preferential sorption and size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments and IAST calculations",
+            "Performance Metrics": "CH4/N2 selectivity: 9.3, O2/N2 selectivity: 9.6"
+        },
+        "Other Information": {
+            "Additional Info": "The material is a linker-mixed MOF crystal-glass composite fabricated via gel-thermal processing."
+        }
+    }
+]

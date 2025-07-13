@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Mn-dhbq",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.9 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mn2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxy-1,4-benzoquinone"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexafluoropropylene",
+                "Molecular Size": "7.3 Å × 6.2 Å × 5.1 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective binding via Lewis acid−π interactions",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "1.97 kPa",
+                    "Additional Info": "Gate-opening pressure increases with temperature."
+                }
+            },
+            {
+                "Molecule Name": "octafluoropropane",
+                "Molecular Size": "7.6 Å × 5.3 Å × 5.1 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Exclusion due to weak adsorption affinity",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Coadsorption minimized at elevated temperatures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Temperature-dependent molecular sieving through selective binding and exclusion effects.",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "C3F6/C3F8 selectivity ratio exceeding 12 at 298 K; over 190 L/kg of high-purity C3F8 (≥99.999%) obtained."
+        },
+        "Other Information": {
+            "Additional Info": "Material exhibits excellent thermal, chemical, and hydrothermal stability; scalable synthesis up to 100 g batches; moldable into pellets using HPC binder."
+        }
+    }
+]

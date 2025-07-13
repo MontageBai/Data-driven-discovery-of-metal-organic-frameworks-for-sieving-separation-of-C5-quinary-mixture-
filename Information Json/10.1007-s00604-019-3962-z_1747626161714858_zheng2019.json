@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Ti4+@Zr-MOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.3 nm",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+",
+            "Ti4+"
+        ],
+        "Ligands": [
+            "2,2′-bipyridine-5,5′-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Phosphopeptides selectively captured while excluding large molecular weight proteins like BSA (66 kDa)"
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "66 kDa",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, ambient pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "BSA excluded due to size-exclusion effect"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS and nano-LC-MS/MS analysis",
+            "Performance Metrics": "LOD: 0.1 fmol, Selectivity ratio β-casein/BSA: 1:80, 105 phosphopeptides identified from human saliva"
+        },
+        "Other Information": {
+            "Additional Info": "Dual-metal affinity probe with robust interaction with phosphate groups and high porosity for size-exclusion effect"
+        }
+    }
+]

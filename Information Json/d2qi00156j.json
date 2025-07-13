@@ -1,0 +1,194 @@
+[
+    {
+        "Materials Name": "Ni2(dobdc)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.0 nm",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxyterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 240 min g−1 in (H2/D2/Ne: 1/1/98) mixture."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 240 min g−1 in (H2/D2/Ne: 1/1/98) mixture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "D2 retention time: 240 min g−1 in (H2/D2/Ne: 1/1/98), 36.4 min g−1 in (H2/D2/Ne: 10/10/80), 13.5 min g−1 in (H2/D2: 50/50)"
+        },
+        "Other Information": {
+            "Additional Info": "Microporous MOF with narrow OMSs inclined to adsorb small D2 over Ne during competitive adsorption."
+        }
+    },
+    {
+        "Materials Name": "Ni2(dobpdc)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "1.9 nm",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "2,5-dihydroxybiphenyldicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 215 min g−1 in (H2/D2/Ne: 1/1/98) mixture."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 215 min g−1 in (H2/D2/Ne: 1/1/98) mixture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "D2 retention time: 215 min g−1 in (H2/D2/Ne: 1/1/98), 25 min g−1 in (H2/D2/Ne: 10/10/80), 10.0 min g−1 in (H2/D2: 50/50)"
+        },
+        "Other Information": {
+            "Additional Info": "Microporous MOF with accessible OMSs for preferential adsorption of D2."
+        }
+    },
+    {
+        "Materials Name": "Ni2(olz)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.2 nm",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "olsalazine acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 180 min g−1 in (H2/D2/Ne: 1/1/98) mixture."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 180 min g−1 in (H2/D2/Ne: 1/1/98) mixture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "D2 retention time: 180 min g−1 in (H2/D2/Ne: 1/1/98), 30.0 min g−1 in (H2/D2/Ne: 10/10/80), 15.0 min g−1 in (H2/D2: 50/50)"
+        },
+        "Other Information": {
+            "Additional Info": "Mesoporous MOF with more accessible OMSs and faster diffusion rate favoring heavier D2 adsorption."
+        }
+    },
+    {
+        "Materials Name": "Ni2(dotpdc)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.6 nm",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+"
+        ],
+        "Ligands": [
+            "4,4''-dihydroxy-[1,1':4',1''-terphenyl]-3,3''-dicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 142 min g−1 in (H2/D2/Ne: 1/1/98) mixture."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Chemical affinity quantum sieving (CAQS)",
+                "Other Information": {
+                    "Test Conditions": "77 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retention time: 142 min g−1 in (H2/D2/Ne: 1/1/98) mixture."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "D2 retention time: 142 min g−1 in (H2/D2/Ne: 1/1/98), 26.5 min g−1 in (H2/D2/Ne: 10/10/80), 13.0 min g−1 in (H2/D2: 50/50)"
+        },
+        "Other Information": {
+            "Additional Info": "Mesoporous MOF with accessible OMSs promoting D2/H2 separation capacities."
+        }
+    }
+]

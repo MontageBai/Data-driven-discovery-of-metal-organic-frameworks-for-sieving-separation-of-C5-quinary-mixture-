@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "HKUST-1",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7 Å",
+            "Structure Type": "3D system of pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "salicylaldehyde",
+                "Molecular Size": "0.54 nm (approximate kinetic radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "373 K, adsorption from toluene solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sorption capacity: 2.1 moles per Cu2 unit"
+                }
+            },
+            {
+                "Molecule Name": "9-anthracenecarbaldehyde",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "373 K, adsorption from toluene solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Negligible sorption observed"
+                }
+            },
+            {
+                "Molecule Name": "nitromethane",
+                "Molecular Size": "0.33 nm (approximate kinetic radius)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "293 K, adsorption from gaseous phase",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sorption capacity: 4.2 moles per Cu2 unit"
+                }
+            },
+            {
+                "Molecule Name": "trans-nitrovinylphenol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Evaluated by molecular mechanics",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diffusion occurs without significant activation barrier"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Sorption measurements, breakthrough experiment, molecular mechanics simulation",
+            "Performance Metrics": "Salicylaldehyde diffusion rate constant kd = 1.8·10^-3 ± 0.2·10^-3 mole·min^-1/2·(mole Cu2)"
+        },
+        "Other Information": {
+            "Additional Info": "Catalytic activity consistent with sorption capacity; sieving effect confirmed by negligible sorption of 9-anthracenecarbaldehyde"
+        }
+    }
+]

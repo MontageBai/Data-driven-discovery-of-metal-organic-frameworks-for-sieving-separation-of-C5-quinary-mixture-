@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Nanoporous Covalent Framework (NCF) Membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "≈5–30 nm",
+            "Structure Type": "Bicontinuous nanoporous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "catalase",
+                "Molecular Size": "9.7 nm × 9.2 nm × 6.7 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, immobilized via pressurized flow",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Catalase is entrapped within the nanopores of NCF due to size restriction."
+                }
+            },
+            {
+                "Molecule Name": "protease",
+                "Molecular Size": "≈4.2–5 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Protease cannot pass through the membrane due to its molecular size being close to the smaller limit of pore size."
+                }
+            },
+            {
+                "Molecule Name": "urea",
+                "Molecular Size": "2.4 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Urea diffuses into the membrane due to its small molecular size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Enzyme activity assays, permeation experiments",
+            "Performance Metrics": "CAT@NCF maintained 98% activity after protease treatment; negligible diffusion of macromolecules like protease."
+        },
+        "Other Information": {
+            "Additional Info": "The NCF membrane protects embedded enzymes from external deactivating agents larger than the bottleneck pore sizes."
+        }
+    }
+]

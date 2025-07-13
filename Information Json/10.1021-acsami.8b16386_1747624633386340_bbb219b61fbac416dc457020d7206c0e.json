@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "NUS-8/PIM-1 MMM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å (NUS-8), Not Reported (PIM-1)",
+            "Structure Type": "1D channels (NUS-8), Not Reported (PIM-1)"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr clusters"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetribenzoate (BTB)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.3 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced permeability and selectivity due to NUS-8 nanosheets"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted due to size-sieving capability of PIM-1 matrix"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.68 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Restricted due to size-sieving capability of PIM-1 matrix"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "CO2/CH4 selectivity: 30.1, CO2/N2 selectivity: 26.8, CO2 permeability: ~6500 Barrer"
+        },
+        "Other Information": {
+            "Additional Info": "NUS-8 nanosheets enhance polymer crystallinity and anti-aging properties"
+        }
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "Materials Name": "N-GQDs NF membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.46 nm (average effective pore size for M4), 0.60 nm (average effective pore size for M3)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methylene blue",
+                "Molecular Size": "1.53 × 0.65 × 0.28 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and charge effect",
+                "Other Information": {
+                    "Test Conditions": "pH ≈ 7, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate by M4 membrane: 98.93%"
+                }
+            },
+            {
+                "Molecule Name": "methyl orange",
+                "Molecular Size": "1.31 × 0.70 × 0.50 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and charge effect",
+                "Other Information": {
+                    "Test Conditions": "pH ≈ 7, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate by M4 membrane: 96.66%"
+                }
+            },
+            {
+                "Molecule Name": "congo red",
+                "Molecular Size": "2.56 × 0.73 × 1.13 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and charge effect",
+                "Other Information": {
+                    "Test Conditions": "pH ≈ 7, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate by M4 membrane: >99.5%"
+                }
+            },
+            {
+                "Molecule Name": "brilliant green",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and charge effect",
+                "Other Information": {
+                    "Test Conditions": "pH ≈ 7, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate by M4 membrane: 98.48%"
+                }
+            },
+            {
+                "Molecule Name": "rhodamine b",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion and charge effect",
+                "Other Information": {
+                    "Test Conditions": "pH ≈ 7, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate by M4 membrane: 79.29%"
+                }
+            },
+            {
+                "Molecule Name": "sodium sulfate",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Donnan effect and steric hindrance",
+                "Other Information": {
+                    "Test Conditions": "pH ≈ 7, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate by M4 membrane: 85.21%"
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "0.33 nm (hydrated ionic radius of Cl-)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Donnan effect and steric hindrance",
+                "Other Information": {
+                    "Test Conditions": "pH ≈ 7, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate by M4 membrane: 46.20%"
+                }
+            },
+            {
+                "Molecule Name": "magnesium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Donnan effect and steric hindrance",
+                "Other Information": {
+                    "Test Conditions": "pH ≈ 7, 0.4 MPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate by M4 membrane: 66.60%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale combined with Donnan effect",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Water permeability: 6.51 L m−2 h−1 bar−1; Selectivity for dye/salt: CR/NaCl separation factor = 115"
+        },
+        "Other Information": {
+            "Additional Info": "Prepared using interfacial polymerization technique with N-GQDs as aqueous phase monomers"
+        }
+    }
+]

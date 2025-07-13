@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "MIL-53(Cr)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "~8.5 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "benzene-1,4-dicarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "gallic acid",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Water/acetonitrile mobile phase, flow rate: 0.35 mL min−1, detection wavelength: 273 nm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exceeds the dynamic diameter of MIL-53(Cr) (~8.5 Å)"
+                }
+            },
+            {
+                "Molecule Name": "(+)-catechin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Water/acetonitrile mobile phase, flow rate: 0.35 mL min−1, detection wavelength: 273 nm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exceeds the dynamic diameter of MIL-53(Cr) (~8.5 Å)"
+                }
+            },
+            {
+                "Molecule Name": "(−)-epigallocatechin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Water/acetonitrile mobile phase, flow rate: 0.35 mL min−1, detection wavelength: 273 nm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exceeds the dynamic diameter of MIL-53(Cr) (~8.5 Å)"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "HPLC separation",
+            "Performance Metrics": "Complete baseline separation achieved for all tea samples with Rs ≥ 1.72"
+        },
+        "Other Information": {
+            "Additional Info": "Main working mode is reversed-phase mechanism with size-exclusion effects for large molecules"
+        }
+    }
+]

@@ -1,0 +1,492 @@
+[
+    {
+        "Materials Name": "Tb-mesoMOF",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.9 nm, 4.7 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Tb3+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "microperoxidase-11",
+                "Molecular Size": "3.3 x 1.7 x 1.1 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced catalytic activity for oxidation of 3,5-dit-butyl-catechol to o-quinone"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Enzyme activity assay",
+            "Performance Metrics": "Conversion efficiency increased from 12.3% (free enzyme) to 48.7% (encapsulated enzyme)"
+        },
+        "Other Information": {
+            "Additional Info": "The encapsulation prevents denaturation and aggregation of the enzyme."
+        }
+    },
+    {
+        "Materials Name": "NU-1003",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.6 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "organophosphorus acid anhydrolase",
+                "Molecular Size": "4.4 x 4.4 x 7.8 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Catalyzed hydrolysis of G-type nerve agent soman at more than a 3-fold rate compared to free enzymes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Enzyme activity assay",
+            "Performance Metrics": "Record-high GD activity among known enzymes"
+        },
+        "Other Information": {
+            "Additional Info": "Encapsulation eliminates residual aggregation and deactivation in solution phase."
+        }
+    },
+    {
+        "Materials Name": "MOF-818",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.8 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "1H-pyrazole-4-carboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "insulin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Encapsulation content: 2.8 nmol mg^-1"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Enzyme loading measurement",
+            "Performance Metrics": "Insulin encapsulation content of 2.8 nmol mg^-1"
+        },
+        "Other Information": {
+            "Additional Info": "Short organic linkers can be used to construct MOFs with large cages for enzyme immobilization."
+        }
+    },
+    {
+        "Materials Name": "defective UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "4,4'-azobenzenedicarboxylic acid",
+            "4,4'-stilbenedicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "catalase",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Defect engineering",
+                "Other Information": {
+                    "Test Conditions": "Presence of H2O2",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Efficient protection towards the enzyme by making full use of the porous network."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Enzyme activity assay",
+            "Performance Metrics": "Loading efficiency: 0.21 ± 0.01 mg CAT per mg MOF after 8 h adsorption"
+        },
+        "Other Information": {
+            "Additional Info": "Defect engineering creates mesopores capable of hosting large enzymes such as CAT."
+        }
+    },
+    {
+        "Materials Name": "NU-1000",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.1 nm (hexagonal channels), 1.5 nm (triangular channels)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cutinase",
+                "Molecular Size": "4.5 x 3.0 x 3.0 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Hierarchical structure enabled spatial localization of the enzyme and maintained high enzyme accessibility."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Enzyme activity assay",
+            "Performance Metrics": "Outperformed other channel-type MOFs in terms of bioactivity."
+        },
+        "Other Information": {
+            "Additional Info": "Hierarchical pore structure allows efficient mass transfer of substrates and products."
+        }
+    },
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "microperoxidase-11",
+                "Molecular Size": "3.3 x 1.7 x 1.1 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "molecular-sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Narrow aperture prevented substrate from passing through the framework."
+                }
+            },
+            {
+                "Molecule Name": "cytochrome c",
+                "Molecular Size": "2.6 x 3.2 x 3.3 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Conformational change",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Penetrated microporous window by undergoing conformational changes."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Enzyme activity assay",
+            "Performance Metrics": "No obvious activity observed due to narrow aperture."
+        },
+        "Other Information": {
+            "Additional Info": "Some enzymes can penetrate the microporous window via conformational changes."
+        }
+    },
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.0 Å",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "beta-glucosidase",
+                "Molecular Size": "5.4 x 6.0 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Bioactivity was observed due to larger aperture allowing substrate access."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Enzyme activity assay",
+            "Performance Metrics": "Demonstrated bioactivity for the conversion of cellobiose analogue."
+        },
+        "Other Information": {
+            "Additional Info": "Larger aperture permits substrate with large size access to the MOF interior."
+        }
+    },
+    {
+        "Materials Name": "Fe-ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe2+",
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glucose oxidase",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Iron mineralization approach",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Showed 14-fold enhancement in cascade catalysis compared to individual counterparts."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Enzyme activity assay",
+            "Performance Metrics": "Significantly higher peroxidase-like activity compared to other Fe/Co-containing MOFs."
+        },
+        "Other Information": {
+            "Additional Info": "Defective Fe-doped ZIF-8 created via iron mineralization process."
+        }
+    },
+    {
+        "Materials Name": "PCN-888",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.2 nm (large), 5.0 nm (medium), 2.0 nm (small)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glucose oxidase",
+                "Molecular Size": "6.0 x 5.2 x 7.7 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Accommodated in the largest cage of PCN-888."
+                }
+            },
+            {
+                "Molecule Name": "horseradish peroxidase",
+                "Molecular Size": "4.0 x 4.4 x 6.8 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Accommodated in both medium and large cages."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Enzyme loading and activity assay",
+            "Performance Metrics": "GOx uptake capacity of 1.0 g g^-1, HRP uptake capacity of 2.0 g g^-1"
+        },
+        "Other Information": {
+            "Additional Info": "Stepwise infiltration process ensured spatial compartmentalization of enzymes."
+        }
+    },
+    {
+        "Materials Name": "nanoPCN-333 (Al)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "superoxide dismutase",
+                "Molecular Size": "2.8 x 3.5 x 4.2 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Immobilized into sized-matched mesopores."
+                }
+            },
+            {
+                "Molecule Name": "catalase",
+                "Molecular Size": "4.9 x 4.4 x 5.6 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Immobilized into sized-matched mesopores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Enzyme activity assay",
+            "Performance Metrics": "Continuous scavenging of superoxide radicals; protected human cells from ROS for up to a week."
+        },
+        "Other Information": {
+            "Additional Info": "Antioxidant biocascade consisting of SOD and CAT immobilized in nanoPCN-333 (Al)."
+        }
+    },
+    {
+        "Materials Name": "PCN-888",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6.2 nm (large), 5.0 nm (medium), 2.0 nm (small)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glucose oxidase",
+                "Molecular Size": "6.0 x 5.2 x 7.7 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Entrapped in the large cage of PCN-888 via stepwise infiltration."
+                }
+            },
+            {
+                "Molecule Name": "horseradish peroxidase",
+                "Molecular Size": "4.0 x 4.4 x 6.8 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Entrapped in both medium and large cages of PCN-888 via stepwise infiltration."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Enzyme activity assay",
+            "Performance Metrics": "Very high enzyme loading; almost no enzyme leaching."
+        },
+        "Other Information": {
+            "Additional Info": "Compartmentalized biocascade showed superior reusability and stability against trypsin digestion."
+        }
+    },
+    {
+        "Materials Name": "HOF-102",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "2.5 x 3.0 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "1,3,6,8-tetrakis(p-benzoic acid) pyrene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "cytochrome c",
+                "Molecular Size": "3.6 x 2.4 x 2.2 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Loading capacity measured to be approximately 30 wt%."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Enzyme activity assay",
+            "Performance Metrics": "High photochemical activity due to pyrene core."
+        },
+        "Other Information": {
+            "Additional Info": "Ultrastable HOF with large pore size suitable for enzyme immobilization."
+        }
+    }
+]

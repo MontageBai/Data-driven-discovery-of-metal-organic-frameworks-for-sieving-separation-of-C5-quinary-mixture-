@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "UiO-66 gel/PEI",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.35 nm",
+            "Structure Type": "3D network"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The H2 permeance was 453 GPU with a H2/CO2 separation factor of 12."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Retarded permeation due to adsorption",
+                "Other Information": {
+                    "Test Conditions": "35 °C, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The CO2 permeance decreased significantly compared to single-gas tests due to competitive adsorption and narrowing of permeation channels."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Precise size sieving and retarded CO2 permeation facilitated by the interwoven UiO-66 gel and crosslinked PEI networks.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Single-gas and binary mixture gas separation tests",
+            "Performance Metrics": "H2 permeance: 845 GPU, H2/CO2 selectivity: 16.8"
+        },
+        "Other Information": {
+            "Additional Info": "Crosslinking with glutaraldehyde further refined the pore dimensions and enhanced mechanical robustness."
+        }
+    }
+]

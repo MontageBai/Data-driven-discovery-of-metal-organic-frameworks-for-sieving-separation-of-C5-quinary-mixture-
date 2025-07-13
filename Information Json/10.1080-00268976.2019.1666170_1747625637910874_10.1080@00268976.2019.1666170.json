@@ -1,0 +1,238 @@
+[
+    {
+        "Materials Name": "ZIF-8",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption-based selectivity",
+                "Other Information": {
+                    "Test Conditions": "298.15 K, pressures ranging from 0.065 bar to higher values",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption capacity is enhanced by encapsulated ionic liquids."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298.15 K, pressures ranging from low to high",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 adsorption is less affected by ILs compared to CO2."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298.15 K, pressures ranging from low to high",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 adsorption is less affected by ILs compared to CO2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Adsorption-based selectivity due to interactions with IL pairs.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Grand Canonical Monte Carlo (GCMC) simulations and Density Functional Theory (DFT) calculations",
+            "Performance Metrics": "CO2/N2 selectivity: up to 200, CO2/CH4 selectivity: up to 150 (ideal selectivities at specific IL compositions)"
+        },
+        "Other Information": {
+            "Additional Info": "Encapsulation of ILs in ZIF-8 enhances CO2 selectivity and capacity significantly."
+        }
+    },
+    {
+        "Materials Name": "[bmim+][Tf2N−]@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption-based selectivity",
+                "Other Information": {
+                    "Test Conditions": "298.15 K, pressures ranging from 0.065 bar to higher values",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 adsorption capacity is maximized at intermediate IL loading."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298.15 K, pressures ranging from low to high",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 adsorption decreases linearly with increasing IL composition."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298.15 K, pressures ranging from low to high",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 adsorption decreases linearly with increasing IL composition."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced adsorption sites for CO2 due to IL presence.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Grand Canonical Monte Carlo (GCMC) simulations and Density Functional Theory (DFT) calculations",
+            "Performance Metrics": "CO2/N2 selectivity: up to 200, CO2/CH4 selectivity: up to 150 (ideal selectivities at specific IL compositions)"
+        },
+        "Other Information": {
+            "Additional Info": "The [bmim+][Tf2N−] anion creates additional CO2 adsorption sites."
+        }
+    },
+    {
+        "Materials Name": "[bmim+][TCM−]@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption-based selectivity",
+                "Other Information": {
+                    "Test Conditions": "298.15 K, pressures ranging from 0.065 bar to higher values",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest CO2 capacity observed among the studied ILs."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298.15 K, pressures ranging from low to high",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 adsorption decreases linearly with increasing IL composition."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298.15 K, pressures ranging from low to high",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 adsorption decreases linearly with increasing IL composition."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced CO2 adsorption sites due to smaller [TCM−] anion.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Grand Canonical Monte Carlo (GCMC) simulations and Density Functional Theory (DFT) calculations",
+            "Performance Metrics": "CO2/N2 selectivity: up to 200, CO2/CH4 selectivity: up to 150 (ideal selectivities at specific IL compositions)"
+        },
+        "Other Information": {
+            "Additional Info": "Higher CO2 capacity compared to other IL systems."
+        }
+    },
+    {
+        "Materials Name": "[bmim+][B(CN)4−]@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Adsorption-based selectivity",
+                "Other Information": {
+                    "Test Conditions": "298.15 K, pressures ranging from 0.065 bar to higher values",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest CO2 selectivity achieved among the studied ILs."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298.15 K, pressures ranging from low to high",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 adsorption decreases linearly with increasing IL composition."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298.15 K, pressures ranging from low to high",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 adsorption decreases linearly with increasing IL composition."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Enhanced CO2 selectivity due to stronger binding energies.",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Grand Canonical Monte Carlo (GCMC) simulations and Density Functional Theory (DFT) calculations",
+            "Performance Metrics": "CO2/N2 selectivity: up to 200, CO2/CH4 selectivity: up to 150 (ideal selectivities at specific IL compositions)"
+        },
+        "Other Information": {
+            "Additional Info": "Strongest CO2-material interaction observed among the studied ILs."
+        }
+    }
+]

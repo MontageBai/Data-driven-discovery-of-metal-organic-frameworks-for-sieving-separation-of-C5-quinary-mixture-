@@ -1,0 +1,114 @@
+Here's the detailed analysis and prediction for each guest molecule for the MOF Al(bttotb), based strictly on the provided data:
+
+**Known Guest Molecule Probe Sizes:**
+*   cis-2-pentene: 8.067×5.572×5.136 (Intermediate: 5.572 Å)
+*   trans-2-pentene: 8.796×4.733×4.564 (Intermediate: 4.733 Å)
+*   1-pentene: 8.847×4.995×4.897 (Intermediate: 4.995 Å)
+*   n-pentane: 9.118×4.364×3.969 (Intermediate: 4.364 Å)
+*   isoprene: 7.746×6.093×3.963 (Intermediate: 6.093 Å)
+*   2,2-dimethylbutane: 7.829×5.502×6.545 (Intermediate: 6.545 Å)
+
+**Experimental Adsorption Data for Al(bttotb):**
+*   Al(bttotb),2,2-dimethylbutane,No,Size exclusion at sub-nanometer scale,Size exclusion,"298 K, ambient pressure",Not Applicable
+
+---
+
+**Inferred MOF Pore Size for Al(bttotb):**
+From the experimental data, 2,2-dimethylbutane (intermediate dimension 6.545 Å) is *not* adsorbed due to "Size exclusion". This directly implies that the effective pore size of Al(bttotb) must be **less than 6.545 Å**. We do not have any data for molecules that *were* adsorbed, so a precise lower bound for the pore size cannot be established from the provided information.
+
+---
+
+**Evaluation of Target Guest Molecules:**
+
+**MOF Name: Al(bttotb)**
+**Guest Molecule: isoprene**
+
+**Predicted Result: Can Adsorb**
+
+Detailed Reasoning:
+From experimental data:
+*   2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Al(bttotb): Since 2,2-dimethylbutane (intermediate dimension 6.545 Å) is explicitly excluded due to size, the effective pore size of Al(bttotb) must be less than 6.545 Å.
+
+Isoprene Dimensions:
+*   Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Isoprene's intermediate dimension (6.093 Å) is smaller than the intermediate dimension of 2,2-dimethylbutane (6.545 Å), which was reported as excluded by size. Based on the principle of size exclusion from the given data, isoprene is geometrically smaller than the observed pore cutoff for non-adsorption, suggesting it can pass through the pores.
+
+---
+
+**MOF Name: Al(bttotb)**
+**Guest Molecule: cis-2-pentene**
+
+**Predicted Result: Can Adsorb**
+
+Detailed Reasoning:
+From experimental data:
+*   2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Al(bttotb): The effective pore size of Al(bttotb) must be less than 6.545 Å, as 2,2-dimethylbutane (intermediate dimension 6.545 Å) is excluded by size.
+
+cis-2-pentene Dimensions:
+*   cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+cis-2-pentene's intermediate dimension (5.572 Å) is smaller than the intermediate dimension of 2,2-dimethylbutane (6.545 Å), which was reported as excluded. Therefore, based on the available size exclusion data, cis-2-pentene is geometrically compatible with the pores, suggesting it can adsorb.
+
+---
+
+**MOF Name: Al(bttotb)**
+**Guest Molecule: 1-pentene**
+
+**Predicted Result: Can Adsorb**
+
+Detailed Reasoning:
+From experimental data:
+*   2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Al(bttotb): The effective pore size of Al(bttotb) must be less than 6.545 Å, as 2,2-dimethylbutane (intermediate dimension 6.545 Å) is excluded by size.
+
+1-pentene Dimensions:
+*   1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+1-pentene's intermediate dimension (4.995 Å) is smaller than the intermediate dimension of 2,2-dimethylbutane (6.545 Å), which was reported as excluded. Based on the provided size exclusion information, 1-pentene is geometrically smaller than the observed pore cutoff, implying it can adsorb.
+
+---
+
+**MOF Name: Al(bttotb)**
+**Guest Molecule: trans-2-pentene**
+
+**Predicted Result: Can Adsorb**
+
+Detailed Reasoning:
+From experimental data:
+*   2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Al(bttotb): The effective pore size of Al(bttotb) must be less than 6.545 Å, as 2,2-dimethylbutane (intermediate dimension 6.545 Å) is excluded by size.
+
+trans-2-pentene Dimensions:
+*   trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the intermediate dimension of 2,2-dimethylbutane (6.545 Å), which was reported as excluded. Therefore, based on the available size exclusion data, trans-2-pentene is geometrically compatible with the pores, suggesting it can adsorb.
+
+---
+
+**MOF Name: Al(bttotb)**
+**Guest Molecule: n-pentane**
+
+**Predicted Result: Can Adsorb**
+
+Detailed Reasoning:
+From experimental data:
+*   2,2-dimethylbutane: 7.829×5.502×6.545 → Intermediate = 6.545 Å | Not Adsorbed (Size exclusion)
+
+Inferred effective pore size of Al(bttotb): The effective pore size of Al(bttotb) must be less than 6.545 Å, as 2,2-dimethylbutane (intermediate dimension 6.545 Å) is excluded by size.
+
+n-pentane Dimensions:
+*   n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+n-pentane's intermediate dimension (4.364 Å) is smaller than the intermediate dimension of 2,2-dimethylbutane (6.545 Å), which was reported as excluded. Based on the provided size exclusion information, n-pentane is geometrically smaller than the observed pore cutoff, implying it can adsorb.

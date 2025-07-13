@@ -1,0 +1,146 @@
+[
+    {
+        "Materials Name": "MOF-801-15%AA",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "4.9 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6"
+        ],
+        "Ligands": [
+            "fumaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "40 °C, methanol content in feed: 10 wt%",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The membrane exhibited a total flux of ~3700 g m−2 h−1 and separation factor of ~630."
+                }
+            },
+            {
+                "Molecule Name": "dimethyl carbonate",
+                "Molecular Size": "5.7 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "40 °C, methanol content in feed: 10 wt%",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The membrane exhibited a total flux of ~3700 g m−2 h−1 and separation factor of ~630."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pervaporation experiment",
+            "Performance Metrics": "Total flux: ~3700 g m−2 h−1, Separation factor: ~630"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane was prepared using 15% acetic acid as the modulator, resulting in an intrinsic pore aperture size of 4.8 Å that facilitates selective transport of methanol over dimethyl carbonate."
+        }
+    },
+    {
+        "Materials Name": "MOF-801-25%AA",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6"
+        ],
+        "Ligands": [
+            "fumaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "dimethyl carbonate",
+                "Molecular Size": "5.7 Å",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher concentration of acetic acid leads to increased lattice defects, allowing partial passage of dimethyl carbonate."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pervaporation experiment",
+            "Performance Metrics": "Total flux: ~5500 g m−2 h−1, Separation factor: ~185"
+        },
+        "Other Information": {
+            "Additional Info": "Prepared using 25% acetic acid as the modulator, leading to higher flux but lower separation selectivity compared to MOF-801-15%AA."
+        }
+    },
+    {
+        "Materials Name": "MOF-801-10%TFA",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6"
+        ],
+        "Ligands": [
+            "fumaric acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "methanol",
+                "Molecular Size": "3.8 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            },
+            {
+                "Molecule Name": "dimethyl carbonate",
+                "Molecular Size": "5.7 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High acidity of TFA increases lattice defects, reducing size-sieving efficiency."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Pervaporation experiment",
+            "Performance Metrics": "Total flux: ~9300 g m−2 h−1, Separation factor: ~25"
+        },
+        "Other Information": {
+            "Additional Info": "Prepared using 10% trifluoroacetic acid as the modulator, exhibiting high flux but poor selectivity due to increased lattice defects."
+        }
+    }
+]

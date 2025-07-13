@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "Fe3O4@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (ZIF-8 pores)",
+            "Structure Type": "Core-shell structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3O4",
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "oxygen",
+                "Molecular Size": "0.34 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Magnetic sieving and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 MPa, under magnetic field",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Paramagnetic oxygen is attracted to the magnetic channels"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, 1 MPa, under magnetic field",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Diamagnetic nitrogen is rejected by the magnetic channels"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Magnetic coupling with ZIF-8 sieving ability forms a magnetic sieving channel",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Gas permeability measurements using constant-volume/variable-pressure method",
+            "Performance Metrics": "O2 permeability: 194 Barrer, O2/N2 selectivity: 11.79 (for 15 wt% Fe3O4@ZIF-8-8/Pebax MMMs)"
+        },
+        "Other Information": {
+            "Additional Info": "The magnetic field enhances O2 permeability and O2/N2 selectivity; Structurally ordered channels formed under magnetic field contribute to separation performance"
+        }
+    }
+]

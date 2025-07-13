@@ -1,0 +1,51 @@
+[
+    {
+        "Materials Name": "PA@MOF-8010.1%PVDF",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "6–8 Å",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "trimesoyl chloride",
+            "piperazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "erythromycin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Steric hindrance and Donnan exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 6 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate exceeded 95%."
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 6 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate was below 20%."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment",
+            "Performance Metrics": "Permeance: 14 L m-2 h-1 bar-1, Erythromycin rejection: 96%, NaCl rejection: 21%"
+        },
+        "Other Information": {
+            "Additional Info": "The membrane demonstrated excellent antifouling properties and mechanical stability."
+        }
+    }
+]

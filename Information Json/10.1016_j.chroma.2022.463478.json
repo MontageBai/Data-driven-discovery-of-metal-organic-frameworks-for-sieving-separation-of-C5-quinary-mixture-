@@ -1,0 +1,94 @@
+[
+    {
+        "MOF Name": "COF-DES-1",
+        "Material Category": "Others",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Hydroxyl-riched, ordered mesoporous framework with spherical particles forming a stacked coating"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Applicable"
+        ],
+        "Ligands": [
+            "1,3,5-tris(4-aminophenyl)benzene",
+            "2,5-dihydroxyterephthalaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Proteins",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High exclusion efficiencies (>93%) for seven selected proteins."
+                }
+            },
+            {
+                "Molecule Name": "Luteolin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selected adsorption and specific functional group interaction",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 120 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Maximum adsorption capacity of 145.31 µg (72.66 mg/g). Successfully extracted from mice's plasma."
+                }
+            },
+            {
+                "Molecule Name": "Quercetagetin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selected adsorption and specific functional group interaction",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 120 min adsorption time",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Maximum adsorption capacity of 84.75 µg (42.38 mg/g). Successfully extracted from mice's plasma."
+                }
+            },
+            {
+                "Molecule Name": "Rutin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption effect was much worse due to larger molecular size compared to luteolin and quercetagetin."
+                }
+            },
+            {
+                "Molecule Name": "7-hydroxycoumarin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Passes too readily through pores, insufficient interaction due to small size",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Molecular size was much smaller than the pore size of COF-DES-1, leading to difficulty in interaction and retention."
+                }
+            },
+            {
+                "Molecule Name": "Luteolin metabolites (e.g., chrysoeriol, diosmetin, luteolin sulfate salt, luteolin glucuronides)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selected adsorption due to structural similarity to parent compound",
+                "Other Information": {
+                    "Test Conditions": "Mice's plasma",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Successfully detected in mice's plasma; Parent nuclear structure and most functional groups consistent with luteolin."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Molecular sieving and size exclusion based on pore aperture, complemented by specific functional group interactions for selective adsorption.",
+        "Experimental Validation": {
+            "Method": "Protein exclusion experiments, Static adsorption isotherm, Adsorption kinetic, Selectivity experiments, HPLC-MS/MS analysis for biological samples.",
+            "Performance Metrics": "High protein exclusion efficiencies (>93%); Max adsorption capacities for luteolin (145.31 µg or 72.66 mg/g) and quercetagetin (84.75 µg or 42.38 mg/g); Good selectivity for luteolin and quercetagetin over larger molecules (rutin) or those with different functional groups (emodin, berberine); Superior extraction efficiency for luteolin and quercetagetin/metabolites from mice's plasma compared to traditional protein precipitation."
+        },
+        "Other Information": {
+            "Additional Info": "Hydroxyl-riched COF; Employed as a coating for solid-phase microextraction (SPME) fiber; Good thermal stability up to 320 °C; Hydrophilic property (water contact angle 89.38°); Reusable for 5 adsorption-desorption cycles."
+        }
+    }
+]

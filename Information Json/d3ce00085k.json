@@ -1,0 +1,61 @@
+[
+    {
+        "Materials Name": "Zr-FA",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "formic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake: 72.4 cm³ cm⁻³; Isosteric heat of adsorption (Qst): 35.6 kJ mol⁻¹."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 uptake: 0.486 cm³ cm⁻³."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.76 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 uptake: 0.516 cm³ cm⁻³."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size-discriminative molecular sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: >107, CO2/CH4 selectivity: >107, Permeance: Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Zr-FA demonstrated excellent stability and recyclability over five cycles in breakthrough experiments. Breakthrough productivity for CO2/CH4 (50:50) was 1643 mmol L⁻¹ and for CO2/N2 (15:85) was 1478 mmol L⁻¹."
+        }
+    }
+]

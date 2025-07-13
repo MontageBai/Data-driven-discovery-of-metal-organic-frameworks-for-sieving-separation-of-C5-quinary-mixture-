@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MIL-53 (Al)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.85 nm (diameter)",
+            "Structure Type": "3D microporous framework with 1D diamond-shaped pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "terephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "doxycycline",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion and adsorption",
+                "Other Information": {
+                    "Test Conditions": "298 K, FO mode, 1 M NaCl as draw solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejection rate >98.5% for 10 h due to size exclusion and adsorption properties."
+                }
+            },
+            {
+                "Molecule Name": "sodium chloride",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Donnan exclusion and steric hindrance",
+                "Other Information": {
+                    "Test Conditions": "298 K, RO mode, 5 bar pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Optimal membrane TFN 0.2 achieved >90% NaCl rejection."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale and adsorption via π-π interactions and hydrogen bonding",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "Doxycycline rejection: >98.5%, Water flux enhancement: 94.31% compared to TFC control membrane"
+        },
+        "Other Information": {
+            "Additional Info": "The material showed improved hydrophilicity and antifouling properties when incorporated into the PA layer of TFN membranes."
+        }
+    }
+]

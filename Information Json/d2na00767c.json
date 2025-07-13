@@ -1,0 +1,39 @@
+[
+    {
+        "Materials Name": "146S@ZIF-8",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D cages"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "inactivated foot-and-mouth disease virus (146S)",
+                "Molecular Size": "30 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "pH 9.0, 26 °C",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Encapsulation of 146S into ZIF-8 maintained structural integrity and enhanced thermostability."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "HPSEC, SDS-PAGE, agarose gel electrophoresis, SEM, TEM, DSF",
+            "Performance Metrics": "Encapsulation efficiency >90%, Enhanced thermostability by ~5 °C"
+        },
+        "Other Information": {
+            "Additional Info": "The encapsulation process was optimized by adjusting pH, Zn2+ concentration, and adding CTAB to achieve uniform size and high stability."
+        }
+    }
+]

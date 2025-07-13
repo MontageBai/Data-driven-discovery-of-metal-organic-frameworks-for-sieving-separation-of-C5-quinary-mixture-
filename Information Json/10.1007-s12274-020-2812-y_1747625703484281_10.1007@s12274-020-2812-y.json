@@ -1,0 +1,245 @@
+[
+    {
+        "Materials Name": "Zn-BPZ",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.7 × 5.7 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "sra",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1H,1’H-4,4’-bipyrazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "373–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Irreversibly trapped within the pores"
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "373–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Irreversibly trapped within the pores"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "0.56 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "373–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Irreversibly trapped within the pores"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.62 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "373–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Irreversibly trapped within the pores"
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "0.62 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "373–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Irreversibly trapped within the pores"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Non-constricted diffusion of all hexane isomers",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Variable-temperature pulse gas chromatography",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "All hexane isomers are irreversibly trapped within its pore structure"
+        }
+    },
+    {
+        "Materials Name": "Zn-Me2BPZ",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4.9 × 4.9 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "sra",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "3,3’-dimethyl-1H,1’H-4,4’-bipyrazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "443–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest retention time due to suitable accommodation in the 1D channels"
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "443–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Partition coefficient αHEX/alkane = 2.42 at 463 K"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "0.56 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "443–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Partition coefficient αHEX/alkane = 3.28 at 463 K"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.62 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "443–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Partition coefficient αHEX/alkane = 9.48 at 463 K"
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "0.62 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "443–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Partition coefficient αHEX/alkane = 5.27 at 463 K"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Constricted diffusion of C6 isomers inside the pore structure",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Variable-temperature pulse gas chromatography",
+            "Performance Metrics": "Partition coefficients (αHEX/alkane) in the range 2.4–9.5 at 463 K"
+        },
+        "Other Information": {
+            "Additional Info": "Separates linear from branched isomers and dibranched from monobranched isomers"
+        }
+    },
+    {
+        "Materials Name": "Zn-BPZ(NH2)2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.4 × 5.4 Å (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "sra",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "3,5-diamino-1H,1’H-4,4’-bipyrazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hexane",
+                "Molecular Size": "0.43 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "443–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Highest retention time due to suitable accommodation in the 1D channels"
+                }
+            },
+            {
+                "Molecule Name": "2-methylpentane",
+                "Molecular Size": "0.50 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "443–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Partition coefficient αHEX/alkane = 3.42 at 463 K"
+                }
+            },
+            {
+                "Molecule Name": "3-methylpentane",
+                "Molecular Size": "0.56 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "443–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Partition coefficient αHEX/alkane = 4.77 at 463 K"
+                }
+            },
+            {
+                "Molecule Name": "2,2-dimethylbutane",
+                "Molecular Size": "0.62 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "443–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Partition coefficient αHEX/alkane = 10.76 at 463 K"
+                }
+            },
+            {
+                "Molecule Name": "2,3-dimethylbutane",
+                "Molecular Size": "0.62 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "443–473 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Partition coefficient αHEX/alkane = 8.12 at 463 K"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Constricted diffusion of C6 isomers inside the pore structure",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Variable-temperature pulse gas chromatography",
+            "Performance Metrics": "Partition coefficients (αHEX/alkane) in the range 3.4–10.8 at 463 K"
+        },
+        "Other Information": {
+            "Additional Info": "Separates linear from branched isomers and dibranched from monobranched isomers"
+        }
+    }
+]

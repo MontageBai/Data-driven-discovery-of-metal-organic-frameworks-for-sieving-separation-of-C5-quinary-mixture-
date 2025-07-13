@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "Cu3(HHTP)2 nanofilm",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "<2.0 nm",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "2,3,6,7,10,11-hexahydroxytriphenylene (HHTP)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "glucose",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The micropore (<2.0 nm) of Cu3(HHTP)2 selectively accommodates small metabolites like glucose."
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin (BSA)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Simulated biofluid environment with high salinity (0.5 mol/L NaCl) and protein (5 mg/mL BSA)",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The micropore (<2.0 nm) excludes large-sized proteins such as BSA."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "LDI-MS analysis",
+            "Performance Metrics": "High sensitivity and selectivity for small metabolites; LOD for glucose: 1 ng/mL"
+        },
+        "Other Information": {
+            "Additional Info": "The MOF nanofilm was fabricated on ITO glass using a layer-by-layer liquid-phase epitaxial spray approach. It exhibited enhanced ionization efficiency and excellent reproducibility."
+        }
+    }
+]

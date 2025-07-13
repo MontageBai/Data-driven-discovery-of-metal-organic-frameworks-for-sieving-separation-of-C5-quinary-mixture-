@@ -1,0 +1,85 @@
+MOF Name: NNM-6
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NNM-6:
+- `isoprene`: 7.746×6.093×3.963 → Intermediate = 6.093 Å | Not Adsorbed (Reason: Size exclusion, Adsorption Type: Size exclusion)
+
+Conclusion:
+The experimental data explicitly states that isoprene is not adsorbed by NNM-6 due to size exclusion. Therefore, based on the provided data, isoprene cannot be adsorbed.
+
+---
+
+MOF Name: NNM-6
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NNM-6:
+- `cis-2-pentene`: 8.067×5.572×5.136 → Intermediate = 5.572 Å | Not Adsorbed (Reason: Size exclusion, Adsorption Type: Size exclusion)
+
+Conclusion:
+The experimental data explicitly states that cis-2-pentene is not adsorbed by NNM-6 due to size exclusion. Therefore, based on the provided data, cis-2-pentene cannot be adsorbed.
+
+---
+
+MOF Name: NNM-6
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data for NNM-6:
+- `1-pentene`: 8.847×4.995×4.897 → Intermediate = 4.995 Å | Not Adsorbed (Reason: Size exclusion, Adsorption Type: Size exclusion)
+
+Conclusion:
+The experimental data explicitly states that 1-pentene is not adsorbed by NNM-6 due to size exclusion. Therefore, based on the provided data, 1-pentene cannot be adsorbed.
+
+---
+
+MOF Name: NNM-6
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for NNM-6:
+- `trans-2-pentene`: 8.796×4.733×4.564 → Intermediate = 4.733 Å | Adsorbed (Reason: Size exclusion at sub-nanometer scale, Adsorption Type: Kinetic sieving)
+
+Conclusion:
+The experimental data explicitly states that trans-2-pentene is adsorbed by NNM-6, indicating it can pass through the pores.
+
+---
+
+MOF Name: NNM-6
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for NNM-6:
+- **Adsorbed Molecules (Adsorption Type: Kinetic sieving):**
+    - `trans-2-pentene`: 8.796×4.733×4.564 → Intermediate = **4.733 Å**
+    - `isopentane`: 7.244×6.549×4.944 → Intermediate = **6.549 Å**
+- **Not Adsorbed Molecules (Adsorption Type: Size exclusion):**
+    - `1-hexene`: 10.108×4.725×4.937 → Intermediate = **4.937 Å**
+    - `1-pentene`: 8.847×4.995×4.897 → Intermediate = **4.995 Å**
+    - `cis-2-pentene`: 8.067×5.572×5.136 → Intermediate = **5.572 Å**
+    - `isoprene`: 7.746×6.093×3.963 → Intermediate = **6.093 Å**
+    - `2,2,4-trimethylpentane`: 9.068×6.315×6.099 → Intermediate = **6.315 Å**
+    - `2,2-dimethylhexane`: 10.395×5.648×6.545 → Intermediate = **6.545 Å**
+
+The target molecule `n-pentane` has dimensions: 9.118×4.364×3.969 → Intermediate = **4.364 Å**.
+
+The experimental data for NNM-6 exhibits complexity where a simple effective pore size range cannot be inferred universally (e.g., isopentane (6.549 Å) adsorbs, while 2,2,4-trimethylpentane (6.315 Å) does not, despite being smaller by intermediate dimension). This indicates that molecular shape and specific host-guest interactions (kinetic sieving) play a significant role beyond just the intermediate dimension, particularly for highly branched molecules.
+
+However, adhering to the instruction that the "intermediate size" is the main concern for passing through pores, and considering "Size exclusion" (Adsorption Type for non-adsorption) as a definitive barrier:
+- The smallest molecule observed to be "Not Adsorbed" by "Size exclusion" is `1-hexene` with an intermediate dimension of **4.937 Å**.
+- `n-pentane` has an intermediate dimension of **4.364 Å**, which is significantly smaller than **4.937 Å**.
+- Furthermore, `n-pentane` is also smaller than `trans-2-pentene` (4.733 Å), which is known to adsorb (via kinetic sieving). Given that n-pentane is a linear alkane and generally less bulky than branched isomers or olefins of similar carbon number, its smaller intermediate dimension relative to molecules that either adsorb or are explicitly excluded by size suggests it can pass.
+
+Conclusion:
+Since `n-pentane`'s intermediate dimension (4.364 Å) is smaller than the intermediate dimension of the smallest molecule definitively rejected by size exclusion (1-hexene, 4.937 Å), and also smaller than `trans-2-pentene` (4.733 Å) which is known to adsorb, it is predicted that `n-pentane` can be adsorbed by NNM-6.

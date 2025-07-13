@@ -1,0 +1,127 @@
+[
+    {
+        "Materials Name": "polyUiO-66(4:1)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3–4 Å (enhanced ultramicroporosity), 5–6 Å (majority)",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "carboxylated PIM-1 (cPIM-1)",
+            "1,4-benzenedicarboxylic acid (BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced CO2 uptake and selectivity due to ultramicropores in the 3–4 Å range."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Retarded diffusion of larger N2 molecules due to ultramicropores."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sorption isotherms (N2 at 77 K, CO2 at 273 K), thin-film nanocomposite membrane testing",
+            "Performance Metrics": "CO2 permeability: 9659 Barrer, CO2/N2 selectivity: 21.5"
+        },
+        "Other Information": {
+            "Additional Info": "Improved filler-matrix compatibility and resistance to plasticization observed."
+        }
+    },
+    {
+        "Materials Name": "polyMOF-5(x:y)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "carboxylated PIM-1 (cPIM-1)",
+            "1,4-benzenedicarboxylic acid (BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "FT-IR spectroscopy, TGA",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrated successful synthesis with Zn metal nodes."
+        }
+    },
+    {
+        "Materials Name": "polyMIL-101(x:y)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "carboxylated PIM-1 (cPIM-1)",
+            "1,4-benzenedicarboxylic acid (BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Not Reported",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Not Reported",
+                "Mechanism": "Not Reported",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Not Reported"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "FT-IR spectroscopy, TGA",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Demonstrated successful synthesis with Fe metal nodes."
+        }
+    }
+]

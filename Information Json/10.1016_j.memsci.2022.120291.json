@@ -1,0 +1,72 @@
+[
+    {
+        "Materials Name": "ZIF-8/GO composite membrane",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "sandwich layered stack structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 0.1 MPa transmembrane pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance is 1.36 × 10−7 mol·Pa−1·m−2·s−1"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.532 nm (ellipsoid-shaped)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Adsorption and strong interaction with GO",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 0.1 MPa transmembrane pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance is hindered due to adsorption by 2-methylimidazole and interaction with GO"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 0.1 MPa transmembrane pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ISS H2/N2 = 11.1"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.38 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, 0.1 MPa transmembrane pressure",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "ISS H2/CH4 = 13"
+                }
+            }
+        ],
+        "Sieving Mechanism": "The sieving effect of ZIF-8 and the adsorption effect of 2-methylimidazole rings on CO2, as well as the strong interaction between GO and CO2 hinder the permeation of CO2 into the membrane",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Wicke-Kallenbach technique for single gas separation and binary-mixture gas separation",
+            "Performance Metrics": "H2 permeance: 1.36 × 10−7 mol·Pa−1·m−2·s−1, ISS H2/CO2: 30.8, Separation factor αH2/CO2 for binary mixture: ~25 after 30 h"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane thickness is approximately 0.9 μm. The ZIF-8/GO membrane shows good stability over time."
+        }
+    }
+]

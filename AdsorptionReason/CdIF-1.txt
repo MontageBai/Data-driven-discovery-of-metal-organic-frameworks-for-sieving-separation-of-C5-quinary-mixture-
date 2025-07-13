@@ -1,0 +1,102 @@
+MOF Name: CdIF-1
+Guest Molecule: isoprene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CdIF-1:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Adsorbed (Conditional, Kinetic sieving)
+- Butane: 7.709×4.532×3.969 → Intermediate = 4.532 Å | Adsorbed (Conditional, Kinetic sieving)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.967 Å | Adsorbed (Conditional, Kinetic sieving)
+
+The experimental data indicates that CdIF-1 can conditionally adsorb molecules with intermediate dimensions ranging from at least 4.354 Å (propane) up to 6.393 Å (isobutane). The description "Size exclusion at sub-nanometer scale" combined with "Kinetic sieving" for these molecules suggests that the pore size of CdIF-1 is very close to their dimensions, allowing passage but with significant kinetic limitations or under specific conditions. There is no molecule explicitly stated as "Cannot Adsorb" due to size exclusion, indicating that the MOF's effective pore size is capable of accommodating molecules with intermediate dimensions up to at least 6.393 Å, albeit with difficulty.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is smaller than the intermediate dimension of isobutane (6.393 Å), which is experimentally shown to be conditionally adsorbed by CdIF-1, it is predicted that isoprene can also be adsorbed. Given the "Kinetic sieving" and "Size exclusion at sub-nanometer scale" noted for similar-sized molecules, isoprene's adsorption may also be subject to kinetic limitations or depend on specific conditions.
+
+---
+
+MOF Name: CdIF-1
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CdIF-1:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Adsorbed (Conditional, Kinetic sieving)
+- Butane: 7.709×4.532×3.969 → Intermediate = 4.532 Å | Adsorbed (Conditional, Kinetic sieving)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.967 Å | Adsorbed (Conditional, Kinetic sieving)
+
+The experimental data indicates that CdIF-1 can conditionally adsorb molecules with intermediate dimensions ranging from at least 4.354 Å (propane) up to 6.393 Å (isobutane). The description "Size exclusion at sub-nanometer scale" combined with "Kinetic sieving" for these molecules suggests that the pore size of CdIF-1 is very close to their dimensions, allowing passage but with significant kinetic limitations or under specific conditions. There is no molecule explicitly stated as "Cannot Adsorb" due to size exclusion, indicating that the MOF's effective pore size is capable of accommodating molecules with intermediate dimensions up to at least 6.393 Å, albeit with difficulty.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is smaller than the intermediate dimension of isobutane (6.393 Å), which is experimentally shown to be conditionally adsorbed by CdIF-1, it is predicted that cis-2-pentene can also be adsorbed. Given the "Kinetic sieving" and "Size exclusion at sub-nanometer scale" noted for similar-sized molecules, cis-2-pentene's adsorption may also be subject to kinetic limitations or depend on specific conditions.
+
+---
+
+MOF Name: CdIF-1
+Guest Molecule: 1-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CdIF-1:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Adsorbed (Conditional, Kinetic sieving)
+- Butane: 7.709×4.532×3.969 → Intermediate = 4.532 Å | Adsorbed (Conditional, Kinetic sieving)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.967 Å | Adsorbed (Conditional, Kinetic sieving)
+
+The experimental data indicates that CdIF-1 can conditionally adsorb molecules with intermediate dimensions ranging from at least 4.354 Å (propane) up to 6.393 Å (isobutane). The description "Size exclusion at sub-nanometer scale" combined with "Kinetic sieving" for these molecules suggests that the pore size of CdIF-1 is very close to their dimensions, allowing passage but with significant kinetic limitations or under specific conditions. There is no molecule explicitly stated as "Cannot Adsorb" due to size exclusion, indicating that the MOF's effective pore size is capable of accommodating molecules with intermediate dimensions up to at least 6.393 Å, albeit with difficulty.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is smaller than the intermediate dimension of isobutane (6.393 Å), and also falls within the range of molecules (4.354 Å - 6.393 Å) that are experimentally shown to be conditionally adsorbed by CdIF-1, it is predicted that 1-pentene can also be adsorbed. Given the "Kinetic sieving" and "Size exclusion at sub-nanometer scale" noted for similar-sized molecules, 1-pentene's adsorption may also be subject to kinetic limitations or depend on specific conditions.
+
+---
+
+MOF Name: CdIF-1
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CdIF-1:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Adsorbed (Conditional, Kinetic sieving)
+- Butane: 7.709×4.532×3.969 → Intermediate = 4.532 Å | Adsorbed (Conditional, Kinetic sieving)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.967 Å | Adsorbed (Conditional, Kinetic sieving)
+
+The experimental data indicates that CdIF-1 can conditionally adsorb molecules with intermediate dimensions ranging from at least 4.354 Å (propane) up to 6.393 Å (isobutane). The description "Size exclusion at sub-nanometer scale" combined with "Kinetic sieving" for these molecules suggests that the pore size of CdIF-1 is very close to their dimensions, allowing passage but with significant kinetic limitations or under specific conditions. There is no molecule explicitly stated as "Cannot Adsorb" due to size exclusion, indicating that the MOF's effective pore size is capable of accommodating molecules with intermediate dimensions up to at least 6.393 Å, albeit with difficulty.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is smaller than the intermediate dimension of isobutane (6.393 Å), and also falls within the range of molecules (4.354 Å - 6.393 Å) that are experimentally shown to be conditionally adsorbed by CdIF-1, it is predicted that trans-2-pentene can also be adsorbed. Given the "Kinetic sieving" and "Size exclusion at sub-nanometer scale" noted for similar-sized molecules, trans-2-pentene's adsorption may also be subject to kinetic limitations or depend on specific conditions.
+
+---
+
+MOF Name: CdIF-1
+Guest Molecule: n-pentane
+
+Predicted Result: Can Adsorb
+
+Detailed Reasoning:
+From experimental data for CdIF-1:
+- Isobutane: 6.404×6.393×4.866 → Intermediate = 6.393 Å | Adsorbed (Conditional, Kinetic sieving)
+- Butane: 7.709×4.532×3.969 → Intermediate = 4.532 Å | Adsorbed (Conditional, Kinetic sieving)
+- Propane: 6.552×4.354×3.970 → Intermediate = 4.967 Å | Adsorbed (Conditional, Kinetic sieving)
+
+The experimental data indicates that CdIF-1 can conditionally adsorb molecules with intermediate dimensions ranging from at least 4.354 Å (propane) up to 6.393 Å (isobutane). The description "Size exclusion at sub-nanometer scale" combined with "Kinetic sieving" for these molecules suggests that the pore size of CdIF-1 is very close to their dimensions, allowing passage but with significant kinetic limitations or under specific conditions. There is no molecule explicitly stated as "Cannot Adsorb" due to size exclusion, indicating that the MOF's effective pore size is capable of accommodating molecules with intermediate dimensions up to at least 6.393 Å, albeit with difficulty.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is very close to and slightly larger than propane (4.354 Å) but much smaller than isobutane (6.393 Å), and falls within the range of molecules (4.354 Å - 6.393 Å) that are experimentally shown to be conditionally adsorbed by CdIF-1, it is predicted that n-pentane can also be adsorbed. Given the "Kinetic sieving" and "Size exclusion at sub-nanometer scale" noted for similar-sized molecules, n-pentane's adsorption will likely also be subject to significant kinetic limitations or depend on specific conditions.

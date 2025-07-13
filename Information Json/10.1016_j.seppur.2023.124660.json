@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "MOF-303",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.2 Å (shortest channel distance), 6.0 Å (1-D channel width)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "3,5-pyrazoledicarboxylic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "25 K to 60 K, up to 1000 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 uptake decreases with increasing temperature and pressure."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "25 K to 60 K, up to 1000 mbar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2 uptake increases with increasing pressure due to stronger binding affinity and partial condensation effects."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale enhanced by kinetic quantum sieving",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Cryogenic thermal desorption spectroscopy, Low-pressure high-resolution volumetric gas adsorption",
+            "Performance Metrics": "D2/H2 selectivity: 21.6 at 25 K and 1000 mbar"
+        },
+        "Other Information": {
+            "Additional Info": "MOF-303 demonstrates strong binding affinity for D2 and exhibits a significant increase in D2 uptake with pressure, leading to high selectivity under industrial conditions."
+        }
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "Materials Name": "BFFOUR-Cu-dpds",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.3 × 3.8 Å (activated), 3.9 × 4.0 Å (as-synthesized)",
+            "Structure Type": "2D flexible layers interwoven by angular BF4- anions"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "4,4’-bipyridinedisulfide (dpds)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.39 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Interaction-selective molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "0.103 bar",
+                    "Additional Info": "The threshold pressure decreases to 0.03 bar at 273 K."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to higher energy barrier",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly higher energy barrier of 2.704 eV compared to ethylene."
+                }
+            },
+            {
+                "Molecule Name": "propylene",
+                "Molecular Size": "0.42 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Interaction-selective molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "0.107 bar",
+                    "Additional Info": "The threshold pressure decreases to 0.028 bar at 273 K."
+                }
+            },
+            {
+                "Molecule Name": "propane",
+                "Molecular Size": "0.46 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to higher energy barrier",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly higher energy barrier of 5.617 eV compared to propylene."
+                }
+            },
+            {
+                "Molecule Name": "n-butene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Interaction-selective molecular sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "0.157 bar",
+                    "Additional Info": "The threshold pressure decreases to 0.039 bar at 283 K."
+                }
+            },
+            {
+                "Molecule Name": "n-butane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to higher energy barrier",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Significantly higher energy barrier of 6.748 eV compared to n-butene."
+                }
+            },
+            {
+                "Molecule Name": "benzene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Selective opening of contracted spaces",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Reported",
+                    "Additional Info": "Benzene can open interlayer spaces due to delocalized π-bonds."
+                }
+            },
+            {
+                "Molecule Name": "cyclohexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion due to saturated structure",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Saturated structure of cyclohexane cannot enter the framework."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Interaction-selective molecular sieving driven by guest-host interactions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiments, gas adsorption isotherms, in-situ FT-IR spectroscopy, and computational simulations",
+            "Performance Metrics": "IAST selectivity: C2H4/C2H6 = 68.8, C3H6/C3H8 = 108.4, n-C4H8/n-C4H10 = 22.9; Dynamic separation selectivity: C2H4/C2H6 = 9.16, C3H6/C3H8 = 8.76, n-C4H8/n-C4H10 = 3.18"
+        },
+        "Other Information": {
+            "Additional Info": "Direct production of high-purity (>99.99%) ethylene was achieved from a six-component C2-C4 olefin/paraffin mixture using a two-column configuration with BFFOUR-Cu-dpds and granular porous carbons."
+        }
+    }
+]

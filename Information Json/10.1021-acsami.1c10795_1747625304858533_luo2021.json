@@ -1,0 +1,63 @@
+[
+    {
+        "Materials Name": "NiFe2O4@C@TiO2 microspheres",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "1.4 nm (microporous), 3.2 nm and 6.4 nm (mesoporous)",
+            "Structure Type": "hollow and hierarchical porous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Fe",
+            "Ni",
+            "Ti"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "phosphorylated biomolecules",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material showed excellent selectivity for phosphorylated biomolecules over larger non-phosphorylated proteins such as BSA (66 kDa) and α-casein (23 kDa)."
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "66 kDa",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material excluded high-molecular-weight proteins like BSA through the size-exclusion effect."
+                }
+            },
+            {
+                "Molecule Name": "α-casein",
+                "Molecular Size": "23 kDa",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The material excluded α-casein protein through the size-exclusion effect."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF MS analysis, LC-MS/MS analysis",
+            "Performance Metrics": "Large adsorption capacity (124 μmol g−1), excellent selectivity (α-casein/BSA, 1:5000, m/m), perfect size-exclusion performance (α-casein digests/α-casein/BSA, 1:500:500), extremely low detection limit (2 fmol)"
+        },
+        "Other Information": {
+            "Additional Info": "The NiFe2O4@C@TiO2 microspheres exhibited better enrichment performance than commercial affinity materials, demonstrating huge practical application potential in MS-based phosphoproteomics research."
+        }
+    }
+]

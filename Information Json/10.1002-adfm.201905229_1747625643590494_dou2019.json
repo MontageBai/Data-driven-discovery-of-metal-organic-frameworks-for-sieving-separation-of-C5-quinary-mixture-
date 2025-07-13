@@ -1,0 +1,95 @@
+[
+    {
+        "Materials Name": "Ag/IL-GO membrane",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.41 nm (18 wt% IL), 0.54 nm (33 wt% IL), 0.73 nm (52 wt% IL)",
+            "Structure Type": "2D nanochannels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "silver ions"
+        ],
+        "Ligands": [
+            "3-propanolammonium nitrate",
+            "1-ethylimidazolium nitrate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, transmembrane pressure not specified",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance decreases with increasing IL content"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.330 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Solubility-driven transport",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, transmembrane pressure not specified",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance increases at low IL content and decreases at high IL content"
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, transmembrane pressure not specified",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance decreases with increasing IL content"
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "0.380 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, transmembrane pressure not specified",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance decreases with increasing IL content"
+                }
+            },
+            {
+                "Molecule Name": "ethylene",
+                "Molecular Size": "0.416 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Carrier-facilitated transport and size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, transmembrane pressure not specified",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Permeance significantly enhanced by carrier-facilitated transport"
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.443 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Room temperature, transmembrane pressure not specified",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Rejected due to molecular sieving effect"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Synergistic effect of molecular sieving and carrier-facilitated transport",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments and molecular dynamics simulations",
+            "Performance Metrics": "C2H4/C2H6 selectivity: 215, C2H4 permeance: 72.5 GPU"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane exhibits long-term stability and high performance for ethylene/ethane separation"
+        }
+    }
+]

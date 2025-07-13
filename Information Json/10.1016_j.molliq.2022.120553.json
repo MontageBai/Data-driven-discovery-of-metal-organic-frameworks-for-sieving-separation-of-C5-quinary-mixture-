@@ -1,0 +1,73 @@
+[
+    {
+        "Materials Name": "poly(VS-co-AA)~MIL-53(Al)",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "9.8 Å x 13.1 Å",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Al3+"
+        ],
+        "Ligands": [
+            "benzene-1,4-dicarboxylate",
+            "bridging hydroxyls μ2(OH)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "sodium ion",
+                "Molecular Size": "3.08 Å (first hydration shell), 6.16 Å (second hydration shell)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "300 K, NVT ensemble",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Free energy barrier for transport through the channel is lower compared to Mg2+ but higher than K+."
+                }
+            },
+            {
+                "Molecule Name": "potassium ion",
+                "Molecular Size": "3.67 Å (first hydration shell), 7.34 Å (second hydration shell)",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "300 K, NVT ensemble",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Exhibits preferential transport over sodium due to favorable interaction with poly(VS-co-AA)."
+                }
+            },
+            {
+                "Molecule Name": "chloride ion",
+                "Molecular Size": "3.82 Å (first hydration shell), 7.64 Å (second hydration shell)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Electrostatic repulsion by negatively charged polyelectrolyte",
+                "Other Information": {
+                    "Test Conditions": "300 K, NVT ensemble",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Blocked from entering the MOF channels due to electrostatic repulsion."
+                }
+            },
+            {
+                "Molecule Name": "magnesium ion",
+                "Molecular Size": "3.22 Å (first hydration shell), 10.04 Å (second hydration shell)",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "300 K, NVT ensemble",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Second hydration shell exceeds pore size of MIL-53(Al), preventing entry."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dehydration of second hydration shell governs size-selective prohibition.",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Molecular dynamics simulation with umbrella sampling",
+            "Performance Metrics": "PMF energy barriers: Na+ (3.28 kcal/mol), K+ (3.21 kcal/mol), Cl− (4.71 kcal/mol), Mg2+ (11.68 kcal/mol)"
+        },
+        "Other Information": {
+            "Additional Info": "The presence of poly(VS-co-AA) reduces free energy barriers for cations while increasing them for anions, enhancing selectivity."
+        }
+    }
+]

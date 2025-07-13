@@ -1,0 +1,62 @@
+[
+    {
+        "Materials Name": "d-ZIF-L",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.24 nm by 0.33 nm (PLD), Not Reported (LCD)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methyl-1-H-imidazole",
+            "2,5-dihydroxyterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Kinetic sieving",
+                "Other Information": {
+                    "Test Conditions": "298 K to 513 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeance increases with temperature."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K to 513 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 permeance decreases at higher temperatures due to dynamic aperture tightening by H3dhtp detritus dimers."
+                }
+            },
+            {
+                "Molecule Name": "ethane",
+                "Molecular Size": "0.395 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 100 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Ethane is excluded due to its larger size compared to the pore aperture dimensions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Dynamic remediation of pore limiting diameter via H3dhtp detritus dimer motion",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation tests using Wicke-Kallenbach method, Ab initio molecular dynamics (AIMD) simulations",
+            "Performance Metrics": "H2/CO2 selectivity: 179 ± 71 at 298 K, H2/CO2 selectivity: 989 at 513 K, H2 permeance: 739 ± 289 GPU at 298 K, H2 permeance: 1330 GPU at 513 K"
+        },
+        "Other Information": {
+            "Additional Info": "The H3dhtp detritus dimers dynamically reshape the molecular sieving apertures in response to temperature changes, enhancing H2/CO2 selectivity at high temperatures."
+        }
+    }
+]

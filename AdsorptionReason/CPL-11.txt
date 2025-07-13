@@ -1,0 +1,102 @@
+MOF Name: CPL-11
+Guest Molecule: isoprene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Xenon: 4.320×4.320×4.320 → Intermediate = 4.320 Å | Adsorbed
+(Note: Oxygen adsorption is stated as "Temperature-dependent" and does not provide a clear size exclusion boundary under general conditions (298 K, 1 bar), thus it is not used to infer the primary pore size limit.)
+
+Based on the largest intermediate dimension of molecules experimentally confirmed to be adsorbed by CPL-11 (Xenon, 4.320 Å), the inferred effective pore size of CPL-11 is at least 4.320 Å. There is no experimental data for molecules failing to adsorb due to size exclusion to establish an explicit upper limit for the pore size.
+
+Isoprene Dimensions:
+- Isoprene: 7.746×6.093×3.963 → Intermediate = 6.093 Å
+
+Conclusion:
+Since isoprene's intermediate dimension (6.093 Å) is larger than the intermediate dimension of the largest molecule experimentally confirmed to be adsorbed by CPL-11 (Xenon, 4.320 Å), it is predicted that isoprene cannot be adsorbed by CPL-11 due to size exclusion.
+
+---
+
+MOF Name: CPL-11
+Guest Molecule: cis-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Xenon: 4.320×4.320×4.320 → Intermediate = 4.320 Å | Adsorbed
+(Note: Oxygen adsorption is stated as "Temperature-dependent" and does not provide a clear size exclusion boundary under general conditions (298 K, 1 bar), thus it is not used to infer the primary pore size limit.)
+
+Based on the largest intermediate dimension of molecules experimentally confirmed to be adsorbed by CPL-11 (Xenon, 4.320 Å), the inferred effective pore size of CPL-11 is at least 4.320 Å. There is no experimental data for molecules failing to adsorb due to size exclusion to establish an explicit upper limit for the pore size.
+
+cis-2-pentene Dimensions:
+- cis-2-pentene: 8.067×5.572×5.136 → Intermediate = 5.572 Å
+
+Conclusion:
+Since cis-2-pentene's intermediate dimension (5.572 Å) is larger than the intermediate dimension of the largest molecule experimentally confirmed to be adsorbed by CPL-11 (Xenon, 4.320 Å), it is predicted that cis-2-pentene cannot be adsorbed by CPL-11 due to size exclusion.
+
+---
+
+MOF Name: CPL-11
+Guest Molecule: 1-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Xenon: 4.320×4.320×4.320 → Intermediate = 4.320 Å | Adsorbed
+(Note: Oxygen adsorption is stated as "Temperature-dependent" and does not provide a clear size exclusion boundary under general conditions (298 K, 1 bar), thus it is not used to infer the primary pore size limit.)
+
+Based on the largest intermediate dimension of molecules experimentally confirmed to be adsorbed by CPL-11 (Xenon, 4.320 Å), the inferred effective pore size of CPL-11 is at least 4.320 Å. There is no experimental data for molecules failing to adsorb due to size exclusion to establish an explicit upper limit for the pore size.
+
+1-pentene Dimensions:
+- 1-pentene: 8.847×4.995×4.897 → Intermediate = 4.995 Å
+
+Conclusion:
+Since 1-pentene's intermediate dimension (4.995 Å) is larger than the intermediate dimension of the largest molecule experimentally confirmed to be adsorbed by CPL-11 (Xenon, 4.320 Å), it is predicted that 1-pentene cannot be adsorbed by CPL-11 due to size exclusion.
+
+---
+
+MOF Name: CPL-11
+Guest Molecule: trans-2-pentene
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Xenon: 4.320×4.320×4.320 → Intermediate = 4.320 Å | Adsorbed
+(Note: Oxygen adsorption is stated as "Temperature-dependent" and does not provide a clear size exclusion boundary under general conditions (298 K, 1 bar), thus it is not used to infer the primary pore size limit.)
+
+Based on the largest intermediate dimension of molecules experimentally confirmed to be adsorbed by CPL-11 (Xenon, 4.320 Å), the inferred effective pore size of CPL-11 is at least 4.320 Å. There is no experimental data for molecules failing to adsorb due to size exclusion to establish an explicit upper limit for the pore size.
+
+trans-2-pentene Dimensions:
+- trans-2-pentene: 8.796×4.733×4.564 → Intermediate = 4.733 Å
+
+Conclusion:
+Since trans-2-pentene's intermediate dimension (4.733 Å) is larger than the intermediate dimension of the largest molecule experimentally confirmed to be adsorbed by CPL-11 (Xenon, 4.320 Å), it is predicted that trans-2-pentene cannot be adsorbed by CPL-11 due to size exclusion.
+
+---
+
+MOF Name: CPL-11
+Guest Molecule: n-pentane
+
+Predicted Result: Cannot Adsorb
+
+Detailed Reasoning:
+From experimental data:
+- Carbon dioxide: 5.198×3.200×3.200 → Intermediate = 3.200 Å | Adsorbed
+- Xenon: 4.320×4.320×4.320 → Intermediate = 4.320 Å | Adsorbed
+(Note: Oxygen adsorption is stated as "Temperature-dependent" and does not provide a clear size exclusion boundary under general conditions (298 K, 1 bar), thus it is not used to infer the primary pore size limit.)
+
+Based on the largest intermediate dimension of molecules experimentally confirmed to be adsorbed by CPL-11 (Xenon, 4.320 Å), the inferred effective pore size of CPL-11 is at least 4.320 Å. There is no experimental data for molecules failing to adsorb due to size exclusion to establish an explicit upper limit for the pore size.
+
+n-pentane Dimensions:
+- n-pentane: 9.118×4.364×3.969 → Intermediate = 4.364 Å
+
+Conclusion:
+Since n-pentane's intermediate dimension (4.364 Å) is larger than the intermediate dimension of the largest molecule experimentally confirmed to be adsorbed by CPL-11 (Xenon, 4.320 Å), it is predicted that n-pentane cannot be adsorbed by CPL-11 due to size exclusion.

@@ -1,0 +1,52 @@
+[
+    {
+        "Materials Name": "FJUT-4",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (cage window), 6.3 Å (cage diameter)",
+            "Structure Type": "3D cage-like structure"
+        },
+        "Topology": "{611; 84}{63}2",
+        "Metal Nodes": [
+            "Ni3O cluster"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate (BTC)",
+            "dimethylamine (DMA)",
+            "N,N′-dimethylformamide (DMF)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "C−H···O hydrogen bonds",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbed in octahedral cages via strong interactions with BTC, DMA, and DMF."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Unable to enter the framework due to small cage window size of ~3.4 Å."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, GCMC simulation",
+            "Performance Metrics": "CO2/N2 selectivity: 72.8 (10:90, v/v), CO2 uptake: 23.5 cm³ g⁻¹ at 298 K and 1 bar"
+        },
+        "Other Information": {
+            "Additional Info": "Coordination of DMA and DMF molecules optimizes pore environment and enhances CO2-framework interactions."
+        }
+    }
+]

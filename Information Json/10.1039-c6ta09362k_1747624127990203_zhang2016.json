@@ -1,0 +1,194 @@
+[
+    {
+        "Materials Name": "ZIF-8/rGO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.34 nm (ZIF-8), Not Reported (rGO)",
+            "Structure Type": "Layered structure with uniform nanochannels"
+        },
+        "Topology": "sod (ZIF-8), Not Reported (rGO)",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeability: 151 barrer"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 selectivity governed by molecular sieving properties of ZIF-8 and rGO layers"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "H2/CO2 selectivity: 26.4, H2 permeability: 151 barrer"
+        },
+        "Other Information": {
+            "Additional Info": "Composite membrane exhibits high selectivity due to ZIF-8 pore size and anchored rGO sheets."
+        }
+    },
+    {
+        "Materials Name": "ZIF-7/rGO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.30 nm (ZIF-7), Not Reported (rGO)",
+            "Structure Type": "Layered structure with uniform nanochannels"
+        },
+        "Topology": "sod (ZIF-7), Not Reported (rGO)",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "benzimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeability: 73 barrer"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Higher selectivity compared to ZIF-8/rGO due to smaller pore size."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "H2/CO2 selectivity: 24.7, H2 permeability: 73 barrer"
+        },
+        "Other Information": {
+            "Additional Info": "Theoretical pore size smaller than ZIF-8 contributes to enhanced selectivity."
+        }
+    },
+    {
+        "Materials Name": "CuBTC/rGO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported (CuBTC), Not Reported (rGO)",
+            "Structure Type": "Layered structure with uniform nanochannels"
+        },
+        "Topology": "Not Reported (CuBTC), Not Reported (rGO)",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "Organic linkers"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeability: 21,112 barrer"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower selectivity due to larger pore size of CuBTC."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "H2/CO2 selectivity: 10.3, H2 permeability: 21,112 barrer"
+        },
+        "Other Information": {
+            "Additional Info": "High permeability attributed to larger pore size of CuBTC."
+        }
+    },
+    {
+        "Materials Name": "MIL-100/rGO",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported (MIL-100), Not Reported (rGO)",
+            "Structure Type": "Layered structure with uniform nanochannels"
+        },
+        "Topology": "Not Reported (MIL-100), Not Reported (rGO)",
+        "Metal Nodes": [
+            "Fe3+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "0.289 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 permeability: 311 barrer"
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Moderate selectivity due to impure crystalline structure of MIL-100."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiments",
+            "Performance Metrics": "H2/CO2 selectivity: 12.7, H2 permeability: 311 barrer"
+        },
+        "Other Information": {
+            "Additional Info": "Impure crystalline structure limits performance compared to other MOFs."
+        }
+    }
+]

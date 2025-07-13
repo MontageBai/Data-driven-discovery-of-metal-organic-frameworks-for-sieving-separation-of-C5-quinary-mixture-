@@ -1,0 +1,50 @@
+[
+    {
+        "Materials Name": "PHNM",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "0.58 nm to 0.83 nm",
+            "Structure Type": "Hollow structure with micropores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cr3+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "0.33 nm",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The hollow structure and reduced pore size enhance CO2 permeability and selectivity."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "0.364 nm",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 bar",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "The larger kinetic diameter of N2 compared to CO2 restricts its diffusion through the narrowed pores of PHNM."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas permeation experiment",
+            "Performance Metrics": "CO2 permeability: 226.3 Barrer, CO2/N2 selectivity: 71.3"
+        },
+        "Other Information": {
+            "Additional Info": "The confined dissolving of PSA template regulates the pore size of NH2-MIL-101, enhancing CO2/N2 selectivity while maintaining high permeability due to the hollow structure."
+        }
+    }
+]

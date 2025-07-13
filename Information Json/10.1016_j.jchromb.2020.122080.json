@@ -1,0 +1,61 @@
+[
+    {
+        "MOF Name": "SPIO@COF-Guanidyl",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "3.2 nm",
+            "Structure Type": "Regular mesoporous structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "2,5-divinylterephthalaldehyde",
+            "1,3,5-tris(4-aminophenyl)benzene"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "Phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size-selection effect allows entry into mesoporous channels, coupled with specific affinity interaction by guanidyl groups for capture and enrichment.",
+                "Other Information": {
+                    "Test Conditions": "Various samples including β-casein tryptic digest, α-casein tryptic digest, non-fat milk tryptic digest, rat liver lysate tryptic digest, and human saliva; enrichment process incubated at room temperature for 30 min.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Considered 'small-sized' relative to proteins, successfully captured and identified, including 63 unique endogenous phosphopeptides from human saliva."
+                }
+            },
+            {
+                "Molecule Name": "Large-sized proteins (e.g., β-casein, BSA, IgG)",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion, prevented from entering the mesoporous channels due to their larger size.",
+                "Other Information": {
+                    "Test Conditions": "Mixed with β-casein tryptic digest (e.g., molar ratio of β-casein tryptic digest/IgG/BSA was 1:500:500); room temperature.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "β-casein (MW = 23,000), BSA (MW = 66,000). No peaks detected after enrichment, indicating effective exclusion."
+                }
+            },
+            {
+                "Molecule Name": "Non-phosphopeptides",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Excluded by the specific affinity interactions of guanidyl groups, preventing non-specific binding.",
+                "Other Information": {
+                    "Test Conditions": "Mixed with phosphopeptides (e.g., molar ratios of β-casein and BSA tryptic digests 1:100, 1:1000); non-fat milk tryptic digest; room temperature.",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity achieved by preventing the detection of non-phosphopeptide peaks in the spectrum."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combined molecular sieving based on the regular mesoporous pore aperture and specific chemical affinity (guanidyl groups) for targeted size-selection and exclusion.",
+        "Experimental Validation": {
+            "Method": "MALDI-TOF mass spectrometry (MS), Elite-LC-MS/MS.",
+            "Performance Metrics": "High selectivity (β-casein/BSA = 1:1000), extremely high sensitivity (5 × 10−11 M), excellent size-exclusion effect (β-casein digests/β-casein/BSA = 1:500:500), good reusability (at least 5 cycles). Successfully enriched 63 unique endogenous phosphopeptides from 10 μL human saliva."
+        },
+        "Other Information": {
+            "Additional Info": "Novel guanidyl-functionalized magnetic covalent organic framework (COF) nanosphere; synthesized via sequential post-synthetic modification; possessed superior superparamagnetic responsiveness (~42 emu/g saturation magnetization); primarily designed and used for highly selective capture and enrichment of endogenous phosphopeptides from complex biological samples."
+        }
+    }
+]

@@ -1,0 +1,280 @@
+[
+    {
+        "Materials Name": "[Zn2(bim)4] nanosheets",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "0.21 nm (theoretical)",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "2-methylimidazole"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High H2 permeance due to small pore size."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Excluded due to larger kinetic diameter compared to H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Hot-drop coating technique followed by gas permeation testing",
+            "Performance Metrics": "H2/CO2 selectivity ~300 with H2 GPU of ~3,000"
+        },
+        "Other Information": {
+            "Additional Info": "Nanosheets prepared by soft-physical exfoliation and assembled into defect-free membranes."
+        }
+    },
+    {
+        "Materials Name": "MAMS-1 nanosheets",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "2D nanosheets"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Not Reported"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Temperature-dependent",
+                "Mechanism": "Thermos-switchable sieving",
+                "Other Information": {
+                    "Test Conditions": "Varied temperature conditions",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reversed thermo-switchable H2 permeability observed."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Thermos-switchable molecular sieving",
+        "Separation Mechanism": "temperature-responsive",
+        "Experimental Validation": {
+            "Method": "Hot-drop casting method followed by gas permeation testing",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Aligned MAMS-1 nanosheets showed unprecedented reversed thermos-switchable H2 permeability."
+        }
+    },
+    {
+        "Materials Name": "ZIF-L membranes",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "9.4 Å × 7.0 Å × 5.3 Å (interlayer cavity)",
+            "Structure Type": "Layered structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "Imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 preferentially permeates through interlayer cavities."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 excluded due to larger size relative to H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion based on interlayer cavity dimensions",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Solvothermal growth followed by gas permeation testing",
+            "Performance Metrics": "Not Reported"
+        },
+        "Other Information": {
+            "Additional Info": "Membrane thickness ~5 μm; limited separation performance compared to traditional 3D MOF membranes."
+        }
+    },
+    {
+        "Materials Name": "NiAl-CO3 LDH membranes",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "0.31 nm (interlayer gallery height)",
+            "Structure Type": "Layered structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ni2+",
+            "Al3+"
+        ],
+        "Ligands": [
+            "Carbonate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 selectively permeates through narrow interlayer galleries."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 excluded due to larger kinetic diameter."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion through interlayer galleries",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "In situ hydrothermal growth followed by gas permeation testing",
+            "Performance Metrics": "H2/CH4 selectivity ~80"
+        },
+        "Other Information": {
+            "Additional Info": "Interlayer gallery height smaller than kinetic diameters of most gas molecules."
+        }
+    },
+    {
+        "Materials Name": "ZIF-L-ZIF-8 composite membranes",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Composite structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "Imidazolate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Diffusion-based sieving",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Enhanced H2 permeability attributed to intrinsic diffusivity of ZIF-L."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 excluded due to larger size relative to H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Combination of ZIF-L's high diffusivity and ZIF-8's selective framework",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Epitaxial growth of ZIF-8 on ZIF-L seed layers followed by gas permeation testing",
+            "Performance Metrics": "3-fold enhancement in H2 permeability and increased H2/CO2 selectivity"
+        },
+        "Other Information": {
+            "Additional Info": "ZIF-L incorporated within ZIF-8 matrix with high volume fraction (~28%)."
+        }
+    },
+    {
+        "Materials Name": "MXene (Ti3C2Tx) membranes",
+        "Material Category": "Other",
+        "Pore/Structural Features": {
+            "Pore Size": "Sub-nanometer interlayer galleries",
+            "Structure Type": "2D layered structure"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Ti"
+        ],
+        "Ligands": [
+            "Not Reported"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 selectively permeates through uniformly aligned interlayer galleries."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 excluded due to larger size relative to H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion through sub-nanometer interlayer galleries",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Vacuum filtration assembly followed by gas permeation testing",
+            "Performance Metrics": "Superior H2 permeability and H2/CO2 selectivity compared to state-of-the-art membranes"
+        },
+        "Other Information": {
+            "Additional Info": "Functional groups on MXene nanosheets influenced gas diffusion behaviors."
+        }
+    }
+]

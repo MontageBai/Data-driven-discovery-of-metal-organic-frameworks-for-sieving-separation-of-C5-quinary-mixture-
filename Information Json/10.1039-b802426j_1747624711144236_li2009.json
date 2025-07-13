@@ -1,0 +1,305 @@
+[
+    {
+        "Materials Name": "Manganese formate",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "3.4 Å (window)",
+            "Structure Type": "1D channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Mn2+"
+        ],
+        "Ligands": [
+            "formate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "78 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectively adsorbs H2 over N2 and Ar due to size exclusion."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "195 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Selectively adsorbs CO2 over CH4 at 195 K."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Size exclusion at sub-nanometer scale",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Gas sorption experiments",
+            "Performance Metrics": "CO2/N2 selectivity: Not quantified"
+        },
+        "Other Information": {
+            "Additional Info": "Robust 3D framework structure with 1D channels connected by small windows."
+        }
+    },
+    {
+        "Materials Name": "Cu2(pzdc)2(pyz)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "4 x 6 Å",
+            "Structure Type": "1D rectangular channels"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "pyrazine-2,3-dicarboxylate",
+            "pyrazine"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "acetylene",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Preferential adsorption",
+                "Other Information": {
+                    "Test Conditions": "270 K, 4.5 kPa",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Preferentially adsorbs acetylene over carbon dioxide due to H-bonding interactions."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms",
+            "Performance Metrics": "Acetylene/CO2 selectivity: Not quantified"
+        },
+        "Other Information": {
+            "Additional Info": "Channels contain exposed basic O atoms which act as adsorption sites."
+        }
+    },
+    {
+        "Materials Name": "ZIF-20",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "2.8 Å (aperture), large cages",
+            "Structure Type": "3D framework with large cages connected by small windows"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "purinate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Dynamic window-widening process",
+                "Other Information": {
+                    "Test Conditions": "273 K, 760 torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 uptake five times higher than CH4; ligands swing to allow gas passage."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "273 K, 760 torr",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 cannot pass through the small apertures."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Adsorption isotherms and breakthrough experiments",
+            "Performance Metrics": "CO2/CH4 selectivity: Not quantified"
+        },
+        "Other Information": {
+            "Additional Info": "Dynamic window-widening mechanism allows CO2 to access large cage spaces."
+        }
+    },
+    {
+        "Materials Name": "Zn2(bdc)2(dabco)",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "7.5 x 7.5 Å in one direction, 3.8 x 4.7 Å in other directions",
+            "Structure Type": "3D intersecting pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "1,4-diazabicyclo[2.2.2]octane"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "n-hexane",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Narrow channels exclusively take up linear n-hexane while blocking branched hexane isomers."
+                }
+            },
+            {
+                "Molecule Name": "branched hexane isomers",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "298 K",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Branched isomers are blocked by narrow channels."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "Fixed-bed adsorption",
+            "Performance Metrics": "n-hexane/branched hexane selectivity: Not quantified"
+        },
+        "Other Information": {
+            "Additional Info": "Used for kinetic separation of hexane isomers."
+        }
+    },
+    {
+        "Materials Name": "Zn3(bdc)3[Cu(Pyen)]",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "5.6 x 12.0 Å (large pores), ultramicropores (irregular)",
+            "Structure Type": "3D structure containing approximately a 2D array of pores"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zn2+",
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylate",
+            "5-methyl-4-oxo-1,4-dihydropyridine-3-carbaldehyde"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "Variable temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "H2 adsorption occurs on open CuII centers in ultramicropores."
+                }
+            },
+            {
+                "Molecule Name": "deuterium",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Quantum sieving",
+                "Other Information": {
+                    "Test Conditions": "Variable temperature",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "D2 adsorption rate constants larger and activation energies slightly lower than H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Quantum molecular sieving based on differences in zero-point energy",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Adsorption equilibria and kinetics studies",
+            "Performance Metrics": "H2/D2 selectivity: Not quantified"
+        },
+        "Other Information": {
+            "Additional Info": "Quantum effects influence diffusion of H2 and D2 into pores."
+        }
+    },
+    {
+        "Materials Name": "Cu3(btc)2 MOF film",
+        "Material Category": "MOF membrane",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "Not Reported"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Cu2+"
+        ],
+        "Ligands": [
+            "1,3,5-benzenetricarboxylate"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "hydrogen",
+                "Molecular Size": "2.89 Å",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Membrane separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High H2 permeation flux and excellent H2 selectivity over N2, CO2, and CH4."
+                }
+            },
+            {
+                "Molecule Name": "nitrogen",
+                "Molecular Size": "3.64 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Membrane separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "N2 is less permeable compared to H2."
+                }
+            },
+            {
+                "Molecule Name": "carbon dioxide",
+                "Molecular Size": "3.30 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Membrane separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CO2 is less permeable compared to H2."
+                }
+            },
+            {
+                "Molecule Name": "methane",
+                "Molecular Size": "3.80 Å",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Membrane separation",
+                "Other Information": {
+                    "Test Conditions": "298 K, 1 atm",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "CH4 is less permeable compared to H2."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Not Reported",
+        "Separation Mechanism": "membrane-separation",
+        "Experimental Validation": {
+            "Method": "Membrane-based separation tests",
+            "Performance Metrics": "H2/N2 separation factor: 7.04, H2/CO2: 6.84, H2/CH4: 5.92"
+        },
+        "Other Information": {
+            "Additional Info": "Copper net supported Cu3(btc)2 MOF film prepared using 'twin copper source' technique."
+        }
+    }
+]
