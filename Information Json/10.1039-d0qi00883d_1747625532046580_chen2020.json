@@ -1,0 +1,224 @@
+[
+    {
+        "Materials Name": "UiO-66",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "11 Å (octahedral cage), 8 Å (tetrahedral cage), 6 Å (triangular window)",
+            "Structure Type": "3D porous structure"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "1,4-benzenedicarboxylic acid (p-H2BDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water molecules form clusters within the cages of UiO-66, facilitating proton transport."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Water molecules can be adsorbed and form clusters in the cages, enabling proton transport.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "AC impedance spectroscopy",
+            "Performance Metrics": "Maximum proton conductivity: 6.93 × 10^-3 S/cm at 65°C and 95% RH"
+        },
+        "Other Information": {
+            "Additional Info": "UiO-66 exhibits high hydrothermal stability, chemical stability, and mechanical stability."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-SO3H",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D porous structure"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "p-H2BDC-SO3H"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Sulfonic acid groups enhance water uptake and form hydrogen-bond networks for proton conduction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Sulfonic acid groups create hydrophilic channels for water transport and proton hopping.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "AC impedance spectroscopy",
+            "Performance Metrics": "Maximum proton conductivity: 8.4 × 10^-2 S/cm at 80°C and 90% RH"
+        },
+        "Other Information": {
+            "Additional Info": "Post-synthetic oxidation enhances proton conductivity significantly."
+        }
+    },
+    {
+        "Materials Name": "UiO-66-NH2",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "3D porous structure"
+        },
+        "Topology": "fcu",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "p-H2BDC-NH2"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Amino groups interact with water to enhance proton conduction."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Amino groups provide additional proton hopping sites and improve hydrophilicity.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "AC impedance spectroscopy",
+            "Performance Metrics": "Maximum proton conductivity: 1.4 × 10^-5 S/cm at 30°C and ~97% RH"
+        },
+        "Other Information": {
+            "Additional Info": "UiO-66-NH2 shows lower proton conductivity compared to UiO-66-SO3H due to less hydrophilic nature."
+        }
+    },
+    {
+        "Materials Name": "MOF-808",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "18.4 Å and 14 Å (cages)",
+            "Structure Type": "3D porous structure"
+        },
+        "Topology": "MTN",
+        "Metal Nodes": [
+            "Zr6O4(OH)4"
+        ],
+        "Ligands": [
+            "Trimesic acid (H3BTC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Water molecules facilitate proton hopping through hydrogen bonding."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Water adsorption creates hydrogen-bonded networks for proton transport.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "AC impedance spectroscopy",
+            "Performance Metrics": "Maximum proton conductivity: 7.58 × 10^-3 S/cm at 42°C and 99% RH"
+        },
+        "Other Information": {
+            "Additional Info": "MOF-808 demonstrates good thermal stability up to 250°C."
+        }
+    },
+    {
+        "Materials Name": "VNU-17",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å (channels)",
+            "Structure Type": "3D porous framework"
+        },
+        "Topology": "bcu",
+        "Metal Nodes": [
+            "Zr6O8(H2O)8"
+        ],
+        "Ligands": [
+            "4-sulfonaphthalene-2,6-dicarboxylic acid (H3SNDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "imidazole",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Imidazole increases proton carriers and forms hydrogen bond networks."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Imidazole units anchored in pores enhance proton conductivity via hydrogen bonding.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "AC impedance spectroscopy",
+            "Performance Metrics": "Maximum proton conductivity: 5.93 × 10^-3 S/cm at 70°C and 98% RH"
+        },
+        "Other Information": {
+            "Additional Info": "High imidazole loading results in significantly improved proton conductivity."
+        }
+    },
+    {
+        "Materials Name": "Zr-BTNDC",
+        "Material Category": "MOFs",
+        "Pore/Structural Features": {
+            "Pore Size": "6 Å (channels)",
+            "Structure Type": "3D network"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr6O8(H2O)8"
+        ],
+        "Ligands": [
+            "1,5-bis(methylthio)naphthalene-2,6-dicarboxylic acid (H2BTNDC)"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "water",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Size exclusion at sub-nanometer scale",
+                "Other Information": {
+                    "Test Conditions": "Not Reported",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Post-synthetic oxidation and acidification improve proton conductivity."
+                }
+            }
+        ],
+        "Sieving Mechanism": "Oxidized and acidified ligands increase hydrophilicity and proton hopping sites.",
+        "Separation Mechanism": "molecular-sieving",
+        "Experimental Validation": {
+            "Method": "AC impedance spectroscopy",
+            "Performance Metrics": "Maximum proton conductivity: 3.16 × 10^-2 S/cm at 90°C and 95% RH"
+        },
+        "Other Information": {
+            "Additional Info": "Zr-BTNDC-ox and H@Zr-BTNDC-ox show progressively higher conductivities than pristine Zr-BTNDC."
+        }
+    }
+]
