@@ -1,0 +1,94 @@
+[
+    {
+        "Materials Name": "UiO-66-NH2@RAMIP@BSA",
+        "Material Category": "MOF composite",
+        "Pore/Structural Features": {
+            "Pore Size": "Not Reported",
+            "Structure Type": "mesoporous"
+        },
+        "Topology": "Not Reported",
+        "Metal Nodes": [
+            "Zr4+"
+        ],
+        "Ligands": [
+            "2-aminoterephthalic acid"
+        ],
+        "Guest Molecules": [
+            {
+                "Molecule Name": "ofloxacin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular recognition via imprinted cavities",
+                "Other Information": {
+                    "Test Conditions": "25 °C, methanol solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Adsorption capacity: 50.55 mg g⁻¹, equilibrium reached in 9 min"
+                }
+            },
+            {
+                "Molecule Name": "enrofloxacin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Yes",
+                "Mechanism": "Molecular recognition via imprinted cavities",
+                "Other Information": {
+                    "Test Conditions": "25 °C, methanol solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "High selectivity due to structural similarity with ofloxacin"
+                }
+            },
+            {
+                "Molecule Name": "amoxicillin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion",
+                "Other Information": {
+                    "Test Conditions": "25 °C, methanol solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lowest adsorption capacity due to larger size"
+                }
+            },
+            {
+                "Molecule Name": "sulfamerazine",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Partial size exclusion and molecular recognition",
+                "Other Information": {
+                    "Test Conditions": "25 °C, methanol solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Lower adsorption capacity compared to ofloxacin and enrofloxacin"
+                }
+            },
+            {
+                "Molecule Name": "chloramphenicol",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "Conditional (see Additional Info)",
+                "Mechanism": "Partial size exclusion and molecular recognition",
+                "Other Information": {
+                    "Test Conditions": "25 °C, methanol solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Reduced adsorption due to structural differences despite similar molecular mass to ofloxacin"
+                }
+            },
+            {
+                "Molecule Name": "bovine serum albumin",
+                "Molecular Size": "Not Reported",
+                "Can Pass Sieving": "No",
+                "Mechanism": "Size exclusion at protein level",
+                "Other Information": {
+                    "Test Conditions": "Ambient conditions, aqueous solution",
+                    "Threshold Pressure": "Not Applicable",
+                    "Additional Info": "Protein exclusion rate: 99.4%"
+                }
+            }
+        ],
+        "Sieving Mechanism": "Selective molecular recognition combined with size exclusion",
+        "Separation Mechanism": "Other",
+        "Experimental Validation": {
+            "Method": "Breakthrough experiment, isothermal adsorption studies, RP-HPLC",
+            "Performance Metrics": "OFL/ENRO recovery: 93.7–104.2%, RSD: 2.0–4.5%, LOD: 15.6 ng mL⁻¹, linear range: 0.1–100 mg mL⁻¹"
+        },
+        "Other Information": {
+            "Additional Info": "The material combines mesoporous UiO-66-NH2 MOF core with a molecularly imprinted polymer layer and cross-linked BSA for enhanced hydrophilicity and protein exclusion."
+        }
+    }
+]
